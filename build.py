@@ -250,7 +250,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
@@ -576,7 +576,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
@@ -641,7 +641,7 @@ TAG_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
@@ -1305,7 +1305,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
