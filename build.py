@@ -22,8 +22,8 @@ DOCS_DIR = LORE_DIR / "docs"
 
 # 站点基础配置（SEO 用）
 SITE_URL = "https://stock.freelamp.com"
-SITE_NAME = "LeisureLinux on-stock"
-SITE_DESCRIPTION = "LeisureLinux 的读书笔记、书评与阅读思考"
+SITE_NAME = "股市观察"
+SITE_DESCRIPTION = "股海沉浮日记：投资观察、财报解读、股市感悟"
 SITE_AUTHOR = "LeisureLinux"
 
 # ================= 京东联盟 CPS 推广（可选） =================
@@ -115,7 +115,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LeisureLinux Readings — 读书笔记与书评</title>
-  <meta name="description" content="{site_description}。涵盖技术、管理、商业、人文类图书的精读笔记、书评与思考。">
+  <meta name="description" content="{site_description}。">
   <meta name="keywords" content="读书, 书评, 阅读, 笔记, 图书, 技术, 管理, 商业, 思考">
   <meta name="author" content="{site_author}">
   <link rel="canonical" href="{site_url}/">
@@ -124,7 +124,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="LeisureLinux Readings — 读书笔记与书评">
+  <meta property="og:title" content="股市观察 — 股海沉浮日记"
   <meta property="og:description" content="{site_description}">
   <meta property="og:url" content="{site_url}/">
   <meta property="og:site_name" content="{site_name}">
@@ -132,7 +132,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="LeisureLinux Readings — 读书笔记">
+  <meta name="twitter:title" content="股市观察 — 股海沉浮日记"
   <meta name="twitter:description" content="{site_description}">
   <meta name="twitter:site" content="@LeisureLinux">
   <meta name="twitter:creator" content="@LeisureLinux">
@@ -142,7 +142,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   {{
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "{site_name}",
+    "name": "股市观察",
     "url": "{site_url}/",
     "description": "{site_description}",
     "potentialAction": {{
@@ -172,7 +172,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     .container {{ max-width: 720px; margin: 0 auto; padding: 0 24px; }}
     
     header {{
-      background: linear-gradient(135deg, #059669, #10B981);
+      background: linear-gradient(135deg, #DC2626, #F87171);
       padding: 48px 0 40px; color: #fff; margin-bottom: 40px;
     }}
     header h1 {{ font-size: 32px; font-weight: 900; letter-spacing: -1px; margin-bottom: 8px; }}
@@ -207,7 +207,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
     }}
     .article-tags {{ margin-top: 12px; display: flex; gap: 6px; flex-wrap: wrap; }}
     .article-tags a {{
-      background: #ECFDF5; color: #059669; padding: 2px 8px;
+      background: #FEF2F2; color: #DC2626; padding: 2px 8px;
       border-radius: 4px; font-size: 11px; font-weight: 600; text-decoration: none;
     }}
     .article-tags a:hover {{ background: #D1FAE5; }}
@@ -217,8 +217,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       display: flex; align-items: center; justify-content: flex-end;
     }}
     .comment-link {{
-      font-size: 12px; font-weight: 700; color: #059669;
-      text-decoration: none; background: #ECFDF5;
+      font-size: 12px; font-weight: 700; color: #DC2626;
+      text-decoration: none; background: #FEF2F2;
       padding: 5px 12px; border-radius: 999px;
       transition: background .15s, transform .15s;
     }}
@@ -228,7 +228,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       text-align: center; padding: 32px 0; color: #9CA3AF;
       font-size: 13px; border-top: 1px solid #E5E7EB; margin-top: 40px;
     }}
-    footer a {{ color: #059669; text-decoration: none; }}
+    footer a {{ color: #DC2626; text-decoration: none; }}
   </style>
 {analytics_snippet}</head>
 <body>
@@ -250,7 +250,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <a href="/about-readings.html">关于 Readings</a> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
@@ -371,7 +371,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
       padding: 12px 0; position: sticky; top: 0; z-index: 10;
     }}
     nav .container {{ display: flex; align-items: center; justify-content: space-between; }}
-    nav a {{ color: #059669; text-decoration: none; font-weight: 600; font-size: 14px; }}
+    nav a {{ color: #DC2626; text-decoration: none; font-weight: 600; font-size: 14px; }}
     nav .brand {{ font-weight: 800; color: #111827; font-size: 15px; text-decoration: none; }}
     
     .post-header {{ padding: 48px 0 32px; border-bottom: 1px solid #E5E7EB; margin-bottom: 32px; }}
@@ -379,7 +379,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
     .post-title {{ font-size: 28px; font-weight: 900; color: #111827; line-height: 1.3; letter-spacing: -0.5px; margin-bottom: 16px; }}
     .post-tags {{ display: flex; gap: 6px; flex-wrap: wrap; }}
     .post-tags a {{
-      background: #ECFDF5; color: #059669; padding: 3px 10px;
+      background: #FEF2F2; color: #DC2626; padding: 3px 10px;
       border-radius: 4px; font-size: 12px; font-weight: 600; text-decoration: none;
     }}
     .post-tags a:hover {{ background: #D1FAE5; }}
@@ -388,7 +388,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
     .post-content h2 {{
       font-size: 22px; font-weight: 800; color: #111827;
       margin: 40px 0 16px; padding-bottom: 8px;
-      border-bottom: 2px solid #059669;
+      border-bottom: 2px solid #DC2626;
     }}
     .post-content h3 {{
       font-size: 17px; font-weight: 700; color: #111827;
@@ -401,7 +401,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
     .post-content p {{ margin-bottom: 16px; font-size: 15px; line-height: 1.9; }}
     .post-content ul, .post-content ol {{ margin: 0 0 16px 24px; }}
     .post-content li {{ margin-bottom: 8px; font-size: 15px; line-height: 1.8; }}
-    .post-content strong {{ color: #059669; }}
+    .post-content strong {{ color: #DC2626; }}
     .post-content code {{
       background: #F3F4F6; color: #1F2937; padding: 2px 6px;
       border-radius: 4px; font-size: 13px; font-family: 'SF Mono', Consolas, Monaco, monospace;
@@ -419,7 +419,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
       font-size: 13px;
     }}
     .post-content th {{
-      background: #059669; color: #fff; padding: 10px 12px;
+      background: #DC2626; color: #fff; padding: 10px 12px;
       text-align: left; font-weight: 700;
     }}
     .post-content td {{
@@ -427,7 +427,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
     }}
     .post-content tr:nth-child(even) td {{ background: #F9FAFB; }}
     .post-content blockquote {{
-      border-left: 4px solid #059669; background: #ECFDF5;
+      border-left: 4px solid #DC2626; background: #FEF2F2;
       padding: 12px 20px; margin: 0 0 20px; border-radius: 0 8px 8px 0;
     }}
     .post-content hr {{ border: none; border-top: 1px solid #E5E7EB; margin: 32px 0; }}
@@ -490,11 +490,11 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
       display: flex; align-items: center; gap: 10px; margin-bottom: 6px;
     }}
     .comments-head .comments-badge {{
-      font-size: 12px; font-weight: 800; color: #fff; background: #059669;
+      font-size: 12px; font-weight: 800; color: #fff; background: #DC2626;
       padding: 3px 10px; border-radius: 999px; letter-spacing: .5px;
     }}
     .comments-title {{
-      font-size: 20px; font-weight: 900; color: #059669;
+      font-size: 20px; font-weight: 900; color: #DC2626;
       margin: 0;
     }}
     .comments-sub {{
@@ -507,7 +507,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
       text-align: center; padding: 32px 0; color: #9CA3AF;
       font-size: 13px; border-top: 1px solid #E5E7EB;
     }}
-    footer a {{ color: #059669; text-decoration: none; }}
+    footer a {{ color: #DC2626; text-decoration: none; }}
   </style>
 {analytics_snippet}</head>
 <body>
@@ -576,7 +576,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <a href="/about-readings.html">关于 Readings</a> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
@@ -619,7 +619,7 @@ TAG_TEMPLATE = """<!DOCTYPE html>
     .article-title {{ font-size: 17px; font-weight: 800; color: #111827; }}
     .article-summary {{ font-size: 14px; color: #6B7280; margin-top: 6px; line-height: 1.7; }}
     footer {{ text-align: center; padding: 32px 0; color: #9CA3AF; font-size: 13px; border-top: 1px solid #E5E7EB; margin-top: 40px; }}
-    footer a {{ color: #059669; text-decoration: none; }}
+    footer a {{ color: #DC2626; text-decoration: none; }}
   </style>
 {analytics_snippet}</head>
 <body>
@@ -641,7 +641,7 @@ TAG_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <a href="/about-readings.html">关于 Readings</a> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
@@ -1197,10 +1197,10 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
       padding: 12px 0; position: sticky; top: 0; z-index: 10;
     }}
     nav .container {{ display: flex; align-items: center; justify-content: space-between; }}
-    nav a {{ color: #059669; text-decoration: none; font-weight: 600; font-size: 14px; }}
+    nav a {{ color: #DC2626; text-decoration: none; font-weight: 600; font-size: 14px; }}
     nav .brand {{ font-weight: 800; color: #111827; font-size: 15px; }}
     .page-header {{
-      background: linear-gradient(135deg, #059669, #10B981);
+      background: linear-gradient(135deg, #DC2626, #F87171);
       padding: 56px 0 44px; color: #fff; text-align: center;
     }}
     .page-header h1 {{ font-size: 30px; font-weight: 900; letter-spacing: -1px; margin-bottom: 12px; }}
@@ -1210,13 +1210,13 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
     .post-content h2 {{
       font-size: 22px; font-weight: 800; color: #111827;
       margin: 40px 0 16px; padding-bottom: 8px;
-      border-bottom: 2px solid #059669;
+      border-bottom: 2px solid #DC2626;
     }}
     .post-content h3 {{ font-size: 17px; font-weight: 700; color: #111827; margin: 24px 0 12px; }}
     .post-content p {{ margin-bottom: 16px; font-size: 15px; line-height: 1.9; }}
-    .post-content strong {{ color: #059669; }}
+    .post-content strong {{ color: #DC2626; }}
     .post-content blockquote {{
-      border-left: 4px solid #059669; background: #ECFDF5;
+      border-left: 4px solid #DC2626; background: #FEF2F2;
       padding: 12px 20px; margin: 0 0 20px; border-radius: 0 8px 8px 0;
       font-size: 15px;
     }}
@@ -1227,10 +1227,10 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
     .timeline li::before {{
       content: ""; position: absolute; left: 4px; top: 8px;
       width: 10px; height: 10px; border-radius: 50%;
-      background: #059669;
+      background: #DC2626;
     }}
     .timeline .yr {{
-      font-weight: 800; color: #059669; margin-right: 6px; letter-spacing: 0.5px;
+      font-weight: 800; color: #DC2626; margin-right: 6px; letter-spacing: 0.5px;
     }}
     .post-content ul {{ margin: 0 0 16px 24px; }}
     .post-content li {{ margin-bottom: 8px; font-size: 15px; line-height: 1.8; }}
@@ -1239,7 +1239,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
       text-align: center; padding: 32px 0; color: #9CA3AF;
       font-size: 13px; border-top: 1px solid #E5E7EB;
     }}
-    footer a {{ color: #059669; text-decoration: none; }}
+    footer a {{ color: #DC2626; text-decoration: none; }}
   </style>
 {analytics_snippet}</head>
 <body>
@@ -1251,7 +1251,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 
   <div class="page-header">
     <div class="container">
-      <h1>关于 Readings</h1>
+      <h1>关于股市观察</h1>
       <p>一本一本书读下去，把思考留下来。</p>
     </div>
   </div>
@@ -1305,7 +1305,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <a href="/about-readings.html">关于 Readings</a> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <span class="footer-quote">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</span> · <a href="/rss.xml">RSS 订阅</a></p>
       <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
     </div>
   </footer>
