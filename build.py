@@ -250,7 +250,8 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p><a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;"><a href="/rss.xml">RSS 订阅</a></p>
     </div>
   </footer>
 
@@ -580,7 +581,8 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p><a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;"><a href="/rss.xml">RSS 订阅</a></p>
     </div>
   </footer>
 
@@ -644,7 +646,8 @@ TAG_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p><a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;"><a href="/rss.xml">RSS 订阅</a></p>
     </div>
   </footer>
 </body>
@@ -1312,7 +1315,8 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <p><a href="/rss.xml">RSS 订阅</a></p>
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;"><a href="/rss.xml">RSS 订阅</a></p>
     </div>
   </footer>
 </body>
