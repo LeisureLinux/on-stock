@@ -158,7 +158,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   {{
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "LeisureLinux Readings 读书笔记",
+    "name": "股市观察",
     "itemListElement": {item_list_json}
   }}
   </script>
@@ -234,10 +234,10 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <body>
   <header>
     <div class="container">
-      <h1><a href="/" style="color:#fff; text-decoration:none;">📚 Readings</a></h1>
-      <p>读书、思考、记录。</p>
+      <h1><a href="/" style="color:#fff; text-decoration:none;">📈 股市观察</a></h1>
+      <p>股海沉浮日记</p>
       <div class="tags">
-        <span>读书</span><span>书评</span><span>技术</span><span>管理</span>
+        <span>投资</span><span>财报</span><span>持仓</span><span>分析</span>
       </div>
     </div>
   </header>
@@ -513,7 +513,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <body>
   <nav>
     <div class="container">
-      <a class="brand" href="/">📚 Readings</a>
+      <a class="brand" href="/">📈 股市观察</a>
     </div>
   </nav>
 
@@ -625,7 +625,7 @@ TAG_TEMPLATE = """<!DOCTYPE html>
 <body>
   <nav>
     <div class="container">
-      <a class="brand" href="/">📚 Readings</a>
+      <a class="brand" href="/">📈 股市观察</a>
     </div>
   </nav>
 
@@ -1154,14 +1154,14 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>关于 Readings — LeisureLinux Readings</title>
-  <meta name="description" content="LeisureLinux Readings 是 LeisureLinux 的读书笔记与书评存档，记录技术、管理、商业、人文类图书的精读思考，以及 AI 辅助阅读的方法。">
+  <meta name="description" content="股市观察 — 记录股海沉浮中的思考与感悟，分享投资观察、财报解读和股市洞察。">
   <meta name="author" content="{site_author}">
   <link rel="canonical" href="{site_url}/about-readings.html">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">
   <link rel="alternate" type="application/rss+xml" title="Readings RSS 订阅" href="/rss.xml">
   <!-- Open Graph -->
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="关于 Readings — 一个读书笔记站点的由来">
+  <meta property="og:title" content="关于股市观察 — 投资与投资哲学">
   <meta property="og:description" content="Readings 的由来、写作方式与作者介绍。">
   <meta property="og:url" content="{site_url}/about-readings.html">
   <meta property="og:site_name" content="{site_name}">
@@ -1245,7 +1245,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <body>
   <nav>
     <div class="container">
-      <a class="brand" href="/">📚 Readings</a>
+      <a class="brand" href="/">📈 股市观察</a>
     </div>
   </nav>
 
