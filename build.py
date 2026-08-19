@@ -251,7 +251,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
-      <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 
@@ -531,6 +531,11 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 {content}
       </div>
     </article>
+    <div class="article-disclaimer" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #FEF2F2; font-size: 13px; color: #78716C;">
+      <h4 style="font-size: 15px; font-weight: 700; color: #DC2626; margin-bottom: 12px;">⚠️ 免责声明</h4>
+      <p>以上内容仅供参考，不构成任何投资建议。股市有风险，投资需谨慎。本文作者不对基于本文内容做出的任何投资决策负责。读者应根据自身情况独立判断，自行承担投资风险。</p>
+    </div>
+
 {jd_buy_html}
 
     <!-- 社交媒体分享栏：文章结尾、评论区上方（品牌小图标） -->
@@ -577,7 +582,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
-      <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 
@@ -642,7 +647,7 @@ TAG_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
-      <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 </body>
@@ -1301,12 +1306,17 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
       <p>愿我们读完每一本好书，都离自由更近一点。🕊️</p>
 
     </article>
+    <div class="article-disclaimer" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #FEF2F2; font-size: 13px; color: #78716C;">
+      <h4 style="font-size: 15px; font-weight: 700; color: #DC2626; margin-bottom: 12px;">⚠️ 免责声明</h4>
+      <p>以上内容仅供参考，不构成任何投资建议。股市有风险，投资需谨慎。本文作者不对基于本文内容做出的任何投资决策负责。读者应根据自身情况独立判断，自行承担投资风险。</p>
+    </div>
+
   </main>
 
   <footer>
     <div class="container">
       <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
-      <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
+      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 </body>
