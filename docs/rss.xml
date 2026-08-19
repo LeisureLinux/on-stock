@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Readings — RSS 订阅</title>
+    <title>股市观察 — RSS 订阅</title>
     <link>https://stock.freelamp.com/</link>
-    <description>LeisureLinux 的读书笔记、书评与阅读思考</description>
+    <description>股海沉浮日记：投资观察、财报解读、股市感悟</description>
     <language>zh-CN</language>
     <atom:link href="https://stock.freelamp.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>

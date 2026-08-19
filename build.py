@@ -114,7 +114,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LeisureLinux Readings — 读书笔记与书评</title>
+  <title>股市观察 — 股海沉浮日记</title>
   <meta name="description" content="{site_description}。">
   <meta name="keywords" content="读书, 书评, 阅读, 笔记, 图书, 技术, 管理, 商业, 思考">
   <meta name="author" content="{site_author}">
@@ -303,7 +303,7 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{title} — Readings</title>
+  <title>{title} — 股市观察</title>
   <meta name="description" content="{meta_description}">
   <meta name="keywords" content="{meta_keywords}">
   <meta name="author" content="{author}">
@@ -598,7 +598,7 @@ TAG_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>#{tag} — Readings</title>
+  <title>#{tag} — 股市观察</title>
   <link rel="alternate" type="application/rss+xml" title="Readings RSS 订阅" href="/rss.xml">
   <meta name="description" content="标签「{tag}」下的全部 Readings 读书笔记">
   <link rel="canonical" href="{SITE_URL}{tag_url}">
@@ -1046,7 +1046,7 @@ def generate_rss(articles):
 
     body = "\n\n".join(items)
     channel_lines = [
-        "    <title>Readings — RSS 订阅</title>",
+        "    <title>股市观察 — RSS 订阅</title>",
         f"    <link>{SITE_URL}/</link>",
         f"    <description>{_xml_escape(SITE_DESCRIPTION)}</description>",
         "    <language>zh-CN</language>",
@@ -1153,7 +1153,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>关于 Readings — LeisureLinux Readings</title>
+  <title>关于股市观察 — 股海沉浮日记</title>
   <meta name="description" content="股市观察 — 记录股海沉浮中的思考与感悟，分享投资观察、财报解读和股市洞察。">
   <meta name="author" content="{site_author}">
   <link rel="canonical" href="{site_url}/about-readings.html">
