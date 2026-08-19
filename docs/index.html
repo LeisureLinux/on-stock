@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LeisureLinux Readings — 读书笔记与书评</title>
+  <meta name="description" content="LeisureLinux 的读书笔记、书评与阅读思考。涵盖技术、管理、商业、人文类图书的精读笔记、书评与思考。">
+  <meta name="keywords" content="读书, 书评, 阅读, 笔记, 图书, 技术, 管理, 商业, 思考">
+  <meta name="author" content="LeisureLinux">
+  <link rel="canonical" href="https://stock.freelamp.com/">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="alternate" type="application/rss+xml" title="Readings RSS 订阅" href="/rss.xml">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LeisureLinux Readings — 读书笔记与书评">
+  <meta property="og:description" content="LeisureLinux 的读书笔记、书评与阅读思考">
+  <meta property="og:url" content="https://stock.freelamp.com/">
+  <meta property="og:site_name" content="LeisureLinux on-stock">
+  <meta property="og:locale" content="zh_CN">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="LeisureLinux Readings — 读书笔记">
+  <meta name="twitter:description" content="LeisureLinux 的读书笔记、书评与阅读思考">
+  <meta name="twitter:site" content="@LeisureLinux">
+  <meta name="twitter:creator" content="@LeisureLinux">
+
+  <!-- JSON-LD 结构化数据：WebSite + SearchAction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "LeisureLinux on-stock",
+    "url": "https://stock.freelamp.com/",
+    "description": "LeisureLinux 的读书笔记、书评与阅读思考",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://stock.freelamp.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD：ItemList（文章列表） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "LeisureLinux Readings 读书笔记",
+    "itemListElement": [
+      {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "森马服饰 2026H1 财报点评：童装高增 + 高分红驱动修复，中线增持建议",
+            "url": "https://stock.freelamp.com/articles/2026-08-19_senma-fashion-investment-report/"
+      }
+]
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      background: #F9FAFB; color: #374151; line-height: 1.75;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    
+    header {
+      background: linear-gradient(135deg, #059669, #10B981);
+      padding: 48px 0 40px; color: #fff; margin-bottom: 40px;
+    }
+    header h1 { font-size: 32px; font-weight: 900; letter-spacing: -1px; margin-bottom: 8px; }
+    header p { font-size: 15px; opacity: 0.85; letter-spacing: 0.5px; }
+    header .tags { margin-top: 16px; display: flex; gap: 6px; flex-wrap: wrap; }
+    header .tags span {
+      background: rgba(255,255,255,0.2); padding: 2px 10px; border-radius: 12px;
+      font-size: 12px; font-weight: 600;
+    }
+    
+    .article-list { list-style: none; }
+    .article-item {
+      background: #fff; border-radius: 12px; padding: 24px 28px;
+      margin-bottom: 16px; border: 1px solid #E5E7EB;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .article-item:hover {
+      box-shadow: 0 4px 20px rgba(5,150,105,0.12);
+      transform: translateY(-2px);
+    }
+    .article-item a { text-decoration: none; color: inherit; }
+    .article-date {
+      font-size: 12px; color: #9CA3AF; font-weight: 600;
+      letter-spacing: 1px; margin-bottom: 8px;
+    }
+    .article-title {
+      font-size: 18px; font-weight: 800; color: #111827;
+      margin-bottom: 8px; line-height: 1.4;
+    }
+    .article-summary {
+      font-size: 14px; color: #6B7280; line-height: 1.7;
+    }
+    .article-tags { margin-top: 12px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .article-tags a {
+      background: #ECFDF5; color: #059669; padding: 2px 8px;
+      border-radius: 4px; font-size: 11px; font-weight: 600; text-decoration: none;
+    }
+    .article-tags a:hover { background: #D1FAE5; }
+    .article-meta {
+      margin-top: 14px; padding-top: 14px;
+      border-top: 1px dashed #E5E7EB;
+      display: flex; align-items: center; justify-content: flex-end;
+    }
+    .comment-link {
+      font-size: 12px; font-weight: 700; color: #059669;
+      text-decoration: none; background: #ECFDF5;
+      padding: 5px 12px; border-radius: 999px;
+      transition: background .15s, transform .15s;
+    }
+    .comment-link:hover { background: #D1FAE5; transform: translateY(-1px); }
+    
+    footer {
+      text-align: center; padding: 32px 0; color: #9CA3AF;
+      font-size: 13px; border-top: 1px solid #E5E7EB; margin-top: 40px;
+    }
+    footer a { color: #059669; text-decoration: none; }
+  </style>
+  <!-- 百度统计（异步加载，不阻塞渲染） -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?c84aba57a27dd660adce6008518bb3dc";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1><a href="/" style="color:#fff; text-decoration:none;">📚 Readings</a></h1>
+      <p>读书、思考、记录。</p>
+      <div class="tags">
+        <span>读书</span><span>书评</span><span>技术</span><span>管理</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <ul class="article-list">
+      <li class="article-item">
+        <a href="articles/2026-08-19_senma-fashion-investment-report/">
+          <div class="article-date">2026-08-19</div>
+          <div class="article-title">森马服饰 2026H1 财报点评：童装高增 + 高分红驱动修复，中线增持建议</div>
+          <div class="article-summary">森马服饰 2026H1 收入 67.2 亿 (+9%)，净利 4.8 亿 (+47%)，童装收入 48.3 亿 (+11.9%) 成增长引擎，中期分红 84% 支付率吸引防御资金。库存周转改善 17%，经营现金流优化。基于财务数据与行业逻辑，提出中线增持建议 (目标价 8.5-9.5 元，需自行核实股价)。</div>
+        </a>
+        <div class="article-tags"><a href="/tags/%E6%A3%AE%E9%A9%AC%E6%9C%8D%E9%A5%B0/">森马服饰</a><a href="/tags/%E6%9C%8D%E8%A3%85/">服装</a><a href="/tags/%E8%B4%A2%E6%8A%A5%E5%88%86%E6%9E%90/">财报分析</a><a href="/tags/%E6%8A%95%E8%B5%84%E5%BB%BA%E8%AE%AE/">投资建议</a><a href="/tags/%E9%AB%98%E8%82%A1%E6%81%AF/">高股息</a><a href="/tags/%E7%A0%94%E6%8A%A5/">研报</a></div>
+        <div class="article-meta">
+          <a class="comment-link" href="articles/2026-08-19_senma-fashion-investment-report/#comments" data-path="articles/2026-08-19_senma-fashion-investment-report/">💬 参与讨论</a>
+        </div>
+      </li>
+    </ul>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 LeisureLinux · <a href="https://github.com/LeisureLinux/Readings">GitHub</a> · <a href="/about-readings.html">关于 Readings</a> · <a href="/rss.xml">RSS 订阅</a></p>
+      <p style="margin-top: 8px; font-size: 12px;">本文以 <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 协议开源</p>
+    </div>
+  </footer>
+
+  <script>
+    // 动态拉取 GitHub Discussions 评论数，显示到首页"参与讨论"按钮
+    (function () {
+      var KEY = 'readings_discussions';
+      var map = {};
+      try { map = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) {}
+
+      function norm(p) { return String(p || '').replace(/^\/+|\/+$/g, ''); }
+
+      function apply() {
+        document.querySelectorAll('.comment-link').forEach(function (btn) {
+          var path = norm(btn.getAttribute('data-path'));
+          var n = map[path];
+          if (typeof n === 'number' && n > 0) {
+            btn.textContent = '💬 ' + n;
+            btn.title = '已有 ' + n + ' 条点评，点击参与讨论';
+          }
+        });
+      }
+      apply();
+
+      fetch('https://api.github.com/repos/LeisureLinux/Readings/discussions?per_page=100')
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+        .then(function (list) {
+          if (!Array.isArray(list)) return;
+          map = {};
+          list.forEach(function (d) {
+            if (d && typeof d.title === 'string' && typeof d.comments === 'number') {
+              map[norm(d.title)] = d.comments;
+            }
+          });
+          try { localStorage.setItem(KEY, JSON.stringify(map)); } catch (e) {}
+          apply();
+        })
+        .catch(function () {});
+    })();
+  </script>
+</body>
+</html>
