@@ -251,7 +251,6 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p><a href="/rss.xml">RSS 订阅</a></p>
-      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 
@@ -582,7 +581,6 @@ ARTICLE_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p><a href="/rss.xml">RSS 订阅</a></p>
-      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 
@@ -647,7 +645,6 @@ TAG_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p><a href="/rss.xml">RSS 订阅</a></p>
-      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 </body>
@@ -1316,7 +1313,6 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p><a href="/rss.xml">RSS 订阅</a></p>
-      <p style="margin-top: 8px; font-size: 12px; color: #78716C;">© 2026 股市观察 · 所有内容为作者原创思考</p>
     </div>
   </footer>
 </body>
