@@ -17,6 +17,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://stock.freelamp.com/articles/2026-08-19_rillet-ai-accounting-unicorn-analysis/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://stock.freelamp.com/tags/%E6%A3%AE%E9%A9%AC%E6%9C%8D%E9%A5%B0/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -43,6 +49,36 @@
   </url>
   <url>
     <loc>https://stock.freelamp.com/tags/%E7%A0%94%E6%8A%A5/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/AI%20%E4%BC%9A%E8%AE%A1/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%20SaaS/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E7%94%A8%E5%8F%8B%E7%BD%91%E7%BB%9C/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%87%91%E8%9D%B6%E5%9B%BD%E9%99%85/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/ERP%20%E8%BD%AC%E5%9E%8B/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/A%20%E8%82%A1%E5%88%86%E6%9E%90/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
