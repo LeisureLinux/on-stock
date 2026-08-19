@@ -73,7 +73,7 @@ def jd_buy_html(url: str, title: str = "", img: str = "") -> str:
 
 # ================= 百度统计 (Baidu Tongji) 配置 =================
 # 1) 打开 https://tongji.baidu.com/ 用百度账号登录，新增一个站点，
-#    站点信息填：网站名称 + URL（https://freelamp.com 或 https://read.freelamp.com）。
+#    站点信息填：网站名称 + URL（https://freelamp.com 或 https://stock.freelamp.com）。
 # 2) 百度会生成一段统计代码，形如：
 #      <script>
 #      var _hmt = _hmt || [];
@@ -1130,7 +1130,7 @@ def generate_sitemap(articles):
 def generate_robots_txt():
     """生成 robots.txt"""
     return f"""# Readings - Robots.txt
-# https://read.freelamp.com/robots.txt
+# https://stock.freelamp.com/robots.txt
 
 User-agent: *
 Allow: /
@@ -1391,9 +1391,9 @@ def main():
         (DOCS_DIR / "llms.txt").write_text(llms_src.read_text(encoding='utf-8'), encoding='utf-8')
         print("✅ 复制 LLM 索引：docs/llms.txt")
     
-    # 写入 CNAME：自定义域名 read.freelamp.com（GitHub Pages 保持绑定）
-    (DOCS_DIR / "CNAME").write_text("read.freelamp.com\n", encoding="utf-8")
-    print("✅ 生成 CNAME：docs/CNAME (read.freelamp.com)")
+    # 写入 CNAME：自定义域名 stock.freelamp.com（GitHub Pages 保持绑定）
+    (DOCS_DIR / "CNAME").write_text("stock.freelamp.com\n", encoding="utf-8")
+    print("✅ 生成 CNAME：docs/CNAME (stock.freelamp.com)")
 
     # 复制静态验证文件到 docs 目录（Google/Bing 等搜索引擎验证）
     static_files = [
