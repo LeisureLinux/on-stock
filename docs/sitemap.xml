@@ -11,6 +11,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://stock.freelamp.com/articles/2026-08-19_huawei-openeuler-ai-ecosystem-analysis/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://stock.freelamp.com/articles/2026-08-19_senma-fashion-investment-report/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -21,6 +27,36 @@
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%8D%8E%E4%B8%BA%E6%AC%A7%E6%8B%89/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/openEuler/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E4%BF%A1%E5%88%9B/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%B2%B2%E9%B9%8F%E7%94%9F%E6%80%81/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/A%20%E8%82%A1%E5%88%86%E6%9E%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://stock.freelamp.com/tags/%E6%A3%AE%E9%A9%AC%E6%9C%8D%E9%A5%B0/</loc>
@@ -74,11 +110,6 @@
   </url>
   <url>
     <loc>https://stock.freelamp.com/tags/ERP%20%E8%BD%AC%E5%9E%8B/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/A%20%E8%82%A1%E5%88%86%E6%9E%90/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
