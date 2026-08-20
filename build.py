@@ -987,7 +987,7 @@ def build_tag_pages(articles):
             articles='\n'.join(items),
             SITE_URL=SITE_URL,
         )
-        out_dir = DOCS_DIR / "tags" / tag
+        out_dir = DOCS_DIR / "tags" / str(tag)
         out_dir.mkdir(parents=True, exist_ok=True)
         (out_dir / "index.html").write_text(html, encoding='utf-8')
         written.append(tag_url)
