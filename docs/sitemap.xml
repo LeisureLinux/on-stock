@@ -17,6 +17,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://stock.freelamp.com/articles/2026-08-20_002273_水晶光电_真实分析/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://stock.freelamp.com/articles/2026-08-19_huawei-openeuler-ai-ecosystem-analysis/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
@@ -137,6 +143,41 @@
   </url>
   <url>
     <loc>https://stock.freelamp.com/tags/603893/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E6%B0%B4%E6%99%B6%E5%85%89%E7%94%B5/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/1211/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%BD%A6%E8%BD%BD%20HUD/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/AR%2FVR/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%85%89%E5%AD%A6%E5%85%83%E4%BB%B6/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/Wind%20%E4%B8%80%E8%87%B4%E9%A2%84%E6%9C%9F/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
