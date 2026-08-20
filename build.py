@@ -811,7 +811,7 @@ def build_json_ld(meta, canonical_url, content_plain):
     # 添加关键词（tags）
     tags = meta.get('tags', [])
     if tags:
-        schema["keywords"] = ", ".join(tags)
+        schema["keywords"] = ", ".join([str(t) for t in tags])
     
     # 如果有 wechat_media_id，添加分发信息
     if meta.get('wechat_media_id'):
@@ -843,7 +843,7 @@ def build_index(articles):
         
         article_url = f"{SITE_URL}/articles/{slug}/"
         
-        tags_html = ''.join([f'<a href="/tags/{quote(tag)}/">{tag}</a>' for tag in tags])
+        tags_html = ''.join([f'<a href="/tags/{quote(str(tag).encode('utf-8'), safe='')}/">{tag}</a>' for tag in tags])
         
         article_html = f"""      <li class="article-item">
         <a href="articles/{slug}/">
@@ -897,7 +897,7 @@ def build_article_page(article):
     
     canonical_url = f"{SITE_URL}/articles/{article['slug']}/"
     
-    tags_html = ''.join([f'<a itemprop="keywords" href="/tags/{quote(tag)}/">{tag}</a>' for tag in tags])
+    tags_html = ''.join([f'<a itemprop="keywords" href="/tags/{quote(str(tag).encode('utf-8'), safe='')}/">{tag}</a>' for tag in tags])
 
     # 去掉正文开头的重复标题（页面顶部 post-title 已展示标题）
     article_content = re.sub(r'^\s*#\s+[^\n]*\n?', '', article['content'], count=1, flags=re.MULTILINE)
@@ -922,7 +922,7 @@ def build_article_page(article):
         meta_description = re.sub(r'\n+', ' ', plain).strip()[:160]
     
     # meta keywords
-    meta_keywords = ", ".join(tags) if tags else "Linux, DevOps, 技术"
+    meta_keywords = ", ".join([str(t) for t in tags]) if tags else "Linux, DevOps, 技术"
     
     # 京东购买卡片：优先文章 front-matter 的 jd_url/jd_title/jd_img，
     # 否则用全局默认 JD_BUY_URL/JD_BUY_TITLE/JD_BUY_IMG（均可留空）
@@ -962,7 +962,7 @@ def build_tag_pages(articles):
 
     written = []
     for tag, tagged_articles in tag_map.items():
-        tag_url = f"/tags/{quote(tag)}/"
+        tag_url = f"/tags/{quote(str(tag).encode('utf-8'), safe='')}/"
         items = []
         for article in sorted(tagged_articles, key=lambda x: x['metadata'].get('date', ''), reverse=True):
             meta = article['metadata']
@@ -1105,7 +1105,7 @@ def generate_sitemap(articles):
             if tag not in seen_tags:
                 seen_tags.add(tag)
                 urls.append({
-                    'loc': f"{SITE_URL}/tags/{quote(tag)}/",
+                    'loc': f"{SITE_URL}/tags/{quote(str(tag).encode('utf-8'), safe='')}/",
                     'changefreq': 'weekly',
                     'priority': '0.6'
                 })
