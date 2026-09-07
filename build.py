@@ -239,6 +239,10 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       <div class="tags">
         <span>投资</span><span>财报</span><span>持仓</span><span>分析</span>
       </div>
+      <p style="margin-top:14px; font-size:14px;">
+        <a href="/latest/" style="color:#fff; text-decoration:none; border-bottom:1px solid rgba(255,255,255,.5);">外媒速览（每日更新）</a>
+        <a href="/news/" style="color:#fff; text-decoration:none; border-bottom:1px solid rgba(255,255,255,.5); margin-left:18px;">历史归档</a>
+      </p>
     </div>
   </header>
 
@@ -1400,6 +1404,14 @@ def main():
     # 写入 CNAME：自定义域名 stock.freelamp.com（GitHub Pages 保持绑定）
     (DOCS_DIR / "CNAME").write_text("stock.freelamp.com\n", encoding="utf-8")
     print("✅ 生成 CNAME：docs/CNAME (stock.freelamp.com)")
+
+    # 生成外媒新闻速览页（数据源 data/news/，由 scripts/fetch_news.py 产出）
+    try:
+        from news_builder import build_news_pages
+        build_news_pages(DOCS_DIR)
+        print("✅ 生成新闻页：docs/latest/ 与 docs/news/")
+    except Exception as exc:  # 新闻模块失败不应阻断主站发布
+        print(f"⚠️  新闻页构建跳过：{exc}")
 
     # 复制静态验证文件到 docs 目录（Google/Bing 等搜索引擎验证）
     static_files = [
