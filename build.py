@@ -847,7 +847,13 @@ def build_index(articles):
         
         article_url = f"{SITE_URL}/articles/{slug}/"
         
-        tags_html = ''.join([f'<a href="/tags/{quote(str(tag).encode('utf-8'), safe='')}/">{tag}</a>' for tag in tags])
+        # 注意：CI 使用 Python 3.11，不支持 PEP 701（f-string 内嵌同型引号），
+        # 因此此处用 .format 而非 f-string，保持 3.11/3.12+ 均可通过。
+        tags_html = ''.join(
+            '<a href="/tags/{0}/">{1}</a>'.format(
+                quote(str(tag).encode("utf-8"), safe=""), tag)
+            for tag in tags
+        )
         
         article_html = f"""      <li class="article-item">
         <a href="articles/{slug}/">
@@ -901,7 +907,11 @@ def build_article_page(article):
     
     canonical_url = f"{SITE_URL}/articles/{article['slug']}/"
     
-    tags_html = ''.join([f'<a itemprop="keywords" href="/tags/{quote(str(tag).encode('utf-8'), safe='')}/">{tag}</a>' for tag in tags])
+    tags_html = ''.join(
+        '<a itemprop="keywords" href="/tags/{0}/">{1}</a>'.format(
+            quote(str(tag).encode("utf-8"), safe=""), tag)
+        for tag in tags
+    )
 
     # 去掉正文开头的重复标题（页面顶部 post-title 已展示标题）
     article_content = re.sub(r'^\s*#\s+[^\n]*\n?', '', article['content'], count=1, flags=re.MULTILINE)
