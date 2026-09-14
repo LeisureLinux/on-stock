@@ -1,0 +1,46 @@
+{
+ "date": "20260914",
+ "trial_limit": 5,
+ "items": [
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-14 08:54",
+   "title": "Digital stocks are more deliberate than disruptive"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-14 08:53",
+   "title": "Clippers owner Steve Ballmer to comply with NBA penalties for salary-cap violations"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-14 08:53",
+   "title": "Opposition set to halt Sweden's slide to right"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-14 08:53",
+   "title": "AI-linked stocks slump after top lab CEOs call for slowing technology's development"
+  },
+  {
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-14 08:52",
+   "title": "Beijing launches drone buyback in crackdown after Citic Tower crash"
+  }
+ ]
+}
