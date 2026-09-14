@@ -12,7 +12,7 @@ routes = [
 #   npx wrangler kv namespace create USERS
 [[kv_namespaces]]
 binding = "USERS"
-id = "REPLACE_WITH_KV_NAMESPACE_ID"
+id = "66b06a40ad1549ba97ebad1ecadf69a7"
 
 [vars]
 # 源站：GitHub Pages 绑定的自定义子域，不对外公开

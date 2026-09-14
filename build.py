@@ -19,6 +19,7 @@ import shutil
 LORE_DIR = Path(__file__).parent
 ARTICLES_DIR = LORE_DIR / "articles"
 DOCS_DIR = LORE_DIR / "docs"
+ASSETS_DIR = LORE_DIR / "assets"  # 静态资源源目录（收款码等），构建时复制到 docs/assets
 
 # 站点基础配置（SEO 用）
 SITE_URL = "https://stock.freelamp.com"
@@ -1352,6 +1353,11 @@ def main():
         import shutil
         shutil.rmtree(DOCS_DIR)
     DOCS_DIR.mkdir(parents=True)
+
+    # 复制静态资源（收款码等）到 docs/assets —— 必须在 rmtree 之后
+    if ASSETS_DIR.exists():
+        shutil.copytree(ASSETS_DIR, DOCS_DIR / "assets")
+        print(f"✅ 复制静态资源：docs/assets/（{len(list(ASSETS_DIR.iterdir()))} 个文件）")
     
     # 扫描文章
     articles = []
