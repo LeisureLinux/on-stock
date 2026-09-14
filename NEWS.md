@@ -64,10 +64,11 @@ python3 scripts/fetch_news.py --from-file x.xml  # 离线解析（调试）
 | 源 | sitemap | 正文 |
 |---|---|---|
 | Bloomberg | `/sitemaps/news/latest.xml` | ✅ `envoy.cirrus.bloomberg.com` 镜像域名直连，读 `__NEXT_DATA__` |
-| FT | `/sitemaps/news.xml`、RSS `/rss/home/international` | ❌ Cloudflare 验证页，暂无自动通道 |
-| WSJ | `/wsjsitemaps/wsj_google_news.xml` | ⚠️ 可经 TradingView `news/DJN_*`（道琼斯通讯社全文），需搜索 |
-| Reuters | `/arc/outboundfeeds/news-sitemap/?outputType=xml` | ⚠️ 可经 CNA 等授权转载站，需搜索 |
+| FT | `/sitemaps/news.xml`、RSS `/rss/home/international` | ✅ 官方 news sitemap 可直连抓标题（实测 110 条/日）；正文仍受 Cloudflare 验证页拦截，暂无自动通道 |
+| WSJ | `/wsjsitemaps/wsj_google_news.xml` | ✅ 官方 news sitemap 可直连抓标题（实测 108 条/日）；正文可经 TradingView `news/DJN_*`（道琼斯通讯社全文），需搜索 |
+| Reuters | `/arc/outboundfeeds/news-sitemap/?outputType=xml` | ✅ 官方 news sitemap 可直连抓标题（实测 50 条/日，支持 `--pages` 翻页）；正文可经 CNA 等授权转载站，需搜索 |
 
+> 标题四家均已跑通（2026-09-14 实测：bb 158 / ft 110 / wsj 108 / rt 50，共 426 条）。
 > WSJ 官方 RSS（`feeds.a.dj.com`）数据陈旧（实测返回 2025 年内容），勿用。
 
 ## 已知坑
