@@ -1,6 +1,6 @@
 {
  "date": "20260914",
- "generated_at": "2026-09-14T16:57:21.838564+08:00",
+ "generated_at": "2026-09-14T22:12:46.398281+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "sources": {
   "wsj": {
@@ -15,756 +15,864 @@
      "url": "https://www.wsj.com/finance/stocks/oil-jumps-nasdaq-futures-slide-as-ai-related-stocks-tumble-worldwide-eaaf198b",
      "published_cst": "2026-09-14T08:34:00+08:00",
      "time": "09-14 08:34",
-     "body": null
+     "body": null,
+     "title_zh": "油价跳涨，纳指期货下滑，全球AI相关股票暴跌"
     },
     {
      "title": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes",
      "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-saudi-east-west-pipeline-attack-threatens-export-routes-b6857ade",
      "published_cst": "2026-09-14T08:24:00+08:00",
      "time": "09-14 08:24",
-     "body": null
+     "body": null,
+     "title_zh": "沙特东西管道遇袭威胁出口路线 油价上涨"
     },
     {
      "title": "Will the Fed Hike Interest Rates? What to Watch This Week",
      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026/card/will-the-fed-hike-interest-rates-what-to-watch-this-week-EnFES87p2TJRnCdQeXaW",
      "published_cst": "2026-09-14T08:20:45+08:00",
      "time": "09-14 08:20",
-     "body": null
+     "body": null,
+     "title_zh": "美联储会加息吗？本周关注要点"
     },
     {
      "title": "💬 Money Quote: One and (Not) Done",
      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026/card/-money-quote-one-and-not-done-WzCQI2KE3tYAjaVLh9QX",
      "published_cst": "2026-09-14T08:20:02+08:00",
      "time": "09-14 08:20",
-     "body": null
+     "body": null,
+     "title_zh": "一句话财经：一次了结（并非如此）"
     },
     {
      "title": "Chip Stocks Tumble After AI Leaders Call For Slowdown in AI Development",
      "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
      "published_cst": "2026-09-14T08:17:00+08:00",
      "time": "09-14 08:17",
-     "body": null
+     "body": null,
+     "title_zh": "芯片股大跌，此前AI领袖呼吁放缓AI开发"
     },
     {
      "title": "Forget Robot Workers, This Company Wants to Build Soldiers",
      "url": "https://www.wsj.com/tech/forget-robot-workers-this-company-wants-to-build-soldiers-48266698",
      "published_cst": "2026-09-14T08:15:00+08:00",
      "time": "09-14 08:15",
-     "body": null
+     "body": null,
+     "title_zh": "忘掉机器人工人，这家公司想造士兵"
     },
     {
      "title": "European Financial Companies Narrow Boardroom Pay Gap With North America, EY Says",
      "url": "https://www.wsj.com/business/european-financial-companies-narrow-boardroom-pay-gap-with-north-america-ey-says-5011d437",
      "published_cst": "2026-09-14T07:33:00+08:00",
      "time": "09-14 07:33",
-     "body": null
+     "body": null,
+     "title_zh": "安永称欧洲金融公司董事会薪酬差距缩小至北美水平"
     },
     {
      "title": "Hugo Boss Chairman to Step Down After Frasers Talks",
      "url": "https://www.wsj.com/business/hugo-boss-supervisory-board-chair-to-step-down-after-frasers-talks-fc432316",
      "published_cst": "2026-09-14T07:24:00+08:00",
      "time": "09-14 07:24",
-     "body": null
+     "body": null,
+     "title_zh": "Hugo Boss董事长将在与Frasers谈判后卸任"
     },
     {
      "title": "Metlen Signs Greek Energy Supply Deal with Petronas",
      "url": "https://www.wsj.com/finance/commodities-futures/metlen-signs-greek-energy-supply-deal-with-petronas-c918858d",
      "published_cst": "2026-09-14T07:07:00+08:00",
      "time": "09-14 07:07",
-     "body": null
+     "body": null,
+     "title_zh": "梅特伦与马来西亚国家石油公司签署希腊能源供应协议"
     },
     {
      "title": "BOE Expected to Hold Key Rate, Slow Down Quantitative Tightening",
      "url": "https://www.wsj.com/pro/central-banking/boe-expected-to-hold-key-rate-slow-down-quantitative-tightening-646fa0b6",
      "published_cst": "2026-09-14T06:18:00+08:00",
      "time": "09-14 06:18",
-     "body": null
+     "body": null,
+     "title_zh": "英国央行预计维持关键利率，放缓量化紧缩"
     },
     {
      "title": "AstraZeneca Breast-Cancer Drug Misses Goal in Late-Stage Trial",
      "url": "https://www.wsj.com/health/pharma/astrazeneca-breast-cancer-drug-misses-goal-in-late-stage-trial-14e2ec14",
      "published_cst": "2026-09-14T06:02:00+08:00",
      "time": "09-14 06:02",
-     "body": null
+     "body": null,
+     "title_zh": "阿斯利康乳腺癌药物后期试验未达标"
     },
     {
      "title": "Pepper…and Salt",
      "url": "https://www.wsj.com/opinion/pepperand-salt-5301cc82",
      "published_cst": "2026-09-14T04:00:00+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "胡椒……和盐"
     },
     {
      "title": "What’s News: Business & Finance",
      "url": "https://www.wsj.com/articles/whats-news-business-finance-ab89f3ad",
      "published_cst": "2026-09-14T03:32:00+08:00",
      "time": "09-14 03:32",
-     "body": null
+     "body": null,
+     "title_zh": "商业与金融新闻速览"
     },
     {
      "title": "What’s News: Worldwide",
      "url": "https://www.wsj.com/articles/whats-news-worldwide-bd3ba116",
      "published_cst": "2026-09-14T03:21:00+08:00",
      "time": "09-14 03:21",
-     "body": null
+     "body": null,
+     "title_zh": "全球要闻"
     },
     {
      "title": "Dollar Rises on Fed Rate-Hike Prospects, High Oil Prices",
      "url": "https://www.wsj.com/finance/currencies/singapore-dollar-weakens-amid-escalating-middle-east-conflict-a746d8cc",
      "published_cst": "2026-09-14T03:14:00+08:00",
      "time": "09-14 03:14",
-     "body": null
+     "body": null,
+     "title_zh": "美元因美联储加息预期和油价高企而上涨"
     },
     {
      "title": "Did a Crypto Bro Pay $4.5 Million to Marry a Movie Star? A Scandal Grips China",
      "url": "https://www.wsj.com/world/china/justin-sun-jing-tian-bride-fee-5d83b7c5",
      "published_cst": "2026-09-14T03:00:00+08:00",
      "time": "09-14 03:00",
-     "body": null
+     "body": null,
+     "title_zh": "加密货币玩家花450万美元娶女星？丑闻震动中国"
     },
     {
      "title": "Eurozone Bond Yields Edge Higher, German 10-Year Bund Yield Hits New 15-Year High",
      "url": "https://www.wsj.com/finance/long-term-jgb-yields-higher-on-expectations-for-boj-rate-increases-67eb74d8",
      "published_cst": "2026-09-14T02:47:00+08:00",
      "time": "09-14 02:47",
-     "body": null
+     "body": null,
+     "title_zh": "欧元区债券收益率小幅走高，德国10年期国债收益率创15年新高"
     },
     {
      "title": "Russia Is Churning Out Smart, Cheap New Weapons Faster Than Ukraine or the U.S.",
      "url": "https://www.wsj.com/world/russia-is-churning-out-smart-cheap-new-weapons-faster-than-ukraine-or-the-u-s-c817d014",
      "published_cst": "2026-09-14T02:00:00+08:00",
      "time": "09-14 02:00",
-     "body": null
+     "body": null,
+     "title_zh": "俄罗斯正以比乌克兰或美国更快的速度大量生产智能廉价的新武器"
     },
     {
      "title": "How the Clash Between Money and Safety Created a Monumental Crisis for AI",
      "url": "https://www.wsj.com/tech/ai/openai-anthropic-crisis-money-safety-847bc1d6",
      "published_cst": "2026-09-14T01:00:00+08:00",
      "time": "09-14 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "金钱与安全的冲突如何为人工智能酿成巨大危机"
     },
     {
      "title": "Democrats Have Midterm Momentum. Here’s What Risks Tripping Them Up.",
      "url": "https://www.wsj.com/politics/elections/democrats-have-midterm-momentum-heres-what-risks-tripping-them-up-ed0a0418",
      "published_cst": "2026-09-14T01:00:00+08:00",
      "time": "09-14 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "民主党中期选举势头强劲，哪些风险可能绊倒他们？"
     },
     {
      "title": "Amazon Pauses Operations With 21 Air After Miami Crash",
      "url": "https://www.wsj.com/business/airlines/amazon-pauses-operations-with-21-air-after-miami-crash-3374b9ef",
      "published_cst": "2026-09-14T00:35:00+08:00",
      "time": "09-14 00:35",
-     "body": null
+     "body": null,
+     "title_zh": "亚马逊在迈阿密坠机后暂停与21航空合作"
     },
     {
      "title": "Gold Falls as Higher Inflation Pushes Federal Reserve to Hike Rakes",
      "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-focus-on-u-s-core-inflation-9f264ece",
      "published_cst": "2026-09-14T00:28:00+08:00",
      "time": "09-14 00:28",
-     "body": null
+     "body": null,
+     "title_zh": "通胀升温推美联储加息 金价下跌"
     },
     {
      "title": "European Stocks Mixed, Chip Stocks Slide",
      "url": "https://www.wsj.com/finance/stocks/nikkei-falls-1-6-dragged-by-chip-metals-stocks-b366d914",
      "published_cst": "2026-09-14T00:24:00+08:00",
      "time": "09-14 00:24",
-     "body": null
+     "body": null,
+     "title_zh": "欧洲股市涨跌互现，芯片股下滑"
     },
     {
      "title": "Oil Prices Gain as Conflict Spreads",
      "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-backing-case-for-rate-hikes-0a17cda4",
      "published_cst": "2026-09-14T00:16:00+08:00",
      "time": "09-14 00:16",
-     "body": null
+     "body": null,
+     "title_zh": "油价上涨 冲突蔓延"
     },
     {
      "title": "Widening Mideast Instability Squeezes Global Oil Supplies",
      "url": "https://www.wsj.com/world/middle-east/widening-mideast-instability-squeezes-global-oil-supplies-0cd316ad",
      "published_cst": "2026-09-14T00:00:00+08:00",
      "time": "09-14 00:00",
-     "body": null
+     "body": null,
+     "title_zh": "中东局势动荡加剧挤压全球石油供应"
     },
     {
      "title": "How Inmates With Contraband Phones Are Scamming Families Across America",
      "url": "https://www.wsj.com/us-news/inmates-phone-scams-prisons-784f6c2c",
      "published_cst": "2026-09-14T00:00:00+08:00",
      "time": "09-14 00:00",
-     "body": null
+     "body": null,
+     "title_zh": "囚犯如何用违禁手机诈骗全美家庭"
     },
     {
      "title": "Z.AI Plans $5.0 Billion Fundraising to Fuel AI Expansion",
      "url": "https://www.wsj.com/tech/ai/z-ai-plans-5-0-billion-fundraising-to-fuel-ai-expansion-56da16dc",
      "published_cst": "2026-09-13T23:56:00+08:00",
      "time": "09-13 23:56",
-     "body": null
+     "body": null,
+     "title_zh": "智谱AI拟融资50亿美元加速AI扩张"
     },
     {
      "title": "Corrections & Amplifications",
      "url": "https://www.wsj.com/articles/corrections-amplifications-edf34df9",
      "published_cst": "2026-09-13T23:47:00+08:00",
      "time": "09-13 23:47",
-     "body": null
+     "body": null,
+     "title_zh": "更正与补充"
     },
     {
      "title": "At Restaurants, Phones Are Becoming the New Cigarettes",
      "url": "https://www.wsj.com/arts-culture/food-cooking/at-restaurants-phones-are-becoming-the-new-cigarettes-689c6435",
      "published_cst": "2026-09-13T23:00:00+08:00",
      "time": "09-13 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "在餐厅，手机正成为新的香烟"
     },
     {
      "title": "Ben Shelton Falls in the U.S. Open Final—and an American Wait Goes On",
      "url": "https://www.wsj.com/sports/tennis/ben-shelton-alexander-zverev-us-open-5f2e0661",
      "published_cst": "2026-09-13T22:14:00+08:00",
      "time": "09-13 22:14",
-     "body": null
+     "body": null,
+     "title_zh": "本·谢尔顿美网决赛失利，美国人等待继续"
     },
     {
      "title": "The Great AI Slowdown?",
      "url": "https://www.wsj.com/opinion/the-great-ai-slowdown-d5578546",
      "published_cst": "2026-09-13T21:44:00+08:00",
      "time": "09-13 21:44",
-     "body": null
+     "body": null,
+     "title_zh": "人工智能大减速？"
     },
     {
      "title": "Trump Lectures Ukraine, not Russia",
      "url": "https://www.wsj.com/opinion/trump-lectures-ukraine-not-russia-7eceaff6",
      "published_cst": "2026-09-13T21:43:00+08:00",
      "time": "09-13 21:43",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普训斥乌克兰而非俄罗斯"
     },
     {
      "title": "The Road to a Universal Basic Income",
      "url": "https://www.wsj.com/opinion/the-road-to-a-universal-basic-income-ee06f422",
      "published_cst": "2026-09-13T21:42:00+08:00",
      "time": "09-13 21:42",
-     "body": null
+     "body": null,
+     "title_zh": "通往全民基本收入之路"
     },
     {
      "title": "The New ObamaCare Trust Busters",
      "url": "https://www.wsj.com/opinion/democrats-healthcare-obamacare-james-talarico-17b7fb34",
      "published_cst": "2026-09-13T21:41:00+08:00",
      "time": "09-13 21:41",
-     "body": null
+     "body": null,
+     "title_zh": "新奥巴马医改反垄断先锋"
     },
     {
      "title": "Trump Pledges to Rescind 10% Tariff on Irish Whiskey",
      "url": "https://www.wsj.com/economy/trade/trump-pledges-to-rescind-10-tariff-on-irish-whiskey-fc456b00",
      "published_cst": "2026-09-13T20:25:00+08:00",
      "time": "09-13 20:25",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普承诺取消对爱尔兰威士忌10%的关税"
     },
     {
      "title": "For Trump, a Golf Trip to Ireland Tees Up a Reunification Controversy",
      "url": "https://www.wsj.com/politics/elections/for-trump-a-golf-trip-to-ireland-tees-up-a-reunification-controversy-bf3c2f17",
      "published_cst": "2026-09-13T19:47:00+08:00",
      "time": "09-13 19:47",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普爱尔兰高尔夫之行引发统一争议"
     },
     {
      "title": "We Need a Science of the AI Mind",
      "url": "https://www.wsj.com/opinion/we-need-a-science-of-the-ai-mind-5b1047e4",
      "published_cst": "2026-09-13T19:35:00+08:00",
      "time": "09-13 19:35",
-     "body": null
+     "body": null,
+     "title_zh": "我们需要一门人工智能心智科学"
     },
     {
      "title": "Pennsylvania Woman Dies of Measles Complications",
      "url": "https://www.wsj.com/us-news/pennsylvania-woman-dies-of-measles-complications-e8435a8b",
      "published_cst": "2026-09-13T19:35:00+08:00",
      "time": "09-13 19:35",
-     "body": null
+     "body": null,
+     "title_zh": "宾州女子死于麻疹并发症"
     },
     {
      "title": "Antisemitism Surges 25 Years After 9/11",
      "url": "https://www.wsj.com/opinion/antisemitism-surges-25-years-after-9-11-2327f95c",
      "published_cst": "2026-09-13T19:34:00+08:00",
      "time": "09-13 19:34",
-     "body": null
+     "body": null,
+     "title_zh": "9·11事件25年后反犹主义激增"
     },
     {
      "title": "The AI Luddites Are Here",
      "url": "https://www.wsj.com/opinion/the-ai-luddites-are-here-460ff88f",
      "published_cst": "2026-09-13T19:33:00+08:00",
      "time": "09-13 19:33",
-     "body": null
+     "body": null,
+     "title_zh": "AI卢德分子来了"
     },
     {
      "title": "Could There Be a Cure for Osteoarthritis?",
      "url": "https://www.wsj.com/opinion/could-there-be-a-cure-for-osteoarthritis-965ebd5b",
      "published_cst": "2026-09-13T19:32:00+08:00",
      "time": "09-13 19:32",
-     "body": null
+     "body": null,
+     "title_zh": "骨关节炎能否治愈？"
     },
     {
      "title": "Lula Has a Banco Master Problem",
      "url": "https://www.wsj.com/opinion/lula-has-a-banco-master-problem-5f291aeb",
      "published_cst": "2026-09-13T19:31:00+08:00",
      "time": "09-13 19:31",
-     "body": null
+     "body": null,
+     "title_zh": "卢拉面临Banco Master问题"
     },
     {
      "title": "Dueling Airstrikes Fuel Angst as Russia-Ukraine War Escalates",
      "url": "https://www.wsj.com/world/europe/dueling-airstrikes-fuel-angst-as-russia-ukraine-war-escalates-a6c0a67b",
      "published_cst": "2026-09-13T18:57:00+08:00",
      "time": "09-13 18:57",
-     "body": null
+     "body": null,
+     "title_zh": "俄乌战争升级，双方空袭引发恐慌"
     },
     {
      "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
      "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
      "published_cst": "2026-09-13T18:21:00+08:00",
      "time": "09-13 18:21",
-     "body": null
+     "body": null,
+     "title_zh": "新兴企业用游击战术颠覆橄榄球头盔行业"
     },
     {
      "title": "How a Classic Collegiate Novel Inspired This Young New York Band",
      "url": "https://www.wsj.com/style/fashion/people-ive-met-mens-bags-5f7b0665",
      "published_cst": "2026-09-13T18:00:00+08:00",
      "time": "09-13 18:00",
-     "body": null
+     "body": null,
+     "title_zh": "一部经典校园小说如何启发了这支年轻的纽约乐队"
     },
     {
      "title": "Awarding Courage and Honesty in Academia",
      "url": "https://www.wsj.com/opinion/awarding-courage-and-honesty-in-academia-bb764fa1",
      "published_cst": "2026-09-13T17:48:00+08:00",
      "time": "09-13 17:48",
-     "body": null
+     "body": null,
+     "title_zh": "学术界表彰勇气与诚实"
     },
     {
      "title": "Nonprofits Rely on Wealth From Free Markets",
      "url": "https://www.wsj.com/opinion/nonprofits-rely-on-wealth-from-free-markets-1d4388ba",
      "published_cst": "2026-09-13T17:47:00+08:00",
      "time": "09-13 17:47",
-     "body": null
+     "body": null,
+     "title_zh": "非营利组织依赖自由市场财富"
     },
     {
      "title": "Aluminum Tariffs Spur Domestic Investment",
      "url": "https://www.wsj.com/opinion/aluminum-tariffs-spur-domestic-investment-8f646d1e",
      "published_cst": "2026-09-13T17:46:00+08:00",
      "time": "09-13 17:46",
-     "body": null
+     "body": null,
+     "title_zh": "铝关税刺激国内投资"
     },
     {
      "title": "The Bar for Involuntary Hospitalization Is Too High",
      "url": "https://www.wsj.com/opinion/the-bar-for-involuntary-hospitalization-is-too-high-72d7b529",
      "published_cst": "2026-09-13T17:45:00+08:00",
      "time": "09-13 17:45",
-     "body": null
+     "body": null,
+     "title_zh": "非自愿住院门槛过高"
     },
     {
      "title": "More Credentialed Teachers Don’t Mean Better Schools",
      "url": "https://www.wsj.com/opinion/more-credentialed-teachers-dont-mean-better-schools-585f4f20",
      "published_cst": "2026-09-13T17:45:00+08:00",
      "time": "09-13 17:45",
-     "body": null
+     "body": null,
+     "title_zh": "更多高资质教师并不意味着更好的学校"
     },
     {
      "title": "Has Your Accent Just Become a Security Vulnerability?",
      "url": "https://www.wsj.com/tech/ai/accent-ai-voice-security-96154f75",
      "published_cst": "2026-09-13T17:00:00+08:00",
      "time": "09-13 17:00",
-     "body": null
+     "body": null,
+     "title_zh": "你的口音是否已成为安全隐患？"
     },
     {
      "title": "Trump Sees Race Against China as Key Issue on AI Regulation",
      "url": "https://www.wsj.com/tech/ai/trump-defends-white-houses-light-touch-on-ai-regulation-c4ed2488",
      "published_cst": "2026-09-13T16:38:00+08:00",
      "time": "09-13 16:38",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普视对华竞争为人工智能监管关键议题"
     },
     {
      "title": "‘A Moment in the Sun’ Review: Black Lives in the Big City",
      "url": "https://www.wsj.com/arts-culture/books/a-moment-in-the-sun-review-black-lives-in-the-big-city-6bff2d3c",
      "published_cst": "2026-09-13T16:01:00+08:00",
      "time": "09-13 16:01",
-     "body": null
+     "body": null,
+     "title_zh": "阳光下的一刻：黑人在大都市的生活"
     },
     {
      "title": "Why I Spent $1.7 Billion on the Baltimore Orioles",
      "url": "https://www.wsj.com/arts-culture/books/david-rubenstein-inside-the-owners-box-1bc921c4",
      "published_cst": "2026-09-13T16:00:00+08:00",
      "time": "09-13 16:00",
-     "body": null
+     "body": null,
+     "title_zh": "我为何斥资17亿美元收购巴尔的摩金莺队"
     },
     {
      "title": "How Your Mail Carrier Ended Up at the Center of the Midterms Battle",
      "url": "https://www.wsj.com/politics/policy/how-your-mail-carrier-ended-up-at-the-center-of-the-midterms-battle-bf9a0475",
      "published_cst": "2026-09-13T16:00:00+08:00",
      "time": "09-13 16:00",
-     "body": null
+     "body": null,
+     "title_zh": "你的邮递员如何成为中期选举战中心"
     },
     {
      "title": "Anthropic’s Amodei Calls for AI Slowdown",
      "url": "https://www.wsj.com/business/autos/anthropics-amodei-calls-for-ai-slowdown-d36fc16d",
      "published_cst": "2026-09-13T15:57:00+08:00",
      "time": "09-13 15:57",
-     "body": null
+     "body": null,
+     "title_zh": "Anthropic的阿莫代伊呼吁放缓AI发展"
     },
     {
      "title": "Yes, Children Really Are Getting Dumber",
      "url": "https://www.wsj.com/opinion/yes-children-really-are-getting-dumber-fa4cb20c",
      "published_cst": "2026-09-13T15:47:00+08:00",
      "time": "09-13 15:47",
-     "body": null
+     "body": null,
+     "title_zh": "是的，孩子们确实越来越笨了"
     },
     {
      "title": "The ICJ’s Pernicious Plan to Redefine Genocide",
      "url": "https://www.wsj.com/opinion/the-icjs-pernicious-plan-to-redefine-genocide-6a207ccc",
      "published_cst": "2026-09-13T15:45:00+08:00",
      "time": "09-13 15:45",
-     "body": null
+     "body": null,
+     "title_zh": "国际法院恶意重新定义种族灭绝"
     },
     {
      "title": "The Week Everybody Started Talking About AI Doomsday",
      "url": "https://www.wsj.com/tech/ai/the-week-everybody-started-talking-about-ai-doomsday-ab1fe116",
      "published_cst": "2026-09-13T14:55:00+08:00",
      "time": "09-13 14:55",
-     "body": null
+     "body": null,
+     "title_zh": "所有人开始谈论AI末日的那一周"
     },
     {
      "title": "Wisconsin Governor Candidate Swims to Safety After Plane Ditches in Lake",
      "url": "https://www.wsj.com/politics/policy/wisconsin-governor-candidate-swims-to-safety-after-plane-ditches-in-lake-32dda6ff",
      "published_cst": "2026-09-13T14:49:00+08:00",
      "time": "09-13 14:49",
-     "body": null
+     "body": null,
+     "title_zh": "威斯康星州长候选人飞机迫降湖中后游至安全地带"
     },
     {
      "title": "Pfizer Makes an Unusual Enemy in $2 Billion Fight Over Unwanted Covid-19 Vaccines",
      "url": "https://www.wsj.com/business/pfizer-makes-an-unusual-enemy-in-2-billion-fight-over-unwanted-covid-19-vaccines-a5ad7c8d",
      "published_cst": "2026-09-13T14:39:00+08:00",
      "time": "09-13 14:39",
-     "body": null
+     "body": null,
+     "title_zh": "辉瑞在20亿美元的新冠疫苗纠纷中树敌"
     },
     {
      "title": "A $1.5 Million Renovation Gave Her Atlanta Mansion Main-Character Energy",
      "url": "https://www.wsj.com/real-estate/luxury-homes/shamea-morton-real-housewives-atlanta-home-7a60c7dc",
      "published_cst": "2026-09-13T14:00:00+08:00",
      "time": "09-13 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "150万美元翻新让她的亚特兰大豪宅焕发主角魅力"
     },
     {
      "title": "Lululemon’s Founder Is Getting Divorced. What It Will Mean for His Fortune.",
      "url": "https://www.wsj.com/business/retail/lululemons-founder-is-getting-divorced-what-it-will-mean-for-his-fortune-47c18b34",
      "published_cst": "2026-09-13T13:00:00+08:00",
      "time": "09-13 13:00",
-     "body": null
+     "body": null,
+     "title_zh": "Lululemon创始人离婚，对其财富意味着什么？"
     },
     {
      "title": "Arch Manning Was Headed for Disaster—Until He Produced the Comeback of His Life",
      "url": "https://www.wsj.com/sports/football/arch-manning-texas-ohio-state-37f6dcbf",
      "published_cst": "2026-09-13T11:00:00+08:00",
      "time": "09-13 11:00",
-     "body": null
+     "body": null,
+     "title_zh": "阿奇·曼宁一度濒临灾难，直到他上演了生涯最伟大的逆转。"
     },
     {
      "title": "Canada Seeks EU ‘Associate Member’ Status as U.S. Trade Talks Collapse",
      "url": "https://www.wsj.com/economy/canada-seeks-eu-associate-member-status-as-u-s-trade-talks-collapse-4eebec65",
      "published_cst": "2026-09-13T10:54:00+08:00",
      "time": "09-13 10:54",
-     "body": null
+     "body": null,
+     "title_zh": "加拿大在美国贸易谈判破裂后寻求欧盟准成员国身份"
     },
     {
      "title": "Wealthy Europeans Are Moving North as Temperatures Climb",
      "url": "https://www.wsj.com/world/europe/wealthy-europeans-are-moving-north-as-temperatures-climb-9b47dac0",
      "published_cst": "2026-09-13T09:30:00+08:00",
      "time": "09-13 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "欧洲富人因气温升高向北迁移"
     },
     {
      "title": "The Latest Spot for a Trump Tower: An Ex-Soviet Republic Moving Closer to Russia",
      "url": "https://www.wsj.com/politics/policy/the-latest-spot-for-a-trump-tower-an-ex-soviet-republic-moving-closer-to-russia-adb04f38",
      "published_cst": "2026-09-13T09:30:00+08:00",
      "time": "09-13 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普大厦最新选址：一个靠拢俄罗斯的前苏联共和国"
     },
     {
      "title": "NFL’s Sunday Ticket Is Getting Smaller. It Isn’t Getting Cheaper.",
      "url": "https://www.wsj.com/business/media/nfls-sunday-ticket-is-getting-smaller-it-isnt-getting-cheaper-8a427606",
      "published_cst": "2026-09-13T09:30:00+08:00",
      "time": "09-13 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "NFL周日门票缩水，价格却未降。"
     },
     {
      "title": "Mortal Enemies or Lovers? The Odd Obsession With Wile E. Coyote and Road Runner",
      "url": "https://www.wsj.com/arts-culture/film/acme-wile-e-coyote-road-runner-in-love-db2f51dc",
      "published_cst": "2026-09-13T09:30:00+08:00",
      "time": "09-13 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "生死冤家还是恋人？对歪心狼和哔哔鸟的奇特痴迷"
     },
     {
      "title": "Anthropic’s Moral Conflict Is Playing Out in Real Time",
      "url": "https://www.wsj.com/tech/ai/anthropics-moral-conflict-is-playing-out-in-real-time-c503e0c1",
      "published_cst": "2026-09-13T09:30:00+08:00",
      "time": "09-13 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "Anthropic的道德冲突正在实时上演"
     },
     {
      "title": "Bessent Says the U.S. Can Grow Its Way Out of the Debt Crunch. What Would It Take?",
      "url": "https://www.wsj.com/economy/federal-debt-growth-solution-c2868517",
      "published_cst": "2026-09-13T09:00:00+08:00",
      "time": "09-13 09:00",
-     "body": null
+     "body": null,
+     "title_zh": "贝森特称美国可通过增长摆脱债务危机。这需要什么？"
     },
     {
      "title": "Arts Calendar: Happenings for the Week of September 13",
      "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-september-13-airdigital-8ed14373",
      "published_cst": "2026-09-13T09:00:00+08:00",
      "time": "09-13 09:00",
-     "body": null
+     "body": null,
+     "title_zh": "艺术日历：9月13日当周活动"
     },
     {
      "title": "Republicans’ Growing Ken Paxton Anxiety: ‘He May Not Be the Best-Looking Guy.’",
      "url": "https://www.wsj.com/politics/elections/republicans-growing-ken-paxton-anxiety-he-may-not-be-the-best-looking-guy-e6500b33",
      "published_cst": "2026-09-13T02:00:00+08:00",
      "time": "09-13 02:00",
-     "body": null
+     "body": null,
+     "title_zh": "共和党人对肯·帕克斯顿日益担忧：他可能不是最上镜的人选。"
     },
     {
      "title": "A U.S. Scholar Was Invited to China. Then He Vanished.",
      "url": "https://www.wsj.com/world/china/a-u-s-scholar-was-invited-to-china-then-he-vanished-88c720af",
      "published_cst": "2026-09-13T02:00:00+08:00",
      "time": "09-13 02:00",
-     "body": null
+     "body": null,
+     "title_zh": "一名美国学者受邀来华后失踪。"
     },
     {
      "title": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
      "url": "https://www.wsj.com/business/autos/tesla-is-reclaiming-the-u-s-ev-market-as-legacy-automakers-retreat-71ec2053",
      "published_cst": "2026-09-13T01:00:00+08:00",
      "time": "09-13 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "特斯拉正重新占领美国电动汽车市场，传统汽车制造商纷纷撤退"
     },
     {
      "title": "Mark Carney’s Audacious Bid to Make Canada an ‘Associate Member’ of the EU",
      "url": "https://www.wsj.com/world/europe/canada-alliance-eu-carney-276f1778",
      "published_cst": "2026-09-13T01:00:00+08:00",
      "time": "09-13 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "马克·卡尼大胆提议让加拿大成为欧盟“准成员国”"
     },
     {
      "title": "Here’s What It’s Like to Retire to a Low-Tax State",
      "url": "https://www.wsj.com/personal-finance/heres-what-its-like-to-retire-to-a-low-tax-state-fcac6598",
      "published_cst": "2026-09-13T00:00:00+08:00",
      "time": "09-13 00:00",
-     "body": null
+     "body": null,
+     "title_zh": "退休到低税州是什么体验"
     },
     {
      "title": "Why Weil Gotshal’s Highest-Paid Partner Jumped to Cravath, Shocking Big Law",
      "url": "https://www.wsj.com/business/why-weil-gotshals-highest-paid-partner-jumped-to-cravath-shocking-big-law-86f669dc",
      "published_cst": "2026-09-12T23:04:00+08:00",
      "time": "09-12 23:04",
-     "body": null
+     "body": null,
+     "title_zh": "为何瑞生薪酬最高的合伙人跳槽至凯易，震惊大型律所"
     },
     {
      "title": "Lost in Margaritaville: The Messy Drama Over Jimmy Buffett’s $275 Million Trust",
      "url": "https://www.wsj.com/style/lost-in-margaritaville-drama-jimmy-buffett-275-million-dollar-trust-65710c8d",
      "published_cst": "2026-09-12T23:00:00+08:00",
      "time": "09-12 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "迷失在玛格丽塔维尔：吉米·巴菲特2.75亿美元信托的混乱纷争"
     },
     {
      "title": "A 6-Foot Slugger Has Quietly Taken Over Women’s Tennis—and She Just Won the U.S. Open",
      "url": "https://www.wsj.com/sports/rybakina-us-open-sabalenka-3a2a540b",
      "published_cst": "2026-09-12T22:54:00+08:00",
      "time": "09-12 22:54",
-     "body": null
+     "body": null,
+     "title_zh": "一位六英尺高的重炮手悄然统治了女子网坛，她刚刚赢得美网冠军。"
     },
     {
      "title": "The Midterm Battle Lines Keep Shifting. Missouri Voters Are Caught in the Middle.",
      "url": "https://www.wsj.com/politics/elections/missouris-redistricting-chaos-has-voters-on-both-sides-feeling-disenfranchised-f7dd238c",
      "published_cst": "2026-09-12T20:42:00+08:00",
      "time": "09-12 20:42",
-     "body": null
+     "body": null,
+     "title_zh": "中期选举战线不断变化，密苏里州选民左右为难。"
     },
     {
      "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
      "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
      "published_cst": "2026-09-12T19:40:00+08:00",
      "time": "09-12 19:40",
-     "body": null
+     "body": null,
+     "title_zh": "强生洽谈以200亿美元将髋膝关节业务出售给阿波罗"
     },
     {
      "title": "Stock Market Today: Nasdaq Futures Drop, Oil Climbs",
      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026",
      "published_cst": "2026-09-12T18:05:48+08:00",
      "time": "09-12 18:05",
-     "body": null
+     "body": null,
+     "title_zh": "今日股市：纳斯达克期货下跌，油价攀升"
     },
     {
      "title": "Larry Ellison Scraps Plan to Sell Up to $7.5 Billion Worth of Oracle Stock",
      "url": "https://www.wsj.com/business/larry-ellison-scraps-plan-to-sell-up-to-7-5-billion-worth-of-oracle-stock-9f41edd2",
      "published_cst": "2026-09-12T17:10:00+08:00",
      "time": "09-12 17:10",
-     "body": null
+     "body": null,
+     "title_zh": "拉里·埃里森取消出售价值高达75亿美元甲骨文股票的计划"
     },
     {
      "title": "U.K.’s Reform Party Rakes In Record $97 Million Donations From Crypto World",
      "url": "https://www.wsj.com/world/uk/u-k-s-reform-party-rakes-in-record-97-million-donations-from-crypto-world-18d9f11d",
      "published_cst": "2026-09-12T17:01:00+08:00",
      "time": "09-12 17:01",
-     "body": null
+     "body": null,
+     "title_zh": "英国改革党从加密货币界获得创纪录9700万美元捐款"
     },
     {
      "title": "I Wanted to Be a Better Human. So I Turned to AI.",
      "url": "https://www.wsj.com/tech/ai/ai-humanity-skills-f2718d5b",
      "published_cst": "2026-09-12T17:00:00+08:00",
      "time": "09-12 17:00",
-     "body": null
+     "body": null,
+     "title_zh": "我想成为更好的人，于是求助于AI。"
     },
     {
      "title": "Biggest AI Rivals Agree They Need to Slow It Down",
      "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
      "published_cst": "2026-09-12T16:18:00+08:00",
      "time": "09-12 16:18",
-     "body": null
+     "body": null,
+     "title_zh": "最大AI竞争对手同意需要放缓发展"
     },
     {
      "title": "Trump Calls for George Washington Statue, Exhibit at Smithsonian",
      "url": "https://www.wsj.com/us-news/trump-calls-for-george-washington-statue-exhibit-at-smithsonian-6c184973",
      "published_cst": "2026-09-12T16:02:00+08:00",
      "time": "09-12 16:02",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普呼吁在史密森尼博物馆设立乔治·华盛顿雕像展览"
     },
     {
      "title": "It’s a ‘Spaceship.’ It’s a ‘Dentist’s Office.’ It’s Their Home.",
      "url": "https://www.wsj.com/style/design/ben-ganz-india-ennenga-home-tour-6a90a937",
      "published_cst": "2026-09-12T16:00:00+08:00",
      "time": "09-12 16:00",
-     "body": null
+     "body": null,
+     "title_zh": "这是“太空船”，是“牙医诊所”，也是他们的家。"
     },
     {
      "title": "A New Lawsuit Alleges an International Andy Warhol Forgery Scheme",
      "url": "https://www.wsj.com/arts-culture/fine-art/lawsuit-andy-warhol-scheme-3c259951",
      "published_cst": "2026-09-12T16:00:00+08:00",
      "time": "09-12 16:00",
-     "body": null
+     "body": null,
+     "title_zh": "新诉讼指控国际安迪·沃霍尔伪造计划"
     },
     {
      "title": "China’s Economic Troubles Reach the Mushroom Hunters of Shangri-La",
      "url": "https://www.wsj.com/world/china/chinas-economic-troubles-reach-the-mushroom-hunters-of-shangri-la-ea4cd49d",
      "published_cst": "2026-09-12T15:00:00+08:00",
      "time": "09-12 15:00",
-     "body": null
+     "body": null,
+     "title_zh": "中国经济困境波及香格里拉的采菇人"
     },
     {
      "title": "Urinals, Skinny-Dipping Pools and Other Wild Home Buyers Must-Haves",
      "url": "https://www.wsj.com/real-estate/luxury-homes/uncommon-home-features-671656f6",
      "published_cst": "2026-09-12T14:00:00+08:00",
      "time": "09-12 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "小便池、裸泳池及其他购房者必备的奇特设施"
     },
     {
      "title": "A Dead Father, Reincarnated With AI: Is This How We Will Remember Loved Ones Now?",
      "url": "https://www.wsj.com/tech/ai/ai-chatbot-avatar-afterlife-memorial-84a3fe2c",
      "published_cst": "2026-09-12T14:00:00+08:00",
      "time": "09-12 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "亡父以AI重生：这就是我们如今缅怀亲人的方式吗？"
     },
     {
      "title": "Historic Homes: A Berkshires Retreat Built by an American Poet",
      "url": "https://www.wsj.com/real-estate/luxury-homes/oliver-wendell-holmes-berkshires-home-17061dcc",
      "published_cst": "2026-09-12T13:00:00+08:00",
      "time": "09-12 13:00",
-     "body": null
+     "body": null,
+     "title_zh": "历史名宅：美国诗人建造的伯克希尔静居"
     },
     {
      "title": "The Director Creeping His Way to Horror Royalty",
      "url": "https://www.wsj.com/arts-culture/film/the-director-creeping-his-way-to-horror-royalty-14428f60",
      "published_cst": "2026-09-12T12:25:00+08:00",
      "time": "09-12 12:25",
-     "body": null
+     "body": null,
+     "title_zh": "导演悄然跻身恐怖片之王"
     },
     {
      "title": "U.S. Men’s Tennis Is Back on the Brink of Crowning a Major Champion",
      "url": "https://www.wsj.com/cio-journal/u-s-mens-tennis-is-back-on-the-brink-of-crowning-a-major-champion-526cc521",
      "published_cst": "2026-09-12T11:55:00+08:00",
      "time": "09-12 11:55",
-     "body": null
+     "body": null,
+     "title_zh": "美国男子网球重回大满贯冠军边缘"
     },
     {
      "title": "The New Rules to Survive and Thrive at Work",
      "url": "https://www.wsj.com/tech/personal-tech/the-new-rules-to-survive-and-thrive-at-work-b90be330",
      "published_cst": "2026-09-12T11:50:00+08:00",
      "time": "09-12 11:50",
-     "body": null
+     "body": null,
+     "title_zh": "职场生存与繁荣新规则"
     },
     {
      "title": "‘Orientalism: Between Fact and Fantasy’ Review: East Meets West, Beautifully, at the Met",
      "url": "https://www.wsj.com/arts-culture/fine-art/orientalism-between-fact-and-fantasy-review-east-meets-west-beautifully-at-the-met-2cde6f47",
      "published_cst": "2026-09-12T11:00:00+08:00",
      "time": "09-12 11:00",
-     "body": null
+     "body": null,
+     "title_zh": "东方主义：事实与幻想之间——评：大都会博物馆里的东西方美丽邂逅"
     },
     {
      "title": "My Short-Lived Fantasy as a High-T Alpha Male",
      "url": "https://www.wsj.com/health/wellness/testosterone-testing-maxxing-daed3beb",
      "published_cst": "2026-09-12T11:00:00+08:00",
      "time": "09-12 11:00",
-     "body": null
+     "body": null,
+     "title_zh": "我短暂的高阿尔法男性幻想"
     },
     {
      "title": "AI Fears Leap From Silicon Valley Into Mainstream America",
      "url": "https://www.wsj.com/tech/ai-fears-leap-from-silicon-valley-into-mainstream-america-3e632708",
      "published_cst": "2026-09-12T10:58:00+08:00",
      "time": "09-12 10:58",
-     "body": null
+     "body": null,
+     "title_zh": "AI恐慌从硅谷蔓延至美国主流"
     },
     {
      "title": "News Quiz for September 12, 2026",
      "url": "https://www.wsj.com/business/media/news-quiz-for-september-12-2026-eeaf0764",
      "published_cst": "2026-09-12T10:00:00+08:00",
      "time": "09-12 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "2026年9月12日新闻测验"
     },
     {
      "title": "Why Apple Needed to Reboot Its Health App",
      "url": "https://www.wsj.com/tech/personal-tech/apple-watch-health-app-e7becf7a",
      "published_cst": "2026-09-12T09:30:00+08:00",
      "time": "09-12 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "苹果为何需要重启健康应用"
     },
     {
      "title": "This Spanish Island Wants to Ditch Drunk British Tourists for Rich American Ones",
      "url": "https://www.wsj.com/world/europe/this-spanish-island-wants-to-ditch-drunk-british-tourists-for-rich-american-ones-c1f6c0fd",
      "published_cst": "2026-09-12T09:30:00+08:00",
      "time": "09-12 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "西班牙岛屿欲弃醉酒英国游客，转向富裕美国客"
     },
     {
      "title": "The New Fashion Do’s and Don’ts That Everyone Should Follow",
      "url": "https://www.wsj.com/style/fashion/the-new-fashion-dos-and-donts-that-everyone-should-follow-2dda734d",
      "published_cst": "2026-09-12T09:30:00+08:00",
      "time": "09-12 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "每个人都应遵循的新时尚准则"
     },
     {
      "title": "Meet the Factions Driving the Democratic Socialists of America",
      "url": "https://www.wsj.com/politics/elections/meet-the-factions-driving-the-democratic-socialists-of-america-0c5e74f0",
      "published_cst": "2026-09-12T09:30:00+08:00",
      "time": "09-12 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "认识推动美国民主社会主义者的派系"
     },
     {
      "title": "Heart Disease, a Historic Strength for Big Pharma, Becomes a Weakness",
      "url": "https://www.wsj.com/health/pharma/heart-disease-a-historic-strength-for-big-pharma-becomes-a-weakness-983f0062",
      "published_cst": "2026-09-12T09:30:00+08:00",
      "time": "09-12 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "心脏病曾是大型制药公司的历史强项，如今却成短板。"
     },
     {
      "title": "Scratch Pads",
      "url": "https://www.wsj.com/games/crosswords/scratch-pads-47e4314f",
      "published_cst": "2026-09-08T13:44:00+08:00",
      "time": "09-08 13:44",
-     "body": null
+     "body": null,
+     "title_zh": "临时记录"
     },
     {
      "title": "America 250 Calendar: Ways to Celebrate the Nation Across the Nation",
      "url": "https://www.wsj.com/arts-culture/fine-art/america-250-calendar-ways-to-celebrate-the-nation-across-the-nation-airdigital-df7ecb23",
      "published_cst": "2026-01-10T10:00:00+08:00",
      "time": "01-10 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "美国250周年日历：全国各地庆祝方式"
     }
    ]
   },
@@ -780,350 +888,400 @@
      "url": "https://www.reuters.com/commentary/breakingviews/digital-stocks-are-more-deliberate-than-disruptive-2026-09-14/",
      "published_cst": "2026-09-14T08:54:02+08:00",
      "time": "09-14 08:54",
-     "body": null
+     "body": null,
+     "title_zh": "数字股票更审慎而非颠覆性"
     },
     {
      "title": "Clippers owner Steve Ballmer to comply with NBA penalties for salary-cap violations",
      "url": "https://www.reuters.com/sports/clippers-owner-steve-ballmer-comply-with-nba-penalties-salary-cap-violations--fldm-2026-09-14/",
      "published_cst": "2026-09-14T08:53:43+08:00",
      "time": "09-14 08:53",
-     "body": null
+     "body": null,
+     "title_zh": "快船老板史蒂夫·鲍尔默将遵守NBA对薪资帽违规的处罚"
     },
     {
      "title": "Opposition set to halt Sweden's slide to right",
      "url": "https://www.reuters.com/world/europe/swedish-centre-left-opposition-pole-position-take-power-after-tight-election-2026-09-14/",
      "published_cst": "2026-09-14T08:53:25+08:00",
      "time": "09-14 08:53",
-     "body": null
+     "body": null,
+     "title_zh": "反对派将阻止瑞典向右倾"
     },
     {
      "title": "AI-linked stocks slump after top lab CEOs call for slowing technology's development",
      "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/",
      "published_cst": "2026-09-14T08:53:15+08:00",
      "time": "09-14 08:53",
-     "body": null
+     "body": null,
+     "title_zh": "顶级实验室CEO呼吁放缓技术发展后，AI相关股票下挫"
     },
     {
      "title": "East Timor postpones earliest production from Greater Sunrise gas project",
      "url": "https://www.reuters.com/business/energy/east-timor-postpones-earliest-production-greater-sunrise-gas-project-2026-09-14/",
      "published_cst": "2026-09-14T08:51:21+08:00",
      "time": "09-14 08:51",
-     "body": null
+     "body": null,
+     "title_zh": "东帝汶推迟大日出天然气项目最早投产时间"
     },
     {
      "title": "India approves export of power to Nepal after deadly flood",
      "url": "https://www.reuters.com/business/energy/india-approves-export-power-nepal-after-deadly-flood-2026-09-14/",
      "published_cst": "2026-09-14T08:50:07+08:00",
      "time": "09-14 08:50",
-     "body": null
+     "body": null,
+     "title_zh": "印度批准在致命洪灾后向尼泊尔出口电力"
     },
     {
      "title": "Cam Schlittler dominant as Yankees shut out Mets",
      "url": "https://www.reuters.com/sports/baseball/cam-schlittler-dominant-yankees-shut-out-mets--flm-2026-09-13/",
      "published_cst": "2026-09-14T08:49:56+08:00",
      "time": "09-14 08:49",
-     "body": null
+     "body": null,
+     "title_zh": "卡姆·施利特勒统治级表现，洋基零封大都会"
     },
     {
      "title": "Nepal tunnel survivor finds solace in village homecoming",
      "url": "https://www.reuters.com/world/china/nepal-tunnel-survivor-finds-solace-village-homecoming-2026-09-13/",
      "published_cst": "2026-09-14T08:48:51+08:00",
      "time": "09-14 08:48",
-     "body": null
+     "body": null,
+     "title_zh": "尼泊尔隧道幸存者返乡寻慰藉"
     },
     {
      "title": "Chubu says its president to resign, nuclear restart application withdrawn over data scandal",
      "url": "https://www.reuters.com/world/asia-pacific/chubu-electric-president-resign-following-nuclear-data-scandal-nikkei-says-2026-09-13/",
      "published_cst": "2026-09-14T08:47:02+08:00",
      "time": "09-14 08:47",
-     "body": null
+     "body": null,
+     "title_zh": "中部电力社长将辞职，因数据丑闻撤回核电站重启申请"
     },
     {
      "title": "Hidden crypto farm in Mexican mountains puts spotlight on cartel funding",
      "url": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
      "published_cst": "2026-09-14T08:46:27+08:00",
      "time": "09-14 08:46",
-     "body": null
+     "body": null,
+     "title_zh": "墨西哥山区隐藏的加密货币矿场引发对贩毒集团资金的关注"
     },
     {
      "title": "Indonesia's president replaces finance minister with deputy, official says",
      "url": "https://www.reuters.com/world/asia-pacific/indonesias-president-replaces-finance-minister-with-deputy-official-says-2026-09-14/",
      "published_cst": "2026-09-14T08:45:34+08:00",
      "time": "09-14 08:45",
-     "body": null
+     "body": null,
+     "title_zh": "印尼总统任命副手接替财长一职，官员称"
     },
     {
      "title": "Trapped nine days in a dark tunnel, Nepali man tells his survival story",
      "url": "https://www.reuters.com/world/asia-pacific/trapped-nine-days-dark-tunnel-nepali-man-tells-his-survival-story-2026-09-11/",
      "published_cst": "2026-09-14T08:45:26+08:00",
      "time": "09-14 08:45",
-     "body": null
+     "body": null,
+     "title_zh": "被困黑暗隧道九天，尼泊尔男子讲述生还经历"
     },
     {
      "title": "Chevron eyes Argentina, Mediterranean for global LNG growth, deal with India",
      "url": "https://www.reuters.com/business/energy/chevron-eyes-argentina-mediterranean-global-lng-growth-deal-with-india-2026-09-14/",
      "published_cst": "2026-09-14T08:44:39+08:00",
      "time": "09-14 08:44",
-     "body": null
+     "body": null,
+     "title_zh": "雪佛龙瞄准阿根廷和地中海推动全球LNG增长，与印度达成协议"
     },
     {
      "title": "Pakistan docked 11 points in World Test Championship for slow over-rate",
      "url": "https://www.reuters.com/sports/cricket/pakistan-docked-11-points-world-test-championship-slow-over-rate-2026-09-14/",
      "published_cst": "2026-09-14T08:43:44+08:00",
      "time": "09-14 08:43",
-     "body": null
+     "body": null,
+     "title_zh": "巴基斯坦因慢速过率在世界测试锦标赛中被扣11分"
     },
     {
      "title": "Diplomacy stumbles with postponement of meeting on Strait of Hormuz proposal",
      "url": "https://www.reuters.com/business/energy/diplomacy-stumbles-with-postponement-meeting-strait-hormuz-proposal-2026-09-13/",
      "published_cst": "2026-09-14T08:43:24+08:00",
      "time": "09-14 08:43",
-     "body": null
+     "body": null,
+     "title_zh": "霍尔木兹海峡提案会议延期，外交努力受挫"
     },
     {
      "title": "Eugenio Suarez's homer, late plays lift Reds past Brewers",
      "url": "https://www.reuters.com/sports/baseball/eugenio-suarezs-homer-late-plays-lift-reds-past-brewers--flm-2026-09-13/",
      "published_cst": "2026-09-14T08:42:55+08:00",
      "time": "09-14 08:42",
-     "body": null
+     "body": null,
+     "title_zh": "尤金尼奥·苏亚雷斯的本垒打和后期表现助红人队击败酿酒人队"
     },
     {
      "title": "Indonesian president names Suahasil Nazara as new finance minister, official says",
      "url": "https://www.reuters.com/world/asia-pacific/indonesian-president-names-suahasil-nazara-new-finance-minister-official-says-2026-09-14/",
      "published_cst": "2026-09-14T08:42:16+08:00",
      "time": "09-14 08:42",
-     "body": null
+     "body": null,
+     "title_zh": "印尼总统任命苏阿哈西尔·纳扎拉为新财长，官方称"
     },
     {
      "title": "Suède-L'opposition de centre-gauche en légère avance après des législatives serrées",
      "url": "https://www.reuters.com/fr/affaires/incertitude-totale-lissue-des-lections-lgislatives-en-sude-2026-09-13/",
      "published_cst": "2026-09-14T08:42:13+08:00",
      "time": "09-14 08:42",
-     "body": null
+     "body": null,
+     "title_zh": "瑞典中左翼反对党在激烈的议会选举后略微领先"
     },
     {
      "title": "Maersk, Hapag-Lloyd to sail more container ships through the Suez Canal",
      "url": "https://www.reuters.com/business/maersk-hapag-lloyd-resume-further-services-through-suez-canal-2026-09-14/",
      "published_cst": "2026-09-14T08:41:57+08:00",
      "time": "09-14 08:41",
-     "body": null
+     "body": null,
+     "title_zh": "马士基和赫伯罗特将增加通过苏伊士运河的集装箱船"
     },
     {
      "title": "Nigerian billionaire Dangote launches oil refinery IPO, Africa's biggest share sale",
      "url": "https://www.reuters.com/business/energy/nigerian-billionaire-dangote-launches-oil-refinery-ipo-africas-biggest-share-2026-09-14/",
      "published_cst": "2026-09-14T08:40:11+08:00",
      "time": "09-14 08:40",
-     "body": null
+     "body": null,
+     "title_zh": "尼日利亚亿万富翁丹格特启动炼油厂IPO，非洲最大规模股票发行"
     },
     {
      "title": "Orioles' Pete Alonso faces former team when Mets host 3-game series",
      "url": "https://www.reuters.com/sports/baseball/orioles-pete-alonso-faces-former-team-when-mets-host-3-game-series--flm-2026-09-14/",
      "published_cst": "2026-09-14T08:40:09+08:00",
      "time": "09-14 08:40",
-     "body": null
+     "body": null,
+     "title_zh": "金莺队皮特·阿隆索面对老东家，大都会主场迎三连战"
     },
     {
      "title": "Saudi stocks extend fall as energy attacks rattle sentiment",
      "url": "https://www.reuters.com/world/middle-east/saudi-stocks-extend-fall-energy-attacks-rattle-sentiment-2026-09-14/",
      "published_cst": "2026-09-14T08:39:53+08:00",
      "time": "09-14 08:39",
-     "body": null
+     "body": null,
+     "title_zh": "沙特股市续跌，能源设施遇袭打击市场情绪"
     },
     {
      "title": "Hugo-Boss-Aufsichtsratschef beugt sich Druck von Frasers",
      "url": "https://www.reuters.com/de/firma/hugo-boss-aufsichtsratschef-sturm-legt-amt-nieder-2026-09-14/",
      "published_cst": "2026-09-14T08:39:31+08:00",
      "time": "09-14 08:39",
-     "body": null
+     "body": null,
+     "title_zh": "Hugo Boss监事会主席屈服于Frasers压力"
     },
     {
      "title": "KKR sells entire stake in Philippines-based First Gen for $411 million",
      "url": "https://www.reuters.com/legal/transactional/kkr-sells-entire-stake-philippines-based-first-gen-411-million-2026-09-14/",
      "published_cst": "2026-09-14T08:38:09+08:00",
      "time": "09-14 08:38",
-     "body": null
+     "body": null,
+     "title_zh": "KKR以4.11亿美元出售菲律宾First Gen全部股份"
     },
     {
      "title": "Petronas, Thailand's PTT secure approvals for new gas block sharing contract",
      "url": "https://www.reuters.com/business/energy/petronas-ptt-units-secure-approval-new-gas-contract-in-malaysia-thailand-joint-2026-09-14/",
      "published_cst": "2026-09-14T08:37:57+08:00",
      "time": "09-14 08:37",
-     "body": null
+     "body": null,
+     "title_zh": "马来西亚国家石油公司与泰国PTT获准签订新天然气区块分成合同"
     },
     {
      "title": "Macron visitará España a finales de septiembre",
      "url": "https://www.reuters.com/es/mundo/JQI2GPCPDVI77KOVLNZNBUAZIA-2026-09-14/",
      "published_cst": "2026-09-14T08:37:29+08:00",
      "time": "09-14 08:37",
-     "body": null
+     "body": null,
+     "title_zh": "马克龙将于9月底访问西班牙"
     },
     {
      "title": "Turkish court jails 16 in Izmir after raids on LGBTQ+ groups",
      "url": "https://www.reuters.com/world/turkish-court-jails-16-izmir-after-raids-lgbtq-groups-2026-09-14/",
      "published_cst": "2026-09-14T08:37:08+08:00",
      "time": "09-14 08:37",
-     "body": null
+     "body": null,
+     "title_zh": "土耳其法院在伊兹密尔突袭LGBTQ+团体后判处16人监禁"
     },
     {
      "title": "Under siege in the West Bank",
      "url": "https://www.reuters.com/podcasts/under-siege-west-bank-2026-09-12/",
      "published_cst": "2026-09-14T08:37:07+08:00",
      "time": "09-14 08:37",
-     "body": null
+     "body": null,
+     "title_zh": "约旦河西岸遭围困"
     },
     {
      "title": "Roberti named interim head of French Alps 2030 committee",
      "url": "https://www.reuters.com/sports/roberti-named-interim-head-french-alps-2030-committee-2026-09-14/",
      "published_cst": "2026-09-14T08:36:11+08:00",
      "time": "09-14 08:36",
-     "body": null
+     "body": null,
+     "title_zh": "罗伯蒂被任命为法国阿尔卑斯2030委员会临时负责人"
     },
     {
      "title": "China Gas signs 20-year LNG import deal with US-based Venture Global",
      "url": "https://www.reuters.com/business/energy/china-gas-signs-20-year-lng-import-deal-with-us-based-venture-global-2026-09-14/",
      "published_cst": "2026-09-14T08:36:09+08:00",
      "time": "09-14 08:36",
-     "body": null
+     "body": null,
+     "title_zh": "中国燃气与美国Venture Global签署20年LNG进口协议"
     },
     {
      "title": "India gains wider EU steel access, but carbon levy remains",
      "url": "https://www.reuters.com/world/india/india-gains-wider-eu-steel-access-carbon-levy-remains-2026-09-14/",
      "published_cst": "2026-09-14T08:35:06+08:00",
      "time": "09-14 08:35",
-     "body": null
+     "body": null,
+     "title_zh": "印度扩大对欧盟钢铁准入，但碳税仍存"
     },
     {
      "title": "Dodgers' Tarik Skubal looks to duplicate recent outing vs. Reds",
      "url": "https://www.reuters.com/sports/baseball/dodgers-tarik-skubal-looks-duplicate-recent-outing-vs-reds--flm-2026-09-14/",
      "published_cst": "2026-09-14T08:33:07+08:00",
      "time": "09-14 08:33",
-     "body": null
+     "body": null,
+     "title_zh": "道奇队塔里克·斯库巴尔力求重现近期对阵红人的出色表现"
     },
     {
      "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
      "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
      "published_cst": "2026-09-14T08:30:54+08:00",
      "time": "09-14 08:30",
-     "body": null
+     "body": null,
+     "title_zh": "沙特管道中断威胁全球4%石油供应"
     },
     {
      "title": "Kazimir, del BCE, ve riesgos de repunte de la inflación y alerta sobre el precio del gas",
      "url": "https://www.reuters.com/es/negocio/EGIIDYQ5L5LG7L76WPZQAHDM4E-2026-09-14/",
      "published_cst": "2026-09-14T08:30:37+08:00",
      "time": "09-14 08:30",
-     "body": null
+     "body": null,
+     "title_zh": "欧洲央行管委卡齐米尔称通胀存在反弹风险并警告天然气价格"
     },
     {
      "title": "South African rand weakens as higher oil weighs, Fed meeting looms",
      "url": "https://www.reuters.com/world/africa/south-african-rand-weakens-higher-oil-weighs-fed-meeting-looms-2026-09-14/",
      "published_cst": "2026-09-14T08:29:44+08:00",
      "time": "09-14 08:29",
-     "body": null
+     "body": null,
+     "title_zh": "南非兰特走弱，油价上涨施压，美联储会议临近"
     },
     {
      "title": "Oil prices up nearly 3% following new strikes on Saudi, Strait of Hormuz",
      "url": "https://www.reuters.com/business/energy/oil-prices-jump-more-than-3-after-new-strikes-saudi-strait-hormuz-2026-09-13/",
      "published_cst": "2026-09-14T08:29:26+08:00",
      "time": "09-14 08:29",
-     "body": null
+     "body": null,
+     "title_zh": "沙特和霍尔木兹海峡遭新袭击后油价上涨近3%"
     },
     {
      "title": "AirBaltic entra en concurso de acreedores ante el impacto de la guerra de Irán",
      "url": "https://www.reuters.com/es/negocio/AFWGW5R5TVP4LH6EGHXIAOWPIM-2026-09-14/",
      "published_cst": "2026-09-14T08:27:43+08:00",
      "time": "09-14 08:27",
-     "body": null
+     "body": null,
+     "title_zh": "波罗的海航空因伊朗战争影响进入破产程序"
     },
     {
      "title": "Berlin sees slowdown of economic momentum early in Q3",
      "url": "https://www.reuters.com/world/berlin-sees-slowdown-economic-momentum-early-q3-2026-09-14/",
      "published_cst": "2026-09-14T08:26:02+08:00",
      "time": "09-14 08:26",
-     "body": null
+     "body": null,
+     "title_zh": "柏林预计第三季度初经济势头放缓"
     },
     {
      "title": "Hugo Boss chairman to step down as Frasers pursues takeover",
      "url": "https://www.reuters.com/business/retail-consumer/hugo-boss-chairman-step-down-after-frasers-takeover-pressure-2026-09-14/",
      "published_cst": "2026-09-14T08:25:42+08:00",
      "time": "09-14 08:25",
-     "body": null
+     "body": null,
+     "title_zh": "Hugo Boss董事长将卸任 Frasers寻求收购"
     },
     {
      "title": "Russian strike on train Ukraine-Poland border sought to intimidate, divide Europeans, says France's Barrot",
      "url": "https://www.reuters.com/world/russian-strike-train-ukraine-poland-border-sought-intimidate-divide-europeans-2026-09-14/",
      "published_cst": "2026-09-14T08:22:51+08:00",
      "time": "09-14 08:22",
-     "body": null
+     "body": null,
+     "title_zh": "法国巴罗称俄袭击乌波边境列车意在恐吓分裂欧洲"
     },
     {
      "title": "JO 2030-Vincent Roberti nommé président par intérim du comité d'organisation des Alpes françaises",
      "url": "https://www.reuters.com/fr/sports/jo-2030-vincent-roberti-nomm-prsident-par-intrim-du-comit-dorganisation-des-2026-09-14/",
      "published_cst": "2026-09-14T08:19:01+08:00",
      "time": "09-14 08:19",
-     "body": null
+     "body": null,
+     "title_zh": "JO 2030-文森特·罗贝蒂被任命为法国阿尔卑斯冬奥组委临时主席"
     },
     {
      "title": "OFRSP Summary",
      "url": "https://www.reuters.com/fr/sports/ofrsp-summary-2026-01-29/",
      "published_cst": "2026-09-14T08:18:58+08:00",
      "time": "09-14 08:18",
-     "body": null
+     "body": null,
+     "title_zh": "OFRSP摘要"
     },
     {
      "title": "Companies left China to dodge tariffs. Now some are heading back",
      "url": "https://www.reuters.com/business/retail-consumer/companies-left-china-dodge-tariffs-now-some-are-heading-back-2026-09-14/",
      "published_cst": "2026-09-14T08:18:06+08:00",
      "time": "09-14 08:18",
-     "body": null
+     "body": null,
+     "title_zh": "企业为避关税离开中国，现部分正回归"
     },
     {
      "title": "BioNTech says lung cancer drug candidate prolonged lives in trial",
      "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/biontech-says-lung-cancer-drug-candidate-prolonged-lives-trial-2026-09-14/",
      "published_cst": "2026-09-14T08:15:41+08:00",
      "time": "09-14 08:15",
-     "body": null
+     "body": null,
+     "title_zh": "BioNTech称肺癌候选药物在试验中延长了患者生命"
     },
     {
      "title": "BioNTech verzeichnet Etappenerfolg mit neuem Lungenkrebsmittel",
      "url": "https://www.reuters.com/de/firma/biontech-verzeichnet-etappenerfolg-mit-neuem-lungenkrebsmittel-2026-09-14/",
      "published_cst": "2026-09-14T08:13:40+08:00",
      "time": "09-14 08:13",
-     "body": null
+     "body": null,
+     "title_zh": "BioNTech新型肺癌药物取得阶段性成功"
     },
     {
      "title": "Dax startet schwächer - KI-Entwickler und Ölpreise bremsen",
      "url": "https://www.reuters.com/de/firma/dax-startet-schwcher-ki-entwickler-und-lpreise-bremsen-2026-09-14/",
      "published_cst": "2026-09-14T08:12:15+08:00",
      "time": "09-14 08:12",
-     "body": null
+     "body": null,
+     "title_zh": "德国DAX指数开盘走低——AI开发者与油价拖累"
     },
     {
      "title": "ExxonMobil executive sees US accounting for 30% of global LNG market by 2030",
      "url": "https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/",
      "published_cst": "2026-09-14T08:12:08+08:00",
      "time": "09-14 08:12",
-     "body": null
+     "body": null,
+     "title_zh": "埃克森美孚高管预计到2030年美国将占全球LNG市场30%"
     },
     {
      "title": "South Korea's Lee hits new approval low as housing discontent grows",
      "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-hits-new-approval-low-housing-discontent-grows-2026-09-14/",
      "published_cst": "2026-09-14T08:11:30+08:00",
      "time": "09-14 08:11",
-     "body": null
+     "body": null,
+     "title_zh": "韩国总统李在明支持率创新低，住房不满情绪升温"
     },
     {
      "title": "AirBaltic flüchtet unter US-Insolvenzrecht - Flugbetrieb läuft weiter",
      "url": "https://www.reuters.com/de/firma/airbaltic-flchtet-unter-us-insolvenzrecht-flugbetrieb-luft-weiter-2026-09-14/",
      "published_cst": "2026-09-14T08:09:04+08:00",
      "time": "09-14 08:09",
-     "body": null
+     "body": null,
+     "title_zh": "波罗的海航空申请美国破产保护 航班运营继续"
     },
     {
      "title": "Trump downplays report China entities helped Iran before attack that killed US troops",
      "url": "https://www.reuters.com/world/china/trump-dismisses-report-china-entities-helped-iran-before-attack-that-killed-us-2026-09-14/",
      "published_cst": "2026-09-14T08:08:49+08:00",
      "time": "09-14 08:08",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普淡化有关中国实体在致美军死亡的袭击前帮助伊朗的报道"
     }
    ]
   },
@@ -1139,1106 +1297,1264 @@
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/prabowo-removes-finance-minister-purbaya-in-cabinet-reshuffle",
      "published_cst": "2026-09-14T08:32:56+08:00",
      "time": "09-14 08:32",
-     "body": null
+     "body": null,
+     "title_zh": "普拉博沃内阁改组 撤换财长普尔巴亚"
     },
     {
      "title": "S.Africa Refinery Closures Added $4.7 Billion to Oil-Import Bill",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/s-africa-refinery-closures-added-4-7-billion-to-oil-import-bill",
      "published_cst": "2026-09-14T08:29:42+08:00",
      "time": "09-14 08:29",
-     "body": null
+     "body": null,
+     "title_zh": "南非炼油厂关闭致石油进口费用增加47亿美元"
     },
     {
      "title": "Alcon CEO Says US Drug Pricing Deal May Limit European Products",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/alcon-ceo-says-us-drug-pricing-deal-may-limit-european-products",
      "published_cst": "2026-09-14T08:27:47+08:00",
      "time": "09-14 08:27",
-     "body": null
+     "body": null,
+     "title_zh": "爱尔康CEO称美国药价协议或限制欧洲产品"
     },
     {
      "title": "Ports Giant DP World Redraws Hormuz Logistics With Trucking Bet",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ports-giant-dp-world-redraws-hormuz-logistics-with-trucking-bet",
      "published_cst": "2026-09-14T08:10:45+08:00",
      "time": "09-14 08:10",
-     "body": null
+     "body": null,
+     "title_zh": "港口巨头迪拜环球港务集团押注卡车运输重塑霍尔木兹物流"
     },
     {
      "title": "Thai Billionaire Revives Vietnam Gas Projects in Overseas Push",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/thai-billionaire-revives-vietnam-gas-projects-in-overseas-push",
      "published_cst": "2026-09-14T08:02:06+08:00",
      "time": "09-14 08:02",
-     "body": null
+     "body": null,
+     "title_zh": "泰国亿万富翁重启越南天然气项目以拓展海外市场"
     },
     {
      "title": "OpenAI President Greg Brockman on Doing Business in the Wake of Hugging Face",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-president-greg-brockman-on-doing-business-in-the-wake-of-hugging-face",
      "published_cst": "2026-09-14T08:00:02+08:00",
      "time": "09-14 08:00",
-     "body": null
+     "body": null,
+     "title_zh": "OpenAI总裁格雷格·布罗克曼谈Hugging Face之后的商业运作"
     },
     {
      "title": "ECB Won't Hesitate to Hike Further If Needed, Kazimir Says",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ecb-won-t-hesitate-to-hike-further-if-needed-kazimir-says",
      "published_cst": "2026-09-14T08:00:00+08:00",
      "time": "09-14 08:00",
-     "body": null
+     "body": null,
+     "title_zh": "卡齐米尔称欧洲央行如有需要将毫不犹豫继续加息"
     },
     {
      "title": "Chevron Seeks EU Clarity on Methane Before LNG Import Investment",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/chevron-seeks-eu-clarity-on-methane-before-lng-import-investment",
      "published_cst": "2026-09-14T07:45:00+08:00",
      "time": "09-14 07:45",
-     "body": null
+     "body": null,
+     "title_zh": "雪佛龙在LNG进口投资前寻求欧盟明确甲烷规定"
     },
     {
      "title": "China Rejects AI 'Fearmongering' After Amodei Urges Slowdown",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-rejects-ai-fearmongering-after-amodei-urges-slowdown",
      "published_cst": "2026-09-14T07:39:46+08:00",
      "time": "09-14 07:39",
-     "body": null
+     "body": null,
+     "title_zh": "中国驳斥AI“散布恐慌” 此前阿莫代伊呼吁放缓"
     },
     {
      "title": "Hugo Boss Chairman Sturm to Step Down Amid Frasers Pressure",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/hugo-boss-chairman-sturm-to-step-down-amid-frasers-pressure",
      "published_cst": "2026-09-14T07:26:30+08:00",
      "time": "09-14 07:26",
-     "body": null
+     "body": null,
+     "title_zh": "Hugo Boss董事长施图姆在Frasers压力下将卸任"
     },
     {
      "title": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/icbc-hsbc-among-major-lenders-on-bytedance-s-30-billion-loan",
      "published_cst": "2026-09-14T07:20:56+08:00",
      "time": "09-14 07:20",
-     "body": null
+     "body": null,
+     "title_zh": "工商银行、汇丰等大型银行参与字节跳动300亿美元贷款"
     },
     {
      "title": "Burnham Urges 'Culture Shift' to Reward Risk Takers",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/burnham-urges-culture-shift-to-reward-risk-takers",
      "published_cst": "2026-09-14T07:16:57+08:00",
      "time": "09-14 07:16",
-     "body": null
+     "body": null,
+     "title_zh": "伯纳姆呼吁“文化转变”以奖励风险承担者"
     },
     {
      "title": "Latvian Carrier Air Baltic Seeks Chapter 11 Restructuring",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/air-baltic-files-for-chapter-11-to-help-restructure-debts",
      "published_cst": "2026-09-14T07:08:38+08:00",
      "time": "09-14 07:08",
-     "body": null
+     "body": null,
+     "title_zh": "拉脱维亚航空波罗的海航空寻求破产重组"
     },
     {
      "title": "Uniper to Sell Stake in Opal Gas Pipe to Meet EU Bailout Demands",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/uniper-to-sell-stake-in-opal-gas-pipe-to-meet-eu-bailout-demands",
      "published_cst": "2026-09-14T07:08:11+08:00",
      "time": "09-14 07:08",
-     "body": null
+     "body": null,
+     "title_zh": "尤尼珀将出售欧珀天然气管道股份以满足欧盟救助要求"
     },
     {
      "title": "Novo Will Use Shorter Name to Boost Recognition in Obesity",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/novo-will-shorten-its-name-to-boost-recognition-in-obesity",
      "published_cst": "2026-09-14T07:06:13+08:00",
      "time": "09-14 07:06",
-     "body": null
+     "body": null,
+     "title_zh": "诺和诺德将启用短名提升减肥领域认知度"
     },
     {
      "title": "Skills and Goals Bosses Are Aiming for by the End of 2026",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/skills-and-goals-bosses-are-aiming-for-by-the-end-of-2026",
      "published_cst": "2026-09-14T07:05:02+08:00",
      "time": "09-14 07:05",
-     "body": null
+     "body": null,
+     "title_zh": "老板们力争到2026年底掌握的技能与目标"
     },
     {
      "title": "Japan's Chubu Electric Halts Plans for Nuclear Restart",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/japan-s-chubu-electric-halts-plans-for-nuclear-reactor-restart",
      "published_cst": "2026-09-14T06:44:12+08:00",
      "time": "09-14 06:44",
-     "body": null
+     "body": null,
+     "title_zh": "日本中部电力暂停核电站重启计划"
     },
     {
      "title": "Astra Breast Cancer Pill Miss May Trim Billions From Sales",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/astrazeneca-breast-cancer-pill-miss-may-trim-billions-from-sales",
      "published_cst": "2026-09-14T06:41:51+08:00",
      "time": "09-14 06:41",
-     "body": null
+     "body": null,
+     "title_zh": "阿斯利康乳腺癌药丸未达预期或损失数十亿销售额"
     },
     {
      "title": "Solar Industries Bids $1.4 Billion for South Africa's Omnia",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/solar-industries-bids-1-4-billion-for-south-africa-s-omnia",
      "published_cst": "2026-09-14T06:40:22+08:00",
      "time": "09-14 06:40",
-     "body": null
+     "body": null,
+     "title_zh": "太阳能工业公司出价14亿美元收购南非奥姆尼亚公司"
     },
     {
      "title": "Monte Paschi Vows to Keep Up Bids Even If Intesa Takes It Over",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/monte-paschi-vows-to-keep-up-bids-even-if-intesa-takes-it-over",
      "published_cst": "2026-09-14T06:27:42+08:00",
      "time": "09-14 06:27",
-     "body": null
+     "body": null,
+     "title_zh": "锡耶纳牧山银行誓言即使被联合圣保罗银行收购也将继续竞标"
     },
     {
      "title": "Data Center Firm Firmus Said to Seek $5 Billion in Australia IPO",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/data-center-firm-firmus-said-to-seek-5-billion-in-australia-ipo",
      "published_cst": "2026-09-14T06:20:54+08:00",
      "time": "09-14 06:20",
-     "body": null
+     "body": null,
+     "title_zh": "数据中心公司Firmus拟在澳IPO募资50亿美元"
     },
     {
      "title": "Asian Refiners Seek Saudi Updates After Oil Pipeline Closure",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/asia-refiners-seek-saudi-updates-after-oil-pipeline-closure",
      "published_cst": "2026-09-14T06:09:41+08:00",
      "time": "09-14 06:09",
-     "body": null
+     "body": null,
+     "title_zh": "亚洲炼油商在石油管道关闭后寻求沙特最新消息"
     },
     {
      "title": "Stocks Decline After Call to Slow AI Development",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/stocks-decline-after-call-to-slow-ai-development",
      "published_cst": "2026-09-14T06:06:48+08:00",
      "time": "09-14 06:06",
-     "body": null
+     "body": null,
+     "title_zh": "呼吁放缓AI发展后股市下跌"
     },
     {
      "title": "UK's Boomers Cling to Jobs as Young People Get Locked Out",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/britain-s-boomers-cling-to-jobs-as-young-people-get-locked-out",
      "published_cst": "2026-09-14T06:00:00+08:00",
      "time": "09-14 06:00",
-     "body": null
+     "body": null,
+     "title_zh": "英国婴儿潮一代紧守岗位，年轻人被拒之门外"
     },
     {
      "title": "How India and China Took Steps to Reset Ties At BRICS: Live Q&amp;A",
      "url": "https://www.bloomberg.com/sessions/2026-09-14/live-q-amp-a-how-india-and-china-are-finding-common-ground",
      "published_cst": "2026-09-14T05:57:29+08:00",
      "time": "09-14 05:57",
-     "body": null
+     "body": null,
+     "title_zh": "印度和中国如何在金砖国家会议上采取措施重置关系：实时问答"
     },
     {
      "title": "EU Chief Rejects Banks' Bid to Split Reform Package in Two",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/eu-chief-rejects-banks-bid-to-split-reform-package-in-two",
      "published_cst": "2026-09-14T05:52:37+08:00",
      "time": "09-14 05:52",
-     "body": null
+     "body": null,
+     "title_zh": "欧盟负责人拒绝银行将改革方案一分为二的提议"
     },
     {
      "title": "FTSE 100 Live: UK Stock Futures Rise as Oil Marches Higher",
      "url": "https://www.bloomberg.com/news/live-blog/2026-09-14/ftse-100-live-pound-bond-oil-prices-iran-trump-hormuz-ai-stocks-boe-what-s-moving-uk-markets-right-now-markets-today-mu0toq7x",
      "published_cst": "2026-09-14T05:49:02+08:00",
      "time": "09-14 05:49",
-     "body": null
+     "body": null,
+     "title_zh": "富时100直播：油价攀升，英国股指期货上涨"
     },
     {
      "title": "Philippine Marcos' Cousin to be Transferred from Hospital to Regular Jail",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/philippine-marcos-cousin-to-be-transferred-from-hospital-to-regular-jail",
      "published_cst": "2026-09-14T05:48:34+08:00",
      "time": "09-14 05:48",
-     "body": null
+     "body": null,
+     "title_zh": "菲律宾马科斯表弟将从医院转至普通监狱"
     },
     {
      "title": "OpenAI's Altman Voices Support for 'Pacing' AI Development",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-s-altman-voices-support-for-pacing-ai-development",
      "published_cst": "2026-09-14T05:09:52+08:00",
      "time": "09-14 05:09",
-     "body": null
+     "body": null,
+     "title_zh": "OpenAI的奥特曼支持“放缓”AI发展"
     },
     {
      "title": "Australian Miner Seeks Cheaper Bond to Refinance Private Loan",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/australian-miner-seeks-cheaper-bond-to-refinance-private-loan",
      "published_cst": "2026-09-14T04:59:42+08:00",
      "time": "09-14 04:59",
-     "body": null
+     "body": null,
+     "title_zh": "澳洲矿企寻求更廉价债券为私人贷款再融资"
     },
     {
      "title": "Oman Calls for Alternative LNG Routes That Can Bypass Hormuz",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/oman-calls-for-alternative-lng-routes-that-can-bypass-hormuz",
      "published_cst": "2026-09-14T04:51:19+08:00",
      "time": "09-14 04:51",
-     "body": null
+     "body": null,
+     "title_zh": "阿曼呼吁开辟可绕过霍尔木兹海峡的替代液化天然气航线"
     },
     {
      "title": "Pepco Bets on Africa Supply Hubs as Global Shipping Lanes Fray",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/pepco-bets-on-africa-supply-hubs-as-global-shipping-lanes-fray",
      "published_cst": "2026-09-14T04:30:02+08:00",
      "time": "09-14 04:30",
-     "body": null
+     "body": null,
+     "title_zh": "Pepco押注非洲供应枢纽应对全球航运受阻"
     },
     {
      "title": "Skiing Aussies Drive New Zealand Tourist Arrivals to July Record",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/skiing-aussies-drive-new-zealand-tourist-arrivals-to-july-record",
      "published_cst": "2026-09-14T04:27:26+08:00",
      "time": "09-14 04:27",
-     "body": null
+     "body": null,
+     "title_zh": "澳大利亚滑雪客推动新西兰7月游客人数创纪录"
     },
     {
      "title": "Ligent Technologies Seeks $727 Million in Hong Kong IPO",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo",
      "published_cst": "2026-09-14T04:21:05+08:00",
      "time": "09-14 04:21",
-     "body": null
+     "body": null,
+     "title_zh": "利扬科技寻求香港IPO募资7.27亿美元"
     },
     {
      "title": "Inflation: Warsh Talked the Fed Into a Rates Trap",
      "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-14/inflation-warsh-talked-the-fed-into-a-rates-trap",
      "published_cst": "2026-09-14T04:01:40+08:00",
      "time": "09-14 04:01",
-     "body": null
+     "body": null,
+     "title_zh": "通胀：沃什说服美联储陷入利率陷阱"
     },
     {
      "title": "Trump's \"Little War\" With Iran Just Got Bigger Because of the Houthis",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis",
      "published_cst": "2026-09-14T04:01:06+08:00",
      "time": "09-14 04:01",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普与伊朗的“小战争”因胡塞武装而升级"
     },
     {
      "title": "Robinhood Can't Disrupt Its Way Into the IPO Club",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/robinhood-can-t-disrupt-its-way-into-the-ipo-club",
      "published_cst": "2026-09-14T04:01:02+08:00",
      "time": "09-14 04:01",
-     "body": null
+     "body": null,
+     "title_zh": "Robinhood无法颠覆进入IPO俱乐部"
     },
     {
      "title": "Portsmouth Violence: British Balaclava Mob Deserves a Hard Response",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/portsmouth-violence-british-balaclava-mob-deserves-a-hard-response",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "朴茨茅斯暴力事件：英国蒙面暴徒应受严惩"
     },
     {
      "title": "Switzerland Debates Longstanding Neutrality Ahead of Vote This Month",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/switzerland-debates-longstanding-neutrality-ahead-of-vote-this-month",
      "published_cst": "2026-09-14T04:00:02+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "瑞士本月投票前辩论长期中立立场"
     },
     {
      "title": "Europe's Fractured Stock Market Finally Gets a Single Data Feed",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/europe-s-fractured-stock-market-finally-gets-a-single-data-feed",
      "published_cst": "2026-09-14T04:00:00+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "欧洲分裂的股市终于迎来统一数据源"
     },
     {
      "title": "Bank of England's Dovish Majority Tested by Iran War Pressures",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures",
      "published_cst": "2026-09-14T04:00:00+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "英国央行鸽派多数面临伊朗战争压力考验"
     },
     {
      "title": "South Korea's $1.4 Trillion National Pension Fund Picks New CIO",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/south-korea-s-1-4-trillion-national-pension-fund-picks-new-cio",
      "published_cst": "2026-09-14T03:52:40+08:00",
      "time": "09-14 03:52",
-     "body": null
+     "body": null,
+     "title_zh": "韩国1.4万亿美元国民年金基金选定新首席投资官"
     },
     {
      "title": "Beijing Bans Drones in Broad Curbs After Citic Tower Crash",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/beijing-bans-drones-in-sweeping-curbs-after-citic-tower-crash",
      "published_cst": "2026-09-14T03:37:27+08:00",
      "time": "09-14 03:37",
-     "body": null
+     "body": null,
+     "title_zh": "北京在中信大厦坠机事件后大范围限制无人机"
     },
     {
      "title": "China Spy Chief Warns of AI Risks as US Tech Leaders Urge Brakes",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-spy-chief-warns-of-ai-risks-as-us-tech-leaders-urge-brakes",
      "published_cst": "2026-09-14T03:07:23+08:00",
      "time": "09-14 03:07",
-     "body": null
+     "body": null,
+     "title_zh": "中国间谍首脑警告AI风险，美国科技领袖呼吁刹车"
     },
     {
      "title": "Easing the Diesel Crunch Is Harder Than Keeping Planes in the Air",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/easing-the-diesel-crunch-is-harder-than-keeping-planes-in-the-air",
      "published_cst": "2026-09-14T03:00:02+08:00",
      "time": "09-14 03:00",
-     "body": null
+     "body": null,
+     "title_zh": "缓解柴油短缺比让飞机保持飞行更难"
     },
     {
      "title": "Australian Gold Miner Northern Star Appoints Cutifani to Board",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/australian-gold-miner-northern-star-appoints-cutifani-to-board",
      "published_cst": "2026-09-14T02:58:00+08:00",
      "time": "09-14 02:58",
-     "body": null
+     "body": null,
+     "title_zh": "澳大利亚金矿商Northern Star任命库蒂法尼为董事"
     },
     {
      "title": "Funds Bet New Zealand Bonds Will Beat Global Peers on Slow Hikes",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/funds-bet-new-zealand-bonds-will-beat-global-peers-on-slow-hikes",
      "published_cst": "2026-09-14T02:56:06+08:00",
      "time": "09-14 02:56",
-     "body": null
+     "body": null,
+     "title_zh": "基金押注新西兰债券因加息缓慢将跑赢全球同行"
     },
     {
      "title": "Sungrow Hikes Product Prices After Raw Material Cost Increase",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/sungrow-hikes-product-prices-after-raw-material-cost-increase",
      "published_cst": "2026-09-14T02:53:02+08:00",
      "time": "09-14 02:53",
-     "body": null
+     "body": null,
+     "title_zh": "阳光电源因原材料成本上涨上调产品价格"
     },
     {
      "title": "Z.AI's Cash Burn Drives Alibaba-Like HK Fundraising Spree",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/z-ai-s-cash-burn-drives-alibaba-like-hong-kong-fundraising-spree",
      "published_cst": "2026-09-14T02:22:27+08:00",
      "time": "09-14 02:22",
-     "body": null
+     "body": null,
+     "title_zh": "智谱AI烧钱引发阿里式港股融资潮"
     },
     {
      "title": "Copper Slips as Inflation Data Raises Bets on Fed Hiking Rates",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/copper-slips-as-inflation-data-raises-bets-on-fed-hiking-rates",
      "published_cst": "2026-09-14T02:19:58+08:00",
      "time": "09-14 02:19",
-     "body": null
+     "body": null,
+     "title_zh": "铜价下跌，通胀数据加剧美联储加息预期"
     },
     {
      "title": "Samsung, SK Hynix Reject Kepco's Power Grid Prepayment Plan",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-sk-hynix-reject-kepco-s-power-grid-prepayment-plan",
      "published_cst": "2026-09-14T02:16:46+08:00",
      "time": "09-14 02:16",
-     "body": null
+     "body": null,
+     "title_zh": "三星和SK海力士拒绝韩国电力公司的电网预付费计划"
     },
     {
      "title": "Korea's Gender Minister Nominee Pulls Out in Fresh Blow to Lee",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/korea-s-gender-minister-nominee-pulls-out-in-fresh-blow-to-lee",
      "published_cst": "2026-09-14T02:07:04+08:00",
      "time": "09-14 02:07",
-     "body": null
+     "body": null,
+     "title_zh": "韩国性别部长提名人退出，再挫李在明"
     },
     {
      "title": "AI Bosses Risk Clash With Wall Street and Trump Over Safety",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/ai-bosses-risk-clash-with-wall-street-and-trump-over-safety-call",
      "published_cst": "2026-09-14T02:02:50+08:00",
      "time": "09-14 02:02",
-     "body": null
+     "body": null,
+     "title_zh": "AI高管或因安全问题与华尔街和特朗普起冲突"
     },
     {
      "title": "China's Economy Enters Critical Phase Determining 2026 Stimulus",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-s-economy-enters-critical-phase-determining-2026-stimulus",
      "published_cst": "2026-09-14T02:00:00+08:00",
      "time": "09-14 02:00",
-     "body": null
+     "body": null,
+     "title_zh": "中国经济进入决定2026年刺激政策的关键阶段"
     },
     {
      "title": "Chevron Australia Sees LNG Prices Staying High for Six Months",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/chevron-australia-sees-lng-prices-staying-high-for-six-months",
      "published_cst": "2026-09-14T01:51:49+08:00",
      "time": "09-14 01:51",
-     "body": null
+     "body": null,
+     "title_zh": "雪佛龙澳大利亚预计液化天然气价格将维持高位六个月"
     },
     {
      "title": "India Beats a Hasty Retreat From a Crucial Market Reform",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/india-beats-a-hasty-retreat-from-a-crucial-market-reform",
      "published_cst": "2026-09-14T01:47:28+08:00",
      "time": "09-14 01:47",
-     "body": null
+     "body": null,
+     "title_zh": "印度匆忙撤回一项关键市场改革"
     },
     {
      "title": "SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push",
      "published_cst": "2026-09-14T01:42:42+08:00",
      "time": "09-14 01:42",
-     "body": null
+     "body": null,
+     "title_zh": "软银获119亿美元贷款加码OpenAI投资"
     },
     {
      "title": "Trump's Crypto Push Opens Perpetuals Race to Singapore Exchange",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/trump-s-crypto-push-opens-perpetuals-race-to-singapore-exchange",
      "published_cst": "2026-09-14T01:38:26+08:00",
      "time": "09-14 01:38",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普推动加密货币，新加坡交易所加入永续合约竞赛"
     },
     {
      "title": "Autonomous Muslim Region in Philippines Holds First Election to Cement Peace",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/autonomous-muslim-region-in-philippines-holds-first-election-to-cement-peace",
      "published_cst": "2026-09-14T00:48:00+08:00",
      "time": "09-14 00:48",
-     "body": null
+     "body": null,
+     "title_zh": "菲律宾穆斯林自治区举行首次选举以巩固和平"
     },
     {
      "title": "Amtrak Trains Between Boston, New York Disrupted Due to Flooding",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/amtrak-trains-between-boston-new-york-disrupted-due-to-flooding",
      "published_cst": "2026-09-14T00:45:32+08:00",
      "time": "09-14 00:45",
-     "body": null
+     "body": null,
+     "title_zh": "波士顿至纽约美铁列车因洪水中断"
     },
     {
      "title": "Gold Steady as Hot US Inflation Bolsters Chance of Rate Hike",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/gold-edges-lower-as-hot-us-inflation-bolsters-fed-rate-hike-bets",
      "published_cst": "2026-09-14T00:33:00+08:00",
      "time": "09-14 00:33",
-     "body": null
+     "body": null,
+     "title_zh": "金价持稳，美国通胀升温增强加息预期"
     },
     {
      "title": "SoftBank Shares Tumble After AI Chiefs Sound Alarm on Safety",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-group-shares-fall-after-openai-ipo-delay-ai-warning",
      "published_cst": "2026-09-14T00:32:05+08:00",
      "time": "09-14 00:32",
-     "body": null
+     "body": null,
+     "title_zh": "软银股价大跌，AI负责人就安全发出警告"
     },
     {
      "title": "China Tax Clampdown Raises Fears of Founder Share Disposals",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-s-tax-clampdown-raises-fears-of-founder-share-disposals",
      "published_cst": "2026-09-14T00:03:09+08:00",
      "time": "09-14 00:03",
-     "body": null
+     "body": null,
+     "title_zh": "中国税务严查引发创始人抛售股票担忧"
     },
     {
      "title": "Why Singapore Is the World's Most Expensive City for New Car Buyers",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/why-singapore-is-the-world-s-most-expensive-city-for-new-car-buyers",
      "published_cst": "2026-09-14T00:00:02+08:00",
      "time": "09-14 00:00",
-     "body": null
+     "body": null,
+     "title_zh": "为何新加坡是全球新车购置成本最高的城市"
     },
     {
      "title": "Housing Market, Bathla, AI: Australia Briefing",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/housing-market-bathla-ai-australia-briefing",
      "published_cst": "2026-09-13T23:17:39+08:00",
      "time": "09-13 23:17",
-     "body": null
+     "body": null,
+     "title_zh": "房地产市场、Bathla、人工智能：澳大利亚简报"
     },
     {
      "title": "Trump EPA to Rescind Carbon Standards for Coal, Gas Power Plants",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-epa-to-rescind-carbon-standards-for-coal-gas-power-plants",
      "published_cst": "2026-09-13T23:06:54+08:00",
      "time": "09-13 23:06",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普环保署将撤销燃煤和燃气电厂碳排放标准"
     },
     {
      "title": "Takaichi Ally Wins Okinawa Vote, Aiding Military Build-Up",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/takaichi-ally-wins-okinawa-vote-aiding-military-build-up-plans",
      "published_cst": "2026-09-13T23:01:22+08:00",
      "time": "09-13 23:01",
-     "body": null
+     "body": null,
+     "title_zh": "高市盟友赢得冲绳选举，助力军事扩张"
     },
     {
      "title": "Anthropic Expects an Operating Profit This Quarter, FT Says",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-sees-adjusted-operating-profit-this-quarter-ft-says",
      "published_cst": "2026-09-13T23:00:25+08:00",
      "time": "09-13 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "Anthropic预计本季度实现营业利润，据FT报道"
     },
     {
      "title": "Xi-Modi Thaw at BRICS Masks Deep Divisions Between Asian Rivals",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/xi-modi-thaw-at-brics-masks-deep-divisions-between-asian-rivals",
      "published_cst": "2026-09-13T23:00:00+08:00",
      "time": "09-13 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "金砖峰会中印关系缓和难掩两国深层分歧"
     },
     {
      "title": "A $7 Billion Gas Bill Sees Developing Asian Nations Sour on LNG",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/a-7-billion-gas-bill-sees-developing-asian-nations-sour-on-lng",
      "published_cst": "2026-09-13T23:00:00+08:00",
      "time": "09-13 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "70亿美元天然气账单让亚洲发展中国家对液化天然气不满"
     },
     {
      "title": "Swedish Voters Left in Limbo for Days in Closest Ever Election",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/swedish-voters-left-in-limbo-for-days-in-closest-ever-election",
      "published_cst": "2026-09-13T22:53:41+08:00",
      "time": "09-13 22:53",
-     "body": null
+     "body": null,
+     "title_zh": "瑞典选民在史上最胶着大选中悬而未决数日"
     },
     {
      "title": "Stocks Slide as AI and Oil Jitters Hit Sentiment: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
      "published_cst": "2026-09-13T22:06:01+08:00",
      "time": "09-13 22:06",
-     "body": null
+     "body": null,
+     "title_zh": "股市下跌，AI与石油担忧打击市场情绪：市场综述"
     },
     {
      "title": "Latest Oil Market News and Analysis for Sept. 14",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
      "published_cst": "2026-09-13T22:01:52+08:00",
      "time": "09-13 22:01",
-     "body": null
+     "body": null,
+     "title_zh": "9月14日石油市场最新新闻与分析"
     },
     {
      "title": "Amazon Spends More on Sports Than Netflix, YouTube Combined",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/amazon-spends-more-on-sports-than-netflix-youtube-combined",
      "published_cst": "2026-09-13T22:00:01+08:00",
      "time": "09-13 22:00",
-     "body": null
+     "body": null,
+     "title_zh": "亚马逊体育投入超奈飞和YouTube总和"
     },
     {
      "title": "AI Giants Urge Slower Development to Address Safety Concerns",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/ai-giants-urge-slower-development-to-address-safety-concerns",
      "published_cst": "2026-09-13T21:30:45+08:00",
      "time": "09-13 21:30",
-     "body": null
+     "body": null,
+     "title_zh": "AI巨头呼吁放缓开发以应对安全担忧"
     },
     {
      "title": "Burnham Says UK Needs 'Culture Shift' to Support Risk Takers",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/burnham-says-uk-needs-culture-shift-to-support-risk-takers",
      "published_cst": "2026-09-13T21:30:00+08:00",
      "time": "09-13 21:30",
-     "body": null
+     "body": null,
+     "title_zh": "伯纳姆称英国需转变文化以支持风险承担者"
     },
     {
      "title": "Trump Basks as Irish Open Host in Brief Break From Midterm Woes",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-basks-as-irish-open-host-in-brief-break-from-midterm-woes",
      "published_cst": "2026-09-13T20:35:05+08:00",
      "time": "09-13 20:35",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普借爱尔兰公开赛东道主身份暂避中期选举困扰"
     },
     {
      "title": "CFOs Face a Tougher Call on When to Borrow (ASAN, TOBA)",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/cfos-face-a-tougher-call-on-when-to-borrow-asan-toba",
      "published_cst": "2026-09-13T20:00:02+08:00",
      "time": "09-13 20:00",
-     "body": null
+     "body": null,
+     "title_zh": "首席财务官面临更艰难的借贷时机抉择"
     },
     {
      "title": "Hormuz Meeting With Iran and Gulf Nations Delayed, Oman Says",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/hormuz-meeting-with-iran-and-gulf-nations-postponed-oman-says",
      "published_cst": "2026-09-13T19:17:03+08:00",
      "time": "09-13 19:17",
-     "body": null
+     "body": null,
+     "title_zh": "阿曼称与伊朗及海湾国家的霍尔木兹会议推迟"
     },
     {
      "title": "Indonesia's Green Fuel Boom Is Incinerating the Rainforest",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/indonesia-s-green-fuel-boom-is-incinerating-the-rainforest",
      "published_cst": "2026-09-13T19:00:02+08:00",
      "time": "09-13 19:00",
-     "body": null
+     "body": null,
+     "title_zh": "印尼绿色燃料热潮正在焚毁雨林"
     },
     {
      "title": "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/a-5-treasury-yield-is-raising-new-risks-for-markets-economy",
      "published_cst": "2026-09-13T19:00:00+08:00",
      "time": "09-13 19:00",
-     "body": null
+     "body": null,
+     "title_zh": "5%美债收益率给市场和经济带来新风险"
     },
     {
      "title": "Sweden's Election Race Tightens After Center-Left's Strong Start",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/sweden-s-social-democrat-led-bloc-takes-lead-in-exit-poll",
      "published_cst": "2026-09-13T18:10:02+08:00",
      "time": "09-13 18:10",
-     "body": null
+     "body": null,
+     "title_zh": "瑞典中左翼强势开局后选情收紧"
     },
     {
      "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing",
      "published_cst": "2026-09-13T18:03:59+08:00",
      "time": "09-13 18:03",
-     "body": null
+     "body": null,
+     "title_zh": "Anthropic据称选择纳斯达克进行备受期待的IPO"
     },
     {
      "title": "Yen Rally: Bessent Doubles Down on House of the Rising Sun",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/yen-rally-bessent-doubles-down-on-house-of-the-rising-sun",
      "published_cst": "2026-09-13T18:00:02+08:00",
      "time": "09-13 18:00",
-     "body": null
+     "body": null,
+     "title_zh": "日元上涨：贝森特加码押注日本加息"
     },
     {
      "title": "Trump Says He Will Eliminate US Tariffs on Irish Whiskey",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-says-he-ll-remove-us-tariffs-on-irish-whiskey-mu03xgtq",
      "published_cst": "2026-09-13T17:47:59+08:00",
      "time": "09-13 17:47",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普称将取消对爱尔兰威士忌的美国关税"
     },
     {
      "title": "US Energy Chief Downplays Chance of Hormuz Advance With Iran",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-energy-chief-downplays-chance-of-hormuz-advance-with-iran",
      "published_cst": "2026-09-13T16:20:21+08:00",
      "time": "09-13 16:20",
-     "body": null
+     "body": null,
+     "title_zh": "美能源部长淡化与伊朗在霍尔木兹海峡取得进展的可能性"
     },
     {
      "title": "Amodei Essay: Anthropic AI Apocalypse Warning Is Far Too Weak",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/amodei-essay-anthropic-ai-apocalypse-warning-is-far-too-weak",
      "published_cst": "2026-09-13T15:00:22+08:00",
      "time": "09-13 15:00",
-     "body": null
+     "body": null,
+     "title_zh": "阿莫代伊文章：Anthropic的AI末日警告太弱了"
     },
     {
      "title": "Trump Defends His Support for Irish Unity Despite UK Uproar",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-defends-his-support-for-unified-ireland-despite-uk-uproar",
      "published_cst": "2026-09-13T14:52:25+08:00",
      "time": "09-13 14:52",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普不顾英国强烈反对捍卫其对爱尔兰统一的支持"
     },
     {
      "title": "Trump Demands Ukraine Halt Refinery Strikes as Diesel Surges",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-demands-ukraine-halt-refinery-strikes-as-diesel-surges",
      "published_cst": "2026-09-13T14:38:16+08:00",
      "time": "09-13 14:38",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普要求乌克兰停止袭击炼油厂，柴油价格飙升"
     },
     {
      "title": "Trump Says He's Not Worried About Xi Calling Off Summit",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-says-he-s-not-worried-about-xi-calling-off-summit",
      "published_cst": "2026-09-13T14:10:36+08:00",
      "time": "09-13 14:10",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普称不担心习近平取消峰会"
     },
     {
      "title": "Hassett Says White House Will 100% Support Fed's Next Decision",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/hassett-says-white-house-will-100-support-fed-s-next-decision",
      "published_cst": "2026-09-13T14:01:10+08:00",
      "time": "09-13 14:01",
-     "body": null
+     "body": null,
+     "title_zh": "哈塞特称白宫将百分百支持美联储下一步决定"
     },
     {
      "title": "LIV Golf Spent Billions, Feuded With PGA on Path to Chapter 11: Big Take Podcast",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/liv-golf-spent-billions-feuded-with-pga-on-path-to-chapter-11-big-take-podcast-mtzvsbjo",
      "published_cst": "2026-09-13T14:00:02+08:00",
      "time": "09-13 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "LIV高尔夫斥资数十亿，与PGA争斗，走向破产：大事件播客"
     },
     {
      "title": "Apple's iPhone Duo Will Make Foldable Phones the New Normal; Apple Store Revamp",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/apple-s-iphone-duo-will-make-foldable-phones-the-new-normal-apple-store-revamp-mtzvsb60",
      "published_cst": "2026-09-13T14:00:01+08:00",
      "time": "09-13 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "苹果iPhone双雄将让折叠屏手机成为新常态；苹果商店改版"
     },
     {
      "title": "Traders Hedging Stock Rally Split on Plunge or Drift Protection",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/traders-hedging-stock-rally-split-on-plunge-or-drift-protection",
      "published_cst": "2026-09-13T14:00:00+08:00",
      "time": "09-13 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "交易员对冲股市涨势，在暴跌或缓跌保护间分歧"
     },
     {
      "title": "Trump Downplays AI Concerns as CEOs Call for Slowing Pace",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-downplays-ai-concerns-as-ceos-call-for-slowing-technology",
      "published_cst": "2026-09-13T13:59:48+08:00",
      "time": "09-13 13:59",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普淡化人工智能担忧，CEO们呼吁放缓步伐"
     },
     {
      "title": "Trump Pushes Fed to Lower Rates Despite Pressure For a Hike",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-pushes-fed-to-lower-rates-despite-pressure-to-raise-them",
      "published_cst": "2026-09-13T13:45:52+08:00",
      "time": "09-13 13:45",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普施压美联储降息，无视加息压力"
     },
     {
      "title": "Trump Urges Zelenskyy to Stop Hitting Russia's Diesel Refineries",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-urges-zelenskyy-to-stop-hitting-russia-s-diesel-refineries",
      "published_cst": "2026-09-13T13:30:59+08:00",
      "time": "09-13 13:30",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普敦促泽连斯基停止打击俄罗斯柴油炼油厂"
     },
     {
      "title": "LA's Lucas Museum Shines Spotlight on Architect Ma Yansong",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/la-s-lucas-museum-shines-spotlight-on-architect-ma-yansong",
      "published_cst": "2026-09-13T13:12:42+08:00",
      "time": "09-13 13:12",
-     "body": null
+     "body": null,
+     "title_zh": "洛杉矶卢卡斯博物馆聚焦建筑师马岩松"
     },
     {
      "title": "Fayed Abuse Victims Seek Up to £150 Million From Harrods",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/fayed-victims-seek-up-to-150-million-from-harrods-after-abuse",
      "published_cst": "2026-09-13T13:00:00+08:00",
      "time": "09-13 13:00",
-     "body": null
+     "body": null,
+     "title_zh": "法耶德虐待受害者向哈罗德索赔高达1.5亿英镑"
     },
     {
      "title": "China and Russia Have Sea, Space and Cyberspace Under Siege",
      "url": "https://www.bloomberg.com/opinion/features/2026-09-13/china-and-russia-have-sea-space-and-cyberspace-under-siege",
      "published_cst": "2026-09-13T12:00:04+08:00",
      "time": "09-13 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "中俄在海陆空及网络空间遭围堵"
     },
     {
      "title": "Congress Should Follow California's Lead on AI Laws",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/congress-should-follow-california-s-lead-on-ai-laws",
      "published_cst": "2026-09-13T12:00:02+08:00",
      "time": "09-13 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "国会应效仿加州制定人工智能法律"
     },
     {
      "title": "IPhone Duo: A Device for People Who Can't Type",
      "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-13/iphone-duo-a-device-for-people-who-can-t-type",
      "published_cst": "2026-09-13T12:00:01+08:00",
      "time": "09-13 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "iPhone双机：为不会打字的人设计的设备"
     },
     {
      "title": "Ukraine Says Passenger Train Headed to Warsaw Hit by Drone",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/ukraine-says-passenger-train-headed-to-warsaw-is-hit-by-drone",
      "published_cst": "2026-09-13T10:52:02+08:00",
      "time": "09-13 10:52",
-     "body": null
+     "body": null,
+     "title_zh": "乌克兰称开往华沙的客运列车遭无人机袭击"
     },
     {
      "title": "Labour Signals Action Against Farage's Crypto Donation Surge",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/labour-signals-action-to-stifle-farage-s-crypto-donation-surge",
      "published_cst": "2026-09-13T09:40:48+08:00",
      "time": "09-13 09:40",
-     "body": null
+     "body": null,
+     "title_zh": "工党示意对法拉奇加密货币捐款激增采取行动"
     },
     {
      "title": "Xi Pitches AI Vision at BRICS Summit as China Duels With US",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/xi-pitches-his-ai-vision-at-brics-summit-as-china-duels-with-us",
      "published_cst": "2026-09-13T09:10:57+08:00",
      "time": "09-13 09:10",
-     "body": null
+     "body": null,
+     "title_zh": "习近平在金砖峰会上提出人工智能愿景 中国与美国展开较量"
     },
     {
      "title": "Ukraine Strikes Russian Refineries as Odesa Ports Targeted",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/russia-strikes-ukraine-power-sites-as-kyiv-targets-refining-hub",
      "published_cst": "2026-09-13T08:28:19+08:00",
      "time": "09-13 08:28",
-     "body": null
+     "body": null,
+     "title_zh": "乌克兰袭击俄罗斯炼油厂，敖德萨港口遭袭"
     },
     {
      "title": "How Likely Is It That AI Kills Us All?",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/how-likely-is-it-that-ai-kills-us-all",
      "published_cst": "2026-09-13T08:00:02+08:00",
      "time": "09-13 08:00",
-     "body": null
+     "body": null,
+     "title_zh": "人工智能灭绝人类可能性多大？"
     },
     {
      "title": "UK Tech Spinouts Are Struggling Outside the Golden Triangle",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/uk-tech-spinouts-are-struggling-outside-the-golden-triangle",
      "published_cst": "2026-09-13T08:00:00+08:00",
      "time": "09-13 08:00",
-     "body": null
+     "body": null,
+     "title_zh": "英国科技衍生企业难以走出黄金三角"
     },
     {
      "title": "Asia Chip Stocks Drop as AI Chiefs Urge Slower Model Development",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact",
      "published_cst": "2026-09-13T08:00:00+08:00",
      "time": "09-13 08:00",
-     "body": null
+     "body": null,
+     "title_zh": "亚洲芯片股下跌，AI高管呼吁放缓模型开发"
     },
     {
      "title": "Israel Election: Netanyahu Rival Eisenkot Can at Least Promise Less War",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/israel-election-netanyahu-rival-eisenkot-can-at-least-promise-less-war",
      "published_cst": "2026-09-13T07:00:02+08:00",
      "time": "09-13 07:00",
-     "body": null
+     "body": null,
+     "title_zh": "以色列大选：内塔尼亚胡对手艾森科特至少承诺减少战争"
     },
     {
      "title": "Australia Spring Property Season Sees Auctions Rise but Volumes Stay 34% Lower",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/australia-spring-property-season-sees-auctions-rise-but-volumes-stay-34-lower",
      "published_cst": "2026-09-13T06:35:36+08:00",
      "time": "09-13 06:35",
-     "body": null
+     "body": null,
+     "title_zh": "澳洲春季房市拍卖量上升但总量仍低34%"
     },
     {
      "title": "Philippines Halts Exports of Fresh Purple Yam as Demand Rises",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/philippines-halts-exports-of-fresh-purple-yam-as-demand-rises",
      "published_cst": "2026-09-13T06:28:43+08:00",
      "time": "09-13 06:28",
-     "body": null
+     "body": null,
+     "title_zh": "菲律宾因需求上升停止鲜紫山药出口"
     },
     {
      "title": "Brazil's Top Court Gives Police Deadline on Banker's Data",
      "url": "https://www.bloomberg.com/news/articles/2026-09-13/brazil-s-top-court-gives-police-deadline-on-banker-s-phone-data",
      "published_cst": "2026-09-13T00:02:14+08:00",
      "time": "09-13 00:02",
-     "body": null
+     "body": null,
+     "title_zh": "巴西最高法院要求警方限期提交银行家数据"
     },
     {
      "title": "Tesla Teases Oct. 1 Event to Showcase Next-Generation Roadster",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster",
      "published_cst": "2026-09-12T20:20:58+08:00",
      "time": "09-12 20:20",
-     "body": null
+     "body": null,
+     "title_zh": "特斯拉预告10月1日活动展示下一代Roadster"
     },
     {
      "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks",
      "published_cst": "2026-09-12T20:00:00+08:00",
      "time": "09-12 20:00",
-     "body": null
+     "body": null,
+     "title_zh": "所有目光聚焦沃什，加息热潮席卷七国集团央行"
     },
     {
      "title": "OpenAI's Altman Says No IPO in 2026, Firm to Prioritize Safety",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune",
      "published_cst": "2026-09-12T19:36:39+08:00",
      "time": "09-12 19:36",
-     "body": null
+     "body": null,
+     "title_zh": "OpenAI的奥特曼称2026年不IPO，公司将优先考虑安全"
     },
     {
      "title": "Blizzard Announces 'Diablo V,' New 'StarCraft' Shooter",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/blizzard-announces-diablo-v-new-starcraft-shooter",
      "published_cst": "2026-09-12T19:15:01+08:00",
      "time": "09-12 19:15",
-     "body": null
+     "body": null,
+     "title_zh": "暴雪宣布《暗黑破坏神5》及新《星际争霸》射击游戏"
     },
     {
      "title": "Carney to Meet UK's Burnham as Canada Deepens Europe Ties",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/carney-to-meet-uk-s-burnham-as-canada-deepens-europe-ties",
      "published_cst": "2026-09-12T19:03:07+08:00",
      "time": "09-12 19:03",
-     "body": null
+     "body": null,
+     "title_zh": "卡尼将会见英国伯纳姆，加拿大深化与欧洲关系"
     },
     {
      "title": "Le Pen Opens Door for Compromise on 2027 Budget Law, AFP Says",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/le-pen-opens-door-for-compromise-on-2027-budget-law-afp-says",
      "published_cst": "2026-09-12T19:03:05+08:00",
      "time": "09-12 19:03",
-     "body": null
+     "body": null,
+     "title_zh": "勒庞为2027年预算法案妥协打开大门，法新社报道"
     },
     {
      "title": "SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance",
      "published_cst": "2026-09-12T17:58:51+08:00",
      "time": "09-12 17:58",
-     "body": null
+     "body": null,
+     "title_zh": "SpaceX将在纳斯达克100指数再平衡后获得权重提升"
     },
     {
      "title": "Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares",
      "published_cst": "2026-09-12T16:33:33+08:00",
      "time": "09-12 16:33",
-     "body": null
+     "body": null,
+     "title_zh": "拉里·埃里森终止出售高达75亿美元甲骨文股票计划"
     },
     {
      "title": "Trump's Foes Find Common Ground at Modi's New Delhi Summit",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
      "published_cst": "2026-09-12T15:31:39+08:00",
      "time": "09-12 15:31",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普反对者在莫迪新德里峰会上找到共同立场"
     },
     {
      "title": "LIV Golf's Big Losses Provide Fuel for a Second Act",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/liv-golf-s-big-losses-provide-fuel-for-a-second-act",
      "published_cst": "2026-09-12T15:00:02+08:00",
      "time": "09-12 15:00",
-     "body": null
+     "body": null,
+     "title_zh": "LIV高尔夫巨额亏损为第二幕蓄力"
     },
     {
      "title": "Amodei, Altman, Musk Call for Slowing AI Model Development",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
      "published_cst": "2026-09-12T14:17:56+08:00",
      "time": "09-12 14:17",
-     "body": null
+     "body": null,
+     "title_zh": "阿莫代伊、奥尔特曼、马斯克呼吁放缓AI模型开发"
     },
     {
      "title": "California Gas Station With $9.99 Diesel Exemplifies Fuel Crisis",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/california-gas-station-with-9-99-diesel-exemplifies-fuel-crisis",
      "published_cst": "2026-09-12T14:00:00+08:00",
      "time": "09-12 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "加州加油站柴油每加仑9.99美元凸显燃油危机"
     },
     {
      "title": "'Crazy' French Inversion Shows Credit Is a Haven: Credit Weekly",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/-crazy-french-inversion-shows-credit-is-a-haven-credit-weekly",
      "published_cst": "2026-09-12T14:00:00+08:00",
      "time": "09-12 14:00",
-     "body": null
+     "body": null,
+     "title_zh": "疯狂的法国政治倒挂显示信用债是避风港：信用债周报"
     },
     {
      "title": "RBI Said to Reject Tata Sons Request to Avoid An IPO",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing",
      "published_cst": "2026-09-12T13:33:43+08:00",
      "time": "09-12 13:33",
-     "body": null
+     "body": null,
+     "title_zh": "印度央行据悉拒绝塔塔集团避免IPO的请求"
     },
     {
      "title": "Trump's Deep-Sea Mining Push Attracts Foreign Companies",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/trump-s-deep-sea-mining-push-attracts-foreign-companies",
      "published_cst": "2026-09-12T13:17:31+08:00",
      "time": "09-12 13:17",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普深海采矿计划吸引外国公司"
     },
     {
      "title": "Farage's Reform Raises Record £72 Million in Less Than 24 Hours",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/farage-s-reform-raises-record-72-million-in-less-than-24-hours",
      "published_cst": "2026-09-12T13:14:30+08:00",
      "time": "09-12 13:14",
-     "body": null
+     "body": null,
+     "title_zh": "法拉奇改革党不到24小时筹得创纪录7200万英镑"
     },
     {
      "title": "RBI Rejects Tata Sons Plea to Nix Shadow Lender Tag, Reports Say",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-rejects-tata-sons-plea-to-nix-shadow-lender-tag-reports-say",
      "published_cst": "2026-09-12T13:00:08+08:00",
      "time": "09-12 13:00",
-     "body": null
+     "body": null,
+     "title_zh": "印度央行拒绝塔塔集团取消影子银行标签的请求"
     },
     {
      "title": "Trump Brushes Off AI Doomsaying to Guard US Lead Over China",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china",
      "published_cst": "2026-09-12T13:00:00+08:00",
      "time": "09-12 13:00",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普无视AI末日论以保美国对华领先"
     },
     {
      "title": "Xi Resets Ties With Modi on First Visit to India in Seven Years",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years",
      "published_cst": "2026-09-12T12:57:18+08:00",
      "time": "09-12 12:57",
-     "body": null
+     "body": null,
+     "title_zh": "习近平七年来首访印度 重启与莫迪关系"
     },
     {
      "title": "BRICS Countries Call for Maximum Restraint in the Middle East",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/brics-countries-call-for-maximum-restraint-in-the-middle-east",
      "published_cst": "2026-09-12T12:09:46+08:00",
      "time": "09-12 12:09",
-     "body": null
+     "body": null,
+     "title_zh": "金砖国家呼吁中东最大限度保持克制"
     },
     {
      "title": "Iraq Fires Maysan Commander After Drone Attacks on Saudi Arabia's Pipeline",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/iraq-fires-maysan-commander-after-drone-attacks-on-saudi-arabia-s-pipeline",
      "published_cst": "2026-09-12T12:03:03+08:00",
      "time": "09-12 12:03",
-     "body": null
+     "body": null,
+     "title_zh": "伊拉克在无人机袭击沙特输油管道后解雇迈桑指挥官"
     },
     {
      "title": "Resident Evil Fans Will Regret Driving Away Zach Cregger",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-12/resident-evil-fans-will-regret-driving-away-zach-cregger",
      "published_cst": "2026-09-12T12:00:04+08:00",
      "time": "09-12 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "生化危机粉丝会后悔赶走扎克·克雷格"
     },
     {
      "title": "US Open: Influencer Culture Has Turned It Into a Status Contest",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-12/us-open-influencer-culture-has-turned-it-into-a-status-contest",
      "published_cst": "2026-09-12T12:00:02+08:00",
      "time": "09-12 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "美网公开赛：网红文化将其变成地位竞赛"
     },
     {
      "title": "German Elections: AfD Win Puts Friedrich Merz On the Clock",
      "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-12/german-elections-afd-win-puts-friedrich-merz-on-the-clock",
      "published_cst": "2026-09-12T12:00:01+08:00",
      "time": "09-12 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "德国选举：选择党获胜让弗里德里希·默茨面临倒计时"
     },
     {
      "title": "The Lucas Museum and Bayeux Tapestry Exhibits Push the Limits of Narrative Art",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/the-lucas-museum-and-bayeux-tapestry-exhibits-push-the-limits-of-narrative-art",
      "published_cst": "2026-09-12T11:30:01+08:00",
      "time": "09-12 11:30",
-     "body": null
+     "body": null,
+     "title_zh": "卢卡斯博物馆与贝叶挂毯展览挑战叙事艺术极限"
     },
     {
      "title": "HDFC Bank Submits Names of Two CEO Candidates to RBI",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/hdfc-bank-submits-names-of-two-candidates-for-ceo-role-to-rbi",
      "published_cst": "2026-09-12T11:22:50+08:00",
      "time": "09-12 11:22",
-     "body": null
+     "body": null,
+     "title_zh": "HDFC银行向印度央行提交两名CEO候选人名单"
     },
     {
      "title": "Trump Said He'd Love to See a 'United' Ireland During Visit",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-said-he-d-love-to-see-a-united-ireland-during-visit",
      "published_cst": "2026-09-12T11:08:33+08:00",
      "time": "09-12 11:08",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普称访问期间乐见爱尔兰统一"
     },
     {
      "title": "Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/oil-and-gas-markets-signal-winter-crisis-and-rising-interest-rates",
      "published_cst": "2026-09-12T11:00:02+08:00",
      "time": "09-12 11:00",
-     "body": null
+     "body": null,
+     "title_zh": "油气市场预示冬季危机与利率上升"
     },
     {
      "title": "What Many Miss Regarding the US-China Rivalry: New Economy",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy",
      "published_cst": "2026-09-12T10:45:01+08:00",
      "time": "09-12 10:45",
-     "body": null
+     "body": null,
+     "title_zh": "关于美中竞争许多人忽略的一点：新经济"
     },
     {
      "title": "Trump Says He Could Settle UK-Argentina Dispute Over Falklands",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-he-could-settle-uk-argentina-dispute-over-falklands",
      "published_cst": "2026-09-12T10:42:11+08:00",
      "time": "09-12 10:42",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普称可解决英阿福克兰群岛争端"
     },
     {
      "title": "Trump Sees Canada Deal 'Fairly Soon,' Downplays Leaving USMCA",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-deal-fairly-soon",
      "published_cst": "2026-09-12T10:28:40+08:00",
      "time": "09-12 10:28",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普预计很快与加拿大达成协议，淡化退出美墨加协定的可能性"
     },
     {
      "title": "Trump Says US, Canada Will Probably Reach a Deal 'Fairly Soon'",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-a-deal-fairly-soon",
      "published_cst": "2026-09-12T10:07:16+08:00",
      "time": "09-12 10:07",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普称美加很可能很快达成协议"
     },
     {
      "title": "BRICS Nations Reach Consensus on Communique: India Official",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/brics-nations-reach-consensus-on-communique-india-official",
      "published_cst": "2026-09-12T09:11:35+08:00",
      "time": "09-12 09:11",
-     "body": null
+     "body": null,
+     "title_zh": "金砖国家就公报达成共识：印度官员"
     },
     {
      "title": "War In the Middle East Crisis is Making Clothes More Expensive",
      "url": "https://www.bloomberg.com/news/features/2026-09-12/war-in-the-middle-east-crisis-is-making-clothes-more-expensive",
      "published_cst": "2026-09-12T09:00:02+08:00",
      "time": "09-12 09:00",
-     "body": null
+     "body": null,
+     "title_zh": "中东战争危机推高服装价格"
     },
     {
      "title": "Here's Who HSBC May Tap as Its Next Chief Financial Officer",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/here-s-who-hsbc-may-tap-as-its-next-chief-financial-officer",
      "published_cst": "2026-09-12T09:00:00+08:00",
      "time": "09-12 09:00",
-     "body": null
+     "body": null,
+     "title_zh": "汇丰可能任命谁为下一任首席财务官"
     },
     {
      "title": "Trump Jabs at Europe on Trade, Immigration During Ireland Visit",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/irish-leaders-downplay-tensions-as-trump-arrives-for-visit",
      "published_cst": "2026-09-12T08:56:28+08:00",
      "time": "09-12 08:56",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普访爱尔兰时就贸易和移民问题抨击欧洲"
     },
     {
      "title": "Drug-Dealing Gangs Hold Key to Swedish Vote in This Suburb",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/drug-dealing-kid-gangs-hold-key-to-swedish-election-in-this-hood",
      "published_cst": "2026-09-12T08:31:48+08:00",
      "time": "09-12 08:31",
-     "body": null
+     "body": null,
+     "title_zh": "毒品帮派掌控这个郊区，成为瑞典选举关键"
     },
     {
      "title": "India's SEBI Seeks Major Changes to Unpopular Auction System",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/india-regulator-proposes-changes-to-closing-auction-after-swings",
      "published_cst": "2026-09-12T06:55:22+08:00",
      "time": "09-12 06:55",
-     "body": null
+     "body": null,
+     "title_zh": "印度证券交易委员会寻求对不受欢迎的拍卖系统进行重大改革"
     },
     {
      "title": "Modi Forges BRICS Consensus in Shadow of Worsening Iran War",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-takes-center-stage-at-modi-s-brics-summit-as-iran-war-deepens",
      "published_cst": "2026-09-12T06:52:51+08:00",
      "time": "09-12 06:52",
-     "body": null
+     "body": null,
+     "title_zh": "莫迪在伊朗战争恶化阴影下促成金砖共识"
     },
     {
      "title": "Lagarde Joins France Election Debate at Normandy Rally, Feeding ECB Exit Talk",
      "url": "https://www.bloomberg.com/news/articles/2026-09-12/lagarde-joins-france-election-debate-at-normandy-rally-feeding-ecb-exit-talk",
      "published_cst": "2026-09-12T05:00:00+08:00",
      "time": "09-12 05:00",
-     "body": null
+     "body": null,
+     "title_zh": "拉加德诺曼底集会上加入法国选举辩论，加剧欧洲央行退出猜测"
     },
     {
      "title": "Billionaire Delo Gives Record £36 Million to Farage's Reform",
      "url": "https://www.bloomberg.com/news/articles/2026-09-11/billionaire-delo-gives-record-36-million-to-farage-s-reform-uk",
      "published_cst": "2026-09-11T22:27:23+08:00",
      "time": "09-11 22:27",
-     "body": null
+     "body": null,
+     "title_zh": "亿万富翁德洛向法拉奇的改革党捐赠创纪录的3600万英镑"
     },
     {
      "title": "Oracle Boosts Layoffs Plan by $700 Million",
      "url": "https://www.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million",
      "published_cst": "2026-09-11T21:13:29+08:00",
      "time": "09-11 21:13",
-     "body": null
+     "body": null,
+     "title_zh": "甲骨文将裁员计划增加7亿美元"
     },
     {
      "title": "Merz Determined to Cling to Power and Defy Party Rebellion",
      "url": "https://www.bloomberg.com/news/articles/2026-09-11/merz-determined-to-cling-on-in-germany-and-defy-party-rebellion",
      "published_cst": "2026-09-11T13:06:24+08:00",
      "time": "09-11 13:06",
-     "body": null
+     "body": null,
+     "title_zh": "默茨决心紧握权力，无视党内叛乱"
     },
     {
      "title": "US marks 25 years since the Sept. 11 attacks",
      "url": "https://www.bloomberg.com/en/news/thp/2026-09-11/us-marks-25-years-since-the-sept-11-attacks-moments-that-divide-time",
      "published_cst": "2026-09-11T04:09:00+08:00",
      "time": "09-11 04:09",
-     "body": null
+     "body": null,
+     "title_zh": "美国纪念9·11袭击25周年"
     },
     {
      "title": "Tata Sons IPO: When Will It List in India? What to Know About RBI's New Rules",
      "url": "https://www.bloomberg.com/news/articles/2026-05-08/tata-sons-ipo-when-will-it-list-in-india-what-to-know-about-rbi-s-new-rules",
      "published_cst": "2026-05-08T08:15:27+08:00",
      "time": "05-08 08:15",
-     "body": null
+     "body": null,
+     "title_zh": "塔塔集团IPO：何时在印度上市？印度央行新规须知"
     }
    ]
   },
@@ -2254,770 +2570,880 @@
      "url": "https://www.ft.com/content/8ec31da9-9922-44e2-98c2-3225c9eb0e21",
      "published_cst": "2026-09-14T08:52:23+08:00",
      "time": "09-14 08:52",
-     "body": null
+     "body": null,
+     "title_zh": "北京在国安打击行动中推出无人机回购计划"
     },
     {
      "title": "Novo ditches Nordisk from name as drugmaker attempts revival",
      "url": "https://www.ft.com/content/3984d89d-64ed-43e0-a6fe-0804173fa5c0",
      "published_cst": "2026-09-14T08:41:35+08:00",
      "time": "09-14 08:41",
-     "body": null
+     "body": null,
+     "title_zh": "诺和诺德改名去掉诺德，力图重振"
     },
     {
      "title": "Tech stocks fall after big AI groups call for slowdown",
      "url": "https://www.ft.com/content/aa8a1be7-abe0-44b7-bcd3-31fd0a44de08",
      "published_cst": "2026-09-14T08:34:47+08:00",
      "time": "09-14 08:34",
-     "body": null
+     "body": null,
+     "title_zh": "大型AI集团呼吁放缓后科技股下跌"
     },
     {
      "title": "Reform’s windfall changes the mood music",
      "url": "https://www.ft.com/content/3e39baca-6450-47b5-ab61-a49741aa25f7",
      "published_cst": "2026-09-14T08:34:19+08:00",
      "time": "09-14 08:34",
-     "body": null
+     "body": null,
+     "title_zh": "改革的意外之财改变了氛围"
     },
     {
      "title": "An ode to North America’s longest saltwater pool",
      "url": "https://www.ft.com/content/8a92c5f1-a597-48f7-957a-9555d1654f0e",
      "published_cst": "2026-09-14T08:31:55+08:00",
      "time": "09-14 08:31",
-     "body": null
+     "body": null,
+     "title_zh": "致敬北美最长的海水泳池"
     },
     {
      "title": "Swedish election on a knife-edge",
      "url": "https://www.ft.com/content/00e3c084-06e3-47b4-8230-185760216e60",
      "published_cst": "2026-09-14T08:08:53+08:00",
      "time": "09-14 08:08",
-     "body": null
+     "body": null,
+     "title_zh": "瑞典大选胜负难料"
     },
     {
      "title": "Oil hits $108 as Gulf states postpone talks with Iran over Hormuz",
      "url": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873",
      "published_cst": "2026-09-14T07:31:04+08:00",
      "time": "09-14 07:31",
-     "body": null
+     "body": null,
+     "title_zh": "海湾国家推迟与伊朗霍尔木兹会谈 油价触及108美元"
     },
     {
      "title": "Hugo Boss chair steps down under pressure from Mike Ashley’s Frasers Group",
      "url": "https://www.ft.com/content/236d8c58-7f6a-497c-9f57-9e7d2ad80096",
      "published_cst": "2026-09-14T07:24:51+08:00",
      "time": "09-14 07:24",
-     "body": null
+     "body": null,
+     "title_zh": "Hugo Boss董事长在Mike Ashley的Frasers集团压力下辞职"
     },
     {
      "title": "Can AI’s leaders really put aside rivalry for the common good?",
      "url": "https://www.ft.com/content/b3d01493-f0f5-491b-bcf8-2d414539fbe7",
      "published_cst": "2026-09-14T06:12:58+08:00",
      "time": "09-14 06:12",
-     "body": null
+     "body": null,
+     "title_zh": "人工智能领袖真能为了共同利益放下竞争吗？"
     },
     {
      "title": "Japanese utility halts nuclear reactor restart after data manipulation scandal",
      "url": "https://www.ft.com/content/e1383b40-554a-445d-a431-a7068c68aa76",
      "published_cst": "2026-09-14T06:05:38+08:00",
      "time": "09-14 06:05",
-     "body": null
+     "body": null,
+     "title_zh": "日本公用事业公司因数据篡改丑闻暂停核反应堆重启"
     },
     {
      "title": "High inflation or low credibility?",
      "url": "https://www.ft.com/content/b8f897e4-cb25-45a8-869d-ed5aa0919d08",
      "published_cst": "2026-09-14T05:30:02+08:00",
      "time": "09-14 05:30",
-     "body": null
+     "body": null,
+     "title_zh": "高通胀还是低信誉？"
     },
     {
      "title": "China’s spy agency warns of AI risk to national security",
      "url": "https://www.ft.com/content/8715d1c6-054d-4eab-bcad-147acebfd2a9",
      "published_cst": "2026-09-14T05:15:49+08:00",
      "time": "09-14 05:15",
-     "body": null
+     "body": null,
+     "title_zh": "中国间谍机构警告人工智能对国家安全构成风险"
     },
     {
      "title": "FTAV’s further reading",
      "url": "https://www.ft.com/content/988e8cb5-da27-49a6-a9f5-377b515c02ba",
      "published_cst": "2026-09-14T05:00:03+08:00",
      "time": "09-14 05:00",
-     "body": null
+     "body": null,
+     "title_zh": "FT Alphaville的延伸阅读"
     },
     {
      "title": "EU and Canada to toast to closer bonds in bid to rally multilateral world order",
      "url": "https://www.ft.com/content/b9a2d02a-d240-4512-a7fa-a8fa6f0429c8",
      "published_cst": "2026-09-14T05:00:03+08:00",
      "time": "09-14 05:00",
-     "body": null
+     "body": null,
+     "title_zh": "欧盟与加拿大将举杯共促紧密关系，力图重振多边世界秩序"
     },
     {
      "title": "Druckenmiller: no US rate cuts needed",
      "url": "https://www.ft.com/content/8e434151-b6ca-492f-9aba-6775529f9545",
      "published_cst": "2026-09-14T05:00:03+08:00",
      "time": "09-14 05:00",
-     "body": null
+     "body": null,
+     "title_zh": "德鲁肯米勒：美国无需降息"
     },
     {
      "title": "FirstFT: Oil surge stirs UK rate rise debate",
      "url": "https://www.ft.com/content/e9d90dd1-0f3c-4771-8cc7-341b3c050d8f",
      "published_cst": "2026-09-14T04:38:47+08:00",
      "time": "09-14 04:38",
-     "body": null
+     "body": null,
+     "title_zh": "油价飙升引发英国加息辩论"
     },
     {
      "title": "The best of TV and streaming this week",
      "url": "https://www.ft.com/content/955f2421-7dc6-4bea-9501-b8646c8ba0a1",
      "published_cst": "2026-09-14T04:19:35+08:00",
      "time": "09-14 04:19",
-     "body": null
+     "body": null,
+     "title_zh": "本周最佳电视与流媒体节目"
     },
     {
      "title": "Japan’s central bank set for pivotal moment on rates",
      "url": "https://www.ft.com/content/4f6a427f-3975-470f-83bf-b21423df59c8",
      "published_cst": "2026-09-14T04:15:06+08:00",
      "time": "09-14 04:15",
-     "body": null
+     "body": null,
+     "title_zh": "日本央行迎来利率关键节点"
     },
     {
      "title": "Warsh and Trump on collision course as investors expect Fed to raise rates",
      "url": "https://www.ft.com/content/904c6d93-a6b3-47f4-8b12-3d418cc74fa2",
      "published_cst": "2026-09-14T04:00:22+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "沃什与特朗普迎头相撞，投资者预期美联储加息"
     },
     {
      "title": "Transcript: Fed and BoJ expect rate hikes as US bond market flails",
      "url": "https://www.ft.com/content/f944bd38-9e2c-4d06-b53c-553cb9c1ecbd",
      "published_cst": "2026-09-14T04:00:22+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "会议记录：美联储和日本央行预计加息，美债市场动荡"
     },
     {
      "title": "Automation is coming for the gig economy",
      "url": "https://www.ft.com/content/a2c33eed-7aef-4e68-9252-3a1dddf61b5a",
      "published_cst": "2026-09-14T04:00:22+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "自动化正席卷零工经济"
     },
     {
      "title": "Essar strikes deal to buy 118 UK petrol stations",
      "url": "https://www.ft.com/content/130f45b6-ee45-4fa0-83eb-5ea8f9bc4680",
      "published_cst": "2026-09-14T04:00:21+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "埃萨达成协议收购英国118家加油站"
     },
     {
      "title": "A ‘lucky’ chancellor must also be a resolute one",
      "url": "https://www.ft.com/content/0008bdb5-ac6c-4d72-b71f-e53a94a10f77",
      "published_cst": "2026-09-14T04:00:13+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "幸运的财政大臣也必须果断"
     },
     {
      "title": "UK faces £258bn infrastructure spending gap, warns report",
      "url": "https://www.ft.com/content/cfcc5bc1-56cc-4e9f-8f0e-ef45932b76ab",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "英国面临2580亿英镑基础设施支出缺口，报告警告称"
     },
     {
      "title": "Tokenised gold could be exempt from fund regulations under FCA proposal",
      "url": "https://www.ft.com/content/a45a2f1f-03d9-46aa-8307-fe89edd7e589",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "代币化黄金或可豁免基金监管，依据FCA提案。"
     },
     {
      "title": "Oil price surge revives prospect of Bank of England rate rise this year",
      "url": "https://www.ft.com/content/050b2863-a164-431f-bd04-2e416adf9a38",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "油价飙升重燃英国央行年内加息预期"
     },
     {
      "title": "Music industry targets AI songs in crackdown on streaming fraud",
      "url": "https://www.ft.com/content/c1f17709-7fc8-4afc-8ac9-38cd923f0064",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "音乐产业打击流媒体欺诈，瞄准AI歌曲"
     },
     {
      "title": "How high might natural gas prices go?",
      "url": "https://www.ft.com/content/639b4d2a-30c7-473c-a3ec-1fe96a7a7ac7",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "天然气价格可能涨到多高？"
     },
     {
      "title": "Expanded ad ban on ‘less healthy’ foods could hit £1bn in UK media spending",
      "url": "https://www.ft.com/content/203bc43f-8189-4156-b60d-28614e07245f",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "扩大不健康食品广告禁令或致英国媒体支出损失10亿英镑"
     },
     {
      "title": "European capitals barter over Christine Lagarde’s successor at ECB",
      "url": "https://www.ft.com/content/898836da-322a-4bb8-9e62-f3c3d36b23b2",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "欧洲各国就拉加德继任者展开博弈"
     },
     {
      "title": "Cyber criminals use AI to supercharge scams, watchdog warns",
      "url": "https://www.ft.com/content/d545bae1-d770-46f3-9913-07e85d4ae34c",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "监管机构警告：网络犯罪分子利用AI升级诈骗手段"
     },
     {
      "title": "Battlefield realism and cosy espionage — our pick of the latest thrillers",
      "url": "https://www.ft.com/content/a2266ebe-4bc4-4594-a1d6-deb1fa49113a",
      "published_cst": "2026-09-14T04:00:12+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "战场现实与温馨谍战——我们精选的最新惊悚小说"
     },
     {
      "title": "Why Pokémon cards are selling for more than $1mn",
      "url": "https://www.ft.com/content/d6d763a2-f6b8-467c-9554-17a89e58902c",
      "published_cst": "2026-09-14T04:00:05+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "宝可梦卡牌为何售价超百万美元"
     },
     {
      "title": "The sexy complexity of the Spanish male",
      "url": "https://www.ft.com/content/9d382daa-77d9-4309-a2e4-d675f77fe574",
      "published_cst": "2026-09-14T04:00:05+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "西班牙男性的性感复杂性"
     },
     {
      "title": "Euronext open to ‘big bang’ deal with rival Deutsche Börse",
      "url": "https://www.ft.com/content/cf0ee7e3-8634-4c1d-8a44-3b71acee1417",
      "published_cst": "2026-09-14T04:00:05+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "泛欧交易所对与竞争对手德意志交易所的“大爆炸”式合并持开放态度"
     },
     {
      "title": "‘Offensively cheap’: solar power is looking up",
      "url": "https://www.ft.com/content/8b704ae0-1fa2-4303-925f-170fa5d935b3",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "“便宜得离谱”：太阳能前景看好"
     },
     {
      "title": "Start-up opens factory a mile from Tower Bridge amid defence surge",
      "url": "https://www.ft.com/content/d805fcf8-e0ff-463f-bc1c-974f878fae43",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "初创公司在伦敦塔桥一英里处开设工厂，顺应国防需求激增"
     },
     {
      "title": "Schroders considers acquisitions to grow wealth division",
      "url": "https://www.ft.com/content/0688caee-f24f-4fa7-b04a-d1e8f9c0c03d",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "施罗德考虑收购以发展财富管理部门"
     },
     {
      "title": "Our homes need to become polyamorous",
      "url": "https://www.ft.com/content/87649e78-e3a3-44f4-aab4-e9dbc3c01946",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "我们的住宅需要变得多情"
     },
     {
      "title": "Middle East war tests Dubai’s island dreams",
      "url": "https://www.ft.com/content/3d6bc1b6-5d57-4f7f-9e5b-a0aa9bcab1e7",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "中东战争考验迪拜岛屿梦"
     },
     {
      "title": "Defence sales test Europe’s appetite for US investment",
      "url": "https://www.ft.com/content/b15d9839-1d2e-4a38-9a5c-5424aeff2b3c",
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "国防销售考验欧洲对美国投资的兴趣"
     },
     {
      "title": "Fed and BoJ expect rate hikes as US bond market flails",
      "url": "https://www.ft.com/content/76a24fc8-b521-47d6-aec9-1bf6666afd60",
      "published_cst": "2026-09-14T04:00:00+08:00",
      "time": "09-14 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "美联储和日本央行预计加息，美债市场动荡"
     },
     {
      "title": "Podcaster Steven Bartlett: ‘You’d be shocked how little time I spend on the internet’",
      "url": "https://www.ft.com/content/20b9d88c-076e-4a7b-8f3f-6a593a351d95",
      "published_cst": "2026-09-14T03:00:02+08:00",
      "time": "09-14 03:00",
-     "body": null
+     "body": null,
+     "title_zh": "播客主播史蒂文·巴特利特：“我在网上花的时间少得会让你震惊”"
     },
     {
      "title": "It’s the pitfalls and pratfalls that make a career",
      "url": "https://www.ft.com/content/3ea7abec-32b3-4470-adf6-cd286c381d40",
      "published_cst": "2026-09-14T03:00:02+08:00",
      "time": "09-14 03:00",
-     "body": null
+     "body": null,
+     "title_zh": "职业生涯中的陷阱和失误"
     },
     {
      "title": "Transcript: Why Dante put bankers in hell and James Joyce didn’t",
      "url": "https://www.ft.com/content/8eba26ec-e273-48c2-a7da-1b4f8fa44da6",
      "published_cst": "2026-09-14T01:56:16+08:00",
      "time": "09-14 01:56",
-     "body": null
+     "body": null,
+     "title_zh": "文字记录：为何但丁将银行家打入地狱，而詹姆斯·乔伊斯却没有"
     },
     {
      "title": "Michael Dell’s family office leads $7.7bn deal to take insurance broker private",
      "url": "https://www.ft.com/content/5495d88b-b457-498a-bedd-64a954b538cd",
      "published_cst": "2026-09-14T00:45:21+08:00",
      "time": "09-14 00:45",
-     "body": null
+     "body": null,
+     "title_zh": "迈克尔·戴尔家族办公室牵头77亿美元交易将保险经纪公司私有化"
     },
     {
      "title": "Correction: Belron’s pre-tax profit",
      "url": "https://www.ft.com/content/1f942f2d-2bb1-40c9-9604-de7a92c84e90",
      "published_cst": "2026-09-14T00:40:58+08:00",
      "time": "09-14 00:40",
-     "body": null
+     "body": null,
+     "title_zh": "更正：贝罗伦税前利润"
     },
     {
      "title": "FT Crossword: Number 18,479",
      "url": "https://www.ft.com/content/3cd0d02c-ac61-47df-abb4-ddc3821edae6",
      "published_cst": "2026-09-13T23:00:09+08:00",
      "time": "09-13 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "金融时报填字游戏：第18,479期"
     },
     {
      "title": "Anthropic tells investors it will be profitable for second straight quarter",
      "url": "https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002",
      "published_cst": "2026-09-13T22:29:46+08:00",
      "time": "09-13 22:29",
-     "body": null
+     "body": null,
+     "title_zh": "Anthropic告知投资者将连续第二个季度盈利"
     },
     {
      "title": "Donald Trump rejects calls from tech bosses for AI slowdown",
      "url": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed",
      "published_cst": "2026-09-13T21:34:22+08:00",
      "time": "09-13 21:34",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普拒绝科技老板放缓AI的呼吁"
     },
     {
      "title": "Burnham promises a ‘culture shift’ in how Britain does business",
      "url": "https://www.ft.com/content/60ef3d28-8e1b-4c2b-b8c1-0b0059c4eedc",
      "published_cst": "2026-09-13T21:30:09+08:00",
      "time": "09-13 21:30",
-     "body": null
+     "body": null,
+     "title_zh": "伯纳姆承诺英国商业运作将迎来“文化转变”"
     },
     {
      "title": "Trump scraps tariffs on Irish whiskey during visit to country",
      "url": "https://www.ft.com/content/aa4465ff-5261-4c3b-874f-ce1a607efa70",
      "published_cst": "2026-09-13T20:47:43+08:00",
      "time": "09-13 20:47",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普访问爱尔兰期间取消对爱尔兰威士忌的关税"
     },
     {
      "title": "Canada seeks Ukraine loan role to deepen EU ties",
      "url": "https://www.ft.com/content/9cd8cc79-e98a-449f-a903-609b034a56e3",
      "published_cst": "2026-09-13T19:56:05+08:00",
      "time": "09-13 19:56",
-     "body": null
+     "body": null,
+     "title_zh": "加拿大寻求乌克兰贷款角色以深化与欧盟关系"
     },
     {
      "title": "Dutch start-up completes funding round for encrypted silicon technology",
      "url": "https://www.ft.com/content/a6574d9d-5e75-4b9c-b4d7-b05f7008e48e",
      "published_cst": "2026-09-13T19:51:43+08:00",
      "time": "09-13 19:51",
-     "body": null
+     "body": null,
+     "title_zh": "荷兰初创公司完成加密硅技术融资"
     },
     {
      "title": "Trump calls on Ukraine to stop striking Russian oil refineries",
      "url": "https://www.ft.com/content/e3ba3f9a-9312-4d0b-99fd-2c80728f2dcd",
      "published_cst": "2026-09-13T19:08:31+08:00",
      "time": "09-13 19:08",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普呼吁乌克兰停止袭击俄罗斯炼油厂"
     },
     {
      "title": "School IB Geography class: Life on the frontline against Ebola",
      "url": "https://www.ft.com/content/42a57660-0e73-4239-9a65-17ebde0d68d8",
      "published_cst": "2026-09-13T18:06:11+08:00",
      "time": "09-13 18:06",
-     "body": null
+     "body": null,
+     "title_zh": "学校IB地理课：抗击埃博拉前线生活"
     },
     {
      "title": "Russians to vote, but the outcome is already decided",
      "url": "https://www.ft.com/content/7de7cc10-e7a5-414b-a40f-3296eaf49ce7",
      "published_cst": "2026-09-13T17:15:08+08:00",
      "time": "09-13 17:15",
-     "body": null
+     "body": null,
+     "title_zh": "俄罗斯人将投票，但结果已定"
     },
     {
      "title": "Angela Rayner suggests political donations cap on table after Reform’s £72mn boost",
      "url": "https://www.ft.com/content/e56e5e77-f131-46ea-a756-9431f1908b7d",
      "published_cst": "2026-09-13T17:07:01+08:00",
      "time": "09-13 17:07",
-     "body": null
+     "body": null,
+     "title_zh": "安吉拉·雷纳暗示，改革党获7200万英镑捐款后，政治捐款上限提上议程。"
     },
     {
      "title": "Russia strikes Ukraine train line moments after foreign dignitaries pass",
      "url": "https://www.ft.com/content/cdce9cd6-4857-4332-af34-ffc9ce45eadf",
      "published_cst": "2026-09-13T16:11:26+08:00",
      "time": "09-13 16:11",
-     "body": null
+     "body": null,
+     "title_zh": "外国政要刚通过，俄罗斯即袭击乌克兰铁路线"
     },
     {
      "title": "Marine Le Pen vows to put French citizens first in campaign launch",
      "url": "https://www.ft.com/content/d25e4152-afc5-4ff9-bfd9-3317413800ff",
      "published_cst": "2026-09-13T15:49:12+08:00",
      "time": "09-13 15:49",
-     "body": null
+     "body": null,
+     "title_zh": "勒庞竞选启动誓言法国公民优先"
     },
     {
      "title": "EU-UK reset talks delayed again amid tension over ‘Made in Europe’ rules",
      "url": "https://www.ft.com/content/182365c4-a0ac-4670-97e0-22e88d3bc02d",
      "published_cst": "2026-09-13T15:00:06+08:00",
      "time": "09-13 15:00",
-     "body": null
+     "body": null,
+     "title_zh": "欧盟与英国重置谈判因“欧洲制造”规则紧张再次推迟"
     },
     {
      "title": "PwC shakes up Indian operations as AI threat looms over consulting sector",
      "url": "https://www.ft.com/content/bf1f8def-98ce-4976-acc3-cd80f0956ab0",
      "published_cst": "2026-09-13T13:54:59+08:00",
      "time": "09-13 13:54",
-     "body": null
+     "body": null,
+     "title_zh": "普华永道调整印度业务，AI威胁笼罩咨询业"
     },
     {
      "title": "Saudi pipeline attack exposes potent Iraqi militia threat",
      "url": "https://www.ft.com/content/b60624fb-0a09-45e6-b148-b7a5ca38f83e",
      "published_cst": "2026-09-13T12:39:59+08:00",
      "time": "09-13 12:39",
-     "body": null
+     "body": null,
+     "title_zh": "沙特管道袭击暴露伊拉克民兵强大威胁"
     },
     {
      "title": "The calculated desperation of Trump-a-palooza",
      "url": "https://www.ft.com/content/d4604abb-d357-4ebd-b709-23902d1e1868",
      "published_cst": "2026-09-13T12:00:05+08:00",
      "time": "09-13 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普狂欢秀的精明绝望"
     },
     {
      "title": "Will the Fed defy Trump and raise rates?",
      "url": "https://www.ft.com/content/1fd5bbf6-9bb6-4848-a01b-7c94b3e59b6e",
      "published_cst": "2026-09-13T11:00:05+08:00",
      "time": "09-13 11:00",
-     "body": null
+     "body": null,
+     "title_zh": "美联储会否违抗特朗普加息？"
     },
     {
      "title": "Why teenagers are doing worse at school",
      "url": "https://www.ft.com/content/dc5012ed-cb82-469e-9be8-e65ac7f6745c",
      "published_cst": "2026-09-13T11:00:05+08:00",
      "time": "09-13 11:00",
-     "body": null
+     "body": null,
+     "title_zh": "为什么青少年学业表现变差"
     },
     {
      "title": "‘Trumpism’ spawns rare unity at Brics summit",
      "url": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc",
      "published_cst": "2026-09-13T10:50:58+08:00",
      "time": "09-13 10:50",
-     "body": null
+     "body": null,
+     "title_zh": "“特朗普主义”在金砖峰会上促成罕见的团结"
     },
     {
      "title": "Trump’s vision of Alaska as LNG superpower confronts an $80bn test",
      "url": "https://www.ft.com/content/b11887d2-d40d-473d-ba5e-2f9fb8a73beb",
      "published_cst": "2026-09-13T10:00:05+08:00",
      "time": "09-13 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普将阿拉斯加打造为液化天然气超级大国的愿景面临800亿美元考验"
     },
     {
      "title": "The coming robotaxi revolution",
      "url": "https://www.ft.com/content/2404d7db-002e-42d6-a746-183bb23c1234",
      "published_cst": "2026-09-13T10:00:05+08:00",
      "time": "09-13 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "即将到来的自动驾驶出租车革命"
     },
     {
      "title": "Texas puts a brake on its data centre boom",
      "url": "https://www.ft.com/content/3204d65e-ae34-4ab3-a73f-a55d354f40ab",
      "published_cst": "2026-09-13T10:00:05+08:00",
      "time": "09-13 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "得州叫停数据中心热潮"
     },
     {
      "title": "GE HealthCare in talks over $1bn deal for maker of cancer scan chemicals",
      "url": "https://www.ft.com/content/21b663e4-60ee-4937-a561-5b0f505676a2",
      "published_cst": "2026-09-13T10:00:05+08:00",
      "time": "09-13 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "通用医疗就10亿美元收购癌症扫描化学品制造商进行谈判"
     },
     {
      "title": "Brazil banking scandal engulfs Supreme Court",
      "url": "https://www.ft.com/content/c49c583f-940c-4592-ad7e-7c206b6c3c75",
      "published_cst": "2026-09-13T10:00:05+08:00",
      "time": "09-13 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "巴西银行丑闻波及最高法院"
     },
     {
      "title": "Submit a question: What do British businesses need from the Budget?",
      "url": "https://www.ft.com/content/a491245d-6f6a-4218-9289-3fa8e43632ad",
      "published_cst": "2026-09-13T07:50:08+08:00",
      "time": "09-13 07:50",
-     "body": null
+     "body": null,
+     "title_zh": "英国企业希望预算案提供什么？"
     },
     {
      "title": "The perils of headphones in the office",
      "url": "https://www.ft.com/content/abd98f82-7be0-4d84-b41c-4837cf5167a8",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "办公室里戴耳机的风险"
     },
     {
      "title": "Sunderland football club looks to US post-industrial peers in bid to lift revenue",
      "url": "https://www.ft.com/content/b081fc93-3eb8-4adc-84cc-b5c5cf719003",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "桑德兰足球俱乐部寻求借鉴美国后工业城市同行以提升收入"
     },
     {
      "title": "Paris and Beirut push to extend UN peacekeepers’ mission in Lebanon",
      "url": "https://www.ft.com/content/681a9df8-ab39-4b9f-bc86-7dcf6f68a8c0",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "巴黎和贝鲁特推动延长联合国驻黎巴嫩维和任务"
     },
     {
      "title": "How Russia’s new drones are changing the air war",
      "url": "https://www.ft.com/content/7f01b434-0209-4783-b8eb-5a095ca5bd4f",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "俄罗斯新型无人机如何改变空战"
     },
     {
      "title": "CVC faces shareholder revolt over €10.7bn Recordati take-private",
      "url": "https://www.ft.com/content/a4a22443-2082-409b-96e1-650c44a40f44",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "CVC因107亿欧元私有化Recordati面临股东反对"
     },
     {
      "title": "Boom-era PE funds will fall short on promises, executives warn",
      "url": "https://www.ft.com/content/183569b4-8102-4b38-8a20-a3597a442f26",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "繁荣时期私募基金将难以兑现承诺，高管警告"
     },
     {
      "title": "As Europe’s memory fades, radicalism is returning",
      "url": "https://www.ft.com/content/65181a27-bea2-4ac0-96df-2d0d8dfe0b58",
      "published_cst": "2026-09-13T04:00:12+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "欧洲记忆消退，激进主义卷土重来"
     },
     {
      "title": "Why Britain’s super-rich are looking for the exit",
      "url": "https://www.ft.com/content/f3ecfe7f-25df-434f-a61d-a9ce0ac1e611",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "为何英国超级富豪正寻求离开"
     },
     {
      "title": "US-listed Equinix faces challenge over South African hyperscale data centre",
      "url": "https://www.ft.com/content/2f3d996e-b320-48c5-b4a7-967ddffeb360",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "美国上市的Equinix在南非超大规模数据中心面临挑战"
     },
     {
      "title": "US pressure on development banks to scrap climate finance goals",
      "url": "https://www.ft.com/content/7181577b-345d-46f4-908d-294a23fe488e",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "美国施压开发银行放弃气候融资目标"
     },
     {
      "title": "The anti-AI portfolio: fountain pens, Warhammer and film cameras",
      "url": "https://www.ft.com/content/4ffff2a7-b2aa-42aa-a68b-037f9a3fd603",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "反AI投资组合：钢笔、战锤和胶片相机"
     },
     {
      "title": "The OBR needs to give us more clarity on migration",
      "url": "https://www.ft.com/content/3efbd9a2-ccd0-4c98-8e97-8ab3358fd2f3",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "预算责任办公室需要在移民问题上给我们更多明确信息"
     },
     {
      "title": "How to find a leader in 2026",
      "url": "https://www.ft.com/content/0c3dde0b-5776-4e6c-89a0-fb4a2bdb16ea",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "如何在2026年找到领导者"
     },
     {
      "title": "German military start-up seeks carmakers’ help to re-arm Europe",
      "url": "https://www.ft.com/content/7752631b-6064-4f90-b292-5425064dbaa8",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "德国军工初创企业寻求车企协助欧洲重新武装"
     },
     {
      "title": "GP data quietly added to Palantir’s NHS data platform",
      "url": "https://www.ft.com/content/5d15de64-49cc-4b6a-a2ea-51061f1cddc7",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "GP数据被悄然加入Palantir的NHS数据平台"
     },
     {
      "title": "Elon Musk’s secretive backer builds $40bn SpaceX stake",
      "url": "https://www.ft.com/content/c765f312-e698-4d31-bf71-f64a656ad6f4",
      "published_cst": "2026-09-13T04:00:03+08:00",
      "time": "09-13 04:00",
-     "body": null
+     "body": null,
+     "title_zh": "马斯克神秘支持者建40亿美元SpaceX股份"
     },
     {
      "title": "Benchmarking and bonuses: why Singapore pays its politicians like bankers",
      "url": "https://www.ft.com/content/fa47c0db-18a6-45d6-b35d-75942a0daae8",
      "published_cst": "2026-09-13T03:39:30+08:00",
      "time": "09-13 03:39",
-     "body": null
+     "body": null,
+     "title_zh": "基准考核与奖金：新加坡为何以银行家薪酬支付政客"
     },
     {
      "title": "Private equity plans to put the swing back into Japan’s golf tour",
      "url": "https://www.ft.com/content/4dbba9b1-26ab-448c-acb3-215ecd9609ca",
      "published_cst": "2026-09-13T02:50:10+08:00",
      "time": "09-13 02:50",
-     "body": null
+     "body": null,
+     "title_zh": "私募股权计划重振日本高尔夫巡回赛"
     },
     {
      "title": "Burnham resists calls to reform student loans in Budget",
      "url": "https://www.ft.com/content/8d8b5195-e16f-457e-ae77-f6e843934058",
      "published_cst": "2026-09-12T23:01:09+08:00",
      "time": "09-12 23:01",
-     "body": null
+     "body": null,
+     "title_zh": "伯纳姆拒绝在预算中改革学生贷款"
     },
     {
      "title": "Sunday Number 162: Numbers Puzzle",
      "url": "https://www.ft.com/content/b54ab9a3-9245-4aaf-a219-86261e33b772",
      "published_cst": "2026-09-12T23:00:09+08:00",
      "time": "09-12 23:00",
-     "body": null
+     "body": null,
+     "title_zh": "周日数字162：数字谜题"
     },
     {
      "title": "US High School Economics class: US government debt hits $40tn as borrowing rises at historic rate",
      "url": "https://www.ft.com/content/b9d4c8aa-a18d-4afa-8837-33bcf6e628f0",
      "published_cst": "2026-09-12T22:39:44+08:00",
      "time": "09-12 22:39",
-     "body": null
+     "body": null,
+     "title_zh": "美国高中经济课：美国政府债务达40万亿美元，借贷以历史性速度增长"
     },
     {
      "title": "School economics class: The best, worst and strangest ways AI is really being used at work",
      "url": "https://www.ft.com/content/2dca32c6-3c00-448d-9729-4fbdb7acee3c",
      "published_cst": "2026-09-12T22:25:13+08:00",
      "time": "09-12 22:25",
-     "body": null
+     "body": null,
+     "title_zh": "学校经济学课堂：AI在工作中最妙、最糟和最奇的用途"
     },
     {
      "title": "School economics class: Protecting Tower of London views would make skyscrapers unviable, City warns",
      "url": "https://www.ft.com/content/53b44d0a-d5e5-49bc-b381-b0e515bf7b74",
      "published_cst": "2026-09-12T22:18:24+08:00",
      "time": "09-12 22:18",
-     "body": null
+     "body": null,
+     "title_zh": "伦敦金融城警告：保护伦敦塔景观将导致摩天大楼无法建设"
     },
     {
      "title": "School IB economics. ‘People are going to get screwed’: Pennsylvania voters unite against data centres",
      "url": "https://www.ft.com/content/3f7f031e-114c-4862-b83e-e25b6ee06a66",
      "published_cst": "2026-09-12T22:11:45+08:00",
      "time": "09-12 22:11",
-     "body": null
+     "body": null,
+     "title_zh": "学校IB经济学。“人们要遭殃了”：宾夕法尼亚选民联合反对数据中心"
     },
     {
      "title": "School politics class: Republicans fear Trump has turned toxic on the campaign trail",
      "url": "https://www.ft.com/content/4a2a1f2a-c9ec-48a1-8119-9463aa12ae65",
      "published_cst": "2026-09-12T22:10:02+08:00",
      "time": "09-12 22:10",
-     "body": null
+     "body": null,
+     "title_zh": "学校政治课：共和党人担心特朗普在竞选活动中已成毒药"
     },
     {
      "title": "Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown",
      "url": "https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837",
      "published_cst": "2026-09-12T18:14:06+08:00",
      "time": "09-12 18:14",
-     "body": null
+     "body": null,
+     "title_zh": "竞争对手奥尔特曼和马斯克支持达里奥·阿莫代伊呼吁放缓AI发展"
     },
     {
      "title": "Larry Ellison cancels $7.5bn Oracle share sale",
      "url": "https://www.ft.com/content/05e61eb8-9273-4b9a-a356-47f525b7d506",
      "published_cst": "2026-09-12T17:18:43+08:00",
      "time": "09-12 17:18",
-     "body": null
+     "body": null,
+     "title_zh": "拉里·埃里森取消75亿美元甲骨文股票出售"
     },
     {
      "title": "Why the AI race has its creators fearing human extinction",
      "url": "https://www.ft.com/content/b7fe0fe0-0463-4f55-9590-0a7d08d8fe66",
      "published_cst": "2026-09-12T16:38:01+08:00",
      "time": "09-12 16:38",
-     "body": null
+     "body": null,
+     "title_zh": "为何AI竞赛让创造者担忧人类灭绝"
     },
     {
      "title": "India’s central bank tells Tata Sons to take conglomerate public",
      "url": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e",
      "published_cst": "2026-09-12T16:20:04+08:00",
      "time": "09-12 16:20",
-     "body": null
+     "body": null,
+     "title_zh": "印度央行要求塔塔集团上市"
     },
     {
      "title": "Brics push for Gulf peace as war worries mount",
      "url": "https://www.ft.com/content/f32bef26-d2b8-47a6-b938-3dcd5e870685",
      "published_cst": "2026-09-12T14:34:25+08:00",
      "time": "09-12 14:34",
-     "body": null
+     "body": null,
+     "title_zh": "金砖国家推动海湾和平，战争担忧加剧"
     },
     {
      "title": "Trump says united Ireland ‘inevitable’ and ‘a very cool thing’",
      "url": "https://www.ft.com/content/70bd4f6c-a5f4-4e59-b773-614f0a5efd58",
      "published_cst": "2026-09-12T12:56:24+08:00",
      "time": "09-12 12:56",
-     "body": null
+     "body": null,
+     "title_zh": "特朗普称爱尔兰统一不可避免且是件很酷的事"
     },
     {
      "title": "Reform UK receives two record £36mn donations",
      "url": "https://www.ft.com/content/936ac952-43a6-44d5-be69-afa344e042f5",
      "published_cst": "2026-09-12T12:25:10+08:00",
      "time": "09-12 12:25",
-     "body": null
+     "body": null,
+     "title_zh": "英国改革党获两笔创纪录的3600万英镑捐款"
     },
     {
      "title": "Can China’s Icicle woo global shoppers in a luxury downturn?",
      "url": "https://www.ft.com/content/e3b7bd04-175a-484d-be85-cbee70a71ecb",
      "published_cst": "2026-09-12T12:00:05+08:00",
      "time": "09-12 12:00",
-     "body": null
+     "body": null,
+     "title_zh": "中国之禾能否在奢侈品低迷期吸引全球消费者？"
     },
     {
      "title": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
      "url": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0",
      "published_cst": "2026-09-12T10:50:57+08:00",
      "time": "09-12 10:50",
-     "body": null
+     "body": null,
+     "title_zh": "沙特遭袭后关闭绕过霍尔木兹的东西向输油管道"
     },
     {
      "title": "Canada seeks $1tn from investors looking for a haven from Donald Trump",
      "url": "https://www.ft.com/content/4dc6710b-7911-44c6-b57a-2fb47b6b04ed",
      "published_cst": "2026-09-12T10:00:05+08:00",
      "time": "09-12 10:00",
-     "body": null
+     "body": null,
+     "title_zh": "加拿大寻求从寻求避开唐纳德·特朗普的投资者处筹集1万亿美元"
     },
     {
      "title": "Chart of the Week: the long shadow of quantitative easing",
      "url": "https://www.ft.com/content/be8d08d3-e3c1-413c-ab6e-5a38b19ce4b6",
      "published_cst": "2026-09-12T09:30:04+08:00",
      "time": "09-12 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "本周图表：量化宽松的长期阴影"
     },
     {
      "title": "LIV Golf’s bleak future shifts to the courtroom",
      "url": "https://www.ft.com/content/d5584fd7-cc24-4d3e-813f-c65f041e2d0e",
      "published_cst": "2026-09-12T08:00:04+08:00",
      "time": "09-12 08:00",
-     "body": null
+     "body": null,
+     "title_zh": "LIV高尔夫黯淡前景转至法庭"
     }
    ]
   }
