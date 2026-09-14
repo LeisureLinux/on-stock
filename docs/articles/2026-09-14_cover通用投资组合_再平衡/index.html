@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界 — 股市观察</title>
+  <meta name="description" content="从 Cover 1991 年 Universal Portfolios 论文原始回测数据出发，讲清再平衡赚波动钱的数学原理（对数/几何平均）、通用投资组合的最坏情况保证及其 O(log T) 收敛速度，并揭示策略在长期单边上涨与单边下跌下的真实代价，给出降频、选资产对、加退出机制三个可操作边界。">
+  <meta name="keywords" content="再平衡, 通用投资组合, Cover, 波动率, 几何平均, 凯利公式, 交易成本, 单边行情, 量化策略, 风险管理">
+  <meta name="author" content="LeisureLinux">
+  <meta name="date" content="2026-09-14">
+  <link rel="canonical" href="https://stock.freelamp.com/articles/2026-09-14_cover通用投资组合_再平衡/">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="Readings RSS 订阅" href="/rss.xml">
+  <!-- Open Graph：文章页 -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界">
+  <meta property="og:description" content="从 Cover 1991 年 Universal Portfolios 论文原始回测数据出发，讲清再平衡赚波动钱的数学原理（对数/几何平均）、通用投资组合的最坏情况保证及其 O(log T) 收敛速度，并揭示策略在长期单边上涨与单边下跌下的真实代价，给出降频、选资产对、加退出机制三个可操作边界。">
+  <meta property="og:url" content="https://stock.freelamp.com/articles/2026-09-14_cover通用投资组合_再平衡/">
+  <meta property="og:site_name" content="股市观察">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="article:published_time" content="2026-09-14">
+  <meta property="article:author" content="LeisureLinux">
+  <meta property="article:section" content="再平衡">
+  <meta property="article:tag" content="再平衡">
+  <meta property="article:tag" content="通用投资组合">
+  <meta property="article:tag" content="Cover">
+  <meta property="article:tag" content="波动率">
+  <meta property="article:tag" content="几何平均">
+  <meta property="article:tag" content="凯利公式">
+  <meta property="article:tag" content="交易成本">
+  <meta property="article:tag" content="单边行情">
+  <meta property="article:tag" content="量化策略">
+  <meta property="article:tag" content="风险管理">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界">
+  <meta name="twitter:description" content="从 Cover 1991 年 Universal Portfolios 论文原始回测数据出发，讲清再平衡赚波动钱的数学原理（对数/几何平均）、通用投资组合的最坏情况保证及其 O(log T) 收敛速度，并揭示策略在长期单边上涨与单边下跌下的真实代价，给出降频、选资产对、加退出机制三个可操作边界。">
+  <meta name="twitter:site" content="@LeisureLinux">
+  <meta name="twitter:creator" content="@LeisureLinux">
+
+  <!-- JSON-LD：TechArticle 结构化数据（SEO 核心） -->
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界",
+  "description": "斯坦福教授 Thomas M. Cover 用 Iroquois Brands 与 Kin Ark 两只高波动股票做了 22 年回测：单押 Iroquois 8.92 倍、Kin Ark 4.13 倍，事后最优固定比例再平衡 73.62 倍，Cover 的通用投资组合（不预测、不建模）38.67 倍，跑赢任何单只个股。核心是最大化几何增长率而非期望收益。但要看清三件事：'10 万变 700 万'是事后最优数字被演绎成实盘战绩；通用组合的天生弱点是长期单边趋势（A 年涨 20% 时 50/50 十年 2.49 倍 vs 死拿 6.19 倍；A 年跌 20% 时 50/50 十年亏 67%）；真实世界里交易成本是第一杀手。",
+  "datePublished": "2026-09-14",
+  "dateModified": "2026-09-14",
+  "author": {
+    "@type": "Person",
+    "name": "LeisureLinux",
+    "url": "https://github.com/LeisureLinux"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "股市观察",
+    "url": "https://stock.freelamp.com"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://stock.freelamp.com/articles/2026-09-14_cover通用投资组合_再平衡/"
+  },
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "proficiencyLevel": "Expert",
+  "inLanguage": "zh-CN",
+  "keywords": "再平衡, 通用投资组合, Cover, 波动率, 几何平均, 凯利公式, 交易成本, 单边行情, 量化策略, 风险管理"
+}
+  </script>
+
+  <!-- JSON-LD：BreadcrumbList 面包屑 -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Readings",
+        "item": "https://stock.freelamp.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界",
+        "item": "https://stock.freelamp.com/articles/2026-09-14_cover通用投资组合_再平衡/"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      background: #F9FAFB; color: #374151; line-height: 1.75;
+    }
+    .container { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    
+    nav {
+      background: #fff; border-bottom: 1px solid #E5E7EB;
+      padding: 12px 0; position: sticky; top: 0; z-index: 10;
+    }
+    nav .container { display: flex; align-items: center; justify-content: space-between; }
+    nav a { color: #DC2626; text-decoration: none; font-weight: 600; font-size: 14px; }
+    nav .brand { font-weight: 800; color: #111827; font-size: 15px; text-decoration: none; }
+    
+    .post-header { padding: 48px 0 32px; border-bottom: 1px solid #E5E7EB; margin-bottom: 32px; }
+    .post-date { font-size: 13px; color: #9CA3AF; font-weight: 600; letter-spacing: 1px; margin-bottom: 12px; }
+    .post-title { font-size: 28px; font-weight: 900; color: #111827; line-height: 1.3; letter-spacing: -0.5px; margin-bottom: 16px; }
+    .post-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+    .post-tags a {
+      background: #FEF2F2; color: #DC2626; padding: 3px 10px;
+      border-radius: 4px; font-size: 12px; font-weight: 600; text-decoration: none;
+    }
+    .post-tags a:hover { background: #D1FAE5; }
+    
+    .post-content { padding-bottom: 48px; }
+    .post-content h2 {
+      font-size: 22px; font-weight: 800; color: #111827;
+      margin: 40px 0 16px; padding-bottom: 8px;
+      border-bottom: 2px solid #DC2626;
+    }
+    .post-content h3 {
+      font-size: 17px; font-weight: 700; color: #111827;
+      margin: 28px 0 12px;
+    }
+    .post-content h4 {
+      font-size: 15px; font-weight: 700; color: #374151;
+      margin: 20px 0 10px;
+    }
+    .post-content p { margin-bottom: 16px; font-size: 15px; line-height: 1.9; }
+    .post-content ul, .post-content ol { margin: 0 0 16px 24px; }
+    .post-content li { margin-bottom: 8px; font-size: 15px; line-height: 1.8; }
+    .post-content strong { color: #DC2626; }
+    .post-content code {
+      background: #F3F4F6; color: #1F2937; padding: 2px 6px;
+      border-radius: 4px; font-size: 13px; font-family: 'SF Mono', Consolas, Monaco, monospace;
+    }
+    .post-content pre {
+      background: #1E293B; color: #E2E8F0; padding: 16px 20px;
+      border-radius: 8px; overflow-x: auto; margin-bottom: 20px;
+      font-size: 13px; line-height: 1.6;
+    }
+    .post-content pre code {
+      background: none; color: inherit; padding: 0; font-size: inherit;
+    }
+    .post-content table {
+      width: 100%; border-collapse: collapse; margin-bottom: 20px;
+      font-size: 13px;
+    }
+    .post-content th {
+      background: #DC2626; color: #fff; padding: 10px 12px;
+      text-align: left; font-weight: 700;
+    }
+    .post-content td {
+      padding: 8px 12px; border-bottom: 1px solid #E5E7EB;
+    }
+    .post-content tr:nth-child(even) td { background: #F9FAFB; }
+    .post-content blockquote {
+      border-left: 4px solid #DC2626; background: #FEF2F2;
+      padding: 12px 20px; margin: 0 0 20px; border-radius: 0 8px 8px 0;
+    }
+    .post-content hr { border: none; border-top: 1px solid #E5E7EB; margin: 32px 0; }
+    
+    .buy-card {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      margin: 8px 0 24px; padding: 16px 20px;
+      background: #FFF7F7; border: 1px solid #FFD9D9; border-radius: 12px;
+    }
+    .buy-card .buy-label { color: #E6373A; font-weight: 600; font-size: 13px; }
+    .buy-card .buy-text { color: #6B7280; font-size: 13px; line-height: 1.6; margin-top: 4px; }
+    .buy-card .buy-btn {
+      flex-shrink: 0; display: inline-block; background: #E6373A; color: #fff;
+      padding: 10px 18px; border-radius: 8px; font-size: 14px; font-weight: 600;
+      text-decoration: none; white-space: nowrap;
+    }
+    .buy-card .buy-btn:hover { background: #cf2c2f; }
+    .buy-card.buy-card-prod { align-items: stretch; }
+    .buy-prod-img {
+      flex-shrink: 0; display: block; width: 92px; height: 92px;
+      border-radius: 8px; overflow: hidden; border: 1px solid #FFD9D9;
+      background: #fff;
+    }
+    .buy-prod-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .buy-info { flex: 1; min-width: 0; }
+    .buy-card .buy-prod-title {
+      margin-top: 6px; color: #111827; font-size: 13px; font-weight: 600;
+      line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; overflow: hidden;
+    }
+    @media (max-width: 520px) {
+      .buy-card.buy-card-prod { flex-wrap: wrap; }
+      .buy-card.buy-card-prod .buy-btn { width: 100%; text-align: center; }
+    }
+    .share-bar {
+      display: flex; flex-wrap: wrap; align-items: center; gap: 14px;
+      padding: 22px 0 26px; margin-top: 8px;
+      border-top: 1px dashed #E5E7EB;
+    }
+    .share-btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 44px; height: 44px; border-radius: 50%;
+      border: none; cursor: pointer; padding: 0;
+      color: #fff; transition: transform .15s ease, box-shadow .15s ease;
+      box-shadow: 0 2px 6px rgba(0,0,0,.14);
+    }
+    .share-btn:hover { transform: translateY(-3px); box-shadow: 0 6px 16px rgba(0,0,0,.20); }
+    .share-btn:active { transform: translateY(-1px); }
+    .share-btn svg { width: 24px; height: 24px; fill: #fff; }
+    .ico-wx { background: #07C160; }
+    .ico-weibo { background: #E6162D; }
+    .ico-x { background: #000; }
+
+    .post-comments {
+      margin-top: 40px; padding: 28px 28px 40px;
+      border: 1px solid #D1FAE5; border-radius: 16px;
+      background: #FFFFFF; box-shadow: 0 4px 24px rgba(5,150,105,0.08);
+    }
+    .comments-head {
+      display: flex; align-items: center; gap: 10px; margin-bottom: 6px;
+    }
+    .comments-head .comments-badge {
+      font-size: 12px; font-weight: 800; color: #fff; background: #DC2626;
+      padding: 3px 10px; border-radius: 999px; letter-spacing: .5px;
+    }
+    .comments-title {
+      font-size: 20px; font-weight: 900; color: #DC2626;
+      margin: 0;
+    }
+    .comments-sub {
+      font-size: 13px; color: #6B7280; margin-bottom: 20px;
+      padding-bottom: 16px; border-bottom: 1px solid #E5E7EB;
+    }
+    .giscus { min-height: 320px; }
+
+    footer {
+      text-align: center; padding: 32px 0; color: #9CA3AF;
+      font-size: 13px; border-top: 1px solid #E5E7EB;
+    }
+    footer a { color: #DC2626; text-decoration: none; }
+  </style>
+  <!-- 百度统计（异步加载，不阻塞渲染） -->
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?c84aba57a27dd660adce6008518bb3dc";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a class="brand" href="/">📈 股市观察</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <article itemscope itemtype="https://schema.org/TechArticle">
+      <div class="post-header">
+        <div class="post-date" itemprop="datePublished" content="2026-09-14">2026-09-14</div>
+        <h1 class="post-title" itemprop="headline">每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界</h1>
+        <div class="post-tags"><a itemprop="keywords" href="/tags/%E5%86%8D%E5%B9%B3%E8%A1%A1/">再平衡</a><a itemprop="keywords" href="/tags/%E9%80%9A%E7%94%A8%E6%8A%95%E8%B5%84%E7%BB%84%E5%90%88/">通用投资组合</a><a itemprop="keywords" href="/tags/Cover/">Cover</a><a itemprop="keywords" href="/tags/%E6%B3%A2%E5%8A%A8%E7%8E%87/">波动率</a><a itemprop="keywords" href="/tags/%E5%87%A0%E4%BD%95%E5%B9%B3%E5%9D%87/">几何平均</a><a itemprop="keywords" href="/tags/%E5%87%AF%E5%88%A9%E5%85%AC%E5%BC%8F/">凯利公式</a><a itemprop="keywords" href="/tags/%E4%BA%A4%E6%98%93%E6%88%90%E6%9C%AC/">交易成本</a><a itemprop="keywords" href="/tags/%E5%8D%95%E8%BE%B9%E8%A1%8C%E6%83%85/">单边行情</a><a itemprop="keywords" href="/tags/%E9%87%8F%E5%8C%96%E7%AD%96%E7%95%A5/">量化策略</a><a itemprop="keywords" href="/tags/%E9%A3%8E%E9%99%A9%E7%AE%A1%E7%90%86/">风险管理</a></div>
+        <meta itemprop="author" content="LeisureLinux">
+        <meta itemprop="license" content="https://creativecommons.org/licenses/by-sa/4.0/">
+      </div>
+
+      <div class="post-content" itemprop="articleBody">
+<p>
+<blockquote>主题：Thomas M. Cover 的通用投资组合（Universal Portfolios）与再平衡策略  <br>
+原始文献：Cover, T. M., <em>Universal Portfolios</em>, Mathematical Finance 1(1): 1–29, 1991  <br>
+数字核对：论文第 8 节原始回测（Iroquois Brands / Kin Ark，NYSE 真实日线）  <br>
+说明：本文为策略原理科普与边界讨论，不构成投资建议</blockquote>
+---</p>
+<h2>一句话总结</h2>
+<p>一个斯坦福教授，用两只平平无奇的股票，每天把仓位强制调回各一半，二十二年跑出远超两只个股的收益——<strong>全程没有预测过任何一次涨跌</strong>。</p>
+<p>他赚的不是涨跌的钱，是<strong>波动的钱</strong>。</p>
+<p>但故事在网上流传的过程中被放大了：所谓"10 万变 700 万"，其实是论文里"<strong>事后最优</strong>再平衡"的那个数字，被包装成了实盘战绩。而真正值得记住的，不是那 700 万，是这套策略<strong>天生害怕单边趋势</strong>这个设计代价。</p>
+<p>---</p>
+<h2>一、先看原始数字，别急着感动</h2>
+<p>Cover 在 1991 年的论文里用纽约证券交易所的真实日线做了回测，最经典的一对是 <strong>Iroquois Brands（易洛魁品牌）</strong> 和 <strong>Kin Ark（金阿克）</strong>——选它们不是因为基本面好，而是因为<strong>波动大</strong>。回测区间是截至 1985 年的 <strong>22 年</strong>（1963–1985）。</p>
+<table>
+<tr><th>标的 / 策略</th><th>22 年累计倍数</th></tr>
+<tr><td>Iroquois Brands（单押）</td><td><strong>8.92 倍</strong></td></tr>
+<tr><td>Kin Ark（单押）</td><td><strong>4.13 倍</strong></td></tr>
+<tr><td>事后最优固定比例再平衡 b\* = (0.55, 0.45)</td><td><strong>73.62 倍</strong></td></tr>
+<tr><td>Cover 通用投资组合（不看未来）</td><td><strong>38.67 倍</strong></td></tr>
+</table>
+<p>来源：<a href="https://isl.stanford.edu/~cover/papers/paper93.pdf">Cover, <em>Universal Portfolios</em>, 第 8 节</a>、<a href="https://doi.org/10.1111/j.1467-9965.1991.tb00002.x">DOI</a></p>
+<p>三个关键事实：</p>
+<p><ol>
+<li><strong>再平衡确实碾压单押。</strong> 38.67 倍 vs 8.92 倍，且<strong>没有任何预测</strong>。</li>
+<li><strong>"10 万变 700 万"对应的是 73.62 倍那一行</strong>——那是开着上帝视角挑出来的最优比例，不是算法的成绩。</li>
+<li>论文里还有一组：<strong>Commercial Metals + Kin Ark</strong>，单押 Commercial Metals 是 52.02 倍，事后最优再平衡 144.00 倍，通用投资组合 78.47 倍。<strong>通用组合再次跑赢最好的那只个股</strong>，但离事后最优还差得远。</li>
+</ol>
+那 38.67 倍，是"不看未来"能做到的位置。</p>
+<p>---</p>
+<h2>二、为什么波动能赚钱：把目标换成几何增长率</h2>
+<p>这里藏着一个反直觉到极点的真相。</p>
+<p>投资的真正目标，<strong>不该是最大化期望收益</strong>——那样你会把钱全押在期望最高的那只上，风险直接爆炸。正确的目标是<strong>最大化财富的长期增长率</strong>，也就是几何平均，用对数来算。因为复利吃的就是这个。</p>
+<p>看个例子你立刻就懂：<strong>现金 + 一只股票</strong>，股票每天要么翻倍、要么减半，概率各一半。单看这只股票，长期原地踏步——因为 2 × 0.5 = 1。</p>
+<p>但如果你每天保持各一半：</p>
+<table>
+<tr><th>当天走势</th><th>股票仓位变化</th><th>再平衡后的组合倍数</th></tr>
+<tr><td>翻倍</td><td>1 → 2</td><td>0.5×1 + 0.5×2 = <strong>1.5</strong></td></tr>
+<tr><td>减半</td><td>1 → 0.5</td><td>0.5×1 + 0.5×0.5 = <strong>0.75</strong></td></tr>
+</table>
+<p>两天的乘积：1.5 × 0.75 = 1.125，<strong>每期几何平均 = √1.125 ≈ 1.0607</strong>，也就是每期稳稳 +6.07%。</p>
+<p>一只长期"零收益"的股票，配上现金再平衡，变成了每期 6% 的确定性收益。<strong>这不是靠预测赚的，是靠波动赚的。</strong></p>
+<p>---</p>
+<h2>三、通用投资组合：不预测、不建模、不学习</h2>
+<p>上面那个 50/50 有个前提：你得<strong>事先知道</strong>该配多少。而 Cover 更进一步，提出了<strong>通用投资组合（Universal Portfolio）</strong>。</p>
+<p>思路朴素得惊人：</p>
+<p><blockquote>给每一种可能的固定比例分配一笔初始资金，让它们各自去跑；谁跑得好，它在后续获得的配置权重就自动变大。</blockquote>
+最终权重就是所有历史表现好的比例的<strong>加权平均</strong>。它完全不用预测、不建模、不学习，只拿历史数据每天再平衡。</p>
+<p>数学上的保证是（论文定理）：<strong>通用组合与"事后最优固定比例再平衡"之间的对数收益差，随交易天数 T 增长而趋于零</strong>——<a href="https://arxiv.org/abs/1611.09631">误差以 O(log T) 的速度消失</a>。</p>
+<p>这才是它真正厉害的地方：<strong>它是一个最坏情况保证</strong>，不依赖任何关于股价分布的假设。你不需要相信股票服从什么随机过程，它对任意价格序列都成立。</p>
+<p><blockquote>注意这句话的边界：保证是"<strong>渐近</strong>"成立的、"<strong>相对事后最优固定比例</strong>"的。它不是"稳赚"，也不是"任意短周期都不吃亏"——第三、四节会讲清楚代价。</blockquote>
+---</p>
+<h2>四、故事里哪些是真的，哪些是演绎</h2>
+<p><strong>教授是真的。</strong></p>
+<p><strong>Thomas M. Cover（汤姆·科弗，1938–2012）</strong>，斯坦福大学电子工程系与统计学系联合教授，1994 年获 Kwoh-Ting Li 讲席教授，信息论领域的顶级人物。他与 Joy A. Thomas 合著的《Elements of Information Theory》（1991）至今仍是该领域使用最广的标准教科书。1990 年获 IEEE 香农奖，1997 年获 IEEE 汉明奖章。2012 年 3 月 26 日去世，享年 73 岁。</p>
+<p>来源：<a href="https://news.stanford.edu/stories/2012/04/thomas-cover-acclaimed-information-theorist-electrical-engineer-dies-73">Stanford Report 讣告</a>、<a href="https://imstat.org/2012/05/17/obituary-thomas-cover-1938-2012">IMS 讣告</a></p>
+<p><strong>"10 万变 700 万"是演绎。</strong></p>
+<p>真实情况是：Cover 是用<strong>历史数据做学术演示</strong>，回测区间 22 年，最经典的一对就是上面那两只股票。他<strong>没有公开证据</strong>用真金白银长期实盘做到这个规模。</p>
+<p>那个"约 70 倍"，和论文里"事后最优再平衡 = 73.62 倍"几乎完全吻合——<strong>这基本就是把上帝视角的数字，说成了教授自己的账户</strong>。</p>
+<p>论文的价值不在故事，在定理。</p>
+<p>---</p>
+<h2>五、真正的风险：单边行情来了会怎样</h2>
+<p>这才是这套策略的真面目所在。它的设计目标里，<strong>从来没有"跟上趋势"这一项</strong>。</p>
+<h3>长期单边上涨</h3>
+<p>涨的那只每天涨，收盘后它的仓位就变成 60%、70%、80%……你<strong>必须卖掉一部分涨的，买入相对弱的那只</strong>，强制回到设定比例。第二天继续卖强买弱。</p>
+<p>持续下去，你的组合增长率会收敛到<strong>两只股票增长率的中点</strong>，而不是更快的那一只。</p>
+<p>做个示意计算：A 每年 +20%，B 每年 0%，跑 10 年。</p>
+<table>
+<tr><th>策略</th><th>10 年结果</th></tr>
+<tr><td>死拿 A</td><td><strong>6.19 倍</strong></td></tr>
+<tr><td>50/50 每日再平衡</td><td><strong>2.49 倍</strong></td></tr>
+<tr><td>事后最优固定比例（≈ 全仓 A）</td><td>6.19 倍</td></tr>
+</table>
+<p>单边越强、越持久，你落后的幅度越大。<strong>这就是踏空主升浪的数学原因</strong>——不是执行出了问题，是策略自带的代价。</p>
+<h3>长期单边下跌</h3>
+<p>镜像的灾难。跌的那只每天跌，你<strong>必须卖掉抗跌的，继续加仓正在下跌的</strong>。</p>
+<p>同样的示意计算：A 每年 −20%，B 每年 0%，跑 10 年。</p>
+<table>
+<tr><th>策略</th><th>10 年结果</th></tr>
+<tr><td>死拿 B（不跌）</td><td>1.00 倍（不亏不赚）</td></tr>
+<tr><td>50/50 每日再平衡</td><td><strong>0.33 倍（−67%）</strong></td></tr>
+</table>
+<p>你在下跌过程中一路加仓输家，回撤比单纯持有抗跌的那只<strong>更大</strong>。</p>
+<h3>通用投资组合能救吗？</h3>
+<p>只能救一半，而且要看清它救的是什么：</p>
+<p><ul>
+<li><strong>会自适应。</strong> 它按历史表现加权，不会死守 50/50，会慢慢向赢家倾斜。</li>
+<li><strong>但收敛很慢。</strong> 论文自己的例子就是证据：38.67 倍 vs 事后最优 73.62 倍，<strong>差了近一倍</strong>。理论上那点差距会随 T 增大而消失，但在你真实的持有周期里，它可能就是显著落后。</li>
+<li><strong>下跌端同样救不了。</strong> 它的基准是"最优固定比例再平衡"，而在一路阴跌里，最优固定比例本身也是个亏损结局。<strong>它跑赢的是一个也在亏钱的基准。</strong></li>
+</ul>
+一句话：<strong>它天生擅长震荡和轮动，天生害怕真正的持久趋势。</strong></p>
+<p>---</p>
+<h2>六、想用这套方法，先接受三个硬边界</h2>
+<p><ol>
+<li><strong>交易成本是第一杀手，不是纪律。</strong> 理论假设零成本，而每日再平衡意味着极高换手率。波动越大的资产对，换手越凶，成本吃得越狠。Blum 与 Kalai 后来把结论<a href="https://www.cs.cmu.edu/~avrim/Papers/portfolio.pdf">扩展到了固定比例佣金</a>的情形，但"每日调仓"在现实费率下往往直接失效。<strong>先降频，再谈策略。</strong></li>
+</ol>
+<ol>
+<li><strong>只选对的资产对，别拿趋势股硬套。</strong> 波动大、相关性低、<strong>有一定均值回归倾向</strong>的资产对才适用（论文里那两只小盘股就是典型）。把一个单边十年的超级成长股强行塞进这套框架，等于自找踏空。</li>
+</ol>
+<ol>
+<li><strong>不要死磕每天，并给策略留退路。</strong> 降到每周或每月，或者设置偏离阈值再调仓；同时加上退出机制——当某只资产持续单边过久，或组合回撤触及预设线时，<strong>果断暂停</strong>。再平衡不是信仰，是需要边界的工具。</li>
+</ol>
+---</p>
+<h2>结语</h2>
+<p>市场总有人在喊"预测未来""抓主升浪"。但真正能穿越周期的，往往是那些<strong>把波动当成燃料、把纪律当成信仰，同时又清楚知道边界在哪里的人</strong>。</p>
+<p>Cover 留下的不是一个发财故事，而是一个精确的承诺：<strong>在不知道未来的前提下，你能做到多好。</strong></p>
+<p>答案是有上限的，但那个上限，比大多数人凭感觉操作的结果高得多。</p>
+<p>最后问自己两个问题：</p>
+<p><ul>
+<li>你的投资组合，有没有在用"再平衡"把波动变成朋友？</li>
+<li>又有没有给它留好"单边来了就停"的退路？</li>
+</ul>
+欢迎留言你见过的再平衡翻车故事，或者你觉得最适合做这套策略的资产对。
+</p>
+      </div>
+    </article>
+    <div class="article-disclaimer" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #FEF2F2; font-size: 13px; color: #78716C;">
+      <h4 style="font-size: 15px; font-weight: 700; color: #DC2626; margin-bottom: 12px;">⚠️ 免责声明</h4>
+      <p>以上内容仅供参考，不构成任何投资建议。股市有风险，投资需谨慎。本文作者不对基于本文内容做出的任何投资决策负责。读者应根据自身情况独立判断，自行承担投资风险。</p>
+    </div>
+
+
+    <!-- 京东购买卡片（CPS 推广，带商品图） -->
+    <div class="buy-card buy-card-prod">
+      <a class="buy-prod-img" href="https://union-click.jd.com/jdc?e=618%7Cpc%7C&amp;p=JF8BAZsJK1olWAcFV15YDEweC18IGloXWQ4KU1ZVC0wnRzBQRQQlBENHFRxWFlVWQDEXR0ROCBlQCgJDVBtKXnFYSR5NGlIcUVoabhJnX2dda1lNVQF3Cj4PfSxNBylaRDxwDxhaCwsJQVRORjNVFRlPGQoEPTsEVhQUUQ9hUA5MNFV7UBtYUh5Oajx9YgtCKWNsVgUHADBMezhxGCxMFHpSNCgqHw9IWzFXRgtKCGNKFQpRCFxLUzdXeQFRUQYDVVxZAEMQC2cLHGtpLnxHIywiXClsYR9OfQxNVHBJJ1ktBEcnAl8LGlgWXQMFUF9UOHsXBF9YdVMdVQQFXVhVDEkeM244G10cWgYHU19UC00VB18PG1IlHwYLXVhZDk0WC2wKElMQXgAyZG5eOEwXCnsOaRpHSQBwZG5eDnsUM18KGloRVDYyitPtcT5qCioBRC90HEV0Lx8VXZWas356a1sRXAATZFg0bRJJXGxaezJeCF9rBydZTU5NVjZhSC5sDVF2MTBfUxEfeDRwTCIWKl9LKA49fjwnBl8PHVolXDY" target="_blank" rel="nofollow noopener sponsored" aria-hidden="true" tabindex="-1"><img src="https://img14.360buyimg.com/n1/s450x450_jfs/t1/486282/25/12569/87007/6a75561fF052d9b50/00833203202b8437.png" alt="联想笔记本电脑小新Air15 3代酷睿Core5 320 16G 512G 120Hz高刷触控屏 学生办公轻薄本 国家补贴" loading="lazy" decoding="async"></a>
+      <div class="buy-info">
+        <span class="buy-label">支持作者</span>
+        <div class="buy-text">本文有帮助？可看看下方这款相关商品，通过京东下单给作者一点小支持。</div>
+        <div class="buy-prod-title">联想笔记本电脑小新Air15 3代酷睿Core5 320 16G 512G 120Hz高刷触控屏 学生办公轻薄本 国家补贴</div>
+      </div>
+      <a class="buy-btn" href="https://union-click.jd.com/jdc?e=618%7Cpc%7C&amp;p=JF8BAZsJK1olWAcFV15YDEweC18IGloXWQ4KU1ZVC0wnRzBQRQQlBENHFRxWFlVWQDEXR0ROCBlQCgJDVBtKXnFYSR5NGlIcUVoabhJnX2dda1lNVQF3Cj4PfSxNBylaRDxwDxhaCwsJQVRORjNVFRlPGQoEPTsEVhQUUQ9hUA5MNFV7UBtYUh5Oajx9YgtCKWNsVgUHADBMezhxGCxMFHpSNCgqHw9IWzFXRgtKCGNKFQpRCFxLUzdXeQFRUQYDVVxZAEMQC2cLHGtpLnxHIywiXClsYR9OfQxNVHBJJ1ktBEcnAl8LGlgWXQMFUF9UOHsXBF9YdVMdVQQFXVhVDEkeM244G10cWgYHU19UC00VB18PG1IlHwYLXVhZDk0WC2wKElMQXgAyZG5eOEwXCnsOaRpHSQBwZG5eDnsUM18KGloRVDYyitPtcT5qCioBRC90HEV0Lx8VXZWas356a1sRXAATZFg0bRJJXGxaezJeCF9rBydZTU5NVjZhSC5sDVF2MTBfUxEfeDRwTCIWKl9LKA49fjwnBl8PHVolXDY" target="_blank" rel="nofollow noopener sponsored">京东购买 ↗</a>
+    </div>
+
+
+    <!-- 社交媒体分享栏：文章结尾、评论区上方（品牌小图标） -->
+    <div class="share-bar">
+      <button type="button" class="share-btn ico-wx" onclick="shareWechat()" title="微信扫码分享" aria-label="分享到微信">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .718-.098 11.223 11.223 0 0 0 2.836.379c.276 0 .543-.027.811-.05-.03-.21-.049-.424-.049-.642 0-3.893 3.567-7.05 7.964-7.05.158 0 .313.012.469.02C17.367 5.119 13.484 2.188 8.691 2.188zm-2.51 4.925c.653 0 1.182.523 1.182 1.168 0 .645-.529 1.168-1.182 1.168-.653 0-1.182-.523-1.182-1.168 0-.645.529-1.168 1.182-1.168zm5.925 0c.653 0 1.182.523 1.182 1.168 0 .645-.529 1.168-1.182 1.168-.653 0-1.182-.523-1.182-1.168 0-.645.529-1.168 1.182-1.168zM20.985 12.242c0 3.542-3.319 6.414-7.414 6.414-.72 0-1.416-.09-2.064-.256a.63.63 0 0 0-.524.07l-1.386.81a.28.28 0 0 1-.122.04.215.215 0 0 1-.212-.215c0-.052.021-.104.035-.154l.285-1.079a.43.43 0 0 0-.156-.485C8.082 16.811 7.1 15.548 7.1 14.057c0-3.542 3.319-6.414 7.414-6.414 4.095 0 6.471 2.872 6.471 6.414zm-2.894-.646c-.476 0-.862-.382-.862-.852 0-.47.386-.852.862-.852.476 0 .862.382.862.852 0 .47-.386.852-.862.852zm-3.517 0c-.476 0-.862-.382-.862-.852 0-.47.386-.852.862-.852.476 0 .862.382.862.852 0 .47-.386.852-.862.852z"/></svg>
+      </button>
+      <button type="button" class="share-btn ico-weibo" onclick="openShare('https://service.weibo.com/share/share.php?url='+encodeURIComponent(SHARE.url)+'&title='+encodeURIComponent(SHARE.title))" title="分享到微博" aria-label="分享到微博">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10.996 1.885c-4.944.047-9.071 3.731-9.993 8.484-.984 5.069 3.143 9.193 8.787 9.193 4.832 0 8.752-3.375 9.755-7.884.505-2.274.05-4.487-1.537-6.033-1.37-1.336-3.36-1.947-5.506-1.761h-1.506zM9.173 16.142c-3.227.013-5.84-1.826-5.84-4.107 0-2.281 2.614-4.119 5.84-4.107 3.227.011 5.84 1.849 5.84 4.13 0 2.281-2.613 4.071-5.84 4.084zm0-1.554c2.42.011 4.38-1.14 4.38-2.546 0-1.406-1.96-2.548-4.38-2.548-2.42 0-4.38 1.142-4.38 2.548 0 1.406 1.96 2.535 4.38 2.546zm0-3.826c1.091 0 1.975.573 1.975 1.28s-.884 1.28-1.975 1.28-1.975-.573-1.975-1.28.884-1.28 1.975-1.28zm4.631-5.902c-1.396-.527-1.093-2.264.411-2.348 1.504-.084 2.331 1.546.913 2.213-.354.166-.763.225-1.324.135zm-1.324 1.544c2.279.15 3.536 1.782 2.829 3.549-.707 1.768-3.195 2.484-5.475 2.335-2.279-.15-3.536-1.782-2.829-3.549.708-1.768 3.196-2.484 5.475-2.335zM14.972 3.394c.694.055 1.224.223 1.59.504.366.28.502.651.407 1.112-.095.461-.489.648-.783.701-.295.054-.747-.014-1.356-.203-.609-.188-.799-.642-.569-1.361.23-.72.447-1.065.711-1.002zm-3.977.238c-2.273.022-4.576 1.112-6.205 2.827-1.319 1.388-2.102 3.085-2.178 4.88-.077 1.795.585 3.617 1.738 5.124 1.153 1.506 2.841 2.511 4.709 2.858 1.868.348 3.876-.042 5.533-1.065 1.656-1.022 2.884-2.559 3.421-4.369.537-1.81.417-3.791-.211-5.344-.629-1.554-1.846-2.832-3.476-3.602-1.233-.583-2.549-.847-3.834-.841z"/></svg>
+      </button>
+      <button type="button" class="share-btn ico-x" onclick="openShare('https://twitter.com/intent/tweet?text='+encodeURIComponent(SHARE.title+' '+SHARE.url))" title="分享到 X" aria-label="分享到 X">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+      </button>
+    </div>
+
+    <!-- giscus 点评（GitHub Discussions 驱动） -->
+    <section class="post-comments" id="comments">
+      <div class="comments-head">
+        <h2 class="comments-title">点评与讨论</h2>
+        <span class="comments-badge">GITHUB 账号登录</span>
+      </div>
+      <p class="comments-sub">有疑问、有补充、有不同看法？欢迎留下你的点评，一起把技术聊透。👇</p>
+      <div class="giscus" id="giscus">
+        <script src="https://giscus.app/client.js"
+          data-repo="LeisureLinux/Readings"
+          data-repo-id="R_kgDOTuKgSA"
+          data-category="General"
+          data-category-id="DIC_kwDOTuKgSM4DCr7V"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="preferred_color_scheme"
+          data-lang="zh-CN"
+          data-loading="lazy"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 <a href="https://github.com/LeisureLinux">LeisureLinux</a> · <em class="footer-quote" style="color: #9333EA; font-style: italic;">股海沉浮中的刀光剑影皆是虚妄，K 线涨落间的盈亏得失尽是浮尘。</em></p>
+    </div>
+  </footer>
+
+  <script>
+    var SHARE = {
+      url: "https://stock.freelamp.com/articles/2026-09-14_cover\u901a\u7528\u6295\u8d44\u7ec4\u5408_\u518d\u5e73\u8861/",
+      title: "\u6bcf\u5929\u518d\u5e73\u8861\uff0c10 \u4e07\u53d8 700 \u4e07\uff1fCover \u901a\u7528\u6295\u8d44\u7ec4\u5408\u7684\u771f\u76f8\u4e0e\u8fb9\u754c"
+    };
+    function openShare(u) { window.open(u, '_blank', 'noopener,width=680,height=560'); }
+    function shareWechat() { window.open('https://api.qrserver.com/v1/create-qr-code/?size=320x320&margin=10&data=' + encodeURIComponent(SHARE.url), 'wechat_qr', 'width=380,height=420,noopener'); }
+  </script>
+</body>
+</html>
