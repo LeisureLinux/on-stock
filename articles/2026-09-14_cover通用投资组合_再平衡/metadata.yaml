@@ -15,3 +15,31 @@ tags:
 summary: "斯坦福教授 Thomas M. Cover 用 Iroquois Brands 与 Kin Ark 两只高波动股票做了 22 年回测：单押 Iroquois 8.92 倍、Kin Ark 4.13 倍，事后最优固定比例再平衡 73.62 倍，Cover 的通用投资组合（不预测、不建模）38.67 倍，跑赢任何单只个股。核心是最大化几何增长率而非期望收益。但要看清三件事：'10 万变 700 万'是事后最优数字被演绎成实盘战绩；通用组合的天生弱点是长期单边趋势（A 年涨 20% 时 50/50 十年 2.49 倍 vs 死拿 6.19 倍；A 年跌 20% 时 50/50 十年亏 67%）；真实世界里交易成本是第一杀手。"
 description: "从 Cover 1991 年 Universal Portfolios 论文原始回测数据出发，讲清再平衡赚波动钱的数学原理（对数/几何平均）、通用投资组合的最坏情况保证及其 O(log T) 收敛速度，并揭示策略在长期单边上涨与单边下跌下的真实代价，给出降频、选资产对、加退出机制三个可操作边界。"
 published: true
+
+data_sources:
+  - type: publication
+    desc: "Cover, T. M., Universal Portfolios, Mathematical Finance 1(1): 1-29, 1991"
+    link: "https://isl.stanford.edu/~cover/papers/paper93.pdf"
+    verified: true
+  - type: publication
+    desc: "论文 DOI"
+    link: "https://doi.org/10.1111/j.1467-9965.1991.tb00002.x"
+    verified: true
+  - type: people
+    desc: "Thomas M. Cover 讣告（Stanford Report）"
+    link: "https://news.stanford.edu/stories/2012/04/thomas-cover-acclaimed-information-theorist-electrical-engineer-dies-73"
+    verified: true
+  - type: publication
+    desc: "Cover 定理的收敛性扩展"
+    link: "https://arxiv.org/abs/1611.09631"
+    verified: true
+  - type: publication
+    desc: "交易成本下的通用组合"
+    link: "https://www.cs.cmu.edu/~avrim/Papers/portfolio.pdf"
+    verified: true
+
+verification:
+  sources_declared: true
+  links_checked: true
+  last_check: "2026-09-14"
+  confidence_score: 4.5

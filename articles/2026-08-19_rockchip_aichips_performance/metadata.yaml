@@ -12,3 +12,23 @@ tags:
 summary: "深度解读瑞芯微 2026 半年报：营收 28.77 亿 (+40.6%)，净利 8.59 亿 (+61.7%)，毛利率 45.79% 逆势提升。分析 RK182X 数百客户量产、RK3572 下半年放量等新品周期，结合券商上调盈利预测（2026 年 18.5 亿）与当前股价 68.5 元（PE 23.7x），给出目标价 95-105 元（+39%-54% 空间）的估值分析。"
 description: "瑞芯微发布 2026 半年报，业绩超预期：营收 28.77 亿 (+40.6%)，净利 8.59 亿 (+61.7%)，毛利率升至 45.79%。RK182X 协处理器已进入数百客户量产，RK3572 下半年贡献增量。券商上调 2026-2028 年盈利预测至 61.6 亿、75.8 亿、94.8 亿，维持买入评级。本文结合 CPU/NPU 技术竞争力、最新股价、券商研报，给出目标价 95-105 元的估值建议。"
 published: true
+
+data_sources:
+  - type: financial
+    desc: "瑞芯微公司公告 + 2026 年中报"
+    link: "https://www.cninfo.com.cn"
+    verified: true
+  - type: brokerages
+    desc: "浙商证券 / 天风证券研报"
+    link: "https://www.hibor.com.cn"
+    verified: true
+  - type: market
+    desc: "东方财富网（2026-08-18 收盘）"
+    link: "https://www.eastmoney.com"
+    verified: true
+
+verification:
+  sources_declared: true
+  links_checked: true
+  last_check: "2026-09-14"
+  confidence_score: 4.5
