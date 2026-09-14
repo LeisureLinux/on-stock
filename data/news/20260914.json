@@ -1,0 +1,3025 @@
+{
+ "date": "20260914",
+ "generated_at": "2026-09-14T16:57:21.838564+08:00",
+ "timezone": "Asia/Shanghai (CST, UTC+8)",
+ "sources": {
+  "wsj": {
+   "name": "The Wall Street Journal",
+   "home": "https://www.wsj.com",
+   "count": 108,
+   "body_support": false,
+   "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
+   "items": [
+    {
+     "title": "Oil Jumps, Nasdaq Futures Slide as AI-Related Stocks Tumble Worldwide",
+     "url": "https://www.wsj.com/finance/stocks/oil-jumps-nasdaq-futures-slide-as-ai-related-stocks-tumble-worldwide-eaaf198b",
+     "published_cst": "2026-09-14T08:34:00+08:00",
+     "time": "09-14 08:34",
+     "body": null
+    },
+    {
+     "title": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes",
+     "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-saudi-east-west-pipeline-attack-threatens-export-routes-b6857ade",
+     "published_cst": "2026-09-14T08:24:00+08:00",
+     "time": "09-14 08:24",
+     "body": null
+    },
+    {
+     "title": "Will the Fed Hike Interest Rates? What to Watch This Week",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026/card/will-the-fed-hike-interest-rates-what-to-watch-this-week-EnFES87p2TJRnCdQeXaW",
+     "published_cst": "2026-09-14T08:20:45+08:00",
+     "time": "09-14 08:20",
+     "body": null
+    },
+    {
+     "title": "💬 Money Quote: One and (Not) Done",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026/card/-money-quote-one-and-not-done-WzCQI2KE3tYAjaVLh9QX",
+     "published_cst": "2026-09-14T08:20:02+08:00",
+     "time": "09-14 08:20",
+     "body": null
+    },
+    {
+     "title": "Chip Stocks Tumble After AI Leaders Call For Slowdown in AI Development",
+     "url": "https://www.wsj.com/tech/ai/chip-stocks-tumble-after-ai-leaders-call-for-slowdown-in-ai-development-e2d26e63",
+     "published_cst": "2026-09-14T08:17:00+08:00",
+     "time": "09-14 08:17",
+     "body": null
+    },
+    {
+     "title": "Forget Robot Workers, This Company Wants to Build Soldiers",
+     "url": "https://www.wsj.com/tech/forget-robot-workers-this-company-wants-to-build-soldiers-48266698",
+     "published_cst": "2026-09-14T08:15:00+08:00",
+     "time": "09-14 08:15",
+     "body": null
+    },
+    {
+     "title": "European Financial Companies Narrow Boardroom Pay Gap With North America, EY Says",
+     "url": "https://www.wsj.com/business/european-financial-companies-narrow-boardroom-pay-gap-with-north-america-ey-says-5011d437",
+     "published_cst": "2026-09-14T07:33:00+08:00",
+     "time": "09-14 07:33",
+     "body": null
+    },
+    {
+     "title": "Hugo Boss Chairman to Step Down After Frasers Talks",
+     "url": "https://www.wsj.com/business/hugo-boss-supervisory-board-chair-to-step-down-after-frasers-talks-fc432316",
+     "published_cst": "2026-09-14T07:24:00+08:00",
+     "time": "09-14 07:24",
+     "body": null
+    },
+    {
+     "title": "Metlen Signs Greek Energy Supply Deal with Petronas",
+     "url": "https://www.wsj.com/finance/commodities-futures/metlen-signs-greek-energy-supply-deal-with-petronas-c918858d",
+     "published_cst": "2026-09-14T07:07:00+08:00",
+     "time": "09-14 07:07",
+     "body": null
+    },
+    {
+     "title": "BOE Expected to Hold Key Rate, Slow Down Quantitative Tightening",
+     "url": "https://www.wsj.com/pro/central-banking/boe-expected-to-hold-key-rate-slow-down-quantitative-tightening-646fa0b6",
+     "published_cst": "2026-09-14T06:18:00+08:00",
+     "time": "09-14 06:18",
+     "body": null
+    },
+    {
+     "title": "AstraZeneca Breast-Cancer Drug Misses Goal in Late-Stage Trial",
+     "url": "https://www.wsj.com/health/pharma/astrazeneca-breast-cancer-drug-misses-goal-in-late-stage-trial-14e2ec14",
+     "published_cst": "2026-09-14T06:02:00+08:00",
+     "time": "09-14 06:02",
+     "body": null
+    },
+    {
+     "title": "Pepper…and Salt",
+     "url": "https://www.wsj.com/opinion/pepperand-salt-5301cc82",
+     "published_cst": "2026-09-14T04:00:00+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "What’s News: Business & Finance",
+     "url": "https://www.wsj.com/articles/whats-news-business-finance-ab89f3ad",
+     "published_cst": "2026-09-14T03:32:00+08:00",
+     "time": "09-14 03:32",
+     "body": null
+    },
+    {
+     "title": "What’s News: Worldwide",
+     "url": "https://www.wsj.com/articles/whats-news-worldwide-bd3ba116",
+     "published_cst": "2026-09-14T03:21:00+08:00",
+     "time": "09-14 03:21",
+     "body": null
+    },
+    {
+     "title": "Dollar Rises on Fed Rate-Hike Prospects, High Oil Prices",
+     "url": "https://www.wsj.com/finance/currencies/singapore-dollar-weakens-amid-escalating-middle-east-conflict-a746d8cc",
+     "published_cst": "2026-09-14T03:14:00+08:00",
+     "time": "09-14 03:14",
+     "body": null
+    },
+    {
+     "title": "Did a Crypto Bro Pay $4.5 Million to Marry a Movie Star? A Scandal Grips China",
+     "url": "https://www.wsj.com/world/china/justin-sun-jing-tian-bride-fee-5d83b7c5",
+     "published_cst": "2026-09-14T03:00:00+08:00",
+     "time": "09-14 03:00",
+     "body": null
+    },
+    {
+     "title": "Eurozone Bond Yields Edge Higher, German 10-Year Bund Yield Hits New 15-Year High",
+     "url": "https://www.wsj.com/finance/long-term-jgb-yields-higher-on-expectations-for-boj-rate-increases-67eb74d8",
+     "published_cst": "2026-09-14T02:47:00+08:00",
+     "time": "09-14 02:47",
+     "body": null
+    },
+    {
+     "title": "Russia Is Churning Out Smart, Cheap New Weapons Faster Than Ukraine or the U.S.",
+     "url": "https://www.wsj.com/world/russia-is-churning-out-smart-cheap-new-weapons-faster-than-ukraine-or-the-u-s-c817d014",
+     "published_cst": "2026-09-14T02:00:00+08:00",
+     "time": "09-14 02:00",
+     "body": null
+    },
+    {
+     "title": "How the Clash Between Money and Safety Created a Monumental Crisis for AI",
+     "url": "https://www.wsj.com/tech/ai/openai-anthropic-crisis-money-safety-847bc1d6",
+     "published_cst": "2026-09-14T01:00:00+08:00",
+     "time": "09-14 01:00",
+     "body": null
+    },
+    {
+     "title": "Democrats Have Midterm Momentum. Here’s What Risks Tripping Them Up.",
+     "url": "https://www.wsj.com/politics/elections/democrats-have-midterm-momentum-heres-what-risks-tripping-them-up-ed0a0418",
+     "published_cst": "2026-09-14T01:00:00+08:00",
+     "time": "09-14 01:00",
+     "body": null
+    },
+    {
+     "title": "Amazon Pauses Operations With 21 Air After Miami Crash",
+     "url": "https://www.wsj.com/business/airlines/amazon-pauses-operations-with-21-air-after-miami-crash-3374b9ef",
+     "published_cst": "2026-09-14T00:35:00+08:00",
+     "time": "09-14 00:35",
+     "body": null
+    },
+    {
+     "title": "Gold Falls as Higher Inflation Pushes Federal Reserve to Hike Rakes",
+     "url": "https://www.wsj.com/finance/commodities-futures/gold-edges-lower-focus-on-u-s-core-inflation-9f264ece",
+     "published_cst": "2026-09-14T00:28:00+08:00",
+     "time": "09-14 00:28",
+     "body": null
+    },
+    {
+     "title": "European Stocks Mixed, Chip Stocks Slide",
+     "url": "https://www.wsj.com/finance/stocks/nikkei-falls-1-6-dragged-by-chip-metals-stocks-b366d914",
+     "published_cst": "2026-09-14T00:24:00+08:00",
+     "time": "09-14 00:24",
+     "body": null
+    },
+    {
+     "title": "Oil Prices Gain as Conflict Spreads",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-backing-case-for-rate-hikes-0a17cda4",
+     "published_cst": "2026-09-14T00:16:00+08:00",
+     "time": "09-14 00:16",
+     "body": null
+    },
+    {
+     "title": "Widening Mideast Instability Squeezes Global Oil Supplies",
+     "url": "https://www.wsj.com/world/middle-east/widening-mideast-instability-squeezes-global-oil-supplies-0cd316ad",
+     "published_cst": "2026-09-14T00:00:00+08:00",
+     "time": "09-14 00:00",
+     "body": null
+    },
+    {
+     "title": "How Inmates With Contraband Phones Are Scamming Families Across America",
+     "url": "https://www.wsj.com/us-news/inmates-phone-scams-prisons-784f6c2c",
+     "published_cst": "2026-09-14T00:00:00+08:00",
+     "time": "09-14 00:00",
+     "body": null
+    },
+    {
+     "title": "Z.AI Plans $5.0 Billion Fundraising to Fuel AI Expansion",
+     "url": "https://www.wsj.com/tech/ai/z-ai-plans-5-0-billion-fundraising-to-fuel-ai-expansion-56da16dc",
+     "published_cst": "2026-09-13T23:56:00+08:00",
+     "time": "09-13 23:56",
+     "body": null
+    },
+    {
+     "title": "Corrections & Amplifications",
+     "url": "https://www.wsj.com/articles/corrections-amplifications-edf34df9",
+     "published_cst": "2026-09-13T23:47:00+08:00",
+     "time": "09-13 23:47",
+     "body": null
+    },
+    {
+     "title": "At Restaurants, Phones Are Becoming the New Cigarettes",
+     "url": "https://www.wsj.com/arts-culture/food-cooking/at-restaurants-phones-are-becoming-the-new-cigarettes-689c6435",
+     "published_cst": "2026-09-13T23:00:00+08:00",
+     "time": "09-13 23:00",
+     "body": null
+    },
+    {
+     "title": "Ben Shelton Falls in the U.S. Open Final—and an American Wait Goes On",
+     "url": "https://www.wsj.com/sports/tennis/ben-shelton-alexander-zverev-us-open-5f2e0661",
+     "published_cst": "2026-09-13T22:14:00+08:00",
+     "time": "09-13 22:14",
+     "body": null
+    },
+    {
+     "title": "The Great AI Slowdown?",
+     "url": "https://www.wsj.com/opinion/the-great-ai-slowdown-d5578546",
+     "published_cst": "2026-09-13T21:44:00+08:00",
+     "time": "09-13 21:44",
+     "body": null
+    },
+    {
+     "title": "Trump Lectures Ukraine, not Russia",
+     "url": "https://www.wsj.com/opinion/trump-lectures-ukraine-not-russia-7eceaff6",
+     "published_cst": "2026-09-13T21:43:00+08:00",
+     "time": "09-13 21:43",
+     "body": null
+    },
+    {
+     "title": "The Road to a Universal Basic Income",
+     "url": "https://www.wsj.com/opinion/the-road-to-a-universal-basic-income-ee06f422",
+     "published_cst": "2026-09-13T21:42:00+08:00",
+     "time": "09-13 21:42",
+     "body": null
+    },
+    {
+     "title": "The New ObamaCare Trust Busters",
+     "url": "https://www.wsj.com/opinion/democrats-healthcare-obamacare-james-talarico-17b7fb34",
+     "published_cst": "2026-09-13T21:41:00+08:00",
+     "time": "09-13 21:41",
+     "body": null
+    },
+    {
+     "title": "Trump Pledges to Rescind 10% Tariff on Irish Whiskey",
+     "url": "https://www.wsj.com/economy/trade/trump-pledges-to-rescind-10-tariff-on-irish-whiskey-fc456b00",
+     "published_cst": "2026-09-13T20:25:00+08:00",
+     "time": "09-13 20:25",
+     "body": null
+    },
+    {
+     "title": "For Trump, a Golf Trip to Ireland Tees Up a Reunification Controversy",
+     "url": "https://www.wsj.com/politics/elections/for-trump-a-golf-trip-to-ireland-tees-up-a-reunification-controversy-bf3c2f17",
+     "published_cst": "2026-09-13T19:47:00+08:00",
+     "time": "09-13 19:47",
+     "body": null
+    },
+    {
+     "title": "We Need a Science of the AI Mind",
+     "url": "https://www.wsj.com/opinion/we-need-a-science-of-the-ai-mind-5b1047e4",
+     "published_cst": "2026-09-13T19:35:00+08:00",
+     "time": "09-13 19:35",
+     "body": null
+    },
+    {
+     "title": "Pennsylvania Woman Dies of Measles Complications",
+     "url": "https://www.wsj.com/us-news/pennsylvania-woman-dies-of-measles-complications-e8435a8b",
+     "published_cst": "2026-09-13T19:35:00+08:00",
+     "time": "09-13 19:35",
+     "body": null
+    },
+    {
+     "title": "Antisemitism Surges 25 Years After 9/11",
+     "url": "https://www.wsj.com/opinion/antisemitism-surges-25-years-after-9-11-2327f95c",
+     "published_cst": "2026-09-13T19:34:00+08:00",
+     "time": "09-13 19:34",
+     "body": null
+    },
+    {
+     "title": "The AI Luddites Are Here",
+     "url": "https://www.wsj.com/opinion/the-ai-luddites-are-here-460ff88f",
+     "published_cst": "2026-09-13T19:33:00+08:00",
+     "time": "09-13 19:33",
+     "body": null
+    },
+    {
+     "title": "Could There Be a Cure for Osteoarthritis?",
+     "url": "https://www.wsj.com/opinion/could-there-be-a-cure-for-osteoarthritis-965ebd5b",
+     "published_cst": "2026-09-13T19:32:00+08:00",
+     "time": "09-13 19:32",
+     "body": null
+    },
+    {
+     "title": "Lula Has a Banco Master Problem",
+     "url": "https://www.wsj.com/opinion/lula-has-a-banco-master-problem-5f291aeb",
+     "published_cst": "2026-09-13T19:31:00+08:00",
+     "time": "09-13 19:31",
+     "body": null
+    },
+    {
+     "title": "Dueling Airstrikes Fuel Angst as Russia-Ukraine War Escalates",
+     "url": "https://www.wsj.com/world/europe/dueling-airstrikes-fuel-angst-as-russia-ukraine-war-escalates-a6c0a67b",
+     "published_cst": "2026-09-13T18:57:00+08:00",
+     "time": "09-13 18:57",
+     "body": null
+    },
+    {
+     "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
+     "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
+     "published_cst": "2026-09-13T18:21:00+08:00",
+     "time": "09-13 18:21",
+     "body": null
+    },
+    {
+     "title": "How a Classic Collegiate Novel Inspired This Young New York Band",
+     "url": "https://www.wsj.com/style/fashion/people-ive-met-mens-bags-5f7b0665",
+     "published_cst": "2026-09-13T18:00:00+08:00",
+     "time": "09-13 18:00",
+     "body": null
+    },
+    {
+     "title": "Awarding Courage and Honesty in Academia",
+     "url": "https://www.wsj.com/opinion/awarding-courage-and-honesty-in-academia-bb764fa1",
+     "published_cst": "2026-09-13T17:48:00+08:00",
+     "time": "09-13 17:48",
+     "body": null
+    },
+    {
+     "title": "Nonprofits Rely on Wealth From Free Markets",
+     "url": "https://www.wsj.com/opinion/nonprofits-rely-on-wealth-from-free-markets-1d4388ba",
+     "published_cst": "2026-09-13T17:47:00+08:00",
+     "time": "09-13 17:47",
+     "body": null
+    },
+    {
+     "title": "Aluminum Tariffs Spur Domestic Investment",
+     "url": "https://www.wsj.com/opinion/aluminum-tariffs-spur-domestic-investment-8f646d1e",
+     "published_cst": "2026-09-13T17:46:00+08:00",
+     "time": "09-13 17:46",
+     "body": null
+    },
+    {
+     "title": "The Bar for Involuntary Hospitalization Is Too High",
+     "url": "https://www.wsj.com/opinion/the-bar-for-involuntary-hospitalization-is-too-high-72d7b529",
+     "published_cst": "2026-09-13T17:45:00+08:00",
+     "time": "09-13 17:45",
+     "body": null
+    },
+    {
+     "title": "More Credentialed Teachers Don’t Mean Better Schools",
+     "url": "https://www.wsj.com/opinion/more-credentialed-teachers-dont-mean-better-schools-585f4f20",
+     "published_cst": "2026-09-13T17:45:00+08:00",
+     "time": "09-13 17:45",
+     "body": null
+    },
+    {
+     "title": "Has Your Accent Just Become a Security Vulnerability?",
+     "url": "https://www.wsj.com/tech/ai/accent-ai-voice-security-96154f75",
+     "published_cst": "2026-09-13T17:00:00+08:00",
+     "time": "09-13 17:00",
+     "body": null
+    },
+    {
+     "title": "Trump Sees Race Against China as Key Issue on AI Regulation",
+     "url": "https://www.wsj.com/tech/ai/trump-defends-white-houses-light-touch-on-ai-regulation-c4ed2488",
+     "published_cst": "2026-09-13T16:38:00+08:00",
+     "time": "09-13 16:38",
+     "body": null
+    },
+    {
+     "title": "‘A Moment in the Sun’ Review: Black Lives in the Big City",
+     "url": "https://www.wsj.com/arts-culture/books/a-moment-in-the-sun-review-black-lives-in-the-big-city-6bff2d3c",
+     "published_cst": "2026-09-13T16:01:00+08:00",
+     "time": "09-13 16:01",
+     "body": null
+    },
+    {
+     "title": "Why I Spent $1.7 Billion on the Baltimore Orioles",
+     "url": "https://www.wsj.com/arts-culture/books/david-rubenstein-inside-the-owners-box-1bc921c4",
+     "published_cst": "2026-09-13T16:00:00+08:00",
+     "time": "09-13 16:00",
+     "body": null
+    },
+    {
+     "title": "How Your Mail Carrier Ended Up at the Center of the Midterms Battle",
+     "url": "https://www.wsj.com/politics/policy/how-your-mail-carrier-ended-up-at-the-center-of-the-midterms-battle-bf9a0475",
+     "published_cst": "2026-09-13T16:00:00+08:00",
+     "time": "09-13 16:00",
+     "body": null
+    },
+    {
+     "title": "Anthropic’s Amodei Calls for AI Slowdown",
+     "url": "https://www.wsj.com/business/autos/anthropics-amodei-calls-for-ai-slowdown-d36fc16d",
+     "published_cst": "2026-09-13T15:57:00+08:00",
+     "time": "09-13 15:57",
+     "body": null
+    },
+    {
+     "title": "Yes, Children Really Are Getting Dumber",
+     "url": "https://www.wsj.com/opinion/yes-children-really-are-getting-dumber-fa4cb20c",
+     "published_cst": "2026-09-13T15:47:00+08:00",
+     "time": "09-13 15:47",
+     "body": null
+    },
+    {
+     "title": "The ICJ’s Pernicious Plan to Redefine Genocide",
+     "url": "https://www.wsj.com/opinion/the-icjs-pernicious-plan-to-redefine-genocide-6a207ccc",
+     "published_cst": "2026-09-13T15:45:00+08:00",
+     "time": "09-13 15:45",
+     "body": null
+    },
+    {
+     "title": "The Week Everybody Started Talking About AI Doomsday",
+     "url": "https://www.wsj.com/tech/ai/the-week-everybody-started-talking-about-ai-doomsday-ab1fe116",
+     "published_cst": "2026-09-13T14:55:00+08:00",
+     "time": "09-13 14:55",
+     "body": null
+    },
+    {
+     "title": "Wisconsin Governor Candidate Swims to Safety After Plane Ditches in Lake",
+     "url": "https://www.wsj.com/politics/policy/wisconsin-governor-candidate-swims-to-safety-after-plane-ditches-in-lake-32dda6ff",
+     "published_cst": "2026-09-13T14:49:00+08:00",
+     "time": "09-13 14:49",
+     "body": null
+    },
+    {
+     "title": "Pfizer Makes an Unusual Enemy in $2 Billion Fight Over Unwanted Covid-19 Vaccines",
+     "url": "https://www.wsj.com/business/pfizer-makes-an-unusual-enemy-in-2-billion-fight-over-unwanted-covid-19-vaccines-a5ad7c8d",
+     "published_cst": "2026-09-13T14:39:00+08:00",
+     "time": "09-13 14:39",
+     "body": null
+    },
+    {
+     "title": "A $1.5 Million Renovation Gave Her Atlanta Mansion Main-Character Energy",
+     "url": "https://www.wsj.com/real-estate/luxury-homes/shamea-morton-real-housewives-atlanta-home-7a60c7dc",
+     "published_cst": "2026-09-13T14:00:00+08:00",
+     "time": "09-13 14:00",
+     "body": null
+    },
+    {
+     "title": "Lululemon’s Founder Is Getting Divorced. What It Will Mean for His Fortune.",
+     "url": "https://www.wsj.com/business/retail/lululemons-founder-is-getting-divorced-what-it-will-mean-for-his-fortune-47c18b34",
+     "published_cst": "2026-09-13T13:00:00+08:00",
+     "time": "09-13 13:00",
+     "body": null
+    },
+    {
+     "title": "Arch Manning Was Headed for Disaster—Until He Produced the Comeback of His Life",
+     "url": "https://www.wsj.com/sports/football/arch-manning-texas-ohio-state-37f6dcbf",
+     "published_cst": "2026-09-13T11:00:00+08:00",
+     "time": "09-13 11:00",
+     "body": null
+    },
+    {
+     "title": "Canada Seeks EU ‘Associate Member’ Status as U.S. Trade Talks Collapse",
+     "url": "https://www.wsj.com/economy/canada-seeks-eu-associate-member-status-as-u-s-trade-talks-collapse-4eebec65",
+     "published_cst": "2026-09-13T10:54:00+08:00",
+     "time": "09-13 10:54",
+     "body": null
+    },
+    {
+     "title": "Wealthy Europeans Are Moving North as Temperatures Climb",
+     "url": "https://www.wsj.com/world/europe/wealthy-europeans-are-moving-north-as-temperatures-climb-9b47dac0",
+     "published_cst": "2026-09-13T09:30:00+08:00",
+     "time": "09-13 09:30",
+     "body": null
+    },
+    {
+     "title": "The Latest Spot for a Trump Tower: An Ex-Soviet Republic Moving Closer to Russia",
+     "url": "https://www.wsj.com/politics/policy/the-latest-spot-for-a-trump-tower-an-ex-soviet-republic-moving-closer-to-russia-adb04f38",
+     "published_cst": "2026-09-13T09:30:00+08:00",
+     "time": "09-13 09:30",
+     "body": null
+    },
+    {
+     "title": "NFL’s Sunday Ticket Is Getting Smaller. It Isn’t Getting Cheaper.",
+     "url": "https://www.wsj.com/business/media/nfls-sunday-ticket-is-getting-smaller-it-isnt-getting-cheaper-8a427606",
+     "published_cst": "2026-09-13T09:30:00+08:00",
+     "time": "09-13 09:30",
+     "body": null
+    },
+    {
+     "title": "Mortal Enemies or Lovers? The Odd Obsession With Wile E. Coyote and Road Runner",
+     "url": "https://www.wsj.com/arts-culture/film/acme-wile-e-coyote-road-runner-in-love-db2f51dc",
+     "published_cst": "2026-09-13T09:30:00+08:00",
+     "time": "09-13 09:30",
+     "body": null
+    },
+    {
+     "title": "Anthropic’s Moral Conflict Is Playing Out in Real Time",
+     "url": "https://www.wsj.com/tech/ai/anthropics-moral-conflict-is-playing-out-in-real-time-c503e0c1",
+     "published_cst": "2026-09-13T09:30:00+08:00",
+     "time": "09-13 09:30",
+     "body": null
+    },
+    {
+     "title": "Bessent Says the U.S. Can Grow Its Way Out of the Debt Crunch. What Would It Take?",
+     "url": "https://www.wsj.com/economy/federal-debt-growth-solution-c2868517",
+     "published_cst": "2026-09-13T09:00:00+08:00",
+     "time": "09-13 09:00",
+     "body": null
+    },
+    {
+     "title": "Arts Calendar: Happenings for the Week of September 13",
+     "url": "https://www.wsj.com/arts-culture/fine-art/arts-calendar-happenings-for-the-week-of-september-13-airdigital-8ed14373",
+     "published_cst": "2026-09-13T09:00:00+08:00",
+     "time": "09-13 09:00",
+     "body": null
+    },
+    {
+     "title": "Republicans’ Growing Ken Paxton Anxiety: ‘He May Not Be the Best-Looking Guy.’",
+     "url": "https://www.wsj.com/politics/elections/republicans-growing-ken-paxton-anxiety-he-may-not-be-the-best-looking-guy-e6500b33",
+     "published_cst": "2026-09-13T02:00:00+08:00",
+     "time": "09-13 02:00",
+     "body": null
+    },
+    {
+     "title": "A U.S. Scholar Was Invited to China. Then He Vanished.",
+     "url": "https://www.wsj.com/world/china/a-u-s-scholar-was-invited-to-china-then-he-vanished-88c720af",
+     "published_cst": "2026-09-13T02:00:00+08:00",
+     "time": "09-13 02:00",
+     "body": null
+    },
+    {
+     "title": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
+     "url": "https://www.wsj.com/business/autos/tesla-is-reclaiming-the-u-s-ev-market-as-legacy-automakers-retreat-71ec2053",
+     "published_cst": "2026-09-13T01:00:00+08:00",
+     "time": "09-13 01:00",
+     "body": null
+    },
+    {
+     "title": "Mark Carney’s Audacious Bid to Make Canada an ‘Associate Member’ of the EU",
+     "url": "https://www.wsj.com/world/europe/canada-alliance-eu-carney-276f1778",
+     "published_cst": "2026-09-13T01:00:00+08:00",
+     "time": "09-13 01:00",
+     "body": null
+    },
+    {
+     "title": "Here’s What It’s Like to Retire to a Low-Tax State",
+     "url": "https://www.wsj.com/personal-finance/heres-what-its-like-to-retire-to-a-low-tax-state-fcac6598",
+     "published_cst": "2026-09-13T00:00:00+08:00",
+     "time": "09-13 00:00",
+     "body": null
+    },
+    {
+     "title": "Why Weil Gotshal’s Highest-Paid Partner Jumped to Cravath, Shocking Big Law",
+     "url": "https://www.wsj.com/business/why-weil-gotshals-highest-paid-partner-jumped-to-cravath-shocking-big-law-86f669dc",
+     "published_cst": "2026-09-12T23:04:00+08:00",
+     "time": "09-12 23:04",
+     "body": null
+    },
+    {
+     "title": "Lost in Margaritaville: The Messy Drama Over Jimmy Buffett’s $275 Million Trust",
+     "url": "https://www.wsj.com/style/lost-in-margaritaville-drama-jimmy-buffett-275-million-dollar-trust-65710c8d",
+     "published_cst": "2026-09-12T23:00:00+08:00",
+     "time": "09-12 23:00",
+     "body": null
+    },
+    {
+     "title": "A 6-Foot Slugger Has Quietly Taken Over Women’s Tennis—and She Just Won the U.S. Open",
+     "url": "https://www.wsj.com/sports/rybakina-us-open-sabalenka-3a2a540b",
+     "published_cst": "2026-09-12T22:54:00+08:00",
+     "time": "09-12 22:54",
+     "body": null
+    },
+    {
+     "title": "The Midterm Battle Lines Keep Shifting. Missouri Voters Are Caught in the Middle.",
+     "url": "https://www.wsj.com/politics/elections/missouris-redistricting-chaos-has-voters-on-both-sides-feeling-disenfranchised-f7dd238c",
+     "published_cst": "2026-09-12T20:42:00+08:00",
+     "time": "09-12 20:42",
+     "body": null
+    },
+    {
+     "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+     "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
+     "published_cst": "2026-09-12T19:40:00+08:00",
+     "time": "09-12 19:40",
+     "body": null
+    },
+    {
+     "title": "Stock Market Today: Nasdaq Futures Drop, Oil Climbs",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026",
+     "published_cst": "2026-09-12T18:05:48+08:00",
+     "time": "09-12 18:05",
+     "body": null
+    },
+    {
+     "title": "Larry Ellison Scraps Plan to Sell Up to $7.5 Billion Worth of Oracle Stock",
+     "url": "https://www.wsj.com/business/larry-ellison-scraps-plan-to-sell-up-to-7-5-billion-worth-of-oracle-stock-9f41edd2",
+     "published_cst": "2026-09-12T17:10:00+08:00",
+     "time": "09-12 17:10",
+     "body": null
+    },
+    {
+     "title": "U.K.’s Reform Party Rakes In Record $97 Million Donations From Crypto World",
+     "url": "https://www.wsj.com/world/uk/u-k-s-reform-party-rakes-in-record-97-million-donations-from-crypto-world-18d9f11d",
+     "published_cst": "2026-09-12T17:01:00+08:00",
+     "time": "09-12 17:01",
+     "body": null
+    },
+    {
+     "title": "I Wanted to Be a Better Human. So I Turned to AI.",
+     "url": "https://www.wsj.com/tech/ai/ai-humanity-skills-f2718d5b",
+     "published_cst": "2026-09-12T17:00:00+08:00",
+     "time": "09-12 17:00",
+     "body": null
+    },
+    {
+     "title": "Biggest AI Rivals Agree They Need to Slow It Down",
+     "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+     "published_cst": "2026-09-12T16:18:00+08:00",
+     "time": "09-12 16:18",
+     "body": null
+    },
+    {
+     "title": "Trump Calls for George Washington Statue, Exhibit at Smithsonian",
+     "url": "https://www.wsj.com/us-news/trump-calls-for-george-washington-statue-exhibit-at-smithsonian-6c184973",
+     "published_cst": "2026-09-12T16:02:00+08:00",
+     "time": "09-12 16:02",
+     "body": null
+    },
+    {
+     "title": "It’s a ‘Spaceship.’ It’s a ‘Dentist’s Office.’ It’s Their Home.",
+     "url": "https://www.wsj.com/style/design/ben-ganz-india-ennenga-home-tour-6a90a937",
+     "published_cst": "2026-09-12T16:00:00+08:00",
+     "time": "09-12 16:00",
+     "body": null
+    },
+    {
+     "title": "A New Lawsuit Alleges an International Andy Warhol Forgery Scheme",
+     "url": "https://www.wsj.com/arts-culture/fine-art/lawsuit-andy-warhol-scheme-3c259951",
+     "published_cst": "2026-09-12T16:00:00+08:00",
+     "time": "09-12 16:00",
+     "body": null
+    },
+    {
+     "title": "China’s Economic Troubles Reach the Mushroom Hunters of Shangri-La",
+     "url": "https://www.wsj.com/world/china/chinas-economic-troubles-reach-the-mushroom-hunters-of-shangri-la-ea4cd49d",
+     "published_cst": "2026-09-12T15:00:00+08:00",
+     "time": "09-12 15:00",
+     "body": null
+    },
+    {
+     "title": "Urinals, Skinny-Dipping Pools and Other Wild Home Buyers Must-Haves",
+     "url": "https://www.wsj.com/real-estate/luxury-homes/uncommon-home-features-671656f6",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null
+    },
+    {
+     "title": "A Dead Father, Reincarnated With AI: Is This How We Will Remember Loved Ones Now?",
+     "url": "https://www.wsj.com/tech/ai/ai-chatbot-avatar-afterlife-memorial-84a3fe2c",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null
+    },
+    {
+     "title": "Historic Homes: A Berkshires Retreat Built by an American Poet",
+     "url": "https://www.wsj.com/real-estate/luxury-homes/oliver-wendell-holmes-berkshires-home-17061dcc",
+     "published_cst": "2026-09-12T13:00:00+08:00",
+     "time": "09-12 13:00",
+     "body": null
+    },
+    {
+     "title": "The Director Creeping His Way to Horror Royalty",
+     "url": "https://www.wsj.com/arts-culture/film/the-director-creeping-his-way-to-horror-royalty-14428f60",
+     "published_cst": "2026-09-12T12:25:00+08:00",
+     "time": "09-12 12:25",
+     "body": null
+    },
+    {
+     "title": "U.S. Men’s Tennis Is Back on the Brink of Crowning a Major Champion",
+     "url": "https://www.wsj.com/cio-journal/u-s-mens-tennis-is-back-on-the-brink-of-crowning-a-major-champion-526cc521",
+     "published_cst": "2026-09-12T11:55:00+08:00",
+     "time": "09-12 11:55",
+     "body": null
+    },
+    {
+     "title": "The New Rules to Survive and Thrive at Work",
+     "url": "https://www.wsj.com/tech/personal-tech/the-new-rules-to-survive-and-thrive-at-work-b90be330",
+     "published_cst": "2026-09-12T11:50:00+08:00",
+     "time": "09-12 11:50",
+     "body": null
+    },
+    {
+     "title": "‘Orientalism: Between Fact and Fantasy’ Review: East Meets West, Beautifully, at the Met",
+     "url": "https://www.wsj.com/arts-culture/fine-art/orientalism-between-fact-and-fantasy-review-east-meets-west-beautifully-at-the-met-2cde6f47",
+     "published_cst": "2026-09-12T11:00:00+08:00",
+     "time": "09-12 11:00",
+     "body": null
+    },
+    {
+     "title": "My Short-Lived Fantasy as a High-T Alpha Male",
+     "url": "https://www.wsj.com/health/wellness/testosterone-testing-maxxing-daed3beb",
+     "published_cst": "2026-09-12T11:00:00+08:00",
+     "time": "09-12 11:00",
+     "body": null
+    },
+    {
+     "title": "AI Fears Leap From Silicon Valley Into Mainstream America",
+     "url": "https://www.wsj.com/tech/ai-fears-leap-from-silicon-valley-into-mainstream-america-3e632708",
+     "published_cst": "2026-09-12T10:58:00+08:00",
+     "time": "09-12 10:58",
+     "body": null
+    },
+    {
+     "title": "News Quiz for September 12, 2026",
+     "url": "https://www.wsj.com/business/media/news-quiz-for-september-12-2026-eeaf0764",
+     "published_cst": "2026-09-12T10:00:00+08:00",
+     "time": "09-12 10:00",
+     "body": null
+    },
+    {
+     "title": "Why Apple Needed to Reboot Its Health App",
+     "url": "https://www.wsj.com/tech/personal-tech/apple-watch-health-app-e7becf7a",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null
+    },
+    {
+     "title": "This Spanish Island Wants to Ditch Drunk British Tourists for Rich American Ones",
+     "url": "https://www.wsj.com/world/europe/this-spanish-island-wants-to-ditch-drunk-british-tourists-for-rich-american-ones-c1f6c0fd",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null
+    },
+    {
+     "title": "The New Fashion Do’s and Don’ts That Everyone Should Follow",
+     "url": "https://www.wsj.com/style/fashion/the-new-fashion-dos-and-donts-that-everyone-should-follow-2dda734d",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null
+    },
+    {
+     "title": "Meet the Factions Driving the Democratic Socialists of America",
+     "url": "https://www.wsj.com/politics/elections/meet-the-factions-driving-the-democratic-socialists-of-america-0c5e74f0",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null
+    },
+    {
+     "title": "Heart Disease, a Historic Strength for Big Pharma, Becomes a Weakness",
+     "url": "https://www.wsj.com/health/pharma/heart-disease-a-historic-strength-for-big-pharma-becomes-a-weakness-983f0062",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null
+    },
+    {
+     "title": "Scratch Pads",
+     "url": "https://www.wsj.com/games/crosswords/scratch-pads-47e4314f",
+     "published_cst": "2026-09-08T13:44:00+08:00",
+     "time": "09-08 13:44",
+     "body": null
+    },
+    {
+     "title": "America 250 Calendar: Ways to Celebrate the Nation Across the Nation",
+     "url": "https://www.wsj.com/arts-culture/fine-art/america-250-calendar-ways-to-celebrate-the-nation-across-the-nation-airdigital-df7ecb23",
+     "published_cst": "2026-01-10T10:00:00+08:00",
+     "time": "01-10 10:00",
+     "body": null
+    }
+   ]
+  },
+  "rt": {
+   "name": "Reuters",
+   "home": "https://www.reuters.com",
+   "count": 50,
+   "body_support": false,
+   "note": "正文可经 CNA 等授权转载站获取（需搜索）",
+   "items": [
+    {
+     "title": "Digital stocks are more deliberate than disruptive",
+     "url": "https://www.reuters.com/commentary/breakingviews/digital-stocks-are-more-deliberate-than-disruptive-2026-09-14/",
+     "published_cst": "2026-09-14T08:54:02+08:00",
+     "time": "09-14 08:54",
+     "body": null
+    },
+    {
+     "title": "Clippers owner Steve Ballmer to comply with NBA penalties for salary-cap violations",
+     "url": "https://www.reuters.com/sports/clippers-owner-steve-ballmer-comply-with-nba-penalties-salary-cap-violations--fldm-2026-09-14/",
+     "published_cst": "2026-09-14T08:53:43+08:00",
+     "time": "09-14 08:53",
+     "body": null
+    },
+    {
+     "title": "Opposition set to halt Sweden's slide to right",
+     "url": "https://www.reuters.com/world/europe/swedish-centre-left-opposition-pole-position-take-power-after-tight-election-2026-09-14/",
+     "published_cst": "2026-09-14T08:53:25+08:00",
+     "time": "09-14 08:53",
+     "body": null
+    },
+    {
+     "title": "AI-linked stocks slump after top lab CEOs call for slowing technology's development",
+     "url": "https://www.reuters.com/world/china/ai-linked-asian-stocks-slump-after-top-lab-ceos-call-slowing-down-technologys-2026-09-14/",
+     "published_cst": "2026-09-14T08:53:15+08:00",
+     "time": "09-14 08:53",
+     "body": null
+    },
+    {
+     "title": "East Timor postpones earliest production from Greater Sunrise gas project",
+     "url": "https://www.reuters.com/business/energy/east-timor-postpones-earliest-production-greater-sunrise-gas-project-2026-09-14/",
+     "published_cst": "2026-09-14T08:51:21+08:00",
+     "time": "09-14 08:51",
+     "body": null
+    },
+    {
+     "title": "India approves export of power to Nepal after deadly flood",
+     "url": "https://www.reuters.com/business/energy/india-approves-export-power-nepal-after-deadly-flood-2026-09-14/",
+     "published_cst": "2026-09-14T08:50:07+08:00",
+     "time": "09-14 08:50",
+     "body": null
+    },
+    {
+     "title": "Cam Schlittler dominant as Yankees shut out Mets",
+     "url": "https://www.reuters.com/sports/baseball/cam-schlittler-dominant-yankees-shut-out-mets--flm-2026-09-13/",
+     "published_cst": "2026-09-14T08:49:56+08:00",
+     "time": "09-14 08:49",
+     "body": null
+    },
+    {
+     "title": "Nepal tunnel survivor finds solace in village homecoming",
+     "url": "https://www.reuters.com/world/china/nepal-tunnel-survivor-finds-solace-village-homecoming-2026-09-13/",
+     "published_cst": "2026-09-14T08:48:51+08:00",
+     "time": "09-14 08:48",
+     "body": null
+    },
+    {
+     "title": "Chubu says its president to resign, nuclear restart application withdrawn over data scandal",
+     "url": "https://www.reuters.com/world/asia-pacific/chubu-electric-president-resign-following-nuclear-data-scandal-nikkei-says-2026-09-13/",
+     "published_cst": "2026-09-14T08:47:02+08:00",
+     "time": "09-14 08:47",
+     "body": null
+    },
+    {
+     "title": "Hidden crypto farm in Mexican mountains puts spotlight on cartel funding",
+     "url": "https://www.reuters.com/world/americas/hidden-crypto-farm-mexican-mountains-puts-spotlight-cartel-funding-2026-09-12/",
+     "published_cst": "2026-09-14T08:46:27+08:00",
+     "time": "09-14 08:46",
+     "body": null
+    },
+    {
+     "title": "Indonesia's president replaces finance minister with deputy, official says",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesias-president-replaces-finance-minister-with-deputy-official-says-2026-09-14/",
+     "published_cst": "2026-09-14T08:45:34+08:00",
+     "time": "09-14 08:45",
+     "body": null
+    },
+    {
+     "title": "Trapped nine days in a dark tunnel, Nepali man tells his survival story",
+     "url": "https://www.reuters.com/world/asia-pacific/trapped-nine-days-dark-tunnel-nepali-man-tells-his-survival-story-2026-09-11/",
+     "published_cst": "2026-09-14T08:45:26+08:00",
+     "time": "09-14 08:45",
+     "body": null
+    },
+    {
+     "title": "Chevron eyes Argentina, Mediterranean for global LNG growth, deal with India",
+     "url": "https://www.reuters.com/business/energy/chevron-eyes-argentina-mediterranean-global-lng-growth-deal-with-india-2026-09-14/",
+     "published_cst": "2026-09-14T08:44:39+08:00",
+     "time": "09-14 08:44",
+     "body": null
+    },
+    {
+     "title": "Pakistan docked 11 points in World Test Championship for slow over-rate",
+     "url": "https://www.reuters.com/sports/cricket/pakistan-docked-11-points-world-test-championship-slow-over-rate-2026-09-14/",
+     "published_cst": "2026-09-14T08:43:44+08:00",
+     "time": "09-14 08:43",
+     "body": null
+    },
+    {
+     "title": "Diplomacy stumbles with postponement of meeting on Strait of Hormuz proposal",
+     "url": "https://www.reuters.com/business/energy/diplomacy-stumbles-with-postponement-meeting-strait-hormuz-proposal-2026-09-13/",
+     "published_cst": "2026-09-14T08:43:24+08:00",
+     "time": "09-14 08:43",
+     "body": null
+    },
+    {
+     "title": "Eugenio Suarez's homer, late plays lift Reds past Brewers",
+     "url": "https://www.reuters.com/sports/baseball/eugenio-suarezs-homer-late-plays-lift-reds-past-brewers--flm-2026-09-13/",
+     "published_cst": "2026-09-14T08:42:55+08:00",
+     "time": "09-14 08:42",
+     "body": null
+    },
+    {
+     "title": "Indonesian president names Suahasil Nazara as new finance minister, official says",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesian-president-names-suahasil-nazara-new-finance-minister-official-says-2026-09-14/",
+     "published_cst": "2026-09-14T08:42:16+08:00",
+     "time": "09-14 08:42",
+     "body": null
+    },
+    {
+     "title": "Suède-L'opposition de centre-gauche en légère avance après des législatives serrées",
+     "url": "https://www.reuters.com/fr/affaires/incertitude-totale-lissue-des-lections-lgislatives-en-sude-2026-09-13/",
+     "published_cst": "2026-09-14T08:42:13+08:00",
+     "time": "09-14 08:42",
+     "body": null
+    },
+    {
+     "title": "Maersk, Hapag-Lloyd to sail more container ships through the Suez Canal",
+     "url": "https://www.reuters.com/business/maersk-hapag-lloyd-resume-further-services-through-suez-canal-2026-09-14/",
+     "published_cst": "2026-09-14T08:41:57+08:00",
+     "time": "09-14 08:41",
+     "body": null
+    },
+    {
+     "title": "Nigerian billionaire Dangote launches oil refinery IPO, Africa's biggest share sale",
+     "url": "https://www.reuters.com/business/energy/nigerian-billionaire-dangote-launches-oil-refinery-ipo-africas-biggest-share-2026-09-14/",
+     "published_cst": "2026-09-14T08:40:11+08:00",
+     "time": "09-14 08:40",
+     "body": null
+    },
+    {
+     "title": "Orioles' Pete Alonso faces former team when Mets host 3-game series",
+     "url": "https://www.reuters.com/sports/baseball/orioles-pete-alonso-faces-former-team-when-mets-host-3-game-series--flm-2026-09-14/",
+     "published_cst": "2026-09-14T08:40:09+08:00",
+     "time": "09-14 08:40",
+     "body": null
+    },
+    {
+     "title": "Saudi stocks extend fall as energy attacks rattle sentiment",
+     "url": "https://www.reuters.com/world/middle-east/saudi-stocks-extend-fall-energy-attacks-rattle-sentiment-2026-09-14/",
+     "published_cst": "2026-09-14T08:39:53+08:00",
+     "time": "09-14 08:39",
+     "body": null
+    },
+    {
+     "title": "Hugo-Boss-Aufsichtsratschef beugt sich Druck von Frasers",
+     "url": "https://www.reuters.com/de/firma/hugo-boss-aufsichtsratschef-sturm-legt-amt-nieder-2026-09-14/",
+     "published_cst": "2026-09-14T08:39:31+08:00",
+     "time": "09-14 08:39",
+     "body": null
+    },
+    {
+     "title": "KKR sells entire stake in Philippines-based First Gen for $411 million",
+     "url": "https://www.reuters.com/legal/transactional/kkr-sells-entire-stake-philippines-based-first-gen-411-million-2026-09-14/",
+     "published_cst": "2026-09-14T08:38:09+08:00",
+     "time": "09-14 08:38",
+     "body": null
+    },
+    {
+     "title": "Petronas, Thailand's PTT secure approvals for new gas block sharing contract",
+     "url": "https://www.reuters.com/business/energy/petronas-ptt-units-secure-approval-new-gas-contract-in-malaysia-thailand-joint-2026-09-14/",
+     "published_cst": "2026-09-14T08:37:57+08:00",
+     "time": "09-14 08:37",
+     "body": null
+    },
+    {
+     "title": "Macron visitará España a finales de septiembre",
+     "url": "https://www.reuters.com/es/mundo/JQI2GPCPDVI77KOVLNZNBUAZIA-2026-09-14/",
+     "published_cst": "2026-09-14T08:37:29+08:00",
+     "time": "09-14 08:37",
+     "body": null
+    },
+    {
+     "title": "Turkish court jails 16 in Izmir after raids on LGBTQ+ groups",
+     "url": "https://www.reuters.com/world/turkish-court-jails-16-izmir-after-raids-lgbtq-groups-2026-09-14/",
+     "published_cst": "2026-09-14T08:37:08+08:00",
+     "time": "09-14 08:37",
+     "body": null
+    },
+    {
+     "title": "Under siege in the West Bank",
+     "url": "https://www.reuters.com/podcasts/under-siege-west-bank-2026-09-12/",
+     "published_cst": "2026-09-14T08:37:07+08:00",
+     "time": "09-14 08:37",
+     "body": null
+    },
+    {
+     "title": "Roberti named interim head of French Alps 2030 committee",
+     "url": "https://www.reuters.com/sports/roberti-named-interim-head-french-alps-2030-committee-2026-09-14/",
+     "published_cst": "2026-09-14T08:36:11+08:00",
+     "time": "09-14 08:36",
+     "body": null
+    },
+    {
+     "title": "China Gas signs 20-year LNG import deal with US-based Venture Global",
+     "url": "https://www.reuters.com/business/energy/china-gas-signs-20-year-lng-import-deal-with-us-based-venture-global-2026-09-14/",
+     "published_cst": "2026-09-14T08:36:09+08:00",
+     "time": "09-14 08:36",
+     "body": null
+    },
+    {
+     "title": "India gains wider EU steel access, but carbon levy remains",
+     "url": "https://www.reuters.com/world/india/india-gains-wider-eu-steel-access-carbon-levy-remains-2026-09-14/",
+     "published_cst": "2026-09-14T08:35:06+08:00",
+     "time": "09-14 08:35",
+     "body": null
+    },
+    {
+     "title": "Dodgers' Tarik Skubal looks to duplicate recent outing vs. Reds",
+     "url": "https://www.reuters.com/sports/baseball/dodgers-tarik-skubal-looks-duplicate-recent-outing-vs-reds--flm-2026-09-14/",
+     "published_cst": "2026-09-14T08:33:07+08:00",
+     "time": "09-14 08:33",
+     "body": null
+    },
+    {
+     "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
+     "url": "https://www.reuters.com/business/energy/saudi-pipeline-outage-threatens-loss-4-global-oil-supply-2026-09-13/",
+     "published_cst": "2026-09-14T08:30:54+08:00",
+     "time": "09-14 08:30",
+     "body": null
+    },
+    {
+     "title": "Kazimir, del BCE, ve riesgos de repunte de la inflación y alerta sobre el precio del gas",
+     "url": "https://www.reuters.com/es/negocio/EGIIDYQ5L5LG7L76WPZQAHDM4E-2026-09-14/",
+     "published_cst": "2026-09-14T08:30:37+08:00",
+     "time": "09-14 08:30",
+     "body": null
+    },
+    {
+     "title": "South African rand weakens as higher oil weighs, Fed meeting looms",
+     "url": "https://www.reuters.com/world/africa/south-african-rand-weakens-higher-oil-weighs-fed-meeting-looms-2026-09-14/",
+     "published_cst": "2026-09-14T08:29:44+08:00",
+     "time": "09-14 08:29",
+     "body": null
+    },
+    {
+     "title": "Oil prices up nearly 3% following new strikes on Saudi, Strait of Hormuz",
+     "url": "https://www.reuters.com/business/energy/oil-prices-jump-more-than-3-after-new-strikes-saudi-strait-hormuz-2026-09-13/",
+     "published_cst": "2026-09-14T08:29:26+08:00",
+     "time": "09-14 08:29",
+     "body": null
+    },
+    {
+     "title": "AirBaltic entra en concurso de acreedores ante el impacto de la guerra de Irán",
+     "url": "https://www.reuters.com/es/negocio/AFWGW5R5TVP4LH6EGHXIAOWPIM-2026-09-14/",
+     "published_cst": "2026-09-14T08:27:43+08:00",
+     "time": "09-14 08:27",
+     "body": null
+    },
+    {
+     "title": "Berlin sees slowdown of economic momentum early in Q3",
+     "url": "https://www.reuters.com/world/berlin-sees-slowdown-economic-momentum-early-q3-2026-09-14/",
+     "published_cst": "2026-09-14T08:26:02+08:00",
+     "time": "09-14 08:26",
+     "body": null
+    },
+    {
+     "title": "Hugo Boss chairman to step down as Frasers pursues takeover",
+     "url": "https://www.reuters.com/business/retail-consumer/hugo-boss-chairman-step-down-after-frasers-takeover-pressure-2026-09-14/",
+     "published_cst": "2026-09-14T08:25:42+08:00",
+     "time": "09-14 08:25",
+     "body": null
+    },
+    {
+     "title": "Russian strike on train Ukraine-Poland border sought to intimidate, divide Europeans, says France's Barrot",
+     "url": "https://www.reuters.com/world/russian-strike-train-ukraine-poland-border-sought-intimidate-divide-europeans-2026-09-14/",
+     "published_cst": "2026-09-14T08:22:51+08:00",
+     "time": "09-14 08:22",
+     "body": null
+    },
+    {
+     "title": "JO 2030-Vincent Roberti nommé président par intérim du comité d'organisation des Alpes françaises",
+     "url": "https://www.reuters.com/fr/sports/jo-2030-vincent-roberti-nomm-prsident-par-intrim-du-comit-dorganisation-des-2026-09-14/",
+     "published_cst": "2026-09-14T08:19:01+08:00",
+     "time": "09-14 08:19",
+     "body": null
+    },
+    {
+     "title": "OFRSP Summary",
+     "url": "https://www.reuters.com/fr/sports/ofrsp-summary-2026-01-29/",
+     "published_cst": "2026-09-14T08:18:58+08:00",
+     "time": "09-14 08:18",
+     "body": null
+    },
+    {
+     "title": "Companies left China to dodge tariffs. Now some are heading back",
+     "url": "https://www.reuters.com/business/retail-consumer/companies-left-china-dodge-tariffs-now-some-are-heading-back-2026-09-14/",
+     "published_cst": "2026-09-14T08:18:06+08:00",
+     "time": "09-14 08:18",
+     "body": null
+    },
+    {
+     "title": "BioNTech says lung cancer drug candidate prolonged lives in trial",
+     "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/biontech-says-lung-cancer-drug-candidate-prolonged-lives-trial-2026-09-14/",
+     "published_cst": "2026-09-14T08:15:41+08:00",
+     "time": "09-14 08:15",
+     "body": null
+    },
+    {
+     "title": "BioNTech verzeichnet Etappenerfolg mit neuem Lungenkrebsmittel",
+     "url": "https://www.reuters.com/de/firma/biontech-verzeichnet-etappenerfolg-mit-neuem-lungenkrebsmittel-2026-09-14/",
+     "published_cst": "2026-09-14T08:13:40+08:00",
+     "time": "09-14 08:13",
+     "body": null
+    },
+    {
+     "title": "Dax startet schwächer - KI-Entwickler und Ölpreise bremsen",
+     "url": "https://www.reuters.com/de/firma/dax-startet-schwcher-ki-entwickler-und-lpreise-bremsen-2026-09-14/",
+     "published_cst": "2026-09-14T08:12:15+08:00",
+     "time": "09-14 08:12",
+     "body": null
+    },
+    {
+     "title": "ExxonMobil executive sees US accounting for 30% of global LNG market by 2030",
+     "url": "https://www.reuters.com/business/energy/exxonmobil-executive-sees-us-accounting-30-global-lng-market-by-2030-2026-09-14/",
+     "published_cst": "2026-09-14T08:12:08+08:00",
+     "time": "09-14 08:12",
+     "body": null
+    },
+    {
+     "title": "South Korea's Lee hits new approval low as housing discontent grows",
+     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-hits-new-approval-low-housing-discontent-grows-2026-09-14/",
+     "published_cst": "2026-09-14T08:11:30+08:00",
+     "time": "09-14 08:11",
+     "body": null
+    },
+    {
+     "title": "AirBaltic flüchtet unter US-Insolvenzrecht - Flugbetrieb läuft weiter",
+     "url": "https://www.reuters.com/de/firma/airbaltic-flchtet-unter-us-insolvenzrecht-flugbetrieb-luft-weiter-2026-09-14/",
+     "published_cst": "2026-09-14T08:09:04+08:00",
+     "time": "09-14 08:09",
+     "body": null
+    },
+    {
+     "title": "Trump downplays report China entities helped Iran before attack that killed US troops",
+     "url": "https://www.reuters.com/world/china/trump-dismisses-report-china-entities-helped-iran-before-attack-that-killed-us-2026-09-14/",
+     "published_cst": "2026-09-14T08:08:49+08:00",
+     "time": "09-14 08:08",
+     "body": null
+    }
+   ]
+  },
+  "bb": {
+   "name": "Bloomberg",
+   "home": "https://www.bloomberg.com",
+   "count": 158,
+   "body_support": true,
+   "note": "正文可直连镜像域名抓取（envoy.cirrus）",
+   "items": [
+    {
+     "title": "Prabowo Removes Finance Minister Purbaya in Cabinet Reshuffle",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/prabowo-removes-finance-minister-purbaya-in-cabinet-reshuffle",
+     "published_cst": "2026-09-14T08:32:56+08:00",
+     "time": "09-14 08:32",
+     "body": null
+    },
+    {
+     "title": "S.Africa Refinery Closures Added $4.7 Billion to Oil-Import Bill",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/s-africa-refinery-closures-added-4-7-billion-to-oil-import-bill",
+     "published_cst": "2026-09-14T08:29:42+08:00",
+     "time": "09-14 08:29",
+     "body": null
+    },
+    {
+     "title": "Alcon CEO Says US Drug Pricing Deal May Limit European Products",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/alcon-ceo-says-us-drug-pricing-deal-may-limit-european-products",
+     "published_cst": "2026-09-14T08:27:47+08:00",
+     "time": "09-14 08:27",
+     "body": null
+    },
+    {
+     "title": "Ports Giant DP World Redraws Hormuz Logistics With Trucking Bet",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/ports-giant-dp-world-redraws-hormuz-logistics-with-trucking-bet",
+     "published_cst": "2026-09-14T08:10:45+08:00",
+     "time": "09-14 08:10",
+     "body": null
+    },
+    {
+     "title": "Thai Billionaire Revives Vietnam Gas Projects in Overseas Push",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/thai-billionaire-revives-vietnam-gas-projects-in-overseas-push",
+     "published_cst": "2026-09-14T08:02:06+08:00",
+     "time": "09-14 08:02",
+     "body": null
+    },
+    {
+     "title": "OpenAI President Greg Brockman on Doing Business in the Wake of Hugging Face",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-president-greg-brockman-on-doing-business-in-the-wake-of-hugging-face",
+     "published_cst": "2026-09-14T08:00:02+08:00",
+     "time": "09-14 08:00",
+     "body": null
+    },
+    {
+     "title": "ECB Won't Hesitate to Hike Further If Needed, Kazimir Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/ecb-won-t-hesitate-to-hike-further-if-needed-kazimir-says",
+     "published_cst": "2026-09-14T08:00:00+08:00",
+     "time": "09-14 08:00",
+     "body": null
+    },
+    {
+     "title": "Chevron Seeks EU Clarity on Methane Before LNG Import Investment",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/chevron-seeks-eu-clarity-on-methane-before-lng-import-investment",
+     "published_cst": "2026-09-14T07:45:00+08:00",
+     "time": "09-14 07:45",
+     "body": null
+    },
+    {
+     "title": "China Rejects AI 'Fearmongering' After Amodei Urges Slowdown",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-rejects-ai-fearmongering-after-amodei-urges-slowdown",
+     "published_cst": "2026-09-14T07:39:46+08:00",
+     "time": "09-14 07:39",
+     "body": null
+    },
+    {
+     "title": "Hugo Boss Chairman Sturm to Step Down Amid Frasers Pressure",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/hugo-boss-chairman-sturm-to-step-down-amid-frasers-pressure",
+     "published_cst": "2026-09-14T07:26:30+08:00",
+     "time": "09-14 07:26",
+     "body": null
+    },
+    {
+     "title": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/icbc-hsbc-among-major-lenders-on-bytedance-s-30-billion-loan",
+     "published_cst": "2026-09-14T07:20:56+08:00",
+     "time": "09-14 07:20",
+     "body": null
+    },
+    {
+     "title": "Burnham Urges 'Culture Shift' to Reward Risk Takers",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/burnham-urges-culture-shift-to-reward-risk-takers",
+     "published_cst": "2026-09-14T07:16:57+08:00",
+     "time": "09-14 07:16",
+     "body": null
+    },
+    {
+     "title": "Latvian Carrier Air Baltic Seeks Chapter 11 Restructuring",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/air-baltic-files-for-chapter-11-to-help-restructure-debts",
+     "published_cst": "2026-09-14T07:08:38+08:00",
+     "time": "09-14 07:08",
+     "body": null
+    },
+    {
+     "title": "Uniper to Sell Stake in Opal Gas Pipe to Meet EU Bailout Demands",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/uniper-to-sell-stake-in-opal-gas-pipe-to-meet-eu-bailout-demands",
+     "published_cst": "2026-09-14T07:08:11+08:00",
+     "time": "09-14 07:08",
+     "body": null
+    },
+    {
+     "title": "Novo Will Use Shorter Name to Boost Recognition in Obesity",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/novo-will-shorten-its-name-to-boost-recognition-in-obesity",
+     "published_cst": "2026-09-14T07:06:13+08:00",
+     "time": "09-14 07:06",
+     "body": null
+    },
+    {
+     "title": "Skills and Goals Bosses Are Aiming for by the End of 2026",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/skills-and-goals-bosses-are-aiming-for-by-the-end-of-2026",
+     "published_cst": "2026-09-14T07:05:02+08:00",
+     "time": "09-14 07:05",
+     "body": null
+    },
+    {
+     "title": "Japan's Chubu Electric Halts Plans for Nuclear Restart",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/japan-s-chubu-electric-halts-plans-for-nuclear-reactor-restart",
+     "published_cst": "2026-09-14T06:44:12+08:00",
+     "time": "09-14 06:44",
+     "body": null
+    },
+    {
+     "title": "Astra Breast Cancer Pill Miss May Trim Billions From Sales",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/astrazeneca-breast-cancer-pill-miss-may-trim-billions-from-sales",
+     "published_cst": "2026-09-14T06:41:51+08:00",
+     "time": "09-14 06:41",
+     "body": null
+    },
+    {
+     "title": "Solar Industries Bids $1.4 Billion for South Africa's Omnia",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/solar-industries-bids-1-4-billion-for-south-africa-s-omnia",
+     "published_cst": "2026-09-14T06:40:22+08:00",
+     "time": "09-14 06:40",
+     "body": null
+    },
+    {
+     "title": "Monte Paschi Vows to Keep Up Bids Even If Intesa Takes It Over",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/monte-paschi-vows-to-keep-up-bids-even-if-intesa-takes-it-over",
+     "published_cst": "2026-09-14T06:27:42+08:00",
+     "time": "09-14 06:27",
+     "body": null
+    },
+    {
+     "title": "Data Center Firm Firmus Said to Seek $5 Billion in Australia IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/data-center-firm-firmus-said-to-seek-5-billion-in-australia-ipo",
+     "published_cst": "2026-09-14T06:20:54+08:00",
+     "time": "09-14 06:20",
+     "body": null
+    },
+    {
+     "title": "Asian Refiners Seek Saudi Updates After Oil Pipeline Closure",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/asia-refiners-seek-saudi-updates-after-oil-pipeline-closure",
+     "published_cst": "2026-09-14T06:09:41+08:00",
+     "time": "09-14 06:09",
+     "body": null
+    },
+    {
+     "title": "Stocks Decline After Call to Slow AI Development",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/stocks-decline-after-call-to-slow-ai-development",
+     "published_cst": "2026-09-14T06:06:48+08:00",
+     "time": "09-14 06:06",
+     "body": null
+    },
+    {
+     "title": "UK's Boomers Cling to Jobs as Young People Get Locked Out",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/britain-s-boomers-cling-to-jobs-as-young-people-get-locked-out",
+     "published_cst": "2026-09-14T06:00:00+08:00",
+     "time": "09-14 06:00",
+     "body": null
+    },
+    {
+     "title": "How India and China Took Steps to Reset Ties At BRICS: Live Q&amp;A",
+     "url": "https://www.bloomberg.com/sessions/2026-09-14/live-q-amp-a-how-india-and-china-are-finding-common-ground",
+     "published_cst": "2026-09-14T05:57:29+08:00",
+     "time": "09-14 05:57",
+     "body": null
+    },
+    {
+     "title": "EU Chief Rejects Banks' Bid to Split Reform Package in Two",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/eu-chief-rejects-banks-bid-to-split-reform-package-in-two",
+     "published_cst": "2026-09-14T05:52:37+08:00",
+     "time": "09-14 05:52",
+     "body": null
+    },
+    {
+     "title": "FTSE 100 Live: UK Stock Futures Rise as Oil Marches Higher",
+     "url": "https://www.bloomberg.com/news/live-blog/2026-09-14/ftse-100-live-pound-bond-oil-prices-iran-trump-hormuz-ai-stocks-boe-what-s-moving-uk-markets-right-now-markets-today-mu0toq7x",
+     "published_cst": "2026-09-14T05:49:02+08:00",
+     "time": "09-14 05:49",
+     "body": null
+    },
+    {
+     "title": "Philippine Marcos' Cousin to be Transferred from Hospital to Regular Jail",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/philippine-marcos-cousin-to-be-transferred-from-hospital-to-regular-jail",
+     "published_cst": "2026-09-14T05:48:34+08:00",
+     "time": "09-14 05:48",
+     "body": null
+    },
+    {
+     "title": "OpenAI's Altman Voices Support for 'Pacing' AI Development",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/openai-s-altman-voices-support-for-pacing-ai-development",
+     "published_cst": "2026-09-14T05:09:52+08:00",
+     "time": "09-14 05:09",
+     "body": null
+    },
+    {
+     "title": "Australian Miner Seeks Cheaper Bond to Refinance Private Loan",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/australian-miner-seeks-cheaper-bond-to-refinance-private-loan",
+     "published_cst": "2026-09-14T04:59:42+08:00",
+     "time": "09-14 04:59",
+     "body": null
+    },
+    {
+     "title": "Oman Calls for Alternative LNG Routes That Can Bypass Hormuz",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/oman-calls-for-alternative-lng-routes-that-can-bypass-hormuz",
+     "published_cst": "2026-09-14T04:51:19+08:00",
+     "time": "09-14 04:51",
+     "body": null
+    },
+    {
+     "title": "Pepco Bets on Africa Supply Hubs as Global Shipping Lanes Fray",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/pepco-bets-on-africa-supply-hubs-as-global-shipping-lanes-fray",
+     "published_cst": "2026-09-14T04:30:02+08:00",
+     "time": "09-14 04:30",
+     "body": null
+    },
+    {
+     "title": "Skiing Aussies Drive New Zealand Tourist Arrivals to July Record",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/skiing-aussies-drive-new-zealand-tourist-arrivals-to-july-record",
+     "published_cst": "2026-09-14T04:27:26+08:00",
+     "time": "09-14 04:27",
+     "body": null
+    },
+    {
+     "title": "Ligent Technologies Seeks $727 Million in Hong Kong IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo",
+     "published_cst": "2026-09-14T04:21:05+08:00",
+     "time": "09-14 04:21",
+     "body": null
+    },
+    {
+     "title": "Inflation: Warsh Talked the Fed Into a Rates Trap",
+     "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-14/inflation-warsh-talked-the-fed-into-a-rates-trap",
+     "published_cst": "2026-09-14T04:01:40+08:00",
+     "time": "09-14 04:01",
+     "body": null
+    },
+    {
+     "title": "Trump's \"Little War\" With Iran Just Got Bigger Because of the Houthis",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis",
+     "published_cst": "2026-09-14T04:01:06+08:00",
+     "time": "09-14 04:01",
+     "body": null
+    },
+    {
+     "title": "Robinhood Can't Disrupt Its Way Into the IPO Club",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/robinhood-can-t-disrupt-its-way-into-the-ipo-club",
+     "published_cst": "2026-09-14T04:01:02+08:00",
+     "time": "09-14 04:01",
+     "body": null
+    },
+    {
+     "title": "Portsmouth Violence: British Balaclava Mob Deserves a Hard Response",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/portsmouth-violence-british-balaclava-mob-deserves-a-hard-response",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Switzerland Debates Longstanding Neutrality Ahead of Vote This Month",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/switzerland-debates-longstanding-neutrality-ahead-of-vote-this-month",
+     "published_cst": "2026-09-14T04:00:02+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Europe's Fractured Stock Market Finally Gets a Single Data Feed",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/europe-s-fractured-stock-market-finally-gets-a-single-data-feed",
+     "published_cst": "2026-09-14T04:00:00+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Bank of England's Dovish Majority Tested by Iran War Pressures",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures",
+     "published_cst": "2026-09-14T04:00:00+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "South Korea's $1.4 Trillion National Pension Fund Picks New CIO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/south-korea-s-1-4-trillion-national-pension-fund-picks-new-cio",
+     "published_cst": "2026-09-14T03:52:40+08:00",
+     "time": "09-14 03:52",
+     "body": null
+    },
+    {
+     "title": "Beijing Bans Drones in Broad Curbs After Citic Tower Crash",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/beijing-bans-drones-in-sweeping-curbs-after-citic-tower-crash",
+     "published_cst": "2026-09-14T03:37:27+08:00",
+     "time": "09-14 03:37",
+     "body": null
+    },
+    {
+     "title": "China Spy Chief Warns of AI Risks as US Tech Leaders Urge Brakes",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-spy-chief-warns-of-ai-risks-as-us-tech-leaders-urge-brakes",
+     "published_cst": "2026-09-14T03:07:23+08:00",
+     "time": "09-14 03:07",
+     "body": null
+    },
+    {
+     "title": "Easing the Diesel Crunch Is Harder Than Keeping Planes in the Air",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/easing-the-diesel-crunch-is-harder-than-keeping-planes-in-the-air",
+     "published_cst": "2026-09-14T03:00:02+08:00",
+     "time": "09-14 03:00",
+     "body": null
+    },
+    {
+     "title": "Australian Gold Miner Northern Star Appoints Cutifani to Board",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/australian-gold-miner-northern-star-appoints-cutifani-to-board",
+     "published_cst": "2026-09-14T02:58:00+08:00",
+     "time": "09-14 02:58",
+     "body": null
+    },
+    {
+     "title": "Funds Bet New Zealand Bonds Will Beat Global Peers on Slow Hikes",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/funds-bet-new-zealand-bonds-will-beat-global-peers-on-slow-hikes",
+     "published_cst": "2026-09-14T02:56:06+08:00",
+     "time": "09-14 02:56",
+     "body": null
+    },
+    {
+     "title": "Sungrow Hikes Product Prices After Raw Material Cost Increase",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/sungrow-hikes-product-prices-after-raw-material-cost-increase",
+     "published_cst": "2026-09-14T02:53:02+08:00",
+     "time": "09-14 02:53",
+     "body": null
+    },
+    {
+     "title": "Z.AI's Cash Burn Drives Alibaba-Like HK Fundraising Spree",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/z-ai-s-cash-burn-drives-alibaba-like-hong-kong-fundraising-spree",
+     "published_cst": "2026-09-14T02:22:27+08:00",
+     "time": "09-14 02:22",
+     "body": null
+    },
+    {
+     "title": "Copper Slips as Inflation Data Raises Bets on Fed Hiking Rates",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/copper-slips-as-inflation-data-raises-bets-on-fed-hiking-rates",
+     "published_cst": "2026-09-14T02:19:58+08:00",
+     "time": "09-14 02:19",
+     "body": null
+    },
+    {
+     "title": "Samsung, SK Hynix Reject Kepco's Power Grid Prepayment Plan",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-sk-hynix-reject-kepco-s-power-grid-prepayment-plan",
+     "published_cst": "2026-09-14T02:16:46+08:00",
+     "time": "09-14 02:16",
+     "body": null
+    },
+    {
+     "title": "Korea's Gender Minister Nominee Pulls Out in Fresh Blow to Lee",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/korea-s-gender-minister-nominee-pulls-out-in-fresh-blow-to-lee",
+     "published_cst": "2026-09-14T02:07:04+08:00",
+     "time": "09-14 02:07",
+     "body": null
+    },
+    {
+     "title": "AI Bosses Risk Clash With Wall Street and Trump Over Safety",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/ai-bosses-risk-clash-with-wall-street-and-trump-over-safety-call",
+     "published_cst": "2026-09-14T02:02:50+08:00",
+     "time": "09-14 02:02",
+     "body": null
+    },
+    {
+     "title": "China's Economy Enters Critical Phase Determining 2026 Stimulus",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-s-economy-enters-critical-phase-determining-2026-stimulus",
+     "published_cst": "2026-09-14T02:00:00+08:00",
+     "time": "09-14 02:00",
+     "body": null
+    },
+    {
+     "title": "Chevron Australia Sees LNG Prices Staying High for Six Months",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/chevron-australia-sees-lng-prices-staying-high-for-six-months",
+     "published_cst": "2026-09-14T01:51:49+08:00",
+     "time": "09-14 01:51",
+     "body": null
+    },
+    {
+     "title": "India Beats a Hasty Retreat From a Crucial Market Reform",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/india-beats-a-hasty-retreat-from-a-crucial-market-reform",
+     "published_cst": "2026-09-14T01:47:28+08:00",
+     "time": "09-14 01:47",
+     "body": null
+    },
+    {
+     "title": "SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push",
+     "published_cst": "2026-09-14T01:42:42+08:00",
+     "time": "09-14 01:42",
+     "body": null
+    },
+    {
+     "title": "Trump's Crypto Push Opens Perpetuals Race to Singapore Exchange",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/trump-s-crypto-push-opens-perpetuals-race-to-singapore-exchange",
+     "published_cst": "2026-09-14T01:38:26+08:00",
+     "time": "09-14 01:38",
+     "body": null
+    },
+    {
+     "title": "Autonomous Muslim Region in Philippines Holds First Election to Cement Peace",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/autonomous-muslim-region-in-philippines-holds-first-election-to-cement-peace",
+     "published_cst": "2026-09-14T00:48:00+08:00",
+     "time": "09-14 00:48",
+     "body": null
+    },
+    {
+     "title": "Amtrak Trains Between Boston, New York Disrupted Due to Flooding",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/amtrak-trains-between-boston-new-york-disrupted-due-to-flooding",
+     "published_cst": "2026-09-14T00:45:32+08:00",
+     "time": "09-14 00:45",
+     "body": null
+    },
+    {
+     "title": "Gold Steady as Hot US Inflation Bolsters Chance of Rate Hike",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/gold-edges-lower-as-hot-us-inflation-bolsters-fed-rate-hike-bets",
+     "published_cst": "2026-09-14T00:33:00+08:00",
+     "time": "09-14 00:33",
+     "body": null
+    },
+    {
+     "title": "SoftBank Shares Tumble After AI Chiefs Sound Alarm on Safety",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/softbank-group-shares-fall-after-openai-ipo-delay-ai-warning",
+     "published_cst": "2026-09-14T00:32:05+08:00",
+     "time": "09-14 00:32",
+     "body": null
+    },
+    {
+     "title": "China Tax Clampdown Raises Fears of Founder Share Disposals",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/china-s-tax-clampdown-raises-fears-of-founder-share-disposals",
+     "published_cst": "2026-09-14T00:03:09+08:00",
+     "time": "09-14 00:03",
+     "body": null
+    },
+    {
+     "title": "Why Singapore Is the World's Most Expensive City for New Car Buyers",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/why-singapore-is-the-world-s-most-expensive-city-for-new-car-buyers",
+     "published_cst": "2026-09-14T00:00:02+08:00",
+     "time": "09-14 00:00",
+     "body": null
+    },
+    {
+     "title": "Housing Market, Bathla, AI: Australia Briefing",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/housing-market-bathla-ai-australia-briefing",
+     "published_cst": "2026-09-13T23:17:39+08:00",
+     "time": "09-13 23:17",
+     "body": null
+    },
+    {
+     "title": "Trump EPA to Rescind Carbon Standards for Coal, Gas Power Plants",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-epa-to-rescind-carbon-standards-for-coal-gas-power-plants",
+     "published_cst": "2026-09-13T23:06:54+08:00",
+     "time": "09-13 23:06",
+     "body": null
+    },
+    {
+     "title": "Takaichi Ally Wins Okinawa Vote, Aiding Military Build-Up",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/takaichi-ally-wins-okinawa-vote-aiding-military-build-up-plans",
+     "published_cst": "2026-09-13T23:01:22+08:00",
+     "time": "09-13 23:01",
+     "body": null
+    },
+    {
+     "title": "Anthropic Expects an Operating Profit This Quarter, FT Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-sees-adjusted-operating-profit-this-quarter-ft-says",
+     "published_cst": "2026-09-13T23:00:25+08:00",
+     "time": "09-13 23:00",
+     "body": null
+    },
+    {
+     "title": "Xi-Modi Thaw at BRICS Masks Deep Divisions Between Asian Rivals",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/xi-modi-thaw-at-brics-masks-deep-divisions-between-asian-rivals",
+     "published_cst": "2026-09-13T23:00:00+08:00",
+     "time": "09-13 23:00",
+     "body": null
+    },
+    {
+     "title": "A $7 Billion Gas Bill Sees Developing Asian Nations Sour on LNG",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/a-7-billion-gas-bill-sees-developing-asian-nations-sour-on-lng",
+     "published_cst": "2026-09-13T23:00:00+08:00",
+     "time": "09-13 23:00",
+     "body": null
+    },
+    {
+     "title": "Swedish Voters Left in Limbo for Days in Closest Ever Election",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/swedish-voters-left-in-limbo-for-days-in-closest-ever-election",
+     "published_cst": "2026-09-13T22:53:41+08:00",
+     "time": "09-13 22:53",
+     "body": null
+    },
+    {
+     "title": "Stocks Slide as AI and Oil Jitters Hit Sentiment: Markets Wrap",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap",
+     "published_cst": "2026-09-13T22:06:01+08:00",
+     "time": "09-13 22:06",
+     "body": null
+    },
+    {
+     "title": "Latest Oil Market News and Analysis for Sept. 14",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14",
+     "published_cst": "2026-09-13T22:01:52+08:00",
+     "time": "09-13 22:01",
+     "body": null
+    },
+    {
+     "title": "Amazon Spends More on Sports Than Netflix, YouTube Combined",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/amazon-spends-more-on-sports-than-netflix-youtube-combined",
+     "published_cst": "2026-09-13T22:00:01+08:00",
+     "time": "09-13 22:00",
+     "body": null
+    },
+    {
+     "title": "AI Giants Urge Slower Development to Address Safety Concerns",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/ai-giants-urge-slower-development-to-address-safety-concerns",
+     "published_cst": "2026-09-13T21:30:45+08:00",
+     "time": "09-13 21:30",
+     "body": null
+    },
+    {
+     "title": "Burnham Says UK Needs 'Culture Shift' to Support Risk Takers",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/burnham-says-uk-needs-culture-shift-to-support-risk-takers",
+     "published_cst": "2026-09-13T21:30:00+08:00",
+     "time": "09-13 21:30",
+     "body": null
+    },
+    {
+     "title": "Trump Basks as Irish Open Host in Brief Break From Midterm Woes",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-basks-as-irish-open-host-in-brief-break-from-midterm-woes",
+     "published_cst": "2026-09-13T20:35:05+08:00",
+     "time": "09-13 20:35",
+     "body": null
+    },
+    {
+     "title": "CFOs Face a Tougher Call on When to Borrow (ASAN, TOBA)",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/cfos-face-a-tougher-call-on-when-to-borrow-asan-toba",
+     "published_cst": "2026-09-13T20:00:02+08:00",
+     "time": "09-13 20:00",
+     "body": null
+    },
+    {
+     "title": "Hormuz Meeting With Iran and Gulf Nations Delayed, Oman Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/hormuz-meeting-with-iran-and-gulf-nations-postponed-oman-says",
+     "published_cst": "2026-09-13T19:17:03+08:00",
+     "time": "09-13 19:17",
+     "body": null
+    },
+    {
+     "title": "Indonesia's Green Fuel Boom Is Incinerating the Rainforest",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/indonesia-s-green-fuel-boom-is-incinerating-the-rainforest",
+     "published_cst": "2026-09-13T19:00:02+08:00",
+     "time": "09-13 19:00",
+     "body": null
+    },
+    {
+     "title": "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/a-5-treasury-yield-is-raising-new-risks-for-markets-economy",
+     "published_cst": "2026-09-13T19:00:00+08:00",
+     "time": "09-13 19:00",
+     "body": null
+    },
+    {
+     "title": "Sweden's Election Race Tightens After Center-Left's Strong Start",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/sweden-s-social-democrat-led-bloc-takes-lead-in-exit-poll",
+     "published_cst": "2026-09-13T18:10:02+08:00",
+     "time": "09-13 18:10",
+     "body": null
+    },
+    {
+     "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing",
+     "published_cst": "2026-09-13T18:03:59+08:00",
+     "time": "09-13 18:03",
+     "body": null
+    },
+    {
+     "title": "Yen Rally: Bessent Doubles Down on House of the Rising Sun",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/yen-rally-bessent-doubles-down-on-house-of-the-rising-sun",
+     "published_cst": "2026-09-13T18:00:02+08:00",
+     "time": "09-13 18:00",
+     "body": null
+    },
+    {
+     "title": "Trump Says He Will Eliminate US Tariffs on Irish Whiskey",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-says-he-ll-remove-us-tariffs-on-irish-whiskey-mu03xgtq",
+     "published_cst": "2026-09-13T17:47:59+08:00",
+     "time": "09-13 17:47",
+     "body": null
+    },
+    {
+     "title": "US Energy Chief Downplays Chance of Hormuz Advance With Iran",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/us-energy-chief-downplays-chance-of-hormuz-advance-with-iran",
+     "published_cst": "2026-09-13T16:20:21+08:00",
+     "time": "09-13 16:20",
+     "body": null
+    },
+    {
+     "title": "Amodei Essay: Anthropic AI Apocalypse Warning Is Far Too Weak",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/amodei-essay-anthropic-ai-apocalypse-warning-is-far-too-weak",
+     "published_cst": "2026-09-13T15:00:22+08:00",
+     "time": "09-13 15:00",
+     "body": null
+    },
+    {
+     "title": "Trump Defends His Support for Irish Unity Despite UK Uproar",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-defends-his-support-for-unified-ireland-despite-uk-uproar",
+     "published_cst": "2026-09-13T14:52:25+08:00",
+     "time": "09-13 14:52",
+     "body": null
+    },
+    {
+     "title": "Trump Demands Ukraine Halt Refinery Strikes as Diesel Surges",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-demands-ukraine-halt-refinery-strikes-as-diesel-surges",
+     "published_cst": "2026-09-13T14:38:16+08:00",
+     "time": "09-13 14:38",
+     "body": null
+    },
+    {
+     "title": "Trump Says He's Not Worried About Xi Calling Off Summit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-says-he-s-not-worried-about-xi-calling-off-summit",
+     "published_cst": "2026-09-13T14:10:36+08:00",
+     "time": "09-13 14:10",
+     "body": null
+    },
+    {
+     "title": "Hassett Says White House Will 100% Support Fed's Next Decision",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/hassett-says-white-house-will-100-support-fed-s-next-decision",
+     "published_cst": "2026-09-13T14:01:10+08:00",
+     "time": "09-13 14:01",
+     "body": null
+    },
+    {
+     "title": "LIV Golf Spent Billions, Feuded With PGA on Path to Chapter 11: Big Take Podcast",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/liv-golf-spent-billions-feuded-with-pga-on-path-to-chapter-11-big-take-podcast-mtzvsbjo",
+     "published_cst": "2026-09-13T14:00:02+08:00",
+     "time": "09-13 14:00",
+     "body": null
+    },
+    {
+     "title": "Apple's iPhone Duo Will Make Foldable Phones the New Normal; Apple Store Revamp",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/apple-s-iphone-duo-will-make-foldable-phones-the-new-normal-apple-store-revamp-mtzvsb60",
+     "published_cst": "2026-09-13T14:00:01+08:00",
+     "time": "09-13 14:00",
+     "body": null
+    },
+    {
+     "title": "Traders Hedging Stock Rally Split on Plunge or Drift Protection",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/traders-hedging-stock-rally-split-on-plunge-or-drift-protection",
+     "published_cst": "2026-09-13T14:00:00+08:00",
+     "time": "09-13 14:00",
+     "body": null
+    },
+    {
+     "title": "Trump Downplays AI Concerns as CEOs Call for Slowing Pace",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-downplays-ai-concerns-as-ceos-call-for-slowing-technology",
+     "published_cst": "2026-09-13T13:59:48+08:00",
+     "time": "09-13 13:59",
+     "body": null
+    },
+    {
+     "title": "Trump Pushes Fed to Lower Rates Despite Pressure For a Hike",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-pushes-fed-to-lower-rates-despite-pressure-to-raise-them",
+     "published_cst": "2026-09-13T13:45:52+08:00",
+     "time": "09-13 13:45",
+     "body": null
+    },
+    {
+     "title": "Trump Urges Zelenskyy to Stop Hitting Russia's Diesel Refineries",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-urges-zelenskyy-to-stop-hitting-russia-s-diesel-refineries",
+     "published_cst": "2026-09-13T13:30:59+08:00",
+     "time": "09-13 13:30",
+     "body": null
+    },
+    {
+     "title": "LA's Lucas Museum Shines Spotlight on Architect Ma Yansong",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/la-s-lucas-museum-shines-spotlight-on-architect-ma-yansong",
+     "published_cst": "2026-09-13T13:12:42+08:00",
+     "time": "09-13 13:12",
+     "body": null
+    },
+    {
+     "title": "Fayed Abuse Victims Seek Up to £150 Million From Harrods",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/fayed-victims-seek-up-to-150-million-from-harrods-after-abuse",
+     "published_cst": "2026-09-13T13:00:00+08:00",
+     "time": "09-13 13:00",
+     "body": null
+    },
+    {
+     "title": "China and Russia Have Sea, Space and Cyberspace Under Siege",
+     "url": "https://www.bloomberg.com/opinion/features/2026-09-13/china-and-russia-have-sea-space-and-cyberspace-under-siege",
+     "published_cst": "2026-09-13T12:00:04+08:00",
+     "time": "09-13 12:00",
+     "body": null
+    },
+    {
+     "title": "Congress Should Follow California's Lead on AI Laws",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/congress-should-follow-california-s-lead-on-ai-laws",
+     "published_cst": "2026-09-13T12:00:02+08:00",
+     "time": "09-13 12:00",
+     "body": null
+    },
+    {
+     "title": "IPhone Duo: A Device for People Who Can't Type",
+     "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-13/iphone-duo-a-device-for-people-who-can-t-type",
+     "published_cst": "2026-09-13T12:00:01+08:00",
+     "time": "09-13 12:00",
+     "body": null
+    },
+    {
+     "title": "Ukraine Says Passenger Train Headed to Warsaw Hit by Drone",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/ukraine-says-passenger-train-headed-to-warsaw-is-hit-by-drone",
+     "published_cst": "2026-09-13T10:52:02+08:00",
+     "time": "09-13 10:52",
+     "body": null
+    },
+    {
+     "title": "Labour Signals Action Against Farage's Crypto Donation Surge",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/labour-signals-action-to-stifle-farage-s-crypto-donation-surge",
+     "published_cst": "2026-09-13T09:40:48+08:00",
+     "time": "09-13 09:40",
+     "body": null
+    },
+    {
+     "title": "Xi Pitches AI Vision at BRICS Summit as China Duels With US",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/xi-pitches-his-ai-vision-at-brics-summit-as-china-duels-with-us",
+     "published_cst": "2026-09-13T09:10:57+08:00",
+     "time": "09-13 09:10",
+     "body": null
+    },
+    {
+     "title": "Ukraine Strikes Russian Refineries as Odesa Ports Targeted",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/russia-strikes-ukraine-power-sites-as-kyiv-targets-refining-hub",
+     "published_cst": "2026-09-13T08:28:19+08:00",
+     "time": "09-13 08:28",
+     "body": null
+    },
+    {
+     "title": "How Likely Is It That AI Kills Us All?",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-13/how-likely-is-it-that-ai-kills-us-all",
+     "published_cst": "2026-09-13T08:00:02+08:00",
+     "time": "09-13 08:00",
+     "body": null
+    },
+    {
+     "title": "UK Tech Spinouts Are Struggling Outside the Golden Triangle",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/uk-tech-spinouts-are-struggling-outside-the-golden-triangle",
+     "published_cst": "2026-09-13T08:00:00+08:00",
+     "time": "09-13 08:00",
+     "body": null
+    },
+    {
+     "title": "Asia Chip Stocks Drop as AI Chiefs Urge Slower Model Development",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact",
+     "published_cst": "2026-09-13T08:00:00+08:00",
+     "time": "09-13 08:00",
+     "body": null
+    },
+    {
+     "title": "Israel Election: Netanyahu Rival Eisenkot Can at Least Promise Less War",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-13/israel-election-netanyahu-rival-eisenkot-can-at-least-promise-less-war",
+     "published_cst": "2026-09-13T07:00:02+08:00",
+     "time": "09-13 07:00",
+     "body": null
+    },
+    {
+     "title": "Australia Spring Property Season Sees Auctions Rise but Volumes Stay 34% Lower",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/australia-spring-property-season-sees-auctions-rise-but-volumes-stay-34-lower",
+     "published_cst": "2026-09-13T06:35:36+08:00",
+     "time": "09-13 06:35",
+     "body": null
+    },
+    {
+     "title": "Philippines Halts Exports of Fresh Purple Yam as Demand Rises",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/philippines-halts-exports-of-fresh-purple-yam-as-demand-rises",
+     "published_cst": "2026-09-13T06:28:43+08:00",
+     "time": "09-13 06:28",
+     "body": null
+    },
+    {
+     "title": "Brazil's Top Court Gives Police Deadline on Banker's Data",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-13/brazil-s-top-court-gives-police-deadline-on-banker-s-phone-data",
+     "published_cst": "2026-09-13T00:02:14+08:00",
+     "time": "09-13 00:02",
+     "body": null
+    },
+    {
+     "title": "Tesla Teases Oct. 1 Event to Showcase Next-Generation Roadster",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster",
+     "published_cst": "2026-09-12T20:20:58+08:00",
+     "time": "09-12 20:20",
+     "body": null
+    },
+    {
+     "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks",
+     "published_cst": "2026-09-12T20:00:00+08:00",
+     "time": "09-12 20:00",
+     "body": null
+    },
+    {
+     "title": "OpenAI's Altman Says No IPO in 2026, Firm to Prioritize Safety",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune",
+     "published_cst": "2026-09-12T19:36:39+08:00",
+     "time": "09-12 19:36",
+     "body": null
+    },
+    {
+     "title": "Blizzard Announces 'Diablo V,' New 'StarCraft' Shooter",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/blizzard-announces-diablo-v-new-starcraft-shooter",
+     "published_cst": "2026-09-12T19:15:01+08:00",
+     "time": "09-12 19:15",
+     "body": null
+    },
+    {
+     "title": "Carney to Meet UK's Burnham as Canada Deepens Europe Ties",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/carney-to-meet-uk-s-burnham-as-canada-deepens-europe-ties",
+     "published_cst": "2026-09-12T19:03:07+08:00",
+     "time": "09-12 19:03",
+     "body": null
+    },
+    {
+     "title": "Le Pen Opens Door for Compromise on 2027 Budget Law, AFP Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/le-pen-opens-door-for-compromise-on-2027-budget-law-afp-says",
+     "published_cst": "2026-09-12T19:03:05+08:00",
+     "time": "09-12 19:03",
+     "body": null
+    },
+    {
+     "title": "SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance",
+     "published_cst": "2026-09-12T17:58:51+08:00",
+     "time": "09-12 17:58",
+     "body": null
+    },
+    {
+     "title": "Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares",
+     "published_cst": "2026-09-12T16:33:33+08:00",
+     "time": "09-12 16:33",
+     "body": null
+    },
+    {
+     "title": "Trump's Foes Find Common Ground at Modi's New Delhi Summit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
+     "published_cst": "2026-09-12T15:31:39+08:00",
+     "time": "09-12 15:31",
+     "body": null
+    },
+    {
+     "title": "LIV Golf's Big Losses Provide Fuel for a Second Act",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/liv-golf-s-big-losses-provide-fuel-for-a-second-act",
+     "published_cst": "2026-09-12T15:00:02+08:00",
+     "time": "09-12 15:00",
+     "body": null
+    },
+    {
+     "title": "Amodei, Altman, Musk Call for Slowing AI Model Development",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+     "published_cst": "2026-09-12T14:17:56+08:00",
+     "time": "09-12 14:17",
+     "body": null
+    },
+    {
+     "title": "California Gas Station With $9.99 Diesel Exemplifies Fuel Crisis",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/california-gas-station-with-9-99-diesel-exemplifies-fuel-crisis",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null
+    },
+    {
+     "title": "'Crazy' French Inversion Shows Credit Is a Haven: Credit Weekly",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/-crazy-french-inversion-shows-credit-is-a-haven-credit-weekly",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null
+    },
+    {
+     "title": "RBI Said to Reject Tata Sons Request to Avoid An IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing",
+     "published_cst": "2026-09-12T13:33:43+08:00",
+     "time": "09-12 13:33",
+     "body": null
+    },
+    {
+     "title": "Trump's Deep-Sea Mining Push Attracts Foreign Companies",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/trump-s-deep-sea-mining-push-attracts-foreign-companies",
+     "published_cst": "2026-09-12T13:17:31+08:00",
+     "time": "09-12 13:17",
+     "body": null
+    },
+    {
+     "title": "Farage's Reform Raises Record £72 Million in Less Than 24 Hours",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/farage-s-reform-raises-record-72-million-in-less-than-24-hours",
+     "published_cst": "2026-09-12T13:14:30+08:00",
+     "time": "09-12 13:14",
+     "body": null
+    },
+    {
+     "title": "RBI Rejects Tata Sons Plea to Nix Shadow Lender Tag, Reports Say",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-rejects-tata-sons-plea-to-nix-shadow-lender-tag-reports-say",
+     "published_cst": "2026-09-12T13:00:08+08:00",
+     "time": "09-12 13:00",
+     "body": null
+    },
+    {
+     "title": "Trump Brushes Off AI Doomsaying to Guard US Lead Over China",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china",
+     "published_cst": "2026-09-12T13:00:00+08:00",
+     "time": "09-12 13:00",
+     "body": null
+    },
+    {
+     "title": "Xi Resets Ties With Modi on First Visit to India in Seven Years",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years",
+     "published_cst": "2026-09-12T12:57:18+08:00",
+     "time": "09-12 12:57",
+     "body": null
+    },
+    {
+     "title": "BRICS Countries Call for Maximum Restraint in the Middle East",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/brics-countries-call-for-maximum-restraint-in-the-middle-east",
+     "published_cst": "2026-09-12T12:09:46+08:00",
+     "time": "09-12 12:09",
+     "body": null
+    },
+    {
+     "title": "Iraq Fires Maysan Commander After Drone Attacks on Saudi Arabia's Pipeline",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/iraq-fires-maysan-commander-after-drone-attacks-on-saudi-arabia-s-pipeline",
+     "published_cst": "2026-09-12T12:03:03+08:00",
+     "time": "09-12 12:03",
+     "body": null
+    },
+    {
+     "title": "Resident Evil Fans Will Regret Driving Away Zach Cregger",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-12/resident-evil-fans-will-regret-driving-away-zach-cregger",
+     "published_cst": "2026-09-12T12:00:04+08:00",
+     "time": "09-12 12:00",
+     "body": null
+    },
+    {
+     "title": "US Open: Influencer Culture Has Turned It Into a Status Contest",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-12/us-open-influencer-culture-has-turned-it-into-a-status-contest",
+     "published_cst": "2026-09-12T12:00:02+08:00",
+     "time": "09-12 12:00",
+     "body": null
+    },
+    {
+     "title": "German Elections: AfD Win Puts Friedrich Merz On the Clock",
+     "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-12/german-elections-afd-win-puts-friedrich-merz-on-the-clock",
+     "published_cst": "2026-09-12T12:00:01+08:00",
+     "time": "09-12 12:00",
+     "body": null
+    },
+    {
+     "title": "The Lucas Museum and Bayeux Tapestry Exhibits Push the Limits of Narrative Art",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/the-lucas-museum-and-bayeux-tapestry-exhibits-push-the-limits-of-narrative-art",
+     "published_cst": "2026-09-12T11:30:01+08:00",
+     "time": "09-12 11:30",
+     "body": null
+    },
+    {
+     "title": "HDFC Bank Submits Names of Two CEO Candidates to RBI",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/hdfc-bank-submits-names-of-two-candidates-for-ceo-role-to-rbi",
+     "published_cst": "2026-09-12T11:22:50+08:00",
+     "time": "09-12 11:22",
+     "body": null
+    },
+    {
+     "title": "Trump Said He'd Love to See a 'United' Ireland During Visit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-said-he-d-love-to-see-a-united-ireland-during-visit",
+     "published_cst": "2026-09-12T11:08:33+08:00",
+     "time": "09-12 11:08",
+     "body": null
+    },
+    {
+     "title": "Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/oil-and-gas-markets-signal-winter-crisis-and-rising-interest-rates",
+     "published_cst": "2026-09-12T11:00:02+08:00",
+     "time": "09-12 11:00",
+     "body": null
+    },
+    {
+     "title": "What Many Miss Regarding the US-China Rivalry: New Economy",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy",
+     "published_cst": "2026-09-12T10:45:01+08:00",
+     "time": "09-12 10:45",
+     "body": null
+    },
+    {
+     "title": "Trump Says He Could Settle UK-Argentina Dispute Over Falklands",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-he-could-settle-uk-argentina-dispute-over-falklands",
+     "published_cst": "2026-09-12T10:42:11+08:00",
+     "time": "09-12 10:42",
+     "body": null
+    },
+    {
+     "title": "Trump Sees Canada Deal 'Fairly Soon,' Downplays Leaving USMCA",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-deal-fairly-soon",
+     "published_cst": "2026-09-12T10:28:40+08:00",
+     "time": "09-12 10:28",
+     "body": null
+    },
+    {
+     "title": "Trump Says US, Canada Will Probably Reach a Deal 'Fairly Soon'",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-a-deal-fairly-soon",
+     "published_cst": "2026-09-12T10:07:16+08:00",
+     "time": "09-12 10:07",
+     "body": null
+    },
+    {
+     "title": "BRICS Nations Reach Consensus on Communique: India Official",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/brics-nations-reach-consensus-on-communique-india-official",
+     "published_cst": "2026-09-12T09:11:35+08:00",
+     "time": "09-12 09:11",
+     "body": null
+    },
+    {
+     "title": "War In the Middle East Crisis is Making Clothes More Expensive",
+     "url": "https://www.bloomberg.com/news/features/2026-09-12/war-in-the-middle-east-crisis-is-making-clothes-more-expensive",
+     "published_cst": "2026-09-12T09:00:02+08:00",
+     "time": "09-12 09:00",
+     "body": null
+    },
+    {
+     "title": "Here's Who HSBC May Tap as Its Next Chief Financial Officer",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/here-s-who-hsbc-may-tap-as-its-next-chief-financial-officer",
+     "published_cst": "2026-09-12T09:00:00+08:00",
+     "time": "09-12 09:00",
+     "body": null
+    },
+    {
+     "title": "Trump Jabs at Europe on Trade, Immigration During Ireland Visit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/irish-leaders-downplay-tensions-as-trump-arrives-for-visit",
+     "published_cst": "2026-09-12T08:56:28+08:00",
+     "time": "09-12 08:56",
+     "body": null
+    },
+    {
+     "title": "Drug-Dealing Gangs Hold Key to Swedish Vote in This Suburb",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/drug-dealing-kid-gangs-hold-key-to-swedish-election-in-this-hood",
+     "published_cst": "2026-09-12T08:31:48+08:00",
+     "time": "09-12 08:31",
+     "body": null
+    },
+    {
+     "title": "India's SEBI Seeks Major Changes to Unpopular Auction System",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/india-regulator-proposes-changes-to-closing-auction-after-swings",
+     "published_cst": "2026-09-12T06:55:22+08:00",
+     "time": "09-12 06:55",
+     "body": null
+    },
+    {
+     "title": "Modi Forges BRICS Consensus in Shadow of Worsening Iran War",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-takes-center-stage-at-modi-s-brics-summit-as-iran-war-deepens",
+     "published_cst": "2026-09-12T06:52:51+08:00",
+     "time": "09-12 06:52",
+     "body": null
+    },
+    {
+     "title": "Lagarde Joins France Election Debate at Normandy Rally, Feeding ECB Exit Talk",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/lagarde-joins-france-election-debate-at-normandy-rally-feeding-ecb-exit-talk",
+     "published_cst": "2026-09-12T05:00:00+08:00",
+     "time": "09-12 05:00",
+     "body": null
+    },
+    {
+     "title": "Billionaire Delo Gives Record £36 Million to Farage's Reform",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-11/billionaire-delo-gives-record-36-million-to-farage-s-reform-uk",
+     "published_cst": "2026-09-11T22:27:23+08:00",
+     "time": "09-11 22:27",
+     "body": null
+    },
+    {
+     "title": "Oracle Boosts Layoffs Plan by $700 Million",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million",
+     "published_cst": "2026-09-11T21:13:29+08:00",
+     "time": "09-11 21:13",
+     "body": null
+    },
+    {
+     "title": "Merz Determined to Cling to Power and Defy Party Rebellion",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-11/merz-determined-to-cling-on-in-germany-and-defy-party-rebellion",
+     "published_cst": "2026-09-11T13:06:24+08:00",
+     "time": "09-11 13:06",
+     "body": null
+    },
+    {
+     "title": "US marks 25 years since the Sept. 11 attacks",
+     "url": "https://www.bloomberg.com/en/news/thp/2026-09-11/us-marks-25-years-since-the-sept-11-attacks-moments-that-divide-time",
+     "published_cst": "2026-09-11T04:09:00+08:00",
+     "time": "09-11 04:09",
+     "body": null
+    },
+    {
+     "title": "Tata Sons IPO: When Will It List in India? What to Know About RBI's New Rules",
+     "url": "https://www.bloomberg.com/news/articles/2026-05-08/tata-sons-ipo-when-will-it-list-in-india-what-to-know-about-rbi-s-new-rules",
+     "published_cst": "2026-05-08T08:15:27+08:00",
+     "time": "05-08 08:15",
+     "body": null
+    }
+   ]
+  },
+  "ft": {
+   "name": "Financial Times",
+   "home": "https://www.ft.com",
+   "count": 110,
+   "body_support": false,
+   "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
+   "items": [
+    {
+     "title": "Beijing launches drone buyback in crackdown after Citic Tower crash",
+     "url": "https://www.ft.com/content/8ec31da9-9922-44e2-98c2-3225c9eb0e21",
+     "published_cst": "2026-09-14T08:52:23+08:00",
+     "time": "09-14 08:52",
+     "body": null
+    },
+    {
+     "title": "Novo ditches Nordisk from name as drugmaker attempts revival",
+     "url": "https://www.ft.com/content/3984d89d-64ed-43e0-a6fe-0804173fa5c0",
+     "published_cst": "2026-09-14T08:41:35+08:00",
+     "time": "09-14 08:41",
+     "body": null
+    },
+    {
+     "title": "Tech stocks fall after big AI groups call for slowdown",
+     "url": "https://www.ft.com/content/aa8a1be7-abe0-44b7-bcd3-31fd0a44de08",
+     "published_cst": "2026-09-14T08:34:47+08:00",
+     "time": "09-14 08:34",
+     "body": null
+    },
+    {
+     "title": "Reform’s windfall changes the mood music",
+     "url": "https://www.ft.com/content/3e39baca-6450-47b5-ab61-a49741aa25f7",
+     "published_cst": "2026-09-14T08:34:19+08:00",
+     "time": "09-14 08:34",
+     "body": null
+    },
+    {
+     "title": "An ode to North America’s longest saltwater pool",
+     "url": "https://www.ft.com/content/8a92c5f1-a597-48f7-957a-9555d1654f0e",
+     "published_cst": "2026-09-14T08:31:55+08:00",
+     "time": "09-14 08:31",
+     "body": null
+    },
+    {
+     "title": "Swedish election on a knife-edge",
+     "url": "https://www.ft.com/content/00e3c084-06e3-47b4-8230-185760216e60",
+     "published_cst": "2026-09-14T08:08:53+08:00",
+     "time": "09-14 08:08",
+     "body": null
+    },
+    {
+     "title": "Oil hits $108 as Gulf states postpone talks with Iran over Hormuz",
+     "url": "https://www.ft.com/content/4845a503-3ddd-4bb7-a469-c51f275bc873",
+     "published_cst": "2026-09-14T07:31:04+08:00",
+     "time": "09-14 07:31",
+     "body": null
+    },
+    {
+     "title": "Hugo Boss chair steps down under pressure from Mike Ashley’s Frasers Group",
+     "url": "https://www.ft.com/content/236d8c58-7f6a-497c-9f57-9e7d2ad80096",
+     "published_cst": "2026-09-14T07:24:51+08:00",
+     "time": "09-14 07:24",
+     "body": null
+    },
+    {
+     "title": "Can AI’s leaders really put aside rivalry for the common good?",
+     "url": "https://www.ft.com/content/b3d01493-f0f5-491b-bcf8-2d414539fbe7",
+     "published_cst": "2026-09-14T06:12:58+08:00",
+     "time": "09-14 06:12",
+     "body": null
+    },
+    {
+     "title": "Japanese utility halts nuclear reactor restart after data manipulation scandal",
+     "url": "https://www.ft.com/content/e1383b40-554a-445d-a431-a7068c68aa76",
+     "published_cst": "2026-09-14T06:05:38+08:00",
+     "time": "09-14 06:05",
+     "body": null
+    },
+    {
+     "title": "High inflation or low credibility?",
+     "url": "https://www.ft.com/content/b8f897e4-cb25-45a8-869d-ed5aa0919d08",
+     "published_cst": "2026-09-14T05:30:02+08:00",
+     "time": "09-14 05:30",
+     "body": null
+    },
+    {
+     "title": "China’s spy agency warns of AI risk to national security",
+     "url": "https://www.ft.com/content/8715d1c6-054d-4eab-bcad-147acebfd2a9",
+     "published_cst": "2026-09-14T05:15:49+08:00",
+     "time": "09-14 05:15",
+     "body": null
+    },
+    {
+     "title": "FTAV’s further reading",
+     "url": "https://www.ft.com/content/988e8cb5-da27-49a6-a9f5-377b515c02ba",
+     "published_cst": "2026-09-14T05:00:03+08:00",
+     "time": "09-14 05:00",
+     "body": null
+    },
+    {
+     "title": "EU and Canada to toast to closer bonds in bid to rally multilateral world order",
+     "url": "https://www.ft.com/content/b9a2d02a-d240-4512-a7fa-a8fa6f0429c8",
+     "published_cst": "2026-09-14T05:00:03+08:00",
+     "time": "09-14 05:00",
+     "body": null
+    },
+    {
+     "title": "Druckenmiller: no US rate cuts needed",
+     "url": "https://www.ft.com/content/8e434151-b6ca-492f-9aba-6775529f9545",
+     "published_cst": "2026-09-14T05:00:03+08:00",
+     "time": "09-14 05:00",
+     "body": null
+    },
+    {
+     "title": "FirstFT: Oil surge stirs UK rate rise debate",
+     "url": "https://www.ft.com/content/e9d90dd1-0f3c-4771-8cc7-341b3c050d8f",
+     "published_cst": "2026-09-14T04:38:47+08:00",
+     "time": "09-14 04:38",
+     "body": null
+    },
+    {
+     "title": "The best of TV and streaming this week",
+     "url": "https://www.ft.com/content/955f2421-7dc6-4bea-9501-b8646c8ba0a1",
+     "published_cst": "2026-09-14T04:19:35+08:00",
+     "time": "09-14 04:19",
+     "body": null
+    },
+    {
+     "title": "Japan’s central bank set for pivotal moment on rates",
+     "url": "https://www.ft.com/content/4f6a427f-3975-470f-83bf-b21423df59c8",
+     "published_cst": "2026-09-14T04:15:06+08:00",
+     "time": "09-14 04:15",
+     "body": null
+    },
+    {
+     "title": "Warsh and Trump on collision course as investors expect Fed to raise rates",
+     "url": "https://www.ft.com/content/904c6d93-a6b3-47f4-8b12-3d418cc74fa2",
+     "published_cst": "2026-09-14T04:00:22+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Transcript: Fed and BoJ expect rate hikes as US bond market flails",
+     "url": "https://www.ft.com/content/f944bd38-9e2c-4d06-b53c-553cb9c1ecbd",
+     "published_cst": "2026-09-14T04:00:22+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Automation is coming for the gig economy",
+     "url": "https://www.ft.com/content/a2c33eed-7aef-4e68-9252-3a1dddf61b5a",
+     "published_cst": "2026-09-14T04:00:22+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Essar strikes deal to buy 118 UK petrol stations",
+     "url": "https://www.ft.com/content/130f45b6-ee45-4fa0-83eb-5ea8f9bc4680",
+     "published_cst": "2026-09-14T04:00:21+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "A ‘lucky’ chancellor must also be a resolute one",
+     "url": "https://www.ft.com/content/0008bdb5-ac6c-4d72-b71f-e53a94a10f77",
+     "published_cst": "2026-09-14T04:00:13+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "UK faces £258bn infrastructure spending gap, warns report",
+     "url": "https://www.ft.com/content/cfcc5bc1-56cc-4e9f-8f0e-ef45932b76ab",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Tokenised gold could be exempt from fund regulations under FCA proposal",
+     "url": "https://www.ft.com/content/a45a2f1f-03d9-46aa-8307-fe89edd7e589",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Oil price surge revives prospect of Bank of England rate rise this year",
+     "url": "https://www.ft.com/content/050b2863-a164-431f-bd04-2e416adf9a38",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Music industry targets AI songs in crackdown on streaming fraud",
+     "url": "https://www.ft.com/content/c1f17709-7fc8-4afc-8ac9-38cd923f0064",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "How high might natural gas prices go?",
+     "url": "https://www.ft.com/content/639b4d2a-30c7-473c-a3ec-1fe96a7a7ac7",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Expanded ad ban on ‘less healthy’ foods could hit £1bn in UK media spending",
+     "url": "https://www.ft.com/content/203bc43f-8189-4156-b60d-28614e07245f",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "European capitals barter over Christine Lagarde’s successor at ECB",
+     "url": "https://www.ft.com/content/898836da-322a-4bb8-9e62-f3c3d36b23b2",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Cyber criminals use AI to supercharge scams, watchdog warns",
+     "url": "https://www.ft.com/content/d545bae1-d770-46f3-9913-07e85d4ae34c",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Battlefield realism and cosy espionage — our pick of the latest thrillers",
+     "url": "https://www.ft.com/content/a2266ebe-4bc4-4594-a1d6-deb1fa49113a",
+     "published_cst": "2026-09-14T04:00:12+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Why Pokémon cards are selling for more than $1mn",
+     "url": "https://www.ft.com/content/d6d763a2-f6b8-467c-9554-17a89e58902c",
+     "published_cst": "2026-09-14T04:00:05+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "The sexy complexity of the Spanish male",
+     "url": "https://www.ft.com/content/9d382daa-77d9-4309-a2e4-d675f77fe574",
+     "published_cst": "2026-09-14T04:00:05+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Euronext open to ‘big bang’ deal with rival Deutsche Börse",
+     "url": "https://www.ft.com/content/cf0ee7e3-8634-4c1d-8a44-3b71acee1417",
+     "published_cst": "2026-09-14T04:00:05+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "‘Offensively cheap’: solar power is looking up",
+     "url": "https://www.ft.com/content/8b704ae0-1fa2-4303-925f-170fa5d935b3",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Start-up opens factory a mile from Tower Bridge amid defence surge",
+     "url": "https://www.ft.com/content/d805fcf8-e0ff-463f-bc1c-974f878fae43",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Schroders considers acquisitions to grow wealth division",
+     "url": "https://www.ft.com/content/0688caee-f24f-4fa7-b04a-d1e8f9c0c03d",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Our homes need to become polyamorous",
+     "url": "https://www.ft.com/content/87649e78-e3a3-44f4-aab4-e9dbc3c01946",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Middle East war tests Dubai’s island dreams",
+     "url": "https://www.ft.com/content/3d6bc1b6-5d57-4f7f-9e5b-a0aa9bcab1e7",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Defence sales test Europe’s appetite for US investment",
+     "url": "https://www.ft.com/content/b15d9839-1d2e-4a38-9a5c-5424aeff2b3c",
+     "published_cst": "2026-09-14T04:00:04+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Fed and BoJ expect rate hikes as US bond market flails",
+     "url": "https://www.ft.com/content/76a24fc8-b521-47d6-aec9-1bf6666afd60",
+     "published_cst": "2026-09-14T04:00:00+08:00",
+     "time": "09-14 04:00",
+     "body": null
+    },
+    {
+     "title": "Podcaster Steven Bartlett: ‘You’d be shocked how little time I spend on the internet’",
+     "url": "https://www.ft.com/content/20b9d88c-076e-4a7b-8f3f-6a593a351d95",
+     "published_cst": "2026-09-14T03:00:02+08:00",
+     "time": "09-14 03:00",
+     "body": null
+    },
+    {
+     "title": "It’s the pitfalls and pratfalls that make a career",
+     "url": "https://www.ft.com/content/3ea7abec-32b3-4470-adf6-cd286c381d40",
+     "published_cst": "2026-09-14T03:00:02+08:00",
+     "time": "09-14 03:00",
+     "body": null
+    },
+    {
+     "title": "Transcript: Why Dante put bankers in hell and James Joyce didn’t",
+     "url": "https://www.ft.com/content/8eba26ec-e273-48c2-a7da-1b4f8fa44da6",
+     "published_cst": "2026-09-14T01:56:16+08:00",
+     "time": "09-14 01:56",
+     "body": null
+    },
+    {
+     "title": "Michael Dell’s family office leads $7.7bn deal to take insurance broker private",
+     "url": "https://www.ft.com/content/5495d88b-b457-498a-bedd-64a954b538cd",
+     "published_cst": "2026-09-14T00:45:21+08:00",
+     "time": "09-14 00:45",
+     "body": null
+    },
+    {
+     "title": "Correction: Belron’s pre-tax profit",
+     "url": "https://www.ft.com/content/1f942f2d-2bb1-40c9-9604-de7a92c84e90",
+     "published_cst": "2026-09-14T00:40:58+08:00",
+     "time": "09-14 00:40",
+     "body": null
+    },
+    {
+     "title": "FT Crossword: Number 18,479",
+     "url": "https://www.ft.com/content/3cd0d02c-ac61-47df-abb4-ddc3821edae6",
+     "published_cst": "2026-09-13T23:00:09+08:00",
+     "time": "09-13 23:00",
+     "body": null
+    },
+    {
+     "title": "Anthropic tells investors it will be profitable for second straight quarter",
+     "url": "https://www.ft.com/content/4564e6a5-69e9-40a6-bf0f-a888f2f4f002",
+     "published_cst": "2026-09-13T22:29:46+08:00",
+     "time": "09-13 22:29",
+     "body": null
+    },
+    {
+     "title": "Donald Trump rejects calls from tech bosses for AI slowdown",
+     "url": "https://www.ft.com/content/cae60732-f929-4735-a627-db8c14e7c7ed",
+     "published_cst": "2026-09-13T21:34:22+08:00",
+     "time": "09-13 21:34",
+     "body": null
+    },
+    {
+     "title": "Burnham promises a ‘culture shift’ in how Britain does business",
+     "url": "https://www.ft.com/content/60ef3d28-8e1b-4c2b-b8c1-0b0059c4eedc",
+     "published_cst": "2026-09-13T21:30:09+08:00",
+     "time": "09-13 21:30",
+     "body": null
+    },
+    {
+     "title": "Trump scraps tariffs on Irish whiskey during visit to country",
+     "url": "https://www.ft.com/content/aa4465ff-5261-4c3b-874f-ce1a607efa70",
+     "published_cst": "2026-09-13T20:47:43+08:00",
+     "time": "09-13 20:47",
+     "body": null
+    },
+    {
+     "title": "Canada seeks Ukraine loan role to deepen EU ties",
+     "url": "https://www.ft.com/content/9cd8cc79-e98a-449f-a903-609b034a56e3",
+     "published_cst": "2026-09-13T19:56:05+08:00",
+     "time": "09-13 19:56",
+     "body": null
+    },
+    {
+     "title": "Dutch start-up completes funding round for encrypted silicon technology",
+     "url": "https://www.ft.com/content/a6574d9d-5e75-4b9c-b4d7-b05f7008e48e",
+     "published_cst": "2026-09-13T19:51:43+08:00",
+     "time": "09-13 19:51",
+     "body": null
+    },
+    {
+     "title": "Trump calls on Ukraine to stop striking Russian oil refineries",
+     "url": "https://www.ft.com/content/e3ba3f9a-9312-4d0b-99fd-2c80728f2dcd",
+     "published_cst": "2026-09-13T19:08:31+08:00",
+     "time": "09-13 19:08",
+     "body": null
+    },
+    {
+     "title": "School IB Geography class: Life on the frontline against Ebola",
+     "url": "https://www.ft.com/content/42a57660-0e73-4239-9a65-17ebde0d68d8",
+     "published_cst": "2026-09-13T18:06:11+08:00",
+     "time": "09-13 18:06",
+     "body": null
+    },
+    {
+     "title": "Russians to vote, but the outcome is already decided",
+     "url": "https://www.ft.com/content/7de7cc10-e7a5-414b-a40f-3296eaf49ce7",
+     "published_cst": "2026-09-13T17:15:08+08:00",
+     "time": "09-13 17:15",
+     "body": null
+    },
+    {
+     "title": "Angela Rayner suggests political donations cap on table after Reform’s £72mn boost",
+     "url": "https://www.ft.com/content/e56e5e77-f131-46ea-a756-9431f1908b7d",
+     "published_cst": "2026-09-13T17:07:01+08:00",
+     "time": "09-13 17:07",
+     "body": null
+    },
+    {
+     "title": "Russia strikes Ukraine train line moments after foreign dignitaries pass",
+     "url": "https://www.ft.com/content/cdce9cd6-4857-4332-af34-ffc9ce45eadf",
+     "published_cst": "2026-09-13T16:11:26+08:00",
+     "time": "09-13 16:11",
+     "body": null
+    },
+    {
+     "title": "Marine Le Pen vows to put French citizens first in campaign launch",
+     "url": "https://www.ft.com/content/d25e4152-afc5-4ff9-bfd9-3317413800ff",
+     "published_cst": "2026-09-13T15:49:12+08:00",
+     "time": "09-13 15:49",
+     "body": null
+    },
+    {
+     "title": "EU-UK reset talks delayed again amid tension over ‘Made in Europe’ rules",
+     "url": "https://www.ft.com/content/182365c4-a0ac-4670-97e0-22e88d3bc02d",
+     "published_cst": "2026-09-13T15:00:06+08:00",
+     "time": "09-13 15:00",
+     "body": null
+    },
+    {
+     "title": "PwC shakes up Indian operations as AI threat looms over consulting sector",
+     "url": "https://www.ft.com/content/bf1f8def-98ce-4976-acc3-cd80f0956ab0",
+     "published_cst": "2026-09-13T13:54:59+08:00",
+     "time": "09-13 13:54",
+     "body": null
+    },
+    {
+     "title": "Saudi pipeline attack exposes potent Iraqi militia threat",
+     "url": "https://www.ft.com/content/b60624fb-0a09-45e6-b148-b7a5ca38f83e",
+     "published_cst": "2026-09-13T12:39:59+08:00",
+     "time": "09-13 12:39",
+     "body": null
+    },
+    {
+     "title": "The calculated desperation of Trump-a-palooza",
+     "url": "https://www.ft.com/content/d4604abb-d357-4ebd-b709-23902d1e1868",
+     "published_cst": "2026-09-13T12:00:05+08:00",
+     "time": "09-13 12:00",
+     "body": null
+    },
+    {
+     "title": "Will the Fed defy Trump and raise rates?",
+     "url": "https://www.ft.com/content/1fd5bbf6-9bb6-4848-a01b-7c94b3e59b6e",
+     "published_cst": "2026-09-13T11:00:05+08:00",
+     "time": "09-13 11:00",
+     "body": null
+    },
+    {
+     "title": "Why teenagers are doing worse at school",
+     "url": "https://www.ft.com/content/dc5012ed-cb82-469e-9be8-e65ac7f6745c",
+     "published_cst": "2026-09-13T11:00:05+08:00",
+     "time": "09-13 11:00",
+     "body": null
+    },
+    {
+     "title": "‘Trumpism’ spawns rare unity at Brics summit",
+     "url": "https://www.ft.com/content/d17cda71-1c35-4abd-b4d5-773550b109cc",
+     "published_cst": "2026-09-13T10:50:58+08:00",
+     "time": "09-13 10:50",
+     "body": null
+    },
+    {
+     "title": "Trump’s vision of Alaska as LNG superpower confronts an $80bn test",
+     "url": "https://www.ft.com/content/b11887d2-d40d-473d-ba5e-2f9fb8a73beb",
+     "published_cst": "2026-09-13T10:00:05+08:00",
+     "time": "09-13 10:00",
+     "body": null
+    },
+    {
+     "title": "The coming robotaxi revolution",
+     "url": "https://www.ft.com/content/2404d7db-002e-42d6-a746-183bb23c1234",
+     "published_cst": "2026-09-13T10:00:05+08:00",
+     "time": "09-13 10:00",
+     "body": null
+    },
+    {
+     "title": "Texas puts a brake on its data centre boom",
+     "url": "https://www.ft.com/content/3204d65e-ae34-4ab3-a73f-a55d354f40ab",
+     "published_cst": "2026-09-13T10:00:05+08:00",
+     "time": "09-13 10:00",
+     "body": null
+    },
+    {
+     "title": "GE HealthCare in talks over $1bn deal for maker of cancer scan chemicals",
+     "url": "https://www.ft.com/content/21b663e4-60ee-4937-a561-5b0f505676a2",
+     "published_cst": "2026-09-13T10:00:05+08:00",
+     "time": "09-13 10:00",
+     "body": null
+    },
+    {
+     "title": "Brazil banking scandal engulfs Supreme Court",
+     "url": "https://www.ft.com/content/c49c583f-940c-4592-ad7e-7c206b6c3c75",
+     "published_cst": "2026-09-13T10:00:05+08:00",
+     "time": "09-13 10:00",
+     "body": null
+    },
+    {
+     "title": "Submit a question: What do British businesses need from the Budget?",
+     "url": "https://www.ft.com/content/a491245d-6f6a-4218-9289-3fa8e43632ad",
+     "published_cst": "2026-09-13T07:50:08+08:00",
+     "time": "09-13 07:50",
+     "body": null
+    },
+    {
+     "title": "The perils of headphones in the office",
+     "url": "https://www.ft.com/content/abd98f82-7be0-4d84-b41c-4837cf5167a8",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "Sunderland football club looks to US post-industrial peers in bid to lift revenue",
+     "url": "https://www.ft.com/content/b081fc93-3eb8-4adc-84cc-b5c5cf719003",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "Paris and Beirut push to extend UN peacekeepers’ mission in Lebanon",
+     "url": "https://www.ft.com/content/681a9df8-ab39-4b9f-bc86-7dcf6f68a8c0",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "How Russia’s new drones are changing the air war",
+     "url": "https://www.ft.com/content/7f01b434-0209-4783-b8eb-5a095ca5bd4f",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "CVC faces shareholder revolt over €10.7bn Recordati take-private",
+     "url": "https://www.ft.com/content/a4a22443-2082-409b-96e1-650c44a40f44",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "Boom-era PE funds will fall short on promises, executives warn",
+     "url": "https://www.ft.com/content/183569b4-8102-4b38-8a20-a3597a442f26",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "As Europe’s memory fades, radicalism is returning",
+     "url": "https://www.ft.com/content/65181a27-bea2-4ac0-96df-2d0d8dfe0b58",
+     "published_cst": "2026-09-13T04:00:12+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "Why Britain’s super-rich are looking for the exit",
+     "url": "https://www.ft.com/content/f3ecfe7f-25df-434f-a61d-a9ce0ac1e611",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "US-listed Equinix faces challenge over South African hyperscale data centre",
+     "url": "https://www.ft.com/content/2f3d996e-b320-48c5-b4a7-967ddffeb360",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "US pressure on development banks to scrap climate finance goals",
+     "url": "https://www.ft.com/content/7181577b-345d-46f4-908d-294a23fe488e",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "The anti-AI portfolio: fountain pens, Warhammer and film cameras",
+     "url": "https://www.ft.com/content/4ffff2a7-b2aa-42aa-a68b-037f9a3fd603",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "The OBR needs to give us more clarity on migration",
+     "url": "https://www.ft.com/content/3efbd9a2-ccd0-4c98-8e97-8ab3358fd2f3",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "How to find a leader in 2026",
+     "url": "https://www.ft.com/content/0c3dde0b-5776-4e6c-89a0-fb4a2bdb16ea",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "German military start-up seeks carmakers’ help to re-arm Europe",
+     "url": "https://www.ft.com/content/7752631b-6064-4f90-b292-5425064dbaa8",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "GP data quietly added to Palantir’s NHS data platform",
+     "url": "https://www.ft.com/content/5d15de64-49cc-4b6a-a2ea-51061f1cddc7",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "Elon Musk’s secretive backer builds $40bn SpaceX stake",
+     "url": "https://www.ft.com/content/c765f312-e698-4d31-bf71-f64a656ad6f4",
+     "published_cst": "2026-09-13T04:00:03+08:00",
+     "time": "09-13 04:00",
+     "body": null
+    },
+    {
+     "title": "Benchmarking and bonuses: why Singapore pays its politicians like bankers",
+     "url": "https://www.ft.com/content/fa47c0db-18a6-45d6-b35d-75942a0daae8",
+     "published_cst": "2026-09-13T03:39:30+08:00",
+     "time": "09-13 03:39",
+     "body": null
+    },
+    {
+     "title": "Private equity plans to put the swing back into Japan’s golf tour",
+     "url": "https://www.ft.com/content/4dbba9b1-26ab-448c-acb3-215ecd9609ca",
+     "published_cst": "2026-09-13T02:50:10+08:00",
+     "time": "09-13 02:50",
+     "body": null
+    },
+    {
+     "title": "Burnham resists calls to reform student loans in Budget",
+     "url": "https://www.ft.com/content/8d8b5195-e16f-457e-ae77-f6e843934058",
+     "published_cst": "2026-09-12T23:01:09+08:00",
+     "time": "09-12 23:01",
+     "body": null
+    },
+    {
+     "title": "Sunday Number 162: Numbers Puzzle",
+     "url": "https://www.ft.com/content/b54ab9a3-9245-4aaf-a219-86261e33b772",
+     "published_cst": "2026-09-12T23:00:09+08:00",
+     "time": "09-12 23:00",
+     "body": null
+    },
+    {
+     "title": "US High School Economics class: US government debt hits $40tn as borrowing rises at historic rate",
+     "url": "https://www.ft.com/content/b9d4c8aa-a18d-4afa-8837-33bcf6e628f0",
+     "published_cst": "2026-09-12T22:39:44+08:00",
+     "time": "09-12 22:39",
+     "body": null
+    },
+    {
+     "title": "School economics class: The best, worst and strangest ways AI is really being used at work",
+     "url": "https://www.ft.com/content/2dca32c6-3c00-448d-9729-4fbdb7acee3c",
+     "published_cst": "2026-09-12T22:25:13+08:00",
+     "time": "09-12 22:25",
+     "body": null
+    },
+    {
+     "title": "School economics class: Protecting Tower of London views would make skyscrapers unviable, City warns",
+     "url": "https://www.ft.com/content/53b44d0a-d5e5-49bc-b381-b0e515bf7b74",
+     "published_cst": "2026-09-12T22:18:24+08:00",
+     "time": "09-12 22:18",
+     "body": null
+    },
+    {
+     "title": "School IB economics. ‘People are going to get screwed’: Pennsylvania voters unite against data centres",
+     "url": "https://www.ft.com/content/3f7f031e-114c-4862-b83e-e25b6ee06a66",
+     "published_cst": "2026-09-12T22:11:45+08:00",
+     "time": "09-12 22:11",
+     "body": null
+    },
+    {
+     "title": "School politics class: Republicans fear Trump has turned toxic on the campaign trail",
+     "url": "https://www.ft.com/content/4a2a1f2a-c9ec-48a1-8119-9463aa12ae65",
+     "published_cst": "2026-09-12T22:10:02+08:00",
+     "time": "09-12 22:10",
+     "body": null
+    },
+    {
+     "title": "Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown",
+     "url": "https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837",
+     "published_cst": "2026-09-12T18:14:06+08:00",
+     "time": "09-12 18:14",
+     "body": null
+    },
+    {
+     "title": "Larry Ellison cancels $7.5bn Oracle share sale",
+     "url": "https://www.ft.com/content/05e61eb8-9273-4b9a-a356-47f525b7d506",
+     "published_cst": "2026-09-12T17:18:43+08:00",
+     "time": "09-12 17:18",
+     "body": null
+    },
+    {
+     "title": "Why the AI race has its creators fearing human extinction",
+     "url": "https://www.ft.com/content/b7fe0fe0-0463-4f55-9590-0a7d08d8fe66",
+     "published_cst": "2026-09-12T16:38:01+08:00",
+     "time": "09-12 16:38",
+     "body": null
+    },
+    {
+     "title": "India’s central bank tells Tata Sons to take conglomerate public",
+     "url": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e",
+     "published_cst": "2026-09-12T16:20:04+08:00",
+     "time": "09-12 16:20",
+     "body": null
+    },
+    {
+     "title": "Brics push for Gulf peace as war worries mount",
+     "url": "https://www.ft.com/content/f32bef26-d2b8-47a6-b938-3dcd5e870685",
+     "published_cst": "2026-09-12T14:34:25+08:00",
+     "time": "09-12 14:34",
+     "body": null
+    },
+    {
+     "title": "Trump says united Ireland ‘inevitable’ and ‘a very cool thing’",
+     "url": "https://www.ft.com/content/70bd4f6c-a5f4-4e59-b773-614f0a5efd58",
+     "published_cst": "2026-09-12T12:56:24+08:00",
+     "time": "09-12 12:56",
+     "body": null
+    },
+    {
+     "title": "Reform UK receives two record £36mn donations",
+     "url": "https://www.ft.com/content/936ac952-43a6-44d5-be69-afa344e042f5",
+     "published_cst": "2026-09-12T12:25:10+08:00",
+     "time": "09-12 12:25",
+     "body": null
+    },
+    {
+     "title": "Can China’s Icicle woo global shoppers in a luxury downturn?",
+     "url": "https://www.ft.com/content/e3b7bd04-175a-484d-be85-cbee70a71ecb",
+     "published_cst": "2026-09-12T12:00:05+08:00",
+     "time": "09-12 12:00",
+     "body": null
+    },
+    {
+     "title": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
+     "url": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0",
+     "published_cst": "2026-09-12T10:50:57+08:00",
+     "time": "09-12 10:50",
+     "body": null
+    },
+    {
+     "title": "Canada seeks $1tn from investors looking for a haven from Donald Trump",
+     "url": "https://www.ft.com/content/4dc6710b-7911-44c6-b57a-2fb47b6b04ed",
+     "published_cst": "2026-09-12T10:00:05+08:00",
+     "time": "09-12 10:00",
+     "body": null
+    },
+    {
+     "title": "Chart of the Week: the long shadow of quantitative easing",
+     "url": "https://www.ft.com/content/be8d08d3-e3c1-413c-ab6e-5a38b19ce4b6",
+     "published_cst": "2026-09-12T09:30:04+08:00",
+     "time": "09-12 09:30",
+     "body": null
+    },
+    {
+     "title": "LIV Golf’s bleak future shifts to the courtroom",
+     "url": "https://www.ft.com/content/d5584fd7-cc24-4d3e-813f-c65f041e2d0e",
+     "published_cst": "2026-09-12T08:00:04+08:00",
+     "time": "09-12 08:00",
+     "body": null
+    }
+   ]
+  }
+ }
+}
