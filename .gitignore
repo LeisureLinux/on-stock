@@ -3,3 +3,6 @@ manual_downloaded_data
 # Python 字节码缓存
 __pycache__/
 *.py[cod]
+
+# Cloudflare Worker 本地运行态（wrangler dev / miniflare 产物）
+tools/cf-paywall/.wrangler/
