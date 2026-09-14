@@ -129,6 +129,11 @@ async function proxy(url, req, env, isPublicAsset) {
   up.hostname = env.ORIGIN_HOST;
   up.protocol = 'https:';
   up.port = '';
+  // GitHub Pages 在 origin-stock 子域下目录索引（/latest/ → /latest/index.html）
+  // 偶发不生效，这里显式补全，避免回源 404。
+  if (up.pathname.endsWith('/')) {
+    up.pathname += 'index.html';
+  }
   const out = await fetch(new Request(up, {
     method: req.method,
     headers: req.headers,
