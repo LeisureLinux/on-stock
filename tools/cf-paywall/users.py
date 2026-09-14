@@ -127,14 +127,66 @@ def kv_put_via_api(user: str, rec: dict) -> bool:
         return False
 
 
-def kv_put_via_wrangler(user: str, rec: dict) -> bool:
+def kv_get_via_api(user: str):
+    """从 KV 读取单账号记录；不存在返回 None。"""
+    token = os.environ.get("CF_API_TOKEN")
+    acct = os.environ.get("CF_ACCOUNT_ID")
+    ns = os.environ.get("CF_KV_NAMESPACE_ID")
+    if not (token and acct and ns):
+        return None
+    url = (f"https://api.cloudflare.com/client/v4/accounts/{acct}"
+           f"/storage/kv/namespaces/{ns}/values/{urllib.parse.quote(user)}")
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
     try:
-        r = subprocess.run(
-            ["npx", "wrangler", "kv", "key", "put", "--binding=USERS",
-             user, json.dumps(rec, ensure_ascii=False)],
-            cwd=HERE, capture_output=True, text=True, timeout=90)
-        return r.returncode == 0
-    except (FileNotFoundError, subprocess.TimeoutExpired):
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return None
+        print(f"  ⚠️  CF API 读取失败：{e}")
+        return None
+
+
+def kv_list_via_api() -> dict:
+    """列出 KV 全部账号（用户名 -> 记录）。无凭据返回空 dict。"""
+    token = os.environ.get("CF_API_TOKEN")
+    acct = os.environ.get("CF_ACCOUNT_ID")
+    ns = os.environ.get("CF_KV_NAMESPACE_ID")
+    if not (token and acct and ns):
+        return {}
+    url = (f"https://api.cloudflare.com/client/v4/accounts/{acct}"
+           f"/storage/kv/namespaces/{ns}/keys?limit=1000")
+    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
+    try:
+        with urllib.request.urlopen(req, timeout=20) as r:
+            keys = json.loads(r.read().decode()).get("result", [])
+    except urllib.error.URLError as e:
+        print(f"  ⚠️  CF API 列举失败：{e}")
+        return {}
+    out = {}
+    for k in keys:
+        rec = kv_get_via_api(k["name"])
+        if rec:
+            out[k["name"]] = rec
+    return out
+
+
+def kv_delete_via_api(user: str) -> bool:
+    """从 KV 删除账号。成功/不存在均返回 True。"""
+    token = os.environ.get("CF_API_TOKEN")
+    acct = os.environ.get("CF_ACCOUNT_ID")
+    ns = os.environ.get("CF_KV_NAMESPACE_ID")
+    if not (token and acct and ns):
+        return False
+    url = (f"https://api.cloudflare.com/client/v4/accounts/{acct}"
+           f"/storage/kv/namespaces/{ns}/values/{urllib.parse.quote(user)}")
+    req = urllib.request.Request(url, method="DELETE",
+                                 headers={"Authorization": f"Bearer {token}"})
+    try:
+        urllib.request.urlopen(req, timeout=20).status
+        return True
+    except urllib.error.URLError as e:
+        print(f"  ⚠️  CF API 删除失败：{e}")
         return False
 
 
@@ -212,12 +264,9 @@ def cmd_renew(args):
 
 
 def cmd_list(args):
-    if not PENDING.exists():
-        print("本地 pending.json 不存在；KV 内账号请用 wrangler kv key list 查看。")
-        return
-    d = load_pending()
+    d = kv_list_via_api()
     if not d:
-        print("pending.json 为空")
+        print("KV 内暂无账号（或 CF 凭据未配置）。")
         return
     print(f"{'用户名':<20}{'到期日':<14}{'剩余':<8}{'套餐':<6}备注")
     print("-" * 62)
@@ -229,13 +278,16 @@ def cmd_list(args):
 
 
 def cmd_del(args):
+    ok = kv_delete_via_api(args.user)
+    # 同步清掉本地 pending（若有）
     d = load_pending()
     if args.user in d:
         d.pop(args.user)
         save_pending(d)
-        print(f"🗑️  本地已删除 {args.user}（KV 内需另行 wrangler kv key delete）")
+    if ok:
+        print(f"🗑️  已删除 KV 账号 {args.user}")
     else:
-        print(f"本地无 {args.user}；KV 删除：npx wrangler kv key delete --binding=USERS {args.user}")
+        print(f"⚠️  KV 删除失败（检查 CF 凭据）；本地 pending 已清理。")
 
 
 def cmd_sync(args):
@@ -245,11 +297,14 @@ def cmd_sync(args):
         return
     ok, fail = 0, []
     for u, rec in d.items():
-        if kv_put_via_api(u, rec) or kv_put_via_wrangler(u, rec):
+        if kv_put_via_api(u, rec):
             ok += 1
         else:
             fail.append(u)
     print(f"✅ 同步成功 {ok} 个" + (f"，失败 {len(fail)}：{fail}" if fail else ""))
+    if not fail:
+        # 全部同步成功，清空 pending
+        PENDING.unlink(missing_ok=True)
 
 
 def wechat_message(user: str, password: str, expire: str, days: int) -> str:
@@ -292,10 +347,10 @@ def main():
     r.add_argument("--note")
     r.set_defaults(func=cmd_renew)
 
-    l = sub.add_parser("list", help="查看本地账号")
+    l = sub.add_parser("list", help="查看 KV 全部账号（真实线上）")
     l.set_defaults(func=cmd_list)
 
-    d = sub.add_parser("del", help="删除账号")
+    d = sub.add_parser("del", help="删除 KV 账号（直连，非仅本地）")
     d.add_argument("user")
     d.set_defaults(func=cmd_del)
 
