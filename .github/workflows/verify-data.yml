@@ -35,40 +35,27 @@ jobs:
         id: verify
         run: |
           mkdir -p results
-          python scripts/verify_data.py >> results/verification_report.md
-          
+          python scripts/verify_data.py > results/verification_report.md
+          cat results/verification_report.md
+
           # 提取平均评分
-          SCORE=$(grep -oP '平均可信度.*?\K[\d.]+' results/verification_report.md || echo "0")
-          echo "avg_score=$SCORE" >> $GITHUB_OUTPUT
-          
-          # 检查综合评分是否达标
-          if (( $(echo "$SCORE < 3.5" | bc -l) )); then
+          SCORE=$(grep -oP '平均可信度\*\* \| \K[\d.]+' results/verification_report.md | head -1)
+          if [ -z "$SCORE" ]; then
+            echo "::error::未能从报告中解析出评分"
+            exit 1
+          fi
+          echo "avg_score=$SCORE" >> "$GITHUB_OUTPUT"
+
+          # 检查综合评分是否达标（用 awk 比较，不依赖 bc）
+          if awk -v s="$SCORE" 'BEGIN{exit !(s < 3.5)}'; then
             echo "::error::数据验证未通过 - 综合评分 $SCORE/5 低于标准 3.5"
             exit 1
           fi
-      
-      - name: 检查验证结果
-        env:
-          AVG_SCORE: ${{ steps.verify.outputs.avg_score }}
-        run: |
-          echo "数据验证结果："
-          cat results/verification_report.md
-          
-          if [[ "$AVG_SCORE" < "3.5" ]]; then
-            echo "❌ 数据验证未通过"
-            exit 1
-          else
-            echo "✅ 数据验证通过（平均分：$AVG_SCORE/5）"
-          fi
-      
-      - name: 显示验证报告
-        run: |
-          echo "### 📊 数据验证报告"
-          echo ""
-          cat results/verification_report.md
-      
+          echo "✅ 数据验证通过（平均分：$SCORE/5）"
+
       - name: 提交验证报告
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: verification-report
           path: results/verification_report.md
@@ -113,7 +100,7 @@ jobs:
       
       - name: 失败时显示详细报告
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: detailed-verification-fail
           path: results/verification_report.md

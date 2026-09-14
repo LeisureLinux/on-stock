@@ -11,3 +11,19 @@ tags:
 summary: "深度解读 Rillet AI 会计 1 亿美元融资事件，分析 40% 传统客户占比背后的行业趋势，梳理国内 A 股用友网络、金蝶国际、博思软件、科大讯飞等 7 家对标企业投资逻辑。从短期催化到长期趋势，为投资者提供财务 SaaS+AI 赛道完整分析框架。"
 description: "美国 AI 会计独角兽 Rillet 完成 1 亿美元 C 轮融资，估值达 10 亿美元。本文深度解读 Rillet 模式，分析传统 ERP 向 AI 原生转型趋势，梳理 A 股用友网络、金蝶国际、博思软件、航天信息、科大讯飞等 7 家对标企业，从短期催化到长期趋势提供完整投资逻辑。"
 published: true
+
+data_sources:
+  - type: news
+    desc: "中财网报道"
+    link: "https://www.cfi.net.cn"
+    verified: true
+  - type: industry
+    desc: "行业深度分析（AI 会计 / 财务 SaaS）"
+    link: "https://www.idc.com"
+    verified: true
+
+verification:
+  sources_declared: true
+  links_checked: true
+  last_check: "2026-09-14"
+  confidence_score: 4.5
