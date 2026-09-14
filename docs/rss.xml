@@ -7,6 +7,62 @@
     <language>zh-CN</language>
     <atom:link href="https://stock.freelamp.com/rss.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>每天再平衡，10 万变 700 万？Cover 通用投资组合的真相与边界</title>
+      <link>https://stock.freelamp.com/articles/2026-09-14_cover通用投资组合_再平衡/</link>
+      <guid isPermaLink="true">https://stock.freelamp.com/articles/2026-09-14_cover通用投资组合_再平衡/</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <author>LeisureLinux</author>
+      <description><![CDATA[从 Cover 1991 年 Universal Portfolios 论文原始回测数据出发，讲清再平衡赚波动钱的数学原理（对数/几何平均）、通用投资组合的最坏情况保证及其 O(log T) 收敛速度，并揭示策略在长期单边上涨与单边下跌下的真实代价，给出降频、选资产对、加退出机制三个可操作边界。]]></description>
+      <category>再平衡</category>
+      <category>通用投资组合</category>
+      <category>Cover</category>
+      <category>波动率</category>
+      <category>几何平均</category>
+      <category>凯利公式</category>
+      <category>交易成本</category>
+      <category>单边行情</category>
+      <category>量化策略</category>
+      <category>风险管理</category>
+    </item>
+
+    <item>
+      <title>稀土磁材本周反弹 1.38%：供给缩紧+旺季将至，价格震荡上行可期</title>
+      <link>https://stock.freelamp.com/articles/2026-09-01_稀土磁材_左侧布局/</link>
+      <guid isPermaLink="true">https://stock.freelamp.com/articles/2026-09-01_稀土磁材_左侧布局/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <author>LeisureLinux</author>
+      <description><![CDATA[基于 2026-09-01 中信证券稀土磁材研报，梳理板块反弹、估值分位、价格分化、供给收紧循环、旺季需求与长期机器人增量。Q4 验证盯氧化镝周价、金属厂开工率、磁材排产、毛坯价四个信号。左侧跟踪+右侧追涨组合，上游资源看回调、中游磁材等排产数据。]]></description>
+      <category>稀土磁材</category>
+      <category>中重稀土</category>
+      <category>氧化镝</category>
+      <category>氧化铽</category>
+      <category>镨钕</category>
+      <category>钕铁硼</category>
+      <category>金力永磁</category>
+      <category>北方稀土</category>
+      <category>中国稀土</category>
+      <category>左侧布局</category>
+    </item>
+
+    <item>
+      <title>逆变器行业 2026 半年报全景：洗牌出清、出口&apos;量减价增&apos;、储能 + AIDC 接棒</title>
+      <link>https://stock.freelamp.com/articles/2026-08-27_逆变器左侧布局/</link>
+      <guid isPermaLink="true">https://stock.freelamp.com/articles/2026-08-27_逆变器左侧布局/</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <author>LeisureLinux</author>
+      <description><![CDATA[基于 11 家 A 股上市逆变器与储能企业 2026 半年报数据，梳理行业洗牌格局、出口结构性机会、储能 + AIDC 新增长极，并给出 Q3 拐点验证的三个关键指标。比风电更值得左侧布局的逻辑：估值未充分修复 + 头部份额已集中 + 新增长极已成型。]]></description>
+      <category>逆变器</category>
+      <category>阳光电源</category>
+      <category>德业股份</category>
+      <category>上能电气</category>
+      <category>储能</category>
+      <category>AIDC</category>
+      <category>户储</category>
+      <category>出口</category>
+      <category>左侧布局</category>
+    </item>
+
+    <item>
       <title>同洲电子（002052）：1.5 亿诉讼罗生门与「壳型平台」尽调</title>
       <link>https://stock.freelamp.com/articles/2026-08-26_002052_同洲电子/</link>
       <guid isPermaLink="true">https://stock.freelamp.com/articles/2026-08-26_002052_同洲电子/</guid>
