@@ -1417,9 +1417,10 @@ def main():
         (DOCS_DIR / "llms.txt").write_text(llms_src.read_text(encoding='utf-8'), encoding='utf-8')
         print("✅ 复制 LLM 索引：docs/llms.txt")
     
-    # 写入 CNAME：自定义域名 stock.freelamp.com（GitHub Pages 保持绑定）
-    (DOCS_DIR / "CNAME").write_text("stock.freelamp.com\n", encoding="utf-8")
-    print("✅ 生成 CNAME：docs/CNAME (stock.freelamp.com)")
+    # 写入 CNAME：源站域名 origin-stock.freelamp.com（GitHub Pages 源站；
+    # 对外主域 stock.freelamp.com 由 Cloudflare Worker 接管回源此处）
+    (DOCS_DIR / "CNAME").write_text("origin-stock.freelamp.com\n", encoding="utf-8")
+    print("✅ 生成 CNAME：docs/CNAME (origin-stock.freelamp.com)")
 
     # 生成外媒新闻速览页（数据源 data/news/，由 scripts/fetch_news.py 产出）
     try:
