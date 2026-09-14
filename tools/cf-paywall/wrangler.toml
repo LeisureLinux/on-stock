@@ -1,0 +1,22 @@
+name = "stock-paywall"
+main = "worker.js"
+compatibility_date = "2026-09-07"
+
+# 绑定自定义域：部署后由 Cloudflare 自动写 DNS 记录
+# 主域 stock.freelamp.com 由本 Worker 直接接管（无 301 跳转）
+routes = [
+  { pattern = "stock.freelamp.com", custom_domain = true },
+]
+
+# 账号库。创建后把 id 填到这里：
+#   npx wrangler kv namespace create USERS
+[[kv_namespaces]]
+binding = "USERS"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[vars]
+# 源站：GitHub Pages 绑定的自定义子域，不对外公开
+ORIGIN_HOST = "origin-stock.freelamp.com"
+
+# SESSION_SECRET 不要写进文件：
+#   npx wrangler secret put SESSION_SECRET   （值用 openssl rand -hex 32 生成）
