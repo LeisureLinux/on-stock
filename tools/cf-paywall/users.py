@@ -14,10 +14,9 @@ stock.freelamp.com 订阅账号管理
 
 套餐：1m=30天 3m=90天 6m=180天 1y=365天（对应 10/28/48/88 元）
 
-写入 KV 的三种方式，按优先级自动选择：
-  1. 环境变量 CF_API_TOKEN + CF_ACCOUNT_ID + CF_KV_NAMESPACE_ID  → 直接调 CF API
-  2. 装了 wrangler 且已登录                                       → wrangler kv key put
-  3. 都没有                                                       → 落盘 pending.json，之后 sync
+写入 KV 的方式（按优先级）：
+  1. ~/.codex/.env 里的 CF_API_TOKEN + CF_ACCOUNT_ID + CF_KV_NAMESPACE_ID  → 直接调 CF API
+  2. 都没有                                                       → 落盘 pending.json，之后 sync 推送
 """
 
 import argparse
@@ -28,9 +27,36 @@ import os
 import secrets
 import subprocess
 import sys
+from pathlib import Path
 import urllib.error
 import urllib.parse
 import urllib.request
+
+
+def load_dotenv(path=None):
+    """从 ~/.codex/.env 读取 CF_* 变量注入 os.environ（不覆盖已存在的 env）。
+    users.py 需要 CF_API_TOKEN / CF_ACCOUNT_ID / CF_KV_NAMESPACE_ID；
+    .env 里 token 可能叫 CLOUDFLARE_API_TOKEN，这里统一映射为 CF_API_TOKEN。
+    这样 users.py 无需在 shell 里 export，也不必走 wrangler。"""
+    p = Path(path) if path else Path.home() / ".codex" / ".env"
+    if not p.exists():
+        return
+    for line in p.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        k, _, v = line.partition("=")
+        k, v = k.strip(), v.strip()
+        if len(v) >= 2 and v[0] == v[-1] and v[0] in "'\"":
+            v = v[1:-1]
+        # 归一化：CLOUDFLARE_API_TOKEN -> CF_API_TOKEN
+        if k == "CLOUDFLARE_API_TOKEN":
+            k = "CF_API_TOKEN"
+        if k in ("CF_API_TOKEN", "CF_ACCOUNT_ID", "CF_KV_NAMESPACE_ID") and k not in os.environ:
+            os.environ[k] = v
+
+
+load_dotenv()  # 启动即加载 ~/.codex/.env 的 CF_* 变量
 from pathlib import Path
 
 HERE = Path(__file__).parent
@@ -113,11 +139,10 @@ def kv_put_via_wrangler(user: str, rec: dict) -> bool:
 
 
 def kv_put(user: str, rec: dict) -> str:
-    """返回 'api' / 'wrangler' / 'pending'"""
+    """返回 'api' / 'pending'。优先直连 CF API（读取 ~/.codex/.env 的 CF_* 变量），
+    失败则落盘 pending.json 待 sync，不再走 wrangler（其经代理写入不可靠）。"""
     if kv_put_via_api(user, rec):
         return "api"
-    if kv_put_via_wrangler(user, rec):
-        return "wrangler"
     pending = load_pending()
     pending[user] = rec
     save_pending(pending)
