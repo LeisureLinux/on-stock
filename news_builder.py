@@ -145,6 +145,8 @@ DAY_TEMPLATE = """<!DOCTYPE html>
       flex-shrink: 0; font-weight: 600;
     }}
     .empty {{ color: #9CA3AF; font-size: 14px; padding: 8px 0; }}
+    .title-zh {{ display: block; font-size: 15px; line-height: 1.5; color: #111827; }}
+    .title-en {{ display: block; font-size: 12px; line-height: 1.4; color: #9CA3AF; margin-top: 2px; }}
 
     footer {{
       text-align: center; color: #9CA3AF; font-size: 13px;
@@ -236,12 +238,18 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
         lis = []
         for it in items:
             badge = (f'<span class="badge" style="background:{color}">'
-                     f'{_e(name.split()[0])}</span>')
+                     f'{_e(SOURCE_SHORT.get(key, name.split()[0]))}</span>')
+            zh = it.get("title_zh", "")
+            if zh:
+                title_html = (f'<span class="title-zh">{_e(zh)}</span>'
+                              f'<span class="title-en">{_e(it.get("title", ""))}</span>')
+            else:
+                title_html = _e(it.get("title", ""))
             lis.append(
                 f'<li data-src="{_e(key)}">'
                 f'<span class="time">{_e(it.get("time", ""))} CST</span>'
                 f'<a href="{_e(it.get("url", ""))}" target="_blank" '
-                f'rel="noopener">{_e(it.get("title", ""))}</a>'
+                f'rel="noopener">{title_html}</a>'
                 f'{badge}</li>')
         body = "\n        ".join(lis) if lis else '<div class="empty">当日无数据</div>'
         blocks.append(
