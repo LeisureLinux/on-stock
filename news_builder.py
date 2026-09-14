@@ -14,6 +14,7 @@ import json
 from pathlib import Path
 
 LORE_DIR = Path(__file__).parent
+ASSETS_DIR = LORE_DIR / "assets"  # 静态资源源目录（收款码等）
 NEWS_DATA_DIR = LORE_DIR / "data" / "news"
 SITE_URL = "https://stock.freelamp.com"
 
@@ -498,6 +499,11 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
     .plan .price {{ font-size: 30px; font-weight: 900; color: #111827; margin: 4px 0 2px; }}
     .plan .price span {{ font-size: 15px; font-weight: 600; }}
     .plan .avg {{ font-size: 12px; color: #9CA3AF; }}
+    .plan {{ cursor: pointer; transition: border-color .15s, box-shadow .15s, transform .15s; }}
+    .plan:hover {{ border-color: #F87171; transform: translateY(-2px); }}
+    .plan.sel {{ border-color: #DC2626; box-shadow: 0 2px 14px rgba(220,38,38,0.18); }}
+    .plan.sel::after {{ content: "已选"; position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%); font-size: 11px; color: #DC2626; font-weight: 700; }}
+    .chosen {{ font-size: 13px; color: #DC2626; font-weight: 600; margin-bottom: 12px; }}
 
     .pay {{
       background: #fff; border: 1px solid #E5E7EB; border-radius: 14px;
@@ -545,22 +551,22 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
   </header>
   <div class="container">
     <div class="plans">
-      <div class="plan">
+      <div class="plan" data-plan="1 个月" data-price="10">
         <div class="dur">1 个月</div>
         <div class="price"><span>¥</span>10</div>
         <div class="avg">—</div>
       </div>
-      <div class="plan">
+      <div class="plan" data-plan="3 个月" data-price="28">
         <div class="dur">3 个月</div>
         <div class="price"><span>¥</span>28</div>
         <div class="avg">约 9.3 元 / 月</div>
       </div>
-      <div class="plan">
+      <div class="plan" data-plan="6 个月" data-price="48">
         <div class="dur">6 个月</div>
         <div class="price"><span>¥</span>48</div>
         <div class="avg">8 元 / 月</div>
       </div>
-      <div class="plan hot">
+      <div class="plan hot" data-plan="1 年" data-price="88">
         <div class="tag">最划算</div>
         <div class="dur">1 年</div>
         <div class="price"><span>¥</span>88</div>
@@ -572,6 +578,7 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
       <h2>微信扫码付款</h2>
       <div class="hint">付款时请在备注里填上你的微信号或邮箱，方便我核对</div>
       {qr}
+      <div class="chosen" id="chosen">未选择套餐 —— 点上方卡片选时长</div>
       <div class="hint">长按识别 / 扫码 → 选择金额 → 备注联系方式 → 完成支付</div>
     </div>
 
@@ -594,6 +601,21 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
 
     <footer>由 LeisureLinux-Editor 编辑 ｜ <a href="/trial/">免费试读</a></footer>
   </div>
+  <script>
+    (function () {{
+      var plans = document.querySelectorAll('.plan');
+      var chosen = document.getElementById('chosen');
+      var pay = document.querySelector('.pay');
+      plans.forEach(function (p) {{
+        p.addEventListener('click', function () {{
+          plans.forEach(function (x) {{ x.classList.remove('sel'); }});
+          p.classList.add('sel');
+          chosen.textContent = '已选 ' + p.dataset.plan + '（付 ¥' + p.dataset.price + '）';
+          if (pay && pay.scrollIntoView) pay.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+        }});
+      }});
+    }})();
+  </script>
 </body>
 </html>
 """
@@ -602,7 +624,7 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
 def build_subscribe_page(has_qr: bool = False) -> str:
     qr = ('<img class="qr" src="/assets/wechat-pay-qr.png" alt="微信收款码">'
           if has_qr else
-          '<div class="qr-missing">收款码待上传<br>（放置 docs/assets/wechat-pay-qr.png）</div>')
+          '<div class="qr-missing">收款码待上传<br>（放置 assets/wechat-pay-qr.png）</div>')
     return SUBSCRIBE_TEMPLATE.format(site_url=SITE_URL, qr=qr)
 
 
@@ -663,7 +685,7 @@ def build_news_pages(docs_dir: Path) -> int:
     # 订阅页
     sub_dir = docs_dir / "subscribe"
     sub_dir.mkdir(parents=True, exist_ok=True)
-    has_qr = (docs_dir / "assets" / "wechat-pay-qr.png").exists()
+    has_qr = (ASSETS_DIR / "wechat-pay-qr.png").exists()
     (sub_dir / "index.html").write_text(
         build_subscribe_page(has_qr), encoding="utf-8")
 
