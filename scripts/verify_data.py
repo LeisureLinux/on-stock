@@ -66,14 +66,13 @@ class DataVerifier:
         
         # 2. 解析财报数据（简化版，实际需爬虫）
         # TODO: 实现从巨潮资讯提取数据
-        extracted_data = self._extract_from_cninfo(source_link)
+        extracted_data = self.extract_from_cninfo(source_link)
         
         # 3. 交叉验证关键数据
         if extracted_data:
             for key in ["revenue", "net_profit", "revenue_growth", "net_profit_growth"]:
                 if key in data and key in extracted_data:
-                    normalized = data.get("period")
-                    if abs(explicit_comparison(normalized, extracted_data)) > 0.05:
+                    if explicit_comparison(data[key], extracted_data[key]) > 0.05:
                         result["confidence_score"] -= 0.5
                         result["warnings"].append(f"⚠️ {key} 与官方公告差异超过 5%")
         
@@ -85,7 +84,7 @@ class DataVerifier:
             result["warnings"].append("⚠️ 全年净利润为负，需检查是否一致")
         
         # 5. 行业一致性检查
-        industry_score = self._check_industry_consistency(company_code, period, data)
+        industry_score = self.check_industry_consistency(company_code, period, data)
         result["confidence_score"] = min(5.0, result["confidence_score"] * industry_score)
         
         # 6. 计算最终评分（四舍五入到 0.1）

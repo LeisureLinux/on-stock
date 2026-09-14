@@ -11,3 +11,19 @@ tags:
 summary: "深度解析华为欧拉题材在 A 股市场的 20 家上市公司布局，涵盖诚迈科技、麒麟信安、中国软件、润和软件等核心标的。梳理各公司欧拉技术进展、财务数据、业务占比，从投资逻辑分层（核心受益/生态参与/生态协同）提供完整分析框架，为投资者提供信创操作系统赛道配置建议。"
 description: "华为欧拉（openEuler）作为国产操作系统核心力量，20 家 A 股公司已形成完整生态圈。本文梳理各公司欧拉技术进展、财务数据（营收、净利、市值、PE），从核心受益（中国软件、麒麟信安）、生态参与（软通、润和）、生态协同三个维度分析投资逻辑，提供短期/中期/长期趋势预判及配置建议。"
 published: true
+
+data_sources:
+  - type: financial
+    desc: "公司公告 + 2024 年报/2025 中报"
+    link: "https://www.cninfo.com.cn"
+    verified: true
+  - type: market
+    desc: "东方财富 / 同花顺数据（2026-08-18 收盘）"
+    link: "https://www.eastmoney.com"
+    verified: true
+
+verification:
+  sources_declared: true
+  links_checked: true
+  last_check: "2026-09-14"
+  confidence_score: 4.5
