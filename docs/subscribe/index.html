@@ -67,7 +67,19 @@
       position: absolute; left: 0; top: 2px; width: 22px; height: 22px; border-radius: 50%;
       background: #DC2626; color: #fff; font-size: 12px; text-align: center; line-height: 22px;
     }
-    .faq { font-size: 14px; }
+    .login { background:#fff;border:1px solid #E5E7EB;border-radius:14px;padding:24px;margin-bottom:24px; }
+    .login h2 { font-size:18px;margin-bottom:12px; }
+    .flow { background:#fff;border:1px solid #E5E7EB;border-radius:14px;padding:24px;margin-bottom:24px; }
+    .flow h2 { font-size:18px;margin-bottom:12px; }
+    .flabel { font-size:14px;color:#374151;margin:6px 0; }
+    .row { display:flex;gap:8px;margin:8px 0;flex-wrap:wrap; }
+    .row input { flex:1;min-width:160px;padding:10px 12px;border:1px solid #D1D5DB;border-radius:8px;font-size:14px; }
+    .row button { padding:10px 18px;border:0;border-radius:8px;background:#DC2626;color:#fff;font-size:14px;cursor:pointer; }
+    .row button:hover { background:#B91C1C; }
+    .msg { font-size:13px;min-height:18px;margin-top:6px;color:#6B7280; }
+    .msg.ok { color:#059669; }
+    .msg.err { color:#DC2626; }
+    #cf-turnstile { margin:8px 0; }
     .faq dt { font-weight: 700; margin-top: 14px; color: #111827; }
     .faq dd { color: #6B7280; }
     footer { text-align: center; color: #9CA3AF; font-size: 13px; padding: 32px 0 40px;
@@ -89,22 +101,22 @@
   </header>
   <div class="container">
     <div class="plans">
-      <div class="plan" data-plan="1 个月" data-price="10">
+      <div class="plan" data-plan="1m" data-price="10">
         <div class="dur">1 个月</div>
         <div class="price"><span>¥</span>10</div>
         <div class="avg">—</div>
       </div>
-      <div class="plan" data-plan="3 个月" data-price="28">
+      <div class="plan" data-plan="3m" data-price="28">
         <div class="dur">3 个月</div>
         <div class="price"><span>¥</span>28</div>
         <div class="avg">约 9.3 元 / 月</div>
       </div>
-      <div class="plan" data-plan="6 个月" data-price="48">
+      <div class="plan" data-plan="6m" data-price="48">
         <div class="dur">6 个月</div>
         <div class="price"><span>¥</span>48</div>
         <div class="avg">8 元 / 月</div>
       </div>
-      <div class="plan hot" data-plan="1 年" data-price="88">
+      <div class="plan hot" data-plan="1y" data-price="88">
         <div class="tag">最划算</div>
         <div class="dur">1 年</div>
         <div class="price"><span>¥</span>88</div>
@@ -112,12 +124,43 @@
       </div>
     </div>
 
+    <div class="flow">
+      <h2>订阅流程</h2>
+      <div class="step1">
+        <p class="flabel">① 先验证邮箱（确保能收到账号邮件）</p>
+        <div class="row">
+          <input id="email" type="email" placeholder="你的邮箱，如 you@qq.com" autocomplete="email">
+          <button id="btn-code" type="button">获取验证码</button>
+        </div>
+        <div class="row" id="code-row" style="display:none">
+          <input id="code" type="text" placeholder="6 位验证码" inputmode="numeric" maxlength="6">
+          <button id="btn-verify" type="button">验证邮箱</button>
+        </div>
+        <div class="cf-turnstile" id="cf-turnstile"></div>
+        <div class="msg" id="email-msg"></div>
+      </div>
+      <div class="step2">
+        <p class="flabel">② 选好上方套餐，扫码付款（备注邮箱）</p>
+        <p class="flabel">③ 我确认收款后，账号自动发到你的邮箱</p>
+      </div>
+    </div>
+
     <div class="pay">
       <h2>微信扫码付款</h2>
-      <div class="hint">付款时请在备注里填上你的微信号或邮箱，方便我核对</div>
+      <div class="hint">付款时请在备注里填上你的邮箱（与上面验证的邮箱一致），方便我核对</div>
       <img class="qr" src="/assets/wechat-pay-qr.png" alt="微信收款码">
       <div class="chosen" id="chosen">未选择套餐 —— 点上方卡片选时长</div>
-      <div class="hint">长按识别 / 扫码 → 选择金额 → 备注联系方式 → 完成支付</div>
+      <div class="hint">长按识别 / 扫码 → 选择金额 → 备注邮箱 → 完成支付</div>
+    </div>
+
+    <div class="login">
+      <h2>已有账号？登录</h2>
+      <div class="row">
+        <input id="lu" type="text" placeholder="用户名（邮箱）" autocomplete="username">
+        <input id="lp" type="password" placeholder="密码" autocomplete="current-password">
+        <button id="btn-login" type="button">登录</button>
+      </div>
+      <div class="msg" id="login-msg"></div>
     </div>
 
     <ol class="steps">
@@ -139,11 +182,13 @@
 
     <footer>由 LeisureLinux-Editor 编辑 ｜ <a href="/trial/">免费试读</a></footer>
   </div>
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   <script>
     (function () {
       var plans = document.querySelectorAll('.plan');
       var chosen = document.getElementById('chosen');
       var pay = document.querySelector('.pay');
+      var TURNSTILE_SITE_KEY = '0x4AAAAAAE1Iy-NwXPvgymQ0';
       plans.forEach(function (p) {
         p.addEventListener('click', function () {
           plans.forEach(function (x) { x.classList.remove('sel'); });
@@ -152,6 +197,76 @@
           if (pay && pay.scrollIntoView) pay.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
       });
+
+      function setMsg(id, text, ok) {
+        var el = document.getElementById(id);
+        if (!el) return;
+        el.textContent = text;
+        el.className = 'msg' + (ok === false ? ' err' : ok === true ? ' ok' : '');
+      }
+      function getPlan() {
+        var sel = document.querySelector('.plan.sel');
+        return sel ? sel.dataset.plan : '';
+      }
+
+      // ① 获取验证码
+      document.getElementById('btn-code').addEventListener('click', async function () {
+        var email = document.getElementById('email').value.trim();
+        var plan = getPlan();
+        if (!plan) return setMsg('email-msg', '请先选择上方套餐时长', false);
+        if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return setMsg('email-msg', '邮箱格式不正确', false);
+        var token = (window.turnstile && window._tsToken) ? window._tsToken : '';
+        setMsg('email-msg', '发送中…');
+        var r = await fetch('/api/verify-email', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ email: email, plan: plan, turnstile: token })
+        }).then(function (x) { return x.json(); });
+        if (r.ok) {
+          setMsg('email-msg', r.msg, true);
+          document.getElementById('code-row').style.display = 'flex';
+        } else {
+          setMsg('email-msg', r.msg, false);
+        }
+      });
+
+      // ② 校验验证码
+      document.getElementById('btn-verify').addEventListener('click', async function () {
+        var email = document.getElementById('email').value.trim();
+        var code = document.getElementById('code').value.trim();
+        setMsg('email-msg', '验证中…');
+        var r = await fetch('/api/verify-code', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ email: email, code: code })
+        }).then(function (x) { return x.json(); });
+        setMsg('email-msg', r.msg, r.ok);
+      });
+
+      // 登录
+      document.getElementById('btn-login').addEventListener('click', async function () {
+        var u = document.getElementById('lu').value.trim();
+        var p = document.getElementById('lp').value;
+        setMsg('login-msg', '登录中…');
+        var r = await fetch('/api/login', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ user: u, pass: p })
+        }).then(function (x) { return x.json(); });
+        if (r.ok) {
+          setMsg('login-msg', '登录成功，正在跳转…', true);
+          setTimeout(function () { location.href = '/latest/'; }, 600);
+        } else {
+          setMsg('login-msg', r.msg, false);
+        }
+      });
+
+      // Turnstile 回调
+      window.onloadTurnstileCallback = function () {
+        if (window.turnstile && TURNSTILE_SITE_KEY) {
+          window._tsToken = turnstile.render('#cf-turnstile', {
+            sitekey: TURNSTILE_SITE_KEY,
+            callback: function (t) { window._tsToken = t; }
+          });
+        }
+      };
     })();
   </script>
 </body>

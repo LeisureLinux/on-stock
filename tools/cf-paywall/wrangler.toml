@@ -17,6 +17,13 @@ id = "66b06a40ad1549ba97ebad1ecadf69a7"
 [vars]
 # 源站：GitHub Pages 绑定的自定义子域，不对外公开
 ORIGIN_HOST = "origin-stock.freelamp.com"
+# 订阅系统（非敏感部分；敏感 key 用 wrangler secret put）
+RESEND_FROM = "subscribe@freelamp.com"
+ADMIN_EMAIL = "albertxu@freelamp.com"
+SITE_URL = "https://stock.freelamp.com"
+TURNSTILE_SITE_KEY = "0x4AAAAAAE1Iy-NwXPvgymQ0"
 
-# SESSION_SECRET 不要写进文件：
-#   npx wrangler secret put SESSION_SECRET   （值用 openssl rand -hex 32 生成）
+# SESSION_SECRET / RESEND_API_KEY / TURNSTILE_SECRET 走 secret：
+#   npx wrangler secret put SESSION_SECRET
+#   npx wrangler secret put RESEND_API_KEY
+#   npx wrangler secret put TURNSTILE_SECRET
