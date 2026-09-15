@@ -395,10 +395,13 @@ TRIAL_TEMPLATE = """<!DOCTYPE html>
       background: #fff; border: 1px solid #E5E7EB; border-left: 3px solid #DC2626;
       border-radius: 10px; padding: 14px 18px; margin-bottom: 20px; font-size: 14px;
     }}
-    ul.news {{ list-style: none; margin-bottom: 24px; }}
+    .src {{ margin-bottom: 22px; }}
+    .src-head {{ font-size: 15px; font-weight: 800; margin-bottom: 8px;
+      display: flex; align-items: center; gap: 8px; }}
+    ul.news {{ list-style: none; margin-bottom: 8px; }}
     ul.news li {{
       background: #fff; border: 1px solid #E5E7EB; border-radius: 10px;
-      padding: 13px 16px; margin-bottom: 8px; display: flex; gap: 12px; align-items: baseline;
+      padding: 12px 16px; margin-bottom: 7px; display: flex; gap: 12px; align-items: baseline;
     }}
     .time {{ font-size: 12px; color: #9CA3AF; font-variant-numeric: tabular-nums; white-space: nowrap; }}
     .badge {{ font-size: 11px; padding: 1px 7px; border-radius: 4px; color: #fff; font-weight: 600; flex-shrink: 0; }}
@@ -431,8 +434,8 @@ TRIAL_TEMPLATE = """<!DOCTYPE html>
   </header>
   <div class="container">
     <div class="note">
-      以下是今日最新 <b>{limit}</b> 条标题（今日全量 <b>{total}</b> 条）。
-      完整标题清单、按源筛选、每日归档与历史检索，需订阅后访问。
+      以下是今日四个来源各最新 <b>{limit}</b> 条标题的中文翻译（今日全量 <b>{total}</b> 条）。
+      完整标题清单、按源筛选、英文原文、每日归档与历史检索，需订阅后访问。
     </div>
     <ul class="news">
     {items}
@@ -450,21 +453,29 @@ TRIAL_TEMPLATE = """<!DOCTYPE html>
 
 
 def build_trial_page(date: str, day: dict, limit: int = TRIAL_LIMIT) -> str:
-    rows = []
+    """免费试读页：四个来源各取最新 limit 条，展示翻译后的中文标题（无则英文原文）。"""
+    blocks = []
+    shown = 0
     for key, s in (day.get("sources") or {}).items():
-        for it in s.get("items", []):
-            rows.append((it.get("time", ""), key, it.get("title", "")))
-    rows.sort(key=lambda x: x[0], reverse=True)
-    top = rows[:limit]
+        items = s.get("items", [])
+        # 每源按时间倒序取前 limit 条（items 本身多按时间排列，倒序取尾更稳妥）
+        top = sorted(items, key=lambda it: it.get("time", ""), reverse=True)[:limit]
+        if not top:
+            continue
+        shown += len(top)
+        name = s.get("name", key.upper())
+        color = SOURCE_COLOR.get(key, "#6B7280")
+        lis = "\n".join(
+            f'      <li><span class="time">{_e(it.get("time", ""))}</span>'
+            f'<span class="t">{_e(it.get("title_zh") or it.get("title", ""))}</span></li>'
+            for it in top)
+        blocks.append(
+            f'    <div class="src">\n'
+            f'      <div class="src-head" style="color:{color}">{_e(name)}'
+            f'<span class="badge" style="background:{color}">{_e(SOURCE_SHORT.get(key, key.upper()))}</span>'
+            f'</div>\n      <ul class="news">\n{lis}\n      </ul>\n    </div>')
 
-    items = "\n".join(
-        f'      <li><span class="time">{_e(t)}</span>'
-        f'<span class="badge" style="background:{SOURCE_COLOR.get(k, "#6B7280")}">'
-        f'{SOURCE_SHORT.get(k, k.upper())}</span>'
-        f'<span class="t">{_e(title)}</span></li>'
-        for t, k, title in top
-    ) or '      <li><span class="t">暂无数据</span></li>'
-
+    items = "\n".join(blocks) or '      <li><span class="t">暂无数据</span></li>'
     total = sum(s.get("count", 0) for s in (day.get("sources") or {}).values())
     return TRIAL_TEMPLATE.format(
         site_url=SITE_URL, date=fmt_date(date), limit=limit,
@@ -690,7 +701,7 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
         var email = document.getElementById('email').value.trim();
         var plan = getPlan();
         if (!plan) return setMsg('email-msg', '请先选择上方套餐时长', false);
-        if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return setMsg('email-msg', '邮箱格式不正确', false);
+        if (!email || !/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(email)) return setMsg('email-msg', '邮箱格式不正确', false);
         var token = (window.turnstile && window._tsToken) ? window._tsToken : '';
         setMsg('email-msg', '发送中…');
         var r = await fetch('/api/verify-email', {{
