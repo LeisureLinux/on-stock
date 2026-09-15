@@ -170,6 +170,7 @@ DAY_TEMPLATE = """<!DOCTYPE html>
         <a href="/">首页</a>
         <a href="/news/">历史归档</a>
         <a href="/latest/">最新</a>
+        <a href="/subscribe/">订阅</a>
       </div>
     </div>
   </header>
