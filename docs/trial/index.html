@@ -27,10 +27,13 @@
       background: #fff; border: 1px solid #E5E7EB; border-left: 3px solid #DC2626;
       border-radius: 10px; padding: 14px 18px; margin-bottom: 20px; font-size: 14px;
     }
-    ul.news { list-style: none; margin-bottom: 24px; }
+    .src { margin-bottom: 22px; }
+    .src-head { font-size: 15px; font-weight: 800; margin-bottom: 8px;
+      display: flex; align-items: center; gap: 8px; }
+    ul.news { list-style: none; margin-bottom: 8px; }
     ul.news li {
       background: #fff; border: 1px solid #E5E7EB; border-radius: 10px;
-      padding: 13px 16px; margin-bottom: 8px; display: flex; gap: 12px; align-items: baseline;
+      padding: 12px 16px; margin-bottom: 7px; display: flex; gap: 12px; align-items: baseline;
     }
     .time { font-size: 12px; color: #9CA3AF; font-variant-numeric: tabular-nums; white-space: nowrap; }
     .badge { font-size: 11px; padding: 1px 7px; border-radius: 4px; color: #fff; font-weight: 600; flex-shrink: 0; }
@@ -63,15 +66,50 @@
   </header>
   <div class="container">
     <div class="note">
-      以下是今日最新 <b>5</b> 条标题（今日全量 <b>690</b> 条）。
-      完整标题清单、按源筛选、每日归档与历史检索，需订阅后访问。
+      以下是今日四个来源各最新 <b>5</b> 条标题的中文翻译（今日全量 <b>690</b> 条）。
+      完整标题清单、按源筛选、英文原文、每日归档与历史检索，需订阅后访问。
     </div>
     <ul class="news">
-          <li><span class="time">11-25 13:47</span><span class="badge" style="background:#1D4ED8">WSJ</span><span class="t">Best Car Insurance in California 2026</span></li>
-      <li><span class="time">09-26 22:36</span><span class="badge" style="background:#1D4ED8">WSJ</span><span class="t">Low-Doc Loans: Should You Pursue a Business Loan with Fewer Requirements?</span></li>
-      <li><span class="time">09-15 15:30</span><span class="badge" style="background:#1D4ED8">WSJ</span><span class="t">10 of the Best Financial Advisor Companies: Well-Known Fiduciary Investment Firms to Consider</span></li>
-      <li><span class="time">09-15 00:08</span><span class="badge" style="background:#B91C1C">RT</span><span class="t">Wall Street ends down, calls for AI slowdown pummel chipmakers</span></li>
-      <li><span class="time">09-15 00:07</span><span class="badge" style="background:#B91C1C">RT</span><span class="t">Houthis strike Saudi targets anew as talks over Strait of Hormuz stall</span></li>
+        <div class="src">
+      <div class="src-head" style="color:#B45309">Bloomberg<span class="badge" style="background:#B45309">BB</span></div>
+      <ul class="news">
+      <li><span class="time">09-14 23:49</span><span class="t">黄金维持跌势，油价上涨加剧9月加息预期</span></li>
+      <li><span class="time">09-14 23:36</span><span class="t">最高法院驳回特朗普中期选举邮寄选票限制</span></li>
+      <li><span class="time">09-14 23:15</span><span class="t">Firmus数据中心IPO，怀阿拉钢铁厂，特朗普人工智能</span></li>
+      <li><span class="time">09-14 23:00</span><span class="t">人民币受欢迎程度提升或成香港五年规划重点</span></li>
+      <li><span class="time">09-14 23:00</span><span class="t">三星面临本土对冲基金施压要求取消优先股</span></li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="src-head" style="color:#0F766E">Financial Times<span class="badge" style="background:#0F766E">FT</span></div>
+      <ul class="news">
+      <li><span class="time">09-14 23:57</span><span class="t">最高法院驳回特朗普对邮寄选票的限制</span></li>
+      <li><span class="time">09-14 23:04</span><span class="t">美军承认在太空部署武器</span></li>
+      <li><span class="time">09-14 23:01</span><span class="t">香港押注宠物经济，狗狗与食客共餐</span></li>
+      <li><span class="time">09-14 23:00</span><span class="t">金融时报填字游戏：第18,480期</span></li>
+      <li><span class="time">09-14 21:54</span><span class="t">英国金融时报：中国安全部门警告人工智能对政治和社会安全构成风险</span></li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="src-head" style="color:#1D4ED8">The Wall Street Journal<span class="badge" style="background:#1D4ED8">WSJ</span></div>
+      <ul class="news">
+      <li><span class="time">11-25 13:47</span><span class="t">2026年加州最佳汽车保险</span></li>
+      <li><span class="time">09-26 22:36</span><span class="t">低文件贷款：是否应申请要求较少的商业贷款？</span></li>
+      <li><span class="time">09-15 15:30</span><span class="t">十大最佳财务顾问公司：值得考虑的知名信托投资公司</span></li>
+      <li><span class="time">09-15 00:03</span><span class="t">黄金持续承压，油价加剧通胀担忧</span></li>
+      <li><span class="time">09-14 23:56</span><span class="t">最高法院阻止特朗普中期选举邮寄选票新规</span></li>
+      </ul>
+    </div>
+    <div class="src">
+      <div class="src-head" style="color:#B91C1C">Reuters<span class="badge" style="background:#B91C1C">RT</span></div>
+      <ul class="news">
+      <li><span class="time">09-15 00:08</span><span class="t">华尔街收跌，呼吁人工智能放缓重挫芯片制造商</span></li>
+      <li><span class="time">09-15 00:07</span><span class="t">胡塞武装再次袭击沙特目标，霍尔木兹海峡谈判陷入僵局</span></li>
+      <li><span class="time">09-15 00:05</span><span class="t">特朗普受挫，美最高法院不允许邮政局限制邮寄选票</span></li>
+      <li><span class="time">09-15 00:01</span><span class="t">艾美奖红毯星光熠熠，烈日下明星蓝毯亮相</span></li>
+      <li><span class="time">09-15 00:01</span><span class="t">特朗普受挫，美最高法院不允许邮政服务限制邮寄投票</span></li>
+      </ul>
+    </div>
     </ul>
     <div class="cta">
       <h2>订阅解锁全部内容</h2>
