@@ -1434,6 +1434,7 @@ def main():
     static_files = [
         "googlec29651f57d804644.html",  # Google Search Console 验证
         "favicon.ico",  # 站点图标
+        "jd_root.txt",  # JD Union 站点验证
         # 可在此添加其他验证文件，如：
         # "BingSiteAuth.xml",  # Bing 验证
     ]

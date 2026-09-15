@@ -24,7 +24,7 @@ const enc = new TextEncoder();
 /** 无需登录即可访问的路径前缀 */
 const PUBLIC_PREFIXES = [
   '/trial', '/subscribe', '/assets', '/static',
-  '/favicon.ico', '/robots.txt', '/sitemap.xml',
+  '/favicon.ico', '/robots.txt', '/sitemap.xml', '/jd_root.txt',
 ];
 
 /** 免登录 Cookie 有效期（秒） */
