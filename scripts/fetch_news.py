@@ -72,6 +72,7 @@ SOURCES = {
         "sitemap": "https://www.wsj.com/wsjsitemaps/wsj_google_news.xml",
         "can_fetch_body": False,
         "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
+        "skip_sections": ["/sports/"],   # 体育新闻不收录
     },
     "rt": {
         "name": "Reuters",
@@ -194,6 +195,9 @@ def fetch_source(key: str, with_body: bool = False, pages: int = 1,
             continue
         for iso, title, url in rows:
             if skip_letters and title.startswith("Letter:"):
+                continue
+            skip_secs = cfg.get("skip_sections")
+            if skip_secs and any(sec in url for sec in skip_secs):
                 continue
             t = cst_from_iso(iso)
             items.append({

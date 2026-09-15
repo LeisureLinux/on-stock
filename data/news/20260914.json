@@ -6,7 +6,7 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 108,
+   "count": 104,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
@@ -243,14 +243,6 @@
      "title_zh": "在餐厅，手机正成为新的香烟"
     },
     {
-     "title": "Ben Shelton Falls in the U.S. Open Final—and an American Wait Goes On",
-     "url": "https://www.wsj.com/sports/tennis/ben-shelton-alexander-zverev-us-open-5f2e0661",
-     "published_cst": "2026-09-13T22:14:00+08:00",
-     "time": "09-13 22:14",
-     "body": null,
-     "title_zh": "本·谢尔顿美网决赛失利，美国人等待继续"
-    },
-    {
      "title": "The Great AI Slowdown?",
      "url": "https://www.wsj.com/opinion/the-great-ai-slowdown-d5578546",
      "published_cst": "2026-09-13T21:44:00+08:00",
@@ -353,14 +345,6 @@
      "time": "09-13 18:57",
      "body": null,
      "title_zh": "俄乌战争升级，双方空袭引发恐慌"
-    },
-    {
-     "title": "The Upstart Using ‘Guerrilla Tactics’ to Shake Up the Football Helmet Business",
-     "url": "https://www.wsj.com/sports/football/the-upstart-using-guerrilla-tactics-to-shake-up-the-football-helmet-business-5bf891c1",
-     "published_cst": "2026-09-13T18:21:00+08:00",
-     "time": "09-13 18:21",
-     "body": null,
-     "title_zh": "新兴企业用游击战术颠覆橄榄球头盔行业"
     },
     {
      "title": "How a Classic Collegiate Novel Inspired This Young New York Band",
@@ -515,14 +499,6 @@
      "title_zh": "Lululemon创始人离婚，对其财富意味着什么？"
     },
     {
-     "title": "Arch Manning Was Headed for Disaster—Until He Produced the Comeback of His Life",
-     "url": "https://www.wsj.com/sports/football/arch-manning-texas-ohio-state-37f6dcbf",
-     "published_cst": "2026-09-13T11:00:00+08:00",
-     "time": "09-13 11:00",
-     "body": null,
-     "title_zh": "阿奇·曼宁一度濒临灾难，直到他上演了生涯最伟大的逆转。"
-    },
-    {
      "title": "Canada Seeks EU ‘Associate Member’ Status as U.S. Trade Talks Collapse",
      "url": "https://www.wsj.com/economy/canada-seeks-eu-associate-member-status-as-u-s-trade-talks-collapse-4eebec65",
      "published_cst": "2026-09-13T10:54:00+08:00",
@@ -641,14 +617,6 @@
      "time": "09-12 23:00",
      "body": null,
      "title_zh": "迷失在玛格丽塔维尔：吉米·巴菲特2.75亿美元信托的混乱纷争"
-    },
-    {
-     "title": "A 6-Foot Slugger Has Quietly Taken Over Women’s Tennis—and She Just Won the U.S. Open",
-     "url": "https://www.wsj.com/sports/rybakina-us-open-sabalenka-3a2a540b",
-     "published_cst": "2026-09-12T22:54:00+08:00",
-     "time": "09-12 22:54",
-     "body": null,
-     "title_zh": "一位六英尺高的重炮手悄然统治了女子网坛，她刚刚赢得美网冠军。"
     },
     {
      "title": "The Midterm Battle Lines Keep Shifting. Missouri Voters Are Caught in the Middle.",
