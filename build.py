@@ -267,7 +267,7 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
       var map = {{}};
       try {{ map = JSON.parse(localStorage.getItem(KEY) || '{{}}') || {{}}; }} catch (e) {{}}
 
-      function norm(p) {{ return String(p || '').replace(/^\/+|\/+$/g, ''); }}
+      function norm(p) {{ return String(p || '').replace(/^\\/+|\\/+$/g, ''); }}
 
       function apply() {{
         document.querySelectorAll('.comment-link').forEach(function (btn) {{
