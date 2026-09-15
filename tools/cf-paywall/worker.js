@@ -123,6 +123,37 @@ function genPassword(n = 12) {
   return randStr(n, 'abcdefghjkmnpqrstuvwxyzABCDEFGHJKMNPQRSTUVWXYZ23456789');
 }
 
+// ---------------------------------------------------------------- 操作日志（KV `_log`）
+
+const LOG_KEY = '_log';
+const LOG_MAX = 1000;   // 上限，防无限增长
+const LOG_SHOW = 50;    // /subadmin 页展示最近 N 条
+
+/** 当前北京时间 YYYY-MM-DD HH:MM:SS */
+function nowCSTStr() {
+  return new Date(Date.now() + 8 * 3600 * 1000).toISOString().slice(0, 19).replace('T', ' ');
+}
+
+/** 邮箱打码：albertxu@freelamp.com -> al***@freelamp.com（无@则取前两位） */
+function maskEmail(s) {
+  s = String(s || '');
+  const i = s.indexOf('@');
+  if (i < 0) return s.slice(0, 2) + '***';
+  const local = s.slice(0, i);
+  return local.slice(0, Math.min(2, local.length)) + '***' + s.slice(i);
+}
+
+/** 记录一条操作日志。失败不影响主流程。敏感数据（密码/完整邮箱）永不入日志。 */
+async function logEvent(env, src, ev, user, detail) {
+  try {
+    const entry = { t: nowCSTStr(), src, ev, user: maskEmail(user), detail: detail || '' };
+    const log = (await env.USERS.get(LOG_KEY, { type: 'json' })) || [];
+    log.unshift(entry);
+    if (log.length > LOG_MAX) log.length = LOG_MAX;
+    await env.USERS.put(LOG_KEY, JSON.stringify(log));
+  } catch { /* 忽略 */ }
+}
+
 // ---------------------------------------------------------------- 邮件 / Turnstile
 
 async function sendEmail(env, to, subject, html) {
@@ -267,13 +298,14 @@ async function apiVerifyEmail(req, env) {
   rec.status = 'pending';
   rec.code = code;
   rec.code_expire = Date.now() + 10 * 60 * 1000;
-  rec.created = rec.created || todayCST();
+  rec.created = rec.created || nowCSTStr();
   await env.USERS.put(email, JSON.stringify(rec));
 
   const html = `<p>您的订阅验证码是：<b style="font-size:20px">${code}</b></p>
     <p>10 分钟内有效。若非本人操作请忽略。</p>`;
   const r = await sendEmail(env, email, '订阅验证码 - 外媒速览', html);
   if (!r.ok) return json({ ok: false, msg: '验证码邮件发送失败：' + r.err }, 500);
+  await logEvent(env, 'web', '发送验证码', email, `套餐=${plan}`);
   return json({ ok: true, msg: '验证码已发送至 ' + email });
 }
 
@@ -291,6 +323,7 @@ async function apiVerifyCode(req, env) {
   rec.pay_token = payToken;
   rec.pay_expire = Date.now() + 7 * 24 * 3600 * 1000;
   await env.USERS.put(email, JSON.stringify(rec));
+  await logEvent(env, 'web', '邮箱验证通过', email, `套餐=${rec.plan}`);
 
   const planLabel = PLAN_LABEL[rec.plan] || rec.plan;
   const confirmUrl = `${siteUrl(env)}/api/confirm-pay?token=${payToken}&user=${encodeURIComponent(email)}`;
@@ -365,9 +398,11 @@ async function apiConfirmPayExec(req, env) {
   rec.salt = salt; rec.hash = hash; rec.expire = expire;
   rec.status = 'active';
   rec.pay_token = ''; rec.pay_expire = 0;
-  rec.issued_at = todayCST();
+  rec.issued_at = nowCSTStr();
+  rec.expire_at = `${expire}T23:59:59+08:00`;   // 订阅有效期到到期日 23:59:59
   rec.note = rec.note || `自动发号(${plan})`;
   await env.USERS.put(user, JSON.stringify(rec));
+  await logEvent(env, 'web', '确认收款发号', user, `套餐=${plan} 到期=${expire}`);
 
   const userHtml = `<p>订阅已开通 ✅</p>
     <p>站点：${esc(siteUrl(env))}<br>用户名：<b>${esc(user)}</b><br>密码：<b>${esc(password)}</b><br>有效期至：${expire}（${days} 天，${PLAN_LABEL[plan]}）</p>
@@ -387,15 +422,25 @@ async function apiLogin(req, env) {
     return json({ ok: false, msg: '人机验证失败，请重试' }, 400);
   }
   const rec = await env.USERS.get(user, { type: 'json' });
-  if (!rec || rec.status !== 'active') return json({ ok: false, msg: '账号不存在或未激活' }, 401);
+  if (!rec || (rec.status || 'active') !== 'active') {
+    await logEvent(env, 'web', '登录失败', user, '账号不存在或未激活');
+    return json({ ok: false, msg: '账号不存在或未激活' }, 401);
+  }
   const left = daysLeft(rec.expire);
-  if (left < 0) return json({ ok: false, msg: '账号已过期' }, 401);
+  if (left < 0) {
+    await logEvent(env, 'web', '登录失败', user, '账号已过期');
+    return json({ ok: false, msg: '账号已过期' }, 401);
+  }
   const h = await sha256hex(`${rec.salt}:${pass}`);
-  if (!safeEqual(h, rec.hash || '')) return json({ ok: false, msg: '密码错误' }, 401);
+  if (!safeEqual(h, rec.hash || '')) {
+    await logEvent(env, 'web', '登录失败', user, '密码错误');
+    return json({ ok: false, msg: '密码错误' }, 401);
+  }
   const sig = await hmac(env.SESSION_SECRET || 'x', `${user}:${rec.expire}`);
   const cookie = `sub_token=${user}.${sig}; Path=/; Max-Age=${COOKIE_MAX_AGE}; HttpOnly; Secure; SameSite=Lax`;
   // 只允许站内相对路径，防开放跳转
   const rd = (typeof redirect === 'string' && redirect.startsWith('/') && !redirect.startsWith('//')) ? redirect : '/latest/';
+  await logEvent(env, 'web', '登录成功', user, `到期=${rec.expire}`);
   return json({ ok: true, msg: '登录成功', expire: rec.expire, redirect: rd }, 200, { 'Set-Cookie': cookie });
 }
 
@@ -406,7 +451,10 @@ async function listAllUsers(env) {
   let cursor;
   do {
     const page = await env.USERS.list({ limit: 500, cursor });
-    for (const k of page.keys) names.push(k.name);
+    for (const k of page.keys) {
+      if (k.name.startsWith('_')) continue;   // 跳过 _log 等内部键
+      names.push(k.name);
+    }
     cursor = page.list_complete ? undefined : page.cursor;
   } while (cursor);
   const recs = await Promise.all(names.map(async name => {
@@ -505,14 +553,15 @@ async function subadminDashboard(req, env, me) {
     const left = daysLeft(rec.expire);
     let expireCell = '—';
     if (rec.status === 'active' && rec.expire) {
-      expireCell = `${esc(rec.expire)}（${left >= 0 ? `剩 ${left} 天` : '<span style="color:#DC2626">已过期</span>'}）`;
+      const exp = rec.expire_at || rec.expire;   // 优先带时分秒的 expire_at
+      expireCell = `${esc(exp)}（${left >= 0 ? `剩 ${left} 天` : '<span style="color:#DC2626">已过期</span>'}）`;
     }
     return `<tr>
       <td style="max-width:230px;word-break:break-all">${esc(name)}</td>
       <td>${statusBadge(rec.status)}</td>
       <td>${esc(rec.plan || '')}</td>
       <td>${expireCell}</td>
-      <td>${esc(rec.created || '')}</td>
+      <td style="white-space:nowrap">${esc(rec.created || '')}</td>
       <td style="max-width:160px;word-break:break-all">${esc(rec.note || '')}</td>
     </tr>`;
   }).join('');
@@ -520,20 +569,27 @@ async function subadminDashboard(req, env, me) {
   const prev = page > 1 ? `<a href="/subadmin?page=${page - 1}">‹ 上一页</a>` : '<span style="color:#D1D5DB">‹ 上一页</span>';
   const next = page < pages ? `<a href="/subadmin?page=${page + 1}">下一页 ›</a>` : '<span style="color:#D1D5DB">下一页 ›</span>';
 
+  // 操作日志（最近 LOG_SHOW 条）
+  const log = (await env.USERS.get(LOG_KEY, { type: 'json' })) || [];
+  const logRows = log.slice(0, LOG_SHOW).map(e =>
+    `<tr><td style="white-space:nowrap">${esc(e.t)}</td><td>${esc(e.src)}</td><td>${esc(e.ev)}</td>
+     <td>${esc(e.user)}</td><td>${esc(e.detail)}</td></tr>`).join('');
+
   const body = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
 <title>订阅管理</title>
 <style>
 body{font-family:-apple-system,'PingFang SC',sans-serif;background:#F9FAFB;color:#374151;margin:0;padding:24px}
-.wrap{max-width:960px;margin:0 auto}
+.wrap{max-width:1060px;margin:0 auto}
 h1{font-size:20px;color:#111827;margin:0 0 6px}
+h2{font-size:16px;color:#111827;margin:28px 0 10px}
 .bar{font-size:13px;color:#6B7280;margin-bottom:14px;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
 .bar a{color:#DC2626;text-decoration:none}
 .sum{font-size:13px;color:#374151;margin-bottom:12px}
 .sum b{color:#111827}
-table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #E5E7EB;border-radius:10px;overflow:hidden;font-size:13.5px}
-th,td{padding:9px 10px;border-bottom:1px solid #F3F4F6;text-align:left;vertical-align:top}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #E5E7EB;border-radius:10px;overflow:hidden;font-size:13px}
+th,td{padding:8px 10px;border-bottom:1px solid #F3F4F6;text-align:left;vertical-align:top}
 th{background:#F9FAFB;color:#6B7280;font-weight:600;font-size:12.5px}
 tr:hover td{background:#FEF2F2}
 .pager{margin-top:14px;font-size:13.5px;display:flex;gap:16px;align-items:center;color:#6B7280}
@@ -547,10 +603,16 @@ tr:hover td{background:#FEF2F2}
 </div>
 <div class="sum">共 <b>${total}</b> ｜ 已开通 <b>${cnt.active}</b> ｜ 待确认收款 <b>${cnt.verified}</b> ｜ 待验证邮箱 <b>${cnt.pending}</b></div>
 <table>
-  <tr><th>用户名 / 邮箱</th><th>状态</th><th>套餐</th><th>到期</th><th>创建</th><th>备注</th></tr>
+  <tr><th>用户名 / 邮箱</th><th>状态</th><th>套餐</th><th>到期（北京时间）</th><th>创建</th><th>备注</th></tr>
   ${rows || '<tr><td colspan="6" style="color:#9CA3AF;text-align:center;padding:24px">暂无记录</td></tr>'}
 </table>
 <div class="pager">${prev}<span>第 ${page} / ${pages} 页</span>${next}</div>
+
+<h2>操作日志（最近 ${LOG_SHOW} 条，完整邮箱已打码）</h2>
+<table>
+  <tr><th>时间</th><th>来源</th><th>事件</th><th>用户</th><th>详情</th></tr>
+  ${logRows || '<tr><td colspan="5" style="color:#9CA3AF;text-align:center;padding:24px">暂无日志</td></tr>'}
+</table>
 </div></body></html>`;
   return htmlRes(body);
 }
@@ -588,6 +650,7 @@ export default {
       if (!rec) return unauthorized();
       const h = await sha256hex(`${rec.salt}:${cred.pass}`);
       if (!safeEqual(h, rec.hash || '')) return unauthorized();
+      if ((rec.status || 'active') === 'banned') return unauthorized();
       user = { name: cred.user, rec };
     }
     const left = daysLeft(user.rec.expire);

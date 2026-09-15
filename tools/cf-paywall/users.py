@@ -76,6 +76,51 @@ def today() -> dt.date:
     return dt.date.today()
 
 
+def now_str() -> str:
+    """当前北京时间 YYYY-MM-DD HH:MM:SS（与 Worker 端 nowCSTStr 一致）"""
+    return dt.datetime.now(dt.timezone(dt.timedelta(hours=8))).strftime("%Y-%m-%d %H:%M:%S")
+
+
+def mask_email(s: str) -> str:
+    """邮箱打码：albertxu@freelamp.com -> al***@freelamp.com（与 Worker 端一致）"""
+    s = str(s or "")
+    i = s.find("@")
+    if i < 0:
+        return s[:2] + "***"
+    return s[:min(2, i)] + "***" + s[i:]
+
+
+LOG_KEY = "_log"
+LOG_MAX = 1000
+
+
+def log_event(src: str, ev: str, user: str, detail: str = "") -> None:
+    """把 CLI 动作追加到 KV _log（与 Worker 共用；失败不影响主流程）。"""
+    try:
+        # 读现有日志
+        url = (f"https://api.cloudflare.com/client/v4/accounts/{os.environ.get('CF_ACCOUNT_ID')}"
+               f"/storage/kv/namespaces/{os.environ.get('CF_KV_NAMESPACE_ID')}"
+               f"/values/{urllib.parse.quote(LOG_KEY)}")
+        req = urllib.request.Request(url, headers={"Authorization": f"Bearer {os.environ.get('CF_API_TOKEN')}"})
+        try:
+            with urllib.request.urlopen(req, timeout=20) as r:
+                log = json.loads(r.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                log = []
+            else:
+                raise
+        log.insert(0, {"t": now_str(), "src": src, "ev": ev,
+                       "user": mask_email(user), "detail": detail})
+        if len(log) > LOG_MAX:
+            log = log[:LOG_MAX]
+        ok = kv_put_via_api(LOG_KEY, log)
+        if not ok:
+            print("  ⚠️  日志写入失败（不影响本次操作）")
+    except Exception as e:
+        print(f"  ⚠️  日志写入异常：{e}（不影响本次操作）")
+
+
 def gen_password(n: int = 12) -> str:
     return "".join(secrets.choice(ALPHABET) for _ in range(n))
 
@@ -87,8 +132,9 @@ def make_record(password: str, expire: str, plan: str = "", note: str = "") -> d
         "hash": hashlib.sha256(f"{salt}:{password}".encode()).hexdigest(),
         "expire": expire,
         "plan": plan,
+        "status": "active",   # 新发账号均可用；pending/verified 为订阅流程中间态
         "note": note,
-        "created": today().isoformat(),
+        "created": now_str(),
     }
 
 
@@ -220,6 +266,9 @@ def cmd_add(args):
 
     where = kv_put(user, rec)
 
+    log_event("cli", "新增账号", user,
+              f"套餐={args.plan or str(days)+'天'} 到期={expire.isoformat()} 方式={where}")
+
     print()
     print("=" * 52)
     print(f"  用户名：{user}")
@@ -257,6 +306,8 @@ def cmd_renew(args):
                       args.plan or (existing or {}).get("plan", ""),
                       args.note or (existing or {}).get("note", ""))
     where = kv_put(args.user, rec)
+    log_event("cli", "续期", args.user,
+              f"新到期={new_expire.isoformat()} 套餐={args.plan or str(days)+'天'} 方式={where}")
     print(f"✅ 续期 {args.user} → {new_expire.isoformat()}（写入：{where}）")
     print()
     print(wechat_message(args.user, password, new_expire.isoformat(),
@@ -268,13 +319,16 @@ def cmd_list(args):
     if not d:
         print("KV 内暂无账号（或 CF 凭据未配置）。")
         return
-    print(f"{'用户名':<20}{'到期日':<14}{'剩余':<8}{'套餐':<6}备注")
-    print("-" * 62)
+    print(f"{'用户名':<20}{'到期日':<14}{'剩余':<8}{'套餐':<6}{'创建':<21}备注")
+    print("-" * 84)
     for u, r in sorted(d.items(), key=lambda x: x[1]["expire"]):
         exp = dt.date.fromisoformat(r["expire"])
         left = (exp - today()).days
         flag = "已过期" if left < 0 else f"{left} 天"
-        print(f"{u:<20}{r['expire']:<14}{flag:<8}{r.get('plan',''):<6}{r.get('note','')}")
+        created = r.get("created", "")
+        if len(created) == 10:
+            created += " 00:00:00"
+        print(f"{u:<20}{r['expire']:<14}{flag:<8}{r.get('plan',''):<6}{created:<21}{r.get('note','')}")
 
 
 def cmd_del(args):
@@ -285,9 +339,38 @@ def cmd_del(args):
         d.pop(args.user)
         save_pending(d)
     if ok:
+        log_event("cli", "删除账号", args.user, "")
         print(f"🗑️  已删除 KV 账号 {args.user}")
     else:
         print(f"⚠️  KV 删除失败（检查 CF 凭据）；本地 pending 已清理。")
+
+
+def cmd_passwd(args):
+    """重置密码：只改 salt/hash，保留 expire/plan/note 等其他字段。
+    可选 --role admin 给账号挂管理员角色（/subadmin 可见）。"""
+    rec = kv_get_via_api(args.user)
+    if not rec:
+        sys.exit(f"账号不存在：{args.user}（先跑 list 查看）")
+    old = rec.get("expire", "?")
+    password = args.password or gen_password()
+    rec["salt"] = secrets.token_hex(8)
+    rec["hash"] = hashlib.sha256(f"{rec['salt']}:{password}".encode()).hexdigest()
+    if args.role:
+        rec["role"] = args.role
+    if not rec.get("status"):
+        rec["status"] = "active"   # 老记录无 status 字段，补齐为可用
+    ok = kv_put_via_api(args.user, rec)
+    if not ok:
+        sys.exit("❌ KV 写入失败（检查 CF 凭据/网络；必要时加 HTTPS_PROXY=http://wpad.lan:8888 前缀）")
+    log_event("cli", "重置密码", args.user, f"到期不变={old}" + (f" 角色={args.role}" if args.role else ""))
+    print()
+    print("=" * 52)
+    print(f"  已重置密码：{args.user}")
+    print(f"  新密码：{password}")
+    print(f"  到期日不变：{old}")
+    if args.role:
+        print(f"  角色：{args.role}")
+    print("=" * 52)
 
 
 def cmd_sync(args):
@@ -353,6 +436,12 @@ def main():
     d = sub.add_parser("del", help="删除 KV 账号（直连，非仅本地）")
     d.add_argument("user")
     d.set_defaults(func=cmd_del)
+
+    pw = sub.add_parser("passwd", help="重置密码（到期日/套餐不变；可--role admin）")
+    pw.add_argument("user")
+    pw.add_argument("--password", help="不指定则自动生成 12 位随机密码")
+    pw.add_argument("--role", help="设置角色，如 admin")
+    pw.set_defaults(func=cmd_passwd)
 
     s = sub.add_parser("sync", help="把 pending.json 推送到 KV")
     s.set_defaults(func=cmd_sync)
