@@ -56,10 +56,9 @@ SOURCES = {
         "name": "Bloomberg",
         "home": "https://www.bloomberg.com",
         "sitemap": "https://www.bloomberg.com/sitemaps/news/latest.xml",
-        "mirror": "www.envoy.cirrus.bloomberg.com",   # 直连 403，镜像域名 200
+        "mirror": "www.envoy.cirrus.bloomberg.com",   # 仅用于抓取正文（读 __NEXT_DATA__），展示链接仍用官网
         "can_fetch_body": True,
-        "link_host": "https://www.envoy.cirrus.bloomberg.com",  # 展示链接走镜像，绕过官网 403
-        "note": "正文可直连镜像域名抓取（envoy.cirrus）",
+        "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
     },
     "ft": {
         "name": "Financial Times",

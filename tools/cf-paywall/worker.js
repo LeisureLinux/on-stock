@@ -74,9 +74,29 @@ function daysLeft(expire) {
 }
 
 function unauthorized() {
-  return new Response('需要订阅账号', {
+  // 保留 401 + Basic Auth 挑战（否则浏览器不再弹登录框，已付费用户无法登录）；
+  // 同时返回引导页：未登录游客取消弹窗后自动跳转 /subscribe/。
+  const body = `<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="3; url=/subscribe/">
+<title>需要订阅账号</title>
+<style>
+body{font-family:-apple-system,'PingFang SC',sans-serif;background:#F9FAFB;color:#374151;
+display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;padding:24px}
+.card{background:#fff;border:1px solid #E5E7EB;border-radius:14px;padding:36px 32px;max-width:420px;text-align:center}
+h1{font-size:20px;margin:0 0 10px;color:#111827}
+p{font-size:14px;line-height:1.7;margin:0 0 20px;color:#6B7280}
+a{display:inline-block;background:#DC2626;color:#fff;text-decoration:none;padding:10px 22px;border-radius:8px;font-size:14px}
+</style></head><body><div class="card">
+<h1>需要订阅账号</h1>
+<p>该内容为付费订阅专属。订阅后可查看完整外媒标题速览、中文翻译与摘要。</p>
+<a href="/subscribe/">查看订阅方案</a>
+<p style="margin-top:16px;font-size:12px;color:#9CA3AF">3 秒后自动跳转…</p>
+</div></body></html>`;
+  return new Response(body, {
     status: 401,
     headers: {
+      'Content-Type': 'text/html; charset=utf-8',
       'WWW-Authenticate': `Basic realm="${CANONICAL_HOST}", charset="UTF-8"`,
       'Cache-Control': 'no-store',
     },
