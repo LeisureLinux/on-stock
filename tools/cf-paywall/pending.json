@@ -1,0 +1,10 @@
+{
+ "alberttest": {
+  "salt": "8e174902b2296a42",
+  "hash": "933e1a7fcd5e133e8e842bd0e0b78aa8c25a173f97fe5937a2d7127d61f28fbc",
+  "expire": "2026-10-14",
+  "plan": "1m",
+  "note": "",
+  "created": "2026-09-14"
+ }
+}
