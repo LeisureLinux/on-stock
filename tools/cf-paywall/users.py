@@ -211,6 +211,8 @@ def kv_list_via_api() -> dict:
         return {}
     out = {}
     for k in keys:
+        if k["name"].startswith("_"):
+            continue   # 跳过 _log 等内部键（其值为数组，非账号记录）
         rec = kv_get_via_api(k["name"])
         if rec:
             out[k["name"]] = rec
