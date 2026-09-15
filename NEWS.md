@@ -51,13 +51,20 @@ python3 scripts/fetch_news.py --from-file x.xml  # 离线解析（调试）
 
 ## 每日自动化
 
-在 crontab 里加（注意用本机 Python 环境）：
+完整链路：抓标题 → 翻译中文 → 提交 → push（push 触发 Pages 重建发布）。
+翻译用 `scripts/translate_news.py`（默认 DeepSeek 后端，按 url 缓存，已译不重译）。
+
+在 crontab 里加（注意用本机 Python 环境，DeepSeek key 从 `~/.codex/.env` 读取）：
 
 ```
-0 8,20 * * * cd ~/codex/writings/stock && python3 scripts/fetch_news.py \
-  --skip-letters --with-body >> /tmp/fetch_news.log 2>&1 && \
-  git add data/ && git commit -m "chore: 更新外媒速览 $(date +\%Y\%m\%d-\%H\%M)" && git push
+0 8,20 * * * cd ~/codex/writings/stock && \
+  python3 scripts/fetch_news.py --skip-letters --with-body >> /tmp/fetch_news.log 2>&1 && \
+  python3 scripts/translate_news.py --date $(date +\%Y\%m\%d) >> /tmp/translate_news.log 2>&1 && \
+  git add data/ docs/ && git commit -m "chore: 更新外媒速览 $(date +\%Y\%m\%d-\%H\%M)" && git push
 ```
+
+> 注：翻译默认后端 DeepSeek（`TRANSLATE_BACKEND=deepseek`，国内直连可达、充值后无 RPM 限制）；
+> 如需切到 workbuddy 本地代理：`TRANSLATE_BACKEND=workbuddy`。WSJ 体育新闻已在 `fetch_news.py` 的 `skip_sections` 过滤。
 
 ## 数据源状态
 
