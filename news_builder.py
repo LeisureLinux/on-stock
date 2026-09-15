@@ -147,6 +147,8 @@ DAY_TEMPLATE = """<!DOCTYPE html>
     .empty {{ color: #9CA3AF; font-size: 14px; padding: 8px 0; }}
     .title-zh {{ display: block; font-size: 15px; line-height: 1.5; color: #111827; }}
     .title-en {{ display: block; font-size: 12px; line-height: 1.4; color: #9CA3AF; margin-top: 2px; }}
+    .title-sum {{ display: block; font-size: 12.5px; line-height: 1.5; color: #4B5563;
+      margin-top: 4px; padding-left: 8px; border-left: 2px solid #E5E7EB; }}
 
     footer {{
       text-align: center; color: #9CA3AF; font-size: 13px;
@@ -245,10 +247,13 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
                               f'<span class="title-en">{_e(it.get("title", ""))}</span>')
             else:
                 title_html = _e(it.get("title", ""))
+            summ = it.get("summary_zh", "")
+            if summ:
+                title_html += f'<span class="title-sum">{_e(summ)}</span>'
             lis.append(
                 f'<li data-src="{_e(key)}">'
                 f'<span class="time">{_e(it.get("time", ""))} CST</span>'
-                f'<a href="{_e(it.get("url", ""))}" target="_blank" '
+                f'<a href="{_e(it.get("link") or it.get("url", ""))}" target="_blank" '
                 f'rel="noopener">{title_html}</a>'
                 f'{badge}</li>')
         body = "\n        ".join(lis) if lis else '<div class="empty">当日无数据</div>'
