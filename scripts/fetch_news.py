@@ -35,6 +35,7 @@ import re
 import subprocess
 import sys
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -57,6 +58,7 @@ SOURCES = {
         "sitemap": "https://www.bloomberg.com/sitemaps/news/latest.xml",
         "mirror": "www.envoy.cirrus.bloomberg.com",   # 直连 403，镜像域名 200
         "can_fetch_body": True,
+        "link_host": "https://www.envoy.cirrus.bloomberg.com",  # 展示链接走镜像，绕过官网 403
         "note": "正文可直连镜像域名抓取（envoy.cirrus）",
     },
     "ft": {
@@ -81,6 +83,7 @@ SOURCES = {
         "paged": True,
         "can_fetch_body": False,
         "note": "正文可经 CNA 等授权转载站获取（需搜索）",
+        "skip_sections": ["/sports/"],   # 体育新闻不收录
     },
 }
 
@@ -200,9 +203,15 @@ def fetch_source(key: str, with_body: bool = False, pages: int = 1,
             if skip_secs and any(sec in url for sec in skip_secs):
                 continue
             t = cst_from_iso(iso)
+            link_host = cfg.get("link_host")
+            link = url
+            if link_host:
+                p = urllib.parse.urlparse(url)
+                link = f"{link_host}{p.path}{('?' + p.query) if p.query else ''}"
             items.append({
                 "title": title,
                 "url": url,
+                "link": link,
                 "published_cst": t["iso"],
                 "time": t["mmdd_hm"],
                 "body": None,

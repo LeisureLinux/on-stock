@@ -847,7 +847,7 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 50,
+   "count": 41,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
@@ -858,14 +858,6 @@
      "time": "09-14 08:54",
      "body": null,
      "title_zh": "数字股票更审慎而非颠覆性"
-    },
-    {
-     "title": "Clippers owner Steve Ballmer to comply with NBA penalties for salary-cap violations",
-     "url": "https://www.reuters.com/sports/clippers-owner-steve-ballmer-comply-with-nba-penalties-salary-cap-violations--fldm-2026-09-14/",
-     "published_cst": "2026-09-14T08:53:43+08:00",
-     "time": "09-14 08:53",
-     "body": null,
-     "title_zh": "快船老板史蒂夫·鲍尔默将遵守NBA对薪资帽违规的处罚"
     },
     {
      "title": "Opposition set to halt Sweden's slide to right",
@@ -898,14 +890,6 @@
      "time": "09-14 08:50",
      "body": null,
      "title_zh": "印度批准在致命洪灾后向尼泊尔出口电力"
-    },
-    {
-     "title": "Cam Schlittler dominant as Yankees shut out Mets",
-     "url": "https://www.reuters.com/sports/baseball/cam-schlittler-dominant-yankees-shut-out-mets--flm-2026-09-13/",
-     "published_cst": "2026-09-14T08:49:56+08:00",
-     "time": "09-14 08:49",
-     "body": null,
-     "title_zh": "卡姆·施利特勒统治级表现，洋基零封大都会"
     },
     {
      "title": "Nepal tunnel survivor finds solace in village homecoming",
@@ -956,28 +940,12 @@
      "title_zh": "雪佛龙瞄准阿根廷和地中海推动全球LNG增长，与印度达成协议"
     },
     {
-     "title": "Pakistan docked 11 points in World Test Championship for slow over-rate",
-     "url": "https://www.reuters.com/sports/cricket/pakistan-docked-11-points-world-test-championship-slow-over-rate-2026-09-14/",
-     "published_cst": "2026-09-14T08:43:44+08:00",
-     "time": "09-14 08:43",
-     "body": null,
-     "title_zh": "巴基斯坦因慢速过率在世界测试锦标赛中被扣11分"
-    },
-    {
      "title": "Diplomacy stumbles with postponement of meeting on Strait of Hormuz proposal",
      "url": "https://www.reuters.com/business/energy/diplomacy-stumbles-with-postponement-meeting-strait-hormuz-proposal-2026-09-13/",
      "published_cst": "2026-09-14T08:43:24+08:00",
      "time": "09-14 08:43",
      "body": null,
      "title_zh": "霍尔木兹海峡提案会议延期，外交努力受挫"
-    },
-    {
-     "title": "Eugenio Suarez's homer, late plays lift Reds past Brewers",
-     "url": "https://www.reuters.com/sports/baseball/eugenio-suarezs-homer-late-plays-lift-reds-past-brewers--flm-2026-09-13/",
-     "published_cst": "2026-09-14T08:42:55+08:00",
-     "time": "09-14 08:42",
-     "body": null,
-     "title_zh": "尤金尼奥·苏亚雷斯的本垒打和后期表现助红人队击败酿酒人队"
     },
     {
      "title": "Indonesian president names Suahasil Nazara as new finance minister, official says",
@@ -1010,14 +978,6 @@
      "time": "09-14 08:40",
      "body": null,
      "title_zh": "尼日利亚亿万富翁丹格特启动炼油厂IPO，非洲最大规模股票发行"
-    },
-    {
-     "title": "Orioles' Pete Alonso faces former team when Mets host 3-game series",
-     "url": "https://www.reuters.com/sports/baseball/orioles-pete-alonso-faces-former-team-when-mets-host-3-game-series--flm-2026-09-14/",
-     "published_cst": "2026-09-14T08:40:09+08:00",
-     "time": "09-14 08:40",
-     "body": null,
-     "title_zh": "金莺队皮特·阿隆索面对老东家，大都会主场迎三连战"
     },
     {
      "title": "Saudi stocks extend fall as energy attacks rattle sentiment",
@@ -1076,14 +1036,6 @@
      "title_zh": "约旦河西岸遭围困"
     },
     {
-     "title": "Roberti named interim head of French Alps 2030 committee",
-     "url": "https://www.reuters.com/sports/roberti-named-interim-head-french-alps-2030-committee-2026-09-14/",
-     "published_cst": "2026-09-14T08:36:11+08:00",
-     "time": "09-14 08:36",
-     "body": null,
-     "title_zh": "罗伯蒂被任命为法国阿尔卑斯2030委员会临时负责人"
-    },
-    {
      "title": "China Gas signs 20-year LNG import deal with US-based Venture Global",
      "url": "https://www.reuters.com/business/energy/china-gas-signs-20-year-lng-import-deal-with-us-based-venture-global-2026-09-14/",
      "published_cst": "2026-09-14T08:36:09+08:00",
@@ -1098,14 +1050,6 @@
      "time": "09-14 08:35",
      "body": null,
      "title_zh": "印度扩大对欧盟钢铁准入，但碳税仍存"
-    },
-    {
-     "title": "Dodgers' Tarik Skubal looks to duplicate recent outing vs. Reds",
-     "url": "https://www.reuters.com/sports/baseball/dodgers-tarik-skubal-looks-duplicate-recent-outing-vs-reds--flm-2026-09-14/",
-     "published_cst": "2026-09-14T08:33:07+08:00",
-     "time": "09-14 08:33",
-     "body": null,
-     "title_zh": "道奇队塔里克·斯库巴尔力求重现近期对阵红人的出色表现"
     },
     {
      "title": "Saudi pipeline outage threatens loss of 4% of global oil supply",
@@ -1170,22 +1114,6 @@
      "time": "09-14 08:22",
      "body": null,
      "title_zh": "法国巴罗称俄袭击乌波边境列车意在恐吓分裂欧洲"
-    },
-    {
-     "title": "JO 2030-Vincent Roberti nommé président par intérim du comité d'organisation des Alpes françaises",
-     "url": "https://www.reuters.com/fr/sports/jo-2030-vincent-roberti-nomm-prsident-par-intrim-du-comit-dorganisation-des-2026-09-14/",
-     "published_cst": "2026-09-14T08:19:01+08:00",
-     "time": "09-14 08:19",
-     "body": null,
-     "title_zh": "JO 2030-文森特·罗贝蒂被任命为法国阿尔卑斯冬奥组委临时主席"
-    },
-    {
-     "title": "OFRSP Summary",
-     "url": "https://www.reuters.com/fr/sports/ofrsp-summary-2026-01-29/",
-     "published_cst": "2026-09-14T08:18:58+08:00",
-     "time": "09-14 08:18",
-     "body": null,
-     "title_zh": "OFRSP摘要"
     },
     {
      "title": "Companies left China to dodge tariffs. Now some are heading back",
@@ -1266,7 +1194,8 @@
      "published_cst": "2026-09-14T08:32:56+08:00",
      "time": "09-14 08:32",
      "body": null,
-     "title_zh": "普拉博沃内阁改组 撤换财长普尔巴亚"
+     "title_zh": "普拉博沃内阁改组 撤换财长普尔巴亚",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/prabowo-removes-finance-minister-purbaya-in-cabinet-reshuffle"
     },
     {
      "title": "S.Africa Refinery Closures Added $4.7 Billion to Oil-Import Bill",
@@ -1274,7 +1203,8 @@
      "published_cst": "2026-09-14T08:29:42+08:00",
      "time": "09-14 08:29",
      "body": null,
-     "title_zh": "南非炼油厂关闭致石油进口费用增加47亿美元"
+     "title_zh": "南非炼油厂关闭致石油进口费用增加47亿美元",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/s-africa-refinery-closures-added-4-7-billion-to-oil-import-bill"
     },
     {
      "title": "Alcon CEO Says US Drug Pricing Deal May Limit European Products",
@@ -1282,7 +1212,8 @@
      "published_cst": "2026-09-14T08:27:47+08:00",
      "time": "09-14 08:27",
      "body": null,
-     "title_zh": "爱尔康CEO称美国药价协议或限制欧洲产品"
+     "title_zh": "爱尔康CEO称美国药价协议或限制欧洲产品",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/alcon-ceo-says-us-drug-pricing-deal-may-limit-european-products"
     },
     {
      "title": "Ports Giant DP World Redraws Hormuz Logistics With Trucking Bet",
@@ -1290,7 +1221,8 @@
      "published_cst": "2026-09-14T08:10:45+08:00",
      "time": "09-14 08:10",
      "body": null,
-     "title_zh": "港口巨头迪拜环球港务集团押注卡车运输重塑霍尔木兹物流"
+     "title_zh": "港口巨头迪拜环球港务集团押注卡车运输重塑霍尔木兹物流",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/ports-giant-dp-world-redraws-hormuz-logistics-with-trucking-bet"
     },
     {
      "title": "Thai Billionaire Revives Vietnam Gas Projects in Overseas Push",
@@ -1298,7 +1230,8 @@
      "published_cst": "2026-09-14T08:02:06+08:00",
      "time": "09-14 08:02",
      "body": null,
-     "title_zh": "泰国亿万富翁重启越南天然气项目以拓展海外市场"
+     "title_zh": "泰国亿万富翁重启越南天然气项目以拓展海外市场",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/thai-billionaire-revives-vietnam-gas-projects-in-overseas-push"
     },
     {
      "title": "OpenAI President Greg Brockman on Doing Business in the Wake of Hugging Face",
@@ -1306,7 +1239,8 @@
      "published_cst": "2026-09-14T08:00:02+08:00",
      "time": "09-14 08:00",
      "body": null,
-     "title_zh": "OpenAI总裁格雷格·布罗克曼谈Hugging Face之后的商业运作"
+     "title_zh": "OpenAI总裁格雷格·布罗克曼谈Hugging Face之后的商业运作",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/openai-president-greg-brockman-on-doing-business-in-the-wake-of-hugging-face"
     },
     {
      "title": "ECB Won't Hesitate to Hike Further If Needed, Kazimir Says",
@@ -1314,7 +1248,8 @@
      "published_cst": "2026-09-14T08:00:00+08:00",
      "time": "09-14 08:00",
      "body": null,
-     "title_zh": "卡齐米尔称欧洲央行如有需要将毫不犹豫继续加息"
+     "title_zh": "卡齐米尔称欧洲央行如有需要将毫不犹豫继续加息",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/ecb-won-t-hesitate-to-hike-further-if-needed-kazimir-says"
     },
     {
      "title": "Chevron Seeks EU Clarity on Methane Before LNG Import Investment",
@@ -1322,7 +1257,8 @@
      "published_cst": "2026-09-14T07:45:00+08:00",
      "time": "09-14 07:45",
      "body": null,
-     "title_zh": "雪佛龙在LNG进口投资前寻求欧盟明确甲烷规定"
+     "title_zh": "雪佛龙在LNG进口投资前寻求欧盟明确甲烷规定",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/chevron-seeks-eu-clarity-on-methane-before-lng-import-investment"
     },
     {
      "title": "China Rejects AI 'Fearmongering' After Amodei Urges Slowdown",
@@ -1330,7 +1266,8 @@
      "published_cst": "2026-09-14T07:39:46+08:00",
      "time": "09-14 07:39",
      "body": null,
-     "title_zh": "中国驳斥AI“散布恐慌” 此前阿莫代伊呼吁放缓"
+     "title_zh": "中国驳斥AI“散布恐慌” 此前阿莫代伊呼吁放缓",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/china-rejects-ai-fearmongering-after-amodei-urges-slowdown"
     },
     {
      "title": "Hugo Boss Chairman Sturm to Step Down Amid Frasers Pressure",
@@ -1338,7 +1275,8 @@
      "published_cst": "2026-09-14T07:26:30+08:00",
      "time": "09-14 07:26",
      "body": null,
-     "title_zh": "Hugo Boss董事长施图姆在Frasers压力下将卸任"
+     "title_zh": "Hugo Boss董事长施图姆在Frasers压力下将卸任",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/hugo-boss-chairman-sturm-to-step-down-amid-frasers-pressure"
     },
     {
      "title": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",
@@ -1346,7 +1284,8 @@
      "published_cst": "2026-09-14T07:20:56+08:00",
      "time": "09-14 07:20",
      "body": null,
-     "title_zh": "工商银行、汇丰等大型银行参与字节跳动300亿美元贷款"
+     "title_zh": "工商银行、汇丰等大型银行参与字节跳动300亿美元贷款",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/icbc-hsbc-among-major-lenders-on-bytedance-s-30-billion-loan"
     },
     {
      "title": "Burnham Urges 'Culture Shift' to Reward Risk Takers",
@@ -1354,7 +1293,8 @@
      "published_cst": "2026-09-14T07:16:57+08:00",
      "time": "09-14 07:16",
      "body": null,
-     "title_zh": "伯纳姆呼吁“文化转变”以奖励风险承担者"
+     "title_zh": "伯纳姆呼吁“文化转变”以奖励风险承担者",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-14/burnham-urges-culture-shift-to-reward-risk-takers"
     },
     {
      "title": "Latvian Carrier Air Baltic Seeks Chapter 11 Restructuring",
@@ -1362,7 +1302,8 @@
      "published_cst": "2026-09-14T07:08:38+08:00",
      "time": "09-14 07:08",
      "body": null,
-     "title_zh": "拉脱维亚航空波罗的海航空寻求破产重组"
+     "title_zh": "拉脱维亚航空波罗的海航空寻求破产重组",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/air-baltic-files-for-chapter-11-to-help-restructure-debts"
     },
     {
      "title": "Uniper to Sell Stake in Opal Gas Pipe to Meet EU Bailout Demands",
@@ -1370,7 +1311,8 @@
      "published_cst": "2026-09-14T07:08:11+08:00",
      "time": "09-14 07:08",
      "body": null,
-     "title_zh": "尤尼珀将出售欧珀天然气管道股份以满足欧盟救助要求"
+     "title_zh": "尤尼珀将出售欧珀天然气管道股份以满足欧盟救助要求",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/uniper-to-sell-stake-in-opal-gas-pipe-to-meet-eu-bailout-demands"
     },
     {
      "title": "Novo Will Use Shorter Name to Boost Recognition in Obesity",
@@ -1378,7 +1320,8 @@
      "published_cst": "2026-09-14T07:06:13+08:00",
      "time": "09-14 07:06",
      "body": null,
-     "title_zh": "诺和诺德将启用短名提升减肥领域认知度"
+     "title_zh": "诺和诺德将启用短名提升减肥领域认知度",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/novo-will-shorten-its-name-to-boost-recognition-in-obesity"
     },
     {
      "title": "Skills and Goals Bosses Are Aiming for by the End of 2026",
@@ -1386,7 +1329,8 @@
      "published_cst": "2026-09-14T07:05:02+08:00",
      "time": "09-14 07:05",
      "body": null,
-     "title_zh": "老板们力争到2026年底掌握的技能与目标"
+     "title_zh": "老板们力争到2026年底掌握的技能与目标",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/skills-and-goals-bosses-are-aiming-for-by-the-end-of-2026"
     },
     {
      "title": "Japan's Chubu Electric Halts Plans for Nuclear Restart",
@@ -1394,7 +1338,8 @@
      "published_cst": "2026-09-14T06:44:12+08:00",
      "time": "09-14 06:44",
      "body": null,
-     "title_zh": "日本中部电力暂停核电站重启计划"
+     "title_zh": "日本中部电力暂停核电站重启计划",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/japan-s-chubu-electric-halts-plans-for-nuclear-reactor-restart"
     },
     {
      "title": "Astra Breast Cancer Pill Miss May Trim Billions From Sales",
@@ -1402,7 +1347,8 @@
      "published_cst": "2026-09-14T06:41:51+08:00",
      "time": "09-14 06:41",
      "body": null,
-     "title_zh": "阿斯利康乳腺癌药丸未达预期或损失数十亿销售额"
+     "title_zh": "阿斯利康乳腺癌药丸未达预期或损失数十亿销售额",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/astrazeneca-breast-cancer-pill-miss-may-trim-billions-from-sales"
     },
     {
      "title": "Solar Industries Bids $1.4 Billion for South Africa's Omnia",
@@ -1410,7 +1356,8 @@
      "published_cst": "2026-09-14T06:40:22+08:00",
      "time": "09-14 06:40",
      "body": null,
-     "title_zh": "太阳能工业公司出价14亿美元收购南非奥姆尼亚公司"
+     "title_zh": "太阳能工业公司出价14亿美元收购南非奥姆尼亚公司",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/solar-industries-bids-1-4-billion-for-south-africa-s-omnia"
     },
     {
      "title": "Monte Paschi Vows to Keep Up Bids Even If Intesa Takes It Over",
@@ -1418,7 +1365,8 @@
      "published_cst": "2026-09-14T06:27:42+08:00",
      "time": "09-14 06:27",
      "body": null,
-     "title_zh": "锡耶纳牧山银行誓言即使被联合圣保罗银行收购也将继续竞标"
+     "title_zh": "锡耶纳牧山银行誓言即使被联合圣保罗银行收购也将继续竞标",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/monte-paschi-vows-to-keep-up-bids-even-if-intesa-takes-it-over"
     },
     {
      "title": "Data Center Firm Firmus Said to Seek $5 Billion in Australia IPO",
@@ -1426,7 +1374,8 @@
      "published_cst": "2026-09-14T06:20:54+08:00",
      "time": "09-14 06:20",
      "body": null,
-     "title_zh": "数据中心公司Firmus拟在澳IPO募资50亿美元"
+     "title_zh": "数据中心公司Firmus拟在澳IPO募资50亿美元",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/data-center-firm-firmus-said-to-seek-5-billion-in-australia-ipo"
     },
     {
      "title": "Asian Refiners Seek Saudi Updates After Oil Pipeline Closure",
@@ -1434,7 +1383,8 @@
      "published_cst": "2026-09-14T06:09:41+08:00",
      "time": "09-14 06:09",
      "body": null,
-     "title_zh": "亚洲炼油商在石油管道关闭后寻求沙特最新消息"
+     "title_zh": "亚洲炼油商在石油管道关闭后寻求沙特最新消息",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/asia-refiners-seek-saudi-updates-after-oil-pipeline-closure"
     },
     {
      "title": "Stocks Decline After Call to Slow AI Development",
@@ -1442,7 +1392,8 @@
      "published_cst": "2026-09-14T06:06:48+08:00",
      "time": "09-14 06:06",
      "body": null,
-     "title_zh": "呼吁放缓AI发展后股市下跌"
+     "title_zh": "呼吁放缓AI发展后股市下跌",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-14/stocks-decline-after-call-to-slow-ai-development"
     },
     {
      "title": "UK's Boomers Cling to Jobs as Young People Get Locked Out",
@@ -1450,7 +1401,8 @@
      "published_cst": "2026-09-14T06:00:00+08:00",
      "time": "09-14 06:00",
      "body": null,
-     "title_zh": "英国婴儿潮一代紧守岗位，年轻人被拒之门外"
+     "title_zh": "英国婴儿潮一代紧守岗位，年轻人被拒之门外",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/britain-s-boomers-cling-to-jobs-as-young-people-get-locked-out"
     },
     {
      "title": "How India and China Took Steps to Reset Ties At BRICS: Live Q&amp;A",
@@ -1458,7 +1410,8 @@
      "published_cst": "2026-09-14T05:57:29+08:00",
      "time": "09-14 05:57",
      "body": null,
-     "title_zh": "印度和中国如何在金砖国家会议上采取措施重置关系：实时问答"
+     "title_zh": "印度和中国如何在金砖国家会议上采取措施重置关系：实时问答",
+     "link": "https://www.envoy.cirrus.bloomberg.com/sessions/2026-09-14/live-q-amp-a-how-india-and-china-are-finding-common-ground"
     },
     {
      "title": "EU Chief Rejects Banks' Bid to Split Reform Package in Two",
@@ -1466,7 +1419,8 @@
      "published_cst": "2026-09-14T05:52:37+08:00",
      "time": "09-14 05:52",
      "body": null,
-     "title_zh": "欧盟负责人拒绝银行将改革方案一分为二的提议"
+     "title_zh": "欧盟负责人拒绝银行将改革方案一分为二的提议",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/eu-chief-rejects-banks-bid-to-split-reform-package-in-two"
     },
     {
      "title": "FTSE 100 Live: UK Stock Futures Rise as Oil Marches Higher",
@@ -1474,7 +1428,8 @@
      "published_cst": "2026-09-14T05:49:02+08:00",
      "time": "09-14 05:49",
      "body": null,
-     "title_zh": "富时100直播：油价攀升，英国股指期货上涨"
+     "title_zh": "富时100直播：油价攀升，英国股指期货上涨",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/live-blog/2026-09-14/ftse-100-live-pound-bond-oil-prices-iran-trump-hormuz-ai-stocks-boe-what-s-moving-uk-markets-right-now-markets-today-mu0toq7x"
     },
     {
      "title": "Philippine Marcos' Cousin to be Transferred from Hospital to Regular Jail",
@@ -1482,7 +1437,8 @@
      "published_cst": "2026-09-14T05:48:34+08:00",
      "time": "09-14 05:48",
      "body": null,
-     "title_zh": "菲律宾马科斯表弟将从医院转至普通监狱"
+     "title_zh": "菲律宾马科斯表弟将从医院转至普通监狱",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/philippine-marcos-cousin-to-be-transferred-from-hospital-to-regular-jail"
     },
     {
      "title": "OpenAI's Altman Voices Support for 'Pacing' AI Development",
@@ -1490,7 +1446,8 @@
      "published_cst": "2026-09-14T05:09:52+08:00",
      "time": "09-14 05:09",
      "body": null,
-     "title_zh": "OpenAI的奥特曼支持“放缓”AI发展"
+     "title_zh": "OpenAI的奥特曼支持“放缓”AI发展",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/openai-s-altman-voices-support-for-pacing-ai-development"
     },
     {
      "title": "Australian Miner Seeks Cheaper Bond to Refinance Private Loan",
@@ -1498,7 +1455,8 @@
      "published_cst": "2026-09-14T04:59:42+08:00",
      "time": "09-14 04:59",
      "body": null,
-     "title_zh": "澳洲矿企寻求更廉价债券为私人贷款再融资"
+     "title_zh": "澳洲矿企寻求更廉价债券为私人贷款再融资",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/australian-miner-seeks-cheaper-bond-to-refinance-private-loan"
     },
     {
      "title": "Oman Calls for Alternative LNG Routes That Can Bypass Hormuz",
@@ -1506,7 +1464,8 @@
      "published_cst": "2026-09-14T04:51:19+08:00",
      "time": "09-14 04:51",
      "body": null,
-     "title_zh": "阿曼呼吁开辟可绕过霍尔木兹海峡的替代液化天然气航线"
+     "title_zh": "阿曼呼吁开辟可绕过霍尔木兹海峡的替代液化天然气航线",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/oman-calls-for-alternative-lng-routes-that-can-bypass-hormuz"
     },
     {
      "title": "Pepco Bets on Africa Supply Hubs as Global Shipping Lanes Fray",
@@ -1514,7 +1473,8 @@
      "published_cst": "2026-09-14T04:30:02+08:00",
      "time": "09-14 04:30",
      "body": null,
-     "title_zh": "Pepco押注非洲供应枢纽应对全球航运受阻"
+     "title_zh": "Pepco押注非洲供应枢纽应对全球航运受阻",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/pepco-bets-on-africa-supply-hubs-as-global-shipping-lanes-fray"
     },
     {
      "title": "Skiing Aussies Drive New Zealand Tourist Arrivals to July Record",
@@ -1522,7 +1482,8 @@
      "published_cst": "2026-09-14T04:27:26+08:00",
      "time": "09-14 04:27",
      "body": null,
-     "title_zh": "澳大利亚滑雪客推动新西兰7月游客人数创纪录"
+     "title_zh": "澳大利亚滑雪客推动新西兰7月游客人数创纪录",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/skiing-aussies-drive-new-zealand-tourist-arrivals-to-july-record"
     },
     {
      "title": "Ligent Technologies Seeks $727 Million in Hong Kong IPO",
@@ -1530,7 +1491,8 @@
      "published_cst": "2026-09-14T04:21:05+08:00",
      "time": "09-14 04:21",
      "body": null,
-     "title_zh": "利扬科技寻求香港IPO募资7.27亿美元"
+     "title_zh": "利扬科技寻求香港IPO募资7.27亿美元",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/ligent-technologies-seeks-727-million-in-hong-kong-ipo"
     },
     {
      "title": "Inflation: Warsh Talked the Fed Into a Rates Trap",
@@ -1538,7 +1500,8 @@
      "published_cst": "2026-09-14T04:01:40+08:00",
      "time": "09-14 04:01",
      "body": null,
-     "title_zh": "通胀：沃什说服美联储陷入利率陷阱"
+     "title_zh": "通胀：沃什说服美联储陷入利率陷阱",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/newsletters/2026-09-14/inflation-warsh-talked-the-fed-into-a-rates-trap"
     },
     {
      "title": "Trump's \"Little War\" With Iran Just Got Bigger Because of the Houthis",
@@ -1546,7 +1509,8 @@
      "published_cst": "2026-09-14T04:01:06+08:00",
      "time": "09-14 04:01",
      "body": null,
-     "title_zh": "特朗普与伊朗的“小战争”因胡塞武装而升级"
+     "title_zh": "特朗普与伊朗的“小战争”因胡塞武装而升级",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis"
     },
     {
      "title": "Robinhood Can't Disrupt Its Way Into the IPO Club",
@@ -1554,7 +1518,8 @@
      "published_cst": "2026-09-14T04:01:02+08:00",
      "time": "09-14 04:01",
      "body": null,
-     "title_zh": "Robinhood无法颠覆进入IPO俱乐部"
+     "title_zh": "Robinhood无法颠覆进入IPO俱乐部",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-14/robinhood-can-t-disrupt-its-way-into-the-ipo-club"
     },
     {
      "title": "Portsmouth Violence: British Balaclava Mob Deserves a Hard Response",
@@ -1562,7 +1527,8 @@
      "published_cst": "2026-09-14T04:00:04+08:00",
      "time": "09-14 04:00",
      "body": null,
-     "title_zh": "朴茨茅斯暴力事件：英国蒙面暴徒应受严惩"
+     "title_zh": "朴茨茅斯暴力事件：英国蒙面暴徒应受严惩",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-14/portsmouth-violence-british-balaclava-mob-deserves-a-hard-response"
     },
     {
      "title": "Switzerland Debates Longstanding Neutrality Ahead of Vote This Month",
@@ -1570,7 +1536,8 @@
      "published_cst": "2026-09-14T04:00:02+08:00",
      "time": "09-14 04:00",
      "body": null,
-     "title_zh": "瑞士本月投票前辩论长期中立立场"
+     "title_zh": "瑞士本月投票前辩论长期中立立场",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/switzerland-debates-longstanding-neutrality-ahead-of-vote-this-month"
     },
     {
      "title": "Europe's Fractured Stock Market Finally Gets a Single Data Feed",
@@ -1578,7 +1545,8 @@
      "published_cst": "2026-09-14T04:00:00+08:00",
      "time": "09-14 04:00",
      "body": null,
-     "title_zh": "欧洲分裂的股市终于迎来统一数据源"
+     "title_zh": "欧洲分裂的股市终于迎来统一数据源",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/europe-s-fractured-stock-market-finally-gets-a-single-data-feed"
     },
     {
      "title": "Bank of England's Dovish Majority Tested by Iran War Pressures",
@@ -1586,7 +1554,8 @@
      "published_cst": "2026-09-14T04:00:00+08:00",
      "time": "09-14 04:00",
      "body": null,
-     "title_zh": "英国央行鸽派多数面临伊朗战争压力考验"
+     "title_zh": "英国央行鸽派多数面临伊朗战争压力考验",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures"
     },
     {
      "title": "South Korea's $1.4 Trillion National Pension Fund Picks New CIO",
@@ -1594,7 +1563,8 @@
      "published_cst": "2026-09-14T03:52:40+08:00",
      "time": "09-14 03:52",
      "body": null,
-     "title_zh": "韩国1.4万亿美元国民年金基金选定新首席投资官"
+     "title_zh": "韩国1.4万亿美元国民年金基金选定新首席投资官",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/south-korea-s-1-4-trillion-national-pension-fund-picks-new-cio"
     },
     {
      "title": "Beijing Bans Drones in Broad Curbs After Citic Tower Crash",
@@ -1602,7 +1572,8 @@
      "published_cst": "2026-09-14T03:37:27+08:00",
      "time": "09-14 03:37",
      "body": null,
-     "title_zh": "北京在中信大厦坠机事件后大范围限制无人机"
+     "title_zh": "北京在中信大厦坠机事件后大范围限制无人机",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/beijing-bans-drones-in-sweeping-curbs-after-citic-tower-crash"
     },
     {
      "title": "China Spy Chief Warns of AI Risks as US Tech Leaders Urge Brakes",
@@ -1610,7 +1581,8 @@
      "published_cst": "2026-09-14T03:07:23+08:00",
      "time": "09-14 03:07",
      "body": null,
-     "title_zh": "中国间谍首脑警告AI风险，美国科技领袖呼吁刹车"
+     "title_zh": "中国间谍首脑警告AI风险，美国科技领袖呼吁刹车",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/china-spy-chief-warns-of-ai-risks-as-us-tech-leaders-urge-brakes"
     },
     {
      "title": "Easing the Diesel Crunch Is Harder Than Keeping Planes in the Air",
@@ -1618,7 +1590,8 @@
      "published_cst": "2026-09-14T03:00:02+08:00",
      "time": "09-14 03:00",
      "body": null,
-     "title_zh": "缓解柴油短缺比让飞机保持飞行更难"
+     "title_zh": "缓解柴油短缺比让飞机保持飞行更难",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-14/easing-the-diesel-crunch-is-harder-than-keeping-planes-in-the-air"
     },
     {
      "title": "Australian Gold Miner Northern Star Appoints Cutifani to Board",
@@ -1626,7 +1599,8 @@
      "published_cst": "2026-09-14T02:58:00+08:00",
      "time": "09-14 02:58",
      "body": null,
-     "title_zh": "澳大利亚金矿商Northern Star任命库蒂法尼为董事"
+     "title_zh": "澳大利亚金矿商Northern Star任命库蒂法尼为董事",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/australian-gold-miner-northern-star-appoints-cutifani-to-board"
     },
     {
      "title": "Funds Bet New Zealand Bonds Will Beat Global Peers on Slow Hikes",
@@ -1634,7 +1608,8 @@
      "published_cst": "2026-09-14T02:56:06+08:00",
      "time": "09-14 02:56",
      "body": null,
-     "title_zh": "基金押注新西兰债券因加息缓慢将跑赢全球同行"
+     "title_zh": "基金押注新西兰债券因加息缓慢将跑赢全球同行",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/funds-bet-new-zealand-bonds-will-beat-global-peers-on-slow-hikes"
     },
     {
      "title": "Sungrow Hikes Product Prices After Raw Material Cost Increase",
@@ -1642,7 +1617,8 @@
      "published_cst": "2026-09-14T02:53:02+08:00",
      "time": "09-14 02:53",
      "body": null,
-     "title_zh": "阳光电源因原材料成本上涨上调产品价格"
+     "title_zh": "阳光电源因原材料成本上涨上调产品价格",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/sungrow-hikes-product-prices-after-raw-material-cost-increase"
     },
     {
      "title": "Z.AI's Cash Burn Drives Alibaba-Like HK Fundraising Spree",
@@ -1650,7 +1626,8 @@
      "published_cst": "2026-09-14T02:22:27+08:00",
      "time": "09-14 02:22",
      "body": null,
-     "title_zh": "智谱AI烧钱引发阿里式港股融资潮"
+     "title_zh": "智谱AI烧钱引发阿里式港股融资潮",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/z-ai-s-cash-burn-drives-alibaba-like-hong-kong-fundraising-spree"
     },
     {
      "title": "Copper Slips as Inflation Data Raises Bets on Fed Hiking Rates",
@@ -1658,7 +1635,8 @@
      "published_cst": "2026-09-14T02:19:58+08:00",
      "time": "09-14 02:19",
      "body": null,
-     "title_zh": "铜价下跌，通胀数据加剧美联储加息预期"
+     "title_zh": "铜价下跌，通胀数据加剧美联储加息预期",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/copper-slips-as-inflation-data-raises-bets-on-fed-hiking-rates"
     },
     {
      "title": "Samsung, SK Hynix Reject Kepco's Power Grid Prepayment Plan",
@@ -1666,7 +1644,8 @@
      "published_cst": "2026-09-14T02:16:46+08:00",
      "time": "09-14 02:16",
      "body": null,
-     "title_zh": "三星和SK海力士拒绝韩国电力公司的电网预付费计划"
+     "title_zh": "三星和SK海力士拒绝韩国电力公司的电网预付费计划",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/samsung-sk-hynix-reject-kepco-s-power-grid-prepayment-plan"
     },
     {
      "title": "Korea's Gender Minister Nominee Pulls Out in Fresh Blow to Lee",
@@ -1674,7 +1653,8 @@
      "published_cst": "2026-09-14T02:07:04+08:00",
      "time": "09-14 02:07",
      "body": null,
-     "title_zh": "韩国性别部长提名人退出，再挫李在明"
+     "title_zh": "韩国性别部长提名人退出，再挫李在明",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/korea-s-gender-minister-nominee-pulls-out-in-fresh-blow-to-lee"
     },
     {
      "title": "AI Bosses Risk Clash With Wall Street and Trump Over Safety",
@@ -1682,7 +1662,8 @@
      "published_cst": "2026-09-14T02:02:50+08:00",
      "time": "09-14 02:02",
      "body": null,
-     "title_zh": "AI高管或因安全问题与华尔街和特朗普起冲突"
+     "title_zh": "AI高管或因安全问题与华尔街和特朗普起冲突",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/ai-bosses-risk-clash-with-wall-street-and-trump-over-safety-call"
     },
     {
      "title": "China's Economy Enters Critical Phase Determining 2026 Stimulus",
@@ -1690,7 +1671,8 @@
      "published_cst": "2026-09-14T02:00:00+08:00",
      "time": "09-14 02:00",
      "body": null,
-     "title_zh": "中国经济进入决定2026年刺激政策的关键阶段"
+     "title_zh": "中国经济进入决定2026年刺激政策的关键阶段",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/china-s-economy-enters-critical-phase-determining-2026-stimulus"
     },
     {
      "title": "Chevron Australia Sees LNG Prices Staying High for Six Months",
@@ -1698,7 +1680,8 @@
      "published_cst": "2026-09-14T01:51:49+08:00",
      "time": "09-14 01:51",
      "body": null,
-     "title_zh": "雪佛龙澳大利亚预计液化天然气价格将维持高位六个月"
+     "title_zh": "雪佛龙澳大利亚预计液化天然气价格将维持高位六个月",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/chevron-australia-sees-lng-prices-staying-high-for-six-months"
     },
     {
      "title": "India Beats a Hasty Retreat From a Crucial Market Reform",
@@ -1706,7 +1689,8 @@
      "published_cst": "2026-09-14T01:47:28+08:00",
      "time": "09-14 01:47",
      "body": null,
-     "title_zh": "印度匆忙撤回一项关键市场改革"
+     "title_zh": "印度匆忙撤回一项关键市场改革",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-14/india-beats-a-hasty-retreat-from-a-crucial-market-reform"
     },
     {
      "title": "SoftBank Gets Upsized $11.9 Billion Loan in OpenAI Funding Push",
@@ -1714,7 +1698,8 @@
      "published_cst": "2026-09-14T01:42:42+08:00",
      "time": "09-14 01:42",
      "body": null,
-     "title_zh": "软银获119亿美元贷款加码OpenAI投资"
+     "title_zh": "软银获119亿美元贷款加码OpenAI投资",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/softbank-gets-upsized-11-9-billion-loan-in-openai-funding-push"
     },
     {
      "title": "Trump's Crypto Push Opens Perpetuals Race to Singapore Exchange",
@@ -1722,7 +1707,8 @@
      "published_cst": "2026-09-14T01:38:26+08:00",
      "time": "09-14 01:38",
      "body": null,
-     "title_zh": "特朗普推动加密货币，新加坡交易所加入永续合约竞赛"
+     "title_zh": "特朗普推动加密货币，新加坡交易所加入永续合约竞赛",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/trump-s-crypto-push-opens-perpetuals-race-to-singapore-exchange"
     },
     {
      "title": "Autonomous Muslim Region in Philippines Holds First Election to Cement Peace",
@@ -1730,7 +1716,8 @@
      "published_cst": "2026-09-14T00:48:00+08:00",
      "time": "09-14 00:48",
      "body": null,
-     "title_zh": "菲律宾穆斯林自治区举行首次选举以巩固和平"
+     "title_zh": "菲律宾穆斯林自治区举行首次选举以巩固和平",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/autonomous-muslim-region-in-philippines-holds-first-election-to-cement-peace"
     },
     {
      "title": "Amtrak Trains Between Boston, New York Disrupted Due to Flooding",
@@ -1738,7 +1725,8 @@
      "published_cst": "2026-09-14T00:45:32+08:00",
      "time": "09-14 00:45",
      "body": null,
-     "title_zh": "波士顿至纽约美铁列车因洪水中断"
+     "title_zh": "波士顿至纽约美铁列车因洪水中断",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/amtrak-trains-between-boston-new-york-disrupted-due-to-flooding"
     },
     {
      "title": "Gold Steady as Hot US Inflation Bolsters Chance of Rate Hike",
@@ -1746,7 +1734,8 @@
      "published_cst": "2026-09-14T00:33:00+08:00",
      "time": "09-14 00:33",
      "body": null,
-     "title_zh": "金价持稳，美国通胀升温增强加息预期"
+     "title_zh": "金价持稳，美国通胀升温增强加息预期",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/gold-edges-lower-as-hot-us-inflation-bolsters-fed-rate-hike-bets"
     },
     {
      "title": "SoftBank Shares Tumble After AI Chiefs Sound Alarm on Safety",
@@ -1754,7 +1743,8 @@
      "published_cst": "2026-09-14T00:32:05+08:00",
      "time": "09-14 00:32",
      "body": null,
-     "title_zh": "软银股价大跌，AI负责人就安全发出警告"
+     "title_zh": "软银股价大跌，AI负责人就安全发出警告",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/softbank-group-shares-fall-after-openai-ipo-delay-ai-warning"
     },
     {
      "title": "China Tax Clampdown Raises Fears of Founder Share Disposals",
@@ -1762,7 +1752,8 @@
      "published_cst": "2026-09-14T00:03:09+08:00",
      "time": "09-14 00:03",
      "body": null,
-     "title_zh": "中国税务严查引发创始人抛售股票担忧"
+     "title_zh": "中国税务严查引发创始人抛售股票担忧",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/china-s-tax-clampdown-raises-fears-of-founder-share-disposals"
     },
     {
      "title": "Why Singapore Is the World's Most Expensive City for New Car Buyers",
@@ -1770,7 +1761,8 @@
      "published_cst": "2026-09-14T00:00:02+08:00",
      "time": "09-14 00:00",
      "body": null,
-     "title_zh": "为何新加坡是全球新车购置成本最高的城市"
+     "title_zh": "为何新加坡是全球新车购置成本最高的城市",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-14/why-singapore-is-the-world-s-most-expensive-city-for-new-car-buyers"
     },
     {
      "title": "Housing Market, Bathla, AI: Australia Briefing",
@@ -1778,7 +1770,8 @@
      "published_cst": "2026-09-13T23:17:39+08:00",
      "time": "09-13 23:17",
      "body": null,
-     "title_zh": "房地产市场、Bathla、人工智能：澳大利亚简报"
+     "title_zh": "房地产市场、Bathla、人工智能：澳大利亚简报",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/housing-market-bathla-ai-australia-briefing"
     },
     {
      "title": "Trump EPA to Rescind Carbon Standards for Coal, Gas Power Plants",
@@ -1786,7 +1779,8 @@
      "published_cst": "2026-09-13T23:06:54+08:00",
      "time": "09-13 23:06",
      "body": null,
-     "title_zh": "特朗普环保署将撤销燃煤和燃气电厂碳排放标准"
+     "title_zh": "特朗普环保署将撤销燃煤和燃气电厂碳排放标准",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-epa-to-rescind-carbon-standards-for-coal-gas-power-plants"
     },
     {
      "title": "Takaichi Ally Wins Okinawa Vote, Aiding Military Build-Up",
@@ -1794,7 +1788,8 @@
      "published_cst": "2026-09-13T23:01:22+08:00",
      "time": "09-13 23:01",
      "body": null,
-     "title_zh": "高市盟友赢得冲绳选举，助力军事扩张"
+     "title_zh": "高市盟友赢得冲绳选举，助力军事扩张",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/takaichi-ally-wins-okinawa-vote-aiding-military-build-up-plans"
     },
     {
      "title": "Anthropic Expects an Operating Profit This Quarter, FT Says",
@@ -1802,7 +1797,8 @@
      "published_cst": "2026-09-13T23:00:25+08:00",
      "time": "09-13 23:00",
      "body": null,
-     "title_zh": "Anthropic预计本季度实现营业利润，据FT报道"
+     "title_zh": "Anthropic预计本季度实现营业利润，据FT报道",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/anthropic-sees-adjusted-operating-profit-this-quarter-ft-says"
     },
     {
      "title": "Xi-Modi Thaw at BRICS Masks Deep Divisions Between Asian Rivals",
@@ -1810,7 +1806,8 @@
      "published_cst": "2026-09-13T23:00:00+08:00",
      "time": "09-13 23:00",
      "body": null,
-     "title_zh": "金砖峰会中印关系缓和难掩两国深层分歧"
+     "title_zh": "金砖峰会中印关系缓和难掩两国深层分歧",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/xi-modi-thaw-at-brics-masks-deep-divisions-between-asian-rivals"
     },
     {
      "title": "A $7 Billion Gas Bill Sees Developing Asian Nations Sour on LNG",
@@ -1818,7 +1815,8 @@
      "published_cst": "2026-09-13T23:00:00+08:00",
      "time": "09-13 23:00",
      "body": null,
-     "title_zh": "70亿美元天然气账单让亚洲发展中国家对液化天然气不满"
+     "title_zh": "70亿美元天然气账单让亚洲发展中国家对液化天然气不满",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/a-7-billion-gas-bill-sees-developing-asian-nations-sour-on-lng"
     },
     {
      "title": "Swedish Voters Left in Limbo for Days in Closest Ever Election",
@@ -1826,7 +1824,8 @@
      "published_cst": "2026-09-13T22:53:41+08:00",
      "time": "09-13 22:53",
      "body": null,
-     "title_zh": "瑞典选民在史上最胶着大选中悬而未决数日"
+     "title_zh": "瑞典选民在史上最胶着大选中悬而未决数日",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/swedish-voters-left-in-limbo-for-days-in-closest-ever-election"
     },
     {
      "title": "Stocks Slide as AI and Oil Jitters Hit Sentiment: Markets Wrap",
@@ -1834,7 +1833,8 @@
      "published_cst": "2026-09-13T22:06:01+08:00",
      "time": "09-13 22:06",
      "body": null,
-     "title_zh": "股市下跌，AI与石油担忧打击市场情绪：市场综述"
+     "title_zh": "股市下跌，AI与石油担忧打击市场情绪：市场综述",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/us-stock-futures-fall-on-ai-warning-oil-gains-markets-wrap"
     },
     {
      "title": "Latest Oil Market News and Analysis for Sept. 14",
@@ -1842,7 +1842,8 @@
      "published_cst": "2026-09-13T22:01:52+08:00",
      "time": "09-13 22:01",
      "body": null,
-     "title_zh": "9月14日石油市场最新新闻与分析"
+     "title_zh": "9月14日石油市场最新新闻与分析",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/latest-oil-market-news-and-analysis-for-sept-14"
     },
     {
      "title": "Amazon Spends More on Sports Than Netflix, YouTube Combined",
@@ -1850,7 +1851,8 @@
      "published_cst": "2026-09-13T22:00:01+08:00",
      "time": "09-13 22:00",
      "body": null,
-     "title_zh": "亚马逊体育投入超奈飞和YouTube总和"
+     "title_zh": "亚马逊体育投入超奈飞和YouTube总和",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/amazon-spends-more-on-sports-than-netflix-youtube-combined"
     },
     {
      "title": "AI Giants Urge Slower Development to Address Safety Concerns",
@@ -1858,7 +1860,8 @@
      "published_cst": "2026-09-13T21:30:45+08:00",
      "time": "09-13 21:30",
      "body": null,
-     "title_zh": "AI巨头呼吁放缓开发以应对安全担忧"
+     "title_zh": "AI巨头呼吁放缓开发以应对安全担忧",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/ai-giants-urge-slower-development-to-address-safety-concerns"
     },
     {
      "title": "Burnham Says UK Needs 'Culture Shift' to Support Risk Takers",
@@ -1866,7 +1869,8 @@
      "published_cst": "2026-09-13T21:30:00+08:00",
      "time": "09-13 21:30",
      "body": null,
-     "title_zh": "伯纳姆称英国需转变文化以支持风险承担者"
+     "title_zh": "伯纳姆称英国需转变文化以支持风险承担者",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/burnham-says-uk-needs-culture-shift-to-support-risk-takers"
     },
     {
      "title": "Trump Basks as Irish Open Host in Brief Break From Midterm Woes",
@@ -1874,7 +1878,8 @@
      "published_cst": "2026-09-13T20:35:05+08:00",
      "time": "09-13 20:35",
      "body": null,
-     "title_zh": "特朗普借爱尔兰公开赛东道主身份暂避中期选举困扰"
+     "title_zh": "特朗普借爱尔兰公开赛东道主身份暂避中期选举困扰",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-basks-as-irish-open-host-in-brief-break-from-midterm-woes"
     },
     {
      "title": "CFOs Face a Tougher Call on When to Borrow (ASAN, TOBA)",
@@ -1882,7 +1887,8 @@
      "published_cst": "2026-09-13T20:00:02+08:00",
      "time": "09-13 20:00",
      "body": null,
-     "title_zh": "首席财务官面临更艰难的借贷时机抉择"
+     "title_zh": "首席财务官面临更艰难的借贷时机抉择",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/cfos-face-a-tougher-call-on-when-to-borrow-asan-toba"
     },
     {
      "title": "Hormuz Meeting With Iran and Gulf Nations Delayed, Oman Says",
@@ -1890,7 +1896,8 @@
      "published_cst": "2026-09-13T19:17:03+08:00",
      "time": "09-13 19:17",
      "body": null,
-     "title_zh": "阿曼称与伊朗及海湾国家的霍尔木兹会议推迟"
+     "title_zh": "阿曼称与伊朗及海湾国家的霍尔木兹会议推迟",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/hormuz-meeting-with-iran-and-gulf-nations-postponed-oman-says"
     },
     {
      "title": "Indonesia's Green Fuel Boom Is Incinerating the Rainforest",
@@ -1898,7 +1905,8 @@
      "published_cst": "2026-09-13T19:00:02+08:00",
      "time": "09-13 19:00",
      "body": null,
-     "title_zh": "印尼绿色燃料热潮正在焚毁雨林"
+     "title_zh": "印尼绿色燃料热潮正在焚毁雨林",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-13/indonesia-s-green-fuel-boom-is-incinerating-the-rainforest"
     },
     {
      "title": "A 5% Treasury Yield Is Raising New Risks for Markets, Economy",
@@ -1906,7 +1914,8 @@
      "published_cst": "2026-09-13T19:00:00+08:00",
      "time": "09-13 19:00",
      "body": null,
-     "title_zh": "5%美债收益率给市场和经济带来新风险"
+     "title_zh": "5%美债收益率给市场和经济带来新风险",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/a-5-treasury-yield-is-raising-new-risks-for-markets-economy"
     },
     {
      "title": "Sweden's Election Race Tightens After Center-Left's Strong Start",
@@ -1914,7 +1923,8 @@
      "published_cst": "2026-09-13T18:10:02+08:00",
      "time": "09-13 18:10",
      "body": null,
-     "title_zh": "瑞典中左翼强势开局后选情收紧"
+     "title_zh": "瑞典中左翼强势开局后选情收紧",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/sweden-s-social-democrat-led-bloc-takes-lead-in-exit-poll"
     },
     {
      "title": "Anthropic Said to Choose Nasdaq for Much-Anticipated IPO",
@@ -1922,7 +1932,8 @@
      "published_cst": "2026-09-13T18:03:59+08:00",
      "time": "09-13 18:03",
      "body": null,
-     "title_zh": "Anthropic据称选择纳斯达克进行备受期待的IPO"
+     "title_zh": "Anthropic据称选择纳斯达克进行备受期待的IPO",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing"
     },
     {
      "title": "Yen Rally: Bessent Doubles Down on House of the Rising Sun",
@@ -1930,7 +1941,8 @@
      "published_cst": "2026-09-13T18:00:02+08:00",
      "time": "09-13 18:00",
      "body": null,
-     "title_zh": "日元上涨：贝森特加码押注日本加息"
+     "title_zh": "日元上涨：贝森特加码押注日本加息",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-13/yen-rally-bessent-doubles-down-on-house-of-the-rising-sun"
     },
     {
      "title": "Trump Says He Will Eliminate US Tariffs on Irish Whiskey",
@@ -1938,7 +1950,8 @@
      "published_cst": "2026-09-13T17:47:59+08:00",
      "time": "09-13 17:47",
      "body": null,
-     "title_zh": "特朗普称将取消对爱尔兰威士忌的美国关税"
+     "title_zh": "特朗普称将取消对爱尔兰威士忌的美国关税",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-says-he-ll-remove-us-tariffs-on-irish-whiskey-mu03xgtq"
     },
     {
      "title": "US Energy Chief Downplays Chance of Hormuz Advance With Iran",
@@ -1946,7 +1959,8 @@
      "published_cst": "2026-09-13T16:20:21+08:00",
      "time": "09-13 16:20",
      "body": null,
-     "title_zh": "美能源部长淡化与伊朗在霍尔木兹海峡取得进展的可能性"
+     "title_zh": "美能源部长淡化与伊朗在霍尔木兹海峡取得进展的可能性",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/us-energy-chief-downplays-chance-of-hormuz-advance-with-iran"
     },
     {
      "title": "Amodei Essay: Anthropic AI Apocalypse Warning Is Far Too Weak",
@@ -1954,7 +1968,8 @@
      "published_cst": "2026-09-13T15:00:22+08:00",
      "time": "09-13 15:00",
      "body": null,
-     "title_zh": "阿莫代伊文章：Anthropic的AI末日警告太弱了"
+     "title_zh": "阿莫代伊文章：Anthropic的AI末日警告太弱了",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-13/amodei-essay-anthropic-ai-apocalypse-warning-is-far-too-weak"
     },
     {
      "title": "Trump Defends His Support for Irish Unity Despite UK Uproar",
@@ -1962,7 +1977,8 @@
      "published_cst": "2026-09-13T14:52:25+08:00",
      "time": "09-13 14:52",
      "body": null,
-     "title_zh": "特朗普不顾英国强烈反对捍卫其对爱尔兰统一的支持"
+     "title_zh": "特朗普不顾英国强烈反对捍卫其对爱尔兰统一的支持",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-defends-his-support-for-unified-ireland-despite-uk-uproar"
     },
     {
      "title": "Trump Demands Ukraine Halt Refinery Strikes as Diesel Surges",
@@ -1970,7 +1986,8 @@
      "published_cst": "2026-09-13T14:38:16+08:00",
      "time": "09-13 14:38",
      "body": null,
-     "title_zh": "特朗普要求乌克兰停止袭击炼油厂，柴油价格飙升"
+     "title_zh": "特朗普要求乌克兰停止袭击炼油厂，柴油价格飙升",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-demands-ukraine-halt-refinery-strikes-as-diesel-surges"
     },
     {
      "title": "Trump Says He's Not Worried About Xi Calling Off Summit",
@@ -1978,7 +1995,8 @@
      "published_cst": "2026-09-13T14:10:36+08:00",
      "time": "09-13 14:10",
      "body": null,
-     "title_zh": "特朗普称不担心习近平取消峰会"
+     "title_zh": "特朗普称不担心习近平取消峰会",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-says-he-s-not-worried-about-xi-calling-off-summit"
     },
     {
      "title": "Hassett Says White House Will 100% Support Fed's Next Decision",
@@ -1986,7 +2004,8 @@
      "published_cst": "2026-09-13T14:01:10+08:00",
      "time": "09-13 14:01",
      "body": null,
-     "title_zh": "哈塞特称白宫将百分百支持美联储下一步决定"
+     "title_zh": "哈塞特称白宫将百分百支持美联储下一步决定",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/hassett-says-white-house-will-100-support-fed-s-next-decision"
     },
     {
      "title": "LIV Golf Spent Billions, Feuded With PGA on Path to Chapter 11: Big Take Podcast",
@@ -1994,7 +2013,8 @@
      "published_cst": "2026-09-13T14:00:02+08:00",
      "time": "09-13 14:00",
      "body": null,
-     "title_zh": "LIV高尔夫斥资数十亿，与PGA争斗，走向破产：大事件播客"
+     "title_zh": "LIV高尔夫斥资数十亿，与PGA争斗，走向破产：大事件播客",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/liv-golf-spent-billions-feuded-with-pga-on-path-to-chapter-11-big-take-podcast-mtzvsbjo"
     },
     {
      "title": "Apple's iPhone Duo Will Make Foldable Phones the New Normal; Apple Store Revamp",
@@ -2002,7 +2022,8 @@
      "published_cst": "2026-09-13T14:00:01+08:00",
      "time": "09-13 14:00",
      "body": null,
-     "title_zh": "苹果iPhone双雄将让折叠屏手机成为新常态；苹果商店改版"
+     "title_zh": "苹果iPhone双雄将让折叠屏手机成为新常态；苹果商店改版",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/apple-s-iphone-duo-will-make-foldable-phones-the-new-normal-apple-store-revamp-mtzvsb60"
     },
     {
      "title": "Traders Hedging Stock Rally Split on Plunge or Drift Protection",
@@ -2010,7 +2031,8 @@
      "published_cst": "2026-09-13T14:00:00+08:00",
      "time": "09-13 14:00",
      "body": null,
-     "title_zh": "交易员对冲股市涨势，在暴跌或缓跌保护间分歧"
+     "title_zh": "交易员对冲股市涨势，在暴跌或缓跌保护间分歧",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/traders-hedging-stock-rally-split-on-plunge-or-drift-protection"
     },
     {
      "title": "Trump Downplays AI Concerns as CEOs Call for Slowing Pace",
@@ -2018,7 +2040,8 @@
      "published_cst": "2026-09-13T13:59:48+08:00",
      "time": "09-13 13:59",
      "body": null,
-     "title_zh": "特朗普淡化人工智能担忧，CEO们呼吁放缓步伐"
+     "title_zh": "特朗普淡化人工智能担忧，CEO们呼吁放缓步伐",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-downplays-ai-concerns-as-ceos-call-for-slowing-technology"
     },
     {
      "title": "Trump Pushes Fed to Lower Rates Despite Pressure For a Hike",
@@ -2026,7 +2049,8 @@
      "published_cst": "2026-09-13T13:45:52+08:00",
      "time": "09-13 13:45",
      "body": null,
-     "title_zh": "特朗普施压美联储降息，无视加息压力"
+     "title_zh": "特朗普施压美联储降息，无视加息压力",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-pushes-fed-to-lower-rates-despite-pressure-to-raise-them"
     },
     {
      "title": "Trump Urges Zelenskyy to Stop Hitting Russia's Diesel Refineries",
@@ -2034,7 +2058,8 @@
      "published_cst": "2026-09-13T13:30:59+08:00",
      "time": "09-13 13:30",
      "body": null,
-     "title_zh": "特朗普敦促泽连斯基停止打击俄罗斯柴油炼油厂"
+     "title_zh": "特朗普敦促泽连斯基停止打击俄罗斯柴油炼油厂",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/trump-urges-zelenskyy-to-stop-hitting-russia-s-diesel-refineries"
     },
     {
      "title": "LA's Lucas Museum Shines Spotlight on Architect Ma Yansong",
@@ -2042,7 +2067,8 @@
      "published_cst": "2026-09-13T13:12:42+08:00",
      "time": "09-13 13:12",
      "body": null,
-     "title_zh": "洛杉矶卢卡斯博物馆聚焦建筑师马岩松"
+     "title_zh": "洛杉矶卢卡斯博物馆聚焦建筑师马岩松",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/la-s-lucas-museum-shines-spotlight-on-architect-ma-yansong"
     },
     {
      "title": "Fayed Abuse Victims Seek Up to £150 Million From Harrods",
@@ -2050,7 +2076,8 @@
      "published_cst": "2026-09-13T13:00:00+08:00",
      "time": "09-13 13:00",
      "body": null,
-     "title_zh": "法耶德虐待受害者向哈罗德索赔高达1.5亿英镑"
+     "title_zh": "法耶德虐待受害者向哈罗德索赔高达1.5亿英镑",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/fayed-victims-seek-up-to-150-million-from-harrods-after-abuse"
     },
     {
      "title": "China and Russia Have Sea, Space and Cyberspace Under Siege",
@@ -2058,7 +2085,8 @@
      "published_cst": "2026-09-13T12:00:04+08:00",
      "time": "09-13 12:00",
      "body": null,
-     "title_zh": "中俄在海陆空及网络空间遭围堵"
+     "title_zh": "中俄在海陆空及网络空间遭围堵",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/features/2026-09-13/china-and-russia-have-sea-space-and-cyberspace-under-siege"
     },
     {
      "title": "Congress Should Follow California's Lead on AI Laws",
@@ -2066,7 +2094,8 @@
      "published_cst": "2026-09-13T12:00:02+08:00",
      "time": "09-13 12:00",
      "body": null,
-     "title_zh": "国会应效仿加州制定人工智能法律"
+     "title_zh": "国会应效仿加州制定人工智能法律",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-13/congress-should-follow-california-s-lead-on-ai-laws"
     },
     {
      "title": "IPhone Duo: A Device for People Who Can't Type",
@@ -2074,7 +2103,8 @@
      "published_cst": "2026-09-13T12:00:01+08:00",
      "time": "09-13 12:00",
      "body": null,
-     "title_zh": "iPhone双机：为不会打字的人设计的设备"
+     "title_zh": "iPhone双机：为不会打字的人设计的设备",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/newsletters/2026-09-13/iphone-duo-a-device-for-people-who-can-t-type"
     },
     {
      "title": "Ukraine Says Passenger Train Headed to Warsaw Hit by Drone",
@@ -2082,7 +2112,8 @@
      "published_cst": "2026-09-13T10:52:02+08:00",
      "time": "09-13 10:52",
      "body": null,
-     "title_zh": "乌克兰称开往华沙的客运列车遭无人机袭击"
+     "title_zh": "乌克兰称开往华沙的客运列车遭无人机袭击",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/ukraine-says-passenger-train-headed-to-warsaw-is-hit-by-drone"
     },
     {
      "title": "Labour Signals Action Against Farage's Crypto Donation Surge",
@@ -2090,7 +2121,8 @@
      "published_cst": "2026-09-13T09:40:48+08:00",
      "time": "09-13 09:40",
      "body": null,
-     "title_zh": "工党示意对法拉奇加密货币捐款激增采取行动"
+     "title_zh": "工党示意对法拉奇加密货币捐款激增采取行动",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/labour-signals-action-to-stifle-farage-s-crypto-donation-surge"
     },
     {
      "title": "Xi Pitches AI Vision at BRICS Summit as China Duels With US",
@@ -2098,7 +2130,8 @@
      "published_cst": "2026-09-13T09:10:57+08:00",
      "time": "09-13 09:10",
      "body": null,
-     "title_zh": "习近平在金砖峰会上提出人工智能愿景 中国与美国展开较量"
+     "title_zh": "习近平在金砖峰会上提出人工智能愿景 中国与美国展开较量",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/xi-pitches-his-ai-vision-at-brics-summit-as-china-duels-with-us"
     },
     {
      "title": "Ukraine Strikes Russian Refineries as Odesa Ports Targeted",
@@ -2106,7 +2139,8 @@
      "published_cst": "2026-09-13T08:28:19+08:00",
      "time": "09-13 08:28",
      "body": null,
-     "title_zh": "乌克兰袭击俄罗斯炼油厂，敖德萨港口遭袭"
+     "title_zh": "乌克兰袭击俄罗斯炼油厂，敖德萨港口遭袭",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/russia-strikes-ukraine-power-sites-as-kyiv-targets-refining-hub"
     },
     {
      "title": "How Likely Is It That AI Kills Us All?",
@@ -2114,7 +2148,8 @@
      "published_cst": "2026-09-13T08:00:02+08:00",
      "time": "09-13 08:00",
      "body": null,
-     "title_zh": "人工智能灭绝人类可能性多大？"
+     "title_zh": "人工智能灭绝人类可能性多大？",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-13/how-likely-is-it-that-ai-kills-us-all"
     },
     {
      "title": "UK Tech Spinouts Are Struggling Outside the Golden Triangle",
@@ -2122,7 +2157,8 @@
      "published_cst": "2026-09-13T08:00:00+08:00",
      "time": "09-13 08:00",
      "body": null,
-     "title_zh": "英国科技衍生企业难以走出黄金三角"
+     "title_zh": "英国科技衍生企业难以走出黄金三角",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/uk-tech-spinouts-are-struggling-outside-the-golden-triangle"
     },
     {
      "title": "Asia Chip Stocks Drop as AI Chiefs Urge Slower Model Development",
@@ -2130,7 +2166,8 @@
      "published_cst": "2026-09-13T08:00:00+08:00",
      "time": "09-13 08:00",
      "body": null,
-     "title_zh": "亚洲芯片股下跌，AI高管呼吁放缓模型开发"
+     "title_zh": "亚洲芯片股下跌，AI高管呼吁放缓模型开发",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/anthropic-s-ai-warning-may-weigh-on-chips-but-trade-seen-intact"
     },
     {
      "title": "Israel Election: Netanyahu Rival Eisenkot Can at Least Promise Less War",
@@ -2138,7 +2175,8 @@
      "published_cst": "2026-09-13T07:00:02+08:00",
      "time": "09-13 07:00",
      "body": null,
-     "title_zh": "以色列大选：内塔尼亚胡对手艾森科特至少承诺减少战争"
+     "title_zh": "以色列大选：内塔尼亚胡对手艾森科特至少承诺减少战争",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-13/israel-election-netanyahu-rival-eisenkot-can-at-least-promise-less-war"
     },
     {
      "title": "Australia Spring Property Season Sees Auctions Rise but Volumes Stay 34% Lower",
@@ -2146,7 +2184,8 @@
      "published_cst": "2026-09-13T06:35:36+08:00",
      "time": "09-13 06:35",
      "body": null,
-     "title_zh": "澳洲春季房市拍卖量上升但总量仍低34%"
+     "title_zh": "澳洲春季房市拍卖量上升但总量仍低34%",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/australia-spring-property-season-sees-auctions-rise-but-volumes-stay-34-lower"
     },
     {
      "title": "Philippines Halts Exports of Fresh Purple Yam as Demand Rises",
@@ -2154,7 +2193,8 @@
      "published_cst": "2026-09-13T06:28:43+08:00",
      "time": "09-13 06:28",
      "body": null,
-     "title_zh": "菲律宾因需求上升停止鲜紫山药出口"
+     "title_zh": "菲律宾因需求上升停止鲜紫山药出口",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/philippines-halts-exports-of-fresh-purple-yam-as-demand-rises"
     },
     {
      "title": "Brazil's Top Court Gives Police Deadline on Banker's Data",
@@ -2162,7 +2202,8 @@
      "published_cst": "2026-09-13T00:02:14+08:00",
      "time": "09-13 00:02",
      "body": null,
-     "title_zh": "巴西最高法院要求警方限期提交银行家数据"
+     "title_zh": "巴西最高法院要求警方限期提交银行家数据",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-13/brazil-s-top-court-gives-police-deadline-on-banker-s-phone-data"
     },
     {
      "title": "Tesla Teases Oct. 1 Event to Showcase Next-Generation Roadster",
@@ -2170,7 +2211,8 @@
      "published_cst": "2026-09-12T20:20:58+08:00",
      "time": "09-12 20:20",
      "body": null,
-     "title_zh": "特斯拉预告10月1日活动展示下一代Roadster"
+     "title_zh": "特斯拉预告10月1日活动展示下一代Roadster",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster"
     },
     {
      "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks",
@@ -2178,7 +2220,8 @@
      "published_cst": "2026-09-12T20:00:00+08:00",
      "time": "09-12 20:00",
      "body": null,
-     "title_zh": "所有目光聚焦沃什，加息热潮席卷七国集团央行"
+     "title_zh": "所有目光聚焦沃什，加息热潮席卷七国集团央行",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks"
     },
     {
      "title": "OpenAI's Altman Says No IPO in 2026, Firm to Prioritize Safety",
@@ -2186,7 +2229,8 @@
      "published_cst": "2026-09-12T19:36:39+08:00",
      "time": "09-12 19:36",
      "body": null,
-     "title_zh": "OpenAI的奥特曼称2026年不IPO，公司将优先考虑安全"
+     "title_zh": "OpenAI的奥特曼称2026年不IPO，公司将优先考虑安全",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune"
     },
     {
      "title": "Blizzard Announces 'Diablo V,' New 'StarCraft' Shooter",
@@ -2194,7 +2238,8 @@
      "published_cst": "2026-09-12T19:15:01+08:00",
      "time": "09-12 19:15",
      "body": null,
-     "title_zh": "暴雪宣布《暗黑破坏神5》及新《星际争霸》射击游戏"
+     "title_zh": "暴雪宣布《暗黑破坏神5》及新《星际争霸》射击游戏",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-12/blizzard-announces-diablo-v-new-starcraft-shooter"
     },
     {
      "title": "Carney to Meet UK's Burnham as Canada Deepens Europe Ties",
@@ -2202,7 +2247,8 @@
      "published_cst": "2026-09-12T19:03:07+08:00",
      "time": "09-12 19:03",
      "body": null,
-     "title_zh": "卡尼将会见英国伯纳姆，加拿大深化与欧洲关系"
+     "title_zh": "卡尼将会见英国伯纳姆，加拿大深化与欧洲关系",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/carney-to-meet-uk-s-burnham-as-canada-deepens-europe-ties"
     },
     {
      "title": "Le Pen Opens Door for Compromise on 2027 Budget Law, AFP Says",
@@ -2210,7 +2256,8 @@
      "published_cst": "2026-09-12T19:03:05+08:00",
      "time": "09-12 19:03",
      "body": null,
-     "title_zh": "勒庞为2027年预算法案妥协打开大门，法新社报道"
+     "title_zh": "勒庞为2027年预算法案妥协打开大门，法新社报道",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/le-pen-opens-door-for-compromise-on-2027-budget-law-afp-says"
     },
     {
      "title": "SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance",
@@ -2218,7 +2265,8 @@
      "published_cst": "2026-09-12T17:58:51+08:00",
      "time": "09-12 17:58",
      "body": null,
-     "title_zh": "SpaceX将在纳斯达克100指数再平衡后获得权重提升"
+     "title_zh": "SpaceX将在纳斯达克100指数再平衡后获得权重提升",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance"
     },
     {
      "title": "Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock",
@@ -2226,7 +2274,8 @@
      "published_cst": "2026-09-12T16:33:33+08:00",
      "time": "09-12 16:33",
      "body": null,
-     "title_zh": "拉里·埃里森终止出售高达75亿美元甲骨文股票计划"
+     "title_zh": "拉里·埃里森终止出售高达75亿美元甲骨文股票计划",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares"
     },
     {
      "title": "Trump's Foes Find Common Ground at Modi's New Delhi Summit",
@@ -2234,7 +2283,8 @@
      "published_cst": "2026-09-12T15:31:39+08:00",
      "time": "09-12 15:31",
      "body": null,
-     "title_zh": "特朗普反对者在莫迪新德里峰会上找到共同立场"
+     "title_zh": "特朗普反对者在莫迪新德里峰会上找到共同立场",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit"
     },
     {
      "title": "LIV Golf's Big Losses Provide Fuel for a Second Act",
@@ -2242,7 +2292,8 @@
      "published_cst": "2026-09-12T15:00:02+08:00",
      "time": "09-12 15:00",
      "body": null,
-     "title_zh": "LIV高尔夫巨额亏损为第二幕蓄力"
+     "title_zh": "LIV高尔夫巨额亏损为第二幕蓄力",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-12/liv-golf-s-big-losses-provide-fuel-for-a-second-act"
     },
     {
      "title": "Amodei, Altman, Musk Call for Slowing AI Model Development",
@@ -2250,7 +2301,8 @@
      "published_cst": "2026-09-12T14:17:56+08:00",
      "time": "09-12 14:17",
      "body": null,
-     "title_zh": "阿莫代伊、奥尔特曼、马斯克呼吁放缓AI模型开发"
+     "title_zh": "阿莫代伊、奥尔特曼、马斯克呼吁放缓AI模型开发",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models"
     },
     {
      "title": "California Gas Station With $9.99 Diesel Exemplifies Fuel Crisis",
@@ -2258,7 +2310,8 @@
      "published_cst": "2026-09-12T14:00:00+08:00",
      "time": "09-12 14:00",
      "body": null,
-     "title_zh": "加州加油站柴油每加仑9.99美元凸显燃油危机"
+     "title_zh": "加州加油站柴油每加仑9.99美元凸显燃油危机",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/california-gas-station-with-9-99-diesel-exemplifies-fuel-crisis"
     },
     {
      "title": "'Crazy' French Inversion Shows Credit Is a Haven: Credit Weekly",
@@ -2266,7 +2319,8 @@
      "published_cst": "2026-09-12T14:00:00+08:00",
      "time": "09-12 14:00",
      "body": null,
-     "title_zh": "疯狂的法国政治倒挂显示信用债是避风港：信用债周报"
+     "title_zh": "疯狂的法国政治倒挂显示信用债是避风港：信用债周报",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/-crazy-french-inversion-shows-credit-is-a-haven-credit-weekly"
     },
     {
      "title": "RBI Said to Reject Tata Sons Request to Avoid An IPO",
@@ -2274,7 +2328,8 @@
      "published_cst": "2026-09-12T13:33:43+08:00",
      "time": "09-12 13:33",
      "body": null,
-     "title_zh": "印度央行据悉拒绝塔塔集团避免IPO的请求"
+     "title_zh": "印度央行据悉拒绝塔塔集团避免IPO的请求",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing"
     },
     {
      "title": "Trump's Deep-Sea Mining Push Attracts Foreign Companies",
@@ -2282,7 +2337,8 @@
      "published_cst": "2026-09-12T13:17:31+08:00",
      "time": "09-12 13:17",
      "body": null,
-     "title_zh": "特朗普深海采矿计划吸引外国公司"
+     "title_zh": "特朗普深海采矿计划吸引外国公司",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-12/trump-s-deep-sea-mining-push-attracts-foreign-companies"
     },
     {
      "title": "Farage's Reform Raises Record £72 Million in Less Than 24 Hours",
@@ -2290,7 +2346,8 @@
      "published_cst": "2026-09-12T13:14:30+08:00",
      "time": "09-12 13:14",
      "body": null,
-     "title_zh": "法拉奇改革党不到24小时筹得创纪录7200万英镑"
+     "title_zh": "法拉奇改革党不到24小时筹得创纪录7200万英镑",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/farage-s-reform-raises-record-72-million-in-less-than-24-hours"
     },
     {
      "title": "RBI Rejects Tata Sons Plea to Nix Shadow Lender Tag, Reports Say",
@@ -2298,7 +2355,8 @@
      "published_cst": "2026-09-12T13:00:08+08:00",
      "time": "09-12 13:00",
      "body": null,
-     "title_zh": "印度央行拒绝塔塔集团取消影子银行标签的请求"
+     "title_zh": "印度央行拒绝塔塔集团取消影子银行标签的请求",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/rbi-rejects-tata-sons-plea-to-nix-shadow-lender-tag-reports-say"
     },
     {
      "title": "Trump Brushes Off AI Doomsaying to Guard US Lead Over China",
@@ -2306,7 +2364,8 @@
      "published_cst": "2026-09-12T13:00:00+08:00",
      "time": "09-12 13:00",
      "body": null,
-     "title_zh": "特朗普无视AI末日论以保美国对华领先"
+     "title_zh": "特朗普无视AI末日论以保美国对华领先",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china"
     },
     {
      "title": "Xi Resets Ties With Modi on First Visit to India in Seven Years",
@@ -2314,7 +2373,8 @@
      "published_cst": "2026-09-12T12:57:18+08:00",
      "time": "09-12 12:57",
      "body": null,
-     "title_zh": "习近平七年来首访印度 重启与莫迪关系"
+     "title_zh": "习近平七年来首访印度 重启与莫迪关系",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years"
     },
     {
      "title": "BRICS Countries Call for Maximum Restraint in the Middle East",
@@ -2322,7 +2382,8 @@
      "published_cst": "2026-09-12T12:09:46+08:00",
      "time": "09-12 12:09",
      "body": null,
-     "title_zh": "金砖国家呼吁中东最大限度保持克制"
+     "title_zh": "金砖国家呼吁中东最大限度保持克制",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/brics-countries-call-for-maximum-restraint-in-the-middle-east"
     },
     {
      "title": "Iraq Fires Maysan Commander After Drone Attacks on Saudi Arabia's Pipeline",
@@ -2330,7 +2391,8 @@
      "published_cst": "2026-09-12T12:03:03+08:00",
      "time": "09-12 12:03",
      "body": null,
-     "title_zh": "伊拉克在无人机袭击沙特输油管道后解雇迈桑指挥官"
+     "title_zh": "伊拉克在无人机袭击沙特输油管道后解雇迈桑指挥官",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/iraq-fires-maysan-commander-after-drone-attacks-on-saudi-arabia-s-pipeline"
     },
     {
      "title": "Resident Evil Fans Will Regret Driving Away Zach Cregger",
@@ -2338,7 +2400,8 @@
      "published_cst": "2026-09-12T12:00:04+08:00",
      "time": "09-12 12:00",
      "body": null,
-     "title_zh": "生化危机粉丝会后悔赶走扎克·克雷格"
+     "title_zh": "生化危机粉丝会后悔赶走扎克·克雷格",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-12/resident-evil-fans-will-regret-driving-away-zach-cregger"
     },
     {
      "title": "US Open: Influencer Culture Has Turned It Into a Status Contest",
@@ -2346,7 +2409,8 @@
      "published_cst": "2026-09-12T12:00:02+08:00",
      "time": "09-12 12:00",
      "body": null,
-     "title_zh": "美网公开赛：网红文化将其变成地位竞赛"
+     "title_zh": "美网公开赛：网红文化将其变成地位竞赛",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/articles/2026-09-12/us-open-influencer-culture-has-turned-it-into-a-status-contest"
     },
     {
      "title": "German Elections: AfD Win Puts Friedrich Merz On the Clock",
@@ -2354,7 +2418,8 @@
      "published_cst": "2026-09-12T12:00:01+08:00",
      "time": "09-12 12:00",
      "body": null,
-     "title_zh": "德国选举：选择党获胜让弗里德里希·默茨面临倒计时"
+     "title_zh": "德国选举：选择党获胜让弗里德里希·默茨面临倒计时",
+     "link": "https://www.envoy.cirrus.bloomberg.com/opinion/newsletters/2026-09-12/german-elections-afd-win-puts-friedrich-merz-on-the-clock"
     },
     {
      "title": "The Lucas Museum and Bayeux Tapestry Exhibits Push the Limits of Narrative Art",
@@ -2362,7 +2427,8 @@
      "published_cst": "2026-09-12T11:30:01+08:00",
      "time": "09-12 11:30",
      "body": null,
-     "title_zh": "卢卡斯博物馆与贝叶挂毯展览挑战叙事艺术极限"
+     "title_zh": "卢卡斯博物馆与贝叶挂毯展览挑战叙事艺术极限",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-12/the-lucas-museum-and-bayeux-tapestry-exhibits-push-the-limits-of-narrative-art"
     },
     {
      "title": "HDFC Bank Submits Names of Two CEO Candidates to RBI",
@@ -2370,7 +2436,8 @@
      "published_cst": "2026-09-12T11:22:50+08:00",
      "time": "09-12 11:22",
      "body": null,
-     "title_zh": "HDFC银行向印度央行提交两名CEO候选人名单"
+     "title_zh": "HDFC银行向印度央行提交两名CEO候选人名单",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/hdfc-bank-submits-names-of-two-candidates-for-ceo-role-to-rbi"
     },
     {
      "title": "Trump Said He'd Love to See a 'United' Ireland During Visit",
@@ -2378,7 +2445,8 @@
      "published_cst": "2026-09-12T11:08:33+08:00",
      "time": "09-12 11:08",
      "body": null,
-     "title_zh": "特朗普称访问期间乐见爱尔兰统一"
+     "title_zh": "特朗普称访问期间乐见爱尔兰统一",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/trump-said-he-d-love-to-see-a-united-ireland-during-visit"
     },
     {
      "title": "Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates",
@@ -2386,7 +2454,8 @@
      "published_cst": "2026-09-12T11:00:02+08:00",
      "time": "09-12 11:00",
      "body": null,
-     "title_zh": "油气市场预示冬季危机与利率上升"
+     "title_zh": "油气市场预示冬季危机与利率上升",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/oil-and-gas-markets-signal-winter-crisis-and-rising-interest-rates"
     },
     {
      "title": "What Many Miss Regarding the US-China Rivalry: New Economy",
@@ -2394,7 +2463,8 @@
      "published_cst": "2026-09-12T10:45:01+08:00",
      "time": "09-12 10:45",
      "body": null,
-     "title_zh": "关于美中竞争许多人忽略的一点：新经济"
+     "title_zh": "关于美中竞争许多人忽略的一点：新经济",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy"
     },
     {
      "title": "Trump Says He Could Settle UK-Argentina Dispute Over Falklands",
@@ -2402,7 +2472,8 @@
      "published_cst": "2026-09-12T10:42:11+08:00",
      "time": "09-12 10:42",
      "body": null,
-     "title_zh": "特朗普称可解决英阿福克兰群岛争端"
+     "title_zh": "特朗普称可解决英阿福克兰群岛争端",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/trump-says-he-could-settle-uk-argentina-dispute-over-falklands"
     },
     {
      "title": "Trump Sees Canada Deal 'Fairly Soon,' Downplays Leaving USMCA",
@@ -2410,7 +2481,8 @@
      "published_cst": "2026-09-12T10:28:40+08:00",
      "time": "09-12 10:28",
      "body": null,
-     "title_zh": "特朗普预计很快与加拿大达成协议，淡化退出美墨加协定的可能性"
+     "title_zh": "特朗普预计很快与加拿大达成协议，淡化退出美墨加协定的可能性",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-deal-fairly-soon"
     },
     {
      "title": "Trump Says US, Canada Will Probably Reach a Deal 'Fairly Soon'",
@@ -2418,7 +2490,8 @@
      "published_cst": "2026-09-12T10:07:16+08:00",
      "time": "09-12 10:07",
      "body": null,
-     "title_zh": "特朗普称美加很可能很快达成协议"
+     "title_zh": "特朗普称美加很可能很快达成协议",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-a-deal-fairly-soon"
     },
     {
      "title": "BRICS Nations Reach Consensus on Communique: India Official",
@@ -2426,7 +2499,8 @@
      "published_cst": "2026-09-12T09:11:35+08:00",
      "time": "09-12 09:11",
      "body": null,
-     "title_zh": "金砖国家就公报达成共识：印度官员"
+     "title_zh": "金砖国家就公报达成共识：印度官员",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/brics-nations-reach-consensus-on-communique-india-official"
     },
     {
      "title": "War In the Middle East Crisis is Making Clothes More Expensive",
@@ -2434,7 +2508,8 @@
      "published_cst": "2026-09-12T09:00:02+08:00",
      "time": "09-12 09:00",
      "body": null,
-     "title_zh": "中东战争危机推高服装价格"
+     "title_zh": "中东战争危机推高服装价格",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/features/2026-09-12/war-in-the-middle-east-crisis-is-making-clothes-more-expensive"
     },
     {
      "title": "Here's Who HSBC May Tap as Its Next Chief Financial Officer",
@@ -2442,7 +2517,8 @@
      "published_cst": "2026-09-12T09:00:00+08:00",
      "time": "09-12 09:00",
      "body": null,
-     "title_zh": "汇丰可能任命谁为下一任首席财务官"
+     "title_zh": "汇丰可能任命谁为下一任首席财务官",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/here-s-who-hsbc-may-tap-as-its-next-chief-financial-officer"
     },
     {
      "title": "Trump Jabs at Europe on Trade, Immigration During Ireland Visit",
@@ -2450,7 +2526,8 @@
      "published_cst": "2026-09-12T08:56:28+08:00",
      "time": "09-12 08:56",
      "body": null,
-     "title_zh": "特朗普访爱尔兰时就贸易和移民问题抨击欧洲"
+     "title_zh": "特朗普访爱尔兰时就贸易和移民问题抨击欧洲",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/irish-leaders-downplay-tensions-as-trump-arrives-for-visit"
     },
     {
      "title": "Drug-Dealing Gangs Hold Key to Swedish Vote in This Suburb",
@@ -2458,7 +2535,8 @@
      "published_cst": "2026-09-12T08:31:48+08:00",
      "time": "09-12 08:31",
      "body": null,
-     "title_zh": "毒品帮派掌控这个郊区，成为瑞典选举关键"
+     "title_zh": "毒品帮派掌控这个郊区，成为瑞典选举关键",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/drug-dealing-kid-gangs-hold-key-to-swedish-election-in-this-hood"
     },
     {
      "title": "India's SEBI Seeks Major Changes to Unpopular Auction System",
@@ -2466,7 +2544,8 @@
      "published_cst": "2026-09-12T06:55:22+08:00",
      "time": "09-12 06:55",
      "body": null,
-     "title_zh": "印度证券交易委员会寻求对不受欢迎的拍卖系统进行重大改革"
+     "title_zh": "印度证券交易委员会寻求对不受欢迎的拍卖系统进行重大改革",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/india-regulator-proposes-changes-to-closing-auction-after-swings"
     },
     {
      "title": "Modi Forges BRICS Consensus in Shadow of Worsening Iran War",
@@ -2474,7 +2553,8 @@
      "published_cst": "2026-09-12T06:52:51+08:00",
      "time": "09-12 06:52",
      "body": null,
-     "title_zh": "莫迪在伊朗战争恶化阴影下促成金砖共识"
+     "title_zh": "莫迪在伊朗战争恶化阴影下促成金砖共识",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/xi-takes-center-stage-at-modi-s-brics-summit-as-iran-war-deepens"
     },
     {
      "title": "Lagarde Joins France Election Debate at Normandy Rally, Feeding ECB Exit Talk",
@@ -2482,7 +2562,8 @@
      "published_cst": "2026-09-12T05:00:00+08:00",
      "time": "09-12 05:00",
      "body": null,
-     "title_zh": "拉加德诺曼底集会上加入法国选举辩论，加剧欧洲央行退出猜测"
+     "title_zh": "拉加德诺曼底集会上加入法国选举辩论，加剧欧洲央行退出猜测",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-12/lagarde-joins-france-election-debate-at-normandy-rally-feeding-ecb-exit-talk"
     },
     {
      "title": "Billionaire Delo Gives Record £36 Million to Farage's Reform",
@@ -2490,7 +2571,8 @@
      "published_cst": "2026-09-11T22:27:23+08:00",
      "time": "09-11 22:27",
      "body": null,
-     "title_zh": "亿万富翁德洛向法拉奇的改革党捐赠创纪录的3600万英镑"
+     "title_zh": "亿万富翁德洛向法拉奇的改革党捐赠创纪录的3600万英镑",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-11/billionaire-delo-gives-record-36-million-to-farage-s-reform-uk"
     },
     {
      "title": "Oracle Boosts Layoffs Plan by $700 Million",
@@ -2498,7 +2580,8 @@
      "published_cst": "2026-09-11T21:13:29+08:00",
      "time": "09-11 21:13",
      "body": null,
-     "title_zh": "甲骨文将裁员计划增加7亿美元"
+     "title_zh": "甲骨文将裁员计划增加7亿美元",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-11/oracle-boosts-layoffs-plan-by-700-million"
     },
     {
      "title": "Merz Determined to Cling to Power and Defy Party Rebellion",
@@ -2506,7 +2589,8 @@
      "published_cst": "2026-09-11T13:06:24+08:00",
      "time": "09-11 13:06",
      "body": null,
-     "title_zh": "默茨决心紧握权力，无视党内叛乱"
+     "title_zh": "默茨决心紧握权力，无视党内叛乱",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-09-11/merz-determined-to-cling-on-in-germany-and-defy-party-rebellion"
     },
     {
      "title": "US marks 25 years since the Sept. 11 attacks",
@@ -2514,7 +2598,8 @@
      "published_cst": "2026-09-11T04:09:00+08:00",
      "time": "09-11 04:09",
      "body": null,
-     "title_zh": "美国纪念9·11袭击25周年"
+     "title_zh": "美国纪念9·11袭击25周年",
+     "link": "https://www.envoy.cirrus.bloomberg.com/en/news/thp/2026-09-11/us-marks-25-years-since-the-sept-11-attacks-moments-that-divide-time"
     },
     {
      "title": "Tata Sons IPO: When Will It List in India? What to Know About RBI's New Rules",
@@ -2522,7 +2607,8 @@
      "published_cst": "2026-05-08T08:15:27+08:00",
      "time": "05-08 08:15",
      "body": null,
-     "title_zh": "塔塔集团IPO：何时在印度上市？印度央行新规须知"
+     "title_zh": "塔塔集团IPO：何时在印度上市？印度央行新规须知",
+     "link": "https://www.envoy.cirrus.bloomberg.com/news/articles/2026-05-08/tata-sons-ipo-when-will-it-list-in-india-what-to-know-about-rbi-s-new-rules"
     }
    ]
   },
