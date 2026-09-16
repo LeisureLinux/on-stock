@@ -1,6 +1,6 @@
 {
  "date": "20260915",
- "generated_at": "2026-09-16T10:47:25.077843+08:00",
+ "generated_at": "2026-09-16T13:54:37.515511+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -260,7 +260,7 @@
      "summary_zh": "Anthropic CEO等AI高管呼吁协调放缓AI开发，此前一名前员工因安全担忧辞职并发帖引发关注。"
     },
     {
-     "title": "Asian Stocks Steady in Runup to Fed, Oil Declines: Markets Wrap",
+     "title": "Stocks and Bonds Edge Up Before Fed; Oil Declines: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
      "published_cst": "2026-09-15T22:11:24+08:00",
@@ -1757,7 +1757,7 @@
      "summary_zh": "秘鲁7月GDP同比增长3.56%，远超预期，建筑业和零售业推动反弹，但渔业和农业下滑。"
     },
     {
-     "title": "Glencore Faces $2 Billion Suit as It Alleges Radiant World Fraud",
+     "title": "Glencore Faces $2 Billion Radiant World Claim in Singapore",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders",
      "published_cst": "2026-09-15T15:48:13+08:00",
@@ -2680,7 +2680,7 @@
      "summary_zh": "肯尼亚高等法院裁定政府向Vodacom出售Safaricom 15%股权无效，Vodacom将上诉，若失败肯尼亚或需退还约19亿美元。"
     },
     {
-     "title": "Indonesian Power Politics, Not Markets, Forced Out Finance Chief",
+     "title": "Indonesian Power Politics, Not Just Markets, Forced Out Finance Chief Purbaya",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/indonesian-power-politics-not-markets-forced-out-finance-chief",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/indonesian-power-politics-not-markets-forced-out-finance-chief",
      "published_cst": "2026-09-15T12:19:08+08:00",

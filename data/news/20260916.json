@@ -1,16 +1,662 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-16T10:59:54.340738+08:00",
+ "generated_at": "2026-09-16T13:59:41.920749+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 9,
+   "count": 37,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "German Far Right Expects Power in Eastern State Sooner or Later",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/german-far-right-alternative-afd-power-eastern-state-saxony-anhalt",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/german-far-right-alternative-afd-power-eastern-state-saxony-anhalt",
+     "published_cst": "2026-09-16T05:15:00+08:00",
+     "time": "09-16 05:15",
+     "body": [
+      "Germany’s far-right party is counting on surging support among voters to help it break through the firewall that the country’s established parties still hope will prevent it from taking power at state level for the first time since World War II.",
+      "The Alternative for Germany’s stunning election victory in Saxony-Anhalt this month put it just short of an outright majority to govern the eastern state on its own. But AfD party leaders are moving ahead with a bid to govern with backing from rival parties. If they fail, they’re confident that a repeat election would deliver an outright majority, according to a person familiar with the party’s planning.",
+      "The German establishment has been left reeling after the far-right movement took 44% of the vote in the state, trouncing Chancellor Friedrich Merz’s Christian Democrats, which have dominated the region for over two decades.",
+      "The AfD’s next move is to translate that backing into power, enabling the party to try to implement a program of large-scale deportations, opposition to military aid to Ukraine and overhauling the education system to root out what it calls left-wing “propaganda.”",
+      "The anti-immigrant party, elements of which have been deemed a threat to Germany’s constitutional order by domestic intelligence, is set to post further gains in two more regional elections on Sunday — in the eastern state of Mecklenburg-Western Pomerania and in Berlin. But polls show them far less likely to gain a government toehold in those regions.",
+      "In Saxony-Anhalt, the AfD expects to gain enough support to install party candidate Ulrich Siegmund as state premier in a vote soon after the regional assembly convenes on Oct. 6, according to the person, who spoke on condition of anonymity as deliberations take place behind closed doors. The real test will come afterward, when the new government seeks to pass a budget with the help of other parties.",
+      "Success in approving a budget would build trust the AfD would need to prove itself a reliable governing force and potential partner, the person said. But failure could also yield political capital — by giving the AfD an opening to accuse other parties of rejecting Siegmund’s open hand, the person added.",
+      "The party would then make the case that it needs an absolute majority to implement the will of voters, according to the person, signaling a move to a new election. The view reflects pre-election comments by Siegmund, who said that the AfD would simply gain more in a new vote until it secures an absolute majority to govern.",
+      "“We can only win,” Siegmund told Bloomberg News in an interview at the end of August, comments he repeated on election night. The AfD didn’t respond to a request for comment.",
+      "Read More: ‘We Can Only Win’: The Rise of the Far Right in Eastern Germany",
+      "Before that happens, however, Siegmund will try to secure the premiership in a secret ballot in parliament next month, even though he’s three seats short of a majority. Before the election, AfD leaders had signaled that they could win over disaffected legislators from Merz’s CDU.",
+      "But in the fallout from a bruising political loss, the CDU’s parliamentary caucus will shrink to 15 seats from 40. That makes the group more disciplined, with members hewing closer to leadership — and less likely to cast a ballot handing the premiership to Siegmund, according to party officials in Saxony-Anhalt.",
+      "Instead, the AfD is banking on votes from BSW, a breakaway party founded by former Left party leader Sahra Wagenknecht, which last week became the only faction in the state assembly to offer to work with the far right. Wagenknecht has taken aim at the political establishment — particularly Merz — and pointed to areas where her party and the AfD could work together, such as energy prices and rejection of support for Ukraine.",
+      "But some of the far-right’s more strident positions on migration may make any cooperation more difficult. Siegmund triggered an uproar last week when asked about the presence of an Israeli arms firm in Saxony-Anhalt. The AfD doesn’t “categorically” oppose weapons production, Siegmund responded, because authorities will need equipment as part of a planned deportation offensive.",
+      "“That applies, of course, to internal security, our own stability and national defense as well,” Siegmund told reporters.",
+      "The candidate and other AfD members later said the position is valid for non-military equipment, such as buses and aircraft. But the comments were pilloried across the political spectrum, including from the BSW.",
+      "BSW co-leader Fabio de Masi laced into an attempt to tie weapons production to the AfD’s aims for “remigration,” or the mass deportation of foreigners supported by many in the far right.",
+      "“This just shows that they don’t want to govern at all and are looking desperately for an exit through provocation,” De Masi said in a statement.",
+      "Wagenknecht has so far stood by her plan to pave the way for an AfD government. Rather than outright support for the far-right, the BSW founder said that if the other parties don’t back a non-partisan state premier who governs with shifting majorities, the party’s five lawmakers will abstain in a third premiership ballot.",
+      "That would leave the remaining non-AfD factions in Saxony-Anhalt — the CDU, Social Democrats, Greens and Left party — having to oppose Siegmund as a united block. If one other lawmaker breaks rank, Siegmund will become the first far-right state premier since the fall of the Nazi dictatorship in 1945."
+     ],
+     "title_zh": "德国极右翼预计迟早会在东部州掌权",
+     "summary_zh": "德国选择党在萨克森-安哈尔特州选举中获44%选票，试图首次在州层面执政，若失败则寻求重新选举以获绝对多数。"
+    },
+    {
+     "title": "AI Can Supercharge Putin's Goals, Not His Great-Power Ambitions",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/ai-can-supercharge-putin-goals-not-his-great-power-ambitions",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/ai-can-supercharge-putin-goals-not-his-great-power-ambitions",
+     "published_cst": "2026-09-16T05:15:00+08:00",
+     "time": "09-16 05:15",
+     "body": [
+      "When President Vladimir Putin imposed harsh censorship laws in the wake of his 2022 invasion of Ukraine, a major Russian publishing house took drastic action.",
+      "Faced with trawling through the thousands of volumes it had published over the previous twenty years in light of the new restrictive criteria, the Eksmo-AST group trained an AI agent to highlight books and passages that risked falling foul of the law so they could be removed from bookshelves.",
+      "The publisher conducted some 20,000 checks, and 600 volumes were handed over to external experts for additional reviews, Oleg Novikov, the group’s president, told Russian state television. “We’re here on the frontier of technological progress,” he said.",
+      "However overblown the claim, the use of artificial intelligence in Russia is widespread. It lags in the race to develop cutting edge models — a contest dominated by the US and China — but Moscow has become adept at co-opting AI for real-life situations.",
+      "More often than not, Putin’s regime is the chief beneficiary.",
+      "AI-powered drones are increasingly used to bomb Ukraine, bots create fake social-media profiles to disseminate the Kremlin narrative abroad, while at home facial-recognition surveillance networks keep track of citizens. It’s a source of pride for the president, who frequently mentions AI in his speeches and comments to officials.",
+      "“Russia is probably one of only a handful of countries — perhaps one of just three — that both have the opportunity and are actively developing their own sovereign AI capabilities,” Putin boasted recently.",
+      "Russia is developing applied, narrow AI for many spheres of life, including state services, improvements in industrial production, and healthcare. As in the US and the UK, it’s been using AI to develop individual vaccines for cancer, for example.",
+      "It can boast at least two major large-language models: Alice, developed by Russia’s equivalent to Google, Yandex; and Gigachat from Sberbank, the biggest Russian lender.",
+      "Sberbank’s AI is about six months behind China and a year behind the most advanced US models, according to Chief Executive Officer Herman Gref, a long-time Putin ally.",
+      "Yet the clearest sign that these models aren’t competitive is that hardly anyone outside of Russia uses them.",
+      "It’s indicative of how Putin’s ambitious goal to build world-class AI is falling short. The war in Ukraine, sanctions, hardware constraints and the ideology of his regime focused on self-isolation all cloud the chances of realizing his aim, according to people familiar with Russia’s AI capabilities. All asked not to be named discussing sensitive matters of government priority.",
+      "Starved of high-end AI accelerators made by the likes of Nvidia Corp., with investment increasingly geared toward the war economy instead of technology, and lacking access to non-Russian data-sets, the country has turned to Chinese and even western open-weight models for some military applications.",
+      "“You won’t need the world’s best AI to coordinate a swarm of bots or drones. Where you do need frontier AI is to build the next generation of AI models and stay ahead of everyone else,” said Sergei Guriev, the dean of London Business School and a long-standing critic of the Russian president. “I do not think Putin will have that capability.”",
+      "For a power that went head-to-head with the US throughout the Cold War in nuclear weapons and the space race, that risks ultimately diminishing Russia as a leading geopolitical player.",
+      "As Putin himself said: “In essence, major countries — true civilizations — face a historic choice: Either they create their own platform and technological ecosystems, or they become a digital periphery.”",
+      "For now, though, Russia’s AI capabilities are likely sufficient for the state’s needs.",
+      "Long before the full-scale invasion of Ukraine, the Kremlin played with automated assistants to create powerful bot farms that flooded social networks. Now it’s working on building AI-driven drone swarms, said one of the people with direct knowledge of the efforts. A few Chinese open-weight models are more than enough to help in this line of work, the person said.",
+      "Last week, Anthropic PBC said that users in Russia it determined were not linked to the state tried to use its Claude model to develop kamikaze drone swarms.",
+      "There is evidence of more systemic efforts to produce tactical AI applications and systems.",
+      "In February, OpenAI banned a cluster of ChatGPT accounts that were linked to Russian pro-war Telegram channel Rybar and its network for disseminating pro-Kremlin disinformation. European countries meanwhile expect cyber threats from Russia to intensify as more advanced artificial intelligence tools spread.",
+      "Read More: How Russia Is Reshaping Command and Control for AI-Enabled Warfare",
+      "Commercially available AI models can be adapted and redeveloped for military use.",
+      "Many of China’s most capable models allow users to download them and use them independently on their own servers, which means the developers don’t retain technical control over the copies, according to one of the people. These models are good enough for the tasks drone makers need them for, said another.",
+      "This hybrid approach allows Russia to mitigate sanctions and accelerate AI adoption without building foundational models from scratch, according to Kateryna Bondar, a senior fellow with the Wadhwani AI Center at the Washington-based Center for Strategic and International Studies.",
+      "“State-linked organizations use GigaChat and YandexGPT, while developers continue building on open-weight models, now mostly Chinese,” she said.",
+      "When Putin first expressed interest in AI, it was about supporting the economy and facilitating the everyday lives of Russians. Now it’s principally about national security and Russian sovereignty.",
+      "Read More: Putin Turns Russia’s AI Future Into a Kremlin Family Business",
+      "Sberbank’s Gref is one of two Putin allies trying to educate the president about the technology. The other is former Finance Minister Alexei Kudrin, who also advises Yandex. Putin’s daughter, Katerina Tikhonova, has an interest in the subject and is seen as another channel for explaining the technological limits of isolation to Putin.",
+      "Putin often relies on assessments of AI capabilities provided by security agencies which favor tighter controls, two of the people said. While there are still plenty of public calls to develop AI, security officials repeatedly focus on the threats, espionage and restrictions, so this filters out many of the tools, technologies and international links needed to develop it effectively, they said.",
+      "At meetings in the Kremlin and in government, the dominant voice in determining Russia’s approach to AI is that of the Federal Security Service, the people said.",
+      "Russia and Ukraine have gathered an unprecedented amount of battlefield data from cameras attached to the millions of drones they deploy annually. Both Russia and NATO members are testing attritional drones, electronic warfare, missiles and command software in Ukraine.",
+      "Kyiv has offered a vast dataset to international partners to train neural networks to identify targets using real data. The Russian Defense Ministry has recently opened its own archive to trusted domestic developers for training AI models, including hundreds of terabytes of high-quality video from fiber-optic and radio-controlled strike drones.",
+      "Russia is learning and adapting fast, according to Bondar at CSIS, who cited the transfer of self-targeting technology to long-range strike weapons as having “materialized within months.” The main constraint, she said, “is not talent or ambition, but compute and components.”",
+      "AI development requires access to huge sets of data, energy resources and the highest-end electronic components available, not to mention the best brains. While Putin claims he has it all, there are limits to what Russia can do — even if China has proved it can achieve near parity with US capabilities at a fraction of the cost.",
+      "AI is all about scale and the balance here is clearly not in Russia’s favor, according to Ekaterina Vlasova, Russia economist with Bloomberg Economics. She contrasted Russia’s potential investment with spending by US Big Tech companies of more than $700 billion this year alone, arguing that Moscow can’t compete “on computing scale or capital intensity.”",
+      "“The government may push for sovereign AI, but the more plausible path is the gradual adoption of Chinese technologies — potentially re-branded as ‘domestic’ solutions,” she said.",
+      "Sberbank’s Gref claims that his AI is the only “fundamental model fully developed by a Russian company.”",
+      "“Yandex today is just fine-tuning Qwen,” Gref said July 17. “It is based on a Chinese model.”",
+      "Yandex categorically denied Gref’s claim. The company says its Alice AI is the fastest-growing Russian neural network and remains the country’s most popular AI service.",
+      "This year, the Kremlin formed a special commission led by Putin’s economic aide Maxim Oreshkin and Deputy Prime Minister Dmitry Grigorenko to oversee “key technology transforming all sectors of the economy.”",
+      "Russia adopted its first comprehensive AI law, effective Sept. 1, creating two categories of approved models. A “sovereign” model must be developed and controlled in Russia, while a “national” one may use foreign or open-source components but must remain under Russian control and operate on Russian infrastructure.",
+      "Demand for AI is meanwhile on the rise in Russian society. Alexey Zakharov, the founder of recruitment platform SuperJob, has increasingly turned to AI consulting, advising clients in the defense and education sectors how to deploy the technology and launching popular Telegram channels devoted to AI.",
+      "Still, Zakharov is doubtful about Russia’s chances to be able to develop frontier foundation models, saying “there are simply no chips.”",
+      "To be sure, Russia doesn’t need the latest AI to continue to pose a geopolitical threat.",
+      "AI can easily enhance Putin’s abilities as global disruptor and a domestic autocrat, according to Fiona Hill, who served as the top Russia adviser on the US National Security Council in President Donald Trump’s first term and is now a senior fellow at the Brookings Institution.",
+      "“Putin doesn’t need a frontier model to supercharge with AI his military, surveillance or propaganda capabilities,” she said. “There are enough available tools and applications to do that at much lower cost for now.”"
+     ],
+     "title_zh": "人工智能可助推普京目标，但难圆其大国雄心",
+     "summary_zh": "俄罗斯出版商用AI审查约2万本书，下架600本涉 censorship 内容，普京政权借此推广AI用于无人机和监控。"
+    },
+    {
+     "title": "Japanese Refiners Rush for Mideast Crude After Saudi Route Shuts",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/japanese-refiners-rush-for-mideast-crude-after-saudi-route-shuts",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/japanese-refiners-rush-for-mideast-crude-after-saudi-route-shuts",
+     "published_cst": "2026-09-16T04:56:18+08:00",
+     "time": "09-16 04:56",
+     "body": [
+      "Japanese refiners have stepped up purchases of Middle Eastern oil after the shutdown of a key Saudi Arabian pipeline heightened concerns over prompt supplies.",
+      "Eneos Holdings Inc. and Idemitsu Kosan Co. recently bought Oman crude for loading as early as October, according to traders familiar with the matter. That’s earlier than usual, they said, asking not to be named as they’re not authorized to speak to the media. Persian Gulf cargoes purchased in September typically load in November.",
+      "Eneos and Idemitsu didn’t immediately respond to requests for comment.",
+      "Asian refiners are competing for prompt barrels, pushing premiums sharply higher. While total volumes weren’t immediately clear, two 2-million-barrel cargoes traded at premiums of as much as $38 a barrel to the Dubai benchmark, the traders said. Sellers included trading houses and oil majors.",
+      "Read More: Iran Blockade’s Rising Price Tag Drains US Global Military Power",
+      "The buying underscores growing anxiety over Middle Eastern supplies as multiple export routes are disrupted and the US-Iran and Russia-Ukraine wars drag on. Attacks last week forced Saudi Arabia to shut the East-West pipeline, curtailing its main alternative to the Strait of Hormuz. Saudi Aramco is already delaying deliveries to some European customers.",
+      "The 1,200-kilometer (750-mile) conduit stretches across the Arabian Peninsula, allowing millions of barrels a day to bypass Hormuz by sending crude to the Red Sea port of Yanbu."
+     ],
+     "title_zh": "沙特路线关闭后日本炼油商争抢中东原油",
+     "summary_zh": "沙特管道关闭引发供应担忧，日本炼油商提前抢购阿曼原油，两批200万桶货溢价达每桶38美元。"
+    },
+    {
+     "title": "New Zealand Clears Path for Free-Trade Agreement With India",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/new-zealand-clears-path-for-free-trade-agreement-with-india",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/new-zealand-clears-path-for-free-trade-agreement-with-india",
+     "published_cst": "2026-09-16T04:50:08+08:00",
+     "time": "09-16 04:50",
+     "body": [
+      "New Zealand’s parliament passed legislation enabling a free-trade agreement with India, clearing the way for a deal Prime Minister Christopher Luxon has described as “once-in-a-generation.”",
+      "Lawmakers passed the bill 93-29 on Wednesday, Trade Minister Todd McClay said in Wellington. The FTA was backed by the ruling National Party and the main opposition Labour Party, securing a clear majority in parliament.",
+      "“The India FTA opens the door for Kiwi exporters to one of the world’s largest and fastest-growing economies,” McClay said. “Parliament today overwhelmingly backed the long-term benefits the agreement will deliver for all New Zealanders.”",
+      "India’s commerce secretary said Tuesday that he expects the deal, which was concluded in December and signed in April, to become operational in the second half of October. Luxon and Indian Prime Minister Narendra Modi have said they expect the pact to help double two-way trade by 2030.",
+      "India is New Zealand’s ninth largest export market, with two-way trade totaling almost NZ$4 billion ($2.3 billion) in the 12 months through June.",
+      "The agreement eliminates tariffs on a range of New Zealand exports, including wine, kiwifruit and apples, with 57% of shipments becoming duty-free immediately. Once fully implemented, tariffs will be eliminated or significantly reduced on 95% of exports.",
+      "The deal also eliminates levies on Indian exports and eases mobility rules for students and workers from the South Asian nation."
+     ],
+     "title_zh": "新西兰为与印度达成自由贸易协定扫清障碍",
+     "summary_zh": "新西兰议会以93票对29票通过印新自贸协定，预计10月下半月生效，将免除新西兰葡萄酒、猕猴桃等出口关税。"
+    },
+    {
+     "title": "SoftBank CDS Hovers Near 3-Year High on OpenAI Funding Concerns",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/softbank-cds-hovers-near-3-year-high-on-openai-funding-concerns",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/softbank-cds-hovers-near-3-year-high-on-openai-funding-concerns",
+     "published_cst": "2026-09-16T04:49:58+08:00",
+     "time": "09-16 04:49",
+     "body": [
+      "SoftBank Group Corp.’s credit default swaps hovered near a three-year high as traders assessed potential implications from funding plans for OpenAI, one of SoftBank’s biggest bets.",
+      "The five-year CDS were indicated around 383.2 basis points, near the highest level since 2023, according to data provider CMA.",
+      "SoftBank has committed to invest $64.6 billion in OpenAI. The ChatGPT creator is holding early talks with investors about a fresh funding round that would value it at more than $1.2 trillion ahead of an initial public offering. OpenAI Chief Executive Officer Sam Altman told Fortune earlier the company’s long-anticipated IPO is still in the works but would not happen this year.",
+      "“Funding costs are rising,” Bloomberg Intelligence credit analyst Sharon Chen wrote on Wednesday, adding that SoftBank’s offshore bonds are trading at wider spreads amid supply concerns and growing exposure to OpenAI. She added that the delayed IPO could postpone SoftBank’s ability to monetize its OpenAI stake.",
+      "SoftBank recently raised ¥1 trillion through a retail bond in Japan and is also preparing for a potential overseas bond sale. Wider CDS spreads could weigh on the terms of future debt sales.",
+      "OpenAI Weighs Funding Round at Over $1.2 Trillion Valuation (1)"
+     ],
+     "title_zh": "软银CDS徘徊近三年高位 因OpenAI融资担忧",
+     "summary_zh": "软银五年期CDS升至约383基点近三年高位，因其承诺向OpenAI投资646亿美元且后者IPO推迟，融资成本上升。"
+    },
+    {
+     "title": "Hong Kong Vows to Deepen Role as Premier Offshore Yuan Hub",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-vows-to-deepen-role-as-premier-offshore-yuan-hub",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-vows-to-deepen-role-as-premier-offshore-yuan-hub",
+     "published_cst": "2026-09-16T04:33:15+08:00",
+     "time": "09-16 04:33",
+     "body": [
+      "Hong Kong aims to deepen its role in promoting yuan use across financing, investment and trade, and will set up a mechanism to strengthen currency liquidity, the city’s chief executive said in a policy speech.",
+      "The city will also develop a comprehensive, cross-boundary yuan circulation network and facilitate its exchange with other regional currencies, John Lee said in the city’s first five-year development plan. Hong Kong’s government will take the lead in exploring and driving more settlement of government expenditures in the yuan under suitable scenarios, he added.",
+      "Efforts to boost yuan liquidity will accompany earlier measures, including making use of the swap lines with the People’s Bank of China and government‑backed funding channels for banks and businesses, he said.",
+      "The plan aligns with Hong Kong’s push to cement its role as the world’s largest offshore yuan hub, while Beijing seeks wider global use of the currency amid rising demand for dollar alternatives."
+     ],
+     "title_zh": "香港誓深化全球离岸人民币中心角色",
+     "summary_zh": "香港将深化人民币融资、投资和贸易推广，建立流动性机制并拓展跨境流通网络。"
+    },
+    {
+     "title": "Hong Kong Plans Faster Tech Hub Development to Boost Home Supply",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-plans-faster-tech-hub-development-to-boost-home-supply",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-plans-faster-tech-hub-development-to-boost-home-supply",
+     "published_cst": "2026-09-16T04:32:43+08:00",
+     "time": "09-16 04:32",
+     "body": [
+      "Hong Kong pledged to accelerate the development of a technology hub near mainland China, building on previous measures to create momentum for the ambitious multibillion-dollar project.",
+      "Chief Executive John Lee said the city will adopt a smart city concept in the planning of transport, housing and public facilities in Northern Metropolis, during a speech on Wednesday as he unveiled Hong Kong’s first five-year development plan, a blueprint covering the economy and social policy. The land supply for “Spade-ready sites” in the mega development will reach 900 hectares by 2030, a cumulative increase of 750%, according to an official document.",
+      "The area is expected to provide 70,000 homes over the next five years, thus becoming a major source of supply in one of the world’s most expensive housing markets. Lee said the government will also aim to improve the housing quality for both public and private sectors in the new projects there.",
+      "Read More: Hong Kong Aims to Almost Double Spending on Tech, Innovation",
+      "First proposed in 2021, the Northern Metropolis development spans about one-third of Hong Kong’s territory and covers a long-overlooked region bordering Shenzhen. Authorities hope to transform the rural frontier of fish ponds, farmland and villages into a tech area filled with cutting-edge labs and startups for 2.5 million people. The project is also intended to deepen Hong Kong’s physical and economic links with mainland China.",
+      "A multi-purpose project with residential and industrial land plots was awarded to a consortium formed by local developer Sino Land Co., China’s state-owned builders and Chinese online retailer JD.com last month.",
+      "However, the first batch of residential sales in Northern Metropolis have got off to a middling start due to high prices, illustrating the hurdles to turning the area into a new economic engine.",
+      "In February, local officials said they would pull HK$150 billion ($19.1 billion) from the city’s currency defense fund to support the project — a high-profile show of support, while local real estate developers are growing skeptical about the sprawling plan.",
+      "“More large land parcels in the Northern Metropolis will be available for tender through the government’s large-scale land-disposal approach, favoring cash-rich developers,” Patrick Wong, senior analyst at Bloomberg Intelligence, said in a note this month. “Smaller property developers are likely to remain sidelined from land tenders.”",
+      "Hong Kong private home prices have risen more than 7% this year until July, bringing a renewed buzz to the ctiy’s property market with support from mainland Chinese buyers. But sales have been slowing in recent weeks after a series of cross-border capital clampdowns from mainland authorities, dampening interest from homebuyers."
+     ],
+     "title_zh": "香港加快科技枢纽建设以增加住房供应",
+     "summary_zh": "香港提出北部都会区五年发展蓝图，2030年熟地供应将达900公顷、增750%，并提供7万套住房，加速建设科技枢纽。"
+    },
+    {
+     "title": "Investors Look Past Romania Risk to Pocket Junk-Like Yields",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/investors-look-past-romania-risk-to-pocket-junk-like-yields",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/investors-look-past-romania-risk-to-pocket-junk-like-yields",
+     "published_cst": "2026-09-16T04:30:00+08:00",
+     "time": "09-16 04:30",
+     "body": [
+      "Traders are treating Romanian bonds as the European Union’s only junk-rated sovereign debt, with the country’s high yields luring investors despite a protracted political crisis in Bucharest.",
+      "The cost to buy protection against default in Romania over the next five years using credit default swaps, or CDS, is by far the highest among more than 60 global investment-grade-rated sovereign credits tracked by Bloomberg. The situation is similar in local bond markets, where Romania’s two-year yield stands at 6.52% — the highest rate in the EU.",
+      "Many fixed-income investors view such yields as sufficient compensation for risks in the Black Sea nation, which has been engulfed in a crisis since a government collapse in May over austerity measures.",
+      "“At the current levels, it’s starting to be attractive to buy,” said Juan Orts, a strategist at Societe Generale SA in London. “This is the usual classic emerging-market playbook, when there’s too much pessimism; when everybody is worried, that’s when you need to buy.”",
+      "Orts said Romania “dodged the bullet” when Fitch Ratings kept its BBB- rating on hold in July, and that it’ll probably also avoid a downgrade to junk from S&P Global at a review scheduled for next month. The country has the lowest investment grade rating at each of the big three ratings firms, with a Baa3 score from Moody’s Investor Service.",
+      "Read More: Eastern Europe Is Outshining West in Region’s New Bond Order",
+      "Investors are now focusing on this year’s robust deficit reduction and expectations for a similar trend in the 2027 budget. Months of political instability have raised concerns that authorities may not be able to rein in spending as much as planned, as the $430 billion economy struggles to shake off a recession and tame the EU’s highest inflation rate.",
+      "“Domestic risks in Romania have been rising since the collapse of the majority government, however, sovereign spreads have been trading well,” said Sheraz Hussain, a portfolio manager at RBC BlueBay, a London-based asset manager.",
+      "Romanian CDS cost 144 basis points on Tuesday, donw from 167 at the end of April when the political crisis escalated. The next highest investment-grade sovereigns are Oman and Indonesia, which trade around 85 basis points. The two-year leu yields are about 180 basis points above similar Polish bonds and some 235 basis points higher than the Czech Republic’s.",
+      "Its foreign debt, where Romania sports an investment-grade stamp from all the major credit ratings companies, is trading at levels comparable to junk-rated nations including South Africa, Colombia and Brazil.",
+      "With spreads largely stable amid the political turmoil, some now expect the debt to rally if politicians in Bucharest produce a tight budget for 2027 and avoid negative scenarios such as a snap election.",
+      "Viktor Szabo, an investment director at Aberdeen Investments, said there’s value in Romania relative to its rating profile, and sees scope for local-currency bonds to perform well “in an environment of stable policy rates and continued fiscal outperformance.”",
+      "On the other hand, “a weak or unconvincing 2027 budget proposal could still push Romania over the edge” and into junk, he said.",
+      "Fitch said in July that while the budget deficit narrowed more than expected this year, deep divisions among the main political parties “have reduced visibility over fiscal strategy beyond 2026.” Further measures are needed to stabilize debt and avoid a downgrade, it said.",
+      "President Nicusor Dan has scheduled fresh talks with the country’s main political parties this week, aiming to designate a new prime minister and break a four-month-long deadlock. Acting Finance Minister Alexandru Nazare will be hoping for rapid action on the budget soon after.",
+      "“Markets and investors are closely watching Romania’s ability to stay the course and draft a credible 2027 budget,” Nazare said on Aug. 31. “Fiscal credibility is hard won and easily lost.“"
+     ],
+     "title_zh": "投资者无视罗马尼亚风险以获取垃圾级收益率",
+     "summary_zh": "罗马尼亚债券收益率欧盟最高，两年期达6.52%，投资者视其为高回报机会，尽管政治危机持续。"
+    },
+    {
+     "title": "PBOC Chief Unfazed by Credit Slump as Era of Surging Loans Ends",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/pboc-chief-unfazed-by-credit-slump-as-era-of-surging-loans-ends",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/pboc-chief-unfazed-by-credit-slump-as-era-of-surging-loans-ends",
+     "published_cst": "2026-09-16T04:25:51+08:00",
+     "time": "09-16 04:25",
+     "body": [
+      "China’s central bank governor signaled a long period of massive credit growth has come to an end, in what amounted to a message of reassurance for markets after an abrupt deceleration in lending as the economy loses its appetite for borrowing.",
+      "Days after official data showed loan expansion weakened far more than expected in August, People’s Bank of China Governor Pan Gongsheng said in an article published in the Communist Party’s policy magazine Qiushi that the slowdown in overall financing helps keep the debt levels in the economy stable.",
+      "Pan described it as a natural development during the economy’s transition toward a new normal of slower loan growth. In an unusually lengthy analysis, he cited several reasons for the moderation, including the rise of high-tech sectors that rely less on debt compared with property developers.",
+      "“The real economy’s demand for credit growth is changing,” Pan wrote. “It is difficult, and also unnecessary, for overall credit to maintain its past growth rate.”",
+      "The comments expand on remarks Pan made at the Lujiazui forum in Shanghai in June and offer a more detailed diagnosis of the economic challenges facing China.",
+      "Following more than a decade of torrid credit growth, the sharp slowdown in recent years has raised concerns about the health of the world’s No. 2 economy. While the bursting of the property market bubble was an important factor, many also see the reluctance to borrow among households and businesses as evidence of their low confidence.",
+      "In the Qiushi article, Pan said that the ratio between mid- and long-term loans and the output of new industries is usually below one, which shows that high-tech industries need fewer loans. That’s because they usually don’t require as many physical assets such as warehouses or land.",
+      "By comparison, the ratio for traditional industries like property is above one, suggesting that more credit is needed.",
+      "China’s Tilt to Bonds From Loans Gives PBOC Broader Easing Tool",
+      "According to Pan, China needs to prevent the growth of financing from outpacing the needs of the real economy, which could result in the accumulation of idle funds and drive up the so-called macro leverage ratio, a measure of debt levels. Otherwise the risk is that there would be a delay in the exit of inefficient companies, a outcome that could eventually undermine the economy’s efficiency, he said.",
+      "Going forward, the PBOC will continue to downplay numeric targets such as loans, and improve its mechanism for adjusting short-term rates, Pan said.",
+      "China’s Once-Mighty Credit Cycle Is Fading as World Market Force"
+     ],
+     "title_zh": "央行行长不惧信贷低迷 贷款激增时代终结",
+     "summary_zh": "央行行长潘功胜称中国信贷高增长期已结束，8月贷款扩张大幅低于预期，融资放缓有助于稳定债务水平。"
+    },
+    {
+     "title": "UniCredit Banker Sees Bigger Rally in Soaring Polish Equities",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/unicredit-banker-sees-bigger-rally-in-soaring-polish-equities",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/unicredit-banker-sees-bigger-rally-in-soaring-polish-equities",
+     "published_cst": "2026-09-16T04:15:00+08:00",
+     "time": "09-16 04:15",
+     "body": [
+      "Poland’s revved-up stocks have further to run as new investors pour cash into eastern Europe’s biggest equity market, according to a senior banker at UniCredit SpA.",
+      "Foreign funds are increasing allocations for Polish stocks, with some entering the market for the first time, Mateusz Kacprzak, head of corporate and investment banking at UniCredit in Poland, said in an interview. They are drawn by attractive valuations, a strong economy and market depth not seen elsewhere in the region, he said.",
+      "The WIG20 stock gauge has advanced 29% this year, outpacing a 20% jump in emerging-market equities. The price of the benchmark Warsaw index has tripled in less than four years, flipping the narrative around stock investing in Poland, where returns lagged peers for nearly two decades.",
+      "“We are an attractive enough market for this interest to continue — assuming the global investment environment remains supportive,” Kacprzak said. “Poland is nowhere near a ceiling.”",
+      "Read More: Polish Stocks Beat US and European Peers as Foreigners Pile In",
+      "Local equity funds have attracted about 1.5 billion zloty ($402 million) in net inflows this year, he said. There’s also 7 billion zloty in payouts from the 10 largest dividend-paying companies alone to buoy the market.",
+      "Takeovers are creating yet another pool of cash for potential stock investments. A successful completion of Alimentation Couche-Tard Inc.’s tender offer for Zabka Group SA could free up roughly 6 billion zloty for Polish funds alone, according to Kacprzak, with further proceeds potentially coming from a buyout bid for parcel locker firm InPost SA.",
+      "Unlike foreigners, who can redeploy capital across markets, domestic institutions are more likely to reinvest in Polish securities, he said.",
+      "UniCredit relaunched operations in Poland late last year and has already become the country’s third-largest equity book-runner, according to data compiled by Bloomberg. A decade ago, the Italian lender exited the country after selling a controlling stake in Bank Pekao SA.",
+      "Kacprzak expects Poland’s transaction pipeline to remain active beyond the public market. Energy should remain particularly busy amid asset rotation in renewables, where developers sell operating portfolios. There may also be deals in the defense sector, which has been buoyed by record spending amid risks linked to the ongoing war in neighboring Ukraine.",
+      "UniCredit advised in five equity transactions in Poland this year, including the sale of shares in XTB SA, Synektik SA and Creotech Instruments SA. Kacprzak described investor demand in such transactions as “very strong,” with international demand sometimes matched by local institutional investors and wealthy individuals, helping support pricing.",
+      "While the rally has made Polish shares more expensive, the market still trades at a discount to developed markets. That makes it more appealing to foreign investors, Kacprzak said. The WIG20 trades at about 11 times forward earnings, compared with roughly 21 times for the S&P 500 and 15 times for the Stoxx Europe 600.",
+      "“The question about the valuation levels at which a wide group of investors would consider the market already too expensive is more of a global topic than one concerning just Poland,” he said. “For now, we don’t see such symptoms. No one is asking if company X or Y is already too expensive.”"
+     ],
+     "title_zh": "裕信银行家看涨已飙升的波兰股市",
+     "summary_zh": "波兰股市今年上涨29%，外资涌入且本地基金净流入约4亿美元，银行家称估值与基本面支撑涨势仍有空间。"
+    },
+    {
+     "title": "Vietnam Warns of Blackouts From 2027 as Power Projects Stutter",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/vietnam-warns-of-blackouts-from-2027-as-power-projects-stutter",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/vietnam-warns-of-blackouts-from-2027-as-power-projects-stutter",
+     "published_cst": "2026-09-16T04:07:26+08:00",
+     "time": "09-16 04:07",
+     "body": [
+      "Vietnam could face electricity shortages from next year as power-generation and grid projects fall behind schedule, according to the country’s trade ministry, putting plans for double-digit economic growth at risk.",
+      "Citing “very slow” progress in recent years, the ministry said just 5% of power projects under a national growth plan had gone into operation, state media reported. Most were still in development or awaiting approval, held up by issues including the choice of investors, land procedures and grid preparation.",
+      "Though supply is expected to meet demand this year, rising consumption and delays to new projects risked creating a 4,200-megawatt shortfall in power capacity next year and an electricity deficit of about 2.9 billion kilowatt-hours, the ministry said in a report submitted to the prime minister.",
+      "That gap could widen to about 13,900 MW and 61.2 billion kWh in 2030, it said.",
+      "Read More: Vietnam’s 10% Growth Dream at Risk as Iran War Chokes Fuel Flows",
+      "Vietnam’s push for at least 10% annual economic growth through the end of the decade is adding pressure to the nation’s power grid, with new factories, technology and infrastructure projects lifting electricity demand faster than generation and transmission capacity can be added.",
+      "These risks were exposed by blackouts in 2023, when drought reduced water levels in hydropower reservoirs and forced outages at factories and industrial parks in the country’s north.",
+      "To avert future shortages, the ministry reiterated an earlier proposal to add more coal-fired power capacity as an alternative to projects that rely on imported liquefied natural gas. These projects have faced delays as the war in the Middle East disrupts supplies of the fuel.",
+      "Read More: Vietnam Eyes Building More Coal Power as War Squeezes LNG Supply",
+      "The ministry also backed renewable-energy projects that can be developed relatively quickly. In particular, it proposed accelerating solar projects, including the installation of about 2,800 MW of capacity at government offices, schools, hospitals and other public buildings by June."
+     ],
+     "title_zh": "越南警告2027年起或因电力项目停滞面临停电",
+     "summary_zh": "越南因电力项目严重滞后，明年或面临4200兆瓦电力缺口，2030年缺口恐扩大至13900兆瓦，威胁其10%经济增长目标。"
+    },
+    {
+     "title": "Iran War Fuels Increase in Gulf Countries Spending on Anti-Drone Defenses",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/iran-war-fuels-increase-in-gulf-countries-spending-on-anti-drone-defenses",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/iran-war-fuels-increase-in-gulf-countries-spending-on-anti-drone-defenses",
+     "published_cst": "2026-09-16T04:01:05+08:00",
+     "time": "09-16 04:01",
+     "body": [
+      "As Iran pummels cities and infrastructure in the Persian Gulf region with Shahed attack drones, it’s sparking a response that could reshape the security landscape of the Middle East. Since the war began, more than $5 billion in contracts have been announced or approved for defense firms like Anduril Industries and  RTX from the US, Rheinmetall from Germany and Australia’s EOS. Ukrainian companies are also pursuing deals, and while they’ve been honing their systems in the four years since the full-scale Russian invasion, they face their own specific challenges.",
+      "The billions of dollars in spending augurs a new crop of global defense companies, and the systems they’re putting in place offer the world an early glimpse at how advanced economies will attempt to insulate themselves from the unmanned systems reshaping modern battlefields. “There’s almost limitless money,” says Andreas Krieg, a professor in security studies at King’s College London who’s advised Qatar’s military. “What we’re seeing now is probably the greatest spending spree in Gulf defense history.”",
+      "Even before the Iran war, Gulf nations had spent $50 billion on advanced air defenses over multiple decades. But those systems, which include RTX Corp.’s Patriot missiles and Lockheed Martin Corp.’s Terminal High Altitude Area Defense, were designed with ballistic missiles in mind. The proliferation of cheaper projectiles such as Shaheds — effectively propeller-driven cruise missiles often referred to as drones — pose a different problem. The slow-moving Shaheds can fly low, evading radar defenses. Unlike missiles, Shaheds can also change direction midflight, allowing them to approach from unexpected angles in large numbers.",
+      "Such drones force defenders into economically painful exchanges. While a Shahed costs as little as $30,000, the most advanced Patriot PAC-3 missiles are more than $4 million each. PAC-3s have been used only sparingly against drones in Iran, but the US and its Gulf allies have likely used more than 2,500 of the missiles during the war, at a cost of at least $10 billion, according to Bloomberg Businessweek’s analysis of publicly available data. Even older-model Raytheon AIM-9 air-to-air heat-seeking missiles, which have been fired from warplanes to counter Shaheds, cost several hundred thousand dollars. As an ad hoc solution, some Gulf countries also dispatched Apache attack helicopters to shoot down Shaheds with machine guns, Krieg says.",
+      "Western companies see an opening to sell novel defense systems, many of which they’ve tested in Ukraine. Anduril Industries Inc. sells a product called Lattice, which collects information with various sensors then uses that data to guide systems such as anti-drone defenses. RTX’s FS-LIDS system uses a mix of cheap Coyote interceptors and signal jamming to counter unmanned aerial vehicles. This summer, EOS Defense Systems secured a $124 million order from the United Arab Emirates for its Slinger 30-millimeter cannon, which uses specialized ammunition to knock down drones.",
+      "EOS says it has installed more than 60 Slinger cannons in the Middle East that have shot down hundreds of attacking munitions. Each Gulf nation has several hundred potential targets, including military installations, energy facilities and airports, that require multilayered protection. Defending each one can cost several million dollars, putting the total market size in the tens of billions.",
+      "As they struggle to resupply their defenses after months of attacks, Gulf Arab states are pushing for a different kind of relationship with suppliers. They’re interested in establishing joint production and layered systems that can counter threats ranging from ballistic missiles to cheap drones. “Gulf countries don’t want to be customers anymore,” Krieg says. “The big push strategically is about autonomy, developing resilience — and part of resilience means you are developing your own pipeline through joint ventures.”",
+      "Some of these countries are looking at high-energy weapons like lasers and electronic warfare systems, but both technologies have shortcomings. Lasers can be delicate and require a lot of electricity, while electronic warfare capabilities have to be constantly updated to avoid becoming vulnerable to jamming. Militaries in the Gulf have struggled to resupply high-value interceptors from Western suppliers. They’re now seeking a mix of partners, including some from countries whose defense industries haven’t been major exporters, such as Turkey and Ukraine. Some Gulf states, including Saudi Arabia, have turned to Turkey’s Baykar Technologies. The UAE is still assessing counterdrone technologies and will likely buy them from several countries, according to Mohammed Baharoon, director general at the Dubai-based research institute B’huth, which advises the UAE government.",
+      "Governments in the region point to Ukraine’s strategy of assembling layers of sensors, electronic warfare systems, interceptors, software and well-trained operators that can constantly adapt to changes on the battlefield as a model they want to emulate. “What they want to purchase is the air defense concept that Ukraine has put together,” says  Clara Kaluderovic, a technology entrepreneur and a nonresident fellow at the Atlantic Council.",
+      "Ukrainian President Volodymyr Zelenskyy has offered his assistance to Gulf states in firming up drone defenses while arguing that the region should use its close ties to Russia to push for a ceasefire in Ukraine. His country has signed defense cooperation agreements with Saudi Arabia, the UAE and Qatar, and Ukrainian defense companies say they’ve gotten interest from potential customers in the Gulf. Yet no commercial deals have been made public.",
+      "There are a number of complicating factors. Ukrainian anti-drone systems rely heavily on skilled human operators, a feature that increases effectiveness and reduces costs but requires specialized training and lots of personnel. Ukrainian drone makers lack the resources that rivals dedicate to training new customers, a major issue in the Gulf, where troops are accustomed to advanced US systems and training.",
+      "Ukrainian companies are also limited by their country’s export laws. Many say they can make more interceptors than the Defense Ministry is ordering, but Kyiv is blocking international sales of anything that could be used to fight off the Russian invasion, especially amid a shortage of Patriot interceptors. The government has also looked to facilitate individual deals. Oleh Tsilvik, acting head of Ukraine’s State Service for Export Control, says he has granted export permission to at least one Ukrainian drone maker, but he declined to provide details. Businessweek has been unable to identify any company actively exporting military drones.",
+      "The Trump administration, by contrast, has prioritized and expedited counterdrone sales in the Gulf. It’s already approved a potential $2 billion deal to send Anduril counterdrone systems to Kuwait, and last year the company announced a production alliance with UAE defense firm EDGE Group PJSC. Virginia-based AeroVironment Inc., which is providing anti-drone lasers to the US Army, is pursuing similar deals.",
+      "The counterdrone market is beginning to expand beyond governments. The drone maker Powerus Inc. recently signed a deal to protect undisclosed oil and gas infrastructure in the Middle East. (Donald Trump Jr., the president’s son, is a partner at an investment firm that has invested in both Powerus and Anduril.) And Erik Prince, the founder of military contractor Blackwater, established a venture with Ukrainian drone software company Swarmer that offers air defense to both governments and critical infrastructure operators. “Just think about all the things that really do need protection: data centers, logistic hubs and refineries,” says Brett Velicovich, Powerus co-founder and president. He says this market could be larger than the military market.",
+      "Ukrainian companies are still working out how to get into that business and capitalize on its companies’ knowledge base for defeating mass drone attacks. The competition, meanwhile, is threatening to entrench itself before they get the chance. “There are some real risks for Ukraine here,” says Robert Tollast, a researcher in land warfare at the Royal United Services Institute in London. “This is an immensely competitive environment.”"
+     ],
+     "title_zh": "伊朗战争推动海湾国家增加反无人机防御支出",
+     "summary_zh": "伊朗无人机袭击促使海湾国家掀起史上最大防务采购潮，已批逾50亿美元合同，推动联合生产与反无人机系统需求。"
+    },
+    {
+     "title": "Chris Rokos: No, Tax Isn't Driving UK Billionaires to Athens",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-16/chris-rokos-no-tax-isn-t-driving-uk-billionaires-to-athens",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-16/chris-rokos-no-tax-isn-t-driving-uk-billionaires-to-athens",
+     "published_cst": "2026-09-16T04:00:07+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "There are two certainties in life: death, and taxes getting the blame whenever rich people leave the UK. Billionaire hedge fund manager Chris Rokos departing for Greece, where he’ll pay just €100,000 ($115,000) a year, is the latest to provoke a flood of recriminations. But these stories — and claims of an exodus of the super-rich from Britain — should be taken with a hefty dose of salt.",
+      "While taxation is an important influence on the behavior of individuals and companies, it’s rarely the only — or even decisive — factor in where they locate. And although anecdotes are plentiful, there’s scant evidence that British fiscal changes in recent years have prompted a rush of emigration. Rokos hasn’t said why he’s leaving; but consultants regularly claim that threats of wealth and departure taxes, as well as changes made to the UK’s special deal for non-domiciled residents, have motivated many departures.",
+      "However, the data suggest that previous efforts to squeeze more from the rich had a minimal effect on people whose permanent home was already elsewhere. That’s what encouraged the last Conservative administration to propose scrapping the preferential deal for so-called non-doms, which exempted non-UK income and investment gains from taxes, and persuaded the current Labour government to end it from April 2025.",
+      "Tax exiles have probably existed for as long as governments have raided personal wealth. In the UK, the peak era for high earners fleeing was the 1960s and 1970s, when the top rates reached nearly 100%. The Rolling Stones, Pink Floyd and David Bowie all left, at least temporarily. The Beatles’ first protest song wasn’t about war or injustice, but Her Majesty’s Revenue and Customs: Taxman.",
+      "Some nations make life as painful as possible for leavers by imposing exit charges or other barriers, but Britain for most of its history hasn’t, according to independent tax consultant Dan Neidle. “We’ve always aimed to be attractive to incomers and entrepreneurs who want to build businesses,” he told me. The idea is that successful people and companies will do more for the economy and the public purse.",
+      "Among Neidle’s ultra-high-net-worth clients, around 10% are leaving in reaction to the scrapping of non-dom benefits. The biggest problem for many wasn’t the hit to income, but the move to include worldwide assets in inheritance tax, he said. And wealthy potential immigrants to the UK aren’t just weighing the prospect of future tithes on their wealth: “The people I talk to are as much concerned about uncertainty in immigration rules, many are worried they can’t bring their families anymore, and fear of crime,” Neidle told me.",
+      "Official numbers show regular inflows and outflows of people claiming non-dom status. The year before it ended, 9,000 non-doms left — maybe to avoid the changes, maybe for other reasons. However, 8,600 newcomers arrived, even though they’d only get the previous, better deal for a year at most.",
+      "This turnover is historically consistent. There was a large net outflow during the pandemic in 2020, while a big drop in total non-doms in 2017 and 2018 wasn’t necessarily because of departures; the Conservative government changed the classification rules from April 2017, and British-born non-doms or foreigners who’d spent 15 out the past 20 years in the UK started losing their privileges.",
+      "That 2017 change provided a handy opportunity to judge how tax influences migration. Academics from the London School of Economics given troves of confidential, anonymized data by HMRC found that those facing higher charges because of the adjustment were just 0.2% more likely to quit Britain. What’s more, the people in this group likeliest to go were those already paying the least in Britain because most of their income and assets were undeclared offshore.",
+      "These studies helped convince policymakers that the regime could be scrapped entirely without causing an exodus. The rich, it turns out, like the UK’s cultural attractions, its schools and health services, and the friends and families they have here. Many are employed in London at better pay than is available in competing financial centers; the City employs more people now than it did before Brexit.",
+      "But it’s not only about non-doms. Billionaires like Rokos already get a pretty good tax deal here. Media reports about his exit quoted his tax contribution at £330 million ($446 million) last year, but that number is from a Sunday Times ranking that includes levies paid by his company and employees, as well as personal income and profit charges.",
+      "The effective average rates paid by the very rich in Britain are lower than those paid by normal workers on just salaries. The income of the wealthy often includes profit shares or capital gains, which attract lower charges. A 2023 study, again using confidential data, found that those earning more than £500,000 annually paid an average tax rate of 38%; that dropped to 30% or below for those earning more than £3 million. And beneath that, some extremely high earners paid as little as 12%.",
+      "Apply a 30% rate to Rokos’s 2025 income of £477 million and he’d have paid only £143 million — and his bill may have been even lower, thanks in part to his nearly £200 million donation to Cambridge University that could have created a nice deduction. Even at £143 million, HMRC would have received less than 0.2% of what it garnered from the top 1% of UK earners – and less than one-tenth of 1% of all UK income tax that year.",
+      "Britain shouldn’t try to compete directly with Greece, where Rokos is moving to, or with somewhere like Italy, which also offers a very low flat charge to wealthy incomers. Plenty of rich people want to live in the UK or are held here by their jobs and family; reducing tax bills to a fraction of what they currently pay would be an unnecessary freebie that the country can’t afford.",
+      "Sure, there could come a point where elevated tithes prompt more people to seek exile, like those pop stars 50 years ago. But there are many other factors driving the lives and business choices of investors, celebrities and globe-trotting billionaires. The US has one of the most far-reaching tax authorities in the world – and yet the dynamism of its economy and capital markets still attract wealth and talent like nowhere else. Minor panics about a handful of notable emigrants from the UK help no one apart from the industry of advisers who are paid to manage the wealth – and taxes – of the rich.",
+      "More from Bloomberg Opinion:",
+      "Want more from Bloomberg Opinion?       OPIN <GO>    . Or subscribe to       our daily newsletter    ."
+     ],
+     "title_zh": "克里斯·罗科斯：不，税收并非英国亿万富翁涌向雅典的原因",
+     "summary_zh": "富豪因税收政策离开英国常被夸大，实际数据表明税收并非决定性因素，英国仍吸引新移民。"
+    },
+    {
+     "title": "Germany's Surging Far Right Tells Centrists Voters Want Results",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-16/germany-s-surging-far-right-tells-centrists-voters-want-results",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-16/germany-s-surging-far-right-tells-centrists-voters-want-results",
+     "published_cst": "2026-09-16T04:00:04+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "German Chancellor Friedrich Merz took an ambitious gamble when he came to power last year: that his coalition government could counter a rising tide of far-right populism with bold action to revive the country’s economy, including more than a trillion euros in public investment.",
+      "Yet the populists keep gaining, illustrating how high the stakes are becoming — both in Germany and across much of Europe and the US. The threat can’t be isolated. Centrist leaders must demonstrate that they can respond to voters’ legitimate concerns.",
+      "The recent vote in the state of Saxony-Anhalt, where the right-wing Alternative for Germany party won about 44%, inevitably conjures frightening historical parallels. In 1930, the National Socialist German Workers’ Party gained its first government foothold in neighboring Thuringia, where it tested its ability to establish control over the police force and education. The electoral success brings the AfD closer than ever to breaching the “firewall” that mainstream parties have maintained to prevent a repeat: Excluding it from government would require the center-right Christian Democratic Union, which garnered about 17% of the vote, to reach all the way to the extreme left. Some legislators might instead choose to cooperate.",
+      "To be sure, today’s Germany isn’t the Weimar Republic. Its problems don’t compare to the hyperinflation and political chaos of a century ago. Its constitution contains safeguards that are stronger than the firewall and intended to block the establishment of dictatorship by democratic means. Parties don’t have paramilitary wings capable of terrorizing legislatures and killing opponents.",
+      "Nonetheless, the AfD is selling a dangerous mix of ethnic nationalism and reactionary policy. Its stated aims include ramping up deportations (particularly of people from Syria), exiting the euro, ending the green transition, abandoning the defense of Ukraine and restoring relations with an authoritarian Russia. Its leaders have repeatedly portrayed Germans of immigrant background as second-class citizens and employed Nazi-era rhetoric, and its intentions for Saxony-Anhalt include  purging the civil service and organizing “voluntary citizens’ patrols.” Even some other European far-right parties have distanced themselves.",
+      "How, then, can Germany’s centrists prevail? The AfD has surged in the polls nationwide for a reason: People are increasingly frustrated with established parties they perceive as out of touch and incompetent. The country’s flagship manufacturers are slashing jobs; more than 40% of its once-storied long-distance trains don’t run on time; many Germans worry that immigration is out of control. Firewalls won’t fix that. Banning the party would be even worse, sending voters the message that their dissatisfaction is illegitimate.",
+      "The right response is to deliver tangible results — preferably before the next federal election, which must happen by March 2029. This requires action to boost competitiveness, ensure security and encourage skilled immigration while more effectively managing asylum cases — all of which would be easier with more cooperation at the European Union level.",
+      "Merz started off bravely, ditching Germany’s extreme budget constraints to address decades of underinvestment, including in transportation infrastructure and defense. He has also pursued reforms to improve the country’s longer-term fiscal trajectory, at a time when such prudence is troublingly rare among developed nations. Yet his approval rating has fallen precipitously, fueling speculation that he won’t last to the end of his term. He’ll face another electoral test on Sunday in the northern state of Mecklenburg-Vorpommern, where the AfD is polling in first place.",
+      "That’s not entirely Merz’s fault. Economic transformation can’t happen overnight. His government has faced obstacles beyond its control, such as America’s punishing trade policy, subsidized competition from China and the energy-price shock of the war in Iran. But it’s also guilty of suboptimal execution (some investment has been poorly targeted or filled budget holes), undermining much-needed EU reforms, counterproductive infighting, and failure to connect with voters, particularly in places that have embraced the AfD.",
+      "Once an exception to the right-wing revolt afflicting Europe, the US and beyond, Germany is now at the forefront. Its centrists need to recognize: They’re running out of time to make the trains run on time. The next few years are their best and possibly last chance to keep the populists’ rise from becoming overwhelming. It’s a moment they can’t afford to waste.",
+      "More From Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? Terminal readers head to OPIN. Or you can subscribe to our daily newsletter."
+     ],
+     "title_zh": "德国激增的极右翼告诉中间派选民想要结果",
+     "summary_zh": "德国选择党在萨安州得票约44%，极右翼持续壮大，默茨以万亿欧元投资重振经济的豪赌未能遏制其势头。"
+    },
+    {
+     "title": "Reform £72 Million Donation: Crypto Billionaires Love Farage for a Reason",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-16/reform-72-million-donation-crypto-billionaires-love-farage-for-a-reason",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-16/reform-72-million-donation-crypto-billionaires-love-farage-for-a-reason",
+     "published_cst": "2026-09-16T04:00:02+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "The record-breaking £72 million ($97 million) of donations to Reform UK — given by two crypto billionaires who until recently were based overseas — will, as the party contends, help it prepare for government, providing resources to hire policy specialists, expand and professionalize its operations and build a nationwide electoral machine. What they may not do is dispel the atmosphere of sleaze and rule-bending that threatens the success of Nigel Farage’s populist project.",
+      "The twin £36 million contributions announced over the weekend by Ben Delo and Christopher Harborne are four times the previous UK record for the biggest single political gift by a living individual — the £9 million that Harborne gave to Reform in the third quarter of last year. Combined, they are 60% more than the ruling Labour Party’s income for the whole of last year and more than double what the main opposition Conservatives took in. Far from leveling the playing field, as Reform argues, the donations give the far-right party a commanding financial advantage over its rivals.",
+      "At what price, though? Reform has been mired in successive funding scandals that have eroded its support this year. The size of these gifts and their provenance — from an industry that many associate with illicit activities such as money laundering — ensure Reform’s financing will continue to be dogged by controversy. The donations are permitted as the law currently stands but were timed to preempt reforms that will cap contributions by Britons abroad and those who have been back in the UK for less than a calendar yearThis means being resident from Jan. 1 through Dec. 31, so someone who returns to the UK on or after March 25 this year will remain subject to the cap for the rest of 2026 and for the whole of 2027.  at £100,000 per year. Those legislative changes, which are currently going through Parliament, are designed to be retroactive: Farage’s party may yet have to give the money back.",
+      "The episode reflects “the appalling political antennae of a lot of business people,” Justin Fisher, a professor of political science at London’s Brunel University who has given expert evidence to parliamentary committees on electoral financing, told me. “It just looks like smelly money.”",
+      "The two donors’ own writings attest to a lack of awareness of how their interventions may come across to ordinary voters. Both have contributed op-eds to the Telegraph that present their intention to bankroll Reform as an act of altruism. Harborne, writing in the newspaper on Saturday, described his £36 million donation as a “philanthropic” gift to the country, stretching the definition of that word. In an April article, Delo announced he was moving back to Britain so he could contribute more to Reform, saying that the biggest obstacle to the UK’s recovery was the self-deception of “elites.” The irony of a billionaire complaining about elites isn’t unknown elsewhere, but nevertheless deserves to be noted.",
+      "By happy coincidence, Reform also has a policy program that is extraordinarily favorable to the crypto industry. To look kindly on this, making a lot of money in digital currencies may condition one to think that more crypto would be good for everybody. But it’s not as if the other main parties are against digital currencies: Labour and the Conservatives have their own policies to develop the business. Only Farage’s party promises such lavish exceptionalism, including: a 10% tax rate on crypto gains; plans to set up a sovereign Bitcoin reserve; and a pledge to scrap the Bank of England’s digital pound project, eliminating a potential competitor. (Delo says he has exited the industry and future UK law changes can’t help or hurt him; Harborne says he expects nothing in return for his donations.)",
+      "Elsewhere, the duo exhibit a credulousness that isn’t normally found among the ultra-rich. Delo, who set up the BitMEX trading platform in Hong Kong in 2014 after working for JPMorgan & Co., wrote that he was backing Reform in reaction to a culture of chronic dishonesty in Britain. For someone who values truthfulness in public life, Farage — who has a record of exaggerated or discredited claims, particularly on immigration (such as asserting migrants were eating swans or using a £234 billion migration cost estimate without acknowledging it had been withdrawn) — isn’t the most obvious place to turn. In a YouGov poll this month, 73% of Britons described the Reform leader as “sleazy.”",
+      "Meanwhile, Harborne, who lived in Thailand for more than two decades and amassed a 12% stake in the cryptocurrency exchange Bitfinex, listed his concern about climate change among the issues that prompted his support for Reform. Has he listened lately to the party’s deputy leader, Richard Tice, who says human attempts to stop global warming are \"arrogant\" and we should enjoy the warmer weather?",
+      "The government said in July that individuals returning to the UK would be subject to the £100,000 cap for at least a full calendar year “to prevent the rules being dodged” — so announcing donations of 360 times that figure in September has the look of a deliberate provocation. If forced to return the money, Reform will have the opportunity to cry “establishment stitch-up.” Flouting and testing the rules is hardwired into Reform, as my colleague Rosa Prince has noted. That’s part of the brand appeal of an insurgent party. But the anti-establishment shtick can wear thin.",
+      "Reform isn’t wrong that it has been targeted. Harborne’s £9 million donation was a catalyst for the cap announced in March. But this reflects a legitimate public-policy concern over the potential power of a tiny number of ultra-wealthy individuals based outside the UK to influence the political process and nudge the country in the direction of a US-style system dominated by megadonors. Britain’s democracy needs protecting from the wall of cryptocurrency wealth: £36 million is a system-challenging sum yet represents only 0.2% of Harborne’s £18.2 billion fortune, as estimated by the Sunday Times Rich List.",
+      "If Delo and Harborne are truly committed, all they need do is live (and presumably pay tax) in the UK through the end of next year, after which they will be freed from the donation cap. For patriots motivated only by the good of the country, that shouldn’t be too much to ask.More from Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? OPIN <GO> . Or you can subscribe to our daily newsletter ."
+     ],
+     "title_zh": "改革党获7200万英镑捐款：加密货币亿万富翁青睐法拉奇有原因",
+     "summary_zh": "加密货币亿万富翁向英国改革党捐款7200万英镑创纪录，但该党深陷资金丑闻，捐款可能因追溯立法被迫退还。"
+    },
+    {
+     "title": "Fed Hike: Who's Afraid of Big Bad Bond Yields?",
+     "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-16/fed-hike-who-s-afraid-of-big-bad-bond-yields",
+     "link": "https://www.bloomberg.com/opinion/newsletters/2026-09-16/fed-hike-who-s-afraid-of-big-bad-bond-yields",
+     "published_cst": "2026-09-16T04:00:01+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "To get John Authers’ newsletter delivered directly to your inbox, sign up here.",
+      "As the world braces for a rise in US overnight rates to 4%, and a possible decisive move in US 10-year yields above 5%, the response of the stock market — or rather the lack of it — speaks volumes.",
+      "So far this year, the S&P 500 has gained 10.7% (not including dividends), while FTSE’s index for the rest of the world is up 12.1%, in dollar terms. They are 3.0% and 3.75% down respectively from all-time highs set in the last month. This isn’t a banner year, but it’s nothing any sensible person could complain about.",
+      "This performance has happened despite an 80-basis-point rise in 10-year Treasury yields, and a massive swing in the pricing for the terminal rate of fed funds, expected to be reached next summer, to 4.56% from 3.09%. It’s also withstood an energy price shock nobody saw coming, with the price of Brent crude that can be locked in for the end of this year rising 65%, from $60 at the outset to $99.22 now.",
+      "All these negative developments have indeed had an impact on earnings multiples that investors will pay for stocks, which are down significantly over the last 12 months. But share prices are holding up far better than in any previous episode when valuations declined on this scale:",
+      "The reason, in a word, is earnings. Forecast profits have gone through the roof this year, mainly but not entirely due to the extraordinary investments in artificial intelligence (which should create costs for some as well as revenues for others). Rolling 12-month forward earnings for the S&P 500, and particularly the tech sector, have leapt forward in unprecedented fashion:",
+      "If higher yields lead to shares trading at a lower multiple of those earnings, that’s something that can be lived with. The more alarming possibility is that higher yields could mean that profits don’t come through as forecast. If the Federal Reserve eventually tightens the screws enough to halt the AI buildout, that would change things, but it would need to hike several times. And in any case, if higher rates curtail the capital expenditures the big AI companies are making, large investors would be happy. September’s edition of the Bank of America Global Fund Managers Survey found record numbers of respondents arguing that companies were investing too much. This is a stark reversal after many years when companies were held not to be investing enough:",
+      "In further evidence that a rate hike would be tolerable, financial conditions, as measured by Bloomberg, are about as easy as they ever are. The scale in the chart below refers to standard deviations compared to the norm. Positive numbers mean conditions are looser than usual, while negative numbers — as seen dramatically during the Global Financial Crisis and the pandemic — show that money is tight. On this basis, it looks as though financial markets should have little or no problem dealing with one rate hike, so stocks’ ability to weather the storm so far shouldn’t be a surprise:",
+      "Yet more evidence from the survey that the expected rate hike shouldn’t be too much of a problem comes from the finding that a strong majority of fund managers think that current policy too stimulative. Bear this in mind once markets begin to react to Kevin Warsh’s press conference today after the Federal Open Market Committee meeting:",
+      "But if the market seems not to have a problem with higher rates, President Donald Trump evidently does. His adviser Peter Navarro piled on the pressure last week:",
+      "It’s hard to see how Warsh can avoid a hike and still maintain his credibility as Fed chairman, but he’d prefer to avoid the likely presidential savaging that would provoke. Jon Hilsenrath, a long-time Fed analyst for the Wall Street Journal and now a consultant to StoneX Financial, expressed the dilemma this way:",
+      "This all makes for an interesting handicapping of Wednesday’s market reaction. The evidence is that the financial system can handle a hike without difficulty. The unknown variable is the guidance for the future, with the market currently pricing two more hikes after this month, and an 80% chance of a third.",
+      "The Fed’s quarterly “dot plot” of rate predictions, which Warsh dislikes, could help communicate whether this is the start of a true hiking cycle. But the greatest weight will hang on his press conference. That’s when Robin Brooks of the Brookings Institution predicts fireworks:",
+      "With Trump breathing down his neck, Warsh will likely come over as dovish. That would be great for stocks — which don’t need the sugar of cheap rates but will lap it up if it’s on offer. But the 10-year yield closed Tuesday above 5%, and bond investors would be unimpressed by any suggestion that this is a “one and one” hike. If the Treasury market doesn’t like what it hears, that would take yields up into territory unseen since the crisis two decades ago. And that will be interesting.",
+      "Small caps’ storied comeback is not linear. Since its peak a month ago, the Russell 2000 has plunged more than 6%, dropping below its 100-day moving average for the first time since April. This has coincided with growing expectations of hikes by the Fed, and underscores small caps’ sensitivity to rates. It’s difficult to tell how much steam they have to let out in this increasingly hawkish environment, but their strong start to the year — outperforming the S&P 500 year-to-date — provides a crucial buffer against rate pressures:",
+      "The adverse impact from rising rate expectations makes sense, as leveraged small-cap firms tend to carry more short- and medium-term floating-rate debt than their large-cap counterparts. But the durability of other factors such as improved earnings, a revised tax policy that allows 100% depreciation on research and capex, and deregulation will stiffen their resilience.",
+      "Royce Investment Partners’ Francis Gannon argues that the tailwinds are strong enough to weather a Fed tightening cycle, and that this drawdown is noise rather than signal. He notes that “nobody is even talking about” a 10% correction earlier this year and calls the current setup a “pause that refreshes.”",
+      "Small caps continue to trade at near-historic low valuations. While the S&P 500 price-to-book ratio has risen almost 20% in the last five years, the Russell 2000’s has fallen, supporting the core argument of a reversion to the mean:",
+      "Jonathan Coleman of Janus Henderson argues that small caps had become exceptionally cheap relative to large caps in the four years leading up to April 2025, when they traded among the cheapest 5% of relative valuation observations in decades of data. The gap has narrowed since then, but it hasn’t closed. On a forward price-to-earnings basis, the relative valuation still looks historically appealing:",
+      "This extreme valuation disconnect has set a reversal in motion, which should be helped by improving fundamentals (although an aggressive Fed tightening cycle could change that). Regarding how long this could last, Gannon notes that small caps’ leadership phases typically run about a decade. As we’re only 16-17 months into this one, there’s a long way to go:",
+      "Continuing negative sentiment among investors is a perverse reason for optimism; the BofA survey identifies long small caps as an appealing contrarian trade.",
+      "But many risks reman. Surging energy prices are likely to translate into a further tightening of financial conditions. There’s also a possibility of margin compression, especially given small caps’ disproportionate exposure to energy as an input cost. Diesel prices are at an all-time high, weighing on logistics-heavy companies. As Bloomberg Intelligence’s Salih Yilmaz notes, these companies can generally pass on the increased energy costs to customers, but usually with a lag of at least a quarter — meaning near-term pressure on profits is unavoidable when the oil price spikes.",
+      "Additionally, BI’s analysis shows that when oil prices remain above $100 for more than 30 consecutive days, the Russell 2000 has historically posted negative returns over both three- and 12-month horizons. That appears to be a possibility once more and would risk derailing the small-cap rally.",
+      "Ultimately, an AI productivity boost could cushion the impact and allow higher margins, amplified by small caps’ typically lower operating margin base. But none of this is a foregone conclusion; small caps remain a levered play on an uncertain situation.",
+      "—Richard Abbey",
+      "This could be an exciting Wednesday. It’s not a day of the week that shows up much in music, but you could try the Undertones’ Wednesday Week, Simon & Garfunkel’s Wednesday Morning, 3 A.M., or from the Addams Family, this Wednesday Dance, or this Wednesday Dance, or Wednesday’s Bitter Everyday. Alternatively, Bloomberg Opinion put together this FOMC Day playlist on Spotify, with tracks like When Doves Cry; but is Kevin really going to give us an excuse to play that one?",
+      "More From Bloomberg Opinion",
+      "Want more Bloomberg Opinion? OPIN. Or you can subscribe to our daily newsletter.",
+      "Like Bloomberg’s Points of Return? Subscribe for unlimited access to trusted, data-based journalism in 120 countries around the world and gain expert analysis from exclusive daily newsletters like Markets Daily or Odd Lots."
+     ],
+     "title_zh": "美联储加息：谁惧怕可怕的债券收益率？",
+     "summary_zh": "尽管美债收益率和利率预期大幅上升，标普500今年仍涨10.7%，因AI推动盈利预期飙升，市场对加息承受力较强。"
+    },
+    {
+     "title": "UK Should Slash Tax on Rich, Blueprint for Farage's Reform Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/uk-should-slash-tax-on-rich-blueprint-for-farage-s-reform-says",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/uk-should-slash-tax-on-rich-blueprint-for-farage-s-reform-says",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "The UK should slash taxes on the rich and encourage the City to take greater risks, according to a report by a think-tank linked to Reform UK that’s set to guide the economic policies of Nigel Farage’s insurgent party.",
+      "The Centre for a Better Britain blueprint is set to propose cutting a raft of rules as well as a reorganization of government bodies to focus on growth, according to people familiar with the matter who spoke on condition of anonymity in order to divulge unpublished details. They said it will urge a breakup of the Treasury, with responsibility for growth moved to a different department.",
+      "The document, styled as “Big Bang 2.0” in a reference to Margaret Thatcher’s 1980s deregulatory bonanza, is set for publication on Wednesday next week. It was commissioned last year by Deputy Reform Leader Richard Tice, who announced four working groups on regulation, growth finance, tax and pensions at an event hosted by Bloomberg.",
+      "The report matters because it’s likely to guide Reform’s financial and economic policies as the party gears up to fight the next election due in 2029. Despite being under investigation by both the police and Parliamentary authorities over donations, Reform — which denies wrongdoing — is seeking to portray itself as a government-in-waiting after leading national polls for most of the past 18 months.",
+      "The party’s coffers were swelled over the weekend by two record gifts of £36 million ($49 million) each by crypto billionaires Ben Delo and Christopher Harborne. That cash will boost Reform’s efforts to design a credible policy offering for government and prepare the ground war for the next national vote. But it’s also prompted fresh questions about whether Reform’s plans are being influenced by the interests of the crypto lobby or other figures with a deregulatory agenda. Both Harborne and Delo have denied seeking to buy influence.",
+      "Further complicating matters for Reform, Andy Burnham’s Labour government is threatening to enact retroactive legislation that would invalidate the two gifts because neither Delo nor Harborne has been resident in the UK for long enough, with both men appearing to have moved their residency back to the UK from overseas this year. Reform is considering legal action if the law is passed.",
+      "The CFABB proposal on hiving off the Treasury’s growth responsibilities has echoes of plans considered earlier this year by UK Prime Minister Andy Burnham before entering office. While he’s kept Britain’s finance ministry intact since coming to power in July, he’s also established an outpost of the prime minister’s office, dubbed No. 10 North, in Manchester, calling it “the government’s new situation room for growth.”",
+      "The idea is one of several likely to cause tensions between Tice, who is responsible Reform’s plans on business, trade and energy, and Robert Jenrick, who defected from the Conservatives in January and is now Reform’s Treasury spokesman. Jenrick stressed the importance of the Treasury retaining a growth mandate in multiple appearances at Reform’s conference in Birmingham earlier this month.",
+      "The report’s position on tax may also be a point of tension. It is set to call for the abolition of inheritance tax and say capital gains tax should be phased out, one person said. Eliminating inheritance tax would deprive the Treasury of an income stream that was worth £8.5 billion last fiscal year. Capital gains tax earned the exchequer £24 billion, a record, in 2024-25.",
+      "In Birmingham, Jenrick unveiled a high-profile plan to increase the tax-free personal allowance, which he said would benefit millions, and ruled out an improvement on inheritance tax, saying it only affected about 36,000 families.",
+      "While it’s improbable investors would respond to policies from a party unlikely to gain power for years, Reform officials will want to avoid comparisons to former Conservative Prime Minister Liz Truss, whose package of unfunded tax cuts in 2022 sent UK assets into a tailspin on concern over inflation and extra borrowing. Almost four years later, the International Monetary Fund warned Burnham on taking power that the Truss budget crisis had caused permanent scarring, with gilt markets more jittery about Britain’s fiscal policy.",
+      "CFABB’s report has been compiled with the help of a group of business figures from areas including private equity and investment banking. Its draft stretches to about 200 pages, and details could still be changed, according to the people. CFABB, which was set up last year, will also engage with other political parties.",
+      "There may be a populist tone to the report in the form of championing small businesses and criticism of large financial institutions such as big banks for not doing enough to lend to smaller firms, and pension funds for their low levels of investment in UK assets, the people said.",
+      "Tice and Reform leader Nigel Farage have previously raised the prospect of reducing interest paid to banks on reserves they keep at the Bank of England. The CFABB report is expected to address the topic and could call for the UK to introduce a tiered payments system similar to the European Central Bank, the people said.",
+      "There are also set to be more details on potential reform of local government pension plans, including introducing a government guarantee for the programs in return for requiring them to invest in local projects, one person said. The ideas have received pushback from industry figures but are seen as a priority by Tice, they said."
+     ],
+     "title_zh": "英国应大幅削减富人税收，法拉奇改革蓝图建议",
+     "summary_zh": "与改革英国相关的智库建议对富人减税并鼓励伦敦金融城承担更大风险，作为法拉奇政党的经济政策蓝图。"
+    },
+    {
+     "title": "Southeast Asia Growth Divergence Seen Widening Over Next Decade",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/southeast-asia-growth-divergence-seen-widening-over-next-decade",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/southeast-asia-growth-divergence-seen-widening-over-next-decade",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "Southeast Asia’s six largest economies are projected to grow on average 4.8% annually over the next decade, but widening structural differences put them on increasingly divergent paths.",
+      "Indonesia, Malaysia, the Philippines, Singapore, Thailand and Vietnam face increasingly uneven growth prospects as gaps in institutional strength, energy security and technological readiness shape their ability to withstand shocks, according to a report by Bain & Company, DBS Group Holdings and Vriens & Partners released Wednesday.",
+      "Vietnam is forecast to remain the region’s growth leader, with Thailand as the laggard. The report singled out Malaysia for making the “greatest improvements,” citing its pro-investment stance and better governance and infrastructure.",
+      "Progress in Indonesia remains “mixed,” with infrastructure gains offset by lagging workforce development and policy inconsistency, while Thailand faces constraints from a tightening labor supply and weaker institutional momentum.",
+      "“Trade remains one of Southeast Asia’s greatest strengths and, perhaps, a potential vulnerability,” the report adds. Trade intensity stands at around 90% of regional GDP — more than double the global average — leaving the region particularly exposed.",
+      "The expected pace of growth over the 10-year horizon is projected slower than the group’s earlier 2024-34 forecast for an average expansion of 5.1%.",
+      "Malaysia, Singapore and Vietnam are set to capture “disproportionate upside” from favorable global conditions, helped by their roles in capital intermediation and manufacturing supply chains. Structural constraints are expected to limit the gains for Indonesia, Thailand and the Philippines, the report said.",
+      "Ultimately, while external forces will influence growth outcomes, they will still be “largely shaped by the ability of each country to build the institutional credibility, improve energy reliability, and leverage AI transformation to convert potential into sustainable growth,” Ravi Vijayaraghavan, senior partner at Bain & Company, said in a statement accompanying the report."
+     ],
+     "title_zh": "东南亚增长分化预计未来十年扩大",
+     "summary_zh": "东南亚六大经济体未来十年预计年均增长4.8%，越南领跑、泰国垫底，马来西亚进步最大，结构性差异令增长路径日益分化。"
+    },
+    {
+     "title": "Germany's Hospitals Prepare for War and Mass Casualties as Russia Threat Looms",
+     "url": "https://www.bloomberg.com/news/features/2026-09-16/germany-s-hospitals-prepare-for-war-and-mass-casualties-as-russia-threat-looms",
+     "link": "https://www.bloomberg.com/news/features/2026-09-16/germany-s-hospitals-prepare-for-war-and-mass-casualties-as-russia-threat-looms",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "At first glance, the hospital in the southwestern German city of Ulm looks much like any other. Patients sit in reception areas waiting to be called, doctors roam the halls looking at reports or their phones. Only the uniformed soldiers among the staff hint at military ties. Yet many meters beneath its busy wards lies a Cold War-era bunker that has suddenly become relevant again.",
+      "The underground medical facility was completed in 1979 amid the standoff between Moscow and the West. It was designed to let doctors continue treating injured soldiers in the event of a nuclear strike, and can house up to 2,000 people for 90 days. For the better part of three decades, the labyrinthine facility sat dormant. Now, the German military is considering reviving it.",
+      "Across the country, government bodies are surveying Germany’s healthcare systems and infrastructure to see how — or if — they would stand up in a defense scenario. Since Russia’s invasion of Ukraine, Germany has seen a surge in hybrid attacks, such as an attempted strike at an airport by an explosive-laden drone in Leipzig last month and various cyberattacks targeting hospitals. German Defense Minister Boris Pistorius has warned that Russia may be in a position to attack NATO territory by 2029. If that were to happen, Germany would be obligated to come to the alliance’s defense, and given its position in the heart of Europe, the country would likely become a key transit hub for soldiers — and a destination for their medical treatment.",
+      "Read: Germany Blames Russia for Attempted Drone Attack, Expects More",
+      "In a report that gamed out potential scenarios should Russia invade NATO territory, the Bundeswehr calculated that as many as 1,000 wounded soldiers could arrive in Germany each day. As the country’s five military hospitals would quickly reach capacity — and the law requires that civilian hospitals help during wartime — the system would likely come under unprecedented strain, and could be forced to triage soldier and civilian care.",
+      "That, in turn, has focused attention on facilities like Ulm, which is a rare example of a military medical bunker in good enough shape to be brought back into use. But doing so would require spending millions of euros to modernize its decades-old ventilation and power systems, and would just be a drop in the bucket compared with what’s needed overall.",
+      "“Is our healthcare system prepared for this? The only answer is: No,” said Benedikt Friemert, chief medical director and commander of the Military Hospital hospital in Ulm. “What lies ahead of us is a marathon.”",
+      "Finding enough hospital beds is just part of the challenge. Germany’s leaders also need to reinforce medical supply chains and better coordinate the military and civilian hospital systems. Training is another concern: only a few hundred doctors in Germany are estimated to have experience handling war-related injuries. To improve these numbers, the Bundeswehr and the German Trauma Society DGU offer courses for civilian surgeons on treating mass-casualty events and wartime injuries.",
+      "When that collaboration was formalized in 2017, the world was very different, recalled Sascha Flohé, secretary general of DGU. “Back then, we still thought we were living in a safe world, apart from Islamist terrorism,” he said. “Nobody believed the security situation would change completely, or that we would be talking about collective-defense scenarios.” Now, demand is high, with some state governments booking out full weeks of classes, and spots are hard to come by. The most intensive programs, which utilize cadavers and anesthetized pigs, are only able to train between 50 and 100 surgeons a year.",
+      "Should war break out, the Bundeswehr’s medical forces would treat injured soldiers at the frontline before transporting them to Germany, where state authorities would send them on to civilian hospitals. That strategy was tested in March, when the military conducted its largest medical exercise in decades, simulating an attack on Lithuania and moving soldiers to hospitals in Berlin and parts of Brandenburg. The exercise went smoothly, Flohé said, but more practice is needed to ensure that the two systems can communicate effectively during an emergency.",
+      "The Health Security Act, which was expected to reach parliament this fall, is intended to do this by creating a real-time overview of beds, medicines and staff with war-relevant skills. But for now, it’s all piecemeal, making it difficult to know where specialists are available or if doctors and nurses who also volunteer for aid organizations or serve as reservists are being properly accounted for.",
+      "“At the moment we have these islands, the hospitals,” said Maria-Lena Weiss, a lawmaker with the Christian Democratic Union and a member of the Bundestag’s health committee. “Now it’s about connecting them to the overall system.”",
+      "Without government guidance, some companies have started to do their own calculations. Biotech company CSL found that as many as 20% of its employees in some areas could be called away as reservists or volunteers. Annegret Wittich-Höffer, the company’s head of Germany, Austria and Switzerland, also noted that truck drivers, many of whom come from Eastern Europe, could be called up by their home countries. The company is also figuring out how to continue producing critical medicines if demand suddenly soars. To make a drug used in trauma surgeries, CSL must first collect and process plasma donations. That, however, can take up to a year and the limited shelf-life of the finished products make it difficult to create strategic reserves.",
+      "“Without blood-clotting factors, things get really tight,” said Wittich-Höffer. Should wounded soldiers start coming into Germany for care at the scale that the Bundeswehr has laid out, she said, “nobody will be prepared — neither we nor our competitors.”",
+      "Hospitals, especially larger ones, are also seeking advice on resilience and emergency planning, said Michael Ey, a partner at PwC who specializes in healthcare. In addition to weighing physical protections such as bullet-resistant glass and protective barriers against drones, some are assessing how long medicines and surgical supplies would last in a crisis. “Our economy has largely been built around just-in-time supply chains. That may be good for efficiency and minimizing tied-up capital, but that’s not how resilience is built,” Ey said, arguing Germany needs decentralized stockpiles of masks, medicines and vaccines stored across multiple locations.",
+      "Russia’s 2022 invasion of Ukraine was a real-world example of how medical systems adapt to war. Kateryna Bielka, an anesthesiologist and professor in Kyiv, recalls how staff at her hospital improvised, moving patients to lower floors that were supposedly safer, barricading windows to protect against flying glass during air strikes and converting underground spaces such as changing or technical rooms into treatment areas. When Russia began attacking energy infrastructure, hospitals began diversifying their electricity sources, bringing in generators and solar panels. One of the biggest challenges throughout, she said, was dealing with uncertainty: “the high level of stress, lack of information, lack of understanding.”",
+      "Just across from the Military Hospital, the Ulm University Hospital is also preparing for worst-case scenarios. It has a dedicated crisis and resilience team that stages terror drills and is currently looking into whether the building’s underground parking garage could be converted into a long-term emergency shelter in the event of an attack.",
+      "Udo Kaisers, the university hospital’s chief medical officer, said that many German buildings were constructed at a time when resilience and crisis preparedness weren’t top priorities. And financing and grants generally cover only the most cost-effective construction or renovation measures, not the most durable ones.",
+      "He also worries about vulnerabilities in the medical supply chain. Germany, like much of Europe, is dependent on China for many critical ingredients needed in antibiotics and painkillers. While his hospital is increasing stocks of some essential drugs, budgetary concerns make this complicated. Hospitals in Germany are advised to stock only six weeks of intensive-care medicines.",
+      "There is broad political support for updating the country’s legal framework in order to keep the healthcare system functioning in a defense or wartime scenario. The previous government was working on this, but failed to complete it before collapsing in 2024. The current coalition was expected to present a draft of the Health Security Act this summer, but postponed it to fall — and it’s unclear whether that target will be reached.",
+      "Despite all the uncertainty, keeping hospitals functioning during turbulent times is at the heart of everything, said Kaisers.",
+      "“The healthcare system is central to the functioning of society,” he said. “Social cohesion, and ultimately also public morale, depend significantly on whether we can uphold the promise of healthcare for people.”"
+     ],
+     "title_zh": "德国医院备战俄罗斯威胁，准备应对大规模伤亡",
+     "summary_zh": "德国正评估医疗系统备战能力，考虑重启乌尔姆冷战地下军事医疗掩体，以应对俄罗斯威胁下每日或达千名伤兵的救治压力。"
+    },
+    {
+     "title": "Europe's New Stocks Tape Needs to Go Deeper, Industry Groups Say",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/europe-s-new-stocks-tape-needs-to-go-deeper-industry-groups-say",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/europe-s-new-stocks-tape-needs-to-go-deeper-industry-groups-say",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "A long-awaited feed of data on European stocks finally went live this week, but groups representing banks, investors and traders say it doesn’t go far enough.",
+      "Five lobby groups are calling on the European Union to increase the depth of the data to include the location stock quotes come from, in a joint statement on Wednesday. They say it would allow investors to make more informed decisions and increase the attractiveness of Europe’s markets.",
+      "It comes as Brussels is working through a package of wide-ranging financial reforms known as the Market Integration and Supervision Package, or MISP, that aims to streamline the region’s capital markets. The European Commission’s original MISP proposals include upgrades to the so-called consolidated tape, but the final version still has to be agreed with the European Parliament, as well as EU member states.",
+      "Read More: Europe’s Fractured Stock Market Finally Gets a Single Data Feed",
+      "“A truly high-quality tape would provide a single view of trading and liquidity across EU markets,” the associations, including the European Banking Federation and European Fund and Asset Management Association, wrote. “By making dispersed liquidity more visible, it supports informed execution decisions and will make European markets more accessible and attractive to global investors.”",
+      "Since Monday, equity investors can access a data feed amalgamating activity on the region’s myriad bourses and trading venues. The feed provides the best bid and ask prices in the region without disclosing the venue they originated from. Instead, traders can see more granular data after a transaction has taken place.",
+      "In the letter, the groups, which also include the Association for Financial Markets in Europe, the European Principal Traders Association and the Managed Funds Association, said the debate around the legislation should move away from prescribing where trades should take place and instead make liquidity more visible.",
+      "The groups are at odds with Europe’s stock exchanges, which point to the rise of alternative trading venues and systemic internalizers, banks that match client orders through their books, for the slump in new listings and the perception that the region is less liquid than the US.",
+      "The associations also called on Brussels to limit the fees market participants pay exchanges to access their data and streamline clearing and settlement of securities such as stocks and bonds."
+     ],
+     "title_zh": "欧洲新股票行情带需更深入，行业团体呼吁",
+     "summary_zh": "欧洲股票数据源上线，五大游说团体呼吁欧盟增加数据深度，包括报价来源，以提升市场吸引力。"
+    },
+    {
+     "title": "Bitcoin Under Renewed Pressure as Looming Fed Hike Adds to Woes",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/bitcoin-under-renewed-pressure-as-looming-fed-hike-adds-to-woes",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/bitcoin-under-renewed-pressure-as-looming-fed-hike-adds-to-woes",
+     "published_cst": "2026-09-16T03:56:20+08:00",
+     "time": "09-16 03:56",
+     "body": [
+      "Cryptocurrencies face renewed pressure after the US failed to advance a key regulatory bill, bruising industry sentiment just ahead of a potential interest-rate hike from the Federal Reserve.",
+      "Bitcoin, which fell 4% in US trading, declined further in Asia Wednesday before stabilizing at around $75,700 at 11:50 a.m. in Singapore. The broader cryptocurrency market was also weaker in early Asia trading after steep declines in the US.",
+      "Investors had been looking to the Clarity Act — a crypto market structure bill that was under consideration for over a year — to help the market break out of an 11-month malaise, even as the bill was seen as having a low chance of progressing in the Senate this week amid political wrangling. Now inflation fears and soaring US bond yields are expected to push Fed Chairman Kevin Warsh to raise rates Wednesday, which could further damp demand for risk assets like Bitcoin.",
+      "The failure to progress Clarity “adds additional headwinds in the short term for a move up in Bitcoin,” said Pratik Kala, a portfolio manager at digital-asset hedge fund Apollo Crypto. “Until investors gain more certainty on the path of rates globally, risk assets would remain under pressure,” he added.",
+      "Over $560 million in bullish bets on cryptocurrencies were unwound in the last 24 hours, according to Coinglass data.",
+      "However, positioning in Bitcoin showed some resilience. There are more bets on the original cryptocurrency to rise than to fall, according to data on Deribit. Roughly $1.7 billion in calls were held at the $80,000 level across all maturities, the data show.",
+      "Read more: Crypto’s Push Into Wall Street Suffers Setback After Bill Fails",
+      "Industry executives were quick to express frustration over the failed Senate vote on Tuesday, as it was meant to lend legitimacy to crypto as it further integrated into Wall Street. In posts on X, Ripple Labs Chief Executive Officer Brad Garlinghouse called for a post-mortem looking at why the bill failed, while Coinbase Inc. CEO Brian Armstrong said the industry could no longer wait on Congress.",
+      "Both pointed to the Securities and Exchange Commission and the Commodity Futures Trading Commission as being able to offer a clear regulatory framework in the absence of legislation. However, agency rules could prove easier for a future administration to change.",
+      "“This points to the larger challenge ahead,” said Samson Leo, chief legal officer at the Singapore-based stablecoin issuer StraitsX. “The longer major markets operate without clear and compatible frameworks, the harder it becomes to address fragmentation.”",
+      "But the immediate focus is now on the Fed, with markets pricing a better than 90% chance of a 25 basis-point hike, swaps data show.",
+      "“Market turmoil is to be expected across all asset classes if Warsh fails to hike rates,” said Caroline Mauron, co-founder of Orbit Markets. She added that inflation concerns could revive the debasement trade, which is positive for Bitcoin, but “bond yields mayhem and general market volatility will probably take it down first before it goes up.”"
+     ],
+     "title_zh": "比特币再承压，美联储加息在即雪上加霜",
+     "summary_zh": "美国关键加密监管法案未获推进，比特币跌至约75700美元，24小时内超5.6亿美元多头押注被平仓。"
+    },
+    {
+     "title": "Hong Kong Sets Five-Year Tech Goals, Expands Baby Bonus",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-aims-to-almost-double-spending-on-tech-innovation",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/hong-kong-aims-to-almost-double-spending-on-tech-innovation",
+     "published_cst": "2026-09-16T03:18:38+08:00",
+     "time": "09-16 03:18",
+     "body": [
+      "Hong Kong Chief Executive John Lee set out plans to almost double the city’s spending on innovation in coming years and offered greater financial support for new parents, as his government seeks to build new growth engines growth and arrest a decline in births.",
+      "The innovation target was announced Wednesday as Lee unveiled Hong Kong’s first five-year development plan. The city will strive to make total domestic expenditure on innovation activities account for 3% of gross domestic product after 2030, up from 1.63% in 2024.",
+      "“We will closely align with our country’s strategic technology areas,” Lee said in a speech, naming life and health technology, artificial intelligence and robotics, and microelectronics among focus areas. China’s research and development expenditure accounted for 2.8% of GDP last year.",
+      "Lee followed the five-year plan with his annual policy address, which set out measures for putting the longer-term blueprint into effect and offered more immediate support to households.",
+      "The government will extend the one-time newborn baby bonus of HK$20,000 ($2,550) for three years through October 2029 and raise the payment for second and subsequent children to HK$30,000. Homebuyers who buy an apartment within one year before or two years after the birth of a child will also receive a HK$20,000 reduction in stamp duty. The existing newborn bonus was first announced in the 2023 policy speech for an initial three-year period.",
+      "Lee emphasized national security in the the policy address, calling it a “never-ending process” that must not be overlooked in the pursuit of development. The government will continue to strengthen the legal system and enforcement mechanisms for safeguarding national security. To promote patriotic education, the city will establish a museum to showcase China’s achievements in areas such as technology, sports and culture.",
+      "The emphasis continues a central theme of the Hong Kong government since Beijing imposed a National Security Law in 2020 that has silenced dissent and led to the imprisonment of dozens of critics, including former media mogul Jimmy Lai. Lee, a former security chief, said the enforcement of security laws has provided the stability and predictability needed for economic growth, describing the former British colony as a “safe harbor” for development.",
+      "The new five-year plan calls for AI to become a core industry for Hong Kong and be applied more widely across finance, trade, logistics, professional services and healthcare. The government will expand computing infrastructure through a Sandy Ridge data facility due to start operating by 2029 and review legislation to support wider AI use.",
+      "A key part of Lee’s technology drive is the Northern Metropolis project bordering the mainland city of Shenzhen. That development is intended to provide land, infrastructure and talent for tech and emerging industries. He set a binding goal of increasing “spade-ready sites” — plots that can be readily used for development — to 900 hectares by 2031 from 120 this year.",
+      "The Hang Seng Property Index advanced as Lee highlighted cross-border initiatives and progress on the future tech hub. Developers with ample liquidity stood out, with Longfor Group, Hang Lung Properties and Sun Hung Kai Properties among the biggest gainers.",
+      "The longer-term plan also seeks to enhance Hong Kong’s traditional roles as a center for finance and trade. The government plans to expand offshore yuan products, promote the currency’s use in settling public expenditure and develop a commodity-trading ecosystem with gold as an entry point.",
+      "Hong Kong will seek to attract more global companies and talent, targeting annual growth of 4% to 5% in the number of businesses with parent companies located outside the city. Three university towns planned for the Northern Metropolis will combine education, research and industry, with student housing and other services designed to attract international talent.",
+      "Lee did not set a hard target for GDP growth, saying only that the economy should expand at a pace “within a reasonable range” through 2030.",
+      "The innovation goal aligns Hong Kong with China’s 15th Five-Year Plan, which puts technological self-reliance at the center of the country’s strategy. Beijing is seeking breakthroughs in fields including advanced chips, quantum computing and robotics as competition with the US intensifies and American export controls expose China’s dependence on foreign technology.",
+      "Artificial intelligence is a particular focus. China’s national plan calls for AI to be deployed across the economy, including in manufacturing and other industries, as Beijing seeks to raise productivity and compete with the US for leadership in the technology.",
+      "Read More: Trump Has Few Good Options to Slow China’s Rise as AI Superpower"
+     ],
+     "title_zh": "香港设定五年科技目标，扩大婴儿奖金",
+     "summary_zh": "香港首份五年计划提出2030年后创新支出占GDP比重升至3%，并延长新生儿2万港元奖励至2029年。"
+    },
+    {
+     "title": "State-Backed China Water Environment Defaults on Offshore Loan",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/state-backed-china-water-environment-defaults-on-offshore-loan",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/state-backed-china-water-environment-defaults-on-offshore-loan",
+     "published_cst": "2026-09-16T03:11:30+08:00",
+     "time": "09-16 03:11",
+     "body": [
+      "China Water Environment Group, one of the nation’s largest sewage treatment firms, failed to repay an offshore loan recently, people familiar with the matter said, in the latest default by a state-backed company.",
+      "The Beijing-based firm, partially owned by the State Development and Investment Corp., missed payment on $61 million in outstanding principal due in late August after creditors rejected its request to extend the loan for a few months, according to the people, who asked not to be identified discussing private matters.",
+      "It’s unclear why China Water Environment Group asked to delay the payment. But some other Chinese public-sector enterprises have faced mounting financial stress in recent years, as the amount of money owed to them from business partners including local governments has remained elevated amid broader economic challenges.",
+      "China Water Environment, which serves about 45 million people across 22 provincial-level regions and has worked on some key national environmental initiatives, isn’t SDIC’s only subsidiary to face debt problems. Earlier this year, a unit of SDIC Commodities Co., a metals trader controlled by the state firm, was ordered to liquidate by a Hong Kong court after the unit failed to repay some offshore debt.",
+      "The water company’s default was flagged by the agent bank to lenders on another one of its loans—a $130 million borrowing due 2028, the people added. Those creditors were asked if they wanted to take actions to trigger a cross-default clause, according to the people. It wasn’t clear if those lenders had any response.",
+      "China Water Environment and SDIC didn’t respond to requests seeking comment.",
+      "In 2018, SDIC acquired a 43% stake in the company and became the single largest shareholder, according to a public filing in 2022."
+     ],
+     "title_zh": "国有背景中国水环境离岸贷款违约",
+     "summary_zh": "中国水务环境集团未能偿还8月底到期的6100万美元离岸贷款本金，债权人拒绝展期请求。"
+    },
+    {
+     "title": "Indonesia Cuts Benchmark Ore Prices in Relief for Nickel Plants",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/indonesia-cuts-benchmark-ore-prices-in-relief-for-nickel-plants",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/indonesia-cuts-benchmark-ore-prices-in-relief-for-nickel-plants",
+     "published_cst": "2026-09-16T03:08:54+08:00",
+     "time": "09-16 03:08",
+     "body": [
+      "Indonesia slashed benchmark prices for lower-grade nickel ore, providing relief for local processors suffering from cost pressures due to the US-Iran war.",
+      "The formula used to calculate the Mineral Benchmark Price, or HPM, has been changed to reduce the minimum price payable for low-grade ore, according to a ministerial regulation that came into effect on Friday. At the new level, the cost of 1.2% nickel ore will be almost halved, according to calculations by Bloomberg.",
+      "The change will benefit high pressure acid leach plants, which process low-grade nickel ore into a chemical that’s used by the electric vehicle battery sector. HPALs have already been dealing with a spike in the price of key reagent sulfur due to the Middle East war, forcing some to weigh joint cuts to production.",
+      "Significant new HPAL capacity is due to ramp up this year and next, potentially putting more pressure on nickel prices that fell to the lowest level this year on Wednesday. The product they make, known as mixed hydroxide precipitate, can also be converted into pure nickel metal that can be stored in London Metal Exchange warehouses.",
+      "The benchmark change is a u-turn for Indonesia’s energy and mineral resources ministry, which altered the formula as recently as April. The gauge is used to calculate royalties paid by miners and processors on their output, and the government has sought additional revenue to cover the costs of President Prabowo Subianto’s flagship policies."
+     ],
+     "title_zh": "印尼下调基准矿石价格缓解镍厂压力",
+     "summary_zh": "印尼下调低品位镍矿基准价，1.2%镍矿成本近乎减半，以缓解中东战争推高硫磺价格给当地加工商带来的成本压力。"
+    },
+    {
+     "title": "Chanel Designer Matthieu Blazy Outpaces Gucci, Dior",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-16/chanel-designer-matthieu-blazy-outpaces-gucci-dior",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-16/chanel-designer-matthieu-blazy-outpaces-gucci-dior",
+     "published_cst": "2026-09-16T03:00:00+08:00",
+     "time": "09-16 03:00",
+     "body": [
+      "A year ago, new designers at Chanel, Dior and Gucci gave top-end customers a glimpse of their creative visions.",
+      "Installed as part of the great luxury reset, in which more than a dozen brands changed designers, the major fashion houses’ fresh faces aimed to end the complacency of the previous five years, when labels produced not only expensive bags, shoes and clothes, but boring ones, too.",
+      "With shares in Louis Vuitton and Dior owner  LVMH Moet Hennessy Louis Vuitton SE at their lowest since 2020, and Kering SA’s Gucci yet to stage a comeback, big bling’s outfit change is still a work in progress. More effort is needed to inject excitement into mainstream luxury brands, in the way that niche labels such as Phoebe Philo appear to be doing. At the same time, they must reconnect with customers who can’t pay $4,000 for a suit, but still want a slice of something luxurious.",
+      "From the runways to resale, Chanel has been the clear standout. Designer Matthieu Blazy caused a frenzy when the first deliveries of his lines arrived in stores in March. Chanel’s sales rose 16% in the first half of this year excluding currency movements. By comparison, LVMH’s fashion and leather goods sales fell 1% in the same period.",
+      "Blazy was able to make such a splash because Chanel didn’t rush to appoint a big name after the death of Karl Lagerfeld in 2019. Not only was this respectful, but it allowed enough time to pass between the Lagerfeld and Blazy eras. The new designer was also given a long lead time: After being appointed in late 2024, he didn’t show his first collection until October 2025.",
+      "As Chanel is privately owned by brothers Alain and Gerard Wertheimer, it could afford to be patient. The strategy worked, creating — and then unleashing — pent-up demand for Blazy’s oversized bags, tweed jackets and square-toed shoes. Chanel also cleverly introduced new purses priced below its most expensive classics, which helped even top-end customers feel they were getting more value for money.",
+      "Listed rivals don’t have the same freedom. Jonathan Anderson officially took the reins at Dior in spring 2025 and delivered his first menswear collection just a few months later. While Dior may be behind Chanel, Anderson’s products are finding an audience. Dior’s second-quarter revenue growth outpaced the average for the fashion and leather goods division, which eked out a 1% gain, LVMH said.",
+      "I’m also optimistic about Michael Rider at Dior’s sister brand Celine. The American designer worked with Philo at Celine before leading the women’s division at Polo Ralph Lauren, grounding him not only in high fashion, but in wearable styles.",
+      "New names at other houses including LVMH’s Fendi and Kering’s Balenciaga have yet to make a splash. But the biggest brand still finding its way is Gucci. Despite delving into the archives, creative director Demna Gvasalia has yet come up with his own, compelling identity.",
+      "Demna’s debut a year ago was promising. The cast of typical Italian characters portrayed in the brand’s “La Famiglia” collection and accompanying advertising campaign sent the message that everyone was welcome at the house. But his first runway show in February went darker, narrowing prospective purchasers to the very young and very skinny. While Gucci’s second quarter sales were better than expected, they are still going in the wrong direction.",
+      "We are now at the point where the class of 2024 and 2025 are are in their sophomore years, and many of their products are in stores.",
+      "For Chanel, the task is to keep wowing its customers — both with Blazy’s creations and its winning combination of style and price in handbags. At Dior, Anderson needs to more clearly articulate what makes the brand special, and why customers should buy it rather than Chanel. As LVMH’s second biggest fashion division, Dior may have to do some heavy lifting: Louis Vuitton’s Chinese sales have been hurt by a fight with a local teamaker that sparked a patriotic backlash, Bloomberg News reported.",
+      "For all of these labels, consistency is key. Even the wealthy want items that can last more than one season.",
+      "Demna has the most to prove. Broadening customer appeal is imperative. His blockbuster show in New York’s Times Square in May portrayed the city’s archetypes, reminiscent of the La Famiglia campaign. But returning more wholeheartedly to different personas — and multiple facets of the brand — in Milan next week would be wise.",
+      "If Demna can’t reignite the spark at Gucci, it will have to rely on cutting prices, which it has already done to some extent. This has helped it to reach so-called aspirational consumers, particularly in the US. But releasing too many bags with lower price tags risks cheapening the brand, from which it will be hard to recover.",
+      "Fixing Gucci is already Kering CEO Luca de Meo’s number one priority. It may be about to become even more crucial: The fashion press is speculating that Anthony Vaccarello, creative director of Saint Laurent for the past decade, is poised to leave, to be succeeded by Chloe’s Chemena Kamali. Saint Laurent has been one of Kering’s most stable brands, so further upheaval would be unhelpful.",
+      "But success or failure transcends brand boundaries. Collectively, the industry’s primary task is to make luxury matter again. Despite the unprecedented round of musical sewing machines, relevance and sales growth across much of the sector remain some way off.",
+      "More From Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? OPIN <GO>. Or subscribe to our daily newsletter."
+     ],
+     "title_zh": "香奈儿设计师马蒂厄·布拉齐超越古驰、迪奥",
+     "summary_zh": "香奈儿新设计师Blazy带动上半年销售增长16%，而LVMH时装皮具部门同期下降1%，奢侈品品牌换帅效果分化。"
+    },
+    {
+     "title": "Japan's Jera Looks to Pivot LNG Buying Muscle Into Global Sales",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/japan-s-jera-looks-to-pivot-lng-buying-muscle-into-global-sales",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/japan-s-jera-looks-to-pivot-lng-buying-muscle-into-global-sales",
+     "published_cst": "2026-09-16T02:40:41+08:00",
+     "time": "09-16 02:40",
+     "body": [
+      "Jera Co., one of the world’s biggest liquefied natural gas buyers, is seeking to broaden long-term exports of the fuel as a way to expand its global presence and offload excess supply.",
+      "Japan’s largest power producer – which imports LNG primarily for domestic consumption – is seeking to “identify additional markets where we can sell,” said Irtiza Sayyed, chief executive officer of Jera Global Energy Solutions, which oversees the company’s long-term LNG business.",
+      "“We have a renewed focus in that area,” Sayyed said in an interview on the sidelines of the Gastech conference in Bangkok, adding that Jera GES had opened talks with potential buyers and was considering prospective markets around the world.",
+      "Many Asian countries in particular are seeking alternative supplies of LNG as the ongoing war in the Middle East disrupts flows of the super-chilled fuel through the Strait of Hormuz, which used to handle a fifth of global shipments. Buyers are seeking to reduce risk by securing contracts with exporters outside the Persian Gulf.",
+      "Read More: Thailand’s PTT Seeks LNG Deals in US Gulf to Widen Supply Base",
+      "Jera GES was launched in July to manage the company’s long-term LNG portfolio, including contracts that last 10 years or longer. Locking in overseas buyers for years will allow Jera to have a demand outlet when consumption is lower in Japan, or if there is excess supply.",
+      "The Japanese company announced its first long-term export supply deal late last year, agreeing to deliver four cargoes annually over the next decade to privately owned Indian utility Torrent Power Ltd. The shipments – totaling around 270,000 tons a year – are due to begin in 2027.",
+      "In a separate interview Tuesday, Jera Co.’s chairman and global chief executive officer, Yukio Kani, said the company had “extra cargoes” available after an unusually cool summer in Tokyo. These could be diverted to help other Asian countries, he said, adding that Jera had secured “almost everything” it needs for the winter.",
+      "Read More: Japan’s Jera Sees LNG Spot Prices Rising as Winter Approaches",
+      "Jera GES will also seek to charter additional LNG carriers in the later part of the decade as its exposure to the US Gulf Coast increases, Sayyed said. By around 2030, the company expects to procure about 30% of its LNG on a long-term basis from the region, compared with 10% currently."
+     ],
+     "title_zh": "日本Jera欲将液化天然气购买力转向全球销售",
+     "summary_zh": "日本最大电力生产商Jera正寻求扩大LNG长期出口，已与印度Torrent Power签署每年约27万吨供应协议，并洽谈更多海外买家。"
+    },
     {
      "title": "Indian Bonds Feel the Heat From Global Yield Surge",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/indian-bonds-feel-the-heat-from-global-yield-surge",
@@ -42,7 +688,7 @@
      "summary_zh": "10年期美债收益率升至近20年最高，市场预期美联储加息概率超90%，印度债券遭遇2025年4月以来最大单日外资流出473亿卢比。"
     },
     {
-     "title": "Copper Steadies Ahead of Fed Decision as Supply Concerns Ease",
+     "title": "Copper Gains as Treasury Yields Ease Before Fed Rate Decision",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/copper-steadies-ahead-of-fed-decision-as-supply-concerns-ease",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/copper-steadies-ahead-of-fed-decision-as-supply-concerns-ease",
      "published_cst": "2026-09-16T02:29:19+08:00",
@@ -58,6 +704,15 @@
      ],
      "title_zh": "铜价在美联储决议前企稳，供应担忧缓解",
      "summary_zh": "铜价企稳，LME库存上升、价差转为正价差，市场等待美联储利率决议，三个月期铜报每吨14097美元。"
+    },
+    {
+     "title": "Live Blog: Hong Kong's John Lee to Unveil First Ever Five-Year Plan",
+     "url": "https://www.bloomberg.com/news/live-blog/2026-09-16/hong-kong-s-five-year-plan-policy-address",
+     "link": "https://www.bloomberg.com/news/live-blog/2026-09-16/hong-kong-s-five-year-plan-policy-address",
+     "published_cst": "2026-09-16T02:07:36+08:00",
+     "time": "09-16 02:07",
+     "body": null,
+     "title_zh": "直播博客：香港李家超将公布首个五年规划"
     },
     {
      "title": "Trump Has Few Good Options to Slow China's Rise as AI Superpower",
@@ -116,6 +771,40 @@
      ],
      "title_zh": "汇丰、ICICI银行以外汇贷款助力印度侨民金融中心",
      "summary_zh": "汇丰和ICICI银行在GIFT城向印度侨民放贷193亿美元，推动外汇流入。"
+    },
+    {
+     "title": "Takaichi Projects Power in Cabinet Reshuffle Before US Trip",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/takaichi-projects-power-in-cabinet-reshuffle-after-market-unrest",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/takaichi-projects-power-in-cabinet-reshuffle-after-market-unrest",
+     "published_cst": "2026-09-16T00:46:28+08:00",
+     "time": "09-16 00:46",
+     "body": [
+      "Prime Minister Sanae Takaichi is poised to keep her core team in place in a customary reshuffle nearly a year after taking office, showing renewed confidence after weathering market turmoil and coalition frictions.",
+      "After weeks of speculation, Takaichi on Thursday is expected to retain Finance Minister Satsuki Katayama, top diplomat Toshimitsu Motegi and defense chief Shinjiro Koizumi, signaling to financial markets she believes her policies are working. She’s also set to give right-leaning coalition partner Japan Innovation Party, or Ishin, its first ministerial post — cementing the union that sealed her election victory as the main opposition splinters.",
+      "The continuity on display contrasts with Japan’s two previous leaders. In 2022, Fumio Kishida changed 14 of his 19 ministers in a dramatic overhaul after public outrage over his party’s ties to a religious group, while Takaichi’s immediate predecessor Shigeru Ishiba resigned around one year into the job. Takaichi’s administration has been relatively free from scandal and her support rates remain firm.",
+      "“Heading into 2027, Takaichi’s political standing is very strong,” said David Boling, managing director for Japan at the Asia Group. “She increasingly looks a prime minister with real staying power, closer to Shinzo Abe’s model of dominance than to Ishiba’s brief and failed premiership.”",
+      "Achieving her ambitious goals to transform Japan over the next six months will come down to establishing “diehard supporters” within the Liberal Democratic Party, he added.",
+      "For Takaichi, who is known for working independently rather than socializing with politicians, her operating style could complicate that task. She’s described getting three hours sleep per night as she pores over government documents, drawing concerns about exhaustion and isolation.",
+      "Still, retaining her core cabinet after a year that’s seen Katayama field unprecedented policy demands from US Treasury Secretary Scott Bessent, and her diplomats navigate a spat with China, shows Takaichi is on good footing with her top lieutenants. She also kept the ruling party’s senior leadership team intact, solidifying her support base within the party.",
+      "The fate of Yoshimasa Hayashi, who battled Takaichi for the LDP leadership last year, has been under a spotlight, although one local media report suggests he could stay as internal affairs minister. Changes to lower profile ministers are also likely in the works.",
+      "Takaichi is shoring up power at home before heading next week to New York to potentially meet Donald Trump on the sidelines of the United Nations General Assembly. Demonstrating Japan is a reliable and important ally before the US leader hosts Xi Jinping in Washington will be a key diplomatic goal, after she last year offended Beijing with comments over self-ruled Taiwan.",
+      "Takaichi was originally scheduled to address the UN on Sept. 24, the day Trump welcomes Xi for a grand state dinner, according to a previous UN schedule. Japanese officials have since avoided that awkward split screen, with Takaichi now speaking on the Tuesday when Trump is also slated to address the UN although no meeting has yet been publicly announced.",
+      "With Trump ramping up pressure on fellow US ally South Korea to send support to the Strait of Hormuz, keeping the US on side is important for Takaichi. South Korean President Lee Jae Myung’s popularity rating hit a record low this month after suggestions Seoul could help the US over Iran. By contrast, Takaichi’s approval rating currently remains robust at around 53%, according to the latest poll by public broadcaster NHK.",
+      "Takaichi has two things going that could please Trump. Japan has been outpacing other nations by announcing two rounds of investment projects in the US worth $109 billion, or roughly 20% of a $550 billion initiative established under a trade deal last year. Japan is also buying more oil from the US as it reduces its reliance on the Strait of Hormuz, where shipping has been disrupted by the war.",
+      "“The biggest challenge for Japan’s foreign policy is managing its relationship with China effectively, but the reality is that Takaichi has completely failed to do so,” said Kensuke Takayasu, professor of political science at Waseda University. “Takaichi’s stance on the China issue is at odds with Trump’s. Trump wants to take a more conciliatory approach.”",
+      "Once Takaichi returns from New York, her focus will turn back to parliament, where her policies continue to face reservations from bond investors. The benchmark 10-year note’s yield hit 3% earlier this month for the first time since 1996, driven by concerns over inflation and fiscal plans, as well as expectations the Bank of Japan may need to raise interest rates more quickly.",
+      "When parliament restarts in early October, Takaichi needs to persuade lawmakers a planned sales tax cut, higher defense spending and her investment roadmap won’t undermine the finances of the world’s most indebted major economy.",
+      "Read more: Japan Eyes Defense Spending at 3.5% of GDP After US Pressure",
+      "While Japan’s first female leader secured her country’s largest single-party election victory since World War II in February as voters embraced her direct style, she still has doubters in the LDP where many see her as an outsider. To drive through Japan’s biggest budget on record at ¥143 trillion ($921 billion) and oversee a ¥370 trillion investment plan to enhance Japan’s growth, she’ll need their support.",
+      "Her efforts to build a stronger military got a boost this month when a candidate backed by the ruling coalition won the governor’s race in Okinawa prefecture. That builds momentum ahead of hundreds of local votes in April and Takaichi’s own bid to retain the presidency of the ruling party next September.",
+      "Takaichi also chose continuity in the LDP’s power structure. On Wednesday, she kept former premier Taro Aso, who leads the party’s only remaining formal faction, as LDP vice president, and Shunichi Suzuki — Aso’s brother-in-law and a former finance minister — as the party’s secretary-general.",
+      "“The party and government will work together to overcome difficulties and open a path to the future through our policies until the people feel a sense of prosperity and ease through economic growth,” Takaichi told reporters.",
+      "While Takaichi appears well positioned to retain power, pressing ahead with a sweeping conservative agenda — such as revising the nation’s constitution — could damage her political capital. Moves to punish national flag desecration, create a second capital to Tokyo and expand the pool of men eligible to become emperor helped bring her honeymoon period to an end, while discontent over inflation has persisted.",
+      "Takaichi remains popular among the Japanese public, said William Chou, a senior fellow at the Hudson Institute, who sees her bigger challenge as forging connections with lawmakers.",
+      "“Her long-term premiership will depend on her policies,” he added. “But also her ability to build a political base in the LDP and, most of all, taking care of her health.”"
+     ],
+     "title_zh": "高市在内阁改组中展现权力，为访美做准备",
+     "summary_zh": "高市早苗拟留任核心内阁，并首次给维新会部长职位，显示其执政信心增强。"
     },
     {
      "title": "New Zealand's World-Beating Sovereign Wealth Fund Returns 14.2%",
@@ -192,7 +881,7 @@
      "summary_zh": "Meta CEO扎克伯格呼吁AI实验室依靠独立评估者确保模型安全，并透露Meta曾主动推迟Muse工具发布数月以专注安全。"
     },
     {
-     "title": "Gold Steadies Below $4,300 as Markets Await Fed Rate Decision",
+     "title": "Gold Rises as Traders Weigh Oil Decline Before Key Fed Decision",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/gold-steadies-below-4-300-as-markets-await-fed-rate-decision",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/gold-steadies-below-4-300-as-markets-await-fed-rate-decision",
      "published_cst": "2026-09-16T00:00:15+08:00",
@@ -232,10 +921,343 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 5,
+   "count": 42,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "Transcript: Meet the Fuggers — Europe’s richest family ever",
+     "url": "https://www.ft.com/content/062b6b3e-6444-4437-b69b-8a1b65029149",
+     "link": "https://www.ft.com/content/062b6b3e-6444-4437-b69b-8a1b65029149",
+     "published_cst": "2026-09-16T05:40:03+08:00",
+     "time": "09-16 05:40",
+     "body": null,
+     "title_zh": "文字记录：认识富格尔家族——欧洲史上最富有的家族"
+    },
+    {
+     "title": "FTAV’s further reading",
+     "url": "https://www.ft.com/content/85f684e6-15df-4015-a626-73a5e2f2b438",
+     "link": "https://www.ft.com/content/85f684e6-15df-4015-a626-73a5e2f2b438",
+     "published_cst": "2026-09-16T05:30:03+08:00",
+     "time": "09-16 05:30",
+     "body": null,
+     "title_zh": "FT财经精选"
+    },
+    {
+     "title": "AI debt vs Treasuries",
+     "url": "https://www.ft.com/content/033b21e7-b5d5-4511-ae01-53edaa4e051e",
+     "link": "https://www.ft.com/content/033b21e7-b5d5-4511-ae01-53edaa4e051e",
+     "published_cst": "2026-09-16T05:30:03+08:00",
+     "time": "09-16 05:30",
+     "body": null,
+     "title_zh": "AI债务与美债"
+    },
+    {
+     "title": "Von der Leyen to paint EU as the only port in a global geopolitical storm",
+     "url": "https://www.ft.com/content/1f78b692-4389-49a1-bd48-903252cc282f",
+     "link": "https://www.ft.com/content/1f78b692-4389-49a1-bd48-903252cc282f",
+     "published_cst": "2026-09-16T05:00:03+08:00",
+     "time": "09-16 05:00",
+     "body": null,
+     "title_zh": "冯德莱恩将把欧盟描绘成全球地缘政治风暴中的唯一避风港"
+    },
+    {
+     "title": "The BoE’s three balance sheet problem",
+     "url": "https://www.ft.com/content/3401a104-598d-4145-a03b-8bb08b2d7165",
+     "link": "https://www.ft.com/content/3401a104-598d-4145-a03b-8bb08b2d7165",
+     "published_cst": "2026-09-16T05:00:02+08:00",
+     "time": "09-16 05:00",
+     "body": null,
+     "title_zh": "英国央行的三个资产负债表问题"
+    },
+    {
+     "title": "World’s best-performing sovereign wealth fund expects equities pullback",
+     "url": "https://www.ft.com/content/6b6a27bd-2725-4591-be8a-fda643c2ac5c",
+     "link": "https://www.ft.com/content/6b6a27bd-2725-4591-be8a-fda643c2ac5c",
+     "published_cst": "2026-09-16T04:55:08+08:00",
+     "time": "09-16 04:55",
+     "body": null,
+     "title_zh": "全球表现最佳主权财富基金预计股市回调"
+    },
+    {
+     "title": "Transcript: US billionaires bankroll Republican election push",
+     "url": "https://www.ft.com/content/d2008942-ae1b-4461-b697-87d1790e6480",
+     "link": "https://www.ft.com/content/d2008942-ae1b-4461-b697-87d1790e6480",
+     "published_cst": "2026-09-16T04:40:45+08:00",
+     "time": "09-16 04:40",
+     "body": null,
+     "title_zh": "文字记录：美国亿万富翁资助共和党竞选"
+    },
+    {
+     "title": "FirstFT: EU rebuffs ‘unique alliance’ with Canada",
+     "url": "https://www.ft.com/content/96ea6daf-086f-49ff-bbe3-c42cf63561ec",
+     "link": "https://www.ft.com/content/96ea6daf-086f-49ff-bbe3-c42cf63561ec",
+     "published_cst": "2026-09-16T04:30:53+08:00",
+     "time": "09-16 04:30",
+     "body": null,
+     "title_zh": "欧盟拒绝与加拿大建立独特联盟"
+    },
+    {
+     "title": "With AI, ‘I told you so’ will be too late",
+     "url": "https://www.ft.com/content/9dd894cd-dddd-4388-ac00-dbd14d40dc52",
+     "link": "https://www.ft.com/content/9dd894cd-dddd-4388-ac00-dbd14d40dc52",
+     "published_cst": "2026-09-16T04:00:23+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "有了AI，说“我早告诉过你”就太迟了"
+    },
+    {
+     "title": "UK looks to ‘land drones’ to transform beleaguered Ajax fighting vehicles",
+     "url": "https://www.ft.com/content/3c38362f-70c3-4275-bcfd-bea41a2bf473",
+     "link": "https://www.ft.com/content/3c38362f-70c3-4275-bcfd-bea41a2bf473",
+     "published_cst": "2026-09-16T04:00:23+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "英国拟用“陆地无人机”改造陷入困境的阿贾克斯战车"
+    },
+    {
+     "title": "Sullivan & Cromwell discovers private equity",
+     "url": "https://www.ft.com/content/69a2a7a0-ecd2-4d05-915c-55a6352889ff",
+     "link": "https://www.ft.com/content/69a2a7a0-ecd2-4d05-915c-55a6352889ff",
+     "published_cst": "2026-09-16T04:00:23+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "苏利文与克伦威尔发现私募股权"
+    },
+    {
+     "title": "Fed should defy Donald Trump with rate rise, top economists say",
+     "url": "https://www.ft.com/content/f62e467a-bcb6-423d-96f2-b2b1e08faaa8",
+     "link": "https://www.ft.com/content/f62e467a-bcb6-423d-96f2-b2b1e08faaa8",
+     "published_cst": "2026-09-16T04:00:23+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "顶级经济学家称美联储应无视特朗普反对加息"
+    },
+    {
+     "title": "EU rebuffs Mark Carney’s ‘unique alliance’ with Canada",
+     "url": "https://www.ft.com/content/2e2e0c1e-51d6-49e2-9f4a-6ef793908b85",
+     "link": "https://www.ft.com/content/2e2e0c1e-51d6-49e2-9f4a-6ef793908b85",
+     "published_cst": "2026-09-16T04:00:23+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "欧盟拒绝马克·卡尼与加拿大的“独特联盟”提议"
+    },
+    {
+     "title": "Transcript: FT Weekend Fest — Is the AI boom a bubble?",
+     "url": "https://www.ft.com/content/37d65049-fd13-4e5b-8dbb-fee57af5b316",
+     "link": "https://www.ft.com/content/37d65049-fd13-4e5b-8dbb-fee57af5b316",
+     "published_cst": "2026-09-16T04:00:22+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "FT周末节——AI繁荣是泡沫吗？"
+    },
+    {
+     "title": "‘Buy British’ military procurement is a poor way to defend the realm",
+     "url": "https://www.ft.com/content/3a216d29-6ed0-46a2-9835-2d9b427b7e88",
+     "link": "https://www.ft.com/content/3a216d29-6ed0-46a2-9835-2d9b427b7e88",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "购买英国货的军事采购并非保卫国家的好方法"
+    },
+    {
+     "title": "Ørsted boss says Europe must act on ‘unfair’ Chinese wind turbine makers",
+     "url": "https://www.ft.com/content/786b8ce5-3a11-4e34-b811-41ec165f5916",
+     "link": "https://www.ft.com/content/786b8ce5-3a11-4e34-b811-41ec165f5916",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "沃旭能源老板称欧洲须应对中国风力涡轮机制造商的不公平行为"
+    },
+    {
+     "title": "Vodafone takes up to €1.1bn hit from Drahi’s German broadband deal",
+     "url": "https://www.ft.com/content/7612d53d-5179-4a53-afcc-564781baf290",
+     "link": "https://www.ft.com/content/7612d53d-5179-4a53-afcc-564781baf290",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "沃达丰因德拉希德国宽带交易损失高达11亿欧元"
+    },
+    {
+     "title": "UK chancellor considering Budget tax raid on higher stake slot machines",
+     "url": "https://www.ft.com/content/05dc65e9-0a60-4914-a39f-cf3cc2139513",
+     "link": "https://www.ft.com/content/05dc65e9-0a60-4914-a39f-cf3cc2139513",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "英国财政大臣考虑在预算中对高额投注老虎机增税"
+    },
+    {
+     "title": "The received wisdom is that tech titans don’t care for art. Is it true?",
+     "url": "https://www.ft.com/content/9101f2b0-2c11-4122-a3b4-aa035fc66b6c",
+     "link": "https://www.ft.com/content/9101f2b0-2c11-4122-a3b4-aa035fc66b6c",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "普遍观点认为科技巨头不关心艺术。真是这样吗？"
+    },
+    {
+     "title": "In Germany’s east, old ties to Moscow fuel AfD rise",
+     "url": "https://www.ft.com/content/0aa2e6af-195d-40cc-a813-3e130cbb5553",
+     "link": "https://www.ft.com/content/0aa2e6af-195d-40cc-a813-3e130cbb5553",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "德国东部与莫斯科的旧情助推选择党崛起"
+    },
+    {
+     "title": "Crispin Odey judgment is lesson for firms over ethical failings, warns FCA",
+     "url": "https://www.ft.com/content/90fd247a-69a0-4066-aa9d-f51a3e659434",
+     "link": "https://www.ft.com/content/90fd247a-69a0-4066-aa9d-f51a3e659434",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "英国金融行为监管局警告：克里斯平·奥迪判决为企业道德失范敲响警钟"
+    },
+    {
+     "title": "AI can forecast the future. Should we let it?",
+     "url": "https://www.ft.com/content/4d69377c-a2b6-4c20-a485-3dbbafc6daa3",
+     "link": "https://www.ft.com/content/4d69377c-a2b6-4c20-a485-3dbbafc6daa3",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "人工智能能预测未来。我们该让它预测吗？"
+    },
+    {
+     "title": "A hotter planet meets dearer money",
+     "url": "https://www.ft.com/content/9e7aa9ce-6c02-49fc-9224-62fb5767f1b1",
+     "link": "https://www.ft.com/content/9e7aa9ce-6c02-49fc-9224-62fb5767f1b1",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "更热的地球遇上更贵的资金"
+    },
+    {
+     "title": "A fiery Korean dish that makes the case for tofu",
+     "url": "https://www.ft.com/content/d735ef0b-e510-4f9a-87ba-f79ff3a870bc",
+     "link": "https://www.ft.com/content/d735ef0b-e510-4f9a-87ba-f79ff3a870bc",
+     "published_cst": "2026-09-16T04:00:13+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "一道火辣的韩式菜肴为豆腐正名"
+    },
+    {
+     "title": "US billionaires line up to bankroll Republicans’ election push",
+     "url": "https://www.ft.com/content/2285c111-b103-4b04-96c7-fe26a3c04c3e",
+     "link": "https://www.ft.com/content/2285c111-b103-4b04-96c7-fe26a3c04c3e",
+     "published_cst": "2026-09-16T04:00:06+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "美国亿万富翁纷纷出资支持共和党竞选"
+    },
+    {
+     "title": "Top hats, tails and T-shirts: the new rules of tailoring",
+     "url": "https://www.ft.com/content/d760e96f-ece2-4c53-b15e-100654e2bf42",
+     "link": "https://www.ft.com/content/d760e96f-ece2-4c53-b15e-100654e2bf42",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "高帽、燕尾服与T恤：裁缝新规"
+    },
+    {
+     "title": "The unravelling of Missoni",
+     "url": "https://www.ft.com/content/2e3ad452-cd81-4df0-8eec-09112033ea37",
+     "link": "https://www.ft.com/content/2e3ad452-cd81-4df0-8eec-09112033ea37",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "米索尼的解体"
+    },
+    {
+     "title": "The precarious fusion boom",
+     "url": "https://www.ft.com/content/ef511d46-a689-4868-9654-15b96a71586d",
+     "link": "https://www.ft.com/content/ef511d46-a689-4868-9654-15b96a71586d",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "不稳定的聚变热潮"
+    },
+    {
+     "title": "Postcard from Athens: the capital has history, culture — and some of Europe’s best birdwatching",
+     "url": "https://www.ft.com/content/393eaee8-e968-40dd-bc3f-8a0ac9d37157",
+     "link": "https://www.ft.com/content/393eaee8-e968-40dd-bc3f-8a0ac9d37157",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "来自雅典的明信片：这座首都拥有历史、文化，还有欧洲最佳的观鸟地之一"
+    },
+    {
+     "title": "How Switzerland turned tax competition into a national sport",
+     "url": "https://www.ft.com/content/c11fd1dd-8783-4894-9f53-109d7edf376f",
+     "link": "https://www.ft.com/content/c11fd1dd-8783-4894-9f53-109d7edf376f",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "瑞士如何将税收竞争变成全民运动"
+    },
+    {
+     "title": "Can our children still prosper in the age of AI?",
+     "url": "https://www.ft.com/content/b59fa5e0-c0e7-4c3f-856d-9cfd11f878ed",
+     "link": "https://www.ft.com/content/b59fa5e0-c0e7-4c3f-856d-9cfd11f878ed",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "我们的孩子还能在人工智能时代繁荣吗？"
+    },
+    {
+     "title": "A top London lawyer wants to create ‘the California of Europe’ in the Algarve",
+     "url": "https://www.ft.com/content/a4d98da2-12e2-4c6a-a60c-46aaeb69ff2a",
+     "link": "https://www.ft.com/content/a4d98da2-12e2-4c6a-a60c-46aaeb69ff2a",
+     "published_cst": "2026-09-16T04:00:05+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "一位伦敦顶级律师想在阿尔加维打造欧洲的加利福尼亚"
+    },
+    {
+     "title": "Iran’s hidden leader stirs unease at home",
+     "url": "https://www.ft.com/content/ffe402ca-564a-457f-a861-18083a361e50",
+     "link": "https://www.ft.com/content/ffe402ca-564a-457f-a861-18083a361e50",
+     "published_cst": "2026-09-16T04:00:04+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "伊朗幕后领导人引发国内不安"
+    },
+    {
+     "title": "Hedge fund warned ousted lawyer to settle £36bn BHP dam collapse claim",
+     "url": "https://www.ft.com/content/6ec74be5-9e4c-49c0-a9dc-d3a0ae324a17",
+     "link": "https://www.ft.com/content/6ec74be5-9e4c-49c0-a9dc-d3a0ae324a17",
+     "published_cst": "2026-09-16T04:00:04+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "对冲基金警告被解雇律师了结320亿英镑必和必拓大坝坍塌索赔"
+    },
+    {
+     "title": "US billionaires bankroll Republican election push",
+     "url": "https://www.ft.com/content/705eb4b8-01e5-48ef-be83-2db5520d7966",
+     "link": "https://www.ft.com/content/705eb4b8-01e5-48ef-be83-2db5520d7966",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "美国亿万富翁资助共和党竞选"
+    },
+    {
+     "title": "Meet the Fuggers: Europe’s richest family ever",
+     "url": "https://www.ft.com/content/91070dcd-5b35-44f1-8941-60efaefc2c47",
+     "link": "https://www.ft.com/content/91070dcd-5b35-44f1-8941-60efaefc2c47",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "认识富格尔家族：欧洲史上最富有的家族"
+    },
+    {
+     "title": "FT Weekend Fest: Is the AI boom a bubble?",
+     "url": "https://www.ft.com/content/1f32a85c-7866-4b09-b70e-051a94265e5e",
+     "link": "https://www.ft.com/content/1f32a85c-7866-4b09-b70e-051a94265e5e",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "FT周末节：AI热潮是泡沫吗？"
+    },
     {
      "title": "Nvidia and Meta bosses reject efforts to co-ordinate AI slowdown",
      "url": "https://www.ft.com/content/2e20c674-3386-46ad-b07f-5cd8a013f67e",
@@ -246,7 +1268,7 @@
      "title_zh": "黄仁勋称AI创新与安全的争论是“伪选择”"
     },
     {
-     "title": "Can the US and China work together on AI risks?",
+     "title": "Why the US and China are at odds on AI threats",
      "url": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d",
      "link": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d",
      "published_cst": "2026-09-16T01:18:40+08:00",
@@ -286,10 +1308,28 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 14,
+   "count": 16,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "Oil Falls, Asian Stocks Rise Ahead of Fed Rate Decision",
+     "url": "https://www.wsj.com/finance/stocks/oil-falls-asian-stocks-rise-ahead-of-fed-rate-decision-49a773a3",
+     "link": "https://www.wsj.com/finance/stocks/oil-falls-asian-stocks-rise-ahead-of-fed-rate-decision-49a773a3",
+     "published_cst": "2026-09-16T05:14:00+08:00",
+     "time": "09-16 05:14",
+     "body": null,
+     "title_zh": "美联储利率决议前油价下跌亚股上涨"
+    },
+    {
+     "title": "Pepper…and Salt",
+     "url": "https://www.wsj.com/opinion/pepperand-salt-0236af1d",
+     "link": "https://www.wsj.com/opinion/pepperand-salt-0236af1d",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": null,
+     "title_zh": "胡椒……和盐"
+    },
     {
      "title": "OpenAI Considers Pre-IPO Funding Round at More Than $1.2 Trillion Valuation",
      "url": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
@@ -318,7 +1358,7 @@
      "title_zh": "美国调查驶往美海岸能源油轮遭网络攻击"
     },
     {
-     "title": "Asian Currencies Broadly Weaken Ahead of Fed Decision",
+     "title": "Singapore Dollar Weakens Ahead of Fed Rate Decision",
      "url": "https://www.wsj.com/finance/currencies/fed-guidance-key-to-asian-fx-outlook-511a4410",
      "link": "https://www.wsj.com/finance/currencies/fed-guidance-key-to-asian-fx-outlook-511a4410",
      "published_cst": "2026-09-16T01:15:00+08:00",
@@ -421,10 +1461,361 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 35,
+   "count": 69,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "Private credit hit is drama waiting for crisis",
+     "url": "https://www.reuters.com/commentary/breakingviews/private-credit-hit-is-drama-waiting-crisis-2026-09-16/",
+     "link": "https://www.reuters.com/commentary/breakingviews/private-credit-hit-is-drama-waiting-crisis-2026-09-16/",
+     "published_cst": "2026-09-16T05:49:29+08:00",
+     "time": "09-16 05:49",
+     "body": null,
+     "title_zh": "私募信贷冲击是等待危机的戏剧"
+    },
+    {
+     "title": "Asian markets make shaky gains ahead of Fed decision, oil slips",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/",
+     "link": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/",
+     "published_cst": "2026-09-16T05:49:23+08:00",
+     "time": "09-16 05:49",
+     "body": null,
+     "title_zh": "亚洲市场在美联储决议前紧张开局"
+    },
+    {
+     "title": "US admission of orbital weapons seen as landmark moment in race with China, Russia",
+     "url": "https://www.reuters.com/business/aerospace-defense/us-orbital-weapons-acknowledgement-landmark-move-us-space-command-official-says-2026-09-15/",
+     "link": "https://www.reuters.com/business/aerospace-defense/us-orbital-weapons-acknowledgement-landmark-move-us-space-command-official-says-2026-09-15/",
+     "published_cst": "2026-09-16T05:46:33+08:00",
+     "time": "09-16 05:46",
+     "body": null,
+     "title_zh": "美国承认轨道武器被视为与中国俄罗斯竞赛的里程碑时刻"
+    },
+    {
+     "title": "SK Hynix in talks with Intel about deal to make memory chips in the US for the first time, sources say",
+     "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/sk-hynix-talks-with-intel-about-deal-make-memory-chips-us-first-time-sources-say-2026-09-16/",
+     "published_cst": "2026-09-16T05:45:38+08:00",
+     "time": "09-16 05:45",
+     "body": null,
+     "title_zh": "消息人士称SK海力士与英特尔洽谈首次在美国生产存储芯片的交易"
+    },
+    {
+     "title": "A decade after mercury ban, toxic skin bleachers still offered on top retailers' websites",
+     "url": "https://www.reuters.com/legal/litigation/decade-after-mercury-ban-toxic-skin-bleachers-still-offered-top-retailers-2026-09-16/",
+     "link": "https://www.reuters.com/legal/litigation/decade-after-mercury-ban-toxic-skin-bleachers-still-offered-top-retailers-2026-09-16/",
+     "published_cst": "2026-09-16T05:44:47+08:00",
+     "time": "09-16 05:44",
+     "body": null,
+     "title_zh": "汞禁令十年后，有毒美白产品仍现身顶级零售商网站"
+    },
+    {
+     "title": "Families desperate for news as 129 still missing four days after capsize of ship in Indonesia's Java Sea",
+     "url": "https://www.reuters.com/world/asia-pacific/families-desperate-news-129-still-missing-four-days-after-capsize-ship-in-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/families-desperate-news-129-still-missing-four-days-after-capsize-ship-in-2026-09-16/",
+     "published_cst": "2026-09-16T05:43:35+08:00",
+     "time": "09-16 05:43",
+     "body": null,
+     "title_zh": "印尼爪哇海沉船四天后仍有129人失踪，家属急切寻求消息"
+    },
+    {
+     "title": "China defence minister urges an end to 'provocative acts' to open security forum",
+     "url": "https://www.reuters.com/world/china/china-defence-minister-urges-an-end-provocative-acts-open-security-forum-2026-09-16/",
+     "link": "https://www.reuters.com/world/china/china-defence-minister-urges-an-end-provocative-acts-open-security-forum-2026-09-16/",
+     "published_cst": "2026-09-16T05:40:29+08:00",
+     "time": "09-16 05:40",
+     "body": null,
+     "title_zh": "中国防长呼吁停止挑衅行为以开启安全论坛"
+    },
+    {
+     "title": "Vallourec va fournir 15.000 tonnes de tubes en acier à Subsea7 au Brésil",
+     "url": "https://www.reuters.com/fr/affaires/vallourec-va-fournir-15000-tonnes-de-tubes-en-acier-subsea7-au-brsil-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/vallourec-va-fournir-15000-tonnes-de-tubes-en-acier-subsea7-au-brsil-2026-09-16/",
+     "published_cst": "2026-09-16T05:40:09+08:00",
+     "time": "09-16 05:40",
+     "body": null,
+     "title_zh": "瓦卢瑞克将向巴西Subsea7供应1.5万吨钢管"
+    },
+    {
+     "title": "OFRBS Summary",
+     "url": "https://www.reuters.com/fr/affaires/ofrbs-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/affaires/ofrbs-summary-2026-01-29/",
+     "published_cst": "2026-09-16T05:39:39+08:00",
+     "time": "09-16 05:39",
+     "body": null,
+     "title_zh": "OFRBS摘要"
+    },
+    {
+     "title": "Verdict attendu dans le procès pour crimes de guerre de l'ancien président du Kosovo",
+     "url": "https://www.reuters.com/fr/affaires/verdict-attendu-dans-le-procs-pour-crimes-de-guerre-de-lancien-prsident-du-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/verdict-attendu-dans-le-procs-pour-crimes-de-guerre-de-lancien-prsident-du-2026-09-16/",
+     "published_cst": "2026-09-16T05:38:10+08:00",
+     "time": "09-16 05:38",
+     "body": null,
+     "title_zh": "科索沃前总统战争罪案即将宣判"
+    },
+    {
+     "title": "OFRMO Summary",
+     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "published_cst": "2026-09-16T05:37:44+08:00",
+     "time": "09-16 05:37",
+     "body": null,
+     "title_zh": "OFRMO摘要"
+    },
+    {
+     "title": "South Korea's SK Hynix union approves tentative wage deal with management, source says",
+     "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-union-approves-tentative-wage-deal-with-management-yonhap-says-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/sk-hynix-union-approves-tentative-wage-deal-with-management-yonhap-says-2026-09-16/",
+     "published_cst": "2026-09-16T05:36:09+08:00",
+     "time": "09-16 05:36",
+     "body": null,
+     "title_zh": "SK海力士工会通过与资方的初步薪资协议，韩联社报道"
+    },
+    {
+     "title": "OFRTP Summary",
+     "url": "https://www.reuters.com/fr/actualites/ofrtp-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/actualites/ofrtp-summary-2026-01-29/",
+     "published_cst": "2026-09-16T05:35:52+08:00",
+     "time": "09-16 05:35",
+     "body": null,
+     "title_zh": "OFRTP摘要"
+    },
+    {
+     "title": "Von der Leyen va appeler à la solidarité européenne et à un resserrement des liens avec le Canada",
+     "url": "https://www.reuters.com/fr/affaires/von-der-leyen-va-appeler-la-solidarit-europenne-et-un-resserrement-des-liens-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/von-der-leyen-va-appeler-la-solidarit-europenne-et-un-resserrement-des-liens-2026-09-16/",
+     "published_cst": "2026-09-16T05:35:43+08:00",
+     "time": "09-16 05:35",
+     "body": null,
+     "title_zh": "冯德莱恩将呼吁欧洲团结并加强与加拿大的联系"
+    },
+    {
+     "title": "Un drone houthi détruit au sud de La Mecque, dit la coalition menée par l'Arabie saoudite",
+     "url": "https://www.reuters.com/fr/affaires/un-drone-houthi-dtruit-au-sud-de-la-mecque-dit-la-coalition-mene-par-larabie-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/un-drone-houthi-dtruit-au-sud-de-la-mecque-dit-la-coalition-mene-par-larabie-2026-09-16/",
+     "published_cst": "2026-09-16T05:34:09+08:00",
+     "time": "09-16 05:34",
+     "body": null,
+     "title_zh": "胡塞无人机在麦加以南被击落，沙特领导的联军称"
+    },
+    {
+     "title": "Dax fester erwartet - Fed-Entscheid im Fokus",
+     "url": "https://www.reuters.com/de/firma/dax-fester-erwartet-fed-entscheid-im-fokus-2026-09-16/",
+     "link": "https://www.reuters.com/de/firma/dax-fester-erwartet-fed-entscheid-im-fokus-2026-09-16/",
+     "published_cst": "2026-09-16T05:34:04+08:00",
+     "time": "09-16 05:34",
+     "body": null,
+     "title_zh": "预计Dax指数走强 美联储决策受关注"
+    },
+    {
+     "title": "Grab’s wild shopping spree takes a sensible turn",
+     "url": "https://www.reuters.com/commentary/breakingviews/grabs-wild-shopping-spree-takes-sensible-turn-2026-09-16/",
+     "link": "https://www.reuters.com/commentary/breakingviews/grabs-wild-shopping-spree-takes-sensible-turn-2026-09-16/",
+     "published_cst": "2026-09-16T05:33:37+08:00",
+     "time": "09-16 05:33",
+     "body": null,
+     "title_zh": "Grab疯狂收购迎来理性转折"
+    },
+    {
+     "title": "Rupee pinned near 96 after RBI steps in, Fed test ahead",
+     "url": "https://www.reuters.com/world/india/rupee-faces-more-pressure-with-likely-fed-rate-hike-compounding-oil-pain-2026-09-16/",
+     "link": "https://www.reuters.com/world/india/rupee-faces-more-pressure-with-likely-fed-rate-hike-compounding-oil-pain-2026-09-16/",
+     "published_cst": "2026-09-16T05:32:30+08:00",
+     "time": "09-16 05:32",
+     "body": null,
+     "title_zh": "卢比在印度央行干预后徘徊于96附近，美联储考验将至"
+    },
+    {
+     "title": "Iran-Plusieurs explosions entendues dans l'île de Qeshm-Irna",
+     "url": "https://www.reuters.com/fr/affaires/iran-plusieurs-explosions-entendues-dans-lle-de-qeshm-irna-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/iran-plusieurs-explosions-entendues-dans-lle-de-qeshm-irna-2026-09-16/",
+     "published_cst": "2026-09-16T05:30:09+08:00",
+     "time": "09-16 05:30",
+     "body": null,
+     "title_zh": "伊朗盖什姆岛传出数起爆炸声"
+    },
+    {
+     "title": "China defence minister urges nations to curb regressive historical trends",
+     "url": "https://www.reuters.com/world/china/china-defence-minister-urges-countries-check-surge-regressive-historical-trends-2026-09-16/",
+     "link": "https://www.reuters.com/world/china/china-defence-minister-urges-countries-check-surge-regressive-historical-trends-2026-09-16/",
+     "published_cst": "2026-09-16T05:30:03+08:00",
+     "time": "09-16 05:30",
+     "body": null,
+     "title_zh": "中国国防部长敦促各国遏制倒退历史趋势的涌现"
+    },
+    {
+     "title": "Ukraine-Une nouvelle arme anti-drones à l'essai, dit Zelensky",
+     "url": "https://www.reuters.com/fr/affaires/ukraine-une-nouvelle-arme-anti-drones-lessai-dit-zelensky-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/ukraine-une-nouvelle-arme-anti-drones-lessai-dit-zelensky-2026-09-16/",
+     "published_cst": "2026-09-16T05:27:44+08:00",
+     "time": "09-16 05:27",
+     "body": null,
+     "title_zh": "乌克兰总统泽连斯基称一种新型反无人机武器正在测试中"
+    },
+    {
+     "title": "Global bond yields hit fresh highs, raising stakes for big borrowers",
+     "url": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+     "link": "https://www.reuters.com/world/asia-pacific/bond-selloff-drives-us-benchmark-beyond-5-stocks-rattled-2026-09-15/",
+     "published_cst": "2026-09-16T05:26:08+08:00",
+     "time": "09-16 05:26",
+     "body": null,
+     "title_zh": "全球债券收益率创新高，加大借款大户压力"
+    },
+    {
+     "title": "India's payment firms jump as UPI fee boosts revenue outlook",
+     "url": "https://www.reuters.com/world/india/indias-payment-firms-jump-upi-fee-boosts-revenue-outlook-2026-09-16/",
+     "link": "https://www.reuters.com/world/india/indias-payment-firms-jump-upi-fee-boosts-revenue-outlook-2026-09-16/",
+     "published_cst": "2026-09-16T05:25:48+08:00",
+     "time": "09-16 05:25",
+     "body": null,
+     "title_zh": "印度支付公司股价大涨，UPI费用提升营收前景"
+    },
+    {
+     "title": "Une première rencontre Burnham-Trump en marge de l'Assemblée générale de l'Onu-The Times",
+     "url": "https://www.reuters.com/fr/affaires/une-premire-rencontre-burnham-trump-en-marge-de-lassemble-gnrale-de-lonu-the-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/une-premire-rencontre-burnham-trump-en-marge-de-lassemble-gnrale-de-lonu-the-2026-09-16/",
+     "published_cst": "2026-09-16T05:25:43+08:00",
+     "time": "09-16 05:25",
+     "body": null,
+     "title_zh": "伯纳姆与特朗普在联合国大会期间首次会面"
+    },
+    {
+     "title": "EXCLUSIVE France would back Dutch veteran Knot to lead ECB, wants chief economist job, sources say",
+     "url": "https://www.reuters.com/business/finance/france-would-back-dutch-veteran-knot-lead-ecb-wants-chief-economist-job-sources-2026-09-15/",
+     "link": "https://www.reuters.com/business/finance/france-would-back-dutch-veteran-knot-lead-ecb-wants-chief-economist-job-sources-2026-09-15/",
+     "published_cst": "2026-09-16T05:24:49+08:00",
+     "time": "09-16 05:24",
+     "body": null,
+     "title_zh": "独家：法国将支持荷兰资深人士诺特领导欧洲央行，并希望获得首席经济学家职位，消息人士称"
+    },
+    {
+     "title": "Reiche will Gasspeicher mit höheren Ausschreibungen füllen - Auch Uniper und Sefe am Zug",
+     "url": "https://www.reuters.com/de/hauslich/reiche-will-gasspeicher-mit-hheren-ausschreibungen-fllen-auch-uniper-und-sefe-am-2026-09-16/",
+     "link": "https://www.reuters.com/de/hauslich/reiche-will-gasspeicher-mit-hheren-ausschreibungen-fllen-auch-uniper-und-sefe-am-2026-09-16/",
+     "published_cst": "2026-09-16T05:21:41+08:00",
+     "time": "09-16 05:21",
+     "body": null,
+     "title_zh": "赖歇将通过提高招标量填充储气库 尤尼珀和塞费也将参与"
+    },
+    {
+     "title": "Carney visits Europe to seek closer ties amid worsening trade war with Trump",
+     "url": "https://www.reuters.com/world/carney-visits-europe-seek-closer-ties-amid-worsening-trade-war-with-trump-2026-09-16/",
+     "link": "https://www.reuters.com/world/carney-visits-europe-seek-closer-ties-amid-worsening-trade-war-with-trump-2026-09-16/",
+     "published_cst": "2026-09-16T05:20:31+08:00",
+     "time": "09-16 05:20",
+     "body": null,
+     "title_zh": "卡尼访欧寻求加强关系，应对与特朗普贸易战升级"
+    },
+    {
+     "title": "China warns US space weapons could fuel arms race",
+     "url": "https://www.reuters.com/business/aerospace-defense/china-warns-us-space-weapons-could-fuel-arms-race-2026-09-16/",
+     "link": "https://www.reuters.com/business/aerospace-defense/china-warns-us-space-weapons-could-fuel-arms-race-2026-09-16/",
+     "published_cst": "2026-09-16T05:19:44+08:00",
+     "time": "09-16 05:19",
+     "body": null,
+     "title_zh": "中国警告美国太空武器或引发军备竞赛"
+    },
+    {
+     "title": "Merz sieht deutsche Geheimdienste \"auf Augenhöhe\" mit dem Mossad",
+     "url": "https://www.reuters.com/de/welt/merz-sieht-deutsche-geheimdienste-auf-augenhhe-mit-dem-mossad-2026-09-16/",
+     "link": "https://www.reuters.com/de/welt/merz-sieht-deutsche-geheimdienste-auf-augenhhe-mit-dem-mossad-2026-09-16/",
+     "published_cst": "2026-09-16T05:17:43+08:00",
+     "time": "09-16 05:17",
+     "body": null,
+     "title_zh": "默茨称德国情报机构与摩萨德“平起平坐”"
+    },
+    {
+     "title": "Merz: Sind erstklassiger Schuldner - Aber müssen Neuverschuldung zurückführen",
+     "url": "https://www.reuters.com/de/hauslich/merz-sind-erstklassiger-schuldner-aber-mssen-neuverschuldung-zurckfhren-2026-09-16/",
+     "link": "https://www.reuters.com/de/hauslich/merz-sind-erstklassiger-schuldner-aber-mssen-neuverschuldung-zurckfhren-2026-09-16/",
+     "published_cst": "2026-09-16T05:15:45+08:00",
+     "time": "09-16 05:15",
+     "body": null,
+     "title_zh": "梅尔茨：我们是一流债务人，但必须减少新增债务。"
+    },
+    {
+     "title": "Renault et Geely vont investir €319 mlns supplémentaires au Brésil",
+     "url": "https://www.reuters.com/fr/affaires/renault-et-geely-vont-investir-319-mlns-supplmentaires-au-brsil-2026-09-16/",
+     "link": "https://www.reuters.com/fr/affaires/renault-et-geely-vont-investir-319-mlns-supplmentaires-au-brsil-2026-09-16/",
+     "published_cst": "2026-09-16T05:13:36+08:00",
+     "time": "09-16 05:13",
+     "body": null,
+     "title_zh": "雷诺和吉利将在巴西追加投资3.19亿欧元"
+    },
+    {
+     "title": "German minister plans market incentives to boost gas storage, source says",
+     "url": "https://www.reuters.com/business/energy/german-minister-plans-market-incentives-boost-gas-storage-source-says-2026-09-16/",
+     "link": "https://www.reuters.com/business/energy/german-minister-plans-market-incentives-boost-gas-storage-source-says-2026-09-16/",
+     "published_cst": "2026-09-16T05:12:52+08:00",
+     "time": "09-16 05:12",
+     "body": null,
+     "title_zh": "德国部长计划推出市场激励措施以增加天然气储备"
+    },
+    {
+     "title": "Platense cae con Fluminense y es eliminado de Libertadores",
+     "url": "https://www.reuters.com/es/deportivo/RLOWLXMU45IPTFZE7K2OQW42WA-2026-09-16/",
+     "link": "https://www.reuters.com/es/deportivo/RLOWLXMU45IPTFZE7K2OQW42WA-2026-09-16/",
+     "published_cst": "2026-09-16T05:10:09+08:00",
+     "time": "09-16 05:10",
+     "body": null,
+     "title_zh": "普拉滕斯不敌弗鲁米嫩塞，无缘解放者杯。"
+    },
+    {
+     "title": "Oil slips on US stock build, Middle East disruptions limit losses",
+     "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+     "link": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
+     "published_cst": "2026-09-16T05:04:42+08:00",
+     "time": "09-16 05:04",
+     "body": null,
+     "title_zh": "油价下跌，美国原油库存增加抵消沙特供应担忧"
+    },
+    {
+     "title": "Niederlage für Trump: US-Senat legt Krypto-Gesetz auf Eis",
+     "url": "https://www.reuters.com/de/welt/niederlage-fr-trump-us-senat-legt-krypto-gesetz-auf-eis-2026-09-16/",
+     "link": "https://www.reuters.com/de/welt/niederlage-fr-trump-us-senat-legt-krypto-gesetz-auf-eis-2026-09-16/",
+     "published_cst": "2026-09-16T05:03:45+08:00",
+     "time": "09-16 05:03",
+     "body": null,
+     "title_zh": "特朗普受挫：美国参议院搁置加密货币法案"
+    },
+    {
+     "title": "NBC News helicopter crashes in Los Angeles, killing three",
+     "url": "https://www.reuters.com/world/us/three-dead-after-helicopter-crash-los-angeles-fire-department-says-2026-09-16/",
+     "link": "https://www.reuters.com/world/us/three-dead-after-helicopter-crash-los-angeles-fire-department-says-2026-09-16/",
+     "published_cst": "2026-09-16T05:02:15+08:00",
+     "time": "09-16 05:02",
+     "body": null,
+     "title_zh": "洛杉矶NBC新闻直升机坠毁致三人死亡"
+    },
+    {
+     "title": "South Korea's top diplomat to meet Rubio amid US investment, Hormuz discussions",
+     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-foreign-minister-meet-rubio-talks-us-friday-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-koreas-foreign-minister-meet-rubio-talks-us-friday-2026-09-16/",
+     "published_cst": "2026-09-16T05:01:00+08:00",
+     "time": "09-16 05:01",
+     "body": null,
+     "title_zh": "韩国外长周五将在美国会见鲁比奥"
+    },
+    {
+     "title": "Pistorius bei Hegseth - Vertiefte Zusammenarbeit von Rüstungsfirmen geplant",
+     "url": "https://www.reuters.com/de/welt/pistorius-bei-hegseth-vertiefte-zusammenarbeit-von-rstungsfirmen-geplant-2026-09-16/",
+     "link": "https://www.reuters.com/de/welt/pistorius-bei-hegseth-vertiefte-zusammenarbeit-von-rstungsfirmen-geplant-2026-09-16/",
+     "published_cst": "2026-09-16T05:00:52+08:00",
+     "time": "09-16 05:00",
+     "body": null,
+     "title_zh": "皮斯托瑞斯与赫格塞斯会面 计划深化军工企业合作"
+    },
+    {
+     "title": "EU carmaker turnaround hopes look doomed",
+     "url": "https://www.reuters.com/commentary/breakingviews/eu-carmaker-turnaround-hopes-look-doomed-2026-09-16/",
+     "link": "https://www.reuters.com/commentary/breakingviews/eu-carmaker-turnaround-hopes-look-doomed-2026-09-16/",
+     "published_cst": "2026-09-16T05:00:40+08:00",
+     "time": "09-16 05:00",
+     "body": null,
+     "title_zh": "欧盟车企复苏希望渺茫"
+    },
     {
      "title": "South Korean court orders North Korea to pay damages over 2020 liaison office demolition, media reports",
      "url": "https://www.reuters.com/world/south-korean-court-orders-north-korea-pay-damages-over-2020-liaison-office-2026-09-16/",
@@ -433,15 +1824,6 @@
      "time": "09-16 02:40",
      "body": null,
      "title_zh": "韩国法院就2020年联络办公室拆除事件判令朝鲜赔偿损失，媒体报道"
-    },
-    {
-     "title": "South Korea's SK Hynix union approves tentative wage deal with management, source says",
-     "url": "https://www.reuters.com/world/asia-pacific/sk-hynix-union-approves-tentative-wage-deal-with-management-yonhap-says-2026-09-16/",
-     "link": "https://www.reuters.com/world/asia-pacific/sk-hynix-union-approves-tentative-wage-deal-with-management-yonhap-says-2026-09-16/",
-     "published_cst": "2026-09-16T02:38:00+08:00",
-     "time": "09-16 02:38",
-     "body": null,
-     "title_zh": "SK海力士工会通过与资方的初步薪资协议，韩联社报道"
     },
     {
      "title": "Indian shares seen opening higher after selloff; higher oil, Fed caution to cap gains",
@@ -496,24 +1878,6 @@
      "time": "09-16 02:21",
      "body": null,
      "title_zh": "沙特联军称胡塞武装无人机在麦加附近被摧毁"
-    },
-    {
-     "title": "Asian markets make nervous start ahead of Fed decision",
-     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/",
-     "link": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/",
-     "published_cst": "2026-09-16T02:18:03+08:00",
-     "time": "09-16 02:18",
-     "body": null,
-     "title_zh": "亚洲市场在美联储决议前紧张开局"
-    },
-    {
-     "title": "China defence minister urges countries to check surge of regressive historical trends",
-     "url": "https://www.reuters.com/world/china/china-defence-minister-urges-countries-check-surge-regressive-historical-trends-2026-09-16/",
-     "link": "https://www.reuters.com/world/china/china-defence-minister-urges-countries-check-surge-regressive-historical-trends-2026-09-16/",
-     "published_cst": "2026-09-16T02:15:43+08:00",
-     "time": "09-16 02:15",
-     "body": null,
-     "title_zh": "中国国防部长敦促各国遏制倒退历史趋势的涌现"
     },
     {
      "title": "Gold muted as investors brace for Fed rate decision",
@@ -624,15 +1988,6 @@
      "title_zh": "美元受美国加息周期预期支撑"
     },
     {
-     "title": "Oil falls as US crude inventories rise despite Saudi supply concerns",
-     "url": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
-     "link": "https://www.reuters.com/business/energy/oil-falls-us-crude-inventories-rise-despite-saudi-supply-concerns-2026-09-16/",
-     "published_cst": "2026-09-16T00:58:23+08:00",
-     "time": "09-16 00:58",
-     "body": null,
-     "title_zh": "油价下跌，美国原油库存增加抵消沙特供应担忧"
-    },
-    {
      "title": "Senegal's Faye, IMF chief welcome progress in talks, aim for new support programme",
      "url": "https://www.reuters.com/world/africa/senegals-faye-imf-chief-welcome-progress-talks-aim-new-support-programme-2026-09-16/",
      "link": "https://www.reuters.com/world/africa/senegals-faye-imf-chief-welcome-progress-talks-aim-new-support-programme-2026-09-16/",
@@ -676,15 +2031,6 @@
      "time": "09-16 00:39",
      "body": null,
      "title_zh": "巴西最高法院推迟对政治敏感案件中法官调查的裁决"
-    },
-    {
-     "title": "South Korea's foreign minister to meet Rubio for talks in US on Friday",
-     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-foreign-minister-meet-rubio-talks-us-friday-2026-09-16/",
-     "link": "https://www.reuters.com/world/asia-pacific/south-koreas-foreign-minister-meet-rubio-talks-us-friday-2026-09-16/",
-     "published_cst": "2026-09-16T00:37:41+08:00",
-     "time": "09-16 00:37",
-     "body": null,
-     "title_zh": "韩国外长周五将在美国会见鲁比奥"
     },
     {
      "title": "Saudi-led coalition says it destroys Houthi drone south of Mecca",

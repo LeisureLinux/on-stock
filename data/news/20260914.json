@@ -1,6 +1,6 @@
 {
  "date": "20260914",
- "generated_at": "2026-09-16T10:47:25.099476+08:00",
+ "generated_at": "2026-09-16T13:54:37.549463+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -3166,7 +3166,7 @@
      "summary_zh": "海鹰13-10胜爱国者，NBC与Peacock吸引超2500万观众；特朗普共和党中期大会黄金时段仅约370万人观看。"
     },
     {
-     "title": "Tech Leaders Try to Telegraph AI Concerns Without Spooking Investors",
+     "title": "Where Jensen Huang, Sam Altman, Elon Musk, Mark Zuckerberg Stand on AI Safety",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/tech-execs-try-to-telegraph-ai-concerns-without-spooking-investors",
      "link": "https://www.bloomberg.com/news/articles/2026-09-14/tech-execs-try-to-telegraph-ai-concerns-without-spooking-investors",
      "published_cst": "2026-09-14T17:04:20+08:00",
@@ -6913,6 +6913,33 @@
      "summary_zh": "AI算力网络企业Ligent Technologies赴港IPO，拟最高募资57亿港元，发行1.72亿股，每股32.96港元，9月22日上市。"
     },
     {
+     "title": "Trump's \"Little War\" With Iran Just Got Bigger Because of the Houthis",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis",
+     "published_cst": "2026-09-14T04:01:06+08:00",
+     "time": "09-14 04:01",
+     "body": [
+      "It is an unintended feature of President Donald Trump’s Plan B for defeating Iran — economic strangulation — that the more successful the policy becomes, the more risk the men who run the Islamic Republic are willing to accept to fight it. Judged on that metric, the American blockade and sanctions are working, but they’re also raising the stakes beyond what the US is willing to pay.",
+      "This begs the question of how long and disruptive the showdown with Iran is going to be, now that the US president has said he expects it to continue through the November midterms. At that point, Trump believes it will stop quickly, because the Iranians will no longer have the elections as leverage, implying that they’d then be ready to make a deal. That’s optimistic.",
+      "According to a Sept. 9 report in the Wall Street Journal, some of Trump’s most senior advisers (the same ones who advised against going to war in February) told him the conflict may outlast his presidency. They’re probably right and I hope they went a step further, warning him that it’s also likely to expand. His “little war” aimed at regime change in Iran is fast becoming a struggle to determine the future of the wider Middle East and the US role in it.",
+      "In truth, everybody is guessing at many of the factors that will decide this issue. We don’t know, for example, how many missiles or launchers the Iranians still have, nor what capacity they have to build new ones or how many they might be able to get elsewhere. We can’t be certain what will happen in energy markets, what political pressure will be brought to bear on Trump or what domestic unrest might unfold in Iran.",
+      "Nevertheless, it’s clear that Iran’s Islamic Revolutionary Guard Corps is capable of escalating the conflict in ways it previously avoided, knowing the Americans’ capacity to wreak the civilization-destroying devastation Trump has threatened. That’s something even the IRGC would try to avoid provoking for as long as it can — but the moment may have arrived.",
+      "One such provocation would be the destruction of a US warship, a humiliation for Trump that could leave hundreds of American service people dead or wounded and guarantee harsh retaliation. Iran has finally taken that risk, firing ballistic missiles at several US military vessels since Sept. 4. Even with none hit, the US responded by striking five Iranian oil tankers.",
+      "Another gun that long sat over the conflict’s Chekhovian fireplace was the potential for Tehran to get its Houthi allies in Yemen to block the Bab el-Mandeb Strait. This waterway controls traffic in and out of the Red Sea, which is where Saudi Arabia has been diverting about 5 million barrels of crude a day — oil that would normally exit the Persian Gulf via the Strait of Hormuz. Disrupting this alternate route would amplify the effects of Iran’s blockage in Hormuz and could have a significant impact on the global trade costs and inflation.",
+      "The Houthis — reportedly aided by IRGC guidance and Iranian promises of money and arms — have now taken that gun off the wall. Last week, they fired multiple missiles into Saudi Arabia, wounding more than 70 people, while the group’s land forces captured the port city of Mokha and, reportedly, several nearby islands. This could prove a huge win, both for the Houthis and Tehran, providing the potential to place Houthi missile launchers and fast boats less than 50 miles from the narrows that create Bab el-Mandeb.",
+      "These territorial gains, if consolidated, could prove enough to give the Houthis the kind of permanent control over the strait that the Iranians are now demanding over Hormuz. Together, they would put two broadly Shia, Islamist and anti-Western forces in control of major flows of oil, liquified natural gas and fertilizers from the gulf.",
+      "According to Axios, Saudi Arabia’s de facto leader Mohammed Bin Salman called Trump twice last week, asking him to order US air strikes on Houthi positions. The answer was no — Trump is understandably reluctant to open a second front in the war. But it’s too late for that. Houthi control of Bab el-Mandeb would join the two fronts into one, and the capture of Mokha has put that within reach. At the weekend, drones fired from Iraq — likely by an Iran-backed militia — struck the East-West pipeline that transports Saudi oil to the Red Sea, forcing its closure and prompting a further spike in crude prices.",
+      "Trump may not recognize what a turning point this could be. Saudi Arabia will have a choice: Either fight the Houthis — which would require the involvement of the US or some other military power — or cut a deal with them. The latter would likely also require detente with Iran and mean significant changes to the balance of power in the gulf and on the Arabian Peninsula.",
+      "Iran’s nuclear program remains an important part of this wider struggle, even if it has been sidelined by the more immediate issues around Hormuz. And here, too, is potential for escalation. A Sept. 9 analysis of satellite imagery from the Center for Security and International Studies, a Washington-based think tank, found there has been “a clear surge” in construction this year around Pickaxe Mountain, the nuclear facility the Iranians have been building near their uranium enrichment plant at Natanz, with more activity around the site than at any time in the past. (On the same day, the UN’s nuclear watchdog voted to refer Iran to the UN Security Council for non-compliance with its treaty obligations, the first time it has done so in 20 years).",
+      "None of the above suggests a short war or willingness on Iran’s part to compromise. To the contrary, IRGC spokesman Brigadier General Hossein Mohebbi last week restated Iran’s maximalist demands for peace and said it would expand its zone of attack on “unauthorized” shipping through Hormuz.",
+      "These developments were unimaginable before the US and Israel went to war against Iran in search of regime change. But, as Gregory Johnsen, a non-resident fellow at the Arab Gulf States Institute, said in a web briefing last week, Iran’s example in Hormuz has given the Houthis a new direction in their efforts to secure revenue and leverage. The Iranian regime, too, has new direction, sensing an opportunity to advance its preeminent strategic goal, which is to force an end US dominance and military presence in the Middle East.",
+      "Trump is right to want to avoid another forever war — this time in Yemen — but having started one in Iran, he may not yet grasp just how significant his refusal to help Saudi Arabia could prove.More from Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? OPIN <GO>. Or subscribe to our daily newsletter ."
+     ],
+     "title_zh": "特朗普与伊朗的小规模冲突因胡塞武装而升级",
+     "summary_zh": "特朗普对伊朗的经济封锁越成功，伊朗越愿冒险反抗，冲突或持续至其任期之后并扩大至中东。"
+    },
+    {
      "title": "Inflation: Warsh Talked the Fed Into a Rates Trap",
      "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-14/inflation-warsh-talked-the-fed-into-a-rates-trap",
      "link": "https://www.bloomberg.com/opinion/newsletters/2026-09-14/inflation-warsh-talked-the-fed-into-a-rates-trap",
@@ -6957,33 +6984,6 @@
      "summary_zh": "美联储本周将加息，因8月通胀数据未明显改善，新主席沃什需维持信誉。"
     },
     {
-     "title": "Trump's \"Little War\" With Iran Just Got Bigger Because of the Houthis",
-     "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis",
-     "link": "https://www.bloomberg.com/opinion/articles/2026-09-14/trump-s-little-war-with-iran-just-got-bigger-because-of-the-houthis",
-     "published_cst": "2026-09-14T04:01:06+08:00",
-     "time": "09-14 04:01",
-     "body": [
-      "It is an unintended feature of President Donald Trump’s Plan B for defeating Iran — economic strangulation — that the more successful the policy becomes, the more risk the men who run the Islamic Republic are willing to accept to fight it. Judged on that metric, the American blockade and sanctions are working, but they’re also raising the stakes beyond what the US is willing to pay.",
-      "This begs the question of how long and disruptive the showdown with Iran is going to be, now that the US president has said he expects it to continue through the November midterms. At that point, Trump believes it will stop quickly, because the Iranians will no longer have the elections as leverage, implying that they’d then be ready to make a deal. That’s optimistic.",
-      "According to a Sept. 9 report in the Wall Street Journal, some of Trump’s most senior advisers (the same ones who advised against going to war in February) told him the conflict may outlast his presidency. They’re probably right and I hope they went a step further, warning him that it’s also likely to expand. His “little war” aimed at regime change in Iran is fast becoming a struggle to determine the future of the wider Middle East and the US role in it.",
-      "In truth, everybody is guessing at many of the factors that will decide this issue. We don’t know, for example, how many missiles or launchers the Iranians still have, nor what capacity they have to build new ones or how many they might be able to get elsewhere. We can’t be certain what will happen in energy markets, what political pressure will be brought to bear on Trump or what domestic unrest might unfold in Iran.",
-      "Nevertheless, it’s clear that Iran’s Islamic Revolutionary Guard Corps is capable of escalating the conflict in ways it previously avoided, knowing the Americans’ capacity to wreak the civilization-destroying devastation Trump has threatened. That’s something even the IRGC would try to avoid provoking for as long as it can — but the moment may have arrived.",
-      "One such provocation would be the destruction of a US warship, a humiliation for Trump that could leave hundreds of American service people dead or wounded and guarantee harsh retaliation. Iran has finally taken that risk, firing ballistic missiles at several US military vessels since Sept. 4. Even with none hit, the US responded by striking five Iranian oil tankers.",
-      "Another gun that long sat over the conflict’s Chekhovian fireplace was the potential for Tehran to get its Houthi allies in Yemen to block the Bab el-Mandeb Strait. This waterway controls traffic in and out of the Red Sea, which is where Saudi Arabia has been diverting about 5 million barrels of crude a day — oil that would normally exit the Persian Gulf via the Strait of Hormuz. Disrupting this alternate route would amplify the effects of Iran’s blockage in Hormuz and could have a significant impact on the global trade costs and inflation.",
-      "The Houthis — reportedly aided by IRGC guidance and Iranian promises of money and arms — have now taken that gun off the wall. Last week, they fired multiple missiles into Saudi Arabia, wounding more than 70 people, while the group’s land forces captured the port city of Mokha and, reportedly, several nearby islands. This could prove a huge win, both for the Houthis and Tehran, providing the potential to place Houthi missile launchers and fast boats less than 50 miles from the narrows that create Bab el-Mandeb.",
-      "These territorial gains, if consolidated, could prove enough to give the Houthis the kind of permanent control over the strait that the Iranians are now demanding over Hormuz. Together, they would put two broadly Shia, Islamist and anti-Western forces in control of major flows of oil, liquified natural gas and fertilizers from the gulf.",
-      "According to Axios, Saudi Arabia’s de facto leader Mohammed Bin Salman called Trump twice last week, asking him to order US air strikes on Houthi positions. The answer was no — Trump is understandably reluctant to open a second front in the war. But it’s too late for that. Houthi control of Bab el-Mandeb would join the two fronts into one, and the capture of Mokha has put that within reach. At the weekend, drones fired from Iraq — likely by an Iran-backed militia — struck the East-West pipeline that transports Saudi oil to the Red Sea, forcing its closure and prompting a further spike in crude prices.",
-      "Trump may not recognize what a turning point this could be. Saudi Arabia will have a choice: Either fight the Houthis — which would require the involvement of the US or some other military power — or cut a deal with them. The latter would likely also require detente with Iran and mean significant changes to the balance of power in the gulf and on the Arabian Peninsula.",
-      "Iran’s nuclear program remains an important part of this wider struggle, even if it has been sidelined by the more immediate issues around Hormuz. And here, too, is potential for escalation. A Sept. 9 analysis of satellite imagery from the Center for Security and International Studies, a Washington-based think tank, found there has been “a clear surge” in construction this year around Pickaxe Mountain, the nuclear facility the Iranians have been building near their uranium enrichment plant at Natanz, with more activity around the site than at any time in the past. (On the same day, the UN’s nuclear watchdog voted to refer Iran to the UN Security Council for non-compliance with its treaty obligations, the first time it has done so in 20 years).",
-      "None of the above suggests a short war or willingness on Iran’s part to compromise. To the contrary, IRGC spokesman Brigadier General Hossein Mohebbi last week restated Iran’s maximalist demands for peace and said it would expand its zone of attack on “unauthorized” shipping through Hormuz.",
-      "These developments were unimaginable before the US and Israel went to war against Iran in search of regime change. But, as Gregory Johnsen, a non-resident fellow at the Arab Gulf States Institute, said in a web briefing last week, Iran’s example in Hormuz has given the Houthis a new direction in their efforts to secure revenue and leverage. The Iranian regime, too, has new direction, sensing an opportunity to advance its preeminent strategic goal, which is to force an end US dominance and military presence in the Middle East.",
-      "Trump is right to want to avoid another forever war — this time in Yemen — but having started one in Iran, he may not yet grasp just how significant his refusal to help Saudi Arabia could prove.More from Bloomberg Opinion:",
-      "Want more Bloomberg Opinion? OPIN <GO>. Or subscribe to our daily newsletter ."
-     ],
-     "title_zh": "特朗普与伊朗的小规模冲突因胡塞武装而升级",
-     "summary_zh": "特朗普对伊朗的经济封锁越成功，伊朗越愿冒险反抗，冲突或持续至其任期之后并扩大至中东。"
-    },
-    {
      "title": "Robinhood Can't Disrupt Its Way Into the IPO Club",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-14/robinhood-can-t-disrupt-its-way-into-the-ipo-club",
      "link": "https://www.bloomberg.com/opinion/articles/2026-09-14/robinhood-can-t-disrupt-its-way-into-the-ipo-club",
@@ -7011,6 +7011,38 @@
      ],
      "title_zh": "Robinhood无法颠覆进入IPO俱乐部",
      "summary_zh": "Robinhood首次承销Oura约30亿美元IPO，让散户参与打新，但配售有限或令双方失望。"
+    },
+    {
+     "title": "Bank of England's Dovish Majority Tested by Oil Price Surge",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures",
+     "published_cst": "2026-09-14T04:00:00+08:00",
+     "time": "09-14 04:00",
+     "body": [
+      "Governor Andrew Bailey gave journalists an unusually frank message after July’s interest-rate decision: “Please do not leave this room thinking that the Bank of England is edging toward a hike.”",
+      "He may struggle to be quite so emphatic when the central bank announces its next decision on Thursday.",
+      "Upside pressures are coming hard and fast from the unresolved Iran war, with the price of Brent crude oil firmly above $100 a barrel and gas costs proving a particular challenge to the UK.",
+      "New risks are approaching too, threatening to keep inflation above the BOE’s 2% target well into next year.",
+      "Bailey told lawmakers earlier this week that energy prices “could be higher still” and that risks are also emerging for food costs, following widespread drought in the UK and the looming effects of a supersized El Niño. Other parts of the consumer shopping basket look ominous too, such as air fares, while fast growth suggests stronger than expected demand in the economy.",
+      "“Energy passes the baton on to food prices in a way,” said Hetal Mehta, chief economist at St James’s Place. “The broader El Niño effect is likely to keep inflation much stickier next year. Even if the Iran-related energy price disinflation happens, you’ll have a different wave of food price inflation to overlay, which just prevents the overall numbers from coming down materially.”",
+      "Markets have shifted accordingly. In the days after Bailey’s July press conference traders were pricing in less than a full quarter-point rate hike by the end of the year. But with Brent crude prices surging above $108 on Monday, investors see a growing risk of a move this week.",
+      "Money markets now put the implied probability of a hike at around 34%. Traders are pricing in two increases by the end of the year and at least another two next year.",
+      "Read more: Oil Surges on Report Saudi Pipeline Will Take Weeks to Reopen",
+      "Most BOE officials have argued that a weak labor market and slower anticipated growth in the second half of this year can help contain the price pressures triggered by the Iran war. While GDP data for July suggested the economy may be resilient, evidence generally supports the view that second round effects are under control.",
+      "There is little sign yet inflation is becoming embedded. The BOE’s inflation expectations survey for August published on Friday showed a dip to 3.2% over the coming year, from 4% in May. For the following 12 months, expectations fell to 2.9% from 3.5% in May. The BOE’s agents survey of businesses across the country found that pay settlements for 2027 will be “broadly in line with or lower than 2026,” when they averaged 3.6%.",
+      "However, the BOE may have to change tack at some point. Oxford Economics estimates that UK inflation — currently at 2.9% — could hit almost 4% by the turn of the year. That would be double the BOE’s target and above levels at which the central bank believes households start to notice more rapid price increases.",
+      "One key driver will be the UK’s energy price cap, which limits how much suppliers can charge consumers per unit. Regulator Ofgem has announced it will hit a three-year high in October and experts say it could rise further still in early 2027.",
+      "“We think the impact of the Middle East conflict is still building,” said Andrew Goodwin, chief UK economist at Oxford Economics. “We think the price cap could rise by another 13% in January. Wholesale prices are currently well above the level of the previous observation window.”",
+      "The food industry is also warning that a combination of higher energy costs, harvests impacted by the scorching UK weather and El Niño will feed grocery bills well into next year.",
+      "The Food and Drink Federation expects food inflation to jump to almost 4% by Christmas and peak at 6.4% in July 2027.",
+      "“The biggest risk is really what’s going to happen to to commodities, and then therefore what’s happening with with El Niño,” said Liliana Danila, chief economist at the FDF, who pointed to a possible effect on crops such as cocoa, coffee, palm oil, rice and sugar. “It is possible that we’ll see worse than we anticipate... for now we haven’t seen the true impact on the ground.”",
+      "Most economists expect the Monetary Policy Committee to split 6-3 again to hold rates at 3.75% on Thursday. Matt Swannell, chief economic adviser to the ITEM Club, said the panel is likely to “talk tough about its readiness to fight inflation to avoid any unwanted loosening in financial conditions.”",
+      "The MPC is widely predicted to reduce the pace at which its gilt portfolio is unwound to acknowledge the fragile state of bond markets. The portfolio has already been shrunk to £489 billion from £875 billion since quantitative tightening began in 2022. The BOE is expected to slow the pace to £50 billion over the 12 months from October from £70 billion in the last period.",
+      "Domestically, a key unknown is whether the strong UK growth in the first half of the year will persist and even cause firms to begin hiring again.",
+      "While forecasters expected growing inflationary pressures to weigh on consumers and economic activity, surveys suggest both consumer and business sentiment have picked up since Andy Burnham became Prime Minister in July, potentially adding to demand in the economy."
+     ],
+     "title_zh": "英国央行鸽派多数面临油价飙升考验",
+     "summary_zh": "英国央行行长贝利7月称不急于加息，但伊朗战事推高布伦特油价突破100美元，叠加食品涨价风险，市场预期本周加息概率约34%。"
     },
     {
      "title": "Portsmouth Violence: British Balaclava Mob Deserves a Hard Response",
@@ -7108,38 +7140,6 @@
      ],
      "title_zh": "欧洲分裂的股市终获统一数据源",
      "summary_zh": "欧盟周一推出覆盖29国市场的统一交易数据系统，旨在提升流动性并改变投资者对欧洲市场碎片化的看法。"
-    },
-    {
-     "title": "Bank of England's Dovish Majority Tested by Oil Price Surge",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-14/bank-of-england-s-dovish-majority-tested-by-iran-war-pressures",
-     "published_cst": "2026-09-14T04:00:00+08:00",
-     "time": "09-14 04:00",
-     "body": [
-      "Governor Andrew Bailey gave journalists an unusually frank message after July’s interest-rate decision: “Please do not leave this room thinking that the Bank of England is edging toward a hike.”",
-      "He may struggle to be quite so emphatic when the central bank announces its next decision on Thursday.",
-      "Upside pressures are coming hard and fast from the unresolved Iran war, with the price of Brent crude oil firmly above $100 a barrel and gas costs proving a particular challenge to the UK.",
-      "New risks are approaching too, threatening to keep inflation above the BOE’s 2% target well into next year.",
-      "Bailey told lawmakers earlier this week that energy prices “could be higher still” and that risks are also emerging for food costs, following widespread drought in the UK and the looming effects of a supersized El Niño. Other parts of the consumer shopping basket look ominous too, such as air fares, while fast growth suggests stronger than expected demand in the economy.",
-      "“Energy passes the baton on to food prices in a way,” said Hetal Mehta, chief economist at St James’s Place. “The broader El Niño effect is likely to keep inflation much stickier next year. Even if the Iran-related energy price disinflation happens, you’ll have a different wave of food price inflation to overlay, which just prevents the overall numbers from coming down materially.”",
-      "Markets have shifted accordingly. In the days after Bailey’s July press conference traders were pricing in less than a full quarter-point rate hike by the end of the year. But with Brent crude prices surging above $108 on Monday, investors see a growing risk of a move this week.",
-      "Money markets now put the implied probability of a hike at around 34%. Traders are pricing in two increases by the end of the year and at least another two next year.",
-      "Read more: Oil Surges on Report Saudi Pipeline Will Take Weeks to Reopen",
-      "Most BOE officials have argued that a weak labor market and slower anticipated growth in the second half of this year can help contain the price pressures triggered by the Iran war. While GDP data for July suggested the economy may be resilient, evidence generally supports the view that second round effects are under control.",
-      "There is little sign yet inflation is becoming embedded. The BOE’s inflation expectations survey for August published on Friday showed a dip to 3.2% over the coming year, from 4% in May. For the following 12 months, expectations fell to 2.9% from 3.5% in May. The BOE’s agents survey of businesses across the country found that pay settlements for 2027 will be “broadly in line with or lower than 2026,” when they averaged 3.6%.",
-      "However, the BOE may have to change tack at some point. Oxford Economics estimates that UK inflation — currently at 2.9% — could hit almost 4% by the turn of the year. That would be double the BOE’s target and above levels at which the central bank believes households start to notice more rapid price increases.",
-      "One key driver will be the UK’s energy price cap, which limits how much suppliers can charge consumers per unit. Regulator Ofgem has announced it will hit a three-year high in October and experts say it could rise further still in early 2027.",
-      "“We think the impact of the Middle East conflict is still building,” said Andrew Goodwin, chief UK economist at Oxford Economics. “We think the price cap could rise by another 13% in January. Wholesale prices are currently well above the level of the previous observation window.”",
-      "The food industry is also warning that a combination of higher energy costs, harvests impacted by the scorching UK weather and El Niño will feed grocery bills well into next year.",
-      "The Food and Drink Federation expects food inflation to jump to almost 4% by Christmas and peak at 6.4% in July 2027.",
-      "“The biggest risk is really what’s going to happen to to commodities, and then therefore what’s happening with with El Niño,” said Liliana Danila, chief economist at the FDF, who pointed to a possible effect on crops such as cocoa, coffee, palm oil, rice and sugar. “It is possible that we’ll see worse than we anticipate... for now we haven’t seen the true impact on the ground.”",
-      "Most economists expect the Monetary Policy Committee to split 6-3 again to hold rates at 3.75% on Thursday. Matt Swannell, chief economic adviser to the ITEM Club, said the panel is likely to “talk tough about its readiness to fight inflation to avoid any unwanted loosening in financial conditions.”",
-      "The MPC is widely predicted to reduce the pace at which its gilt portfolio is unwound to acknowledge the fragile state of bond markets. The portfolio has already been shrunk to £489 billion from £875 billion since quantitative tightening began in 2022. The BOE is expected to slow the pace to £50 billion over the 12 months from October from £70 billion in the last period.",
-      "Domestically, a key unknown is whether the strong UK growth in the first half of the year will persist and even cause firms to begin hiring again.",
-      "While forecasters expected growing inflationary pressures to weigh on consumers and economic activity, surveys suggest both consumer and business sentiment have picked up since Andy Burnham became Prime Minister in July, potentially adding to demand in the economy."
-     ],
-     "title_zh": "英国央行鸽派多数面临油价飙升考验",
-     "summary_zh": "英国央行行长贝利7月称不急于加息，但伊朗战事推高布伦特油价突破100美元，叠加食品涨价风险，市场预期本周加息概率约34%。"
     },
     {
      "title": "South Korea's $1.4 Trillion National Pension Fund Picks New CIO",
