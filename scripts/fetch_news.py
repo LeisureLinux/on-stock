@@ -297,13 +297,24 @@ def main():
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     out = DATA_DIR / f"{date}.json"
 
-    # 同一天分多次抓取时合并，而非覆盖
+    # 同一天分多次抓取时合并，而非覆盖：
+    # 按源 + url 粒度合并，旧条目的 title_zh/summary_zh/body 等加工字段保留
     if out.exists():
         try:
             prev = json.loads(out.read_text(encoding="utf-8"))
-            merged = dict(prev.get("sources", {}))
-            merged.update(result["sources"])
-            result["sources"] = merged
+            KEEP = ("title_zh", "summary_zh", "body", "created")
+            for key, new_src in result["sources"].items():
+                old_src = (prev.get("sources") or {}).get(key)
+                if not old_src:
+                    continue
+                old_by_url = {it.get("url"): it for it in old_src.get("items", [])}
+                for it in new_src.get("items", []):
+                    old_it = old_by_url.get(it.get("url"))
+                    if not old_it:
+                        continue
+                    for f in KEEP:
+                        if old_it.get(f) and not it.get(f):
+                            it[f] = old_it[f]
         except json.JSONDecodeError:
             pass
 
