@@ -925,7 +925,8 @@ def build_news_pages(docs_dir: Path) -> int:
     latest_dir = docs_dir / "latest"
     latest_dir.mkdir(parents=True, exist_ok=True)
     (latest_dir / "index.html").write_text(
-        build_day_page(latest_date, latest_data, is_latest=True), encoding="utf-8")
+        build_day_page(latest_date, latest_data, is_latest=True,
+                       fulltext=load_fulltext(latest_date)), encoding="utf-8")
     (latest_dir / "index.json").write_text(
         json.dumps(latest_data, ensure_ascii=False, indent=1), encoding="utf-8")
 
