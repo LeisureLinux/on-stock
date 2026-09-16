@@ -16,6 +16,7 @@ from pathlib import Path
 LORE_DIR = Path(__file__).parent
 ASSETS_DIR = LORE_DIR / "assets"  # 静态资源源目录（收款码等）
 NEWS_DATA_DIR = LORE_DIR / "data" / "news"
+FULLTEXT_DATA_DIR = LORE_DIR / "data" / "fulltext"
 SITE_URL = "https://stock.freelamp.com"
 
 # 免费试读条数
@@ -149,6 +150,10 @@ DAY_TEMPLATE = """<!DOCTYPE html>
     .title-en {{ display: block; font-size: 12px; line-height: 1.4; color: #9CA3AF; margin-top: 2px; }}
     .title-sum {{ display: block; font-size: 12.5px; line-height: 1.5; color: #4B5563;
       margin-top: 4px; padding-left: 8px; border-left: 2px solid #E5E7EB; }}
+    .ft-link {{ display: inline-block; margin-top: 5px; font-size: 12px; color: #DC2626;
+      background: #FEF2F2; border: 1px solid #FECACA; border-radius: 6px;
+      padding: 1px 8px; text-decoration: none; font-weight: 600; }}
+    .ft-link:hover {{ background: #FEE2E2; }}
 
     footer {{
       text-align: center; color: #9CA3AF; font-size: 13px;
@@ -222,7 +227,7 @@ DAY_TEMPLATE = """<!DOCTYPE html>
 """
 
 
-def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
+def build_day_page(date: str, day: dict, is_latest: bool = False, fulltext: dict = None) -> str:
     sources = day.get("sources", {})
     total = sum(s.get("count", 0) for s in sources.values())
 
@@ -251,6 +256,14 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
             summ = it.get("summary_zh", "")
             if summ:
                 title_html += f'<span class="title-sum">{_e(summ)}</span>'
+            # 全文图标：该条目有手工收录全文时，加「全文」链接
+            if fulltext and it.get("url"):
+                arts = fulltext.get("articles", {})
+                for slug, a in arts.items():
+                    if a.get("news_url") == it.get("url"):
+                        title_html += (f'<a class="ft-link" href="/fulltext/{date}/{_e(slug)}/" '
+                                       f'title="阅读中文全文（翻译排版）">📄 全文</a>')
+                        break
             lis.append(
                 f'<li data-src="{_e(key)}">'
                 f'<span class="time">{_e(it.get("time", ""))} CST</span>'
@@ -778,6 +791,111 @@ def build_subscribe_page(has_qr: bool = False) -> str:
 
 # ---------------------------------------------------------------- 入口
 
+def load_fulltext(date: str):
+    """读某天的全文收录数据；无则返回 None"""
+    f = FULLTEXT_DATA_DIR / f"{date}.json"
+    if not f.exists():
+        return None
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return None
+
+
+FULLTEXT_TEMPLATE = """<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title} | 外媒全文</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="{site_url}/fulltext/{date}/{slug}/">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <style>
+    * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+    body {{ font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', serif;
+      background: #F9FAFB; color: #374151; line-height: 1.9; }}
+    .paper {{ max-width: 720px; margin: 0 auto; background: #fff; padding: 48px 56px 64px; }}
+    .src-line {{ font-size: 13px; color: #9CA3AF; margin-bottom: 6px; }}
+    .src-line a {{ color: #6B7280; }}
+    h1 {{ font-size: 26px; line-height: 1.45; color: #111827; margin: 6px 0 6px; font-weight: 800; }}
+    .en-title {{ font-size: 15px; color: #9CA3AF; line-height: 1.5; margin-bottom: 18px; }}
+    hr {{ border: 0; border-top: 1px solid #F3F4F6; margin: 22px 0; }}
+    p {{ font-size: 16px; margin-bottom: 18px; text-align: justify; }}
+    .lang-toggle {{ margin: 0 0 18px; font-size: 13px; }}
+    .lang-toggle button {{ background: #fff; border: 1px solid #E5E7EB; border-radius: 8px;
+      padding: 5px 14px; margin-right: 8px; cursor: pointer; font-size: 13px; color: #374151; }}
+    .lang-toggle button.on {{ background: #DC2626; color: #fff; border-color: #DC2626; }}
+    body.show-en p.en {{ display: block; }}
+    body.show-en p.zh {{ display: none; }}
+    footer {{ max-width: 720px; margin: 0 auto; padding: 20px; font-size: 12.5px;
+      color: #9CA3AF; text-align: center; }}
+    footer a {{ color: #DC2626; }}
+    @media (max-width: 760px) {{ .paper {{ padding: 28px 20px 44px; }} }}
+  </style>
+</head>
+<body>
+  <div class="paper">
+    <div class="src-line">{source_name} · {time} CST ｜ <a href="{news_url}" target="_blank" rel="noopener">原文</a></div>
+    <h1>{title}</h1>
+    <div class="en-title">{title_en}</div>
+    <div class="lang-toggle">
+      <button class="on" onclick="setLang('zh', this)">中文</button>
+      <button onclick="setLang('en', this)">English</button>
+    </div>
+{paras}
+  </div>
+  <footer>内容由 AI 翻译润色，仅供参考，以原文为准 ｜ <a href="/latest/">返回今日速览</a> ｜ <a href="/subscribe/">订阅</a></footer>
+  <script>
+    function setLang(lang, btn) {{
+      document.body.classList.toggle('show-en', lang === 'en');
+      var bs = document.querySelectorAll('.lang-toggle button');
+      for (var i = 0; i < bs.length; i++) bs[i].classList.remove('on');
+      btn.classList.add('on');
+    }}
+  </script>
+</body>
+</html>
+"""
+
+
+def build_fulltext_pages(docs_dir: Path) -> int:
+    """生成所有全文排版页 docs/fulltext/<date>/<slug>/，返回页数"""
+    if not FULLTEXT_DATA_DIR.exists():
+        return 0
+    n = 0
+    for f in sorted(FULLTEXT_DATA_DIR.glob("*.json")):
+        date = f.stem
+        try:
+            doc = json.loads(f.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            continue
+        for slug, a in doc.get("articles", {}).items():
+            src_label = SOURCE_LABEL.get(a.get("source"), a.get("source", "").upper())
+            paras = []
+            zh = a.get("paras_zh", [])
+            en = a.get("paras_en", [])
+            for i in range(max(len(zh), len(en))):
+                z = zh[i] if i < len(zh) else ""
+                e = en[i] if i < len(en) else ""
+                if z:
+                    paras.append(f'    <p class="zh">{_e(z)}</p>')
+                if e:
+                    paras.append(f'    <p class="en" style="display:none;color:#6B7280;font-size:14px">{_e(e)}</p>')
+            html = FULLTEXT_TEMPLATE.format(
+                site_url=SITE_URL, date=date, slug=slug,
+                title=_e(a.get("title_zh") or a.get("title_en", "")),
+                title_en=_e(a.get("title_en", "")),
+                source_name=_e(src_label), time=_e(a.get("time", "")),
+                news_url=_e(a.get("news_url", "#")),
+                paras="\n".join(paras))
+            d = docs_dir / "fulltext" / date / slug
+            d.mkdir(parents=True, exist_ok=True)
+            (d / "index.html").write_text(html, encoding="utf-8")
+            n += 1
+    return n
+
+
 def build_news_pages(docs_dir: Path) -> int:
     """生成全部新闻页面，返回生成的目录数"""
     days = load_days()
@@ -829,6 +947,11 @@ def build_news_pages(docs_dir: Path) -> int:
                     "items": flat[:TRIAL_LIMIT]},
                    ensure_ascii=False, indent=1),
         encoding="utf-8")
+
+    # 全文排版页
+    n_ft = build_fulltext_pages(docs_dir)
+    if n_ft:
+        print(f"   📄 全文页：{n_ft} 篇")
 
     # 订阅页
     sub_dir = docs_dir / "subscribe"
