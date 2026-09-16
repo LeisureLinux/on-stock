@@ -78,40 +78,97 @@ def gen_summary(body: list, timeout: int = 25) -> str:
         return ""
 
 
+def _flush(path: Path, day: dict) -> dict:
+    """重读磁盘→合并内存新增→写盘，返回最新 day（防并发覆盖丢数据）。"""
+    try:
+        fresh = json.loads(path.read_text(encoding="utf-8"))
+        fresh["generated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat()
+        path.write_text(json.dumps(fresh, ensure_ascii=False, indent=1), encoding="utf-8")
+        return fresh
+    except Exception:
+        return day
+
+
 def process_file(path: Path, dry_run: bool = False) -> tuple:
+    """BB 正文+摘要。与 translate 同样的防覆盖策略：
+    每次写盘前重读磁盘最新状态，只在本条 item 上落笔。
+    """
     day = json.loads(path.read_text(encoding="utf-8"))
-    total = new_body = new_sum = 0
+    # 收集待处理清单（url + 待做事项），避免迭代中重读失效
+    pending = []
     for s in day.get("sources", {}).values():
         if s.get("name") != "Bloomberg":
             continue
         for it in s.get("items", []):
-            total += 1
-            # 1) 抓正文（若无）
+            todo = []
             if not it.get("body"):
-                if dry_run:
-                    continue
-                try:
-                    body = fn.fetch_bloomberg_body(it.get("url", ""))
-                except Exception:
-                    body = None
-                if body:
-                    it["body"] = body
-                    new_body += 1
-                    day["generated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat()
-                    path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
-                time.sleep(0.3)
-            # 2) 生成摘要（若有正文且无摘要）
+                todo.append("body")
             if it.get("body") and not it.get("summary_zh"):
-                if dry_run:
-                    continue
-                summ = gen_summary(it["body"])
-                if summ:
+                todo.append("summary")
+            if todo:
+                pending.append((it.get("url", ""), todo))
+    total = sum(len(s.get("items", [])) for s in day.get("sources", {}).values()
+                if s.get("name") == "Bloomberg")
+    if dry_run:
+        return total, 0, 0
+
+    new_body = new_sum = 0
+    for url, todo in pending:
+        body = None
+        if "body" in todo:
+            try:
+                body = fn.fetch_bloomberg_body(url)
+            except Exception:
+                body = None
+        if body:
+            new_body += 1
+        time.sleep(0.3)
+        summ = None
+        if body or "summary" in todo:
+            cur_body = body
+            if not cur_body:
+                # 重读磁盘取现有 body（可能已被其它进程写入）
+                try:
+                    disk_it = _find_url(path, url)
+                    cur_body = (disk_it or {}).get("body")
+                except Exception:
+                    cur_body = None
+            if cur_body:
+                summ = gen_summary(cur_body)
+                time.sleep(0.3)
+        # 落盘：重读磁盘最新状态，只改本条
+        try:
+            day = json.loads(path.read_text(encoding="utf-8"))
+            it = _find_url_in_day(day, url)
+            if it is not None:
+                if body and not it.get("body"):
+                    it["body"] = body
+                if summ and not it.get("summary_zh"):
                     it["summary_zh"] = summ
                     new_sum += 1
-                    day["generated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat()
-                    path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
-                time.sleep(0.3)
+            day["generated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat()
+            path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
+        except Exception as e:
+            print(f"    ⚠️  写回失败：{e}", file=sys.stderr)
     return total, new_body, new_sum
+
+
+def _find_url(path: Path, url: str):
+    try:
+        day = json.loads(path.read_text(encoding="utf-8"))
+        return _find_url_in_day(day, url)
+    except Exception:
+        return None
+
+
+def _find_url_in_day(day: dict, url: str):
+    for s in day.get("sources", {}).values():
+        if s.get("name") != "Bloomberg":
+            continue
+        for it in s.get("items", []):
+            if it.get("url") == url:
+                return it
+    return None
 
 
 def main():

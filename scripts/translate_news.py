@@ -115,28 +115,53 @@ def translate_one(title: str, timeout: int = 25) -> str:
     return _translate_deepseek(title, timeout)
 
 
-def process_file(path: Path, dry_run: bool = False) -> tuple:
-    day = json.loads(path.read_text(encoding="utf-8"))
-    total = new = 0
+def _find_item(day: dict, url: str):
+    """按 url 在 day 结构里定位 item（找不到返回 None）。"""
+    if not url:
+        return None
     for s in day.get("sources", {}).values():
         for it in s.get("items", []):
-            title = it.get("title", "")
-            if not title:
-                continue
-            total += 1
-            if it.get("title_zh"):
-                continue
-            if dry_run:
-                continue
-            zh = translate_one(title)
-            if zh:
-                it["title_zh"] = zh
-                new += 1
-                # 每条增量写回，避免中途崩溃丢失进度
-                day["generated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat()
-                path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
-            time.sleep(0.3)  # 付费档 RPM 充足
-    return total, new
+            if it.get("url") == url:
+                return it
+    return None
+
+
+def process_file(path: Path, dry_run: bool = False) -> tuple:
+    """翻译当日标题。
+
+    增量写回策略：每译完一条，重读磁盘 → 把新译写入对应 item → 写盘。
+    这样即使与 fetch/其他进程并发写同一文件，也只丢"这一条"，
+    不会用内存旧快照把别人的更新覆盖掉（曾因此丢过 600+ 条翻译）。
+    """
+    day = json.loads(path.read_text(encoding="utf-8"))
+    # 先收集待译 url 清单，避免边遍历边重读导致迭代器失效
+    pending = []
+    for s in day.get("sources", {}).values():
+        for it in s.get("items", []):
+            if it.get("title") and not it.get("title_zh"):
+                pending.append((it.get("url", ""), it.get("title")))
+    total_all = sum(len(s.get("items", [])) for s in day.get("sources", {}).values())
+    if dry_run:
+        return total_all, 0
+
+    new = 0
+    for url, title in pending:
+        zh = translate_one(title)
+        if not zh:
+            time.sleep(0.3)
+            continue
+        new += 1
+        try:
+            day = json.loads(path.read_text(encoding="utf-8"))  # 重读磁盘最新状态
+            target = _find_item(day, url)
+            if target is not None:
+                target["title_zh"] = zh
+            day["generated_at"] = datetime.now(timezone(timedelta(hours=8))).isoformat()
+            path.write_text(json.dumps(day, ensure_ascii=False, indent=1), encoding="utf-8")
+        except Exception as e:
+            print(f"    ⚠️  写回失败(译文仅内存)：{e}", file=sys.stderr)
+        time.sleep(0.3)  # 付费档 RPM 充足
+    return total_all, new
 
 
 def main():
