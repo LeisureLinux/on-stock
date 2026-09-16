@@ -295,31 +295,82 @@ def main():
             print(f"   ✅ {SOURCES[k]['name']}: {result['sources'][k]['count']} 条")
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    out = DATA_DIR / f"{date}.json"
 
-    # 同一天分多次抓取时合并，而非覆盖：
-    # 按源 + url 粒度合并，旧条目的 title_zh/summary_zh/body 等加工字段保留
-    if out.exists():
-        try:
-            prev = json.loads(out.read_text(encoding="utf-8"))
-            KEEP = ("title_zh", "summary_zh", "body", "created")
-            for key, new_src in result["sources"].items():
-                old_src = (prev.get("sources") or {}).get(key)
-                if not old_src:
-                    continue
-                old_by_url = {it.get("url"): it for it in old_src.get("items", [])}
-                for it in new_src.get("items", []):
-                    old_it = old_by_url.get(it.get("url"))
-                    if not old_it:
-                        continue
+    # ------------------------------------------------ 归档分流：按发布日(CST)归档
+    # 规则：每条新闻按 published_cst 的日期归到对应那天的文件；
+    # 无时间的条目归到抓取日(--date/今天)。老文件的翻译/摘要/正文按 url 保留。
+    KEEP = ("title_zh", "summary_zh", "body", "created")
+    # 陈旧过滤：发布日早于今天-7天(CST)的条目丢弃，防 sitemap 陈旧尾巴污染归档
+    stale_cut = (datetime.now(CST) - timedelta(days=7)).strftime("%Y%m%d")
+    by_day = {}   # day(YYYYMMDD) -> {srckey: [items]}
+    stale = 0
+    for key, src in result["sources"].items():
+        for it in src.get("items", []):
+            pc = it.get("published_cst") or ""
+            day = pc[:10].replace("-", "") if len(pc) >= 10 else ""
+            if len(day) != 8 or not day.isdigit():
+                day = date
+            if day < stale_cut:
+                stale += 1
+                continue
+            by_day.setdefault(day, {}).setdefault(key, []).append(it)
+    if stale:
+        print(f"🗑️  丢弃发布日早于 {stale_cut} 的陈旧条目 {stale} 条")
+
+    for day, per_src in sorted(by_day.items(), reverse=True):
+        out = DATA_DIR / f"{day}.json"
+        merged_sources = {}
+        moved_note = "" if day == date else "（跨日分流）"
+        if out.exists():
+            try:
+                prev = json.loads(out.read_text(encoding="utf-8"))
+                merged_sources = prev.get("sources", {})
+            except json.JSONDecodeError:
+                merged_sources = {}
+        total = 0
+        for key, items in per_src.items():
+            cfg = SOURCES[key]
+            old = merged_sources.get(key) or {"items": []}
+            old_by_url = {it.get("url"): it for it in old.get("items", [])}
+            for it in items:
+                old_it = old_by_url.get(it.get("url"))
+                if old_it:
                     for f in KEEP:
                         if old_it.get(f) and not it.get(f):
                             it[f] = old_it[f]
-        except json.JSONDecodeError:
-            pass
-
-    out.write_text(json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"\n💾 写入 {out.relative_to(ROOT)}（源：{', '.join(result['sources'])}）")
+            # 合并：本轮新条目在前 + 老文件中发布日属本日且本轮没抓到的条目，同 url 去重
+            def _pubday(x):
+                pc = x.get("published_cst") or ""
+                d = pc[:10].replace("-", "") if len(pc) >= 10 else ""
+                return d if (len(d) == 8 and d.isdigit()) else day
+            new_urls = {it.get("url") for it in items}
+            seen = set()
+            merged_items = []
+            carry = [x for x in old.get("items", [])
+                     if x.get("url") not in new_urls and _pubday(x) == day]
+            for it in items + carry:
+                u = it.get("url")
+                if u in seen:
+                    continue
+                seen.add(u)
+                merged_items.append(it)
+            merged_items.sort(key=lambda x: x.get("time", ""), reverse=True)
+            merged_sources[key] = {
+                "name": cfg["name"], "home": cfg["home"],
+                "count": len(merged_items),
+                "body_support": cfg.get("can_fetch_body", False),
+                "note": cfg.get("note", ""), "items": merged_items,
+            }
+            total += len(merged_items)
+        day_doc = {
+            "date": day,
+            "generated_at": datetime.now(CST).isoformat(),
+            "timezone": "Asia/Shanghai (CST, UTC+8)",
+            "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
+            "sources": merged_sources,
+        }
+        out.write_text(json.dumps(day_doc, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"💾 归档 {day}.json：{total} 条{moved_note}（源：{', '.join(per_src)}）")
 
     update_index()
     return 0
