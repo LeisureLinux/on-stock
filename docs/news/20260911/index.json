@@ -1,0 +1,58 @@
+{
+ "date": "20260911",
+ "generated_at": "2026-09-16T10:47:25.116829+08:00",
+ "timezone": "Asia/Shanghai (CST, UTC+8)",
+ "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
+ "sources": {
+  "bb": {
+   "name": "Bloomberg",
+   "home": "https://www.bloomberg.com",
+   "count": 1,
+   "body_support": true,
+   "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
+   "items": [
+    {
+     "title": "JD.com Unit Pays SEC $500,000 Over 'Sham Transactions'",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-11/jd-com-unit-agrees-to-pay-sec-500-000-over-sham-transactions",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-11/jd-com-unit-agrees-to-pay-sec-500-000-over-sham-transactions",
+     "published_cst": "2026-09-11T22:37:09+08:00",
+     "time": "09-11 22:37",
+     "body": null
+    }
+   ]
+  },
+  "wsj": {
+   "name": "The Wall Street Journal",
+   "home": "https://www.wsj.com",
+   "count": 3,
+   "body_support": false,
+   "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
+   "items": [
+    {
+     "title": "Mortgage Rates Today, September 11, 2026: 30-Year Rates Remain Unchanged at 6.85%",
+     "url": "https://www.wsj.com/buyside/personal-finance/mortgage/mortgage-rates-today-9-11-2026",
+     "link": "https://www.wsj.com/buyside/personal-finance/mortgage/mortgage-rates-today-9-11-2026",
+     "published_cst": "2026-09-11T13:03:00+08:00",
+     "time": "09-11 13:03",
+     "body": null
+    },
+    {
+     "title": "Today’s CD Rates for September 11, 2026: Highest APYs Range From 4.14% to 4.60%",
+     "url": "https://www.wsj.com/buyside/personal-finance/banking/cd-rates-today-9-11-2026",
+     "link": "https://www.wsj.com/buyside/personal-finance/banking/cd-rates-today-9-11-2026",
+     "published_cst": "2026-09-11T09:00:00+08:00",
+     "time": "09-11 09:00",
+     "body": null
+    },
+    {
+     "title": "Today's High-Yield Savings Rates for September 11, 2026: Up to 4.50%",
+     "url": "https://www.wsj.com/buyside/personal-finance/banking/high-yield-savings-rates-today-9-11-2026",
+     "link": "https://www.wsj.com/buyside/personal-finance/banking/high-yield-savings-rates-today-9-11-2026",
+     "published_cst": "2026-09-11T09:00:00+08:00",
+     "time": "09-11 09:00",
+     "body": null
+    }
+   ]
+  }
+ }
+}

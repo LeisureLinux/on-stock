@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "11-25 13:47",
-   "title": "Best Car Insurance in California 2026"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-16 02:40",
+   "title": "South Korean court orders North Korea to pay damages over 2020 liaison office demolition, media reports"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-16 02:38",
+   "title": "South Korea's SK Hynix union approves tentative wage deal with management, source says"
   },
   {
    "src": "wsj",
    "src_name": "The Wall Street Journal",
    "badge": "WSJ",
    "color": "#1D4ED8",
-   "time": "11-21 19:42",
-   "title": "Life Insurance for Smokers: Cost, Options and Strategies to Help Save Money"
+   "time": "09-16 02:35",
+   "title": "OpenAI Considers Pre-IPO Funding Round at More Than $1.2 Trillion Valuation"
   },
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "11-21 14:20",
-   "title": "Best Car Insurance in Florida 2026"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-16 02:33",
+   "title": "Indian shares seen opening higher after selloff; higher oil, Fed caution to cap gains"
   },
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "11-18 10:00",
-   "title": "How to Retire Early: A Guide to Financial Independence"
-  },
-  {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-26 22:36",
-   "title": "Low-Doc Loans: Should You Pursue a Business Loan with Fewer Requirements?"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-16 02:33",
+   "title": "Meta's Zuckerberg says AI labs have enough incentive to build safely"
   }
  ]
 }

@@ -1,0 +1,885 @@
+{
+ "date": "20260912",
+ "generated_at": "2026-09-16T10:47:25.115960+08:00",
+ "timezone": "Asia/Shanghai (CST, UTC+8)",
+ "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
+ "sources": {
+  "wsj": {
+   "name": "The Wall Street Journal",
+   "home": "https://www.wsj.com",
+   "count": 28,
+   "body_support": false,
+   "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
+   "items": [
+    {
+     "title": "Why Weil Gotshal’s Highest-Paid Partner Jumped to Cravath, Shocking Big Law",
+     "url": "https://www.wsj.com/business/why-weil-gotshals-highest-paid-partner-jumped-to-cravath-shocking-big-law-86f669dc",
+     "published_cst": "2026-09-12T23:04:00+08:00",
+     "time": "09-12 23:04",
+     "body": null,
+     "title_zh": "为何瑞生薪酬最高的合伙人跳槽至凯易，震惊大型律所"
+    },
+    {
+     "title": "Lost in Margaritaville: The Messy Drama Over Jimmy Buffett’s $275 Million Trust",
+     "url": "https://www.wsj.com/style/lost-in-margaritaville-drama-jimmy-buffett-275-million-dollar-trust-65710c8d",
+     "published_cst": "2026-09-12T23:00:00+08:00",
+     "time": "09-12 23:00",
+     "body": null,
+     "title_zh": "迷失在玛格丽塔维尔：吉米·巴菲特2.75亿美元信托的混乱纷争"
+    },
+    {
+     "title": "The Midterm Battle Lines Keep Shifting. Missouri Voters Are Caught in the Middle.",
+     "url": "https://www.wsj.com/politics/elections/missouris-redistricting-chaos-has-voters-on-both-sides-feeling-disenfranchised-f7dd238c",
+     "published_cst": "2026-09-12T20:42:00+08:00",
+     "time": "09-12 20:42",
+     "body": null,
+     "title_zh": "中期选举战线不断变化，密苏里州选民左右为难。"
+    },
+    {
+     "title": "J&J Is in Talks to Sell Its Hips-and-Knees Business to Apollo for $20 Billion",
+     "url": "https://www.wsj.com/business/deals/j-j-is-in-talks-to-sell-its-hips-and-knees-business-to-apollo-for-20-billion-3018cc4e",
+     "published_cst": "2026-09-12T19:40:00+08:00",
+     "time": "09-12 19:40",
+     "body": null,
+     "title_zh": "强生洽谈以200亿美元将髋膝关节业务出售给阿波罗"
+    },
+    {
+     "title": "Stock Market News, Sept. 14, 2026: 10-Year Treasury Yield Touches 5%, Pushed by Oil Surge",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-14-2026",
+     "published_cst": "2026-09-12T18:05:48+08:00",
+     "time": "09-12 18:05",
+     "body": null,
+     "title_zh": "今日股市：纳斯达克期货下跌，油价攀升"
+    },
+    {
+     "title": "Larry Ellison Scraps Plan to Sell Up to $7.5 Billion Worth of Oracle Stock",
+     "url": "https://www.wsj.com/business/larry-ellison-scraps-plan-to-sell-up-to-7-5-billion-worth-of-oracle-stock-9f41edd2",
+     "published_cst": "2026-09-12T17:10:00+08:00",
+     "time": "09-12 17:10",
+     "body": null,
+     "title_zh": "拉里·埃里森取消出售价值高达75亿美元甲骨文股票的计划"
+    },
+    {
+     "title": "U.K.’s Reform Party Rakes In Record $97 Million Donations From Crypto World",
+     "url": "https://www.wsj.com/world/uk/u-k-s-reform-party-rakes-in-record-97-million-donations-from-crypto-world-18d9f11d",
+     "published_cst": "2026-09-12T17:01:00+08:00",
+     "time": "09-12 17:01",
+     "body": null,
+     "title_zh": "英国改革党从加密货币界获得创纪录9700万美元捐款"
+    },
+    {
+     "title": "I Wanted to Be a Better Human. So I Turned to AI.",
+     "url": "https://www.wsj.com/tech/ai/ai-humanity-skills-f2718d5b",
+     "published_cst": "2026-09-12T17:00:00+08:00",
+     "time": "09-12 17:00",
+     "body": null,
+     "title_zh": "我想成为更好的人，于是求助于AI。"
+    },
+    {
+     "title": "Biggest AI Rivals Agree They Need to Slow It Down",
+     "url": "https://www.wsj.com/tech/ai/anthropic-boss-warns-ai-industry-must-slow-the-pace-a4267b56",
+     "published_cst": "2026-09-12T16:18:00+08:00",
+     "time": "09-12 16:18",
+     "body": null,
+     "title_zh": "最大AI竞争对手同意需要放缓发展"
+    },
+    {
+     "title": "Trump Calls for George Washington Statue, Exhibit at Smithsonian",
+     "url": "https://www.wsj.com/us-news/trump-calls-for-george-washington-statue-exhibit-at-smithsonian-6c184973",
+     "published_cst": "2026-09-12T16:02:00+08:00",
+     "time": "09-12 16:02",
+     "body": null,
+     "title_zh": "特朗普呼吁在史密森尼博物馆设立乔治·华盛顿雕像展览"
+    },
+    {
+     "title": "It’s a ‘Spaceship.’ It’s a ‘Dentist’s Office.’ It’s Their Home.",
+     "url": "https://www.wsj.com/style/design/ben-ganz-india-ennenga-home-tour-6a90a937",
+     "published_cst": "2026-09-12T16:00:00+08:00",
+     "time": "09-12 16:00",
+     "body": null,
+     "title_zh": "这是“太空船”，是“牙医诊所”，也是他们的家。"
+    },
+    {
+     "title": "A New Lawsuit Alleges an International Andy Warhol Forgery Scheme",
+     "url": "https://www.wsj.com/arts-culture/fine-art/lawsuit-andy-warhol-scheme-3c259951",
+     "published_cst": "2026-09-12T16:00:00+08:00",
+     "time": "09-12 16:00",
+     "body": null,
+     "title_zh": "新诉讼指控国际安迪·沃霍尔伪造计划"
+    },
+    {
+     "title": "China’s Economic Troubles Reach the Mushroom Hunters of Shangri-La",
+     "url": "https://www.wsj.com/world/china/chinas-economic-troubles-reach-the-mushroom-hunters-of-shangri-la-ea4cd49d",
+     "published_cst": "2026-09-12T15:00:00+08:00",
+     "time": "09-12 15:00",
+     "body": null,
+     "title_zh": "中国经济困境波及香格里拉的采菇人"
+    },
+    {
+     "title": "Urinals, Skinny-Dipping Pools and Other Wild Home Buyers Must-Haves",
+     "url": "https://www.wsj.com/real-estate/luxury-homes/uncommon-home-features-671656f6",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null,
+     "title_zh": "小便池、裸泳池及其他购房者必备的奇特设施"
+    },
+    {
+     "title": "A Dead Father, Reincarnated With AI: Is This How We Will Remember Loved Ones Now?",
+     "url": "https://www.wsj.com/tech/ai/ai-chatbot-avatar-afterlife-memorial-84a3fe2c",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null,
+     "title_zh": "亡父以AI重生：这就是我们如今缅怀亲人的方式吗？"
+    },
+    {
+     "title": "Historic Homes: A Berkshires Retreat Built by an American Poet",
+     "url": "https://www.wsj.com/real-estate/luxury-homes/oliver-wendell-holmes-berkshires-home-17061dcc",
+     "published_cst": "2026-09-12T13:00:00+08:00",
+     "time": "09-12 13:00",
+     "body": null,
+     "title_zh": "历史名宅：美国诗人建造的伯克希尔静居"
+    },
+    {
+     "title": "The Director Creeping His Way to Horror Royalty",
+     "url": "https://www.wsj.com/arts-culture/film/the-director-creeping-his-way-to-horror-royalty-14428f60",
+     "published_cst": "2026-09-12T12:25:00+08:00",
+     "time": "09-12 12:25",
+     "body": null,
+     "title_zh": "导演悄然跻身恐怖片之王"
+    },
+    {
+     "title": "U.S. Men’s Tennis Is Back on the Brink of Crowning a Major Champion",
+     "url": "https://www.wsj.com/cio-journal/u-s-mens-tennis-is-back-on-the-brink-of-crowning-a-major-champion-526cc521",
+     "published_cst": "2026-09-12T11:55:00+08:00",
+     "time": "09-12 11:55",
+     "body": null,
+     "title_zh": "美国男子网球重回大满贯冠军边缘"
+    },
+    {
+     "title": "The New Rules to Survive and Thrive at Work",
+     "url": "https://www.wsj.com/tech/personal-tech/the-new-rules-to-survive-and-thrive-at-work-b90be330",
+     "published_cst": "2026-09-12T11:50:00+08:00",
+     "time": "09-12 11:50",
+     "body": null,
+     "title_zh": "职场生存与繁荣新规则"
+    },
+    {
+     "title": "‘Orientalism: Between Fact and Fantasy’ Review: East Meets West, Beautifully, at the Met",
+     "url": "https://www.wsj.com/arts-culture/fine-art/orientalism-between-fact-and-fantasy-review-east-meets-west-beautifully-at-the-met-2cde6f47",
+     "published_cst": "2026-09-12T11:00:00+08:00",
+     "time": "09-12 11:00",
+     "body": null,
+     "title_zh": "东方主义：事实与幻想之间——评：大都会博物馆里的东西方美丽邂逅"
+    },
+    {
+     "title": "My Short-Lived Fantasy as a High-T Alpha Male",
+     "url": "https://www.wsj.com/health/wellness/testosterone-testing-maxxing-daed3beb",
+     "published_cst": "2026-09-12T11:00:00+08:00",
+     "time": "09-12 11:00",
+     "body": null,
+     "title_zh": "我短暂的高阿尔法男性幻想"
+    },
+    {
+     "title": "AI Fears Leap From Silicon Valley Into Mainstream America",
+     "url": "https://www.wsj.com/tech/ai-fears-leap-from-silicon-valley-into-mainstream-america-3e632708",
+     "published_cst": "2026-09-12T10:58:00+08:00",
+     "time": "09-12 10:58",
+     "body": null,
+     "title_zh": "AI恐慌从硅谷蔓延至美国主流"
+    },
+    {
+     "title": "News Quiz for September 12, 2026",
+     "url": "https://www.wsj.com/business/media/news-quiz-for-september-12-2026-eeaf0764",
+     "published_cst": "2026-09-12T10:00:00+08:00",
+     "time": "09-12 10:00",
+     "body": null,
+     "title_zh": "2026年9月12日新闻测验"
+    },
+    {
+     "title": "Why Apple Needed to Reboot Its Health App",
+     "url": "https://www.wsj.com/tech/personal-tech/apple-watch-health-app-e7becf7a",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null,
+     "title_zh": "苹果为何需要重启健康应用"
+    },
+    {
+     "title": "This Spanish Island Wants to Ditch Drunk British Tourists for Rich American Ones",
+     "url": "https://www.wsj.com/world/europe/this-spanish-island-wants-to-ditch-drunk-british-tourists-for-rich-american-ones-c1f6c0fd",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null,
+     "title_zh": "西班牙岛屿欲弃醉酒英国游客，转向富裕美国客"
+    },
+    {
+     "title": "The New Fashion Do’s and Don’ts That Everyone Should Follow",
+     "url": "https://www.wsj.com/style/fashion/the-new-fashion-dos-and-donts-that-everyone-should-follow-2dda734d",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null,
+     "title_zh": "每个人都应遵循的新时尚准则"
+    },
+    {
+     "title": "Meet the Factions Driving the Democratic Socialists of America",
+     "url": "https://www.wsj.com/politics/elections/meet-the-factions-driving-the-democratic-socialists-of-america-0c5e74f0",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null,
+     "title_zh": "认识推动美国民主社会主义者的派系"
+    },
+    {
+     "title": "Heart Disease, a Historic Strength for Big Pharma, Becomes a Weakness",
+     "url": "https://www.wsj.com/health/pharma/heart-disease-a-historic-strength-for-big-pharma-becomes-a-weakness-983f0062",
+     "published_cst": "2026-09-12T09:30:00+08:00",
+     "time": "09-12 09:30",
+     "body": null,
+     "title_zh": "心脏病曾是大型制药公司的历史强项，如今却成短板。"
+    }
+   ]
+  },
+  "bb": {
+   "name": "Bloomberg",
+   "home": "https://www.bloomberg.com",
+   "count": 40,
+   "body_support": true,
+   "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
+   "items": [
+    {
+     "title": "Tesla Teases Oct. 1 Event to Showcase Next-Generation Roadster",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster",
+     "published_cst": "2026-09-12T20:20:58+08:00",
+     "time": "09-12 20:20",
+     "body": null,
+     "title_zh": "特斯拉预告10月1日活动展示下一代Roadster",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/tesla-teases-oct-1-event-to-showcase-next-generation-roadster"
+    },
+    {
+     "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks",
+     "published_cst": "2026-09-12T20:00:00+08:00",
+     "time": "09-12 20:00",
+     "body": [
+      "Central banks from much of the Group of Seven face a pivotal week as mounting inflation risks heap pressure on them to raise interest rates.",
+      "Three decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for the rest of 2026 and beyond.",
+      "The US will be most closely watched in the wake of a higher-than-expected core inflation reading on Friday. That stoked investor bets that Fed Chairman Kevin Warsh and his colleagues will raise their benchmark rate, probably in defiance of President Donald Trump’s wishes.",
+      "A Bank of England rate increase on Thursday isn’t anticipated, but with three officials having favored such a move at the late-July meeting, and with price risks simmering, the prospect of shifting toward a hike as soon as November can’t be excluded.",
+      "The Bank of Japan, meanwhile, is widely predicted to raise its key rate at the end of the week after a raft of supportive data, including the nation’s biggest jump in wages in nearly three decades.",
+      "With oil emphatically above $100 a barrel again and the Middle East war apparently reigniting, any hope among policymakers for a respite in global price pressures seems faint for now.",
+      "After European Central Bank officials tightened on Thursday, the second such move since the outbreak of the Iran conflict, investors may well end the week with the picture of an increasingly synchronized hawkish policy stance across the G7 coming into clearer focus.",
+      "The club’s other institution, the Bank of Canada, is moving that way too. Minutes of its decision earlier this month, when officials kept rates steady but emphasized inflation concerns, will be published on Wednesday.",
+      "Elsewhere, Chinese industrial data, inflation numbers from the UK and Canada to India and Japan, and a probable rate cut in Brazil will be among the highlights.",
+      "Click here for what happened in the past week, and below is our wrap of what’s coming up in the global economy.",
+      "Warsh said last month that the Fed would “have work to do” if it couldn’t “be confident that underlying inflation is moving to our objective, clearly and at sufficient speed.” Friday’s inflation data offered no such comfort. Investors and economists now see it as a near certainty the US central bank will raise interest rates for the first time in three years.",
+      "Support for such a move had been building at the Fed, even before the latest figures. In July, three officials dissented against the decision to hold rates steady and instead would have preferred to hike. Policymakers on Wednesday will also release updated projections for economic growth, inflation and the outlook for rates.",
+      "Trump on Sunday weighed in to the Fed decision, reiterated that the US lower rates than anyone else across the globe.",
+      "“We should be paying — the United States is so strong — we should be paying the lowest interest rate in the world, regardless of their formulas,” Trump told reporters. Asked if he expected the central bank to raise borrowing costs at its meeting next week, Trump said: “I don’t know.”",
+      "Separately, Trump’s economic adviser Kevin Hassett told CNN that Warsh and his Fed collegues decide “whatever they’re going to decide, we will 100% support them.” He added that Trump and he think there isn’t a reason for a hike.",
+      "The week’s US data docket includes retail sales, which are expected to rebound in August, as well as fresh figures on housing starts and industrial production.",
+      "In Canada, August inflation data on Monday will give more evidence on the state of the economy entering a jittery third quarter, dominated by the escalating tariff war with the US.",
+      "The main focus of the week will be China’s August data dump on Tuesday, set to provide the most comprehensive official look at what happened in the economy there last month.",
+      "Forecasts show that economists don’t expect much of a pickup from July, when the economy slowed almost across the board. As has been the case all year, Chinese production and exports of AI-related tech products have expanded rapidly, but the rest of the economy is in a funk.",
+      "India’s August inflation data, due Monday, will be watched to gauge if price pressures are broadening, which could offer clues on how soon the RBI may raise rates. On the same day, the Pakistan central bank will announce its rate decision, with economists expecting a hold.",
+      "The BOJ’s probable hike on Friday would be its second of the year. That would take the policy rate to 1.25%, the highest level since 1995, and maybe provide more support to the yen, which has risen in recent weeks.",
+      "The same morning, the government will report national consumer price data for August, with inflation forecast to have risen 2% from a year earlier.",
+      "India, Japan and New Zealand will all report August trade data in the coming week, with Japan’s imports and exports expected to have continued the rapid growth they’ve shown all year when the data is released on Wednesday.",
+      "New Zealand on Thursday reports second-quarter gross domestic product growth, with the economy forecast to have expanded more slowly than in the first quarter.",
+      "That will be the last GDP release before the national election in November, and may be a factor for voters as they decide whether to re-elect Prime Minister Christopher Luxon. Sri Lanka will also report GDP on Tuesday.",
+      "UK releases will offer policymakers clues on the strength of price pressures before their rate decision later in the week.",
+      "Jobs numbers on Tuesday are predicted to show roughly stable wage increases, while the following day, headline inflation is predicted to have quickened in August to 3.1%, a five-month high.",
+      "Beyond the outcome for rates, the BOE meeting will be watched for an annual announcement on how fast it plans to unwind bond holdings.",
+      "In the euro zone, meanwhile, in the wake of Thursday’s rate hike, key numbers include industrial production and the ECB’s wage tracker, both due Wednesday. Its measure of consumer-price expectations comes out on Friday.",
+      "ECB chief economist Philip Lane will address a two-day research conference that starts on Wednesday, while President Christine Lagarde and colleagues gather in Dublin for informal meetings with EU finance ministers at the end of the week.",
+      "Commenting in an interview with Ouest-France published late Saturday, Lagarde said that the inflation shock “will probably last longer than we had expected.”",
+      "The Iran war and the “destruction of refining capacity around the world, especially in Russia” have “led to an increase in energy costs, and that drives all prices higher,” she said. “In this kind of situation, and as we also have a resilient economy, we are obliged to react.”",
+      "Swedish unemployment measures are scheduled for Wednesday and Thursday. On the latter day, the Swiss government’s latest economic forecast comes out too. Recent data there showed a noticeable pickup in inflation.",
+      "Further afield, Israel will release inflation figures on Tuesday, with a small acceleration to 1.6% expected from 1.55%. Since that’s still within the central bank’s range it may strengthen the case for renewed rate cuts, though price growth is expected to quicken toward year-end.",
+      "Finally, a couple of other monetary decisions are scheduled:",
+      "In Peru, the first look at third-quarter economic activity on Tuesday may see July GDP-proxy figures in line with June’s as the El Niño weather phenomenon continues to kick up supply disruptions.",
+      "Peru’s economy posted slightly better than expected second-quarter growth despite sluggish readings in June. Along with the monthly economic activity indicator, the August jobs report for the capital city is also due. The unemployment rate in Lima hit a record-low 4.7% in July.",
+      "Brazilian retail sales figures and July economic activity data set the table for the central bank’s rate decision on Wednesday. Analysts and traders expect policymakers, led by Governor Gabriel Galipolo, to deliver a fifth straight quarter-point rate cut, taking the Selic to 13.75%.",
+      "Tight monetary policy coupled with tapped-out households has LatAm’s No. 1 economy on course for a third year of slowing growth, although above-target inflation and sticky expectations will likely keep policymakers boxed in.",
+      "In Chile, minutes of the central bank’s September meeting, which saw a sixth straight hold at 4.5%, aren’t likely to depart from the cautious and contingent view communicated in the post-decision statement.",
+      "The institution has cut its 2026 GDP estimate to between 0.25% and 0.75% from the prior forecast of 1% to 1.75%.",
+      "The second-quarter output report for Argentina is likely to show South America’s No. 2 economy scuffling and the expansion uneven, becoming largely concentrated in the agriculture, energy and mining sectors.",
+      "GDP-proxy data through June would be consistent with a quarter-on-quarter contraction close to 1%, and a marked downshift from the first-quarter’s 2.3% year-on-year print."
+     ],
+     "title_zh": "所有目光聚焦沃什，加息热潮席卷七国集团央行",
+     "summary_zh": "七国集团央行面临关键加息周，美联储、英央行和日央行将相继公布利率决议，全球货币政策或转向鹰派。",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks"
+    },
+    {
+     "title": "OpenAI's Altman Says No IPO in 2026, Firm to Prioritize Safety",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune",
+     "published_cst": "2026-09-12T19:36:39+08:00",
+     "time": "09-12 19:36",
+     "body": null,
+     "title_zh": "OpenAI的奥特曼称2026年不IPO，公司将优先考虑安全",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/openai-ipo-won-t-happen-until-2027-sam-altman-tells-fortune"
+    },
+    {
+     "title": "Blizzard Announces 'Diablo V,' New 'StarCraft' Shooter",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/blizzard-announces-diablo-v-new-starcraft-shooter",
+     "published_cst": "2026-09-12T19:15:01+08:00",
+     "time": "09-12 19:15",
+     "body": null,
+     "title_zh": "暴雪宣布《暗黑破坏神5》及新《星际争霸》射击游戏",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-12/blizzard-announces-diablo-v-new-starcraft-shooter"
+    },
+    {
+     "title": "Carney to Meet UK's Burnham as Canada Deepens Europe Ties",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/carney-to-meet-uk-s-burnham-as-canada-deepens-europe-ties",
+     "published_cst": "2026-09-12T19:03:07+08:00",
+     "time": "09-12 19:03",
+     "body": null,
+     "title_zh": "卡尼将会见英国伯纳姆，加拿大深化与欧洲关系",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/carney-to-meet-uk-s-burnham-as-canada-deepens-europe-ties"
+    },
+    {
+     "title": "Le Pen Opens Door for Compromise on 2027 Budget Law, AFP Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/le-pen-opens-door-for-compromise-on-2027-budget-law-afp-says",
+     "published_cst": "2026-09-12T19:03:05+08:00",
+     "time": "09-12 19:03",
+     "body": null,
+     "title_zh": "勒庞为2027年预算法案妥协打开大门，法新社报道",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/le-pen-opens-door-for-compromise-on-2027-budget-law-afp-says"
+    },
+    {
+     "title": "SpaceX To Get Weighting Boost In Nasdaq 100 After Rebalance",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance",
+     "published_cst": "2026-09-12T17:58:51+08:00",
+     "time": "09-12 17:58",
+     "body": null,
+     "title_zh": "SpaceX将在纳斯达克100指数再平衡后获得权重提升",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/spacex-to-get-weighting-boost-in-nasdaq-100-after-rebalance"
+    },
+    {
+     "title": "Larry Ellison Ends Plan to Sell Up to $7.5 Billion in Oracle Stock",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares",
+     "published_cst": "2026-09-12T16:33:33+08:00",
+     "time": "09-12 16:33",
+     "body": null,
+     "title_zh": "拉里·埃里森终止出售高达75亿美元甲骨文股票计划",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/larry-ellison-scraps-plan-to-sell-up-to-50-million-oracle-shares"
+    },
+    {
+     "title": "Trump's Foes Find Common Ground at Modi's New Delhi Summit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit",
+     "published_cst": "2026-09-12T15:31:39+08:00",
+     "time": "09-12 15:31",
+     "body": [
+      "Leaders of emerging powers including Russia and Iran projected a united front at a weekend summit in New Delhi, with a joint statement that targeted a US-launched war in the Middle East, Washington’s tariff campaign and its sanctions policy.",
+      "The US and President Donald Trump were not mentioned by name, but were in the sights of a 45-page joint communique issued by the 10 BRICS nations, which include both friends and foes of Washington.",
+      "The statement called for “maximum restraint” by nations involved in the Middle East conflict and expressed “deep concern” over its escalation. It also condemned “deliberate attacks on civilian infrastructure and peaceful nuclear facilities.”",
+      "The wording, hammered out into the early hours of Saturday, represented a stark appeal for a grouping whose members hold wildly divergent positions in the conflict launched by the US and Israel against Iran more than six months ago — with Tehran on one end and the UAE and Saudi Arabia, not yet a full BRICS member, on the other. China and India are major oil importers, directly impacted by the disruption in energy flows from the region.",
+      "“There is obvious frustration with Trumpism and the many manifestations of that — unilateralism, the snubbing of the multilateral institutional order, the tariff assault, the neglect of rules,” said Ashok Malik, partner and chair of the India practice at the Asia Group.",
+      "The statement was “carefully drafted so as not to take sides between Iran, Saudi Arabia and the UAE while leaving everyone with something to go home with,” he added.",
+      "Read More: Modi Forges BRICS Consensus in Shadow of Worsening Iran War",
+      "In comments on Sunday as the meeting drew to a close, Indian Prime Minister Narendra Modi sought to emphasize cooperation despite “different realities.”",
+      "“The Global South’s trust in BRICS has steadily increased because its voice is heard in the grouping, its development experience is respected, and solutions are prepared in consultation with it,” he told attendees.",
+      "The war in the Persian Gulf has threatened to create new fissures among the BRICS members. Iranian President Masoud Pezeshkian set the tone with a fiery speech on Friday in which he vowed his country wouldn’t surrender.",
+      "“They thought that like Venezuela they could conquer our country within 24 hours,” Pezeshkian said in an interview with India Today television. “It failed.”",
+      "But in spite of direct threats from Washington — which has promised sanctions against any country helping Iran and warned groups like BRICS against teaming up to oppose US interests — the 10-strong bloc pushed back against Washington’s punitive measures and a global order in which emerging economies say they are insufficiently represented.",
+      "“We strive to advance not by opposing anyone, but by taking everyone along,” Modi told leaders. “Now is the time for us to translate our unity and consensus within BRICS into tangible results on the global stage.”",
+      "The summit marked a high point for Modi, who has sought to use his country’s year-long presidency of the BRICS group to advance a broader agenda for the Global South.",
+      "India’s ability to negotiate with countries on opposite sides of multiple conflicts, including Iran and Israel, has helped to bridge differences within the bloc, according to diplomats with direct knowledge of the discussion, who asked not to be named because the talks are private.",
+      "Divisions were particularly acute between Iran and the UAE, the people said, with Tehran seeking a clear condemnation of the US and Israel. That was contested by the UAE, a US ally, which sought to condemn Iran for its drone and missile strikes against the Gulf kingdom.",
+      "At a media briefing on Saturday, Sudhakar Dalela, secretary of economic relations at the Ministry of External Relations, said discussions among BRICS members evolve until consensus is reached.",
+      "“We are very happy that we have a agreed approach on West Asia and the center piece of that approach is that we all believe dialog and diplomacy should be the guiding parameter to addressing any conflict,” he said.",
+      "The Middle East war has presented a thorny challenge to a unified front from the BRICS this year. At a meeting of foreign ministers in New Delhi in May the group did not come to a consensus around a joint statement, a failure India blamed on “differing views among some members” over the Middle East war.",
+      "The summit also gave Russia’s Vladimir Putin an opportunity to reinforce ties with Modi and Xi just two weeks after the three leaders met at the Shanghai Cooperation Organisation in Kyrgyzstan. Putin had an official bilateral meeting with Modi, and a conversation with Chinese President Xi Jinping on the sidelines of the BRICS forum, according to the Kremlin. Both Modi and Xi asked the Russian leader in detail about efforts to settle the Ukraine conflict and offered their help in finding a solution to the problem, said Putin’s spokesman, Dmitry Peskov.",
+      "“The paradox is that Putin’s policies, however you look at them, have not resulted in Russia’s isolation,” said Alexey Maslov, director of the Institute of Asian and African Studies at Moscow State University. “On the contrary, a rather unusual coalition of countries has formed around Russia, supporting ideas associated with the Global South and security.”",
+      "Modi, featured on BRICS posters all around Delhi, has made the most of the gathering, but the meeting also offered an opportunity for other nations to flex their diplomatic clout, not least China, the bloc’s dominant economic power and Russia, which has been isolated for years from the US and Europe.",
+      "Xi added heft to the gathering — he missed last year’s BRICS summit in Rio de Janeiro. This has also been his first visit to India in seven years, the latest sign of a tentative rapprochement with India following a deadly border clash in 2020.",
+      "“China and India are partners, not rivals,” representing “each other’s development opportunities, not threats,” Xi said in comments carried by the official Xinhua News Agency.",
+      "Xi urged BRICS members “to stand on the right side of the history” and be a pioneer in maintaining peace and reforming global governance. He also proposed an open-source artificial intelligence “special zone” for BRICS members, to support the development and application of large language models."
+     ],
+     "title_zh": "特朗普的对手在莫迪新德里峰会上找到共同立场",
+     "summary_zh": "金砖十国新德里峰会发联合声明，暗批美国中东战争、关税及制裁政策，呼吁最大限度克制。",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-s-foes-find-common-ground-at-modi-s-new-delhi-summit"
+    },
+    {
+     "title": "LIV Golf's Big Losses Provide Fuel for a Second Act",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/liv-golf-s-big-losses-provide-fuel-for-a-second-act",
+     "published_cst": "2026-09-12T15:00:02+08:00",
+     "time": "09-12 15:00",
+     "body": null,
+     "title_zh": "LIV高尔夫巨额亏损为第二幕蓄力",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-12/liv-golf-s-big-losses-provide-fuel-for-a-second-act"
+    },
+    {
+     "title": "Amodei, Altman, Musk Call for Slowing AI Model Development",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models",
+     "published_cst": "2026-09-12T14:17:56+08:00",
+     "time": "09-12 14:17",
+     "body": null,
+     "title_zh": "阿莫代伊、奥尔特曼、马斯克呼吁放缓AI模型开发",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/anthropic-ceo-says-it-s-time-to-slow-pace-of-improving-ai-models"
+    },
+    {
+     "title": "California Gas Station With $9.99 Diesel Exemplifies Fuel Crisis",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/california-gas-station-with-9-99-diesel-exemplifies-fuel-crisis",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null,
+     "title_zh": "加州加油站柴油每加仑9.99美元凸显燃油危机",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/california-gas-station-with-9-99-diesel-exemplifies-fuel-crisis"
+    },
+    {
+     "title": "'Crazy' French Inversion Shows Credit Is a Haven: Credit Weekly",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/-crazy-french-inversion-shows-credit-is-a-haven-credit-weekly",
+     "published_cst": "2026-09-12T14:00:00+08:00",
+     "time": "09-12 14:00",
+     "body": null,
+     "title_zh": "疯狂的法国政治倒挂显示信用债是避风港：信用债周报",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/-crazy-french-inversion-shows-credit-is-a-haven-credit-weekly"
+    },
+    {
+     "title": "RBI Said to Reject Tata Sons Request to Avoid An IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing",
+     "published_cst": "2026-09-12T13:33:43+08:00",
+     "time": "09-12 13:33",
+     "body": [
+      "India’s central bank rejected an application from Tata Sons Pvt. to surrender its status as a shadow lender, according to people familiar with the matter, signaling it expects the company to adhere with rules for such entities that include an initial public offering.",
+      "The holding company of the $185 billion Tata Group was seeking a waiver from a stock exchange listing as that would subject it to tighter regulatory oversight and force it to reveal more of the group’s internal dealings. The Reserve Bank of India conveyed its decision in a letter dated Sept. 11 to Tata Sons, local media outlets including Business Standard reported earlier.",
+      "The company, which leads the Tata conglomerate, falls within the RBI’s so-called upper-layer non-bank lender category. Its empire spans IT services, steel, hospitality and consumer goods, and it’s helming initiatives such as building a semiconductor factory that are central to Prime Minister Narendra Modi’s ambitions to turn India into a global technology and manufacturing powerhouse.",
+      "Read More: Why a Struggle Is Brewing Over a Tata Sons IPO: Explainer",
+      "Spokespersons for Tata Sons and RBI could not be immediately reached for a comment outside of regular business hours.",
+      "The rejection compounds the challenges for Noel Tata, chairman of Tata Trusts, which is the majority shareholder of Tata Sons. It has prompted ructions across the sprawling group, including uncertainty over Chairman Natarajan Chandrasekaran’s tenure — he took an abrupt decision to step down after his term ends in February, forcing the group to gear up for a leadership transition.",
+      "A key committee of the Tata Sons board now plans to oppose his decision and ask him to reconsider at the board meeting on Sept. 17, to ensure stability during a public listing, the Economic Times reported. Tata Sons did not immediately respond to a request for comment.",
+      "The RBI in June rejected industry requests to raise the asset threshold or retain a more complex, risk-based scoring methodology for classifying large non-bank financial companies, a decision that mounted pressure on Tata Sons for a potential listing.",
+      "The regulator had opted for a simplified approach centered on balance-sheet size, where shadow lenders with standalone assets of at least 1 trillion rupees ($10.5 billion) will be subject to bank-like regulatory scrutiny, including a requirement to eventually list.",
+      "A listing by Tata Sons, however, will be a big boost for the Shapoorji Pallonji Group, which has been looking to monetize its 18.4% stake in Tata’s holding company for years to repay its costly debt."
+     ],
+     "title_zh": "印度央行据悉拒绝塔塔集团避免IPO的请求",
+     "summary_zh": "印度央行拒绝塔塔集团放弃影子贷款机构地位的申请，要求其遵守IPO规定。",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-said-to-reject-tata-sons-request-to-avoid-a-public-listing"
+    },
+    {
+     "title": "Trump's Deep-Sea Mining Push Attracts Foreign Companies",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/trump-s-deep-sea-mining-push-attracts-foreign-companies",
+     "published_cst": "2026-09-12T13:17:31+08:00",
+     "time": "09-12 13:17",
+     "body": null,
+     "title_zh": "特朗普深海采矿计划吸引外国公司",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-12/trump-s-deep-sea-mining-push-attracts-foreign-companies"
+    },
+    {
+     "title": "Farage's Reform Raises Record £72 Million in Less Than 24 Hours",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/farage-s-reform-raises-record-72-million-in-less-than-24-hours",
+     "published_cst": "2026-09-12T13:14:30+08:00",
+     "time": "09-12 13:14",
+     "body": null,
+     "title_zh": "法拉奇改革党不到24小时筹得创纪录7200万英镑",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/farage-s-reform-raises-record-72-million-in-less-than-24-hours"
+    },
+    {
+     "title": "RBI Rejects Tata Sons Plea to Nix Shadow Lender Tag, Reports Say",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-rejects-tata-sons-plea-to-nix-shadow-lender-tag-reports-say",
+     "published_cst": "2026-09-12T13:00:08+08:00",
+     "time": "09-12 13:00",
+     "body": null,
+     "title_zh": "印度央行拒绝塔塔集团取消影子银行标签的请求",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/rbi-rejects-tata-sons-plea-to-nix-shadow-lender-tag-reports-say"
+    },
+    {
+     "title": "Trump Brushes Off AI Doomsaying to Guard US Lead Over China",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china",
+     "published_cst": "2026-09-12T13:00:00+08:00",
+     "time": "09-12 13:00",
+     "body": null,
+     "title_zh": "特朗普无视AI末日论以保美国对华领先",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-brushes-off-ai-doomsaying-to-safeguard-us-lead-over-china"
+    },
+    {
+     "title": "Xi Resets Ties With Modi on First Visit to India in Seven Years",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years",
+     "published_cst": "2026-09-12T12:57:18+08:00",
+     "time": "09-12 12:57",
+     "body": null,
+     "title_zh": "习近平七年来首访印度 重启与莫迪关系",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/xi-sits-down-with-modi-during-first-trip-to-india-in-seven-years"
+    },
+    {
+     "title": "BRICS Countries Call for Maximum Restraint in the Middle East",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/brics-countries-call-for-maximum-restraint-in-the-middle-east",
+     "published_cst": "2026-09-12T12:09:46+08:00",
+     "time": "09-12 12:09",
+     "body": null,
+     "title_zh": "金砖国家呼吁中东最大限度保持克制",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/brics-countries-call-for-maximum-restraint-in-the-middle-east"
+    },
+    {
+     "title": "Iraq Fires Maysan Commander After Drone Attacks on Saudi Arabia's Pipeline",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/iraq-fires-maysan-commander-after-drone-attacks-on-saudi-arabia-s-pipeline",
+     "published_cst": "2026-09-12T12:03:03+08:00",
+     "time": "09-12 12:03",
+     "body": null,
+     "title_zh": "伊拉克在无人机袭击沙特输油管道后解雇迈桑指挥官",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/iraq-fires-maysan-commander-after-drone-attacks-on-saudi-arabia-s-pipeline"
+    },
+    {
+     "title": "Resident Evil Fans Will Regret Driving Away Zach Cregger",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-12/resident-evil-fans-will-regret-driving-away-zach-cregger",
+     "published_cst": "2026-09-12T12:00:04+08:00",
+     "time": "09-12 12:00",
+     "body": null,
+     "title_zh": "生化危机粉丝会后悔赶走扎克·克雷格",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-12/resident-evil-fans-will-regret-driving-away-zach-cregger"
+    },
+    {
+     "title": "US Open: Influencer Culture Has Turned It Into a Status Contest",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-12/us-open-influencer-culture-has-turned-it-into-a-status-contest",
+     "published_cst": "2026-09-12T12:00:02+08:00",
+     "time": "09-12 12:00",
+     "body": null,
+     "title_zh": "美网公开赛：网红文化将其变成地位竞赛",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-12/us-open-influencer-culture-has-turned-it-into-a-status-contest"
+    },
+    {
+     "title": "German Elections: AfD Win Puts Friedrich Merz On the Clock",
+     "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-12/german-elections-afd-win-puts-friedrich-merz-on-the-clock",
+     "published_cst": "2026-09-12T12:00:01+08:00",
+     "time": "09-12 12:00",
+     "body": null,
+     "title_zh": "德国选举：选择党获胜让弗里德里希·默茨面临倒计时",
+     "link": "https://www.bloomberg.com/opinion/newsletters/2026-09-12/german-elections-afd-win-puts-friedrich-merz-on-the-clock"
+    },
+    {
+     "title": "The Lucas Museum and Bayeux Tapestry Exhibits Push the Limits of Narrative Art",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/the-lucas-museum-and-bayeux-tapestry-exhibits-push-the-limits-of-narrative-art",
+     "published_cst": "2026-09-12T11:30:01+08:00",
+     "time": "09-12 11:30",
+     "body": null,
+     "title_zh": "卢卡斯博物馆与贝叶挂毯展览挑战叙事艺术极限",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-12/the-lucas-museum-and-bayeux-tapestry-exhibits-push-the-limits-of-narrative-art"
+    },
+    {
+     "title": "HDFC Bank Submits Names of Two CEO Candidates to RBI",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/hdfc-bank-submits-names-of-two-candidates-for-ceo-role-to-rbi",
+     "published_cst": "2026-09-12T11:22:50+08:00",
+     "time": "09-12 11:22",
+     "body": null,
+     "title_zh": "HDFC银行向印度央行提交两名CEO候选人名单",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/hdfc-bank-submits-names-of-two-candidates-for-ceo-role-to-rbi"
+    },
+    {
+     "title": "Trump Said He'd Love to See a 'United' Ireland During Visit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-said-he-d-love-to-see-a-united-ireland-during-visit",
+     "published_cst": "2026-09-12T11:08:33+08:00",
+     "time": "09-12 11:08",
+     "body": null,
+     "title_zh": "特朗普称访问期间乐见爱尔兰统一",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-said-he-d-love-to-see-a-united-ireland-during-visit"
+    },
+    {
+     "title": "Oil and Gas Markets Signal Winter Crisis and Rising Interest Rates",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/oil-and-gas-markets-signal-winter-crisis-and-rising-interest-rates",
+     "published_cst": "2026-09-12T11:00:02+08:00",
+     "time": "09-12 11:00",
+     "body": null,
+     "title_zh": "油气市场预示冬季危机与利率上升",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/oil-and-gas-markets-signal-winter-crisis-and-rising-interest-rates"
+    },
+    {
+     "title": "What Many Miss Regarding the US-China Rivalry: New Economy",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy",
+     "published_cst": "2026-09-12T10:45:01+08:00",
+     "time": "09-12 10:45",
+     "body": null,
+     "title_zh": "关于美中竞争许多人忽略的一点：新经济",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy"
+    },
+    {
+     "title": "Trump Says He Could Settle UK-Argentina Dispute Over Falklands",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-he-could-settle-uk-argentina-dispute-over-falklands",
+     "published_cst": "2026-09-12T10:42:11+08:00",
+     "time": "09-12 10:42",
+     "body": null,
+     "title_zh": "特朗普称可解决英阿福克兰群岛争端",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-he-could-settle-uk-argentina-dispute-over-falklands"
+    },
+    {
+     "title": "Trump Sees Canada Deal 'Fairly Soon,' Downplays Leaving USMCA",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-deal-fairly-soon",
+     "published_cst": "2026-09-12T10:28:40+08:00",
+     "time": "09-12 10:28",
+     "body": null,
+     "title_zh": "特朗普预计很快与加拿大达成协议，淡化退出美墨加协定的可能性",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-deal-fairly-soon"
+    },
+    {
+     "title": "Trump Says US, Canada Will Probably Reach a Deal 'Fairly Soon'",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-a-deal-fairly-soon",
+     "published_cst": "2026-09-12T10:07:16+08:00",
+     "time": "09-12 10:07",
+     "body": null,
+     "title_zh": "特朗普称美加很可能很快达成协议",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/trump-says-us-canada-will-probably-reach-a-deal-fairly-soon"
+    },
+    {
+     "title": "BRICS Nations Reach Consensus on Communique: India Official",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/brics-nations-reach-consensus-on-communique-india-official",
+     "published_cst": "2026-09-12T09:11:35+08:00",
+     "time": "09-12 09:11",
+     "body": null,
+     "title_zh": "金砖国家就公报达成共识：印度官员",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/brics-nations-reach-consensus-on-communique-india-official"
+    },
+    {
+     "title": "War In the Middle East Crisis is Making Clothes More Expensive",
+     "url": "https://www.bloomberg.com/news/features/2026-09-12/war-in-the-middle-east-crisis-is-making-clothes-more-expensive",
+     "published_cst": "2026-09-12T09:00:02+08:00",
+     "time": "09-12 09:00",
+     "body": null,
+     "title_zh": "中东战争危机推高服装价格",
+     "link": "https://www.bloomberg.com/news/features/2026-09-12/war-in-the-middle-east-crisis-is-making-clothes-more-expensive"
+    },
+    {
+     "title": "Here's Who HSBC May Tap as Its Next Chief Financial Officer",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/here-s-who-hsbc-may-tap-as-its-next-chief-financial-officer",
+     "published_cst": "2026-09-12T09:00:00+08:00",
+     "time": "09-12 09:00",
+     "body": null,
+     "title_zh": "汇丰可能任命谁为下一任首席财务官",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/here-s-who-hsbc-may-tap-as-its-next-chief-financial-officer"
+    },
+    {
+     "title": "Trump Jabs at Europe on Trade, Immigration During Ireland Visit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/irish-leaders-downplay-tensions-as-trump-arrives-for-visit",
+     "published_cst": "2026-09-12T08:56:28+08:00",
+     "time": "09-12 08:56",
+     "body": null,
+     "title_zh": "特朗普访爱尔兰时就贸易和移民问题抨击欧洲",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/irish-leaders-downplay-tensions-as-trump-arrives-for-visit"
+    },
+    {
+     "title": "Drug-Dealing Gangs Hold Key to Swedish Vote in This Suburb",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/drug-dealing-kid-gangs-hold-key-to-swedish-election-in-this-hood",
+     "published_cst": "2026-09-12T08:31:48+08:00",
+     "time": "09-12 08:31",
+     "body": [
+      "Salim Ali watched for years as young gang members openly dealt drugs in the square in front of his flower stall in the Stockholm suburb of Hässelby Gård.",
+      "Once he let two boys shelter from the rain under the awning, only for the police to come and frisk them. One of them was concealing a gun. “I’m guessing that kid was about 12,” Ali recalled. “It was awful. Something had to be done.”",
+      "Four years ago, a promise to crack down on an epidemic of shootings and bombings helped sweep Sweden’s current center-right Prime Minister Ulf Kristersson into power. The crackdown his government imposed has cleaned up multi-ethnic neighborhoods like Hässelby Gård and urban peripheries that had seen crime rates shoot up. Today, police statistics show deadly shootings down 75%.",
+      "And yet, when Ali goes to vote in Sunday’s general election, he faces a dilemma. The 47-year-old has seen the improvement in public safety first-hand, but the case for Kristersson’s reelection is less straightforward because of his commitment, should he win again, to bring the far-right Sweden Democrats into government for the first time ever.",
+      "For many liberal Swedes, given their long history of progressive social values and tolerant attitudes to refugees, that could be a step too far.",
+      "Read more: Power Eludes the Populist Who Broke Swedish Progressive Politics",
+      "Law and order persists as a top concern, alongside immigration, with both issues seen by voters as best handled by the incumbent. But healthcare and education are also front of mind, and there, the once-dominant Social Democrats — now in opposition and led by former prime minister Magdalena Andersson — are considered the better stewards.",
+      "A poll published Friday suggested the center-left bloc holds a slender lead leader over Kristersson and his allies in what could be Sweden’s closest election in living memory. The last one was settled by less than 50,000 votes.",
+      "Polling stations opened at 8 a.m. local time on Sunday across the country and are due to close at 8 p.m. when results of the first exit polls are published.",
+      "In Hässelby Gård, one of 65 housing areas designated by police as “vulnerable to criminal influence,” voters said that beyond physical safety they want to see more investment in public services as well as economic policies aimed at reducing a national unemployment rate that’s among the highest in the European Union.",
+      "Yusuf Almasari, 26, who runs a barbershop in the area, said he regularly gets people coming in asking for work or help finding somewhere to live. “These are people who had steady jobs and lost them, people who are now struggling,” he said.",
+      "That is why places like Hässelby Gård, a 30-minute train ride to central Stockholm, have become political battlegrounds and key to Social Democrats eyeing a comeback.",
+      "“Kristersson represents a continuation of the tougher approach to crime and migration, combined with lower taxes and more center-right economic policies,” said Niklas Bolin, a political science professor at Mid Sweden University. “Andersson offers more emphasis on welfare, public services and economic equality.”",
+      "Social Democrat lawmaker Kadir Kasirga, handing out flyers next to the subway station, said it was good that the government’s “repressive measures” were working to drive down crime, but that this isn’t enough.",
+      "The pitch is to preserve — rather than expand — current immigration policies while putting the focus back on spending on public services. That will inevitably require higher taxes in a country already saddled with one of the highest tax burdens in the world.",
+      "Young people need extra support through the school system to help reduce their risk of being drawn into crime, Kasirga said. “There is evidence-based research showing that, even as early as preschool age, it is possible to identify which children will need extra support,” he said.",
+      "That’s the kind of messaging that may resonate with a voter like Ali, the florist, who described how young the kids were who he saw dragged down a criminal path.",
+      "For Kristersson, Sunday’s ballot could turn into a referendum on his decision to invite the Sweden Democrats into government. If he loses, it will go down as a political miscalculation; if he wins, it will kick off a new era in Swedish politics that brings a once-fringe movement into the mainstream.",
+      "Read more: Kristersson and Andersson Clash in Election Debate",
+      "Sweden Democrats were also handing out flyers in Hässelby Strand, and said they were getting a good reception from residents who liked their hard line on immigration. Local candidate Pär Gustavsson approached one voter who called out that she’d already cast her vote for his party.",
+      "But in a park between Hässelby Strand and Hässelby Gård, among 1950s tower blocks, members of a local Muslim group gathering to pray privately expressed their fears about what having the far right formally in a ruling coalition would mean for them: a normalization of racism and more legal and bureaucratic hurdles to their being allowed to stay.",
+      "High-profile Sweden Democrat lawmaker Richard Jomshof has toured several cities in recent weeks promoting his book, entitled Kafir, that talks of “creeping Islamisation” on Swedish society. The party has also called for a ban on the veil.",
+      "“Many people are quietly concerned,” said Yusuf Elmi, a coordinator at Hässelby’s mosque, who attended the prayer gathering. “We see the comments from leading figures inside the Sweden Democrats, and it is worrying.”",
+      "Elmi, who came to Sweden in 1992 from Somalia, said attitudes to minorities had worsened in just the past few years. The father of five described one of his daughters coming home upset from her first week at high school after being called a racial slur. It had been decades since he’d come across something like that in Sweden — and never in the capital.",
+      "At a recent press conference, Andersson warned that voters would be waking up in “a very different country” if the Sweden Democrats took the 12 ministerial positions their relative strength in opinion polls suggests that they might. Leader Jimmie Åkesson accused her of being “almost obsessed” with his party and dedicating her campaign “to hating him.”",
+      "At his flower stall, a still-undecided Ali was preparing for the Friday evening rush of workers on their way home ahead of the weekend. He used to vote for Kristersson’s party as he felt they cared about small businesses like his, but said that now they had gone too far with the privatization of schools of healthcare “like they do in the US.”",
+      "“This government has definitely made this area safer, no doubt,” Ali said on Friday. “But I am wondering if that might be the only good thing they did.”"
+     ],
+     "title_zh": "贩毒团伙掌控这个郊区，左右瑞典选情",
+     "summary_zh": "瑞典大选临近，中右翼首相因治安改善获支持，但极右翼入阁引发自由派担忧，民调显示中左翼阵营微弱领先。",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/drug-dealing-kid-gangs-hold-key-to-swedish-election-in-this-hood"
+    },
+    {
+     "title": "India's SEBI Seeks Major Changes to Unpopular Auction System",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/india-regulator-proposes-changes-to-closing-auction-after-swings",
+     "published_cst": "2026-09-12T06:55:22+08:00",
+     "time": "09-12 06:55",
+     "body": null,
+     "title_zh": "印度证券交易委员会寻求对不受欢迎的拍卖系统进行重大改革",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/india-regulator-proposes-changes-to-closing-auction-after-swings"
+    },
+    {
+     "title": "Modi Forges BRICS Consensus in Shadow of Worsening Iran War",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/xi-takes-center-stage-at-modi-s-brics-summit-as-iran-war-deepens",
+     "published_cst": "2026-09-12T06:52:51+08:00",
+     "time": "09-12 06:52",
+     "body": null,
+     "title_zh": "莫迪在伊朗战争恶化阴影下促成金砖共识",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/xi-takes-center-stage-at-modi-s-brics-summit-as-iran-war-deepens"
+    },
+    {
+     "title": "Lagarde Joins France Election Debate at Normandy Rally, Feeding ECB Exit Talk",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-12/lagarde-joins-france-election-debate-at-normandy-rally-feeding-ecb-exit-talk",
+     "published_cst": "2026-09-12T05:00:00+08:00",
+     "time": "09-12 05:00",
+     "body": null,
+     "title_zh": "拉加德诺曼底集会上加入法国选举辩论，加剧欧洲央行退出猜测",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-12/lagarde-joins-france-election-debate-at-normandy-rally-feeding-ecb-exit-talk"
+    }
+   ]
+  },
+  "ft": {
+   "name": "Financial Times",
+   "home": "https://www.ft.com",
+   "count": 19,
+   "body_support": false,
+   "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
+   "items": [
+    {
+     "title": "Burnham resists calls to reform student loans in Budget",
+     "url": "https://www.ft.com/content/8d8b5195-e16f-457e-ae77-f6e843934058",
+     "published_cst": "2026-09-12T23:01:09+08:00",
+     "time": "09-12 23:01",
+     "body": null,
+     "title_zh": "伯纳姆拒绝在预算中改革学生贷款"
+    },
+    {
+     "title": "Sunday Number 162: Numbers Puzzle",
+     "url": "https://www.ft.com/content/b54ab9a3-9245-4aaf-a219-86261e33b772",
+     "published_cst": "2026-09-12T23:00:09+08:00",
+     "time": "09-12 23:00",
+     "body": null,
+     "title_zh": "周日数字162：数字谜题"
+    },
+    {
+     "title": "US High School Economics class: US government debt hits $40tn as borrowing rises at historic rate",
+     "url": "https://www.ft.com/content/b9d4c8aa-a18d-4afa-8837-33bcf6e628f0",
+     "published_cst": "2026-09-12T22:39:44+08:00",
+     "time": "09-12 22:39",
+     "body": null,
+     "title_zh": "美国高中经济课：美国政府债务达40万亿美元，借贷以历史性速度增长"
+    },
+    {
+     "title": "School economics class: The best, worst and strangest ways AI is really being used at work",
+     "url": "https://www.ft.com/content/2dca32c6-3c00-448d-9729-4fbdb7acee3c",
+     "published_cst": "2026-09-12T22:25:13+08:00",
+     "time": "09-12 22:25",
+     "body": null,
+     "title_zh": "学校经济学课堂：AI在工作中最妙、最糟和最奇的用途"
+    },
+    {
+     "title": "School economics class: Protecting Tower of London views would make skyscrapers unviable, City warns",
+     "url": "https://www.ft.com/content/53b44d0a-d5e5-49bc-b381-b0e515bf7b74",
+     "published_cst": "2026-09-12T22:18:24+08:00",
+     "time": "09-12 22:18",
+     "body": null,
+     "title_zh": "伦敦金融城警告：保护伦敦塔景观将导致摩天大楼无法建设"
+    },
+    {
+     "title": "School IB economics. ‘People are going to get screwed’: Pennsylvania voters unite against data centres",
+     "url": "https://www.ft.com/content/3f7f031e-114c-4862-b83e-e25b6ee06a66",
+     "published_cst": "2026-09-12T22:11:45+08:00",
+     "time": "09-12 22:11",
+     "body": null,
+     "title_zh": "学校IB经济学。“人们要遭殃了”：宾夕法尼亚选民联合反对数据中心"
+    },
+    {
+     "title": "School politics class: Republicans fear Trump has turned toxic on the campaign trail",
+     "url": "https://www.ft.com/content/4a2a1f2a-c9ec-48a1-8119-9463aa12ae65",
+     "published_cst": "2026-09-12T22:10:02+08:00",
+     "time": "09-12 22:10",
+     "body": null,
+     "title_zh": "学校政治课：共和党人担心特朗普在竞选活动中已成毒药"
+    },
+    {
+     "title": "Rivals Altman and Musk rally behind Dario Amodei’s call for an AI slowdown",
+     "url": "https://www.ft.com/content/31220b59-b0c6-401c-a146-2b7b5d138837",
+     "published_cst": "2026-09-12T18:14:06+08:00",
+     "time": "09-12 18:14",
+     "body": null,
+     "title_zh": "竞争对手奥尔特曼和马斯克支持达里奥·阿莫代伊呼吁放缓AI发展"
+    },
+    {
+     "title": "Larry Ellison cancels $7.5bn Oracle share sale",
+     "url": "https://www.ft.com/content/05e61eb8-9273-4b9a-a356-47f525b7d506",
+     "published_cst": "2026-09-12T17:18:43+08:00",
+     "time": "09-12 17:18",
+     "body": null,
+     "title_zh": "拉里·埃里森取消75亿美元甲骨文股票出售"
+    },
+    {
+     "title": "Why the AI race has its creators fearing human extinction",
+     "url": "https://www.ft.com/content/b7fe0fe0-0463-4f55-9590-0a7d08d8fe66",
+     "published_cst": "2026-09-12T16:38:01+08:00",
+     "time": "09-12 16:38",
+     "body": null,
+     "title_zh": "为何AI竞赛让创造者担忧人类灭绝"
+    },
+    {
+     "title": "India’s central bank tells Tata Sons to take conglomerate public",
+     "url": "https://www.ft.com/content/6a173e7c-cfe8-4ab8-8c8f-b90871cc907e",
+     "published_cst": "2026-09-12T16:20:04+08:00",
+     "time": "09-12 16:20",
+     "body": null,
+     "title_zh": "印度央行要求塔塔集团上市"
+    },
+    {
+     "title": "Brics push for Gulf peace as war worries mount",
+     "url": "https://www.ft.com/content/f32bef26-d2b8-47a6-b938-3dcd5e870685",
+     "published_cst": "2026-09-12T14:34:25+08:00",
+     "time": "09-12 14:34",
+     "body": null,
+     "title_zh": "金砖国家推动海湾和平，战争担忧加剧"
+    },
+    {
+     "title": "Trump says united Ireland ‘inevitable’ and ‘a very cool thing’",
+     "url": "https://www.ft.com/content/70bd4f6c-a5f4-4e59-b773-614f0a5efd58",
+     "published_cst": "2026-09-12T12:56:24+08:00",
+     "time": "09-12 12:56",
+     "body": null,
+     "title_zh": "特朗普称爱尔兰统一不可避免且是件很酷的事"
+    },
+    {
+     "title": "Reform UK receives two record £36mn donations",
+     "url": "https://www.ft.com/content/936ac952-43a6-44d5-be69-afa344e042f5",
+     "published_cst": "2026-09-12T12:25:10+08:00",
+     "time": "09-12 12:25",
+     "body": null,
+     "title_zh": "英国改革党获两笔创纪录的3600万英镑捐款"
+    },
+    {
+     "title": "Can China’s Icicle woo global shoppers in a luxury downturn?",
+     "url": "https://www.ft.com/content/e3b7bd04-175a-484d-be85-cbee70a71ecb",
+     "published_cst": "2026-09-12T12:00:05+08:00",
+     "time": "09-12 12:00",
+     "body": null,
+     "title_zh": "中国之禾能否在奢侈品低迷期吸引全球消费者？"
+    },
+    {
+     "title": "Saudi Arabia shuts East-West pipeline that bypasses Hormuz after attacks",
+     "url": "https://www.ft.com/content/3bafb3ae-ba94-44f0-984c-ec7c9f54a5e0",
+     "published_cst": "2026-09-12T10:50:57+08:00",
+     "time": "09-12 10:50",
+     "body": null,
+     "title_zh": "沙特遭袭后关闭绕过霍尔木兹的东西向输油管道"
+    },
+    {
+     "title": "Canada seeks $1tn from investors looking for a haven from Donald Trump",
+     "url": "https://www.ft.com/content/4dc6710b-7911-44c6-b57a-2fb47b6b04ed",
+     "published_cst": "2026-09-12T10:00:05+08:00",
+     "time": "09-12 10:00",
+     "body": null,
+     "title_zh": "加拿大寻求从寻求避开唐纳德·特朗普的投资者处筹集1万亿美元"
+    },
+    {
+     "title": "Chart of the Week: the long shadow of quantitative easing",
+     "url": "https://www.ft.com/content/be8d08d3-e3c1-413c-ab6e-5a38b19ce4b6",
+     "published_cst": "2026-09-12T09:30:04+08:00",
+     "time": "09-12 09:30",
+     "body": null,
+     "title_zh": "本周图表：量化宽松的长期阴影"
+    },
+    {
+     "title": "LIV Golf’s bleak future shifts to the courtroom",
+     "url": "https://www.ft.com/content/d5584fd7-cc24-4d3e-813f-c65f041e2d0e",
+     "published_cst": "2026-09-12T08:00:04+08:00",
+     "time": "09-12 08:00",
+     "body": null,
+     "title_zh": "LIV高尔夫黯淡前景转至法庭"
+    }
+   ]
+  }
+ }
+}
