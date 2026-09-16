@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-16T10:47:25.066006+08:00",
+ "generated_at": "2026-09-16T10:59:54.340738+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -17,7 +17,29 @@
      "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/indian-bonds-feel-the-heat-from-global-yield-surge",
      "published_cst": "2026-09-16T02:31:03+08:00",
      "time": "09-16 02:31",
-     "body": null
+     "body": [
+      "Good morning... I’m Samie Modak in Mumbai, with bond markets continuing to command global investors’ attention.The 10-year US Treasury yield climbed to the highest in almost two decades on Tuesday, the latest milestone in a bruising bond selloff ahead of the Federal Reserve’s rate decision. Markets are pricing in a more-than-90% chance of a hike, which would be the first since 2023.The decision is set to have repercussions for Indian bonds as well, which have just witnessed heavy outflows from foreign investors, as we write below.In stocks, the anchor book for the National Stock Exchange of India’s much-awaited IPO opens on Wednesday, ahead of the main offering later this week. The benchmark NSE Nifty 50 Index slid to a five-month low on Tuesday, with gauges of small-cap and mid-cap shares falling even harder as elevated crude prices and weak global markets dented risk appetite. Shares of digital payment firms, including Paytm and MobiKwik, will be in focus after the government announced a fee on merchant transactions.Meanwhile, there was some good news on the macro front. India’s trade deficit in August narrowed more than economists expected on robust export growth.",
+      "In today’s newsletter, we cover:",
+      "Foreign investors sold 47.3 billion rupees ($490 million) of index-eligible government bonds on Friday, their biggest single-day exit since April 2025 and the second-largest in at least three years, according to Clearing Corp. of India data compiled by Bloomberg. The outflow came as the yield gap between domestic bonds and US Treasuries shrank to the smallest in over two decades, and before the broad market selloff witnessed on Tuesday in response to the RBI’s plan to sell sovereign notes to drain excess cash from lenders. As US yields keep moving higher and bets grow on a Fed rate hike, pressure is building on other central banks, including the Reserve Bank of India, to be more aggressive in tightening monetary policy.",
+      "Dr Reddy’s leads domestic pharma growth: I-Sec",
+      "India’s pharma market kept up a healthy pace in August, growing 13% from a year earlier to 248 billion rupees, according to ICICI Securities. Growth was strongest in chronic treatments, up 16%, while acute therapies rose 11%. Oncology, diabetes and cardiac drugs led the gains, while respiratory and anti-infective medicines grew more slowly. Volumes were up just 0.6%, suggesting much of the market growth is still coming from price increases and new product launches. Among the top 20 companies, Dr Reddy’s grew the fastest at about 22%, followed by Ajanta, Glenmark, Mankind, Zydus and Torrent. GLP-1 sales were broadly steady at 2.8 billion rupees, with generic semaglutide now outselling four innovator brands.",
+      "Momentum trade delaying rebound in large-caps: Kotak",
+      "Kotak says several large-cap stocks are now trading well below what it sees as fair value, a shift from the recent market trend. But that doesn’t mean they will rebound quickly. The brokerage says momentum-driven investing has made valuations less important, with investors focusing more on short-term news and treating a few quarters of earnings as if they will last indefinitely. Instead of debating whether a stock is cheap or expensive relative to its underlying value, many investors are positioning around the next expected trigger. That can leave fundamentally attractive stocks stuck in the “value” bucket for longer than usual, Kotak said.",
+      "Spending war in quick commerce seen persisting",
+      "The battle for leadership in India’s instant-delivery market is heating up, with Amazon saying its quick delivery business is set to hit annual sales of $1 billion. Zepto’s decision to push back its IPO timeline has lifted shares of rivals such as Eternal and Swiggy. But competition remains intense, with Amazon and Walmart-backed Flipkart continuing to invest in dark stores and accelerate their expansion. For investors, that cuts both ways: the opportunity is big enough to keep attracting deep-pocketed players, but their willingness to spend heavily to gain market share could delay profitability across the industry.",
+      "India’s unlisted share market boomed as investors rushed to buy into companies before they went public. But with the National Stock Exchange now set to list, the question is whether investors will stay interested once its main draw is gone. We answer three important questions:",
+      "Why was the NSE so important to the unlisted market?",
+      "NSE is a large, highly profitable company with a dominant position in its industry and makes regular financial disclosures. Years of delays to its IPO also created an unusually long window for trading its shares. UnlistedZone estimates the bourse alone accounted for roughly half of trading volumes in the market, while its shareholder base swelled to more than 231,000 from fewer than 80 a decade ago.",
+      "What happens after NSE lists?",
+      "Trading volumes could drop sharply as the unlisted market loses its biggest source of liquidity. Platforms and brokers will need to find new companies capable of attracting investors at a similar scale. That’s tough as few unlisted firms currently offer NSE’s combination of size, profitability, visibility and a clear path to an IPO.",
+      "Which sectors could attract attention next?",
+      "Investors are likely to look for the next IPO hopefuls across sectors like finance, tech, consumer, defense and market infrastructure. But rather than focusing on finding another NSE, interest may be spread across several companies, with the strongest brands, particularly those with clear listing plans, likely to draw the most attention.",
+      "MORE: Check out Bloomberg’s Emerging, a monthly podcast series hosted by Menaka Doshi and Haslinda Amin on the rising economies shaping the global future. In episode two, Menaka explores how the AI boom is reshaping electricity demand and whether it could strain power grids. You can watch it here or listen on iHeart, Apple, Amazon, or Spotify.",
+      "Save the date: Bloomberg New Economy Forum - New Delhi: This October, the Bloomberg New Economy Forum convenes its global community of business and public-sector leaders under the guiding theme, “A World in Play: Defining the New Levers of Power.” This year’s Forum, held Oct. 13-15 in New Delhi, will examine the shifting geopolitical landscape and explore the risks and opportunities reshaping the global economy. Visit BloombergNewEconomy.com/India to learn more.",
+      "Thank you for reading Markets Daily India. If you haven’t yet, sign up here. Got feedback and ideas? Send them our way at marketsindia@bloomberg.net."
+     ],
+     "title_zh": "印度债券受全球收益率飙升冲击",
+     "summary_zh": "10年期美债收益率升至近20年最高，市场预期美联储加息概率超90%，印度债券遭遇2025年4月以来最大单日外资流出473亿卢比。"
     },
     {
      "title": "Copper Steadies Ahead of Fed Decision as Supply Concerns Ease",
@@ -25,7 +47,17 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/copper-steadies-ahead-of-fed-decision-as-supply-concerns-ease",
      "published_cst": "2026-09-16T02:29:19+08:00",
      "time": "09-16 02:29",
-     "body": null
+     "body": [
+      "Copper steadied as traders eyed rising inventories and loosening spreads ahead of the Federal Reserve’s decision later Wednesday on whether to raise interest rates.",
+      "Futures rose slightly on the London Metal Exchange, extending a small gain in the previous session. Prices are still down sharply from a record reached last week that was driven by bets on a US tariff-driven supply squeeze.",
+      "Traders have spent the year piling copper into US warehouses hoping to benefit from tariffs that would spike domestic prices, but so far the White House has held off on new measures. Meanwhile, stockpiles held in LME-accredited storage facilities outside the country continued to rise this week, diminishing the threat of a supply pinch.",
+      "Three-month futures are trading at a premium of $62.53 a ton to copper for immediate delivery, a market structure known as contango that signals ample supply. In previous weeks the reverse formation — backwardation — that indicates a tight market had prevailed.",
+      "The Fed is widely expected to raise interest rates for the first time since 2023, which is typically a headwind for non-yielding assets like commodities.",
+      "Copper was 0.1% higher at $14,097 a ton on the LME at 9:38 a.m. Singapore time. Other metals were mixed, with nickel down 0.7% to the lowest this year.",
+      "Singapore iron ore was down 0.1% to $95.35 a ton."
+     ],
+     "title_zh": "铜价在美联储决议前企稳，供应担忧缓解",
+     "summary_zh": "铜价企稳，LME库存上升、价差转为正价差，市场等待美联储利率决议，三个月期铜报每吨14097美元。"
     },
     {
      "title": "Trump Has Few Good Options to Slow China's Rise as AI Superpower",
@@ -33,7 +65,33 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/trump-has-few-good-options-to-slow-china-s-rise-as-ai-superpower",
      "published_cst": "2026-09-16T02:01:12+08:00",
      "time": "09-16 02:01",
-     "body": null
+     "body": [
+      "Even as Donald Trump blasts Anthropic PBC’s Dario Amodei over his call to hit the brakes on AI development, the two agree on the need to prevent China from catching the US. But doing that remains difficult in practice.",
+      "In his 3,800-word missive titled “We Must Pace the Frontier,” Amodei called on policymakers to avoid selling China advanced AI chips, crack down on chip smuggling and prevent “unauthorized distillation by companies in authoritarian countries,” among other steps. He urged democracies to maintain a lead “as large as possible,” echoing language from the Biden administration.",
+      "While Trump maintains export controls on the most advanced chips and chipmaking equipment, he’s also been open to selling China semiconductors such as Nvidia Corp.’s H200s, which Beijing has avoided to develop its own sector. So far his administration has refrained from more punitive measures to crack down on chip smuggling in Southeast Asia, and demurred on sanctions or entity-list designations for Chinese companies found to have carried out systematic distillation from US systems.",
+      "The main challenge for the US is keeping China at bay without prompting Beijing to further restrict rare earths used in high-tech products like precision-guided missiles and drones. Trump and Xi Jinping reached a truce last year that saw Beijing guarantee flows of rare earths in return for reduced tariffs, a deal likely to be extended next week when the Chinese leader visits the White House.",
+      "“Washington has to tread carefully now that Beijing has sharper retaliatory tools, such as export controls on rare earths,” said Kyle Chan, a fellow in the John L. Thornton China Center at Brookings. “Also, the American AI boom relies on many data center components from China.”",
+      "China has continuously narrowed the gap with the US on AI despite the restrictions, as Xi pours money into becoming self-sufficient on the entire tech stack. Although China remains behind on chip production, AI models from companies like DeepSeek and Moonshot have reduced the gap with US frontier offerings in capability, often at a fraction of the cost — threatening to pull away market share from Silicon Valley giants Anthropic and OpenAI.",
+      "Trump administration officials, US security agencies and American AI developers alike have accused Chinese firms of distilling from US AI models in the past to build their own products. The practice, which can be legitimately deployed by an AI developer that uses its state-of-the-art model to effectively teach a more power-efficient version, is seen as an improper shortcut when done without approval.",
+      "US lawmakers are also considering measures aimed at penalizing Chinese companies found to be copying unfairly from their American counterparts. A harder loophole to close is Beijing’s ability to remotely rent America’s best semiconductors at Southeast Asia cloud data centers — especially after Trump alienated many of those countries with last year’s trade war.",
+      "Competition is also expanding throughout the world. Huawei Technologies Co., China’s biggest competitor to Nvidia, has bid to build AI data centers for the Egyptian government, drawing alarm and a scramble from Washington to make a counteroffer.",
+      "“Both countries see AI as one of, if not the most important arena of strategic competition,” said Daniel Remler, a senior fellow at the Center for a New American Security who led AI policy at the State Department under the Biden administration and took part in the first US-China AI dialogue two years ago. “But leaders and senior policymakers on both sides have to see AI in the context of every other issue they have to contend with, from the war in Iran to rare earths.”",
+      "The fight to stay ahead is creating fresh tensions as the US government doubles down on accusations that Chinese companies have engaged in “industrial-scale” theft of American AI labs’ intellectual property through a technique known as distillation. Anthropic last week took those accusations a step further by claiming Moonshot AI had routed nearly 300,000 user requests through Claude and passed the results off as its own.",
+      "Those issues will be on display when US and Chinese officials sit down for AI talks planned around the Sept. 24 summit between Xi and Trump. AI is also likely to feature prominently in leader talks next week, according to a senior White House official, who said Trump had been in touch with some CEOs to gauge their views on the recent controversy over AI safety.",
+      "China has dismissed the recent US claims as groundless, accusing Washington of applying a “double standard” to stifle competition. Beijing has vowed to “resolutely” retaliate against further US actions against Chinese companies.",
+      "If the US wants cooperation on AI, China would also like the Trump administration to remove “containment measures” such as export controls and entity-list designations, said Jiang Tianjiao, a research fellow at the Center for Global AI Innovative Governance and associate professor at Fudan University in Shanghai.",
+      "“China has always maintained that if you want a dialogue — especially on sensitive technical issues — there must first be mutual political trust,” he said. “That means establishing mutual respect without triggering unnecessary friction in bilateral relations.”",
+      "China may also be looking to crack down on distillation due to its own national security concerns. On Chinese e-commerce platforms like Taobao, merchants offer account top-ups and pre-made profiles for Claude, routing queries through domestic services that relay requests via overseas proxy servers — an industry dubbed “API transit stations.”",
+      "Data leakage and high-profile user activity are drawing scrutiny from Chinese regulators, opening the door to targeted crackdowns as domestic security agencies take a harder line against reliance on foreign AI infrastructure, Lyu Yizhou, a lawyer with Shanghai Qianpeng Law Firm, wrote in an online post this week.",
+      "The last time the two governments held talks on AI in May 2024, the US enjoyed a comfortable lead. China was still months away from its “DeepSeek moment,” and hadn’t deployed its rare-earth supply chain as leverage against the Biden administration’s export controls.",
+      "Since then, Xi has used rare earths to push Trump to retreat from three-digit tariffs and thwarted a proposed rule that would have dramatically expanded the number of Chinese companies subject to US sanctions.",
+      "China increasingly dominates global markets — and supply chains — across swaths of advanced manufacturing, from electric vehicles and clean energy gear to drones. Washington has responded by shutting some Chinese products out of the US on national security grounds, most recently with an effective ban on Chinese humanoid robots and power inverters. Beijing in turn stiffened controls on drone exports and sanctioned US entities.",
+      "Things could escalate further. A bipartisan bill is currently pending in Congress, with an aim to curb China’s remote access to Nvidia chips via cloud computing. The Commerce Department’s Bureau of Industry and Security, which oversees chip export curbs, is also scrutinizing the loophole.",
+      "But implementation may be challenging.",
+      "“It would involve some degree of monitoring for data centers across multiple countries, particularly in Southeast Asia as well as Japan,” said Chan at Brookings. “As with any effort to restrict China’s access to advanced AI chips, it will be a matter of degrees and effort, not a black-and-white solution.”"
+     ],
+     "title_zh": "特朗普在人工智能超级大国竞争中难以遏制中国崛起",
+     "summary_zh": "特朗普与Amodei虽在阻止中国AI追赶美国上立场一致，但实际操作困难重重。"
     },
     {
      "title": "HSBC, ICICI Propel India Finance Hub With FX Loans for Diaspora",
@@ -41,7 +99,23 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/hsbc-icici-propel-india-finance-hub-with-fx-loans-for-diaspora",
      "published_cst": "2026-09-16T01:30:00+08:00",
      "time": "09-16 01:30",
-     "body": null
+     "body": [
+      "HSBC Holdings Plc and ICICI Bank Ltd. in GIFT City have emerged as the biggest lenders to India’s vast diaspora under a special foreign-exchange swap program, signaling the financial hub’s growing role in channeling global capital into the country.",
+      "The two lenders in Gujarat International Finance Tec-City, known as GIFT City, disbursed a combined $19.3 billion through the central bank’s concessional swap facility for foreign-currency non-resident deposits which ran from June till the end of August, according to data compiled by the hub’s regulatory body, the International Financial Services Centres Authority.",
+      "The Reserve Bank of India’s program drew a surge in foreign-currency funding into the country, boosting activity in GIFT City. The success of the banks could encourage other lenders operating from the center to expand their wealth management operations and draw in more money from non-resident Indians.",
+      "Prime Minister Narendra Modi is positioning GIFT City as a zone capable of competing with established financial centers such as Singapore or Hong Kong.",
+      "Read More: How India Is Using Its Diaspora to Defend the Rupee: Explainer",
+      "The RBI‘s special facility spurred activity in the hub, with HSBC disbursing $10.9 billion and ICICI Bank $8.4 billion. Others included Bank of Baroda, State Bank of India and Canara Bank, according to IFSCA. The banks did not reply to emails seeking comment. Twenty lenders in the zone gave out a combined $52.8 billion in loans under RBI’s program, IFSCA said.",
+      "The center, in which firms including HSBC, Standard Chartered Plc and Mitsubishi UFJ Financial Group Inc. have built huge businesses, already offers exemptions from certain taxes and regulatory restrictions, boosting its appeal as an international capital raising venue.",
+      "India garnered a record $127 billion from its overseas nationals through special programs, surpassing even the most optimistic estimates and giving policymakers a formidable buffer to defend the currency against external pressures. The central bank offered to take on the risk of currency-hedging costs of FCNR deposits, prompting some lenders such as HSBC to provide loans amounting to up to 19 times the original deposit.",
+      "“Capitalizing on the success of the foreign-currency non-resident accounts, we expect banks to aggressively expand wealth management and tap the global Indian diaspora through extensive international outreach,” K. Rajaraman, IFSCA’s chairperson said in an interview in GIFT City, located in the western state of Gujarat.",
+      "Banking assets in GIFT City are expected to top $150 billion by the end of September from $120 billion as of end-August, he said, adding that non-resident Indians would be be critical to the hub’s growth. The number of depositors at banks in the zone has risen nearly 50% to about 32,000 as of the end of August from end-March, the regulator said. Three years ago, the tally was only roughly 4,000.",
+      "Rajaraman said the pace at which existing retail customers are being brought on board in the hub is comparable with financial centers such as Singapore and Hong Kong and takes about two to three days. The due diligence for new customers in GIFT City typically takes 10 to 12 days, though that period is expected to shorten as know-your-customer requirements are being streamlined.",
+      "Assisted video KYC is already available to NRIs, while unassisted face authentication via a biometric system is expected to be enabled by the end of 2026, he said.",
+      "GIFT City’s infrastructure now enables interbank transfers to be completed within seconds at the center. A simplified tax regime and faster operating infrastructure are also helping the hub compete for international capital, according to Rajaraman."
+     ],
+     "title_zh": "汇丰、ICICI银行以外汇贷款助力印度侨民金融中心",
+     "summary_zh": "汇丰和ICICI银行在GIFT城向印度侨民放贷193亿美元，推动外汇流入。"
     },
     {
      "title": "New Zealand's World-Beating Sovereign Wealth Fund Returns 14.2%",
@@ -177,7 +251,8 @@
      "link": "https://www.ft.com/content/83023f2f-0c12-4239-bf27-99d8e378ec5d",
      "published_cst": "2026-09-16T01:18:40+08:00",
      "time": "09-16 01:18",
-     "body": null
+     "body": null,
+     "title_zh": "美中能否在AI风险上合作？"
     },
     {
      "title": "The Indian business empire being forced to list against its will",
@@ -185,7 +260,8 @@
      "link": "https://www.ft.com/content/bbc9d181-9cce-4b5f-af4a-bf87f3dfca93",
      "published_cst": "2026-09-16T01:00:33+08:00",
      "time": "09-16 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "印度商业帝国被迫违背意愿上市"
     },
     {
      "title": "US charges five people linked to Russian ‘assassination network’",
@@ -220,7 +296,8 @@
      "link": "https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295",
      "published_cst": "2026-09-16T02:35:00+08:00",
      "time": "09-16 02:35",
-     "body": null
+     "body": null,
+     "title_zh": "OpenAI考虑IPO前融资，估值超1.2万亿美元"
     },
     {
      "title": "Apple Finally Built a Smarter Siri. It Still Hasn’t Caught Up in the AI Race.",
@@ -228,7 +305,8 @@
      "link": "https://www.wsj.com/tech/ai/apple-finally-built-a-smarter-siri-it-still-hasnt-caught-up-in-the-ai-race-2663601e",
      "published_cst": "2026-09-16T02:00:00+08:00",
      "time": "09-16 02:00",
-     "body": null
+     "body": null,
+     "title_zh": "苹果终于打造出更智能的Siri，但在AI竞赛中仍未赶上。"
     },
     {
      "title": "U.S. Probes Cyberattacks on Energy Tankers Bound for American Coast",
@@ -236,7 +314,8 @@
      "link": "https://www.wsj.com/politics/national-security/u-s-probes-cyberattacks-on-energy-tankers-bound-for-american-coast-33d92f3a",
      "published_cst": "2026-09-16T01:20:00+08:00",
      "time": "09-16 01:20",
-     "body": null
+     "body": null,
+     "title_zh": "美国调查驶往美海岸能源油轮遭网络攻击"
     },
     {
      "title": "Asian Currencies Broadly Weaken Ahead of Fed Decision",
@@ -244,7 +323,8 @@
      "link": "https://www.wsj.com/finance/currencies/fed-guidance-key-to-asian-fx-outlook-511a4410",
      "published_cst": "2026-09-16T01:15:00+08:00",
      "time": "09-16 01:15",
-     "body": null
+     "body": null,
+     "title_zh": "亚洲货币在美联储决策前普遍走弱"
     },
     {
      "title": "The U.S. Is Burning Through Its Supply of Interceptors to Counter Iran’s Attacks",
@@ -252,7 +332,8 @@
      "link": "https://www.wsj.com/world/middle-east/the-u-s-is-burning-through-its-supply-of-interceptors-to-counter-irans-attacks-f42c5ecd",
      "published_cst": "2026-09-16T01:00:00+08:00",
      "time": "09-16 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "美国拦截伊朗袭击正迅速消耗拦截弹库存"
     },
     {
      "title": "How to Press Your Case When Your Airline Seat Gets Downgraded",
@@ -260,7 +341,8 @@
      "link": "https://www.wsj.com/lifestyle/travel/how-to-press-your-case-when-your-airline-seat-gets-downgraded-ab39d145",
      "published_cst": "2026-09-16T01:00:00+08:00",
      "time": "09-16 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "当航班座位被降级时如何维权"
     },
     {
      "title": "Elon Musk Trains His Political Chaos Machine on the U.K.",
@@ -268,7 +350,8 @@
      "link": "https://www.wsj.com/world/uk/elon-musk-uk-politics-9aba87a5",
      "published_cst": "2026-09-16T01:00:00+08:00",
      "time": "09-16 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "马斯克在英国训练其政治混乱机器"
     },
     {
      "title": "Americans Have Spent $100 Billion More on Fuel During the Iran War",
@@ -276,7 +359,8 @@
      "link": "https://www.wsj.com/business/energy-oil/americans-have-spent-100-billion-more-on-fuel-during-the-iran-war-377952a1",
      "published_cst": "2026-09-16T01:00:00+08:00",
      "time": "09-16 01:00",
-     "body": null
+     "body": null,
+     "title_zh": "伊朗战争期间美国人燃料支出增加1000亿美元"
     },
     {
      "title": "JGB Yields Higher Amid Inflation Fears",
@@ -284,7 +368,8 @@
      "link": "https://www.wsj.com/finance/jgb-yields-higher-amid-inflation-fears-c3a1bb4e",
      "published_cst": "2026-09-16T00:59:00+08:00",
      "time": "09-16 00:59",
-     "body": null
+     "body": null,
+     "title_zh": "通胀担忧下日本国债收益率上升"
     },
     {
      "title": "Oil Declines But Remains Elevated Amid Supply Concerns, Geopolitical Risks",
@@ -346,7 +431,8 @@
      "link": "https://www.reuters.com/world/south-korean-court-orders-north-korea-pay-damages-over-2020-liaison-office-2026-09-16/",
      "published_cst": "2026-09-16T02:40:42+08:00",
      "time": "09-16 02:40",
-     "body": null
+     "body": null,
+     "title_zh": "韩国法院就2020年联络办公室拆除事件判令朝鲜赔偿损失，媒体报道"
     },
     {
      "title": "South Korea's SK Hynix union approves tentative wage deal with management, source says",
@@ -363,7 +449,8 @@
      "link": "https://www.reuters.com/world/india/indian-shares-seen-opening-higher-after-selloff-higher-oil-fed-caution-cap-gains-2026-09-16/",
      "published_cst": "2026-09-16T02:33:43+08:00",
      "time": "09-16 02:33",
-     "body": null
+     "body": null,
+     "title_zh": "印度股市在抛售后预计高开；油价上涨和美联储谨慎料限制涨幅"
     },
     {
      "title": "Meta's Zuckerberg says AI labs have enough incentive to build safely",
@@ -371,7 +458,8 @@
      "link": "https://www.reuters.com/business/metas-zuckerberg-says-ai-labs-have-enough-incentive-build-safely-2026-09-16/",
      "published_cst": "2026-09-16T02:33:28+08:00",
      "time": "09-16 02:33",
-     "body": null
+     "body": null,
+     "title_zh": "Meta的扎克伯格称AI实验室有足够动力安全构建"
     },
     {
      "title": "BOJ set to raise interest rates to 31-year high as inflation risks loom",
@@ -379,7 +467,8 @@
      "link": "https://www.reuters.com/world/asia-pacific/boj-set-raise-interest-rates-31-year-high-inflation-risks-loom-2026-09-16/",
      "published_cst": "2026-09-16T02:31:45+08:00",
      "time": "09-16 02:31",
-     "body": null
+     "body": null,
+     "title_zh": "日本央行将加息至31年高位，通胀风险隐现"
     },
     {
      "title": "Indonesia's choking wildfire, haze worsen breathing woes on Borneo",
@@ -387,7 +476,8 @@
      "link": "https://www.reuters.com/business/environment/indonesias-choking-wildfire-haze-worsen-breathing-woes-borneo-2026-09-16/",
      "published_cst": "2026-09-16T02:23:44+08:00",
      "time": "09-16 02:23",
-     "body": null
+     "body": null,
+     "title_zh": "印尼野火和雾霾加剧婆罗洲呼吸问题"
     },
     {
      "title": "Boeing, Korean Air finalize order for 103 aircraft",
@@ -395,7 +485,8 @@
      "link": "https://www.reuters.com/business/aerospace-defense/boeing-korean-air-finalize-order-103-aircraft-2026-09-16/",
      "published_cst": "2026-09-16T02:22:37+08:00",
      "time": "09-16 02:22",
-     "body": null
+     "body": null,
+     "title_zh": "波音与大韩航空敲定103架飞机订单"
     },
     {
      "title": "Saudi coalition says Houthi drone destroyed near Mecca",
@@ -403,7 +494,8 @@
      "link": "https://www.reuters.com/world/middle-east/saudi-coalition-says-houthi-drone-destroyed-near-mecca-2026-09-16/",
      "published_cst": "2026-09-16T02:21:10+08:00",
      "time": "09-16 02:21",
-     "body": null
+     "body": null,
+     "title_zh": "沙特联军称胡塞武装无人机在麦加附近被摧毁"
     },
     {
      "title": "Asian markets make nervous start ahead of Fed decision",
@@ -411,7 +503,8 @@
      "link": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-16/",
      "published_cst": "2026-09-16T02:18:03+08:00",
      "time": "09-16 02:18",
-     "body": null
+     "body": null,
+     "title_zh": "亚洲市场在美联储决议前紧张开局"
     },
     {
      "title": "China defence minister urges countries to check surge of regressive historical trends",
@@ -419,7 +512,8 @@
      "link": "https://www.reuters.com/world/china/china-defence-minister-urges-countries-check-surge-regressive-historical-trends-2026-09-16/",
      "published_cst": "2026-09-16T02:15:43+08:00",
      "time": "09-16 02:15",
-     "body": null
+     "body": null,
+     "title_zh": "中国国防部长敦促各国遏制倒退历史趋势的涌现"
     },
     {
      "title": "Gold muted as investors brace for Fed rate decision",
@@ -427,7 +521,8 @@
      "link": "https://www.reuters.com/world/india/gold-muted-investors-brace-fed-rate-decision-2026-09-16/",
      "published_cst": "2026-09-16T02:12:28+08:00",
      "time": "09-16 02:12",
-     "body": null
+     "body": null,
+     "title_zh": "黄金走势平淡，投资者静待美联储利率决议"
     },
     {
      "title": "Bessent defends Trump economic policies, reveals plans to meet Chinese official",
@@ -444,7 +539,8 @@
      "link": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
      "published_cst": "2026-09-16T01:59:42+08:00",
      "time": "09-16 01:59",
-     "body": null
+     "body": null,
+     "title_zh": "马来西亚与竞争对手航空公司洽谈，同时监控亚航财务状况，消息人士称"
     },
     {
      "title": "Korean retail investors lost $250 million from scams during stock swing",
@@ -452,7 +548,8 @@
      "link": "https://www.reuters.com/legal/government/korean-retail-investors-lost-250-million-scams-during-stock-swing-2026-09-16/",
      "published_cst": "2026-09-16T01:51:44+08:00",
      "time": "09-16 01:51",
-     "body": null
+     "body": null,
+     "title_zh": "韩国散户在股市波动中因诈骗损失2.5亿美元"
     },
     {
      "title": "Five killed in Hanoi house fire, police say",
@@ -460,7 +557,8 @@
      "link": "https://www.reuters.com/world/asia-pacific/five-killed-hanoi-house-fire-police-say-2026-09-16/",
      "published_cst": "2026-09-16T01:50:44+08:00",
      "time": "09-16 01:50",
-     "body": null
+     "body": null,
+     "title_zh": "河内民宅火灾致5人死亡，警方称"
     },
     {
      "title": "The AI gold rush has a dress code: steel-toe boots",
@@ -486,7 +584,8 @@
      "link": "https://www.reuters.com/world/asia-pacific/australias-reliance-worldwide-agrees-brookfields-29-billion-buyout-bid-2026-09-16/",
      "published_cst": "2026-09-16T01:19:44+08:00",
      "time": "09-16 01:19",
-     "body": null
+     "body": null,
+     "title_zh": "澳大利亚Reliance Worldwide接受博枫29亿美元收购要约"
     },
     {
      "title": "'Sense and Sensibility' stars champion sisterhood in new Austen adaptation",
@@ -494,7 +593,8 @@
      "link": "https://www.reuters.com/business/media-telecom/sense-sensibility-stars-champion-sisterhood-new-austen-adaptation-2026-09-16/",
      "published_cst": "2026-09-16T01:15:37+08:00",
      "time": "09-16 01:15",
-     "body": null
+     "body": null,
+     "title_zh": "理智与情感主演在新奥斯汀改编中倡导姐妹情谊"
     },
     {
      "title": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says",
@@ -511,7 +611,8 @@
      "link": "https://www.reuters.com/world/kosovo-ex-president-thaci-faces-war-crimes-verdict-hague-2026-09-16/",
      "published_cst": "2026-09-16T01:07:12+08:00",
      "time": "09-16 01:07",
-     "body": null
+     "body": null,
+     "title_zh": "科索沃前总统塔奇在海牙面临战争罪判决"
     },
     {
      "title": "Dollar girded by bets on a US hiking cycle",
@@ -519,7 +620,8 @@
      "link": "https://www.reuters.com/world/asia-pacific/dollar-girded-by-bets-us-hiking-cycle-2026-09-16/",
      "published_cst": "2026-09-16T01:01:14+08:00",
      "time": "09-16 01:01",
-     "body": null
+     "body": null,
+     "title_zh": "美元受美国加息周期预期支撑"
     },
     {
      "title": "Oil falls as US crude inventories rise despite Saudi supply concerns",
