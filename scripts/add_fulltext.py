@@ -11,10 +11,13 @@
   5. build.py 读 data/fulltext 生成 docs/fulltext/<YYYYMMDD>/<slug>/ 排版页
      新闻列表对应条目加「全文」小图标链接（news_builder）
 
-用法：
-  python3 scripts/add_fulltext.py                     # 扫描默认目录，处理所有未入库的 md
-  python3 scripts/add_fulltext.py --file <md路径>     # 处理单个文件
-  python3 scripts/add_fulltext.py --list              # 只显示匹配结果，不翻译
+用法（vault 目录随主题变化，不写死）：
+  python3 scripts/add_fulltext.py --file "~/studies/Linux/AI/export_xxx.md"
+  python3 scripts/add_fulltext.py --src "~/studies/Linux/AI/"   # 扫描该目录全部 export_*.md
+  python3 scripts/add_fulltext.py --file ... --list             # 只看匹配不翻译
+
+源 md 会拷贝到 data/fulltext_src/<发布日>/ 入 git 备份；Obsidian vault 原件只读不动。
+收录后跑 build.py 生成 docs/fulltext/<date>/<slug>/ 文章页并 git add 提交。
 """
 
 import argparse
@@ -30,7 +33,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "news"
 FT_DIR = ROOT / "data" / "fulltext"          # 译好的全文 JSON
-DEFAULT_SRC = Path.home() / "studies" / "Linux" / "AI"
+SRC_BACKUP_DIR = ROOT / "data" / "fulltext_src"   # 源 md 的仓库内拷贝（入 git，Obsidian vault 不动）
 
 CST = timezone(timedelta(hours=8))
 DEEPSEEK_URL = "https://api.deepseek.com/v1/chat/completions"
@@ -178,15 +181,22 @@ def match_news_item(title: str, src_url: str):
 
 def main():
     ap = argparse.ArgumentParser(description="全文收录（手工导出 md → 翻译 → 挂接新闻）")
-    ap.add_argument("--file", help="处理单个 md 文件")
-    ap.add_argument("--src", default=str(DEFAULT_SRC), help="md 导出目录")
+    ap.add_argument("--file", help="处理单个 md 文件（Obsidian vault 内的路径）")
+    ap.add_argument("--src", help="扫描目录（Obsidian vault 内；不传则只处理 --file）")
     ap.add_argument("--list", action="store_true", help="只显示匹配，不翻译")
     ap.add_argument("--days", type=int, default=14, help="在最近 N 天的 news 数据里匹配")
     args = ap.parse_args()
 
-    files = [Path(args.file)] if args.file else sorted(DEFAULT_SRC.glob("export_*.md"))
+    if not args.file and not args.src:
+        sys.exit("请指定 --file <md路径> 或 --src <导出目录>\n"
+                 "（vault 目录随主题变化，不再写死；源 md 会拷贝到 data/fulltext_src/ 入库，vault 不动）")
+
+    if args.file:
+        files = [Path(args.file).expanduser()]
+    else:
+        files = sorted(Path(args.src).expanduser().glob("export_*.md"))
     if not files:
-        sys.exit(f"未找到 md 文件（{args.src}/export_*.md）")
+        sys.exit(f"未找到 md 文件")
 
     FT_DIR.mkdir(parents=True, exist_ok=True)
     now = datetime.now(CST)
@@ -237,7 +247,12 @@ def main():
             "paras_zh": zh_paras,
         }
         out.write_text(json.dumps(doc, ensure_ascii=False, indent=1))
-        print(f"   ✅ 全文已收录: {out.name} / {slug}（译 {len(zh_paras)} 段）")
+        # 源 md 拷入仓库备份（Obsidian vault 原件不动；git add 的是仓库内拷贝）
+        backup_dir = SRC_BACKUP_DIR / pc
+        backup_dir.mkdir(parents=True, exist_ok=True)
+        backup = backup_dir / md.name
+        backup.write_text(md.read_text(encoding="utf-8"), encoding="utf-8")
+        print(f"   ✅ 全文已收录: {out.name} / {slug}（译 {len(zh_paras)} 段；源已备份 data/fulltext_src/{pc}/）")
 
 
 if __name__ == "__main__":
