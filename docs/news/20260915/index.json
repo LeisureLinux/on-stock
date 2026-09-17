@@ -1,13 +1,13 @@
 {
  "date": "20260915",
- "generated_at": "2026-09-16T13:54:37.515511+08:00",
+ "generated_at": "2026-09-17T08:16:03.531612+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 248,
+   "count": 252,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -36,6 +36,14 @@
      ],
      "title_zh": "日本出口增长保持稳健，芯片出货量激增",
      "summary_zh": "日本8月出口同比增长19.3%，芯片和半导体设备出口激增，但贸易逆差扩大至1.1万亿日元。"
+    },
+    {
+     "title": "Germany Leads Late Push to Avoid EU Carbon Market Glut",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/germany-leads-last-minute-push-to-avoid-eu-carbon-market-glut",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/germany-leads-last-minute-push-to-avoid-eu-carbon-market-glut",
+     "published_cst": "2026-09-15T23:47:30+08:00",
+     "time": "09-15 23:47",
+     "body": null
     },
     {
      "title": "Nvidia CEO Set to Attend Trump Dinner With Chinese President",
@@ -121,6 +129,14 @@
      "summary_zh": "台湾川湖科技靠AI服务器滑轨市值四年涨超3000%至430亿美元，创始人林聪吉身家达194亿美元。"
     },
     {
+     "title": "Carry Traders Eye Franc, Krona as Yen's Funding Appeal Ebbs",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/carry-traders-eye-franc-and-krona-as-yen-s-funding-appeal-ebbs",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/carry-traders-eye-franc-and-krona-as-yen-s-funding-appeal-ebbs",
+     "published_cst": "2026-09-15T23:00:00+08:00",
+     "time": "09-15 23:00",
+     "body": null
+    },
+    {
      "title": "ANZ CEO Matos Warns on AI, Data Centers, Treasury Yields: Australia Briefing",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-15/anz-ceo-matos-warns-on-ai-data-centers-treasury-yields-australia-briefing",
      "link": "https://www.bloomberg.com/news/newsletters/2026-09-15/anz-ceo-matos-warns-on-ai-data-centers-treasury-yields-australia-briefing",
@@ -146,11 +162,19 @@
      "summary_zh": "澳新银行CEO警告AI风险并暗示或大规模裁员，同时全球AI安全争论加剧，数据中心投资或达2250亿澳元。"
     },
     {
-     "title": "US Coast Guard Boarded Oil Supertanker in Cyber Attack Probe",
+     "title": "US Coast Guard and FBI Conduct Cyberattack Probes on Tankers",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/us-coast-guard-boards-oil-tanker-in-cyber-attack-investigation",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/us-coast-guard-boards-oil-tanker-in-cyber-attack-investigation",
      "published_cst": "2026-09-15T22:50:41+08:00",
      "time": "09-15 22:50",
+     "body": null
+    },
+    {
+     "title": "Chile Central Bank Deputy Governor: Investors Shouldn't Overlook Recovery",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/chile-central-bank-deputy-governor-investors-shouldn-t-overlook-recovery",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/chile-central-bank-deputy-governor-investors-shouldn-t-overlook-recovery",
+     "published_cst": "2026-09-15T22:49:13+08:00",
+     "time": "09-15 22:49",
      "body": null
     },
     {
@@ -260,7 +284,7 @@
      "summary_zh": "Anthropic CEO等AI高管呼吁协调放缓AI开发，此前一名前员工因安全担忧辞职并发帖引发关注。"
     },
     {
-     "title": "Stocks and Bonds Edge Up Before Fed; Oil Declines: Markets Wrap",
+     "title": "Stocks Fall as Fed Hikes and Signals More to Come: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/asian-stocks-to-edge-higher-as-traders-await-fed-markets-wrap",
      "published_cst": "2026-09-15T22:11:24+08:00",
@@ -314,6 +338,14 @@
      ],
      "title_zh": "特朗普顾问卢特尼克和迈克尔与Anthropic高管会面讨论AI安全",
      "summary_zh": "特朗普政府官员与Anthropic高管周二讨论AI安全风险，此前CEO呼吁监管，特朗普斥其为骗局。"
+    },
+    {
+     "title": "Latest Oil Market News and Analysis for Sept. 16",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
+     "published_cst": "2026-09-15T22:03:27+08:00",
+     "time": "09-15 22:03",
+     "body": null
     },
     {
      "title": "US Iran War Blockade Costs Strain Taiwan China Deterrence",
@@ -683,7 +715,7 @@
      "summary_zh": "AI头部公司联合美国政府制定安全标准，引发初创企业担忧竞争受阻，FTC主席警告此举实为设置进入壁垒。"
     },
     {
-     "title": "Bond Market's 'Extreme' Short Counts on Fed to Deliver Rate Hike",
+     "title": "Bond Market's 'Extreme' Short Counts on Fed to Deliver Hike",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/bond-market-s-extreme-short-counts-on-fed-to-deliver-rate-hike",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/bond-market-s-extreme-short-counts-on-fed-to-deliver-rate-hike",
      "published_cst": "2026-09-15T20:30:09+08:00",
@@ -1517,7 +1549,7 @@
      "summary_zh": "特朗普政府取消燃煤和燃气电厂温室气体管控，预计到2040年额外排放5.33亿吨二氧化碳，美国减排进程倒退约十年。"
     },
     {
-     "title": "MBS and Saudi Arabia Face Crisis With Key Oil Pipeline Shut for Weeks",
+     "title": "Oil Pipeline Closure Puts Saudi Economy, MBS's Diversification Plans at Risk",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/mbs-and-saudi-arabia-face-crisis-with-key-oil-pipeline-shut-for-weeks",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/mbs-and-saudi-arabia-face-crisis-with-key-oil-pipeline-shut-for-weeks",
      "published_cst": "2026-09-15T16:28:29+08:00",
@@ -1757,7 +1789,7 @@
      "summary_zh": "秘鲁7月GDP同比增长3.56%，远超预期，建筑业和零售业推动反弹，但渔业和农业下滑。"
     },
     {
-     "title": "Glencore Faces $2 Billion Radiant World Claim in Singapore",
+     "title": "Glencore Sued For $2 Billion; Accuses Radiant World of Fraud",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/glencore-says-radiant-world-sent-falsified-invoices-to-lenders",
      "published_cst": "2026-09-15T15:48:13+08:00",
@@ -6316,7 +6348,7 @@
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
     {
-     "title": "Nissan to invest £170mn to build a new hybrid SUV at Sunderland plant",
+     "title": "Nissan calls for UK tariffs on Chinese car imports for EU deal",
      "url": "https://www.ft.com/content/cc6a47b8-2c37-4755-b63a-727565c50260",
      "link": "https://www.ft.com/content/cc6a47b8-2c37-4755-b63a-727565c50260",
      "published_cst": "2026-09-15T23:40:07+08:00",
@@ -6361,7 +6393,7 @@
      "title_zh": "斯科特·贝森特将在特朗普-习近平峰会前于纽约会见何立峰"
     },
     {
-     "title": "Donald Trump says Kennedy Center renovation depends on whether his name is on it",
+     "title": "Donald Trump says he will not renovate Kennedy Center unless his name is on it",
      "url": "https://www.ft.com/content/38707536-bf54-42cb-8072-e022956047bd",
      "link": "https://www.ft.com/content/38707536-bf54-42cb-8072-e022956047bd",
      "published_cst": "2026-09-15T22:04:53+08:00",
@@ -7310,7 +7342,7 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 149,
+   "count": 151,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
@@ -7324,7 +7356,7 @@
      "title_zh": "布鲁克菲尔德同意以29亿美元收购澳大利亚Reliance"
     },
     {
-     "title": "American Businesses Have No Idea How to Set Prices Right Now",
+     "title": "Are High Energy Prices Here to Stay? The Economy Has Answers.",
      "url": "https://www.wsj.com/business/american-businesses-have-no-idea-how-to-set-prices-right-now-061274e0",
      "link": "https://www.wsj.com/business/american-businesses-have-no-idea-how-to-set-prices-right-now-061274e0",
      "published_cst": "2026-09-15T23:30:00+08:00",
@@ -7657,6 +7689,14 @@
      "title_zh": "回声星旗下休斯网络与债权人争夺破产案控制权"
     },
     {
+     "title": "Stock Market News, Sept. 16, 2026: Dow Falls More Than 600 Points After Fed Raises Key Interest Rate",
+     "url": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026",
+     "link": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026",
+     "published_cst": "2026-09-15T19:48:37+08:00",
+     "time": "09-15 19:48",
+     "body": null
+    },
+    {
      "title": "Fourth Measles-Related Death Reported in Pennsylvania",
      "url": "https://www.wsj.com/us-news/fourth-measles-related-death-reported-in-pennsylvania-2ab55b17",
      "link": "https://www.wsj.com/us-news/fourth-measles-related-death-reported-in-pennsylvania-2ab55b17",
@@ -7945,7 +7985,7 @@
      "title_zh": "基准美债收益率将在5%以上维持多久？"
     },
     {
-     "title": "For Baseball’s Dave Winfield, Greatness Began With His Mother’s Films",
+     "title": "Dave Winfield Was Drafted by the MLB Out of High School, but Chose College Instead",
      "url": "https://www.wsj.com/real-estate/dave-winfield-touching-all-the-bases-f4b8eaff",
      "link": "https://www.wsj.com/real-estate/dave-winfield-touching-all-the-bases-f4b8eaff",
      "published_cst": "2026-09-15T15:00:00+08:00",
@@ -8008,7 +8048,7 @@
      "title_zh": "司法部称币安客户利用该交易所转移伊朗石油资金"
     },
     {
-     "title": "Mortgage Rates Today, September 15, 2026: 30-Year Rates Climb to 7%, Highest Point in Over a Year",
+     "title": "Mortgage Rates Today, September 15, 2026: 30-Year Rates Climb to 7%—Highest Point in Over a Year",
      "url": "https://www.wsj.com/buyside/personal-finance/mortgage/mortgage-rates-today-9-15-2026",
      "link": "https://www.wsj.com/buyside/personal-finance/mortgage/mortgage-rates-today-9-15-2026",
      "published_cst": "2026-09-15T13:22:00+08:00",
@@ -8378,12 +8418,11 @@
     },
     {
      "title": "For the Love of God, Please Put on Headphones",
-     "url": "https://www.wsj.com/tech/personal-tech/speakerphone-in-public-spaces-08a6a16d",
-     "link": "https://www.wsj.com/tech/personal-tech/speakerphone-in-public-spaces-08a6a16d",
+     "url": "https://www.wsj.com/lifestyle/speakerphone-in-public-spaces-08a6a16d",
+     "link": "https://www.wsj.com/lifestyle/speakerphone-in-public-spaces-08a6a16d",
      "published_cst": "2026-09-15T09:30:00+08:00",
      "time": "09-15 09:30",
-     "body": null,
-     "title_zh": "看在上帝的份上，请戴上耳机"
+     "body": null
     },
     {
      "title": "Bond Yields Could Come Down as Fast as They’ve Climbed",
@@ -8402,6 +8441,15 @@
      "time": "09-15 09:30",
      "body": null,
      "title_zh": "阿里·伊曼纽尔揭秘永远改变好莱坞的政变内幕"
+    },
+    {
+     "title": "For the Love of God, Please Put on Headphones",
+     "url": "https://www.wsj.com/tech/personal-tech/speakerphone-in-public-spaces-08a6a16d",
+     "link": "https://www.wsj.com/tech/personal-tech/speakerphone-in-public-spaces-08a6a16d",
+     "published_cst": "2026-09-15T09:30:00+08:00",
+     "time": "09-15 09:30",
+     "body": null,
+     "title_zh": "看在上帝的份上，请戴上耳机"
     },
     {
      "title": "Stocks to Watch Recap: UBS, Vera Bradley, Dave & Buster’s, Coinbase",

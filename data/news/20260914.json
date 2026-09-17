@@ -1,6 +1,6 @@
 {
  "date": "20260914",
- "generated_at": "2026-09-16T13:54:37.549463+08:00",
+ "generated_at": "2026-09-17T08:16:03.557565+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -1921,7 +1921,7 @@
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 231,
+   "count": 232,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -2055,29 +2055,6 @@
      "summary_zh": "英国油气行业游说组织称，若将新财政制度提前至明年实施，未来十年可多征150亿英镑税收，其中24亿来自油气行业，126亿来自薪资税。"
     },
     {
-     "title": "Yuan Popularity Boost Likely Focus of Hong Kong's Five-Year Plan",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-14/yuan-popularity-boost-likely-focus-of-hong-kong-s-five-year-plan",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-14/yuan-popularity-boost-likely-focus-of-hong-kong-s-five-year-plan",
-     "published_cst": "2026-09-14T23:00:00+08:00",
-     "time": "09-14 23:00",
-     "body": [
-      "Measures to promote wider offshore use of the yuan are likely to feature prominently in Hong Kong’s inaugural five-year plan, along with new financial products including commodities futures, according to analysts.",
-      "Such expectations have gained traction after Chief Executive John Lee said earlier this month that the city intends to expand offshore yuan investment and risk management products, as well as broaden market access to the stock, bond and wealth management links to mainland China. Lee will unveil the economic development blueprint on Wednesday.",
-      "Hong Kong’s 2026-2030 masterplan, which is intended to align with China’s own five-year plan, comes as the Asian financial hub recovers from a post-pandemic economic slump and seeks new initiatives to transform its growth model. Cementing its status as the offshore yuan financing hub is essential to Beijing’s long-term vision of a powerful currency that is more compatible with its economic clout.",
-      "“Liquidity is not an issue anymore,” said Raymond Yeung, chief economist for Greater China at Australia & New Zealand Banking Group Ltd. “We’ve got a lot of deposits in the banking sector and there’s got to be some development in terms of different types of products so that they can use the currency and allocate to some yield-generating assets denominated in yuan.”",
-      "Offshore yuan deposits in Hong Kong rose to a record 1.13 trillion yuan ($168 billion) at the end of May, before retreating slightly in the following two months, according to latest Hong Kong Monetary Authority data. The surge in cash supply has also been driving an unprecedented initial public offering boom in the city.",
-      "One area of breakthrough may be offshore yuan-denominated debt known as dim sum bonds, where “the next step that they really need to try to do” is to encourage issuance by more foreign governments and companies, Yeung said. “Yuan can also be an alternative to the US dollar and Hong Kong can play a role or explore whether this is feasible.”",
-      "Dim sum bond sales have reached 863 billion yuan so far this year, the most ever for the period, according to data compiled by Bloomberg. The issuance bonanza has partly benefited from offshore yuan interest rates that are hovering around record lows.",
-      "Further expanding that bond market will be part of Hong Kong’s focus as it is important for the development of an offshore yuan yield curve, said Kelvin Lam, senior China economist at Pantheon Macroeconomics. “Without a benchmark, you won’t be able to see how yuan will be priced and normally it will be of much higher costs,” he said.",
-      "Elsewhere, Hong Kong is poised to develop a local commodity trading ecosystem, with the launch of more offshore yuan-denominated products to support the yuan’s global use, Bloomberg Intelligence analyst Michelle Leung wrote in a note.",
-      "“Beyond the planned gold futures, offshore yuan-settled futures are expected to expand to silver and base metals traded on the London Metal Exchange,” Leung wrote.",
-      "Hong Kong began in July the trial operation of a new gold clearing system, backed by several major banks, in a key step toward its ambition to become a significant bullion-trading hub with price-setting power.",
-      "“Through building links between the LME and Qianhai Mercantile Exchange — both owned by HKEX — Hong Kong could help build a strategic bridge between global benchmark pricing and onshore commodity markets,” Leung added."
-     ],
-     "title_zh": "人民币受欢迎程度提升或成香港五年规划重点",
-     "summary_zh": "香港首份五年计划将推动人民币国际化，扩大离岸人民币投资产品，5月存款达1.13万亿元，点心债发行创新高。"
-    },
-    {
      "title": "Samsung Faces Local Hedge Fund's Push to Cancel Preferred Shares",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-faces-local-hedge-fund-s-push-to-cancel-preferred-shares",
      "link": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-faces-local-hedge-fund-s-push-to-cancel-preferred-shares",
@@ -2123,6 +2100,29 @@
      "summary_zh": "亚洲高收益债今年回报4.3%，超美债1.8%，中国低借贷成本与经济增长降低违约。"
     },
     {
+     "title": "Yuan Popularity Boost Likely Focus of Hong Kong's Five-Year Plan",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/yuan-popularity-boost-likely-focus-of-hong-kong-s-five-year-plan",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-14/yuan-popularity-boost-likely-focus-of-hong-kong-s-five-year-plan",
+     "published_cst": "2026-09-14T23:00:00+08:00",
+     "time": "09-14 23:00",
+     "body": [
+      "Measures to promote wider offshore use of the yuan are likely to feature prominently in Hong Kong’s inaugural five-year plan, along with new financial products including commodities futures, according to analysts.",
+      "Such expectations have gained traction after Chief Executive John Lee said earlier this month that the city intends to expand offshore yuan investment and risk management products, as well as broaden market access to the stock, bond and wealth management links to mainland China. Lee will unveil the economic development blueprint on Wednesday.",
+      "Hong Kong’s 2026-2030 masterplan, which is intended to align with China’s own five-year plan, comes as the Asian financial hub recovers from a post-pandemic economic slump and seeks new initiatives to transform its growth model. Cementing its status as the offshore yuan financing hub is essential to Beijing’s long-term vision of a powerful currency that is more compatible with its economic clout.",
+      "“Liquidity is not an issue anymore,” said Raymond Yeung, chief economist for Greater China at Australia & New Zealand Banking Group Ltd. “We’ve got a lot of deposits in the banking sector and there’s got to be some development in terms of different types of products so that they can use the currency and allocate to some yield-generating assets denominated in yuan.”",
+      "Offshore yuan deposits in Hong Kong rose to a record 1.13 trillion yuan ($168 billion) at the end of May, before retreating slightly in the following two months, according to latest Hong Kong Monetary Authority data. The surge in cash supply has also been driving an unprecedented initial public offering boom in the city.",
+      "One area of breakthrough may be offshore yuan-denominated debt known as dim sum bonds, where “the next step that they really need to try to do” is to encourage issuance by more foreign governments and companies, Yeung said. “Yuan can also be an alternative to the US dollar and Hong Kong can play a role or explore whether this is feasible.”",
+      "Dim sum bond sales have reached 863 billion yuan so far this year, the most ever for the period, according to data compiled by Bloomberg. The issuance bonanza has partly benefited from offshore yuan interest rates that are hovering around record lows.",
+      "Further expanding that bond market will be part of Hong Kong’s focus as it is important for the development of an offshore yuan yield curve, said Kelvin Lam, senior China economist at Pantheon Macroeconomics. “Without a benchmark, you won’t be able to see how yuan will be priced and normally it will be of much higher costs,” he said.",
+      "Elsewhere, Hong Kong is poised to develop a local commodity trading ecosystem, with the launch of more offshore yuan-denominated products to support the yuan’s global use, Bloomberg Intelligence analyst Michelle Leung wrote in a note.",
+      "“Beyond the planned gold futures, offshore yuan-settled futures are expected to expand to silver and base metals traded on the London Metal Exchange,” Leung wrote.",
+      "Hong Kong began in July the trial operation of a new gold clearing system, backed by several major banks, in a key step toward its ambition to become a significant bullion-trading hub with price-setting power.",
+      "“Through building links between the LME and Qianhai Mercantile Exchange — both owned by HKEX — Hong Kong could help build a strategic bridge between global benchmark pricing and onshore commodity markets,” Leung added."
+     ],
+     "title_zh": "人民币受欢迎程度提升或成香港五年规划重点",
+     "summary_zh": "香港首份五年计划将推动人民币国际化，扩大离岸人民币投资产品，5月存款达1.13万亿元，点心债发行创新高。"
+    },
+    {
      "title": "DOJ Says Millions in Iran Oil Proceeds Laundered on Binance",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/doj-says-millions-in-iranian-oil-proceeds-laundered-on-binance",
      "link": "https://www.bloomberg.com/news/articles/2026-09-14/doj-says-millions-in-iranian-oil-proceeds-laundered-on-binance",
@@ -2163,31 +2163,6 @@
      "summary_zh": "美内政部长称燃油出口禁令无法压低油价，柴油零售价已超每加仑6美元。"
     },
     {
-     "title": "US 10-Year Breaches 5% Yield Mark: Evening Briefing Americas",
-     "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/us-10-year-breaches-5-yield-mark-evening-briefing-americas",
-     "link": "https://www.bloomberg.com/news/newsletters/2026-09-14/us-10-year-breaches-5-yield-mark-evening-briefing-americas",
-     "published_cst": "2026-09-14T22:19:49+08:00",
-     "time": "09-14 22:19",
-     "body": [
-      "It was a bit of a bad-news Monday for the US economy as 10-year Treasury yields surpassed 5% for the first time since 2023, worsening the collision between rising inflation and swelling government and corporate borrowing.",
-      "The yield, a benchmark for US mortgage loans and bonds globally, rose almost 5 basis points to as high as 5.01% before paring most of those gains. Bond prices fell globally, with UK and German debt sliding as Brent crude — responding to threats to another critical Middle East waterway — approached $110 a barrel. The rise in energy prices shows little sign of easing amid the stalemated US-Israel war with Iran, continued obstruction of the Strait of Hormuz and now Houthi rebels moving toward the Bab al-Mandeb Strait.",
-      "In the US, the rise in the 10-year yield threatens to slow economic growth and weigh on equities that have been trading at lofty valuations. This looming threat has prompted Treasury Secretary Scott Bessent to boost government bond buybacks, encourage Japan to curb Treasury sales and open the door to potentially cutting long-maturity debt issuance.",
-      "But none of Bessent’s unorthodox measures have had their intended effect. Less than two months before the US midterm elections, the 10-year yield is now roughly a full percentage point above its level before the start of the Iran war.",
-      "After a weekend in which artificial intelligence experts, and later CEOs of some of the biggest AI companies, warned of a not-infinitesimal chance that unrestrained development of the technology could be very bad, Donald Trump weighed in.",
-      "In social media posts sprinkled with occasional all-caps words for emphasis, the 80-year-old president blamed a “SICK conspiracy” for voter backlash on AI data centers and increased concern about AI models. “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT.” In another post, Trump said the idea that AI would destroy humanity is a “HOAX.” Both Nvidia CEO Jensen Huang and House Speaker Mike Johnson had thoughts on the matter as well.",
-      "Trump has claimed that climate change is a hoax, too. On Monday, his administration rescinded climate controls on coal and gas-fired power plants in one of its most aggressive moves so far to unwind US environmental regulations.",
-      "The greenhouse gases produced by the burning of fossil fuels are the prime cause of global warming — and the climate change that results. If America’s power sector were a country, it would rank as the world’s sixth-largest emitter, according to an analysis of 2022 emissions data by New York University School of Law’s Institute for Policy Integrity.",
-      "Long sought by power industry special interests, the Trump administration decision announced Monday will effectively end the federal effort to regulate the largest industrial sources of greenhouse gases in the US.",
-      "Bank of America Chief Executive Officer Brian Moynihan said trading revenue will be “relatively flat” compared with last year’s third quarter, an unexpected break from the surge that Wall Street saw in the first half.",
-      "Investors didn’t take the news well, with the bank’s stock plummeting as much as 6% Monday after Moynihan’s comments, the biggest intraday drop since April of last year. Its shares closed down 5.1%, the worst performer among members of the KBW Bank Index.",
-      "Bloomberg News Now: Listen here for a comprehensive audio report on the latest news, updated throughout the day, in just a few minutes.",
-      "Enjoying Evening Briefing Americas? Get more news and analysis with our regional editions for Asia and Europe. Check out these newsletters, too:",
-      "Explore all newsletters at Bloomberg.com."
-     ],
-     "title_zh": "美国10年期国债收益率突破5%关口：美洲晚间简报",
-     "summary_zh": "10年期美债收益率突破5%，创2023年以来新高，加剧通胀与债务压力。特朗普称AI毁灭人类是骗局，并撤销煤电气候管制。"
-    },
-    {
      "title": "Stocks Fall in Run-Up to Fed as Yields Stay High: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap",
      "link": "https://www.bloomberg.com/news/articles/2026-09-14/asian-stocks-to-fall-on-ai-key-us-yield-tops-5-markets-wrap",
@@ -2216,6 +2191,31 @@
      ],
      "title_zh": "亚洲股市因人工智能困境小幅走低，油价上涨：市场综述",
      "summary_zh": "油价涨近1.3%至每桶107美元，美债收益率破5%，黄金跌至4285美元，市场押注美联储加息概率95%。"
+    },
+    {
+     "title": "US 10-Year Breaches 5% Yield Mark: Evening Briefing Americas",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-14/us-10-year-breaches-5-yield-mark-evening-briefing-americas",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-14/us-10-year-breaches-5-yield-mark-evening-briefing-americas",
+     "published_cst": "2026-09-14T22:19:49+08:00",
+     "time": "09-14 22:19",
+     "body": [
+      "It was a bit of a bad-news Monday for the US economy as 10-year Treasury yields surpassed 5% for the first time since 2023, worsening the collision between rising inflation and swelling government and corporate borrowing.",
+      "The yield, a benchmark for US mortgage loans and bonds globally, rose almost 5 basis points to as high as 5.01% before paring most of those gains. Bond prices fell globally, with UK and German debt sliding as Brent crude — responding to threats to another critical Middle East waterway — approached $110 a barrel. The rise in energy prices shows little sign of easing amid the stalemated US-Israel war with Iran, continued obstruction of the Strait of Hormuz and now Houthi rebels moving toward the Bab al-Mandeb Strait.",
+      "In the US, the rise in the 10-year yield threatens to slow economic growth and weigh on equities that have been trading at lofty valuations. This looming threat has prompted Treasury Secretary Scott Bessent to boost government bond buybacks, encourage Japan to curb Treasury sales and open the door to potentially cutting long-maturity debt issuance.",
+      "But none of Bessent’s unorthodox measures have had their intended effect. Less than two months before the US midterm elections, the 10-year yield is now roughly a full percentage point above its level before the start of the Iran war.",
+      "After a weekend in which artificial intelligence experts, and later CEOs of some of the biggest AI companies, warned of a not-infinitesimal chance that unrestrained development of the technology could be very bad, Donald Trump weighed in.",
+      "In social media posts sprinkled with occasional all-caps words for emphasis, the 80-year-old president blamed a “SICK conspiracy” for voter backlash on AI data centers and increased concern about AI models. “The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT.” In another post, Trump said the idea that AI would destroy humanity is a “HOAX.” Both Nvidia CEO Jensen Huang and House Speaker Mike Johnson had thoughts on the matter as well.",
+      "Trump has claimed that climate change is a hoax, too. On Monday, his administration rescinded climate controls on coal and gas-fired power plants in one of its most aggressive moves so far to unwind US environmental regulations.",
+      "The greenhouse gases produced by the burning of fossil fuels are the prime cause of global warming — and the climate change that results. If America’s power sector were a country, it would rank as the world’s sixth-largest emitter, according to an analysis of 2022 emissions data by New York University School of Law’s Institute for Policy Integrity.",
+      "Long sought by power industry special interests, the Trump administration decision announced Monday will effectively end the federal effort to regulate the largest industrial sources of greenhouse gases in the US.",
+      "Bank of America Chief Executive Officer Brian Moynihan said trading revenue will be “relatively flat” compared with last year’s third quarter, an unexpected break from the surge that Wall Street saw in the first half.",
+      "Investors didn’t take the news well, with the bank’s stock plummeting as much as 6% Monday after Moynihan’s comments, the biggest intraday drop since April of last year. Its shares closed down 5.1%, the worst performer among members of the KBW Bank Index.",
+      "Bloomberg News Now: Listen here for a comprehensive audio report on the latest news, updated throughout the day, in just a few minutes.",
+      "Enjoying Evening Briefing Americas? Get more news and analysis with our regional editions for Asia and Europe. Check out these newsletters, too:",
+      "Explore all newsletters at Bloomberg.com."
+     ],
+     "title_zh": "美国10年期国债收益率突破5%关口：美洲晚间简报",
+     "summary_zh": "10年期美债收益率突破5%，创2023年以来新高，加剧通胀与债务压力。特朗普称AI毁灭人类是骗局，并撤销煤电气候管制。"
     },
     {
      "title": "Latest Oil Market News and Analysis for Sept. 15",
@@ -6388,6 +6388,14 @@
      ],
      "title_zh": "Hugo Boss董事长斯特姆在Frasers压力下将卸任",
      "summary_zh": "雨果博斯董事长斯特姆10月15日辞职，最大股东Frasers集团在收购未达多数股权后寻求扩大董事会影响力。"
+    },
+    {
+     "title": "Australia's Ailing Whyalla Steelworks to Shut Furnace",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/australia-s-ailing-whyalla-steelworks-to-shut-furnace-cut-jobs",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-14/australia-s-ailing-whyalla-steelworks-to-shut-furnace-cut-jobs",
+     "published_cst": "2026-09-14T07:20:20+08:00",
+     "time": "09-14 07:20",
+     "body": null
     },
     {
      "title": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",

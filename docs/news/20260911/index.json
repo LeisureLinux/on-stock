@@ -1,13 +1,13 @@
 {
  "date": "20260911",
- "generated_at": "2026-09-16T13:54:37.577603+08:00",
+ "generated_at": "2026-09-17T08:16:03.580338+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 1,
+   "count": 2,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -17,6 +17,14 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-11/jd-com-unit-agrees-to-pay-sec-500-000-over-sham-transactions",
      "published_cst": "2026-09-11T22:37:09+08:00",
      "time": "09-11 22:37",
+     "body": null
+    },
+    {
+     "title": "Andrew Garfield's New Movie 'The Uprising' Speaks to Current UK Politics",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-11/andrew-garfield-s-new-movie-the-uprising-speaks-to-current-uk-politics",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-11/andrew-garfield-s-new-movie-the-uprising-speaks-to-current-uk-politics",
+     "published_cst": "2026-09-11T09:00:06+08:00",
+     "time": "09-11 09:00",
      "body": null
     }
    ]
