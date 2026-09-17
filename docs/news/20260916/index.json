@@ -1,18 +1,18 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T18:13:10.644522+08:00",
+ "generated_at": "2026-09-17T22:32:58.585089+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 243,
+   "count": 244,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
     {
-     "title": "Gold Rises as US Treasuries Pare Losses Following Fed Rate Hike",
+     "title": "Gold Surges Along With US Treasuries as Oil Price Slide Deepens",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/gold-holds-decline-after-fed-tilts-hawkish-and-raises-rates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/gold-holds-decline-after-fed-tilts-hawkish-and-raises-rates",
      "published_cst": "2026-09-16T23:54:12+08:00",
@@ -504,6 +504,26 @@
      "summary_zh": "美国会通过法案，授权特朗普对购买俄罗斯石油的国家加征关税，众议院以262比159票通过。"
     },
     {
+     "title": "Petrobras Expands African Oil Hunt With Ivory Coast Blocks",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/petrobras-expands-hunt-for-african-oil-with-ivory-coast-blocks",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/petrobras-expands-hunt-for-african-oil-with-ivory-coast-blocks",
+     "published_cst": "2026-09-16T22:19:04+08:00",
+     "time": "09-16 22:19",
+     "body": [
+      "Brazil’s state-controlled oil company Petrobras SA signed production-sharing contracts for eight exploratory offshore blocks in Ivory Coast, its latest move to expand its footprint in Africa.",
+      "Chief Executive Officer Magda Chambriard had flagged the deal at an event on Wednesday, saying the ultra-deepwater blocks would help expand Petrobras’s exploration portfolio as the company seeks to replenish reserves ahead of an expected production peak around 2035.",
+      "“There is no future for an oil company without exploration,” she said during a lecture in Rio de Janeiro.",
+      "Petrobras will hold a 90% operating stake in the blocks, while PETROCI Holding, Ivory Coast’s state oil company, will keep the remaining 10%, according to a Thursday filing. The agreement will give Petrobras a stake in exploration areas with significant potential along Africa’s equatorial margin, the company said in the filing.",
+      "Latin America’s biggest oil producer has increasingly looked beyond Brazil’s prolific pre-salt fields for new exploration opportunities, targeting overseas areas where it can apply decades of expertise in deepwater drilling and production.",
+      "Petrobras will need to add about 9 billion barrels of oil equivalent to its reserves through 2050 to maintain current production levels as output from the pre-salt is expected to peak around the middle of the next decade, Chambriard said.",
+      "Read More: TotalEnergies Expands Energy Hunt in Africa Drilling Hotspot",
+      "In August Ghana’s Ministry of Energy and Green Transition approved Petrobras’s application to negotiate exploration contracts for four blocks.",
+      "Petrobras had already partnered with TotalEnergies SE to acquire a 42.5% stake in an offshore block in Namibia - where Chambriard said the acquisitions were “not enough” - and joined the Deep Western Orange Basin project in South Africa. It has also acquired minority stakes in three of Shell PLC’s blocks in Sao Tome and Principe."
+     ],
+     "title_zh": "巴西石油公司扩大非洲石油勘探 获科特迪瓦区块",
+     "summary_zh": "巴西国家石油公司与科特迪瓦签署8个海上勘探区块产量分成合同，持股90%，以扩充非洲勘探版图。"
+    },
+    {
      "title": "Apple's Cook, OpenAI CEO to Attend Trump Dinner With Xi",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-s-altman-to-attend-trump-dinner-with-chinese-president",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/openai-s-altman-to-attend-trump-dinner-with-chinese-president",
@@ -524,7 +544,7 @@
      "summary_zh": "苹果库克与OpenAI奥尔特曼将出席特朗普为习近平设的白宫国宴，英伟达黄仁勋等商界领袖亦在列。"
     },
     {
-     "title": "Generac Shares Jump on $8 Billion Amazon Data Center Supply Pact",
+     "title": "Generac Shares Jump on $8 Billion Amazon Data Center Pact",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/generac-shares-jump-on-8-billion-amazon-data-center-supply-pact",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/generac-shares-jump-on-8-billion-amazon-data-center-supply-pact",
      "published_cst": "2026-09-16T22:08:29+08:00",
@@ -540,7 +560,7 @@
      "summary_zh": "Generac与亚马逊达成最高80亿美元发电机供应协议并授予亚马逊子公司2.6%认股权证，Generac股价盘后一度大涨45%。"
     },
     {
-     "title": "Stocks Rally and Treasuries Rise as Oil Retreats: Markets Wrap",
+     "title": "Stocks, Bonds Rise After Fed-Day Drop as Oil Falls: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-16T22:06:59+08:00",
@@ -569,7 +589,7 @@
      "summary_zh": "美联储加息25个基点至3.75%-4%，沃什抗通胀表态安抚市场，美债收益率回落，油价续跌。"
     },
     {
-     "title": "Oil Holds Drop as Saudi Arabia Moves to Restore Vital Pipeline",
+     "title": "Oil Extends Drop as Saudi Arabia Moves to Restore Vital Pipeline",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
      "published_cst": "2026-09-16T22:05:54+08:00",
@@ -1007,7 +1027,7 @@
      "summary_zh": "美联储9月点阵图显示18位官员预测利率，主席沃什再次拒绝提交自己的预测，并称点阵图未来正接受审查。"
     },
     {
-     "title": "Tankmaker KNDS Said to Consider Delaying Initial Public Offering",
+     "title": "Tankmaker KNDS Considers Delaying Initial Public Offering",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/tankmaker-knds-said-to-consider-delaying-initial-public-offering",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/tankmaker-knds-said-to-consider-delaying-initial-public-offering",
      "published_cst": "2026-09-16T19:28:06+08:00",
@@ -1027,7 +1047,7 @@
      "summary_zh": "法德坦克制造商KNDS可能推迟今年IPO，因防务股表现疲软，其股东将先向德国政府出售至多40%股份。"
     },
     {
-     "title": "Boeing Lays Out Challenging Months With Delays and Slow Output",
+     "title": "Boeing Lays Out Challenging Months of Delays and Slow Output",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/boeing-sees-testing-on-777x-spilling-into-2027-on-engine-issue",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/boeing-sees-testing-on-777x-spilling-into-2027-on-engine-issue",
      "published_cst": "2026-09-16T19:06:26+08:00",
@@ -4123,7 +4143,7 @@
      "summary_zh": "科索沃前总统塔奇被海牙特别法庭判战争罪成立，获刑25年，其三名同案被告分别被判25年、18年和13年。"
     },
     {
-     "title": "Indian and Pakistani Warships Collide at Sea, Refueling Tensions",
+     "title": "Indian and Pakistani Warships Collide, Refueling Tensions",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/india-pakistan-warships-collide-at-sea-adding-to-tensions",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/india-pakistan-warships-collide-at-sea-adding-to-tensions",
      "published_cst": "2026-09-16T09:37:48+08:00",
@@ -7464,7 +7484,7 @@
      "title_zh": "美国亿万富翁纷纷出资支持共和党竞选"
     },
     {
-     "title": "Top hats, tails and T-shirts: the new rules of tailoring",
+     "title": "Top hats, trench coats and T-shirts: the new rules of tailoring",
      "url": "https://www.ft.com/content/d760e96f-ece2-4c53-b15e-100654e2bf42",
      "link": "https://www.ft.com/content/d760e96f-ece2-4c53-b15e-100654e2bf42",
      "published_cst": "2026-09-16T04:00:05+08:00",

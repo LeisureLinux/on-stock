@@ -1,6 +1,6 @@
 {
  "date": "20260915",
- "generated_at": "2026-09-17T18:12:53.430275+08:00",
+ "generated_at": "2026-09-17T22:28:00.866705+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -2972,6 +2972,29 @@
      "summary_zh": "改革英国党或就工党追溯限制海外政治捐款提起人权诉讼，此前该党刚接受两笔共7200万英镑捐款。"
     },
     {
+     "title": "US Stocks Fall as 10-Year Yield Hits Highest Level Since 2007",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/us-stock-futures-drop-as-10-year-treasury-yield-passes-5",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/us-stock-futures-drop-as-10-year-treasury-yield-passes-5",
+     "published_cst": "2026-09-15T12:00:15+08:00",
+     "time": "09-15 12:00",
+     "body": [
+      "US stocks fell on Tuesday after the benchmark Treasury yield touched the highest level since 2007 ahead of a Federal Reserve interest-rate decision on Wednesday, when traders expect an increase.",
+      "The S&P 500 Index closed 0.4% lower and the Nasdaq 100 Index dropped 0.6%. The US 10-year yield rose four basis points to 5.03%, a rate not seen in 19 years, before retreating to 5.01%.",
+      "“Stocks now face real competition from risk-free assets,” Mark Malek, chief investment officer of Muriel Siebert & Co., wrote in a note. “After years when cash yielded almost nothing, investors can earn roughly 5% without taking equity risk, forcing stocks to justify their valuations with a larger prospective return.”",
+      "Oil moves also weighed on the stock market. Brent crude rose above $108 per barrel, climbing as equity declines accelerated in the late morning and held steady throughout the session.",
+      "Elevated borrowing costs have already put downward pressure on stock valuations, UBS Group AG analysts led by David Lefkowitz wrote in a note to clients.",
+      "“For long-term yields to rise materially from here and put further pressure on equity valuations, investors would likely have to price in an even more aggressive path for monetary policy,” they wrote.",
+      "Equities have continued to generate strong returns despite higher yields because their impacts have been offset by robust earnings growth, Barclays Plc analysts led by Stefano Pascale wrote in a note.",
+      "But “that balancing act may become more difficult if yields continue to rise,” they wrote.",
+      "While it makes sense to focus on the Fed, “the biggest medium-term risk to the equity outlook remains the trajectory of AI infrastructure investment,” especially since higher interest rates can increase the cost of capital, the UBS analysts wrote.",
+      "Enthusiasm around risk assets is fading as investors worry about a chaotic rise in bond yields and the results of US midterm elections, according to a survey from Bank of America Corp., which found that a net 49% of fund managers are overweight global equities compared with 56% last month.",
+      "Nvidia Corp. was among the top Magnificent 7 performers on the day after Jensen Huang, the chipmaker’s chief executive officer, took a live phone call from Donald Trump during a panel discussion Monday, allowing the US president to dismiss artificial intelligence dangers as a “hoax.”",
+      "JPMorgan Chase & Co. shares gained 0.7%, erasing earlier declines, after the bank’s Co-President Doug Petno said at a Barclays conference that he expects third-quarter investment banking fees and markets revenue to be up by mid-to-high teens."
+     ],
+     "title_zh": "美股下跌，10年期美债收益率创2007年以来新高",
+     "summary_zh": "美债收益率触及5.03%的19年高点，美股周二收跌，标普500跌0.4%，纳指100跌0.6%。"
+    },
+    {
      "title": "Brightshore Capital Launches $250 Million Property Platform",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/brightshore-capital-launches-250-million-property-debt-platform",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/brightshore-capital-launches-250-million-property-debt-platform",
@@ -2994,29 +3017,6 @@
      ],
      "title_zh": "Brightshore资本推出2.5亿美元房地产平台",
      "summary_zh": "Brightshore Capital推出2.5亿美元房地产债务平台，可支持超10亿美元交易，应对建筑商融资压力。"
-    },
-    {
-     "title": "US Stocks Fall as 10-Year Yield Hits Highest Level Since 2007",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-15/us-stock-futures-drop-as-10-year-treasury-yield-passes-5",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-15/us-stock-futures-drop-as-10-year-treasury-yield-passes-5",
-     "published_cst": "2026-09-15T12:00:15+08:00",
-     "time": "09-15 12:00",
-     "body": [
-      "US stocks fell on Tuesday after the benchmark Treasury yield touched the highest level since 2007 ahead of a Federal Reserve interest-rate decision on Wednesday, when traders expect an increase.",
-      "The S&P 500 Index closed 0.4% lower and the Nasdaq 100 Index dropped 0.6%. The US 10-year yield rose four basis points to 5.03%, a rate not seen in 19 years, before retreating to 5.01%.",
-      "“Stocks now face real competition from risk-free assets,” Mark Malek, chief investment officer of Muriel Siebert & Co., wrote in a note. “After years when cash yielded almost nothing, investors can earn roughly 5% without taking equity risk, forcing stocks to justify their valuations with a larger prospective return.”",
-      "Oil moves also weighed on the stock market. Brent crude rose above $108 per barrel, climbing as equity declines accelerated in the late morning and held steady throughout the session.",
-      "Elevated borrowing costs have already put downward pressure on stock valuations, UBS Group AG analysts led by David Lefkowitz wrote in a note to clients.",
-      "“For long-term yields to rise materially from here and put further pressure on equity valuations, investors would likely have to price in an even more aggressive path for monetary policy,” they wrote.",
-      "Equities have continued to generate strong returns despite higher yields because their impacts have been offset by robust earnings growth, Barclays Plc analysts led by Stefano Pascale wrote in a note.",
-      "But “that balancing act may become more difficult if yields continue to rise,” they wrote.",
-      "While it makes sense to focus on the Fed, “the biggest medium-term risk to the equity outlook remains the trajectory of AI infrastructure investment,” especially since higher interest rates can increase the cost of capital, the UBS analysts wrote.",
-      "Enthusiasm around risk assets is fading as investors worry about a chaotic rise in bond yields and the results of US midterm elections, according to a survey from Bank of America Corp., which found that a net 49% of fund managers are overweight global equities compared with 56% last month.",
-      "Nvidia Corp. was among the top Magnificent 7 performers on the day after Jensen Huang, the chipmaker’s chief executive officer, took a live phone call from Donald Trump during a panel discussion Monday, allowing the US president to dismiss artificial intelligence dangers as a “hoax.”",
-      "JPMorgan Chase & Co. shares gained 0.7%, erasing earlier declines, after the bank’s Co-President Doug Petno said at a Barclays conference that he expects third-quarter investment banking fees and markets revenue to be up by mid-to-high teens."
-     ],
-     "title_zh": "美股下跌，10年期美债收益率创2007年以来新高",
-     "summary_zh": "美债收益率触及5.03%的19年高点，美股周二收跌，标普500跌0.4%，纳指100跌0.6%。"
     },
     {
      "title": "The Debasement Trade Splits as Gold and Bitcoin Bets Diverge",
@@ -3398,29 +3398,6 @@
      "summary_zh": "Anthropic CEO呼吁放缓AI开发，引发科技股下跌，但推理需求正推动算力增长。"
     },
     {
-     "title": "Agility Robotics Unveils Humanoid Designed to Work Safely Alongside Humans",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-15/agility-robotics-unveils-humanoid-designed-to-work-safely-alongside-humans",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-15/agility-robotics-unveils-humanoid-designed-to-work-safely-alongside-humans",
-     "published_cst": "2026-09-15T11:00:17+08:00",
-     "time": "09-15 11:00",
-     "body": [
-      "Agility Robotics Inc. on Tuesday unveiled a new humanoid that is designed to safely work in close proximity to people, a milestone for an industry that typically separates robots from human workers.",
-      "The latest humanoid from the Salem, Oregon-based company, the Digit 5, is designed to conduct complex work such as loading materials onto equipment, sorting parts, sequencing and inspecting items. That’s a step up from Agility’s previous humanoid, the Digit 4, which was known for its ability to stack plastic bins.",
-      "The prior Digit models were required to operate behind physical safety barriers, limiting their ability to take on tasks from humans. The Digit 5 is  engineered to work near people without those barriers as part of a broader effort to deploy the company’s autonomous robots across more facilities.",
-      "“It’s a big deal, because what you’re looking at, probably for the first time, is a robot that has been built and designed around customer needs through operational deployments,” according to Daniel Diez, Agility’s chief business officer. “You cannot put 150 robots into a warehouse where every one of them has to be surrounded by a 10-by-20 plexiglass set of walls,” he said.",
-      "Read More:  Do Humanoid Robots Really Need Legs?",
-      "The robotics firm currently operates in nine customer facilities, including those of Schaeffler AG, GXO Logistics Inc. and Toyota Motor Manufacturing Canada Inc., and has logged more than 65,000 hours of operation. Agility said it has about $300 million in multiyear orders for Digit and plans to expand in Europe starting early next year.",
-      "Agility is going public this year via a merger with special purpose acquisition company Churchill Capital Corp XI in a deal that values the robotics company at $2.5 billion. The company generated about $1.8 million in revenue in 2025 while posting a $140 million operating loss.",
-      "Chinese robotics firm Unitree went public in August on Shanghai’s stock exchange. Agility is among a crop of humanoid companies that have attracted investors in recent years. The company has raised $500 million to date.",
-      "To improve safety, the Digit 5 uses artificial intelligence algorithms and new sensors to understand when it is nearby people and take action, such as stopping or sitting, if necessary, to avoid a collision. It also uses visual and auditory cues to send alerts to others when it’s about to move. A software-based safety control mechanism powers the robot’s response in real time, the company said.",
-      "Still, humanoids with legs like the new Digit are more unpredictable and a bigger safety risk when operating near humans compared with similar devices with wheels.",
-      "The Digit 5 features a new leg design engineered to better handle repetitive lifting and up carrying capacity from about 35 pounds to 50 pounds at a time. It also has a 90-minute battery that charges in nine minutes, the company said. It has a swappable hand gripper that can handle a paddle, pincher, claw or five-fingered artificial hand.",
-      "“Everyone is obsessed with seeing these robots in the home, and what’s needed is cooperative safety — the ability for the robot to work in close proximity with people,” Diez said. He added that the company firmly believes “that the path to getting to the home is through industry.”"
-     ],
-     "title_zh": "敏捷机器人公司发布可与人类安全共事的人形机器人",
-     "summary_zh": "Agility Robotics发布Digit 5人形机器人，可在无安全围栏下与人近距离安全工作，已获约3亿美元订单，估值25亿美元。"
-    },
-    {
      "title": "Corteva CEO Makes a Case for Crop Chemicals in the Age of MAHA",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/corteva-ceo-makes-a-case-for-crop-chemicals-in-the-age-of-maha",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/corteva-ceo-makes-a-case-for-crop-chemicals-in-the-age-of-maha",
@@ -3467,6 +3444,48 @@
      ],
      "title_zh": "科迪华CEO为MAHA时代的作物化学品辩护",
      "summary_zh": "Corteva首席执行官Kissam正推动农化业务独立，应对仿制药竞争，超30%农户拟转向仿制植保产品。"
+    },
+    {
+     "title": "JD Sports Names North America CEO, Chief Marketing Officer",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/jd-sports-names-new-north-america-ceo-chief-marketing-officer",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/jd-sports-names-new-north-america-ceo-chief-marketing-officer",
+     "published_cst": "2026-09-15T11:00:00+08:00",
+     "time": "09-15 11:00",
+     "body": [
+      "JD Sports Fashion Plc named new executives for marketing and North America as the sports retailer looks to reverse soft sales and an extended slump in the stock market.",
+      "The owner of the Hibbett and DLTR chains named John Mersho as chief executive officer for North America, effective immediately. Mersho, whose family founded Shoe Palace in 1993, was chief commercial officer for JD Sports North America since 2025. He replaces John Hall, who is retiring.",
+      "Mersho will look to improve the company’s product lineup as well as its e-commerce capabilities, according to a statement. He’ll also aim to boost customer awareness.",
+      "JD Sports also named company veteran Mike Grimes as chief marketing officer of the global business. He previously held the same role for North America.",
+      "The shares fell less than 1% in London trading on Tuesday.",
+      "JD Sports is looking to bounce back as weaker-than-expected sneaker sales led to a guidance reduction for the full year, and the stock has declined close to 70% from their peak in 2021. The retailer recently named former Ikea Group Chief Executive Officer Peter Agnefjäll as chair to oversee turnaround efforts.",
+      "North America is JD Sports’ largest region, accounting for 38% of sales in the latest fiscal year. This was followed by Europe, which generated 34% of revenue in the same period, and the UK, which was nearly 25%.",
+      "Late last month, JD Sports competitor Dick’s Sporting Goods fell the most on record after reporting struggles at Foot Locker, citing a rise in promotions. The company said legacy sneaker styles aren’t resonating like they once did, without naming specific brands."
+     ],
+     "title_zh": "JD Sports任命北美CEO和首席营销官",
+     "summary_zh": "JD Sports任命John Mersho为北美CEO、Mike Grimes为全球CMO，以扭转销售疲软和股价较2021年峰值跌近70%的颓势。"
+    },
+    {
+     "title": "Agility Robotics Unveils Humanoid Designed to Work Safely Alongside Humans",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/agility-robotics-unveils-humanoid-designed-to-work-safely-alongside-humans",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/agility-robotics-unveils-humanoid-designed-to-work-safely-alongside-humans",
+     "published_cst": "2026-09-15T11:00:17+08:00",
+     "time": "09-15 11:00",
+     "body": [
+      "Agility Robotics Inc. on Tuesday unveiled a new humanoid that is designed to safely work in close proximity to people, a milestone for an industry that typically separates robots from human workers.",
+      "The latest humanoid from the Salem, Oregon-based company, the Digit 5, is designed to conduct complex work such as loading materials onto equipment, sorting parts, sequencing and inspecting items. That’s a step up from Agility’s previous humanoid, the Digit 4, which was known for its ability to stack plastic bins.",
+      "The prior Digit models were required to operate behind physical safety barriers, limiting their ability to take on tasks from humans. The Digit 5 is  engineered to work near people without those barriers as part of a broader effort to deploy the company’s autonomous robots across more facilities.",
+      "“It’s a big deal, because what you’re looking at, probably for the first time, is a robot that has been built and designed around customer needs through operational deployments,” according to Daniel Diez, Agility’s chief business officer. “You cannot put 150 robots into a warehouse where every one of them has to be surrounded by a 10-by-20 plexiglass set of walls,” he said.",
+      "Read More:  Do Humanoid Robots Really Need Legs?",
+      "The robotics firm currently operates in nine customer facilities, including those of Schaeffler AG, GXO Logistics Inc. and Toyota Motor Manufacturing Canada Inc., and has logged more than 65,000 hours of operation. Agility said it has about $300 million in multiyear orders for Digit and plans to expand in Europe starting early next year.",
+      "Agility is going public this year via a merger with special purpose acquisition company Churchill Capital Corp XI in a deal that values the robotics company at $2.5 billion. The company generated about $1.8 million in revenue in 2025 while posting a $140 million operating loss.",
+      "Chinese robotics firm Unitree went public in August on Shanghai’s stock exchange. Agility is among a crop of humanoid companies that have attracted investors in recent years. The company has raised $500 million to date.",
+      "To improve safety, the Digit 5 uses artificial intelligence algorithms and new sensors to understand when it is nearby people and take action, such as stopping or sitting, if necessary, to avoid a collision. It also uses visual and auditory cues to send alerts to others when it’s about to move. A software-based safety control mechanism powers the robot’s response in real time, the company said.",
+      "Still, humanoids with legs like the new Digit are more unpredictable and a bigger safety risk when operating near humans compared with similar devices with wheels.",
+      "The Digit 5 features a new leg design engineered to better handle repetitive lifting and up carrying capacity from about 35 pounds to 50 pounds at a time. It also has a 90-minute battery that charges in nine minutes, the company said. It has a swappable hand gripper that can handle a paddle, pincher, claw or five-fingered artificial hand.",
+      "“Everyone is obsessed with seeing these robots in the home, and what’s needed is cooperative safety — the ability for the robot to work in close proximity with people,” Diez said. He added that the company firmly believes “that the path to getting to the home is through industry.”"
+     ],
+     "title_zh": "敏捷机器人公司发布可与人类安全共事的人形机器人",
+     "summary_zh": "Agility Robotics发布Digit 5人形机器人，可在无安全围栏下与人近距离安全工作，已获约3亿美元订单，估值25亿美元。"
     },
     {
      "title": "AI Is Quietly Reversing Political Polarization. But It Comes at a Cost",
@@ -3550,25 +3569,6 @@
      ],
      "title_zh": "中国陷经济慢车道 依赖人工智能驱动的出口繁荣",
      "summary_zh": "中国楼市拖累内需，但AI出口热支撑增长目标；若AI行业放缓将严重冲击中国出口。"
-    },
-    {
-     "title": "JD Sports Names North America CEO, Chief Marketing Officer",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-15/jd-sports-names-new-north-america-ceo-chief-marketing-officer",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-15/jd-sports-names-new-north-america-ceo-chief-marketing-officer",
-     "published_cst": "2026-09-15T11:00:00+08:00",
-     "time": "09-15 11:00",
-     "body": [
-      "JD Sports Fashion Plc named new executives for marketing and North America as the sports retailer looks to reverse soft sales and an extended slump in the stock market.",
-      "The owner of the Hibbett and DLTR chains named John Mersho as chief executive officer for North America, effective immediately. Mersho, whose family founded Shoe Palace in 1993, was chief commercial officer for JD Sports North America since 2025. He replaces John Hall, who is retiring.",
-      "Mersho will look to improve the company’s product lineup as well as its e-commerce capabilities, according to a statement. He’ll also aim to boost customer awareness.",
-      "JD Sports also named company veteran Mike Grimes as chief marketing officer of the global business. He previously held the same role for North America.",
-      "The shares fell less than 1% in London trading on Tuesday.",
-      "JD Sports is looking to bounce back as weaker-than-expected sneaker sales led to a guidance reduction for the full year, and the stock has declined close to 70% from their peak in 2021. The retailer recently named former Ikea Group Chief Executive Officer Peter Agnefjäll as chair to oversee turnaround efforts.",
-      "North America is JD Sports’ largest region, accounting for 38% of sales in the latest fiscal year. This was followed by Europe, which generated 34% of revenue in the same period, and the UK, which was nearly 25%.",
-      "Late last month, JD Sports competitor Dick’s Sporting Goods fell the most on record after reporting struggles at Foot Locker, citing a rise in promotions. The company said legacy sneaker styles aren’t resonating like they once did, without naming specific brands."
-     ],
-     "title_zh": "JD Sports任命北美CEO和首席营销官",
-     "summary_zh": "JD Sports任命John Mersho为北美CEO、Mike Grimes为全球CMO，以扭转销售疲软和股价较2021年峰值跌近70%的颓势。"
     },
     {
      "title": "GM to Offer Apple CarPlay After Shift Away From the System",
@@ -4356,33 +4356,6 @@
      "summary_zh": "乌克兰称袭击俄罗斯伏尔加地区炼油厂，双方未达成能源停火协议。"
     },
     {
-     "title": "Meta Bulls Bet Stock Will Break Out After Year of Head Fakes",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-15/meta-bulls-bet-stock-will-break-out-after-year-of-head-fakes",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-15/meta-bulls-bet-stock-will-break-out-after-year-of-head-fakes",
-     "published_cst": "2026-09-15T09:30:36+08:00",
-     "time": "09-15 09:30",
-     "body": [
-      "Meta Platforms Inc. shares have been on a rollercoaster ride through 2026, rising and falling as investor belief in the Facebook parent’s status as a player in the artificial intelligence space ebbs and flows.",
-      "But after the company settled lawsuits surrounding its social-media practices and unveiled its Muse AI agent that’s designed to automate everyday tasks for ordinary people, bulls are betting the stock could be primed for a sustained breakout.",
-      "“Eliminating a legal overhang and then having a positive product in a hot narrative is certainly enough to get the early stages of a trend change going,” said Dan Russo, co-chief investment officer at Potomac Fund Management, which owns Meta shares. “We’ve seen a number of these counter-trend rallies fizzle out and fade. What’s key from here is to build on the momentum and validate the changing trend.”",
-      "Meta shares have risen 22% off an August low and are on track for their biggest monthly gain since May 2025 this month. The rebound is not unlike others Meta has seen this year, with the stock experiencing four different trough-to-peak gains of at least 20%. Each of those rallies were short-lived, however, and saw shares hit lower peaks on each subsequent rally.",
-      "As a result, shares are essentially flat so far this year and well behind the 15% gain by the Nasdaq 100 Index. For Russo, in order for Meta’s most recent ascent to be considered durable, the shares need to see a “sustained break above $700.” Meta shares swung between gains and losses on Tuesday to trade around $670 a share.",
-      "For bulls, Meta’s $18 billion settlement of its social-media lawsuit removed a key overhang for the stock as a loss at trial could have resulted in penalties of as much as $1.4 trillion, according to its own calculation. Shares have fallen in just four of the 12 sessions since the deal was announced on Aug. 26.",
-      "Morgan Stanley’s Brian Nowak likens the setup for Meta shares to the one Alphabet Inc. investors saw in late-2025, when the Google parent received a favorable ruling in a longstanding antitrust case and followed that up with a slew of new AI products. Alphabet shares have soared more than 50% since the antitrust ruling, making them the best-performing Magnificent Seven stock over that span.",
-      "Meta is in position to keep releasing new products, “which in aggregate could add $10+ to EPS,” Nowak wrote in an Aug. 30 note. “We don’t believe these are priced in Meta right now,” as the stock valuation is well below peak 2025 levels, “when Meta was viewed as an ‘AI winner’ and GPU investments were driving faster growth.”",
-      "READ: Anthropic’s AI Caution Could Hand Meta an Edge: Equity Insight",
-      "He’s not the only analyst that has turned more bullish in recent weeks. JPMorgan Chase & Co. upgraded the stock to overweight last week, citing the “strong early traction” of Muse. Analyst Doug Anmuth said the initial success is an example of why “Meta is well-positioned to deliver consumer-driven AI products to its base of about 4B users.”",
-      "“There’s still meaningful upside potential as Meta is in the early stages of releasing frontier models and AI-driven products beyond advertising,” Anmuth added.",
-      "Meta’s valuation, which screens as the cheapest among the Magnificent Seven save for Nvidia Corp., could also help attract investors. The stock trades at roughly 18 times estimated earnings over the next 12 months, below its 10-year average of 20 times and more than 30% below its 2025 peak.",
-      "Investors are getting good growth for that value. Analysts expect revenue to expand more than 25% this year, while earnings are forecast to jump more than 30%, according to data compiled by Bloomberg. Still, one area of concern that remains for Meta investors are the billions of dollars in capital expenditures being spent on AI.",
-      "Meta’s spending is expected to double to nearly $140 billion this year before swelling to almost $200 billion in 2027. The company, which once boasted big cash flows is expected to report negative free cash flow of $6.3 billion this year, with that figure projected to widen to nearly $30 billion in 2027.",
-      "Those two factors alone are reason to be skeptical about whether the current uptrend in Meta’s stock will last, according to Cyrus Amini, chief investment officer at Hyphen Wealth Management.",
-      "“The valuation is attractive, and it could have more short-term catalysts than megacaps, but for anything beyond that, all bets are off. It could easily fade again,” he said. “Things are changing so fast it’s hard to safely say any name is a long-term winner.”"
-     ],
-     "title_zh": "Meta多头押注该股将在一年假突破后实现真正突破",
-     "summary_zh": "Meta和解诉讼并推出Muse AI后股价反弹22%，今年仍基本持平，需站稳700美元才能确认趋势。"
-    },
-    {
      "title": "Hong Kong Leader to Unveil Five-Year Plan That Outlasts His Term",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/hong-kong-leader-to-unveil-five-year-plan-that-outlasts-his-term",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/hong-kong-leader-to-unveil-five-year-plan-that-outlasts-his-term",
@@ -4414,6 +4387,33 @@
      ],
      "title_zh": "香港特首将公布跨越其任期的五年计划",
      "summary_zh": "香港特首李家超将公布首个五年计划，对接国家战略，并发表任内最后一份施政报告。"
+    },
+    {
+     "title": "Meta Bulls Bet Stock Will Break Out After Year of Head Fakes",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-15/meta-bulls-bet-stock-will-break-out-after-year-of-head-fakes",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-15/meta-bulls-bet-stock-will-break-out-after-year-of-head-fakes",
+     "published_cst": "2026-09-15T09:30:36+08:00",
+     "time": "09-15 09:30",
+     "body": [
+      "Meta Platforms Inc. shares have been on a rollercoaster ride through 2026, rising and falling as investor belief in the Facebook parent’s status as a player in the artificial intelligence space ebbs and flows.",
+      "But after the company settled lawsuits surrounding its social-media practices and unveiled its Muse AI agent that’s designed to automate everyday tasks for ordinary people, bulls are betting the stock could be primed for a sustained breakout.",
+      "“Eliminating a legal overhang and then having a positive product in a hot narrative is certainly enough to get the early stages of a trend change going,” said Dan Russo, co-chief investment officer at Potomac Fund Management, which owns Meta shares. “We’ve seen a number of these counter-trend rallies fizzle out and fade. What’s key from here is to build on the momentum and validate the changing trend.”",
+      "Meta shares have risen 22% off an August low and are on track for their biggest monthly gain since May 2025 this month. The rebound is not unlike others Meta has seen this year, with the stock experiencing four different trough-to-peak gains of at least 20%. Each of those rallies were short-lived, however, and saw shares hit lower peaks on each subsequent rally.",
+      "As a result, shares are essentially flat so far this year and well behind the 15% gain by the Nasdaq 100 Index. For Russo, in order for Meta’s most recent ascent to be considered durable, the shares need to see a “sustained break above $700.” Meta shares swung between gains and losses on Tuesday to trade around $670 a share.",
+      "For bulls, Meta’s $18 billion settlement of its social-media lawsuit removed a key overhang for the stock as a loss at trial could have resulted in penalties of as much as $1.4 trillion, according to its own calculation. Shares have fallen in just four of the 12 sessions since the deal was announced on Aug. 26.",
+      "Morgan Stanley’s Brian Nowak likens the setup for Meta shares to the one Alphabet Inc. investors saw in late-2025, when the Google parent received a favorable ruling in a longstanding antitrust case and followed that up with a slew of new AI products. Alphabet shares have soared more than 50% since the antitrust ruling, making them the best-performing Magnificent Seven stock over that span.",
+      "Meta is in position to keep releasing new products, “which in aggregate could add $10+ to EPS,” Nowak wrote in an Aug. 30 note. “We don’t believe these are priced in Meta right now,” as the stock valuation is well below peak 2025 levels, “when Meta was viewed as an ‘AI winner’ and GPU investments were driving faster growth.”",
+      "READ: Anthropic’s AI Caution Could Hand Meta an Edge: Equity Insight",
+      "He’s not the only analyst that has turned more bullish in recent weeks. JPMorgan Chase & Co. upgraded the stock to overweight last week, citing the “strong early traction” of Muse. Analyst Doug Anmuth said the initial success is an example of why “Meta is well-positioned to deliver consumer-driven AI products to its base of about 4B users.”",
+      "“There’s still meaningful upside potential as Meta is in the early stages of releasing frontier models and AI-driven products beyond advertising,” Anmuth added.",
+      "Meta’s valuation, which screens as the cheapest among the Magnificent Seven save for Nvidia Corp., could also help attract investors. The stock trades at roughly 18 times estimated earnings over the next 12 months, below its 10-year average of 20 times and more than 30% below its 2025 peak.",
+      "Investors are getting good growth for that value. Analysts expect revenue to expand more than 25% this year, while earnings are forecast to jump more than 30%, according to data compiled by Bloomberg. Still, one area of concern that remains for Meta investors are the billions of dollars in capital expenditures being spent on AI.",
+      "Meta’s spending is expected to double to nearly $140 billion this year before swelling to almost $200 billion in 2027. The company, which once boasted big cash flows is expected to report negative free cash flow of $6.3 billion this year, with that figure projected to widen to nearly $30 billion in 2027.",
+      "Those two factors alone are reason to be skeptical about whether the current uptrend in Meta’s stock will last, according to Cyrus Amini, chief investment officer at Hyphen Wealth Management.",
+      "“The valuation is attractive, and it could have more short-term catalysts than megacaps, but for anything beyond that, all bets are off. It could easily fade again,” he said. “Things are changing so fast it’s hard to safely say any name is a long-term winner.”"
+     ],
+     "title_zh": "Meta多头押注该股将在一年假突破后实现真正突破",
+     "summary_zh": "Meta和解诉讼并推出Muse AI后股价反弹22%，今年仍基本持平，需站稳700美元才能确认趋势。"
     },
     {
      "title": "Air France to Open Largest Lounge at JFK's New Terminal One",
