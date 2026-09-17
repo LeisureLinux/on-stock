@@ -1,18 +1,18 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T10:39:49.518034+08:00",
+ "generated_at": "2026-09-17T12:12:02.065955+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 239,
+   "count": 240,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
     {
-     "title": "Gold Holds Decline After Fed Tilts Hawkish and Raises Rates",
+     "title": "Gold Rises as US Treasuries Pare Losses Following Fed Rate Hike",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/gold-holds-decline-after-fed-tilts-hawkish-and-raises-rates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/gold-holds-decline-after-fed-tilts-hawkish-and-raises-rates",
      "published_cst": "2026-09-16T23:54:12+08:00",
@@ -480,7 +480,7 @@
      "summary_zh": "Generac与亚马逊达成最高80亿美元发电机供应协议并授予亚马逊子公司2.6%认股权证，Generac股价盘后一度大涨45%。"
     },
     {
-     "title": "Treasuries Pare Losses From Fed Hike, Dollar Gains: Markets Wrap",
+     "title": "Stock Futures Rebound, Bonds Pare Losses After Fed: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-16T22:06:59+08:00",
@@ -2746,6 +2746,26 @@
      ],
      "title_zh": "美国零售销售普遍上涨凸显消费者韧性",
      "summary_zh": "美国8月零售销售环比增长1.2%，创五个月来最大增幅，远超预期，显示消费者支出仍具韧性。"
+    },
+    {
+     "title": "Russian Oil Uncertainty Hangs Over India's Largest Buyers",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/russian-crude-uncertainty-hangs-over-india-s-largest-oil-buyers",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/russian-crude-uncertainty-hangs-over-india-s-largest-oil-buyers",
+     "published_cst": "2026-09-16T12:22:19+08:00",
+     "time": "09-16 12:22",
+     "body": [
+      "Indian state-owned refiners are facing the most significant supply uncertainty in months, according to people with direct knowledge of the trade, as the impact of a drawn-out conflict in the Middle East is compounded by the prospect of tighter US restrictions on Russian purchases.",
+      "Oil supplies through the Strait of Hormuz have been disrupted since the end of February, but Saudi Arabia was last week forced to close a crucial workaround — the East-West pipeline — after drone attacks, impacting more than 400,000 barrels a day of flows to India alone.",
+      "Those disruptions are expected to be temporary, with Saudi Arabia currently working to bypass a damaged section in order to return about half the capacity within days, Bloomberg reported earlier. Russian crude, however, is already commanding a premium, the people said, and could become even tougher to handle after the US Congress gave its approval on Wednesday to a sweeping US sanctions bill that paves the way for punitive tariffs on countries dealing with Moscow’s oil industry.",
+      "State oil refiners’ September and October requirements are secured, but the processors are facing tougher decisions when it comes to November and beyond, the people said, asking not to be named as discussions are not public.",
+      "Read More: House Passes Bill Allowing New Tariffs on Russia Oil Buyers",
+      "India has relied heavily on discounted Russian oil and relatively secure term Middle Eastern supplies to contain import costs through the past months. A twin squeeze — especially if President Donald Trump signals he will use the new tariff powers — leaves refiners competing for barrels from further afield. That will crimp margins at refiners unwilling to cut run rates and already selling gasoline, diesel and cooking gas below cost.",
+      "India is currently Russia’s top buyer of seaborne crude, but its refiners have already been leaning on the US, Brazil, Canada, Venezuela and Africa for additional and more varied supplies. That diversification will continue, but at a price, the people said.",
+      "The timing of the crunch, months into a Middle East energy crisis, is particularly difficult. India’s crude inventories fell to 93.5 million barrels in the week beginning Sept. 14, the lowest since May, according to Kpler. That’s enough to cover the equivalent of about 20 days of imports.",
+      "At the same time, a new 180,000-barrel-a-day refinery in Rajasthan is ramping up and Indian Oil Corp. is expanding existing plants, adding over 340,000 barrels a day capacity by December, increasing the country’s need for crude."
+     ],
+     "title_zh": "俄罗斯石油不确定性笼罩印度最大买家",
+     "summary_zh": "印度国有炼油商面临数月来最严峻供应不确定性，霍尔木兹海峡中断及美对俄制裁法案加剧压力，原油库存降至9350万桶约20天用量。"
     },
     {
      "title": "Ed Yardeni Cuts S&amp;P 500 View to 7,900 on Downturn Risks",
@@ -6367,7 +6387,7 @@
      "title_zh": "美国议员通过制裁法案以施压俄罗斯经济"
     },
     {
-     "title": "Federal Reserve decision as it happened: Donald Trump calls for rates to be 1% or less",
+     "title": "Federal Reserve decision as it happened: US central bank raises interest rates for first time since 2023, Donald Trump calls for borrowing costs to be 1% or less",
      "url": "https://www.ft.com/content/61b5fbae-9dd6-4980-bd1f-effe54b72d84",
      "link": "https://www.ft.com/content/61b5fbae-9dd6-4980-bd1f-effe54b72d84",
      "published_cst": "2026-09-16T22:49:33+08:00",

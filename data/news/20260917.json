@@ -1,16 +1,433 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-17T10:39:53.031406+08:00",
+ "generated_at": "2026-09-17T12:12:42.168627+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 8,
+   "count": 22,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "New GLP-1 Pills Curb Snacking Less Than Shots in Survey",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/new-glp-1-pills-curb-snacking-less-than-shots-in-survey",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/new-glp-1-pills-curb-snacking-less-than-shots-in-survey",
+     "published_cst": "2026-09-17T04:04:00+08:00",
+     "time": "09-17 04:04",
+     "body": [
+      "Users of GLP-1 pills for weight loss curbed their snacking less than those taking the treatment through shots, according to new research from Bloomberg Intelligence.",
+      "Among those taking the drugs orally, 74% said they were eating fewer salty snacks, compared to 80% for those taking a GLP-1 via injection, according to the BI report. Similarly, 76% of pill users said they were eating fewer baked goods, lower than the 82% for those taking a shot. That pattern was repeated in other categories, including confections and shelf-stable foods like soup.",
+      "“Though oral GLP-1s still pose a challenge for food makers like Mondelez, Hershey, Kraft Heinz and General Mills, growth in pill use could reduce the negative impact of weight-loss drugs on product sales,” Bloomberg Intelligence analyst Jennifer Bartashus and Keana Bloomfield said in the report, which is based on the findings of a survey of 1,001 people in the US in July.",
+      "Mondelez and Hershey are still among the most exposed to potential sales declines, Bartashus and Bloomfield wrote, since GLP-1 users cut back most dramatically on candy, baked goods and salty snacks.",
+      "The GLP-1 pills also showed slightly less effectiveness in curbing how often people snacked, according to the survey. Among people who used to eat three snacks per day before going on a weight-loss drug, 49% of those injecting the treatment curbed their snacking to once a day. Among pill takers, 39% did the same.",
+      "Those on shots also increased their consumption of fruits and vegetables by more than those taking the pill form, according to the survey.",
+      "In studies, GLP-1 pills have been linked to slightly less weight loss than shots. However, drugmakers caution against using cross-trial comparisons.",
+      "While the pill version of the treatments may be less effective than injections, their introduction is expected to spark rising GLP-1 use over the coming years, in part because it’s easier for most people to take. By 2030, more than 19% of the population is expected to be on a GLP-1 drug, up from about 7.5% this year, according to the BI report.",
+      "The increasing prevalence of GLP-1 medications has emerged as a threat to food companies’ sales growth since users eat less. However, companies say they’re adapting to changes in preference and have bolstered their selection of products with higher contents of protein, fiber and other nutrients. PepsiCo Inc., for example, now offers high-protein Doritos and Smartfood FiberPop popcorn.",
+      "Food company executives have pointed to past data that shows GLP-1 users reverting to their previous eating habits when they go off them. However, BI’s survey found that 46% of those who stopped taking the medications said they’re consistently maintaining their grocery shopping habits, and 41% said they’ve consistently maintained lower consumption of soft drinks."
+     ],
+     "title_zh": "新型GLP-1药片抑制零食效果不及注射剂",
+     "summary_zh": "研究发现口服GL-1减肥药抑制零食摄入效果弱于注射剂，但药丸普及有望减轻对食品销售的冲击。"
+    },
+    {
+     "title": "Inside China's $7 Trillion Green Finance Market",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/inside-china-s-7-trillion-green-finance-market",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/inside-china-s-7-trillion-green-finance-market",
+     "published_cst": "2026-09-17T04:00:10+08:00",
+     "time": "09-17 04:00",
+     "body": [
+      "When it comes to green tech, China is a list of superlatives. It produces more solar panels, wind turbines, electric vehicles and batteries than anywhere else in the world. But is finance the real climate hero?",
+      "This week on Zero, Akshat Rathi is joined by Ma Jun, chairman of the Hong Kong Green Finance Association and former chief economist of China’s central bank. They discuss how the country became a green-finance superpower and how other nations can speed up their own transitions.",
+      "Listen now, and subscribe on Apple, Spotify, or YouTube to get new episodes of Zero every Thursday.",
+      "Our transcripts are generated by a combination of software and human editors, and may contain slight differences between the text and audio. Please confirm in audio before quoting in print.",
+      "Akshat Rathi",
+      "Long gone are the heady days of 2021, where week after week, enormous financial institutions made commitments to transition to a net-zero world. Take the example of GFANZ, the Glasgow Financial Alliance for Net Zero, one of the signature pacts to clean up the sector. It was once on the lips of every climate finance expert.",
+      "Now, it barely gets a mention. And yet, without the right kind of finance, there is no way to tackle climate change. The money dictates what gets built, where and how quickly. If spent right, it can turbocharge the transition. If not, we will be saddled with polluting assets.",
+      "Joining me this week is Dr. Ma Jun, chairman of the Hong Kong Green Finance Association and former chief economist of China’s central bank. This is Zero, I'm Akshat Rathi, recording live at  Hong Kong Green Week. Today: where next for climate finance?",
+      "Akshat Rathi",
+      "Dr. Ma Jun, thank you for joining us here at the BloombergNEF event. So today we are going to talk about the opportunities and challenges that Asia faces on the energy transition. And maybe we start by looking back first, because we are sitting in a region that is seeing some of the fastest rollouts of green technologies anywhere in the world. Be it solar panels in the Philippines, wind turbines in Vietnam, or electric cars in Thailand. Or, all of those technologies in China. This needed technology development, it needed policy, it needed finance, and of course it needed people. But from your vantage point, having worked on finance and green finance for such a long time in this region, what do you think finance did to help Asia get to this point in the transition?",
+      "Ma Jun",
+      "Well, thank you very much, Akshat, and also thanks to BloombergNEF for inviting me once again. Your question of the three key pillars of  transition — one is policy, one is technology, one is finance — I've been working on all of these, but finance has been my real focus in the last 12 years. Since 2014, when I joined the PBOC, the People's Bank of China, I began to work on green finance policies. Before that, I actually spent 13 years in Hong Kong. I was the chief economist for Deutsche Bank in the Greater China region. And in that transition between Deutsche Bank and PBOC, I turned myself from a macroeconomist into a climate finance specialist.",
+      "In my PBOC time, starting from 2014, I began to work on the need for green finance. Initially, in China, we were talking about air pollution. Some of you, if you were in Beijing back 12 years ago, you were wearing masks, right? It was not because of Covid. Everybody was fearing the health impact of PM2.5 exceeding 100 and so on. Our proposal at that time for the Chinese central government was that you need to raise something like 4 trillion renminbi a year to fix pollution, which included air pollution, land pollution, water contamination, and so on. But the government had no money, the government had only 10% of the required budget. That's why green finance had to kick in.",
+      "So very quickly, within a few months, my team was able to convince the central government to do it. In 2015, this proposal of setting up a green financial system was written into a central government document called the Eco-Civilization Plan. Then it became a mandate for the central bank to lead the coordination of the seven ministries and drive the framework for green finance. I was doing this job from 2015 to 2016, essentially coordinating the central bank, the ministry of finance, environmental ministry, NDRC (National Development and Reform Commission), securities commissions and also banking insurance committee, drafting the guideline for green finance. Within the guideline, which at that time contained about 35 actions, we are now seeing the largest green lending market and largest green bond market in the world, with the outstanding Chinese green loans and green bonds amounting to about $7 trillion. It's about 50 trillion renminbi. It's a mind-boggling number.",
+      "These financing instruments in the form of loans and bonds went into renewables and into electric vehicles. That's why China now has 70% of renewable production capacity — not necessarily deployment in China — and also 70% of the EV production, 70% of batteries in the world.",
+      "Akshat Rathi",
+      "Have the lessons from what China has been able to do, maybe let's take the central bank policy, has that been used or applied or translated in any other part of the world, looking at how China has been able to create this lead in green technologies?",
+      "Ma Jun",
+      "Yes. China is unique in the sense that the central bank is part of the government. It's not a so-called independent central bank. When a central bank is independent, it anchors its policy only on one or two objectives, which is, for example, CPI (Consumer Price Index) being 2% and financial stability. These narrowly focused central banking policies actually restrict the ability of the central bank to deliver climate-related actions.",
+      "The Chinese central bank responds to the government’s responses, which is carbon neutrality and all of these. That's the government objective, then the central bank has to do its part. For example, the Chinese central bank put out this decarbonization facility, which now offers a funding cost of 1.25% for renewables. No other central bank can do that, because all the central banks say, ‘it's not my mandate,’ and ‘why should I give cheap money through a commercial bank and to renewable projects?’",
+      "Also, the central bank in China, we actually rank the commercial banks on their green performance because we mandate each bank to report the green loans. China, I think, is now the only country that has a central bank mandate for commercial banks to report green loans based on taxonomy. That's why each of the 4,000 banks report the green loan ratio, and we can see which ones are doing better. The high ones have like a 35% green loan ratio, the low ones 5%. Obviously, 35% is being praised and being recognized as a good performer, and they get other incentives as well. This is a very unique incentive, which only China does.",
+      "Akshat Rathi",
+      "Would you say then, one thing that maybe central banks abroad can look at is actually growing their mandate from these limited mandates they have, which are based on employment and on inflation?",
+      "Ma Jun",
+      "Some central banks try to be more open-minded and are breaking these traditional rules of central banking. For example, the central bank of Hungary, a few years ago, was telling me that they have adopted a practice of giving capital relief on green loans, meaning the risk or weights on green assets is being lowered by the central bank of Hungary. In fact, yesterday, I was moderating a session, and to my surprise, the central bank of Macau, which is the monetary authority of Macau, said that they gave a 15% discount to the capital charge on green assets as well, which is wonderful. So, they are not following the traditional central banking practices and conventions, but they are now making innovations. But these cases are still quite rare.",
+      "Akshat Rathi",
+      "Now, let's talk a little bit about the green bond market, but also just green finance in general. You talked about how in China alone, there's $7 trillion worth of outstanding green finance, if you include bonds, loans and equities. Now, some of the green bond issuances have been done in London, for example, and they've been very successful for China, and they're looking to do more of these. What is it from the China green bond experience that other countries can learn?",
+      "Ma Jun",
+      "Yeah, some things other countries wouldn't be able to replicate because China is so big. And I was talking to some of the smaller economies about how China issues 1,000 green bonds every year. They were shocked because some of the smaller countries do a few issuance every year. So, that's a size thing. And given the size, you've got an advantage because the cost goes down for all the infrastructure. For example, back in 2015, when I was initiating the green bond market, we were worried about not having enough third-party verifiers, and they were struggling to incubate these guys. And then within a year 18 verifiers popped up. And initially, the cost of verification was very high, something like 100,000 renminbi per piece. And now it goes down to 10,000 renminbi because of competition and also the scale of the economy. And a lot of companies in China are working on AI tools to label green loans.",
+      "In smaller markets, the labeling is very expensive because you hire consultants before accounting firms and so on, they charge very high service fees. And now the Chinese scale of economy involves using AI technology to reduce the cost of these services by 99%. That's a part that we benefit from, a scale economy.",
+      "But one of the things I think a lot of countries' economies can learn from is incentives. Some of the Chinese local governments offer interest subsidies for green loans and green bonds. And some actually give awards to the first issuance of every green piece, whether it's a green bond for this sector or a sustainability bond for that sector or a social bond for this sector. So every new innovation is being encouraged, which is very cheap in terms of a dollar amount that you need. But it has a very good encouragement in terms of setting examples and creating momentum for the market. So these are things I think that can be delivered in other places.",
+      "Akshat Rathi",
+      "And we talked about how a lot of the transition success has been in the electricity sector, partly because the technologies have been scalable, but also modular, and so prices have come down faster. There are other sectors in the economy that really need to catch up on the transition.",
+      "The Iran war, for example, has really made countries think about energy security and they are moving away from fossil fuels, but they can only do so in the sectors that are economic. And they are doing that on electricity, as we've seen from the import figures from Chinese technologies going into other countries.",
+      "In other parts of the economy, industry for example, there's still a long way to go to try and bring in green technologies. I know you've done some work on the steel sector, but there's steel, there's cement, there's plastics. So many of the industrial sectors still need ways to be able to transition. What can finance do to help the industrial sector transition?",
+      "Ma Jun",
+      "Yeah, for the carbon intensive sectors that you mentioned — steel, cement, petrochemical, coal-fired power generation, aviation, shipping and so on — this is what we call transition finance. Back a few years ago, we were focusing on pure green activities like renewables, electric vehicles, batteries and so on. And these were very big already, as I said, you know, 50 trillion renminbi or $7 trillion in China, largely for pure green.",
+      "But now in the last couple of years, we began to move towards building an ecosystem for transition finance, which is serving the hard to abate sectors. And in China, some experiments by the central government, central banks and also local governments, are putting out what they call transition taxonomies. Now, 11 sectors have transition taxonomies — by each sector.",
+      "Like steel, now the central bank has put out the pathways, whether you use scrap steel to make steel that has reduced carbon or uses hydrogen or uses clean energy. All of these pathways are able to help you to reduce carbon intensity of the steel sector. So once these pathways are done, then we're requiring the companies to develop their transition plans, which means that you need to have a credible transition plan and set targets for three years, five years, seven years of decarbonisation. And then you have to make the government structure work right for implementing the targets. At the same time, developing the instruments, for example sustainability-linked loans, to assist these companies to transition with lower costs. At the same time, a lot of pilot cities are asking them, don't lay off people because you have to take care of the social impact, right?",
+      "And then this transition process will be accompanied by, for example, retraining and reskilling programs. So all of these elements are incorporated into the ecosystem for transition finance. It's still small in terms of the total dollar amount, but the growth has been rapid. I've seen a lot of places where I've seen 100% growth of transition finance in China.",
+      "Akshat Rathi",
+      "And so the thing that is required over here is there is a little more complexity involved, right? In a green bond, you are very clear about what you're going to do and you raise finance toward that purpose. And so investors who are investing in a green bond know what they are getting as a result. Whereas with transition finance, you have to create a plan: for some time, there'll be higher emissions and then the emissions will lower. And each sector will have, as you said, different taxonomies, different plans. Are there ways in which that complexity can be managed or simplified? Or is this just how finance works, that complexity is part of the business?",
+      "Ma Jun",
+      "No, since evolving… a few years ago, we were talking about every transitioning company developing a transition plan in a formal way, setting targets, and getting third-party verification and having a governance structure, and so on and so forth. Now, after three years, we find that this is applicable only to large companies. A lot of small-medium companies are unable to develop the full version of the transition plan. They are unable to find a third party to verify the numbers because it's too expensive.",
+      "That's why recently my colleague was developing a new model for SMEs (small and medium-sized enterprises) to get into the transition finance space, which they call ‘look-back transition instruments’. Meaning that you don't have to pre-develop a transition plan, just try yourself and see if you can reduce carbon. Once you actually reduce carbon, come back to the bank, say, ‘can we claim this as transition finance?’ If it's not meeting the standards, then we forget about it and treat it as a regular loan. Now, this is being practiced in a couple of regions in China and elsewhere. And it’s now being documented in one of my colleague’s research reports. I think it's worth looking into.",
+      "Akshat Rathi",
+      "After the break, more of my conversation with Dr. Ma Jun. If you're enjoying this episode, please take a moment to rate and review Zero on whichever platform you're listening on.",
+      "Akshat Rathi",
+      "One other hot topic is AI data centers and how the demand for electricity is coming from these data centers. If AI becomes the promised land that it is, data centres will come here, and they will create a challenge for this region. It may not be an electricity supply challenge, it'll be the challenge of how to ensure that the electricity supply is clean. Is there something you can do, before this boom starts, before we see data centers getting powered by coal. Is there a way to ensure that they remain clean? So it's a different type of transition challenge from the industrial sector. You don't need to convert something that is dirty into clean, you want to start to build something clean from the get go.",
+      "Ma Jun",
+      "Yeah, I think data centers are facing two types of challenges. One is it competes for energy against other users. For example, this electricity supply is supposed to be for normal civilian usage — households, manufacturing, buildings — and so on. Now you compete, which will push up the power price. It has a social implication, which is negative for the community. That's one thing.",
+      "And the second challenge is that I see a lot of data centers are being built with dirty energy, dirty new energy, which means that they couldn't find a clean energy supply and they had to build coal-fired power plants and also maybe burn natural gas. And simply because they say, ‘Hey, I'm the project owner and have no other choices, this is the most convenient one that I can deploy.’",
+      "This problem needs to be addressed at a higher level, not at a single company level, because many of the renewable resources are not in the place where you want to build a data center. And it may be somewhere else. For example, recently we were looking at one project which does what we call geographical arbitrage. Basically, the data center is in Singapore, it doesn't have enough power, it doesn't have enough green power. So they found a place in a nearby island of Indonesia, and they built a large solar panel production facility to generate hydrogen. And they shipped hydrogen to Singapore to power the data center. And still the economics work, because the power tariff is high enough in Singapore and it's still cheaper and they become greener. But it requires coordination and requires import-export arrangements. So it's not a simple one company issue, it requires government-to-government geographical coordination.",
+      "Akshat Rathi",
+      "Now, coming to one of your hats, which is the Hong Kong Green Finance Association. Hong Kong remains among the top financial centers in the world. Can you talk through the role that Hong Kong has played in green financing, especially in the last 10 years? And where does it go from here?",
+      "Ma Jun",
+      "Yeah, Hong Kong started its journey towards building a green finance center, I think in 2017-18, when the government began to issue its sovereign green bonds. And I think Hong Kong remains the largest sovereign issuer in the green-bond market in the world. And this sets a very good example for the private sector in terms of how to identify what is green, how to do the labeling, how to do transparency and disclosure and so on.",
+      "And now Hong Kong offers a very sophisticated set of green financial products, including syndicated loans and green bonds, sustainability bonds, and now insurance and equity services for all kinds of green activities. Not just in Hong Kong, the majority of the fundraisers are actually coming from mainland China and ASEAN (Association of Southeast Asian Nations) countries to use the Hong Kong green financial services. And going forward, I think the demand is going to be even stronger, as I said yesterday at the Hong Kong GFA annual meeting.",
+      "China is now implementing its five-year plan, which requires a 17% reduction of carbon intensity in the next five years. It will drive massive demand for transition. Hong Kong can be the offering place for a lot of transition products. And ASEAN, I use this example of why ASEAN is going to be growing even faster than China in terms of green demand, because in Indonesia, on average you have three babies per family. In China, you have only 0.7. So in the future, you will see a massive growth of demand for virtually everything — for housing, for transportation, for energy, for water. All of these are required to be green, and the green investment growth, I think, in ASEAN countries will be even faster. And that's why financing and China’s technologies combined, I think, really can make a big difference there.",
+      "Akshat Rathi",
+      "And maybe let's talk about one finance instrument that is being used for all sorts of activities, but increasingly for green activities. So panda bonds, for example, which are these Chinese yuan denominated bonds that are issued by entities outside the mainland, but have investors from the mainland. Now, they've been issued in places like the Philippines, Indonesia and Pakistan, but also in Europe — in Hungary and in Portugal.",
+      "And some have been specifically… The goal for them when they are announcing the bond issuance is to go toward green activities, sometimes buying green technologies from China for those purposes. How do you see the panda bond market evolving and whether that can help the transition in other parts of the world?",
+      "Ma Jun",
+      "Yeah, I think it's developing very fast. In fact, a little more than a year ago, I was beginning to write about the panda bond market beginning to play a bigger role in transition — green transition for the global south. Now I've seen very rapid growth of this take up. In fact, in the last eight months, the issuance of panda bonds in the mainland market was about 200 billion renminbi. And similarly, we have a renminbi denominated market, which is the offshore renminbi market in Hong Kong. It's called the dim sum bond market and it saw something like 1 trillion renminbi of issuances.",
+      "And this means that the renminbi funding is cheap enough to attract a lot of issuers relative to US dollar funding. More recently, I think there was the Pakistani issuance of a panda bond in China, which was issued at a coupon rate of 2.5%. You cannot imagine that in any other markets. Of course, it had a guarantee from AIIB (Asian Infrastructure Investment Bank) and ADB (Asian Development Bank). But even with that, I think it substantially reduced the total cost of financing for those green activities in Pakistan. And many others are lining up to do that.",
+      "Also recently, there was issuance from Suzano, which is a company in Brazil that tapped into the Chinese green panda bond market, and there are many more in the Hong Kong dim sum bond market. So it's a matter of a promotion because the platform is there, the cheap funding cost is there, liquidity is there. But not everybody knows it.",
+      "In fact, when I was in Central Asia just a couple of weeks ago, I was talking to three banks in the Kyrgyz Republic. None of them knew that China has the panda bond market and Hong Kong has the dim sum bond market, which offers a much cheaper funding cost. And  they all showed interest immediately in this potential fundraising opportunity for them. So I think we need to do more. In fact, BNEF can be a good distributor of this message to potential issuers.",
+      "Akshat Rathi",
+      "We've also seen some countries actually change their sovereign bond issuances from being dollar denominated to yuan denominated because of the rising trade relationships they have. So Kenya has done it, Ethiopia is looking to do it. There is clearly a demand for more yuan denominated debt. But when we come to that, let's then talk about the tensions that are rising as a result.",
+      "The global bond market has been a dollar dominated one. And now the yuan is offering these options for many countries to try and get lower financing costs, which is — especially at this time of higher cost of living, but also really squeezed government finances is — something that they are tapping into. How do you manage to ensure that the tensions that are rising don't derail the transition?",
+      "So take Europe, for example. Europe has created a carbon border adjustment mechanism (CBAM) that is creating tensions between Europe and China, but also Europe and India. What are ways in which finance can try and help manage around the geopolitical tensions that are going to perhaps keep rising?",
+      "Ma Jun",
+      "Yeah, some of the tensions you mentioned are geopolitical in nature. Others are basically trade frictions. For example, a lot of EU actions are trade-related because they're fearing China taking over their jobs and China is becoming too competitive in certain markets and so on. But some of the tensions, especially on the US side, is more geopolitics — restricting access to all these high-tech products and other technologies.",
+      "But I think in the global south in general, we don't have that much concern. You know, China and ASEAN countries, China with Latin American countries, China with African countries, the trade is still largely free, and largely because we are quite complementary to each other in terms of economic structure. Most of the stuff that China produces, they don't produce, and they need our stuff.",
+      "Of course, China would like to invest more in these developing countries and relocate part of the supply chain, whether it's EVs or other manufacturing processes, so that we can not only lower the cost, because they are producing locally, and also creating jobs and building skills and building a long lasting mutually beneficial relationship between China and the global south. I think overall this is doing well.",
+      "But there's a way for China to enter the US and the European market by relocating production to some emerging market developing countries. For example, I was in Morocco recently and there are industrial parks there. They welcome Chinese companies to invest in industrial parks. And as long as you have enough local content developed in Morocco, then you can sell to Europe legally. It's not just illegally bypassing regulations. It's a legal pathway towards the European market. But that requires a lot of cooperation, engineering and the legal advice and the structuring of these transactions.",
+      "Akshat Rathi",
+      "Is there anything in the finance sector that can help this transition happen? So, for example, you mentioned Morocco, but also Brazil is another place where Chinese companies are relocating some of their manufacturing, BYD opened a plant recently. Is there anything that finance can do to help make these moves for Chinese companies easier in emerging markets?",
+      "Ma Jun",
+      "Finance plays a bigger role for mid-sized companies to drive their actions. For the very large companies, they don't worry about finance because they are very strong in terms of internal financing capabilities. And the banks are looking for them, begging them to borrow money.",
+      "But in the mid-market, a lot of companies are not capable of investing in big projects just using their internal resources, so they rely on external financing. That's why these financing sources, whether it's a multinational development bank or sovereign wealth company or large commercial banks, they can drive the company's relocation or production and help them to structure a transaction which is suitable for them to enter into multiple markets. And this is exactly what the Green Accelerator, which I launched yesterday, intends to do, because we're bringing these large finance institutions to influence these companies in terms of future decisions.",
+      "Akshat Rathi",
+      "Can you give an example of what the Green Accelerator might do?",
+      "Ma Jun",
+      "The Green Accelerator is set up as a non-profit entity in Hong Kong, which is supported by donors and also the Hong Kong government to prepare green projects in developing countries. Of course, there might be pilot projects in Hong Kong before we go out and scale up the operation. And the founding members, actually the seven founding members of the Green Accelerator, include the AIIB, the Chinese sovereign wealth company called the Silk Road Fund, and GenZero under Temasek, and also HSBC. A couple of others, including my Institute of Finance and Sustainability in Beijing, and also the Cambridge Institute for Sustainability Leadership, plus the Hong Kong EPD (Environmental Protection Department).",
+      "So we are coming together with the goal of really accelerating and helping these companies to prepare bankable projects, which can be investable by large organizations such as the ones that I just mentioned. And in the process, a couple of things need to be done by the accelerator.",
+      "Number one, we identify the right green technologies for other markets. Just to give you an example, a Chinese company that can produce desalinated water at a much lower cost than otherwise. They are now using this modular-based approach to build a desalination plant within one month instead of doing this within 12 months. And as a result, they are able to cut the cost of water by about 50%. So we're looking into how to help this company locate their production in Indonesia. Indonesia needs desalination services. This is just one of the many examples of how finance can help them to think about this deployment of their good technology in new places that need them more than in China.",
+      "Akshat Rathi",
+      "I live in London. When we look at conversations around the transition or around climate politics, it feels like a step back because many of the governments, especially in the US, but also some European governments, have slowed down the transition or have reversed some of their climate policies.",
+      "The pressure that investors had on corporations, on big multinationals and with the headquarters in Europe and America to come up with a transition plan to meet their net zero commitments, that pressure has gone down a little bit. Conversations here are very different. Over here, the pressure to come up with transition plans, etc., is newer, but it is growing. If you talk about the carbon intensity goal from China, that is really going to drive many of the Chinese companies to look at cutting emissions alongside, of course, all the profitable things that they have to do. Do you see this bifurcation slowing down progress on the climate front?",
+      "Ma Jun",
+      "I think one big problem in some of the Western countries is that the government is short of money. Before the Iran war and a lot of geopolitics development, they were still able to allocate some money to subsidize the green transition. And now, they are given the mandate to increase budget spending and they're doing a lot of other things. So there's little room, fiscal room, to subsidize.",
+      "And now it becomes a game of competing for very, very limited fiscal favor, whether you want to do this for health care, for the elderly, for immigration, or for the transition. And if you're squeezed, then everybody complains about who’s going to pay for that. I think the way out of this is to not rely on government subsidies. Instead, rely on technology. A couple of examples which show how technology can save the journey towards net zero.",
+      "In China, in the last seven years, the cost of batteries went down by 70%, the cost of solar panels came down close to 70%, and the cost of EV came down by 50%. If countries can engineer this kind of a reduction in cost, you don't need government subsidies. These green goods and services become competitive by themselves. They compete away the fossil fuel-powered alternatives. This, I think, should be the real focus of government and industrial policy, rather than competing for limited fiscal resources for subsidies.",
+      "Akshat Rathi",
+      "We saw in some of the numbers that even in the US, where we are seeing probably the clearest step back on climate policy, renewable investments go down a little bit over the next few years, but then they rise up again. Speaking to your point about technology, because the cost makes the difference. But then you look at that versus what is needed. We are living through an El Niño year right now, giving us a flavor of what global warming will look like in five or 10 years time.",
+      "This year will be the hottest year, and then next year is likely to break that record again, because El Niño is going to continue. In the face of what we are seeing in rising impacts, are there ways in which finance can come to help on adaptation, for example?",
+      "There was a typhoon recently here in the southwest of China, there were massive heatwaves in Europe over the summer, five or six of them continuously, and we don't have air conditioning like you guys have here in Hong Kong. Are there ways in which finance can help adaptation?",
+      "Ma Jun",
+      "Yeah, let me talk about two climate resilience issues. One is the heatwaves you're talking about. The other one is water shortages. We can address it with very cheap energy here, cheap solar energy. Chinese solar power, if you deploy properly, in fact, in one of the pilots my institute has done, within my institute, we generated power at about 30 cents-renminbi per kilowatt, which is about $0.04. It's five times the price in the UK and Europe. If it's cheap, everybody has air conditioning. If it's too expensive, you can't afford it. Make it cheaper, the technology is available, it’s just a matter of deployment. I think heatwaves are not a problem here, as long as you can arrange cheap power that's being deployed in every corner of the country.",
+      "Water, as I said, we've got a lot of water technologies, especially in the portfolio that we're proposing to promote in the green accelerator. We have at least 10 technologies. For example, the water saving technology for agriculture, which is called smart irrigation, reduces use of water 30-40%, while at the same time increasing crop yields by 20%. Also, what they call rain enhancement technology. Basically, in a place that's close to a desert, you can shoot sound waves into the sky, and it rains within 30 minutes. And climate resilient seeds, which mean that you can plant new seeds that could be rice or wheat that reduce the use of water by 30-40% as well. There are many, many technologies available. Just deploy them, it will address a large part of the drought problem.",
+      "Akshat Rathi",
+      "If I'm taking one big message from our discussion is that you started as a macroeconomist and you focused on green finance, but so much of what you talk about now is how to enable finance to really unlock technology deployment. Because the technologies that have been developed it’s really the deployment of these technologies that is uneven and that needs to be sped up in different parts of the world. Do your colleagues in finance see it the same way? Or are you evangelizing in a place where others aren't seeing it?",
+      "Ma Jun",
+      "This is exactly what I told a lot of bankers last night at the HSBC event. I see most of the bankers, they're sitting there waiting for the technology companies to come to them, waiting for the bankable projects to come to them. But what we need now is we go out and create bankable projects. This requires the bankers to know technology and understand the new technologies that can reduce the cost of services and production so that we can assemble these projects.",
+      "The real problem, especially the global south’s system of finance, is that they don't lack money, but they lack bankable projects. In fact, I quoted a number yesterday saying that 90% of the green projects proposed to the local banks in emerging markets are being rejected, which means that we need a lot of service, a lot of help making these projects more bankable, especially using the proper technology.",
+      "Akshat Rathi",
+      "Thank you, Ma Jun.",
+      "Ma Jun",
+      "Thank you very much.",
+      "Akshat Rathi",
+      "And thank you for listening to Zero. This episode was recorded live at Hong Kong Green Week. Now for the sound of the week. That's not the sound of a chainsaw chopping through a tree. That's the sound of a lyrebird, an incredible natural mimic that lives in Australia.",
+      "If you liked this episode, please take a moment to rate and review the show on Apple Podcasts YouTube and Spotify. This episode was produced by Oscar Boyd. Special thanks to the team at BloombergNEF and also to Sommer Saadi, Ishika Mookerjee and Alyssa McDonald. I’m Akshat Rathi, back soon."
+     ],
+     "title_zh": "中国7万亿美元绿色金融市场内幕",
+     "summary_zh": "中国绿色金融崛起为全球超级力量，前央行首席经济学家马骏探讨其发展路径及他国借鉴之道。"
+    },
+    {
+     "title": "Small City in Greece Hopes Huge Data Center Will Revive Local Economy",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/small-city-in-greece-hopes-huge-data-center-will-revive-local-economy",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/small-city-in-greece-hopes-huge-data-center-will-revive-local-economy",
+     "published_cst": "2026-09-17T04:00:09+08:00",
+     "time": "09-17 04:00",
+     "body": [
+      "The central square in Kozani has what you’d probably expect from a small Greek city. There’s an Orthodox church, the mayor’s office and a crop of tavernas and cafes. There’s little to suggest it lies at the heart of a transition that the country has a lot riding on.",
+      "Where lignite coal was once heaped to feed a power station near Kozani, electricity provider Public Power Corporation SA plans to build one of Europe’s largest data centers. It’s part of a €5.8 billion ($6.7 billion) investment to turn the former lignite mining area into a technology and clean energy hub.",
+      "It’s also the sort of project that’s spawned protest movements from Sacramento to Scotland amid claims that they drain power, water and land. In Kozani, though, it’s being seen as a potential lifeline, a test of Europe’s ability to scale up in a place that might actually welcome  a data center, and of faith in the Greek government ahead of elections expected next spring.",
+      "Prime Minister Kyriakos Mitsotakis has gone all-in on Kozani’s regional regeneration. As well as the hopes of one of Greece’s poorest regions, it reflects the revival of PPC, which raised money from the stock market this year.",
+      "The company, whose biggest shareholder is the Greek state, accounts for about 40% of the Western Macedonia’s economic output and the aim is to ensure that most of that is replaced by new activity.",
+      "“The most important thing is to give the region prospects,” said Theodoros Pilalidis, a pensioner in Kozani who worked for 33 years in PPC’s lignite mines. “That’s not the case so far.”",
+      "Indeed, locals complain that since the government declared an end of lignite power plants in 2019, the jobs haven’t yet arrived that are needed to mitigate the impact. Mitsotakis said on a visit to the region last month that more, better jobs would come as he promised “to mobilize all available European resources so that we can support Western Macedonia in this truly difficult transition.”",
+      "In the meantime, the lignite-fired Agios Dimitrios plant 18 kilometers from Kozani has ceased operations after a gradual decommissioning. PPC said that 58 workers remain there compared with 420 at the start of the year.",
+      "Lignite mining, meanwhile, has all-but finished, with any remaining coal going to feed PPC’s other big plant in the area, Ptolemaida V. That facility will stop using lignite by the end of the year.",
+      "Kozani Mayor Yiannis Kokkaliaris lauded the data center and energy projects planned for his region. But he questioned whether they’ll be enough to offset job losses.",
+      "“No one is saying that the units should not be closed, but they should tell us exactly what will happen the next day in our region,” the 49-year-old mayor said in an interview in his office in July before Mitsotakis’s visit. “If there were a similar business that would be better environmentally with 3,000 employees and the same or similar salaries, there would be no problem.”",
+      "Kozani is very much a company town. Everyone knows someone who works for PPC or is related to them. At the peak in 2010, PPC employed about 5,500 people in the Western Macedonia region. The region is also famous for its saffron, though that industry employs a fraction of the people.",
+      "“We’re ready for the next step,” said Paraskevi Georgiou, 50, who works at the Ptolemaida power plant. Her father was also a PPC employee and she has worked for the company since 2010. “So far, PPC has not shown us that it has abandoned us or that it’s not by our side, or that it will leave us to an uncertain future.”",
+      "Walk a little further from Kozani’s busy central square and the boarded-up storefronts betray signs of better times.",
+      "Some 650 shops out of a total of 1,500 have now closed, said Athanasios Dragatsikas, head of Kozani’s trade association and owner of a department store in the city’s center. Young people have been abandoning the area in droves.",
+      "“The worst thing you can do to people is to make them feel despair,” Dragatsikas said on the top floor of his department store. “They have seen nothing all these years, not even a little light.”",
+      "The government and PPC say that’s going to change as Greece scales up to cater to demand for AI.",
+      "The company, whose future was in doubt when Greece decided to phase out lignite, will develop the 300-megawatt data center in Kozani by the end of 2028 in addition to green energy projects in the area. The center will be designed with the potential to expand to a gigawatt by 2031.",
+      "PPC is currently in talks with so-called hyperscalers to find a company that would lease the data center. One of the key selling points is that the power supply will be provided through PPC’s regional energy network under a long-term power purchase agreement without putting pressure on Greece’s electricity grid. The data center is expected to need about 0.6% of the water the lignite operations required, PPC said.",
+      "Demand for data centers in Europe continues to accelerate, driven by AI. But growth is increasingly constrained by energy availability and grid readiness, according to the European Data Centre Association. The number of data centers worldwide has grown from 500,000 in 2021 to about 8 million today, with electricity consumption nearly doubling from 2022 to 2026.",
+      "“The multipliers in the economy from the creation of a data center are very large,” said Alexandros Soumelidis, a former manager of one of the plants near Kozani who now oversees PPC’s development projects in the region.",
+      "Locals are also no strangers to impact on the environment. For decades, they were used to living in a place where for a lot of the time, smoke from burning coal replaced clouds. What concerns them is whether there will be jobs that can halt an exodus to Athens or Thessaloniki, Greece’s biggest cities, or abroad.",
+      "“We welcome any investment that comes here — it’s jobs,” said Giannis Fasidis, president of the Spartakos PPC workers labor union said. Only one thing is non-negotiable, he said, that any project must be done by PPC employees.",
+      "Currently, PPC has around 1,250 workers in the region. At the peak of construction work, some 7,500 workers will be required, Soumelidis said. The projects will create at least 2,200 permanent jobs, of which 1,500 people will be needed for the data center operation when it reaches 1 GW, he said.",
+      "The transition is also designed to shift the focus of the local economy toward startups and IT businesses.",
+      "PPC is working with the University of Western Macedonia in Kozani to create educational programs that will help students become specialists in what the new projects will need. Just as the company created a satellite economy around lignite mining and power generation, the next one will be around the new data center, said Theodoros Theodoulidis, the university’s rector.",
+      "“What is missing from the region is a large investment to change the psychology,” said Theodoulidis, whose father was a lignite miner. Apart from PPC’s projects, there’s nothing else, “so we must embrace this large investment.”"
+     ],
+     "title_zh": "希腊小城希望大型数据中心重振当地经济",
+     "summary_zh": "希腊科扎尼前褐煤矿区将建欧洲最大数据中心之一，总投资58亿欧元，助力区域转型与清洁能源发展。"
+    },
+    {
+     "title": "The French Election Is Ignoring the Bond Market",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-17/the-french-election-is-ignoring-the-bond-market",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-17/the-french-election-is-ignoring-the-bond-market",
+     "published_cst": "2026-09-17T04:00:07+08:00",
+     "time": "09-17 04:00",
+     "body": [
+      "The chief executive officer of insurance company AXA SA, Thomas Buberl, didn’t mince words Tuesday about the severity of France’s debt problem as global bond yields rise and the country’s risk premium over Germany hits its highest level in more than a decade. He called for reforms to get public finances under control and said a proposal by the far left to cancel debt held at the central bank was “dangerous” and “play(ing) with fire.”",
+      "He’s right, of course. But even as the clock ticks down to a presidential election in the spring, one wonders who’s listening.",
+      "A weekend poll showing French voter concerns suggests the country’s debt mountain, rising interest bill and persistent deficits have yet to fully cut through as an urgent priority. Concern about public finances is rising, but remains below the cost of living, the future of the social safety net, immigration levels and the environment. While markets flash red over France’s elevated borrowing costs and the government searches for billions in savings, the public is focused on the price of gasoline rising past 2022 levels and fishermen are protesting over pay.",
+      "The same poll showed a profound desire for change — but not of the pragmatic reformist kind that might benefit Emmanuel Macron’s would-be successors in the political center. The two presidential frontrunners right now are of the revolutionary variety and see no bond-market ships. Far-right leader Marine Le Pen is still promising to cut the retirement age to 62 from 64 and to save money by reducing immigration and spending on Europe. Far-left firebrand Jean-Luc Melenchon, polling just ahead of center-right contender Edouard Philippe in the No. 2 spot, has gleefully discovered that all the rational pushback in the world can’t extinguish a deceptively simple idea like canceling debt.",
+      "And then there’s the center itself, so inaudible that the cover of French magazine L’Express dismissed its candidates as “The Extras.” Former Macronist premier Philippe is the closest in theory to a reformist, but his entourage is nervous about running on a bean-counter platform; the result is a hesitant campaign with plenty of technical details, part of a self-described “tortoise strategy.” Center-left candidate Gabriel Attal, another former Macronist prime minister, is a fan of headline-grabbing trial balloons such as legalizing surrogacy. Together, their poll numbers would be enough to make the runoff, provided one pulls out to endorse the other; but Le Pen is the current favorite to win, whomever she faces.",
+      "This is surreal stuff. An optimist might say there’s still time for things to change. Seriousness tends to arrive late in French elections, after the primaries and polls weed out the minnows and consolidate a crowded field. The current government under Prime Minister Sebastien Lecornu is also speaking honestly about what rising bond yields mean for the developed world’s biggest public spender, telling ministers in not so many words that there is no money left. The cost of servicing French debt is set to rocket to €65 billion ($75 billion) this year, broadly equivalent to its defense budget.",
+      "A realist might question whether the bond market entering the chat, as it were, will make enough of a difference. France is a land of near-ubiquitous fixed-rate mortgages, meaning tighter financial conditions take time to trickle down to homeowners. Meanwhile, anxious consumers are already cutting back and relying on savings, in keeping with twin pressures of inflation and near-recessionary economic growth. This is an electorate that might have trouble hearing the necessary message: The French work less and retire earlier than their European counterparts, pension outlays of approximately half the budget deficit are too high and taxing the private sector won’t fix the problem.",
+      "The other issue is that the centrist candidates know this so well that they have given up trying to hit on a radical message of their own. Talking up reform potential or criticizing populist ideas is an invitation to be dubbed part of the “failed system” that has driven France to its current ruinous state (a taunt that is admittedly hard to rebut). The result is a preference for a decent and reasonable set of half measures that promise a silent and painless age of fiscal rehabilitation rather than a short, sharp shock. That message has remained inaudible over the angry din.",
+      "If the AXA CEO’s words should be a call to arms for anyone, it’s the political center. Its cluster of candidates seems to be operating on an iOS from a decade ago, when geopolitics was predictable and inflation benign. Recent polls tracking favorability ratings in Europe put leaders like the UK’s Andy Burnham, Denmark’s Mette Frederiksen and Italy’s Giorgia Meloni on top — while clearly from different political camps, their ability to capture issues like the cost of living, immigration and realpolitik should be studied by France’s centrist contenders. The candidates must also try to give the French a clear destination or vision, however painful or long the economic path to get there.",
+      "As Buberl says, the extremes of French politics are indeed playing with fire — but the extinguisher has yet to be found.",
+      "More from Bloomberg Opinion:",
+      "Want more from Bloomberg Opinion? OPIN <GO>. Web readers, click here. Or subscribe to our daily newsletter."
+     ],
+     "title_zh": "法国大选无视债市",
+     "summary_zh": "安盛CEO警告法国债务问题严重，称极左取消央行债务提议危险。民调显示选民更关注生活成本，极右与极左候选人领先，改革派声音微弱。"
+    },
+    {
+     "title": "AI Boom: How to Stop Data Centers From Taking Too Much Electricity",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-17/ai-boom-how-to-stop-data-centers-from-taking-too-much-electricity",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-17/ai-boom-how-to-stop-data-centers-from-taking-too-much-electricity",
+     "published_cst": "2026-09-17T04:00:05+08:00",
+     "time": "09-17 04:00",
+     "body": [
+      "The rapid expansion of data centers has become one of the most tangible expressions of the artificial intelligence revolution. But debate about their environmental, economic and social impact threatens their future development. And rightly so. Although the digital economy is often seen as weightless, every cloud service and AI application depends on massive physical infrastructure that takes up land, consumes energy, uses water and requires ever-increasing investment.",
+      "International experience suggests that as the data center industry scales up, tensions emerge. In Ireland, data centers accounted for 21% of the country’s electricity consumption in 2023 and could reach 32% this year. In the US, their share of demand is expected to triple from 4% in 2023 to a projected 12% by 2028. No surprise, then, that this is a source of growing political and public concern. A Gallup poll found that 71% of Americans oppose data center construction in their local community.",
+      "Beyond concerns over energy and water consumption, evidence increasingly points to other unwelcome local effects. Researchers at Cambridge University have identified what they call a “data heat island effect,” whereby large facilities can raise temperatures in surrounding areas. And a recent study by researchers from Yale and the University of Chicago found that the development of a new data center is associated with an increase in nearby housing prices.",
+      "Given these realities, the question isn’t whether data centers are needed — they are — but how they are developed. What type of data centers do we need? And who will govern their expansion?",
+      "Economic experience teaches a simple lesson: that proactive regulation is more effective than reactive intervention. And it’s certainly much better than no intervention at all. Having clear rules from the start makes it possible to separate responsible projects from unsustainable ones, align private incentives with public interests and ensure that investment and growth go hand in hand with protecting critical resources and communities.",
+      "International experience is, again, instructive. Ireland tightened its rules only after data centers became a major source of pressure on the electricity grid. In the US, the state of New York has adopted a temporary moratorium, and a growing number of projects have faced delays or cancellation as local resistance intensified. The lesson could not be plainer: Failing to plan and regulate up front ends up being costlier and less effective.",
+      "Spain is still a long way from facing that kind of pressure. And yet, our healthy economy and renewable capacity has sparked huge investor interest in building data centers, meaning their energy needs are certain to outstrip expectations. Current estimates of electricity demand for computing power run as high as 4 gigawatts by 2030, but requests and permits granted for this type of facility exceed that target several times over.",
+      "While many of these projects are unlikely to materialize, the rapid upward trend is obvious. We are approaching a tipping point, and we must act to stay ahead. In August, my government launched a public consultation on a new regulatory framework designed to do exactly that. The proposal starts from a straightforward principle: Access to the electricity grid is a scarce strategic asset and should not be held up by projects that lack credibility, viability or a meaningful contribution to the economy and society.",
+      "Our proposal introduces energy- and water-efficiency standards. Data centers will have to disclose key performance indicators, letting us assess and compare their resource use and discourage waste.",
+      "Any increase in electricity demand must also be accompanied by additional renewable capacity. The framework includes requirements to make sure that a significant portion of data center consumption is supported by newly built clean-energy projects. The logic is economic and environmental.",
+      "Large new power consumers should not compete with existing demand or drive greater reliance on fossil fuels; they should help catalyze investment in the energy transition.",
+      "The regulation recognizes, too, that data centers are a strategic asset. In a world where Europe still relies heavily on non-European digital capabilities, the framework combines safeguards on how data is controlled — and how the infrastructure is managed — with incentives designed to expand Europe’s technology sector and strengthen the continent’s sovereignty.",
+      "Our objective must be to trade in bytes, not in watts. Spain wants to fully capture the opportunities created by data centers and AI. Yet the challenge is making sure the infrastructure expands in line with the capacity of the power system, that valuable energy resources are directed toward useful projects and that this all makes Europe less dependent technologically.",
+      "The goal is not to slow down growth or constrain innovation. Quite the opposite: It is to ensure that they remain economically sustainable, and environmentally and socially fair. Countries that understand this will be the ones best positioned to lead the next phase of the digital economy.",
+      "More from Bloomberg Opinion:",
+      "Want more from Bloomberg Opinion?   OPIN <GO>. Web readers, click here. Or subscribe to our daily newsletter."
+     ],
+     "title_zh": "AI热潮：如何阻止数据中心耗电过多",
+     "summary_zh": "数据中心扩张引发环境与资源争议，爱尔兰2023年占用电21%，美国预计2028年达12%，多地反对加剧。"
+    },
+    {
+     "title": "Ethiopia Bourse Approves 11 New Listings, With One Next Week",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/ethiopia-bourse-approves-11-new-listings-with-one-next-week",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/ethiopia-bourse-approves-11-new-listings-with-one-next-week",
+     "published_cst": "2026-09-17T04:00:00+08:00",
+     "time": "09-17 04:00",
+     "body": [
+      "The Ethiopian Securities Exchange has given in-principle approval for 11 listings, almost tripling the number of publicly traded firms if all of them come to market.",
+      "The first of the firms, which operates in the financial-services industry, will begin trading next week, Chief Executive Officer Yodit Kassa said in an interview in the Kenyan capital, Nairobi, declining to identify the company.",
+      "“If all goes well, early January we should see at least six of them coming to the market,” she said on the sidelines of the Sustainable Capital Markets Conference.",
+      "ESX, as the bourse is known, currently has six listings comprising Ethio Telecom S.C. and five lenders: Abay Bank S.C., Awash Bank S.C., Bank of Abyssinia S.C., Gadaa Bank S.C. and Wegagen Bank S.C.",
+      "The exchange debuted in January 2025 to help attract capital into an economy that has been largely closed to foreign investment for decades. It has a total of 22 market intermediaries including seven investment banks.",
+      "State-owned Ethio Telecom, the first company to launch an initial public offering, is attracting a lot of interest from Ethiopians in the diaspora, who had been locked out because IPO was restricted to investors within the Horn of Africa nation, Yodit said.",
+      "ESX began a money market three months before it started trading in stocks. About $23 billion has been transacted on the interbank market in the past 18 months. It also has 48 treasury bills listed on the bourse although secondary-market trading is yet to take place.",
+      "“We are able to see opportunities around the debt market, which is not what exchanges focus on,” Yodit said. “We still have more to do because we haven’t seen activity on the secondary market for T-bills.”",
+      "Sign up here for the daily Next Africa newsletter and subscribe to the Next Africa podcast on Apple, Spotify or anywhere you listen."
+     ],
+     "title_zh": "埃塞俄比亚交易所批准11只新股上市，其中一只下周挂牌。",
+     "summary_zh": "埃塞俄比亚证券交易所初步批准11家公司上市，若全部挂牌，上市公司数量将接近翻三倍。"
+    },
+    {
+     "title": "Czechs Set to Hold Rates as Energy Risks Boost Tightening Bets",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/czechs-set-to-hold-rates-as-energy-risks-boost-tightening-bets",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/czechs-set-to-hold-rates-as-energy-risks-boost-tightening-bets",
+     "published_cst": "2026-09-17T04:00:00+08:00",
+     "time": "09-17 04:00",
+     "body": [
+      "Czech policymakers are poised to hold interest rates for a second meeting, even as concerns over surging oil prices and a widening budget deficit fuel bets on more tightening to come.",
+      "The Czech National Bank will hold the benchmark rate at 3.75% on Thursday, according to the forecasts of all economists in a Bloomberg survey.",
+      "Officials delivered their first hike in four years in June to help tame price growth. But while headline inflation in August remained below target, the central bank said last week that the “elevated” outlook for 2027 warranted “increased caution in monetary policy.”",
+      "Money market rates indicate that investors have boosted bets on more hikes after the Middle East hostilities pushed the Brent crude price back above $100 a barrel this month.",
+      "A widening budget deficit is adding to concerns about the impact of soaring energy prices as Prime Minister Andrej Babis’s government seeks to ramp up spending on infrastructure, health care and defense. The billionaire premier himself reiterated his criticism of the central bank’s “incomprehensible” policy this week, saying high mortgage rates are making housing less affordable.",
+      "Read more: Czechs Plan Second-Highest Budget Gap Ever to Boost Investment",
+      "Still, central bank officials are also closely watching core inflation, which excludes the most volatile items like food and energy. That measure has been hovering near 3% due to strong domestic demand, suggesting price pressures haven’t been “completely trampled into the ground,” board member Jan Kubicek was quoted by the Novinky.cz website last week.",
+      "Forward rate agreements indicate market expectations of at least one more quarter-point hike this year and about four such increases in total within the next 12 months, though Kubicek said that seemed “excessive.”",
+      "Economists at Komercni Banka AS said that while the benchmark would probably remain at its current level for an extended period of time, more hikes couldn’t be ruled out.",
+      "“Energy-related risks and a public finance deficit of 3.5% of gross domestic product next year, compared with the central bank’s August forecast of 2.9%, are skewing the risk of the CNB tightening its monetary policy further,” Komercni Banka analyst Jaromir Gec said in a note."
+     ],
+     "title_zh": "捷克料维持利率不变 能源风险推升紧缩押注",
+     "summary_zh": "捷克央行预计将基准利率维持在3.75%不变，但油价飙升和预算赤字扩大令市场押注未来将进一步加息。"
+    },
+    {
+     "title": "Australia's Housing Slump to Slow Economy, Assist RBA, HSBC Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/australia-s-housing-slump-to-slow-economy-assist-rba-hsbc-says",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/australia-s-housing-slump-to-slow-economy-assist-rba-hsbc-says",
+     "published_cst": "2026-09-17T03:41:51+08:00",
+     "time": "09-17 03:41",
+     "body": [
+      "Australia’s housing downturn is set to weigh on economic growth and help the Reserve Bank in its campaign to drag inflation back to its 2-3% target band, according to HSBC Holdings Plc.",
+      "HSBC’s Paul Bloxham pointed to a series of channels through which a deteriorating property market will cool the economy, headlined by the negative wealth effect, in a research note released Thursday. Under this, a 5% fall in housing typically weakens consumer spending by 0.8% over two years.",
+      "Based on HSBC’s forecast 13% peak-to-trough drop in home prices, this would see 1% less gross domestic product “over time,” he said.",
+      "Other factors include:",
+      "Governor Michele Bullock has been upfront that the RBA’s three interest-rate increases from February to May are aimed at slowing economic growth to ease price pressures. Economists and traders reckon the bank will hike again as soon as late this month to take the cash rate to 4.6%, exerting more downward pressure on property prices.",
+      "Read more: One of World’s Longest Housing Booms Is Cracking in Sydney",
+      "The RBA and Bullock have also pointed out that the economy is running up against capacity constraints, further fueling price gains.",
+      "“The overall weakening of growth will help the RBA to get inflation to head back to target,” said Bloxham, HSBC’s chief economist for Australia. “In a supply-constrained economy, an economic downturn is needed to get inflation to fall.”",
+      "The RBA has been battling to bring underlying inflation down to the 2.5% midpoint of its target for almost five years and only anticipates it will do so in early 2028."
+     ],
+     "title_zh": "汇丰：澳大利亚楼市低迷将拖累经济，助澳洲联储一臂之力",
+     "summary_zh": "汇丰预计澳大利亚房价下跌13%将拖累GDP约1%，有助于澳央行将通胀拉回2-3%目标区间。"
+    },
+    {
+     "title": "EU Warns MMG-Anglo Nickel Deal May Hurt Competition, Lift Prices",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/eu-warns-mmg-anglo-nickel-deal-may-hurt-competition-lift-prices",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/eu-warns-mmg-anglo-nickel-deal-may-hurt-competition-lift-prices",
+     "published_cst": "2026-09-17T03:05:06+08:00",
+     "time": "09-17 03:05",
+     "body": [
+      "The European Commission warned that MMG Ltd.’s proposed purchase of Anglo American Plc’s nickel business may restrict competition and raise costs for stainless steel producers in Europe.",
+      "Anglo American agreed last year to sell its nickel operations in Brazil to China’s MMG for as much as $500 million, prompting EU regulators to investigate due to fears that the buyout could jeopardize supplies of ferronickel, a raw material for stainless steel.",
+      "In a preliminary opinion on Wednesday, the Commission said it’s particularly concerned that MMG would divert low-carbon ferronickel supply away from European markets, which may result in higher prices for stainless steel.",
+      "“Such a diversion of supply, combined with limited alternative supply sources, could adversely affect the price of low-carbon ferronickel” with negative implications for European stainless steel producers and costs, the Commission said.",
+      "MMG can now respond to the EU and request an oral hearing. The Commission has until Nov. 30 to make a final decision.",
+      "“Blocking this acquisition would create a lose-lose outcome for all stakeholders,” said Troy Hey, MMG’s executive general manager for corporate relations. “Rather than strengthening competition, it threatens to limit investment and jobs in Brazil and remove supply from the market.” He said the company will make a full response to the EU’s objections.",
+      "MMG’s acquisition of Anglo’s business would enhance China’s grip on global supplies of nickel, which includes major investments in Indonesia. The Hong Kong-listed firm operates projects from Australia to Africa and South America and is controlled by state-owned mining-to-trading giant China Minmetals Corp."
+     ],
+     "title_zh": "欧盟警告MMG-Anglo镍交易或损害竞争推高价格",
+     "summary_zh": "欧盟警告中国五矿收购英美资源镍业务或限制竞争、抬高欧洲不锈钢成本，最终决定截止11月30日。"
+    },
+    {
+     "title": "Tropical Storm Set to Drench Tokyo Over Long Holiday Weekend",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/tropical-storm-set-to-drench-tokyo-over-long-holiday-weekend",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/tropical-storm-set-to-drench-tokyo-over-long-holiday-weekend",
+     "published_cst": "2026-09-17T03:03:36+08:00",
+     "time": "09-17 03:03",
+     "body": [
+      "A tropical storm in the Western Pacific Ocean is set to strengthen in the coming days and track toward Japan, threatening strong winds and heavy rain over the country’s ‘silver week’ holidays.",
+      "Tropical Storm Dujuan is currently 832 kilometers (517 miles) northeast of Guam, and is forecast to rapidly gain power as it passes over very warm waters, according to the US’s Joint Typhoon Warning Center. The system will likely bring heavy rainfall to a part of eastern Japan, including Tokyo, that’s already been drenched by two weeks of record precipitation, raising landslide and flood risks.",
+      "Dujuan will be the 10th tropical cyclone to affect Japan since June, a busier-than-usual storm season for the country that’s been fueled by the El Niño weather pattern, according to the Japan Meteorological Agency. It’s forecast to come closest to Japan on Monday, right in the middle of a five-day holiday that runs through Sept. 23. It’s still unclear if the cyclone will make landfall.",
+      "“In areas already affected by heavy rain, further rainfall could increase the risk of landslides and river flooding,” said Takahisa Nishikawa, senior decision support meteorologist at Atmospheric G2. “Even an offshore track would not eliminate these risks,” he said, adding that Chiba Prefecture, near Tokyo, could be particularly hard-hit.",
+      "The unusually active storm season is already having an economic impact on the country. There was a 10% year-on-year drop in foreign visitors to Japan in August as cyclones disrupted flights. Chiba, an industrial hub, is still recovering from record rains last month.",
+      "JTWC and JMA forecasts both show Dujuan charting a path that keeps it offshore as it nears Tokyo early next week. A direct hit is possible though, with the European Centre for Medium-Range Weather Forecasts estimating a 40% chance of landfall over the Kanto region, which includes Tokyo and Chiba.",
+      "Rains are forecast to increase over Kanto from the weekend, and intensify as Dujuan gets closer, according to commercial forecaster Weathernews Inc. The region has already seen the most precipitation on record for the first half of September, the JMA said."
+     ],
+     "title_zh": "热带风暴将在长周末给东京带来暴雨",
+     "summary_zh": "台风“杜鹃”将增强并逼近日本，或于“银周”假期带来强风暴雨，加剧洪灾和滑坡风险。"
+    },
+    {
+     "title": "Indonesia to Review Staff Rotations Linked to Finance Chief Swap",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/indonesia-to-review-staff-rotations-linked-to-finance-chief-swap",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/indonesia-to-review-staff-rotations-linked-to-finance-chief-swap",
+     "published_cst": "2026-09-17T02:54:04+08:00",
+     "time": "09-17 02:54",
+     "body": [
+      "Indonesia’s Finance Ministry is reviewing a surprise reshuffle of hundreds of staff that former minister Purbaya Yudhi Sadewa said helped trigger his dismissal.",
+      "The ministry will review the recent rotations after considering input from various department heads, newly appointed Finance Minister Suahasil Nazara told reporters late Wednesday after meeting with President Prabowo Subianto in Jakarta.",
+      "“We will make sure that there is good coordination and synergy within the Finance Ministry,” he said.",
+      "Purbaya last week rotated at least 400 staff across various departments, including large numbers of employees in the ministry’s tax and customs offices, angering their leaders and causing confusion, according to people familiar with the situation. He later said the rotations “partly” contributed to his ouster as minister on Monday.",
+      "Read: Indonesian Power Politics, Not Markets, Forced Out Purbaya",
+      "At the tax office, some names had been “magically” added to the rotation list despite not having gone through the proper selection process, Tax Director-General Bimo Wijayanto said on the sidelines of a conference in Jakarta on Wednesday, local media reported.",
+      "Wijayanto said he and the director general of customs had asked that the planned rotations be delayed or canceled after finding indications that some names had bypassed the selection process, warning that proceeding could send a bad signal to staff who had gone through assessments.",
+      "Any tax office rotations that had not followed proper procedures would be canceled, he said."
+     ],
+     "title_zh": "印尼将审查与财长更替相关的人员轮换",
+     "summary_zh": "印尼财政部将审查前部长普尔巴亚推动的400余人突袭式人事调整，新任部长称将确保内部协调。"
+    },
+    {
+     "title": "Copper Steadies as Traders Shrug Off Fed's Hawkish Rate Signals",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/copper-steadies-as-traders-shrug-off-fed-s-hawkish-rate-signals",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/copper-steadies-as-traders-shrug-off-fed-s-hawkish-rate-signals",
+     "published_cst": "2026-09-17T02:36:16+08:00",
+     "time": "09-17 02:36",
+     "body": [
+      "Copper steadied as traders shrugged off hawkish messaging from the Federal Reserve chair following a widely expected interest rate hike.",
+      "Futures were little changed on the London Metal Exchange as the dollar strengthened. Policymakers at the US central bank penciled in an additional increase for later this year, a potential headwind for non-yielding assets like metals.",
+      "Copper is still consolidating after a long run to a record last week, driven by bets the US would hit the refined metal with tariffs. That sucked vast quantities into American stockpiles, triggering concerns about a supply squeeze elsewhere.",
+      "So far the US has held off on new trade measures, putting that rally in doubt. Expectations of high demand from data centers and renewable energy, as well as supply disruptions at key mines, are still providing support.",
+      "“Reports of no US copper tariffs unwound some of the physical market speculation,” RBC Capital Markets analyst Sam Crittenden said in a note. “Despite near-term price weakness, fundamentals remain constructive.”",
+      "Copper was 0.2% lower at $14,202.50 a ton on the LME at 10:30 a.m. in Singapore. Other metals were mixed, with aluminum down 0.5% while nickel added 0.4%.",
+      "Iron ore futures rose 0.2% to $96 a ton in Singapore."
+     ],
+     "title_zh": "铜价企稳，交易员无视美联储鹰派利率信号",
+     "summary_zh": "美联储加息后铜价企稳，伦铜微跌0.2%至14202.50美元，市场关注美国关税与供应前景。"
+    },
+    {
+     "title": "Tata Sons Board Takes Up RBI's IPO Mandate and a Leadership Dilemma",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-17/tata-sons-board-takes-up-rbi-s-ipo-mandate-and-a-leadership-dilemma",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-17/tata-sons-board-takes-up-rbi-s-ipo-mandate-and-a-leadership-dilemma",
+     "published_cst": "2026-09-17T02:34:58+08:00",
+     "time": "09-17 02:34",
+     "body": [
+      "Good morning... I’m Alex Gabriel Simon in Mumbai, where Tata Sons’ board meeting is set to take center stage.The stakes are high as the board of Tata Group’s holding company meets Thursday to discuss how to handle a share listing mandated by India’s central bank, and whether outgoing Chairman Natarajan Chandrasekaran should be asked to stay on. We bring you more details on that below.The other big focus for investors is the National Stock Exchange of India Ltd.’s long-awaited initial public offering. The bourse starts taking orders Thursday, testing investor appetite for a valuation that remains rich compared with some of the world’s biggest listed exchanges.The benchmark NSE Nifty 50 advanced 0.4% on Wednesday. The fact that it was the biggest daily gain in about three weeks says something about just how lackluster the market has been, with foreign investors once again turning net sellers of Indian stocks in September. They were buyers in the previous two months.Meanwhile, global markets have largely taken in stride the Federal Reserve’s widely expected interest-rate hike, its first since 2023. A further decline in oil prices has helped buoy investor sentiment.In today’s newsletter, we write about:",
+      "Tata Sons’ board meets today with two pressing issues on the table: how to respond to the Reserve Bank of India’s IPO directive, and whether outgoing Chairman Natarajan Chandrasekaran should be asked to stay on. We answer three important questions.",
+      "Why has the meeting taken on greater significance?",
+      "The RBI’s refusal to ease listing rules for Tata Sons has turned what was a routine board meeting into a discussion over whether the company should comply with or challenge the central bank’s decision. It has sought to preserve its closely held structure, which allows Tata Trusts to retain control and limits public disclosure.",
+      "Could Tata Sons challenge the RBI?",
+      "The board is expected to discuss whether to comply or seek legal relief. The central bank has filed a caveat in the Bombay High Court, ensuring its position is heard if Tata Sons approaches the court. One consolation, if any, for the Tata group is that the RBI has not given a timeline for the IPO.",
+      "Why is Chandrasekaran’s future back in focus?",
+      "A last-minute addition to the meeting agenda is a discussion of the Nomination and Remuneration Committee’s recommendations, according to people with knowledge of the matter. The so-called NRC is expected to recommend asking Chandrasekaran to reconsider his decision to step down, the people added, asking not to be identified discussing internal matters.",
+      "Brokerages may have to rethink pricing model",
+      "India’s retail stockbrokers are facing another potential squeeze on profitability with the introduction of merchant discount rates on UPI payments. Currently, brokers allow clients to transfer money into trading accounts without charge. Rules require brokers to periodically return unused client funds to their bank accounts. However, with charges on UPI, this could come at a cost “without any incremental benefit or revenue,” Zerodha co-founder Nithin Kamath said in a social media post. Industry players say the added expense could force some brokers to rethink their pricing and payment strategies. Firms may encourage clients to use funding channels such as net banking or reassess brokerage charges and free services as margins come under pressure.",
+      "Two-wheeler stocks rally on recovery in exports",
+      "Two-wheeler stocks have outperformed a Nifty gauge of auto stocks by a wide margin since the start of July, helped in part by a recovery in exports across Latin America, Africa and Asia. According to Kotak, demand in Latin America has been supported by motorcycles being used for work, while Africa has benefited from a strong motorcycle-taxi market and better access to foreign currency. In Asia, dealers rebuilding inventories has also helped. Kotak expects the pace to cool from fiscal 2028 as pent-up demand fades and comparisons get tougher. It also sees TVS growing faster than Bajaj, largely because more of the next leg of growth is expected to come from Africa, where the former has a stronger presence.",
+      "Strong SIP flows to underpin asset managers’ growth: Antique",
+      "The mutual fund industry’s assets kept growing in August, helped by fresh inflows and market gains. According to Antique, investors continued to favor small-cap, mid-cap and flexible equity funds, while large-cap funds saw outflows for a second straight month. Passive products also gained ground, with gold and silver ETFs seeing particularly strong demand. SIP contributions hit a new high, underlining the steady rise in retail participation. Antique remains positive on asset managers, citing the shift of household savings into financial products and deeper SIP adoption. Top pick: Nippon Life India Asset Management. The brokerage has trimmed earnings estimates for ICICI Prudential AMC and HDFC AMC, citing softer equity inflows.",
+      "India’s biggest stocks may be set for a comeback after lagging the broader market. A record 65% of the members of the Nifty 500 have beaten the index over the past six months, as weakness in the biggest stocks has dragged on the benchmark. If history is any guide, that trend may start to reverse as higher-rate worries at home make investors more cautious and inclined to favor large stocks. Also, oil’s rise above $100 a barrel is adding to those concerns by stoking inflation, while higher global bond yields are making stocks less attractive. Smaller stocks could be hit harder in such a setting because their valuations rely more heavily on expectations of strong earnings growth.",
+      "MORE: Check out Bloomberg’s Emerging, a monthly podcast series hosted by Menaka Doshi and Haslinda Amin on the rising economies shaping the global future. In episode two, Menaka explores how the AI boom is reshaping electricity demand and whether it could strain power grids. You can watch it here or listen on iHeart, Apple, Amazon, or Spotify.",
+      "Save the date: Bloomberg New Economy Forum - New Delhi: This October, the Bloomberg New Economy Forum convenes its global community of business and public-sector leaders under the guiding theme, “A World in Play: Defining the New Levers of Power.” This year’s Forum, held Oct. 13-15 in New Delhi, will examine the shifting geopolitical landscape and explore the risks and opportunities reshaping the global economy. Visit BloombergNewEconomy.com/India to learn more.",
+      "Thank you for reading Markets Daily India. If you haven’t yet, sign up here. Got feedback and ideas? Send them our way at marketsindia@bloomberg.net."
+     ],
+     "title_zh": "塔塔之子董事会讨论印度央行IPO要求及领导层困境",
+     "summary_zh": "塔塔集团董事会今日开会，讨论印度央行强制上市要求及挽留即将卸任的董事长钱德拉塞卡兰。"
+    },
+    {
+     "title": "Russia Taps North Korean Workers to Make Drones Under Fake Visas",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/russia-taps-north-korean-workers-to-make-drones-under-fake-visas",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/russia-taps-north-korean-workers-to-make-drones-under-fake-visas",
+     "published_cst": "2026-09-17T02:21:35+08:00",
+     "time": "09-17 02:21",
+     "body": [
+      "Russia is increasingly mobilizing North Korean workers to build military drones for use against Ukraine in defiance of international sanctions, giving Pyongyang a key source of revenue to fund its unlawful weapons programs, the US and its allies said in a report.",
+      "Up to 25,000 North Koreans are believed to be working in Russia’s drone industry, including at facilities in Alabuga, Tatarstan, where unmanned aerial vehicles are assembled, the Multilateral Sanctions Monitoring Team said in a report released Wednesday.",
+      "The report said North Korean workers abroad are estimated to have earned up to $800 million for the Kim Jong Un regime last year, providing funds for its unlawful nuclear and ballistic missile programs in violation of UN Security Council resolutions.",
+      "The development underscores how the deepening military ties between Russia and North Korea are expanding beyond weapons and troops into labor and industrial production. Russia gets a new pool of workers for industries supporting its war in Ukraine, while Kim’s regime gains access to foreign currency that helps finance its nuclear and ballistic missile programs, further eroding a sanctions framework Moscow itself once helped enforce.",
+      "North Korean workers in Russia are disguised as students under a visa scheme to evade sanctions, the report said. A North Korean worker there earns an average of $7,500 in wages a year, most of which is confiscated by the Kim regime. In some cases, the forfeited amount exceeds their actual earnings, the report said.",
+      "Read more: Kim Jong Un Flouts Sanctions to Amass $22 Billion Windfall",
+      "Monthly wages earned by North Koreans working in Russia may be up to five times higher than what they can earn in China, making Russia an increasingly lucrative destination for Pyongyang. At the end of 2025, an estimated 20,000 to 70,000 North Korean laborers were working in China, while another 15,000 to 30,000 were in Russia, the report said.",
+      "“DPRK authorities exercise extreme control over laborers’ movement and interactions with outsiders in order to prevent defections, while laborers who do defect risk reprisals against family members remaining in North Korea,” it said. DPRK is the abbreviation for North Korea’s official name, the Democratic People’s Republic of Korea.",
+      "Read more: North Korea’s Nuclear Arsenal Is Outgrowing US Missile Defenses",
+      "The US and its allies, including South Korea and Japan, are part of an 11-nation team that monitors the enforcement of sanctions on North Korea. The group was launched after a Russian veto in 2024 ended the mandate of a United Nations panel that had reported on North Korea’s sanctions evasion and development of its nuclear arsenal for 15 years."
+     ],
+     "title_zh": "俄罗斯利用朝鲜劳工持假签证制造无人机",
+     "summary_zh": "美国及其盟友称俄罗斯动员多达2.5万名朝鲜工人为其建造无人机，去年为朝鲜创收约8亿美元，用于资助其核与弹道导弹项目。"
+    },
     {
      "title": "Nvidia Partner GMI Cloud Seeks Loan to Buy Chips for Thai Site",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/nvidia-partner-gmi-cloud-seeks-loan-to-buy-chips-for-thai-site",
@@ -29,7 +446,7 @@
      "summary_zh": "英伟达合作伙伴GMI Cloud寻求3亿美元贷款，为泰国数据中心购买芯片，腾讯将是芯片用户。"
     },
     {
-     "title": "Singapore's Gold Hub Ambition Gets Lift With DBS Vault Expansion",
+     "title": "Singapore's Gold Hub Plan Gets Lift With DBS Vault Expansion",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/singapore-s-gold-hub-ambition-gets-lift-with-dbs-vault-expansion",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/singapore-s-gold-hub-ambition-gets-lift-with-dbs-vault-expansion",
      "published_cst": "2026-09-17T01:49:39+08:00",
@@ -220,10 +637,28 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 12,
+   "count": 14,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "Pepper…and Salt",
+     "url": "https://www.wsj.com/opinion/pepperand-salt-eb550a28",
+     "link": "https://www.wsj.com/opinion/pepperand-salt-eb550a28",
+     "published_cst": "2026-09-17T04:00:00+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "胡椒……和盐"
+    },
+    {
+     "title": "Warsh Takes Hawkish Turn With Rate Rise and Hints of More to Come",
+     "url": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
+     "link": "https://www.wsj.com/economy/central-banking/warsh-takes-hawkish-turn-with-rate-rise-and-hints-of-more-to-come-d52c6ad9",
+     "published_cst": "2026-09-17T02:52:00+08:00",
+     "time": "09-17 02:52",
+     "body": null,
+     "title_zh": "沃什加息转鹰，暗示还将继续。"
+    },
     {
      "title": "See How Jet Power Is Giving Russia the Edge in the Drone War",
      "url": "https://www.wsj.com/world/see-how-jet-power-is-giving-russia-the-edge-in-the-drone-war-5329dfab",
@@ -337,10 +772,217 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 41,
+   "count": 53,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "Impoverished by war in Iran, Afghan migrants return to Taliban rule",
+     "url": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
+     "published_cst": "2026-09-17T04:07:45+08:00",
+     "time": "09-17 04:07",
+     "body": null,
+     "title_zh": "受伊朗战争所困，阿富汗移民重返塔利班统治"
+    },
+    {
+     "title": "Ed Sheeran's opening acts quit tour after Macklemore axed for pro-Palestinian remarks",
+     "url": "https://www.reuters.com/business/media-telecom/ed-sheeran-says-dropping-macklemore-us-tour-was-not-his-decision-2026-09-15/",
+     "link": "https://www.reuters.com/business/media-telecom/ed-sheeran-says-dropping-macklemore-us-tour-was-not-his-decision-2026-09-15/",
+     "published_cst": "2026-09-17T04:06:39+08:00",
+     "time": "09-17 04:06",
+     "body": null,
+     "title_zh": "艾德·希兰开场表演嘉宾退出巡演，此前马克莫尔因亲巴勒斯坦言论被取消"
+    },
+    {
+     "title": "US drone maker Powerus signs Pakistan Army MOU, gets initial order",
+     "url": "https://www.reuters.com/world/asia-pacific/us-drone-maker-powerus-signs-pakistan-army-mou-gets-initial-order-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/us-drone-maker-powerus-signs-pakistan-army-mou-gets-initial-order-2026-09-16/",
+     "published_cst": "2026-09-17T04:06:08+08:00",
+     "time": "09-17 04:06",
+     "body": null,
+     "title_zh": "美国无人机制造商Powerus与巴基斯坦陆军签署谅解备忘录，获初步订单"
+    },
+    {
+     "title": "Malaysia's reNIKOLA unit signs 30-year power deal for Sarawak solar project",
+     "url": "https://www.reuters.com/business/energy/malaysias-renikola-unit-signs-30-year-power-deal-sarawak-solar-project-2026-09-17/",
+     "link": "https://www.reuters.com/business/energy/malaysias-renikola-unit-signs-30-year-power-deal-sarawak-solar-project-2026-09-17/",
+     "published_cst": "2026-09-17T04:03:46+08:00",
+     "time": "09-17 04:03",
+     "body": null,
+     "title_zh": "马来西亚reNIKOLA子公司签署砂拉越太阳能项目30年电力协议"
+    },
+    {
+     "title": "River flows were among driest in decades in 2025, World Meteorological Organization says",
+     "url": "https://www.reuters.com/sustainability/cop/river-flows-were-among-driest-decades-2025-world-meteorological-organization-2026-09-17/",
+     "link": "https://www.reuters.com/sustainability/cop/river-flows-were-among-driest-decades-2025-world-meteorological-organization-2026-09-17/",
+     "published_cst": "2026-09-17T04:02:18+08:00",
+     "time": "09-17 04:02",
+     "body": null,
+     "title_zh": "世界气象组织称2025年河流流量为数十年来最干旱之一"
+    },
+    {
+     "title": "Indian shares flat after Fed rate hike; NSE IPO in focus",
+     "url": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
+     "link": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
+     "published_cst": "2026-09-17T03:57:31+08:00",
+     "time": "09-17 03:57",
+     "body": null,
+     "title_zh": "印度股市预计平开，美联储暗示将再加息；NSE IPO受关注"
+    },
+    {
+     "title": "ICE agent charged with assault, lying about shooting, jailed in Minnesota",
+     "url": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
+     "link": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
+     "published_cst": "2026-09-17T03:55:52+08:00",
+     "time": "09-17 03:55",
+     "body": null,
+     "title_zh": "美国移民及海关执法局探员因袭击和枪击事件撒谎在明尼苏达州被捕"
+    },
+    {
+     "title": "Deep in Trump country, a revolt against corporate money could reshape political spending",
+     "url": "https://www.reuters.com/legal/government/deep-trump-country-revolt-against-corporate-money-could-reshape-political-2026-09-16/",
+     "link": "https://www.reuters.com/legal/government/deep-trump-country-revolt-against-corporate-money-could-reshape-political-2026-09-16/",
+     "published_cst": "2026-09-17T03:50:05+08:00",
+     "time": "09-17 03:50",
+     "body": null,
+     "title_zh": "在特朗普腹地，一场反对企业资金的叛乱可能重塑政治支出"
+    },
+    {
+     "title": "Goldman Sachs sees October Fed hike after hawkish signal",
+     "url": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/",
+     "link": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/",
+     "published_cst": "2026-09-17T03:34:34+08:00",
+     "time": "09-17 03:34",
+     "body": null,
+     "title_zh": "高盛现预计美联储10月再次加息"
+    },
+    {
+     "title": "China's Huawei sets 2027 launch for new AI chips as it targets Nvidia",
+     "url": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/chinas-huawei-launch-two-new-ai-chips-2027-2026-09-17/",
+     "published_cst": "2026-09-17T03:34:20+08:00",
+     "time": "09-17 03:34",
+     "body": null,
+     "title_zh": "中国华为瞄准英伟达，计划2027年推出新AI芯片"
+    },
+    {
+     "title": "Peter Max, known for groovy art that came to symbolize the 60s, dies at 88",
+     "url": "https://www.reuters.com/lifestyle/peter-max-known-groovy-art-that-came-symbolize-60s-dies-88-2026-09-17/",
+     "link": "https://www.reuters.com/lifestyle/peter-max-known-groovy-art-that-came-symbolize-60s-dies-88-2026-09-17/",
+     "published_cst": "2026-09-17T03:23:44+08:00",
+     "time": "09-17 03:23",
+     "body": null,
+     "title_zh": "以象征60年代时髦艺术闻名的彼得·马克斯去世，享年88岁"
+    },
+    {
+     "title": "North Korea says US-led arms buildup justifies expanding nuclear force",
+     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-2026-09-17/",
+     "link": "https://www.reuters.com/business/aerospace-defense/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-2026-09-17/",
+     "published_cst": "2026-09-17T03:23:13+08:00",
+     "time": "09-17 03:23",
+     "body": null,
+     "title_zh": "朝鲜副防长称美国军备扩张证明扩大核力量合理"
+    },
+    {
+     "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds",
+     "url": "https://www.reuters.com/world/google-should-appoint-antitrust-compliance-officer-us-judge-says-ad-tech-case-2026-09-16/",
+     "link": "https://www.reuters.com/world/google-should-appoint-antitrust-compliance-officer-us-judge-says-ad-tech-case-2026-09-16/",
+     "published_cst": "2026-09-17T03:15:42+08:00",
+     "time": "09-17 03:15",
+     "body": null,
+     "title_zh": "美国法官认定谷歌应放宽广告技术规则并任命反垄断监察员"
+    },
+    {
+     "title": "South Korea says US investment deal delayed, parliament briefing may be held next week",
+     "url": "https://www.reuters.com/world/asia-pacific/south-korea-foreign-minister-says-us-investment-deal-delayed-by-procedural-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-korea-foreign-minister-says-us-investment-deal-delayed-by-procedural-2026-09-17/",
+     "published_cst": "2026-09-17T03:13:43+08:00",
+     "time": "09-17 03:13",
+     "body": null,
+     "title_zh": "韩外长称美投资协议因程序问题推迟"
+    },
+    {
+     "title": "EXCLUSIVE India considers cutting vegetable oil import taxes as prices climb",
+     "url": "https://www.reuters.com/world/india/india-considers-cutting-vegetable-oil-import-taxes-prices-climb-2026-09-16/",
+     "link": "https://www.reuters.com/world/india/india-considers-cutting-vegetable-oil-import-taxes-prices-climb-2026-09-16/",
+     "published_cst": "2026-09-17T03:09:26+08:00",
+     "time": "09-17 03:09",
+     "body": null,
+     "title_zh": "独家：印度考虑下调植物油进口税以应对价格上涨"
+    },
+    {
+     "title": "Hawkish Fed adds to rupee's troubles, traders watch 96/USD hurdle",
+     "url": "https://www.reuters.com/world/india/hawkish-fed-adds-rupees-troubles-traders-watch-96usd-hurdle-2026-09-17/",
+     "link": "https://www.reuters.com/world/india/hawkish-fed-adds-rupees-troubles-traders-watch-96usd-hurdle-2026-09-17/",
+     "published_cst": "2026-09-17T03:09:24+08:00",
+     "time": "09-17 03:09",
+     "body": null,
+     "title_zh": "鹰派美联储加剧卢比困境，交易员关注96关口"
+    },
+    {
+     "title": "Hong Kong Monetary Authority raises rates for first time since July 2023",
+     "url": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
+     "published_cst": "2026-09-17T03:04:42+08:00",
+     "time": "09-17 03:04",
+     "body": null,
+     "title_zh": "香港金管局上调利率 追随美联储步伐"
+    },
+    {
+     "title": "Judge in Kennedy Center case orders Trump administration to explain closure plans",
+     "url": "https://www.reuters.com/legal/government/judge-kennedy-center-case-orders-trump-administration-explain-closure-plans-2026-09-16/",
+     "link": "https://www.reuters.com/legal/government/judge-kennedy-center-case-orders-trump-administration-explain-closure-plans-2026-09-16/",
+     "published_cst": "2026-09-17T03:01:43+08:00",
+     "time": "09-17 03:01",
+     "body": null,
+     "title_zh": "肯尼迪中心案法官要求特朗普政府解释关闭计划"
+    },
+    {
+     "title": "Russian strikes injure 18 across Ukraine, officials say",
+     "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
+     "link": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
+     "published_cst": "2026-09-17T03:00:20+08:00",
+     "time": "09-17 03:00",
+     "body": null,
+     "title_zh": "俄罗斯袭击乌克兰基辅，敖德萨三人受伤，官员称"
+    },
+    {
+     "title": "LNG spot price surge deters Asian buyers, but saves Europe",
+     "url": "https://www.reuters.com/commentary/reuters-open-interest/lng-spot-price-surge-deters-asian-buyers-saves-europe-2026-09-17/",
+     "link": "https://www.reuters.com/commentary/reuters-open-interest/lng-spot-price-surge-deters-asian-buyers-saves-europe-2026-09-17/",
+     "published_cst": "2026-09-17T02:52:34+08:00",
+     "time": "09-17 02:52",
+     "body": null,
+     "title_zh": "LNG现货价格飙升，亚洲买家却步，欧洲得救"
+    },
+    {
+     "title": "Trump says 'hopefully we are towards end' of Iran war",
+     "url": "https://www.reuters.com/world/middle-east/trump-hold-talks-iran-with-gulf-leaders-next-week-axios-reports-2026-09-16/",
+     "link": "https://www.reuters.com/world/middle-east/trump-hold-talks-iran-with-gulf-leaders-next-week-axios-reports-2026-09-16/",
+     "published_cst": "2026-09-17T02:49:25+08:00",
+     "time": "09-17 02:49",
+     "body": null,
+     "title_zh": "特朗普称“希望我们正接近伊朗战争的尾声”"
+    },
+    {
+     "title": "Trump, in North Carolina, says Democrats are soft on crime and communism",
+     "url": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
+     "link": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
+     "published_cst": "2026-09-17T02:46:48+08:00",
+     "time": "09-17 02:46",
+     "body": null,
+     "title_zh": "特朗普在北卡罗来纳州称民主党对犯罪和共产主义态度软弱"
+    },
+    {
+     "title": "Trump lashes out at Fed after Warsh backs rate hike",
+     "url": "https://www.reuters.com/business/trump-says-us-interest-rates-should-be-1-or-lower-2026-09-16/",
+     "link": "https://www.reuters.com/business/trump-says-us-interest-rates-should-be-1-or-lower-2026-09-16/",
+     "published_cst": "2026-09-17T02:35:36+08:00",
+     "time": "09-17 02:35",
+     "body": null,
+     "title_zh": "特朗普在沃什支持加息后抨击美联储"
+    },
     {
      "title": "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
      "url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
@@ -349,15 +991,6 @@
      "time": "09-17 02:34",
      "body": null,
      "title_zh": "美联储加息以寻求通胀更及时下降，预计将进一步收紧政策"
-    },
-    {
-     "title": "Indian shares seen opening flat after Fed signals more hikes; NSE IPO in focus",
-     "url": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
-     "link": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
-     "published_cst": "2026-09-17T02:33:44+08:00",
-     "time": "09-17 02:33",
-     "body": null,
-     "title_zh": "印度股市预计平开，美联储暗示将再加息；NSE IPO受关注"
     },
     {
      "title": "Gold rises over 1% as investors digest Fed hike, oil rally stalls",
@@ -385,24 +1018,6 @@
      "time": "09-17 02:24",
      "body": null,
      "title_zh": "斐济宣布艾滋病毒为国家危机，诊断病例激增"
-    },
-    {
-     "title": "Hong Kong Monetary Authority raises interest rates, tracking Fed move",
-     "url": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
-     "link": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
-     "published_cst": "2026-09-17T02:21:56+08:00",
-     "time": "09-17 02:21",
-     "body": null,
-     "title_zh": "香港金管局上调利率 追随美联储步伐"
-    },
-    {
-     "title": "Impoverished by war in Iran, Afghan migrants return to Taliban rule",
-     "url": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
-     "link": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
-     "published_cst": "2026-09-17T02:11:44+08:00",
-     "time": "09-17 02:11",
-     "body": null,
-     "title_zh": "受伊朗战争所困，阿富汗移民重返塔利班统治"
     },
     {
      "title": "Indonesian rescuers plan to right capsized ship as weather hampers search for 129 missing people",
@@ -486,15 +1101,6 @@
      "title_zh": "JERA预计海外LNG销售增加，因扩大交易组合。"
     },
     {
-     "title": "Trump, in North Carolina, says Democrats are soft on crime and communism",
-     "url": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
-     "link": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
-     "published_cst": "2026-09-17T01:42:30+08:00",
-     "time": "09-17 01:42",
-     "body": null,
-     "title_zh": "特朗普在北卡罗来纳州称民主党对犯罪和共产主义态度软弱"
-    },
-    {
      "title": "China's brutal AI economics hold lessons for US",
      "url": "https://www.reuters.com/commentary/breakingviews/chinas-brutal-ai-economics-hold-lessons-us-2026-09-16/",
      "link": "https://www.reuters.com/commentary/breakingviews/chinas-brutal-ai-economics-hold-lessons-us-2026-09-16/",
@@ -504,42 +1110,6 @@
      "title_zh": "中国残酷的AI经济给美国敲响警钟"
     },
     {
-     "title": "North Korea vice defence minister says US arms buildup justifies expanding nuclear force",
-     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-2026-09-17/",
-     "link": "https://www.reuters.com/business/aerospace-defense/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-2026-09-17/",
-     "published_cst": "2026-09-17T01:39:41+08:00",
-     "time": "09-17 01:39",
-     "body": null,
-     "title_zh": "朝鲜副防长称美国军备扩张证明扩大核力量合理"
-    },
-    {
-     "title": "ICE agent charged with assault, lying about shooting, arrested in Minnesota",
-     "url": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
-     "link": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
-     "published_cst": "2026-09-17T01:34:10+08:00",
-     "time": "09-17 01:34",
-     "body": null,
-     "title_zh": "美国移民及海关执法局探员因袭击和枪击事件撒谎在明尼苏达州被捕"
-    },
-    {
-     "title": "LNG spot price surge deters Asian buyers, but saves Europe",
-     "url": "https://www.reuters.com/commentary/reuters-open-interest/lng-spot-price-surge-deters-asian-buyers-saves-europe-2026-09-17/",
-     "link": "https://www.reuters.com/commentary/reuters-open-interest/lng-spot-price-surge-deters-asian-buyers-saves-europe-2026-09-17/",
-     "published_cst": "2026-09-17T01:28:30+08:00",
-     "time": "09-17 01:28",
-     "body": null,
-     "title_zh": "LNG现货价格飙升，亚洲买家却步，欧洲得救"
-    },
-    {
-     "title": "Goldman Sachs now sees Fed hiking again in October",
-     "url": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/",
-     "link": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/",
-     "published_cst": "2026-09-17T01:27:43+08:00",
-     "time": "09-17 01:27",
-     "body": null,
-     "title_zh": "高盛现预计美联储10月再次加息"
-    },
-    {
      "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
      "url": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
      "link": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
@@ -547,24 +1117,6 @@
      "time": "09-17 01:24",
      "body": null,
      "title_zh": "众议院通过格雷厄姆力推的对俄制裁法案，提交特朗普"
-    },
-    {
-     "title": "South Korea foreign minister says US investment deal delayed by procedural issues",
-     "url": "https://www.reuters.com/world/asia-pacific/south-korea-foreign-minister-says-us-investment-deal-delayed-by-procedural-2026-09-17/",
-     "link": "https://www.reuters.com/world/asia-pacific/south-korea-foreign-minister-says-us-investment-deal-delayed-by-procedural-2026-09-17/",
-     "published_cst": "2026-09-17T01:22:13+08:00",
-     "time": "09-17 01:22",
-     "body": null,
-     "title_zh": "韩外长称美投资协议因程序问题推迟"
-    },
-    {
-     "title": "Russian strikes injure 13 in Ukraine's Kyiv, Odesa, officials say",
-     "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
-     "link": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
-     "published_cst": "2026-09-17T01:18:09+08:00",
-     "time": "09-17 01:18",
-     "body": null,
-     "title_zh": "俄罗斯袭击乌克兰基辅，敖德萨三人受伤，官员称"
     },
     {
      "title": "Former Chelsea owners Boehly and Walter sell holdings to Clearlake",
@@ -619,15 +1171,6 @@
      "time": "09-17 00:49",
      "body": null,
      "title_zh": "IMF称澳大利亚或需进一步加息以遏制通胀"
-    },
-    {
-     "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds",
-     "url": "https://www.reuters.com/world/google-should-appoint-antitrust-compliance-officer-us-judge-says-ad-tech-case-2026-09-16/",
-     "link": "https://www.reuters.com/world/google-should-appoint-antitrust-compliance-officer-us-judge-says-ad-tech-case-2026-09-16/",
-     "published_cst": "2026-09-17T00:45:46+08:00",
-     "time": "09-17 00:45",
-     "body": null,
-     "title_zh": "美国法官认定谷歌应放宽广告技术规则并任命反垄断监察员"
     },
     {
      "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain",
@@ -715,10 +1258,370 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 2,
+   "count": 42,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "Business of Sailing",
+     "url": "https://www.ft.com/reports/business-sailing",
+     "link": "https://www.ft.com/reports/business-sailing",
+     "published_cst": "2026-09-17T04:09:25+08:00",
+     "time": "09-17 04:09",
+     "body": null,
+     "title_zh": "帆船商业"
+    },
+    {
+     "title": "Moonshot capitalism",
+     "url": "https://www.ft.com/content/9f5ca8e1-b64d-4959-9d26-0ad94f127f28",
+     "link": "https://www.ft.com/content/9f5ca8e1-b64d-4959-9d26-0ad94f127f28",
+     "published_cst": "2026-09-17T04:05:00+08:00",
+     "time": "09-17 04:05",
+     "body": null,
+     "title_zh": "登月资本主义"
+    },
+    {
+     "title": "‘Compound crisis’ behind Nepal disaster, scientists report",
+     "url": "https://www.ft.com/content/5e5b4bbc-cae0-4324-b8bf-83fa8a095d66",
+     "link": "https://www.ft.com/content/5e5b4bbc-cae0-4324-b8bf-83fa8a095d66",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "科学家报告称尼泊尔灾难背后存在复合危机"
+    },
+    {
+     "title": "Why Carney’s romance with Europe can only go so far",
+     "url": "https://www.ft.com/content/7b1a00f1-6842-4f5e-ace4-d6a57e98b21e",
+     "link": "https://www.ft.com/content/7b1a00f1-6842-4f5e-ace4-d6a57e98b21e",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "卡尼与欧洲的恋情为何难以长久"
+    },
+    {
+     "title": "Vue explores London IPO as cinemas emerge from ‘six years of hell’",
+     "url": "https://www.ft.com/content/8767b80b-3fd8-4747-b538-98ed8a4afe11",
+     "link": "https://www.ft.com/content/8767b80b-3fd8-4747-b538-98ed8a4afe11",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "Vue探索伦敦IPO，影院走出六年困境"
+    },
+    {
+     "title": "Transcript: Fed interest rate rises are back",
+     "url": "https://www.ft.com/content/972fd5e9-4251-49f7-9250-62a0d510395a",
+     "link": "https://www.ft.com/content/972fd5e9-4251-49f7-9250-62a0d510395a",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "美联储加息回归"
+    },
+    {
+     "title": "The private equity hand rolling up the Algarve",
+     "url": "https://www.ft.com/content/6e418231-33f5-4fda-83a0-28ceb0a64d6a",
+     "link": "https://www.ft.com/content/6e418231-33f5-4fda-83a0-28ceb0a64d6a",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "私募股权正整合阿尔加维"
+    },
+    {
+     "title": "Donald Trump fails to bend the Federal Reserve to his will",
+     "url": "https://www.ft.com/content/fb8e1037-8c48-49d2-809e-950472bcbae5",
+     "link": "https://www.ft.com/content/fb8e1037-8c48-49d2-809e-950472bcbae5",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "特朗普未能让美联储屈服于他的意志"
+    },
+    {
+     "title": "Al Gore downplays AI threats and touts its climate potential",
+     "url": "https://www.ft.com/content/ba945e37-7d9c-4846-b4f4-ce5ec47f06a0",
+     "link": "https://www.ft.com/content/ba945e37-7d9c-4846-b4f4-ce5ec47f06a0",
+     "published_cst": "2026-09-17T04:00:31+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "戈尔淡化AI威胁并宣扬其气候潜力"
+    },
+    {
+     "title": "We need an observatory for the cooling north Atlantic",
+     "url": "https://www.ft.com/content/48709691-168e-42fb-8ab4-f17f9a847a35",
+     "link": "https://www.ft.com/content/48709691-168e-42fb-8ab4-f17f9a847a35",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "我们需要一个观测站来监测正在变冷的北大西洋"
+    },
+    {
+     "title": "The rebel offensive that shook Saudi Arabia",
+     "url": "https://www.ft.com/content/d63eb228-87a6-4cce-99fb-777532cd4012",
+     "link": "https://www.ft.com/content/d63eb228-87a6-4cce-99fb-777532cd4012",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "反叛攻势震动沙特"
+    },
+    {
+     "title": "The Apple trust premium in the age of AI",
+     "url": "https://www.ft.com/content/f5325951-7049-4d3a-97e4-cbe34f9058d8",
+     "link": "https://www.ft.com/content/f5325951-7049-4d3a-97e4-cbe34f9058d8",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "AI时代的苹果信任溢价"
+    },
+    {
+     "title": "St James’s Place looks smartly attired for the AI wealth party",
+     "url": "https://www.ft.com/content/73b7c439-8905-4509-bc09-1a8965146da2",
+     "link": "https://www.ft.com/content/73b7c439-8905-4509-bc09-1a8965146da2",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "圣詹姆斯广场为AI财富盛宴盛装打扮"
+    },
+    {
+     "title": "Nick Candy-linked company won mining rights in Nicaragua days after he met dictator’s son",
+     "url": "https://www.ft.com/content/25c69be0-d2f5-4341-bc7f-f671c01ddb39",
+     "link": "https://www.ft.com/content/25c69be0-d2f5-4341-bc7f-f671c01ddb39",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "与尼克·坎迪有关联的公司在他会见独裁者之子数日后获得尼加拉瓜采矿权"
+    },
+    {
+     "title": "Mergermarket owner slashes jobs as pressure mounts on Andrea Pignataro’s empire",
+     "url": "https://www.ft.com/content/56148283-fea4-4055-a709-04f6ce211d87",
+     "link": "https://www.ft.com/content/56148283-fea4-4055-a709-04f6ce211d87",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "并购市场所有者裁员，安德烈亚·皮尼亚塔罗帝国压力加剧"
+    },
+    {
+     "title": "Japan has good reason to welcome arrival of driverless taxis",
+     "url": "https://www.ft.com/content/a5f012e4-7948-4a7a-b024-5a76ba10704c",
+     "link": "https://www.ft.com/content/a5f012e4-7948-4a7a-b024-5a76ba10704c",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "日本有充分理由欢迎无人驾驶出租车到来"
+    },
+    {
+     "title": "Heatwave triggers potato shortage in Europe",
+     "url": "https://www.ft.com/content/8eda412f-caed-4b31-bdee-b76fc9f3ba82",
+     "link": "https://www.ft.com/content/8eda412f-caed-4b31-bdee-b76fc9f3ba82",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "热浪引发欧洲土豆短缺"
+    },
+    {
+     "title": "EU asks China to voluntarily limit car exports",
+     "url": "https://www.ft.com/content/0b45cb01-7f62-41c5-8c48-10c47f2e1ae6",
+     "link": "https://www.ft.com/content/0b45cb01-7f62-41c5-8c48-10c47f2e1ae6",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "欧盟要求中国自愿限制汽车出口"
+    },
+    {
+     "title": "Do inflation expectations matter in a social-media echo chamber?",
+     "url": "https://www.ft.com/content/23d35821-2d3f-4e55-8ada-99bcbacdc066",
+     "link": "https://www.ft.com/content/23d35821-2d3f-4e55-8ada-99bcbacdc066",
+     "published_cst": "2026-09-17T04:00:21+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "通胀预期在社交媒体回音室中重要吗？"
+    },
+    {
+     "title": "‘Our first trial batch got contaminated. We wasted thousands’ — Dash Water co-founder",
+     "url": "https://www.ft.com/content/7091cca7-4035-44b2-a0fd-d0b8b1fff997",
+     "link": "https://www.ft.com/content/7091cca7-4035-44b2-a0fd-d0b8b1fff997",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "我们的首批试产批次被污染了，我们浪费了数千英镑。——Dash Water联合创始人"
+    },
+    {
+     "title": "Why am I so angry? Marvel’s Wolverine gets introspective",
+     "url": "https://www.ft.com/content/6f7a74a1-ccf5-4f70-bec4-94551d8ac8f9",
+     "link": "https://www.ft.com/content/6f7a74a1-ccf5-4f70-bec4-94551d8ac8f9",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "为什么我如此愤怒？漫威金刚狼陷入沉思"
+    },
+    {
+     "title": "Where do new jobs come from?",
+     "url": "https://www.ft.com/content/9edd3f8c-c28b-4532-b5c1-fa55ad71e432",
+     "link": "https://www.ft.com/content/9edd3f8c-c28b-4532-b5c1-fa55ad71e432",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "新工作从哪里来？"
+    },
+    {
+     "title": "Home renovation on a tight budget? Try dragons, rocks and silk offcuts",
+     "url": "https://www.ft.com/content/5f9d24ee-f51c-47d1-9a39-d1b28dfaac43",
+     "link": "https://www.ft.com/content/5f9d24ee-f51c-47d1-9a39-d1b28dfaac43",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "预算紧张想翻新房屋？试试龙、岩石和丝绸边角料"
+    },
+    {
+     "title": "Google DeepMind offshoot nears $4bn valuation just a month after founding",
+     "url": "https://www.ft.com/content/0b83cb60-0d07-49a7-a46a-654077a75b39",
+     "link": "https://www.ft.com/content/0b83cb60-0d07-49a7-a46a-654077a75b39",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "谷歌DeepMind分拆公司成立仅一月估值近40亿美元"
+    },
+    {
+     "title": "Dianne Reeves and Branford Marsalis: ‘With jazz, either you can play it or you can’t’",
+     "url": "https://www.ft.com/content/d23a1acf-0094-430d-a36c-fba63b32002f",
+     "link": "https://www.ft.com/content/d23a1acf-0094-430d-a36c-fba63b32002f",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "戴安·里维斯与布兰福德·马萨利斯：“爵士乐，要么你会演奏，要么就不会”"
+    },
+    {
+     "title": "Designer Kim Jones is Aman for all seasons",
+     "url": "https://www.ft.com/content/d0009033-b45a-4e88-86a0-45bbdfc9ac8c",
+     "link": "https://www.ft.com/content/d0009033-b45a-4e88-86a0-45bbdfc9ac8c",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "设计师金·琼斯四季皆宜阿曼"
+    },
+    {
+     "title": "Barclays hit by staff backlash over return-to-office rules",
+     "url": "https://www.ft.com/content/ca551e46-8ced-4e63-ace1-bdf20caedce7",
+     "link": "https://www.ft.com/content/ca551e46-8ced-4e63-ace1-bdf20caedce7",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "巴克莱因返岗规定遭员工抵制"
+    },
+    {
+     "title": "A seafood odyssey in Canada’s maritime east",
+     "url": "https://www.ft.com/content/d95a04c2-6d6a-4622-a3db-2abf9e4680a4",
+     "link": "https://www.ft.com/content/d95a04c2-6d6a-4622-a3db-2abf9e4680a4",
+     "published_cst": "2026-09-17T04:00:11+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "加拿大东部海洋省份的海鲜之旅"
+    },
+    {
+     "title": "The era of AI warfare has arrived",
+     "url": "https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef",
+     "link": "https://www.ft.com/content/686429c0-daf3-42a5-9b7c-7ff06eb291ef",
+     "published_cst": "2026-09-17T04:00:04+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "AI战争时代已来临"
+    },
+    {
+     "title": "Women sailors challenge old-school maritime culture",
+     "url": "https://www.ft.com/content/0153dcb4-8837-45e7-8e8f-98454ab8c0c3",
+     "link": "https://www.ft.com/content/0153dcb4-8837-45e7-8e8f-98454ab8c0c3",
+     "published_cst": "2026-09-17T04:00:03+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "女水手挑战传统海事文化"
+    },
+    {
+     "title": "Partner to The Ocean Race pushes contest to rewrite rules",
+     "url": "https://www.ft.com/content/1dbc97ca-0277-4599-abe4-57ac82b85b49",
+     "link": "https://www.ft.com/content/1dbc97ca-0277-4599-abe4-57ac82b85b49",
+     "published_cst": "2026-09-17T04:00:03+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "海洋竞赛合作伙伴推动修改规则"
+    },
+    {
+     "title": "Ferrari aims for ocean-racing records with Hypersail",
+     "url": "https://www.ft.com/content/7adc83b1-f50c-4092-82ab-9290fa6c904b",
+     "link": "https://www.ft.com/content/7adc83b1-f50c-4092-82ab-9290fa6c904b",
+     "published_cst": "2026-09-17T04:00:03+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "法拉利欲借Hypersail冲击远洋帆船纪录"
+    },
+    {
+     "title": "Exclusive: a first look at The Horses, London’s most keenly awaited new pub",
+     "url": "https://www.ft.com/content/c7d5e68a-1e79-478f-83fe-1307a65aaa96",
+     "link": "https://www.ft.com/content/c7d5e68a-1e79-478f-83fe-1307a65aaa96",
+     "published_cst": "2026-09-17T04:00:03+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "独家：抢先一睹伦敦最受期待的新酒吧The Horses"
+    },
+    {
+     "title": "Australia fights to reclaim SailGP racing title",
+     "url": "https://www.ft.com/content/16781206-42cd-4af2-9904-a2a3155da83d",
+     "link": "https://www.ft.com/content/16781206-42cd-4af2-9904-a2a3155da83d",
+     "published_cst": "2026-09-17T04:00:03+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "澳大利亚力争重夺SailGP帆船赛冠军"
+    },
+    {
+     "title": "America’s Cup makes bid to ensure long-term future",
+     "url": "https://www.ft.com/content/b697df29-d2b4-4d01-98ed-f051de1f9ad2",
+     "link": "https://www.ft.com/content/b697df29-d2b4-4d01-98ed-f051de1f9ad2",
+     "published_cst": "2026-09-17T04:00:03+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "美洲杯帆船赛力争确保长期未来"
+    },
+    {
+     "title": "‘I had a superpower’: investors pile into mind-reading brain implants",
+     "url": "https://www.ft.com/content/d7650673-23e9-4e41-81c9-d479c24705a0",
+     "link": "https://www.ft.com/content/d7650673-23e9-4e41-81c9-d479c24705a0",
+     "published_cst": "2026-09-17T04:00:02+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "“我曾拥有超能力”：投资者涌入读心脑植入领域"
+    },
+    {
+     "title": "What the artist wore — unpacking a century of studio style",
+     "url": "https://www.ft.com/content/1849f7f9-be2f-4fc6-a498-1ba9fa896ef7",
+     "link": "https://www.ft.com/content/1849f7f9-be2f-4fc6-a498-1ba9fa896ef7",
+     "published_cst": "2026-09-17T04:00:02+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "艺术家穿什么——解读百年工作室风格"
+    },
+    {
+     "title": "Sailing technologies prove value beyond marine sector",
+     "url": "https://www.ft.com/content/8c8f0e0a-1177-4245-a1e1-d0e15cda4772",
+     "link": "https://www.ft.com/content/8c8f0e0a-1177-4245-a1e1-d0e15cda4772",
+     "published_cst": "2026-09-17T04:00:02+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "航海技术价值超越海事领域"
+    },
+    {
+     "title": "Fed interest rate rises are back",
+     "url": "https://www.ft.com/content/7d11c26e-cb57-4df6-9847-9e9dfe74f579",
+     "link": "https://www.ft.com/content/7d11c26e-cb57-4df6-9847-9e9dfe74f579",
+     "published_cst": "2026-09-17T04:00:00+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "美联储加息回归"
+    },
+    {
+     "title": "David Miliband: ‘Peacemaking has gone into retreat’",
+     "url": "https://www.ft.com/content/00ae612a-8df8-41e6-bf88-dc2e617fce01",
+     "link": "https://www.ft.com/content/00ae612a-8df8-41e6-bf88-dc2e617fce01",
+     "published_cst": "2026-09-17T04:00:00+08:00",
+     "time": "09-17 04:00",
+     "body": null,
+     "title_zh": "戴维·米利班德：和平构建已退步"
+    },
     {
      "title": "Donald Trump suggests EU-Canada associate member deal would be ‘hostile act’",
      "url": "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3",
