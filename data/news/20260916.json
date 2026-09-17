@@ -1,13 +1,13 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T09:15:36.009089+08:00",
+ "generated_at": "2026-09-17T09:18:15.418712+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 237,
+   "count": 239,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -113,6 +113,32 @@
      "summary_zh": "香港推出首个五年计划，效仿全球产业政策趋势，以补贴等激励措施引导市场，而非苏联式指令控制。"
     },
     {
+     "title": "Fed's Hawkish Hike to Pressure Asian Currencies, Strategists Say",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/fed-hike-puts-spotlight-on-flurry-of-rate-decisions-street-wrap",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/fed-hike-puts-spotlight-on-flurry-of-rate-decisions-street-wrap",
+     "published_cst": "2026-09-16T23:28:53+08:00",
+     "time": "09-16 23:28",
+     "body": [
+      "The US Federal Reserve’s hawkish hike is set to pressure Asian currencies, especially the yen ahead of the Bank of Japan’s monetary policy meeting on Friday, according to market strategists.",
+      "The yen could weaken toward its 200-day moving average of about 158 per dollar, while bond yields will be dictated by moves in their US peers, strategists said. Stocks, particularly those sensitive to interest-rate movements, are under pressure.",
+      "“Nerves are likely to linger across Asian markets given the newfound level of hawkishness from the Fed,” according to Tim Waterer, chief market analyst at KCM Trade.",
+      "Read: Fed Raises Rates to Curb Inflation, Drawing Rebuke From Trump",
+      "Here is what market strategists said about the Fed rate hike:",
+      "ACCM Prime (Glenn Yin)",
+      "AT Global Markets (Nick Twidale)",
+      "KCM Trade (Tim Waterer)",
+      "Vantage Global Prime (Hebe Chen)",
+      "Apostle Funds Management (Joe Unwin)",
+      "Rayliant Global Advisors (Phillip Wool)",
+      "Fibonacci Asset Management Global (Jung In Yun)",
+      "Aozora Bank Ltd. (Akira Moroga)",
+      "Pepperstone Group (Dilin Wu)",
+      "Fukuoka Financial Group (Tohru Sasaki)"
+     ],
+     "title_zh": "美联储鹰派加息将施压亚洲货币，策略师称",
+     "summary_zh": "美联储鹰派加息施压亚洲货币，日元或贬至158，亚股承压。"
+    },
+    {
      "title": "Australia migration cuts, NZ's world-beating sovereign wealth fund, Fed hikes",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/australia-migration-cuts-nz-s-world-beating-sovereign-wealth-fund-fed-hikes",
      "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/australia-migration-cuts-nz-s-world-beating-sovereign-wealth-fund-fed-hikes",
@@ -158,6 +184,27 @@
      "summary_zh": "香港金管局跟随美联储加息25个基点至4.25%，为2023年以来首次，或威胁楼市复苏。"
     },
     {
+     "title": "Asia Risks Unrest as El Niño, War Threaten Food Supplies, Consultancy Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/asia-risks-unrest-as-el-nino-war-threaten-food-supplies-consultancy-says",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/asia-risks-unrest-as-el-nino-war-threaten-food-supplies-consultancy-says",
+     "published_cst": "2026-09-16T23:01:00+08:00",
+     "time": "09-16 23:01",
+     "body": [
+      "Severe weather disruptions will amplify food security risks in Asia, potentially triggering civil unrest and political instability in vulnerable countries such as India, Indonesia and the Philippines, according to consultancy Verisk Maplecroft.",
+      "The warning comes as the war in Iran has already disrupted fuel and fertilizer supplies, both of which are key agricultural inputs. Now, weather extremes linked to a powerful El Niño are further threatening crops across the region.",
+      "Indonesia, the world’s biggest palm oil producer, is suffering from a rash of hard-to-control wildfires that have disrupted harvests. The monsoon rains that top rice exporter India relies on are running 15% below normal, and Thailand’s sugar harvest is set to sink.",
+      "Read More: A Dozen Ingredients Show India’s Mounting Food Inflation Risk",
+      "The twin threats of war and weather are driving up food inflation — an established trigger for unrest, the risk consultancy said in a report released on Thursday.",
+      "Over half of countries that are at high- or very high-risk on Verisk Maplecroft’s Food Security Index also sit within the two highest categories of its predictive Civil Unrest Index. Those include India, as well as Bangladesh, the Philippines and Indonesia, where protests have already broken out in recent weeks.",
+      "“The data suggest if food price and availability pressures intensify, and governments are seen to respond ineffectively, unrest and political instability could emerge in these higher-risk markets,” the report said.",
+      "For conflict-stricken nations like Afghanistan and Myanmar, a food shock would raise the risk of a humanitarian catastrophe, it added. Thailand, highly reliant on imported energy and fertilizers, is also under growing pressure from debt-laden farmers ahead of the next planting season.",
+      "“The impacts are increasingly visible,” said Verisk Maplecroft. “In many key agriculture regions, planting and fertilization decisions were made during the peak of the disruption, meaning negative impacts may now be locked in even if the geopolitical situation improves in the coming months.”",
+      "Meanwhile, hedge funds see super El Niño as an opportunity. The head of ZAMS Asset Management, a former Balyasny Asset Management trader, said he’s expecting it to produce an “unusually alpha-rich environment,” while Moreton Capital Partners is targeting $500 million to bet on all the ways in which El Niño will upend food prices."
+     ],
+     "title_zh": "咨询公司称厄尔尼诺和战争威胁粮食供应，亚洲面临动荡风险",
+     "summary_zh": "极端天气叠加伊朗战事扰乱燃料化肥供应，或推高亚洲粮价，印度、印尼、菲律宾等国面临社会动荡与政治不稳风险。"
+    },
+    {
      "title": "Al Gore Says Emerging Markets Are Leapfrogging US on Clean Tech",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/al-gore-says-emerging-markets-are-leapfrogging-us-on-clean-tech",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/al-gore-says-emerging-markets-are-leapfrogging-us-on-clean-tech",
@@ -181,7 +228,7 @@
      "summary_zh": "戈尔称伊朗战争加速新兴市场转向清洁能源，3月肯尼亚、埃塞俄比亚和尼日利亚进口中国太阳能分别增207%、391%和519%。"
     },
     {
-     "title": "IMF Urges RBA to Stay Hawkish, Warns of Inflation Upside Risks",
+     "title": "IMF Urges RBA to Stay Hawkish Citing Inflation Upside Risks",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
      "published_cst": "2026-09-16T23:00:00+08:00",
@@ -433,7 +480,7 @@
      "summary_zh": "Generac与亚马逊达成最高80亿美元发电机供应协议并授予亚马逊子公司2.6%认股权证，Generac股价盘后一度大涨45%。"
     },
     {
-     "title": "Asian Bonds Decline as Fed Hikes, Dollar Jumps: Markets Wrap",
+     "title": "Treasuries Pare Losses From Fed Hike, Dollar Gains: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-16T22:06:59+08:00",
@@ -2177,7 +2224,7 @@
      "summary_zh": "巴黎世界太空商业周上，Viasat与Space42达成10亿美元合作，SES联手Elveo建厂，卫星运营商竞相涌入手机直连卫星市场。"
     },
     {
-     "title": "Venezuela Aluminum Heads to US as Heeney Unveils Gold Deal",
+     "title": "Venezuela Aluminum Heads to US; Heeney Eyes Gold Deal",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/venezuela-plans-to-ship-aluminum-to-us-in-mercuria-heeney-deal",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/venezuela-plans-to-ship-aluminum-to-us-in-mercuria-heeney-deal",
      "published_cst": "2026-09-16T14:09:49+08:00",

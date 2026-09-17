@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-17 00:45",
-   "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-17 01:15",
+   "title": "Gold Ticks Up as Markets Weigh Fed Path"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-17 00:43",
-   "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain"
+   "time": "09-17 01:08",
+   "title": "Climate change likely to have helped trigger Nepal glacier collapse, scientists say"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-17 00:34",
-   "title": "Singapore's August exports surge by 46.2% yr/yr as AI boom powers demand"
+   "time": "09-17 01:07",
+   "title": "US temporarily eases curb on working hours for fuel truck drivers"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-17 00:31",
-   "title": "Taiwan Poised for Hawkish Hold After Headline Inflation Slowed"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-17 01:06",
+   "title": "Long-Term JGB Yields Largely Steady as BOJ Starts Two-Day Meeting"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-17 00:30",
-   "title": "Trump Denied Rate Cut as Federal Reserve Targets War-Stoked Inflation"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-17 01:02",
+   "title": "Oil Falls Amid Hopes to Contain Mideast Crude Supply Disruption"
   }
  ]
 }
