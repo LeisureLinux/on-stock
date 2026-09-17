@@ -1,13 +1,13 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-17T10:11:42.324111+08:00",
+ "generated_at": "2026-09-17T10:39:53.031406+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 7,
+   "count": 8,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -49,6 +49,30 @@
      ],
      "title_zh": "星展银行金库扩张助力新加坡黄金中心雄心",
      "summary_zh": "新加坡推动黄金枢纽建设，星展银行增加金库容量，华侨银行和德意志银行等也在考虑扩充存储空间。"
+    },
+    {
+     "title": "Trump Returns to Trail in North Carolina With Senate in Play",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/trump-returns-to-trail-in-north-carolina-with-senate-on-the-line",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/trump-returns-to-trail-in-north-carolina-with-senate-on-the-line",
+     "published_cst": "2026-09-17T01:12:33+08:00",
+     "time": "09-17 01:12",
+     "body": [
+      "President Donald Trump visited North Carolina in his first campaign stop since the GOP’s Dallas midterm convention, seeking to boost Republican Senate candidate Michael Whatley, who is trailing Democrat Roy Cooper in the polls.",
+      "The race in North Carolina could be critical to determining which party controls the Senate, and the president’s rally at an airfield in Gastonia, outside Charlotte, offered a sign of the deep concern within GOP ranks over their prospects for holding onto the chamber.",
+      "“A vote for Roy Cooper is a vote to give control of the US Senate,” Trump said Wednesday, casting the race as having stakes far beyond the state.",
+      "“Ultimately, forget about him, he’s not a leader or anything,” Trump continued. “But he’s going to vote, and we can’t lose that vote. It’s too close. He’ll turn around everything.”",
+      "Trump’s trip is the kickoff of what he has billed as a nationwide sprint to Election Day with a number of hotly contested races, including many in the Senate. The White House has promised a slew of travel by the president to help his party retain control of Congress in November’s midterm election and Trump himself pledged in Dallas last week that he would be on the trail. Trump’s aides have previously pledged a stepped-up presidential travel schedule that did not materialize.",
+      "Polls show Americans have soured on Trump’s handling of the economy and the war in Iran, which has pushed up fuel prices across the country. Republicans currently have slim majorities in the House of Representatives and the Senate. A takeover by Democrats in one or both chambers would lead to curbs on Trump’s agenda and investigations that have been absent during the first two years of his second term.",
+      "In the Tar Heel State, Trump recited many well-worn Republican criticisms of Cooper that have so far failed to close the polling lead the Democrat has enjoyed throughout the race to date.",
+      "Trump has repeatedly sought to cast Democrats as too extreme for most voters. He assailed Cooper, a former North Carolina governor, on crime, targeting pandemic-era releases of some prisoners, and his response while in office to the devastation brought by Hurricane Helene.",
+      "Cooper’s campaign refuted claims Trump and Whatley have made about his record, including about the former governor’s record on crime and hurricane recovery.",
+      "“Independent fact-checkers have called these attacks false – Michael Whatley is getting desperate and it’s shameful that he’s using heinous crimes to try to deceive North Carolinians,” Cooper spokesman Jordan Monaghan said in a statement. He also faulted Whatley for his role in federal storm recovery efforts.",
+      "Election analysts rate North Carolina as Democrats’ best chance to pick up a Senate seat in November, even though it’s a state Trump carried in all three of his presidential runs. Cooper leads Whatley by 7.8 points, according to polling average by RealClearPolitics as of Wednesday afternoon, as they battle to replace retiring GOP Senator Thom Tillis.",
+      "Polls show Trump’s approval at record lows and Whatley’s decision to tie himself closely to the president brings its own risks in a swing-state.",
+      "Trump has urged Republicans around the country to pretend that he is on the ballot in an effort to boost turnout among his loyal political base, an appeal he made again Wednesday. And he touted his pledge to offer a $5,000 dividend to Americans if his party holds both chambers of Congress, though with a price tag topping $1 trillion the idea has been met with bipartisan skepticism."
+     ],
+     "title_zh": "特朗普重返北卡罗来纳州竞选，参议院席位成焦点",
+     "summary_zh": "特朗普赴北卡罗来纳州为共和党参议员候选人拉票，该州选情可能决定参议院控制权，目前民主党对手民调领先。"
     },
     {
      "title": "Taiwan Poised for Hawkish Hold After Headline Inflation Slowed",
@@ -246,7 +270,7 @@
      "title_zh": "金价小幅上涨，市场权衡美联储路径"
     },
     {
-     "title": "Long-Term JGB Yields Largely Steady as BOJ Starts Two-Day Meeting",
+     "title": "U.S.-Japan Rate Gap Unlikely to Narrow Significantly",
      "url": "https://www.wsj.com/finance/long-term-jgb-yields-largely-steady-as-boj-starts-two-day-meeting-0e67c4e8",
      "link": "https://www.wsj.com/finance/long-term-jgb-yields-largely-steady-as-boj-starts-two-day-meeting-0e67c4e8",
      "published_cst": "2026-09-17T01:06:00+08:00",
@@ -313,18 +337,90 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 33,
+   "count": 41,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
     {
+     "title": "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
+     "url": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
+     "link": "https://www.reuters.com/business/warshs-words-may-matter-more-than-anticipated-fed-rate-hike-2026-09-16/",
+     "published_cst": "2026-09-17T02:34:15+08:00",
+     "time": "09-17 02:34",
+     "body": null,
+     "title_zh": "美联储加息以寻求通胀更及时下降，预计将进一步收紧政策"
+    },
+    {
+     "title": "Indian shares seen opening flat after Fed signals more hikes; NSE IPO in focus",
+     "url": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
+     "link": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
+     "published_cst": "2026-09-17T02:33:44+08:00",
+     "time": "09-17 02:33",
+     "body": null,
+     "title_zh": "印度股市预计平开，美联储暗示将再加息；NSE IPO受关注"
+    },
+    {
+     "title": "Gold rises over 1% as investors digest Fed hike, oil rally stalls",
+     "url": "https://www.reuters.com/world/india/gold-rises-over-1-investors-digest-fed-hike-oil-rally-stalls-2026-09-17/",
+     "link": "https://www.reuters.com/world/india/gold-rises-over-1-investors-digest-fed-hike-oil-rally-stalls-2026-09-17/",
+     "published_cst": "2026-09-17T02:27:35+08:00",
+     "time": "09-17 02:27",
+     "body": null,
+     "title_zh": "金价涨超1%，投资者消化美联储加息，油价涨势停滞"
+    },
+    {
+     "title": "US allies fret over how Trump might play his Taiwan hand with Xi",
+     "url": "https://www.reuters.com/world/china/us-allies-fret-over-how-trump-might-play-his-taiwan-hand-with-xi-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/us-allies-fret-over-how-trump-might-play-his-taiwan-hand-with-xi-2026-09-17/",
+     "published_cst": "2026-09-17T02:27:11+08:00",
+     "time": "09-17 02:27",
+     "body": null,
+     "title_zh": "美国盟友担忧特朗普如何与习近平打台湾牌"
+    },
+    {
+     "title": "Fiji declares HIV a national crisis as diagnoses surge",
+     "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/fiji-declares-hiv-national-crisis-diagnoses-surge-2026-09-17/",
+     "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/fiji-declares-hiv-national-crisis-diagnoses-surge-2026-09-17/",
+     "published_cst": "2026-09-17T02:24:43+08:00",
+     "time": "09-17 02:24",
+     "body": null,
+     "title_zh": "斐济宣布艾滋病毒为国家危机，诊断病例激增"
+    },
+    {
+     "title": "Hong Kong Monetary Authority raises interest rates, tracking Fed move",
+     "url": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
+     "published_cst": "2026-09-17T02:21:56+08:00",
+     "time": "09-17 02:21",
+     "body": null,
+     "title_zh": "香港金管局上调利率 追随美联储步伐"
+    },
+    {
      "title": "Impoverished by war in Iran, Afghan migrants return to Taliban rule",
      "url": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
      "link": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
-     "published_cst": "2026-09-17T02:05:57+08:00",
-     "time": "09-17 02:05",
+     "published_cst": "2026-09-17T02:11:44+08:00",
+     "time": "09-17 02:11",
      "body": null,
      "title_zh": "受伊朗战争所困，阿富汗移民重返塔利班统治"
+    },
+    {
+     "title": "Indonesian rescuers plan to right capsized ship as weather hampers search for 129 missing people",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesian-rescuers-plan-right-capsized-ship-weather-hampers-search-129-missing-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/indonesian-rescuers-plan-right-capsized-ship-weather-hampers-search-129-missing-2026-09-17/",
+     "published_cst": "2026-09-17T02:09:44+08:00",
+     "time": "09-17 02:09",
+     "body": null,
+     "title_zh": "印尼救援人员计划扶正倾覆船只 恶劣天气阻碍搜寻129名失踪者"
+    },
+    {
+     "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
+     "url": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
+     "published_cst": "2026-09-17T02:09:43+08:00",
+     "time": "09-17 02:09",
+     "body": null,
+     "title_zh": "鹰派美联储推高美元至七周高位，焦点转向日本央行"
     },
     {
      "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields",
