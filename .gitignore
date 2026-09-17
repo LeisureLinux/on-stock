@@ -4,8 +4,12 @@ manual_downloaded_data
 __pycache__/
 *.py[cod]
 
+# Cloudflare Worker / 付费墙运维代码：含账号库、KV namespace id、管理员标识，
+# 与站点构建（build.py / GitHub Actions）无关，不进公开仓库。本地保留即可。
+tools/
+
 # Cloudflare Worker 本地运行态（wrangler dev / miniflare 产物）
-tools/cf-paywall/.wrangler/
+.wrangler/
 
 # 本机 cron 运行日志与锁文件
 /logs/
