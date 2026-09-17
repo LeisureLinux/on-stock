@@ -6,6 +6,9 @@
 from pathlib import Path
 from datetime import datetime
 
+# 产物落在仓库 results/，不依赖调用时的 CWD（脚本可被 cron/任意目录调用）
+ROOT = Path(__file__).resolve().parent.parent
+
 # 生成验证报告
 report = f"""# 🚨 水晶光电 2026 中报预测文章 - 数据来源完整性验证报告
 
@@ -154,7 +157,7 @@ report = f"""# 🚨 水晶光电 2026 中报预测文章 - 数据来源完整性
 """
 
 # 保存验证报告
-report_path = Path("results/crystal_data_verification.md")
+report_path = ROOT / "results" / "crystal_data_verification.md"
 report_path.parent.mkdir(parents=True, exist_ok=True)
 report_path.write_text(report, encoding='utf-8')
 

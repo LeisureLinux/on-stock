@@ -51,20 +51,29 @@ python3 scripts/fetch_news.py --from-file x.xml  # 离线解析（调试）
 
 ## 每日自动化
 
-完整链路：抓标题 → 翻译中文 → 提交 → push（push 触发 Pages 重建发布）。
-翻译用 `scripts/translate_news.py`（默认 DeepSeek 后端，按 url 缓存，已译不重译）。
+完整链路（封装在 `scripts/run_daily.sh`，**不要**再手写下面那串命令）：
 
-在 crontab 里加（注意用本机 Python 环境，DeepSeek key 从 `~/.codex/.env` 读取）：
+fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py 生成静态页 → commit → push
+
+在 crontab 里加一行即可（脚本自带 PATH 自愈、flock 互斥、路径自推导，**无需 cd**）：
 
 ```
-0 8,20 * * * cd ~/codex/writings/stock && \
-  python3 scripts/fetch_news.py --skip-letters --with-body >> /tmp/fetch_news.log 2>&1 && \
-  python3 scripts/translate_news.py --date $(date +\%Y\%m\%d) >> /tmp/translate_news.log 2>&1 && \
-  git add data/ docs/ && git commit -m "chore: 更新外媒速览 $(date +\%Y\%m\%d-\%H\%M)" && git push
+0 8,20 * * * /home/axu/stock/scripts/run_daily.sh
 ```
 
-> 注：翻译默认后端 DeepSeek（`TRANSLATE_BACKEND=deepseek`，国内直连可达、充值后无 RPM 限制）；
-> 如需切到 workbuddy 本地代理：`TRANSLATE_BACKEND=workbuddy`。WSJ 体育新闻已在 `fetch_news.py` 的 `skip_sections` 过滤。
+关键设计：
+
+* **无硬编码路径**：`REPO` 由脚本自身位置推导，`PYTHON` 用 `command -v python3` 自动探测；
+  换机器不用改脚本。需要覆盖时可设环境变量 `PYTHON=/path/to/python` / `STOCK_LOGDIR=/var/log/stock`。
+* **日志**：默认落 `$REPO/logs/`（`fetch_news.log`、`translate_news.log`、`summarize_news.log`），已被 `.gitignore` 忽略。
+* **跨日归档**：`fetch_news.py` 按**发布时间(CST)**归档，sitemap 里混着前几天的条目会分流到历史日文件；
+  `run_daily.sh` 从 `git status -- data/news/` 提取本轮真实改动的日期，逐日跑 translate/summarize，
+  否则分流到历史日的条目会永远没有中文标题。
+* **DeepSeek key** 从 `~/.codex/.env` 读取；翻译默认后端 `TRANSLATE_BACKEND=deepseek`，
+  如需切到 workbuddy 本地代理：`TRANSLATE_BACKEND=workbuddy`。
+* WSJ/Reuters 体育新闻已在 `fetch_news.py` 的 `skip_sections` 过滤。
+
+手工触发：`bash scripts/run_daily.sh [YYYYMMDD]`（缺省为今天，北京时间）。
 
 ## 数据源状态
 

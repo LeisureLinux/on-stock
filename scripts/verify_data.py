@@ -11,13 +11,15 @@ from datetime import datetime
 from typing import Dict, List, Optional
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parent.parent  # 仓库根，不依赖调用时的 CWD
+
 
 class DataVerifier:
     """数据验证器 - 确保所有数据分析的准确性"""
     
     MIN_CONFIDENCE_SCORE = 3.5  # 最低可信度分数
     
-    def __init__(self, config_path: str = "config/data_sources.yaml"):
+    def __init__(self, config_path: str = str(ROOT / "config" / "data_sources.yaml")):
         """初始化验证器"""
         self.config_path = Path(config_path)
         self.config = self._load_config()
@@ -237,7 +239,7 @@ if __name__ == "__main__":
     print(report)
     
     # 保存报告到文件
-    results_dir = Path("results")
+    results_dir = ROOT / "results"
     results_dir.mkdir(exist_ok=True)
     report_path = results_dir / "verification_report.md"
     report_path.write_text(report, encoding='utf-8')
