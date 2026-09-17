@@ -6,3 +6,6 @@ __pycache__/
 
 # Cloudflare Worker 本地运行态（wrangler dev / miniflare 产物）
 tools/cf-paywall/.wrangler/
+
+# 本机 cron 运行日志与锁文件
+/logs/
