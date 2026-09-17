@@ -1,46 +1,46 @@
 {
- "date": "20260916",
+ "date": "20260917",
  "trial_limit": 5,
  "items": [
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-16 05:49",
-   "title": "Private credit hit is drama waiting for crisis"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-17 00:10",
+   "title": "Trump Says Allowing Canada to Become Associate Member of EU Could Be ‘Hostile Act’"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-16 05:49",
-   "title": "Asian markets make shaky gains ahead of Fed decision, oil slips"
+   "time": "09-17 00:09",
+   "title": "US House advances first bill addressing economic impact of data center boom"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-16 05:46",
-   "title": "US admission of orbital weapons seen as landmark moment in race with China, Russia"
+   "time": "09-17 00:08",
+   "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump"
+  },
+  {
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-17 00:07",
+   "title": "Malaysia's Battered Bonds Face Growing Risk of Japan Fund Exodus"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-16 05:45",
-   "title": "SK Hynix in talks with Intel about deal to make memory chips in the US for the first time, sources say"
-  },
-  {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-16 05:44",
-   "title": "A decade after mercury ban, toxic skin bleachers still offered on top retailers' websites"
+   "time": "09-17 00:06",
+   "title": "Japan's Takaichi set to signal policy continuity in cabinet reshuffle"
   }
  ]
 }
