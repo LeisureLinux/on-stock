@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-17 00:10",
-   "title": "Trump Says Allowing Canada to Become Associate Member of EU Could Be ‘Hostile Act’"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-17 00:45",
+   "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-17 00:09",
-   "title": "US House advances first bill addressing economic impact of data center boom"
+   "time": "09-17 00:43",
+   "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-17 00:08",
-   "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump"
+   "time": "09-17 00:34",
+   "title": "Singapore's August exports surge by 46.2% yr/yr as AI boom powers demand"
   },
   {
    "src": "bb",
    "src_name": "Bloomberg",
    "badge": "BB",
    "color": "#B45309",
-   "time": "09-17 00:07",
-   "title": "Malaysia's Battered Bonds Face Growing Risk of Japan Fund Exodus"
+   "time": "09-17 00:31",
+   "title": "Taiwan Poised for Hawkish Hold After Headline Inflation Slowed"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-17 00:06",
-   "title": "Japan's Takaichi set to signal policy continuity in cabinet reshuffle"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-17 00:30",
+   "title": "Trump Denied Rate Cut as Federal Reserve Targets War-Stoked Inflation"
   }
  ]
 }
