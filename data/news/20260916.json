@@ -1,13 +1,13 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T14:12:49.443997+08:00",
+ "generated_at": "2026-09-17T18:13:10.644522+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 241,
+   "count": 243,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -208,6 +208,40 @@
      ],
      "title_zh": "香港跟随美联储进行三年多来首次加息",
      "summary_zh": "香港金管局跟随美联储加息25个基点至4.25%，为2023年以来首次，或威胁楼市复苏。"
+    },
+    {
+     "title": "BOE Set to Hold While Warning on Inflation: Decision Guide",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/boe-set-to-hold-rates-with-warning-on-inflation-decision-guide",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/boe-set-to-hold-rates-with-warning-on-inflation-decision-guide",
+     "published_cst": "2026-09-16T23:01:00+08:00",
+     "time": "09-16 23:01",
+     "body": [
+      "The Bank of England is expected to hold interest rates as it waits for more evidence that a fresh bout of inflation risks a damaging wage-price spiral.",
+      "Economists and investors expect the Monetary Policy Committee to leave the benchmark cost of borrowing at 3.75% on Thursday, where it’s been since December last year, as the economy is buffeted by events in the Middle East.",
+      "The majority of BOE rate-setters have so far argued that the current level of rates is doing enough to bear down on price pressures. However, that position is becoming harder to maintain, with oil and gas costs already above the “adverse” scenario set out by the central bank in late July and economists warning that inflation could hit 4% early next year.",
+      "Officials are therefore expected to set the stage for a hike in November, the first of several seen by financial markets. Alongside the rates decision, the BOE will also update its quantitative tightening asset-sale program for the year ahead.",
+      "The MPC is widely expected to vote 6-3 in favor of holding rates, the same as the last meeting in July. Three of 28 economists surveyed by Bloomberg believe the number of officials calling for an immediate rate increase will rise to four.",
+      "The dissenters have made their position clear. Huw Pill, the chief economist, and external members Megan Greene and Catherine Mann all fear inflation could set off a feedback loop as workers push for bigger wage increases and firms in turn raise prices to protect their margins. They want an insurance hike to stave off the risk.",
+      "Clare Lombardelli, deputy governor for monetary policy, is seen as the next most hawkish MPC member but she said at the July meeting that her vote to hold hadn’t been a close call.",
+      "The pressure to react to an inevitable price surge is mounting. The European Central Bank raised its deposit rate for a second time in three months to 2.5% last week and the US Federal Reserve on Wednesday lifted the federal funds rate to a range of 3.75% to 4%.",
+      "Markets are showing a slim but not negligible chance — around 12% — of a hike on Thursday, an outcome supported by economist DeAnne Julius. The former BOE policymaker told BBC radio “there’s a reasonable chance that the committee will decide to raise rates by 25 basis points” due to pressures from the Middle East and CPI rising above 3%.",
+      "Fears of resurgent inflation are likely to force the MPC to combine what is expected to be a cautious hold with hawkish words. “Risks are skewed towards tough hiking language, given soaring energy prices and market pricing,” said Robert Wood, chief UK economist at Pantheon Macroeconomics.",
+      "Governor Andrew Bailey signaled as much last week when he told lawmakers on Parliament’s Treasury Committee that inflation risks were on the upside as the conflict in the Middle East continues.",
+      "Market pricing, which suggests four rate rises to 4.75% by July next year, is doing some of the MPC’s work by tightening financial conditions. The UK labor market also remains subdued. The inflation outlook is nonetheless expected to deteriorate.",
+      "With oil well above $100 a barrel and gas prices sharply higher, household energy bills may jump 25% in January when the price cap resets, raising the prospect of inflation hitting double the 2% target, Bloomberg Economics has warned. Food prices hit by a summer drought and air fares are also expected to keep upward pressure on inflation.",
+      "“Rates may be restrictive, but the key policy question for the MPC will remain: are they restrictive enough?” said Deutsche Bank’s chief UK economist Sanjay Raja, who also sees inflation at close to 4% in December. “Risk management considerations have become stronger, and the likelihood of rate hikes have strengthened of late.”",
+      "The BOE’s forecasts are already out of date. Its July outlook, at which it updated all its key forecasts, was for 2.8% inflation in August. This week’s official reading was 3.1%.",
+      "The BOE is also likely to upgrade growth. In July, it thought second quarter growth would be 0.3%, below the subsequent 0.4% official reading. The momentum continued into July, with a month-on-month expansion of 0.4%. It means growth in the third quarter will likely far exceed the 0.1% the BOE forecast.",
+      "Read more: AI Helps UK Economy Unexpectedly Grow in Boost for Burnham",
+      "As the BOE does not publish a full set of three-year forecasts this month, the revisions to its outlook will be only for the immediate quarter ahead.",
+      "The BOE has been unwinding its £895 billion portfolio of government bonds since February 2022. So far it has shrunk the stock to £489 billion through a combination of active sales and letting maturing bonds run off the balance sheet.",
+      "The BOE’s stated intention is to sell the whole stock but it slowed the pace of reduction to £70 billion for the year to through September from an annual £100 billion previously. Alongside today’s rate decision, it will announce its quantitative tightening plans for the year starting October. It is widely expected to say the pace will be lowered again to £50 billion.",
+      "The MPC has three principles guiding the process: that interest rates remain the MPC’s main tool, that sales do not disrupt the functioning of markets, and that they are done in a gradual and predictable manner.",
+      "A run-off rate of £50 billion implies active sales – the more controversial part of the arrangement — will be maintained at around £20 billion. An internal BOE study recently concluded that QT has added 20-30 basis points to 10-year government borrowing costs.",
+      "Market participants surveyed by the BOE expect 15.6% of the active sales to be long-maturity bonds, totalling about £3 billion. The Telegraph newspaper reported this week that the BOE may halt long-dated sales altogether to avoid interfering with the government’s gilt issuance. The BOE, Treasury and Debt Management Office all declined to comment."
+     ],
+     "title_zh": "英国央行料按兵不动同时警告通胀风险：决策指南",
+     "summary_zh": "英国央行预计维持利率3.75%不变，但或为11月加息铺路。"
     },
     {
      "title": "Asia Risks Unrest as El Niño, War Threaten Food Supplies, Consultancy Says",
@@ -506,7 +540,7 @@
      "summary_zh": "Generac与亚马逊达成最高80亿美元发电机供应协议并授予亚马逊子公司2.6%认股权证，Generac股价盘后一度大涨45%。"
     },
     {
-     "title": "Stock Futures Rebound, Bonds Pare Losses After Fed: Markets Wrap",
+     "title": "Stocks Rally and Treasuries Rise as Oil Retreats: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-16T22:06:59+08:00",
@@ -993,7 +1027,7 @@
      "summary_zh": "法德坦克制造商KNDS可能推迟今年IPO，因防务股表现疲软，其股东将先向德国政府出售至多40%股份。"
     },
     {
-     "title": "Boeing Falls on 777X Testing Slip, Cash Flow Target Constraints",
+     "title": "Boeing Lays Out Challenging Months With Delays and Slow Output",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/boeing-sees-testing-on-777x-spilling-into-2027-on-engine-issue",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/boeing-sees-testing-on-777x-spilling-into-2027-on-engine-issue",
      "published_cst": "2026-09-16T19:06:26+08:00",
@@ -1586,7 +1620,7 @@
      "summary_zh": "苏格兰议会80票对26票通过收紧新建数据中心规定，反映对AI扩张的反对。"
     },
     {
-     "title": "Sweden's Center-Left Projected to Win Election by One Seat",
+     "title": "Swedish Center-Left Projected to Win Election by Slim Margin",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/sweden-s-center-left-bloc-set-to-win-election-in-svt-projection",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/sweden-s-center-left-bloc-set-to-win-election-in-svt-projection",
      "published_cst": "2026-09-16T16:50:46+08:00",
@@ -1751,6 +1785,24 @@
      ],
      "title_zh": "克里姆林宫力保俄罗斯最大小麦出口国优势",
      "summary_zh": "尽管黑海港口中断，克里姆林宫仍推动小麦出口商维持俄罗斯全球最大粮食出口国地位，以保持地缘政治优势。"
+    },
+    {
+     "title": "Nigeria Seen Cutting Rates on Softer Prices, Stronger Naira",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/nigeria-seen-cutting-rates-on-softer-prices-and-stronger-naira",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/nigeria-seen-cutting-rates-on-softer-prices-and-stronger-naira",
+     "published_cst": "2026-09-16T16:01:10+08:00",
+     "time": "09-16 16:01",
+     "body": [
+      "Nigeria’s central bank is expected to resume cutting interest rates at next week’s meeting, buoyed by slowing inflation and exchange-rate stability, according to Bank of America.",
+      "Annual inflation, which slowed to 15.4% in August and a stronger naira that is up 8% this year, have created “room for the Central Bank of Nigeria to begin cautiously easing monetary policy,” BofA Analyst Raghav Adlakha said in a report.",
+      "BofA expects the Central Bank of Nigeria to deliver a 100 basis point rate cut when Governor Olayemi Cardoso announces the decision on Sept. 22, followed by a similar reduction in November. That would bring the benchmark monetary policy rate to 24.5% by year-end, it said.",
+      "“Declining domestic yields, improved foreign exchange stability, and moderating inflation has created conditions that are supportive of monetary easing,” the analyst said.",
+      "Still, there is a risk of a reversal in portfolio inflows which could put pressure on the naira after the Federal Reserve raised US interest rates by a quarter percentage point on Wednesday, with a median projection for one more hike by year end. That could deter the Nigerian central bank from adopting such aggressive cuts, the report said.",
+      "So while BofA expects the easing cycle to begin in September, the CBN might prefer to opt for more gradual 50 basis point cuts, or delay further easing until global financial conditions become more supportive.",
+      "Bank of America is also predicting the naira to appreciate towards 1,300 against the dollar, supported by foreign exchange reserves above $50 billion. That’s in line with analysts at Citigroup who expect the currency to remain broadly within a 1,300 - 1,350 per dollar range. The naira was quoted around 1,330/dollar in afternoon trade in Lagos on Wednesday."
+     ],
+     "title_zh": "尼日利亚料因物价趋软和奈拉走强而降息",
+     "summary_zh": "美银预计尼日利亚央行下周降息100基点，年底利率降至24.5%，奈拉今年升值8%至约1330。"
     },
     {
      "title": "European Union Asks Canada to Join the Bloc as Associate Member",
@@ -6377,6 +6429,15 @@
      "title_zh": "英国议员敦促将“净零”从净零部门的名称中删除"
     },
     {
+     "title": "‘Life-changing’ breast cancer drug now available on NHS in England",
+     "url": "https://www.ft.com/content/e1f59abc-6ecf-4cef-80aa-75d201f731d0",
+     "link": "https://www.ft.com/content/e1f59abc-6ecf-4cef-80aa-75d201f731d0",
+     "published_cst": "2026-09-16T23:00:09+08:00",
+     "time": "09-16 23:00",
+     "body": null,
+     "title_zh": "英国药企与特朗普达成协议后乳腺癌药物获批"
+    },
+    {
      "title": "FT Crossword: Number 18,482",
      "url": "https://www.ft.com/content/4a0c7dd3-b1fe-45b4-bd2b-ec17541eb28d",
      "link": "https://www.ft.com/content/4a0c7dd3-b1fe-45b4-bd2b-ec17541eb28d",
@@ -6384,15 +6445,6 @@
      "time": "09-16 23:00",
      "body": null,
      "title_zh": "金融时报填字游戏第18482期"
-    },
-    {
-     "title": "Breast cancer drug approved after UK pharma deal with Trump",
-     "url": "https://www.ft.com/content/e1f59abc-6ecf-4cef-80aa-75d201f731d0",
-     "link": "https://www.ft.com/content/e1f59abc-6ecf-4cef-80aa-75d201f731d0",
-     "published_cst": "2026-09-16T23:00:09+08:00",
-     "time": "09-16 23:00",
-     "body": null,
-     "title_zh": "英国药企与特朗普达成协议后乳腺癌药物获批"
     },
     {
      "title": "LVMH scion Alexandre Arnault appointed to Nike board",

@@ -1,6 +1,6 @@
 {
  "date": "20260915",
- "generated_at": "2026-09-17T14:12:16.806893+08:00",
+ "generated_at": "2026-09-17T18:12:53.430275+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -4416,30 +4416,6 @@
      "summary_zh": "香港特首李家超将公布首个五年计划，对接国家战略，并发表任内最后一份施政报告。"
     },
     {
-     "title": "A US-China Pact on AI Is Possible, But Not by Posturing",
-     "url": "https://www.bloomberg.com/opinion/articles/2026-09-15/a-us-china-pact-on-ai-is-possible-but-not-by-posturing",
-     "link": "https://www.bloomberg.com/opinion/articles/2026-09-15/a-us-china-pact-on-ai-is-possible-but-not-by-posturing",
-     "published_cst": "2026-09-15T09:30:16+08:00",
-     "time": "09-15 09:30",
-     "body": [
-      "Any hope that the coming summit between President Donald Trump and Chinese leader Xi Jinping would be productive in taking steps to mitigate the harms of artificial intelligence seems to have been dashed, thanks to a commander in chief unwilling to acknowledge the pivotal moment that faces us as AI companies call for a slowdown in development.",
-      "“The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” Trump wrote on Truth Social on Monday, responding to a flurry of debate in the AI sector on slowing research in the name of safety. He argued that calls for regulation were a “SICK conspiracy” against AI and data centers, one that benefits only the great adversary, China.",
-      "It’s an absurd notion that some of AI’s biggest boosters, companies and people — those who stand to benefit the most from its development and proliferation — are now engaged in a conspiracy against their own interests or that their concerns about safety are a “hoax.” And Trump’s wrong, of course, to consider himself the only necessary guardrail of AI. A “high IQ” president would be one who recognized the coming meeting with his Chinese counterpart, with direct talks at the White House on Sept. 24, as an important chance to at least begin the process of addressing some of AI’s most harmful effects. That task can be effective only if it’s global in scale.",
-      "It can be tempting to frame any talks as fruitless. How could two countries, intensely distrustful of each other, reach a credible agreement to slow development or play on a more transparent AI field? China has already, through an editorial in the state-controlled Global Times newspaper, described Anthropic’s call for a slowdown as a “‘Cold War playbook’ for the AI sector.” (We might remind ourselves at this juncture that the Cold War ended without nuclear war.)",
-      "But trust need not be a prerequisite. “There is a deep mutual suspicion on both sides,” Jack Shanahan, a former director of AI at the Pentagon, told me, but he stressed it’s possible to “figure out how to chip away at that without trying to claim all of a sudden the two presidents have got this relationship built on trust.”",
-      "Where that chipping away might start is in finding areas of obvious and urgent mutual interest when it comes to the AI threat. Trump and Xi should discuss where the “potential redlines would be on using advanced AI to attack each other’s critical infrastructure, key resources, nuclear command and control,” Shanahan said. (Such conversations were taking place under Joe Biden.)",
-      "From there, attention might also turn to the thorny matter of “distillation” — the practice of using a large existing AI model to train a new one. US AI labs, Anthropic in particular, are upset at Chinese AI labs for distilling American models to cheaply and quickly catch up to Western rivals. China could direct its AI companies to curtail the practice —  one already has — in return for looser export controls on US-designed semiconductors. This is something many US-based AI leaders suggest would be good for American dominance because it would increase demand for hardware from homegrown companies like Nvidia Corp. rather than from Huawei Technologies Co. or other Chinese competitors. There are, in other words, levers to pull and conditions that can be imposed.",
-      "While it may not be possible to point a satellite at a data center and assess AI progress in the same way a nation might count nuclear warheads, China observers say that Xi is sincerely willing to open up Chinese AI to independent evaluators if the US sector were subject to the same. Some US AI labs have said they would open up, though there’s disagreement on the mechanics. We know that, like a growing number in the US AI sector, President Xi shares concern about self-training AI breaking free of human control. This sensible common ground can be the starting point of setting up global safety frameworks. In this scenario, maybe Europe finds a role — or perhaps the UK, which has already received praise from US AI researchers over the effectiveness of its government-run AI Safety Institute.",
-      "In any event, talking is unquestionably better than not. Obama-era dialogue with China on cyberwar, including a pact not to use cyberattacks to steal intellectual property, was credited at least in part (along with other pressures) with slowing the rate of Chinese-backed breaches of US systems (for a time, at least, though any time gained on AI safety should be considered a luxury).",
-      "As with cybersecurity, any pact on AI would be met with warranted skepticism. “Trust, but verify” becomes “verify, verify again, and only then might you be able to consider any type of trust,” suggested Kat Duffy, senior fellow at the Council on Foreign Relations. That will be long in the making for this emerging technology.",
-      "For now, with Trump’s comments in mind, “I think the best-case scenario is a broader statement that there will be another set of talks,” Duffy added. One hope shared by Duffy and others, such as the leading AI commentator Gary Marcus, is that Trump can be convinced that reaching an agreement with Xi on AI safety would be a sure and deserved way to win a Nobel Peace Prize. If someone could bring that to his attention in the next nine days, maybe the talks might take on a different, and more reassuring, dimension.",
-      "More From Bloomberg Opinion:",
-      "Want more Bloomberg Opinion? Terminal readers, head to OPIN <GO>. Or subscribe to our daily newsletter."
-     ],
-     "title_zh": "美中人工智能协议有望达成，但需实质行动而非姿态。",
-     "summary_zh": "特朗普与习近平峰会难在AI安全上取得进展，特朗普反对监管并称无需护栏。"
-    },
-    {
      "title": "Air France to Open Largest Lounge at JFK's New Terminal One",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/air-france-to-open-largest-lounge-at-jfk-s-new-terminal-one",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/air-france-to-open-largest-lounge-at-jfk-s-new-terminal-one",
@@ -4464,6 +4440,30 @@
      ],
      "title_zh": "法航将在肯尼迪机场新一号航站楼开设最大休息室",
      "summary_zh": "法航明年将在纽约肯尼迪机场新国际航站楼开设其巴黎以外最大休息室，面积2.9万平方英尺，可容纳400余人，2027年启用。"
+    },
+    {
+     "title": "A US-China Pact on AI Is Possible, But Not by Posturing",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-15/a-us-china-pact-on-ai-is-possible-but-not-by-posturing",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-15/a-us-china-pact-on-ai-is-possible-but-not-by-posturing",
+     "published_cst": "2026-09-15T09:30:16+08:00",
+     "time": "09-15 09:30",
+     "body": [
+      "Any hope that the coming summit between President Donald Trump and Chinese leader Xi Jinping would be productive in taking steps to mitigate the harms of artificial intelligence seems to have been dashed, thanks to a commander in chief unwilling to acknowledge the pivotal moment that faces us as AI companies call for a slowdown in development.",
+      "“The only control or ‘guardrails’ that AI needs is a STRONG AND SMART (High IQ!) PRESIDENT, and the U.S.A. has that, in spades!” Trump wrote on Truth Social on Monday, responding to a flurry of debate in the AI sector on slowing research in the name of safety. He argued that calls for regulation were a “SICK conspiracy” against AI and data centers, one that benefits only the great adversary, China.",
+      "It’s an absurd notion that some of AI’s biggest boosters, companies and people — those who stand to benefit the most from its development and proliferation — are now engaged in a conspiracy against their own interests or that their concerns about safety are a “hoax.” And Trump’s wrong, of course, to consider himself the only necessary guardrail of AI. A “high IQ” president would be one who recognized the coming meeting with his Chinese counterpart, with direct talks at the White House on Sept. 24, as an important chance to at least begin the process of addressing some of AI’s most harmful effects. That task can be effective only if it’s global in scale.",
+      "It can be tempting to frame any talks as fruitless. How could two countries, intensely distrustful of each other, reach a credible agreement to slow development or play on a more transparent AI field? China has already, through an editorial in the state-controlled Global Times newspaper, described Anthropic’s call for a slowdown as a “‘Cold War playbook’ for the AI sector.” (We might remind ourselves at this juncture that the Cold War ended without nuclear war.)",
+      "But trust need not be a prerequisite. “There is a deep mutual suspicion on both sides,” Jack Shanahan, a former director of AI at the Pentagon, told me, but he stressed it’s possible to “figure out how to chip away at that without trying to claim all of a sudden the two presidents have got this relationship built on trust.”",
+      "Where that chipping away might start is in finding areas of obvious and urgent mutual interest when it comes to the AI threat. Trump and Xi should discuss where the “potential redlines would be on using advanced AI to attack each other’s critical infrastructure, key resources, nuclear command and control,” Shanahan said. (Such conversations were taking place under Joe Biden.)",
+      "From there, attention might also turn to the thorny matter of “distillation” — the practice of using a large existing AI model to train a new one. US AI labs, Anthropic in particular, are upset at Chinese AI labs for distilling American models to cheaply and quickly catch up to Western rivals. China could direct its AI companies to curtail the practice —  one already has — in return for looser export controls on US-designed semiconductors. This is something many US-based AI leaders suggest would be good for American dominance because it would increase demand for hardware from homegrown companies like Nvidia Corp. rather than from Huawei Technologies Co. or other Chinese competitors. There are, in other words, levers to pull and conditions that can be imposed.",
+      "While it may not be possible to point a satellite at a data center and assess AI progress in the same way a nation might count nuclear warheads, China observers say that Xi is sincerely willing to open up Chinese AI to independent evaluators if the US sector were subject to the same. Some US AI labs have said they would open up, though there’s disagreement on the mechanics. We know that, like a growing number in the US AI sector, President Xi shares concern about self-training AI breaking free of human control. This sensible common ground can be the starting point of setting up global safety frameworks. In this scenario, maybe Europe finds a role — or perhaps the UK, which has already received praise from US AI researchers over the effectiveness of its government-run AI Safety Institute.",
+      "In any event, talking is unquestionably better than not. Obama-era dialogue with China on cyberwar, including a pact not to use cyberattacks to steal intellectual property, was credited at least in part (along with other pressures) with slowing the rate of Chinese-backed breaches of US systems (for a time, at least, though any time gained on AI safety should be considered a luxury).",
+      "As with cybersecurity, any pact on AI would be met with warranted skepticism. “Trust, but verify” becomes “verify, verify again, and only then might you be able to consider any type of trust,” suggested Kat Duffy, senior fellow at the Council on Foreign Relations. That will be long in the making for this emerging technology.",
+      "For now, with Trump’s comments in mind, “I think the best-case scenario is a broader statement that there will be another set of talks,” Duffy added. One hope shared by Duffy and others, such as the leading AI commentator Gary Marcus, is that Trump can be convinced that reaching an agreement with Xi on AI safety would be a sure and deserved way to win a Nobel Peace Prize. If someone could bring that to his attention in the next nine days, maybe the talks might take on a different, and more reassuring, dimension.",
+      "More From Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? Terminal readers, head to OPIN <GO>. Or subscribe to our daily newsletter."
+     ],
+     "title_zh": "美中人工智能协议有望达成，但需实质行动而非姿态。",
+     "summary_zh": "特朗普与习近平峰会难在AI安全上取得进展，特朗普反对监管并称无需护栏。"
     },
     {
      "title": "Essity Said to Prep for Tissue Exit With Sale, Listing on Table",
