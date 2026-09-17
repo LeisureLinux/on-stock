@@ -459,7 +459,7 @@ parts.append('</section>')
 
 html = '\n'.join(parts)
 
-out_dir = Path("/home/axu/codex/writings/stock/articles/2026-09-01_稀土磁材_左侧布局")
+out_dir = Path(__file__).resolve().parent
 out_dir.mkdir(parents=True, exist_ok=True)
 out_path = out_dir / "排版_石墨极简风(graphite-minimal).html"
 out_path.write_text(html, encoding='utf-8')
