@@ -1,16 +1,55 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-17T09:17:19.612446+08:00",
+ "generated_at": "2026-09-17T10:11:42.324111+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 5,
+   "count": 7,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "Nvidia Partner GMI Cloud Seeks Loan to Buy Chips for Thai Site",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/nvidia-partner-gmi-cloud-seeks-loan-to-buy-chips-for-thai-site",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/nvidia-partner-gmi-cloud-seeks-loan-to-buy-chips-for-thai-site",
+     "published_cst": "2026-09-17T01:54:17+08:00",
+     "time": "09-17 01:54",
+     "body": [
+      "GMI Cloud, a Nvidia Corp. partner, is seeking a $300 million loan to buy chips for its facility in Thailand, according to people familiar with the matter, adding to a growing list of similar deals in Asia.",
+      "The US-based data center operator has approached banks and private credit funds for the financing, said the people who asked not to be identified as the discussions are private. The proposed deal would pay yields in the low-teens, they said.",
+      "Proceeds from the self-arranged funding would be used for chip purchases for GMI Cloud’s facility, housed in STT GDC Pte.’s site in Thailand, they said. Tencent Holdings Ltd. would be the user of the chips, they said.",
+      "Spokespeople for GMI Cloud and Tencent had no immediate comment when contacted, while a spokesperson for STTGDC declined to comment.",
+      "Chip financing is emerging as the next frontier for AI lenders, as banks and private credit expand beyond data centers to the hardware that powers them. GMI Cloud recently signed a NT$13.9 billion ($436 million) loan, backed by contracts for computing power from advanced chips, for a project in Taiwan.",
+      "That deal secured bank commitments of more than double the amount sought."
+     ],
+     "title_zh": "英伟达合作伙伴GMI Cloud寻求贷款为泰国工厂购买芯片",
+     "summary_zh": "英伟达合作伙伴GMI Cloud寻求3亿美元贷款，为泰国数据中心购买芯片，腾讯将是芯片用户。"
+    },
+    {
+     "title": "Singapore's Gold Hub Ambition Gets Lift With DBS Vault Expansion",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/singapore-s-gold-hub-ambition-gets-lift-with-dbs-vault-expansion",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/singapore-s-gold-hub-ambition-gets-lift-with-dbs-vault-expansion",
+     "published_cst": "2026-09-17T01:49:39+08:00",
+     "time": "09-17 01:49",
+     "body": [
+      "Singapore’s push to become a major gold hub is gaining momentum, with DBS Group Holdings Ltd. adding bullion storage capacity and other banks considering similar moves.",
+      "DBS, Southeast Asia’s largest lender, increased its vaulting space this year to support growing demand from both private wealth and institutional clients, the bank said in an emailed response to Bloomberg’s request for comment on Wednesday. Oversea-Chinese Banking Corp. Ltd. has also approached precious metal storage providers about securing more space, according to people with knowledge of the matter.",
+      "Deutsche Bank AG is similarly considering an expansion, said another person. The scale of vault growth for the banks is under discussion and plans are subject to change, the people said, asking not to be named as the conversations are private.",
+      "Read More: Singapore to Launch Gold Clearing With JPMorgan, Other Banks",
+      "Banks typically contract logistics providers to manage storage and movement of gold, though some, including Singapore-based United Overseas Bank Ltd., operate their own vaults. The third parties lease space at private facilities such as Le Freeport, a high-security premises in Singapore dubbed “Asia’s Fort Knox”, which is owned by a crypto billionaire.",
+      "Le Freeport has been facing rising demand for gold storage in recent years and its basement vaulting space is nearly full, the operator said in an interview in May. Several people familiar with the matter said some banks may not be able to store bullion in its basement, their preferred location due to its enhanced security and higher load-bearing capacity, which enables more bars to be stacked than on upper floors.",
+      "A Deutsche Bank spokesperson declined to comment. An OCBC spokesperson said the bank has seen “steady interest” after it entered the physical gold business, especially from private banking clients.",
+      "The expansion of vault capacity is crucial to Singapore’s plan to launch a gold clearing system as part of its push to become a global hub for the precious metal. All clearing banks will need sufficient capacity to store and settle large volumes of bullion.",
+      "The city-state’s ambition runs alongside regional rival Hong Kong, which began a trial run of a new clearing system in July while courting foreign banks to store gold.",
+      "Read More: Hong Kong Seeks Dominant Asia Gold Hub With New Clearing System",
+      "Singapore can currently store at least 2,200 tons at privately-owned facilities; 1,700 at Le Freeport and 500 at The Reserve, according to the operators. Hong Kong has pledged to expand its total storage capacity to 2,000 tons within three years."
+     ],
+     "title_zh": "星展银行金库扩张助力新加坡黄金中心雄心",
+     "summary_zh": "新加坡推动黄金枢纽建设，星展银行增加金库容量，华侨银行和德意志银行等也在考虑扩充存储空间。"
+    },
     {
      "title": "Taiwan Poised for Hawkish Hold After Headline Inflation Slowed",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/taiwan-poised-for-hawkish-hold-after-headline-inflation-slowed",
@@ -157,10 +196,46 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 8,
+   "count": 12,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "See How Jet Power Is Giving Russia the Edge in the Drone War",
+     "url": "https://www.wsj.com/world/see-how-jet-power-is-giving-russia-the-edge-in-the-drone-war-5329dfab",
+     "link": "https://www.wsj.com/world/see-how-jet-power-is-giving-russia-the-edge-in-the-drone-war-5329dfab",
+     "published_cst": "2026-09-17T02:00:00+08:00",
+     "time": "09-17 02:00",
+     "body": null,
+     "title_zh": "看看喷气动力如何让俄罗斯在无人机战争中占优势"
+    },
+    {
+     "title": "Iran’s Attempts to Get Around the Hormuz Blockade Are Hitting a Wall",
+     "url": "https://www.wsj.com/world/middle-east/irans-attempts-to-get-around-the-hormuz-blockade-are-hitting-a-wall-c1f42cbe",
+     "link": "https://www.wsj.com/world/middle-east/irans-attempts-to-get-around-the-hormuz-blockade-are-hitting-a-wall-c1f42cbe",
+     "published_cst": "2026-09-17T02:00:00+08:00",
+     "time": "09-17 02:00",
+     "body": null,
+     "title_zh": "伊朗绕开霍尔木兹封锁的尝试受阻"
+    },
+    {
+     "title": "Nikkei Rises 1.0%, Led by Pharma, Machinery Stocks",
+     "url": "https://www.wsj.com/finance/stocks/nikkei-rises-1-0-led-by-pharma-machinery-stocks-2d9b558c",
+     "link": "https://www.wsj.com/finance/stocks/nikkei-rises-1-0-led-by-pharma-machinery-stocks-2d9b558c",
+     "published_cst": "2026-09-17T01:25:00+08:00",
+     "time": "09-17 01:25",
+     "body": null,
+     "title_zh": "日经指数涨1.0%，医药和机械股领涨"
+    },
+    {
+     "title": "Global Tightening Could Cap Dollar’s Fed Boost",
+     "url": "https://www.wsj.com/finance/currencies/global-tightening-could-cap-dollars-fed-boost-fe1f509c",
+     "link": "https://www.wsj.com/finance/currencies/global-tightening-could-cap-dollars-fed-boost-fe1f509c",
+     "published_cst": "2026-09-17T01:19:00+08:00",
+     "time": "09-17 01:19",
+     "body": null,
+     "title_zh": "全球紧缩可能限制美元因美联储获得的提振"
+    },
     {
      "title": "Gold Ticks Up as Markets Weigh Fed Path",
      "url": "https://www.wsj.com/finance/commodities-futures/gold-ticks-up-as-markets-weigh-fed-path-eeb22df6",
@@ -238,10 +313,181 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 19,
+   "count": 33,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "Impoverished by war in Iran, Afghan migrants return to Taliban rule",
+     "url": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
+     "published_cst": "2026-09-17T02:05:57+08:00",
+     "time": "09-17 02:05",
+     "body": null,
+     "title_zh": "受伊朗战争所困，阿富汗移民重返塔利班统治"
+    },
+    {
+     "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields",
+     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/",
+     "published_cst": "2026-09-17T02:05:31+08:00",
+     "time": "09-17 02:05",
+     "body": null,
+     "title_zh": "美联储加息短期收益率上升美元跳涨股市微升"
+    },
+    {
+     "title": "India's NSE allots shares worth $703 million to anchor investors; LIC top bidder",
+     "url": "https://www.reuters.com/world/india/indias-nse-allots-around-703-million-worth-shares-anchor-investors-sources-say-2026-09-16/",
+     "link": "https://www.reuters.com/world/india/indias-nse-allots-around-703-million-worth-shares-anchor-investors-sources-say-2026-09-16/",
+     "published_cst": "2026-09-17T02:01:45+08:00",
+     "time": "09-17 02:01",
+     "body": null,
+     "title_zh": "印度国家证券交易所向锚定投资者配售价值7.03亿美元股票，印度人寿保险成最大竞标者"
+    },
+    {
+     "title": "US official says upcoming spectrum auctions could generate more than $100 billion",
+     "url": "https://www.reuters.com/business/media-telecom/us-official-says-upcoming-spectrum-auctions-could-generate-more-than-100-billion-2026-09-17/",
+     "link": "https://www.reuters.com/business/media-telecom/us-official-says-upcoming-spectrum-auctions-could-generate-more-than-100-billion-2026-09-17/",
+     "published_cst": "2026-09-17T01:58:32+08:00",
+     "time": "09-17 01:58",
+     "body": null,
+     "title_zh": "美国官员称即将举行的频谱拍卖可能带来超过1000亿美元收入"
+    },
+    {
+     "title": "US extends visa sanctions on Palestinian Authority officials, PLO members",
+     "url": "https://www.reuters.com/world/middle-east/us-extends-visa-sanctions-palestinian-authority-officials-plo-members-2026-09-17/",
+     "link": "https://www.reuters.com/world/middle-east/us-extends-visa-sanctions-palestinian-authority-officials-plo-members-2026-09-17/",
+     "published_cst": "2026-09-17T01:57:38+08:00",
+     "time": "09-17 01:57",
+     "body": null,
+     "title_zh": "美国扩大对巴勒斯坦权力机构官员及巴解组织成员的签证制裁。"
+    },
+    {
+     "title": "Epstein survivors sue his estate over child pornography collection",
+     "url": "https://www.reuters.com/legal/government/epstein-survivors-sue-his-estate-over-child-pornography-collection-2026-09-16/",
+     "link": "https://www.reuters.com/legal/government/epstein-survivors-sue-his-estate-over-child-pornography-collection-2026-09-16/",
+     "published_cst": "2026-09-17T01:51:48+08:00",
+     "time": "09-17 01:51",
+     "body": null,
+     "title_zh": "爱泼斯坦幸存者就其儿童色情藏品起诉其遗产"
+    },
+    {
+     "title": "Malaysia talks to rival airlines as it monitors AirAsia's financial health, sources say",
+     "url": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
+     "published_cst": "2026-09-17T01:50:43+08:00",
+     "time": "09-17 01:50",
+     "body": null,
+     "title_zh": "马来西亚与竞争对手航空公司洽谈，同时监控亚航财务状况，消息人士称"
+    },
+    {
+     "title": "JERA expects more overseas LNG sales as it expands trading portfolio",
+     "url": "https://www.reuters.com/business/energy/jera-expects-more-overseas-lng-sales-it-expands-trading-portfolio-2026-09-17/",
+     "link": "https://www.reuters.com/business/energy/jera-expects-more-overseas-lng-sales-it-expands-trading-portfolio-2026-09-17/",
+     "published_cst": "2026-09-17T01:47:08+08:00",
+     "time": "09-17 01:47",
+     "body": null,
+     "title_zh": "JERA预计海外LNG销售增加，因扩大交易组合。"
+    },
+    {
+     "title": "Trump, in North Carolina, says Democrats are soft on crime and communism",
+     "url": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
+     "link": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
+     "published_cst": "2026-09-17T01:42:30+08:00",
+     "time": "09-17 01:42",
+     "body": null,
+     "title_zh": "特朗普在北卡罗来纳州称民主党对犯罪和共产主义态度软弱"
+    },
+    {
+     "title": "China's brutal AI economics hold lessons for US",
+     "url": "https://www.reuters.com/commentary/breakingviews/chinas-brutal-ai-economics-hold-lessons-us-2026-09-16/",
+     "link": "https://www.reuters.com/commentary/breakingviews/chinas-brutal-ai-economics-hold-lessons-us-2026-09-16/",
+     "published_cst": "2026-09-17T01:39:48+08:00",
+     "time": "09-17 01:39",
+     "body": null,
+     "title_zh": "中国残酷的AI经济给美国敲响警钟"
+    },
+    {
+     "title": "North Korea vice defence minister says US arms buildup justifies expanding nuclear force",
+     "url": "https://www.reuters.com/business/aerospace-defense/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-2026-09-17/",
+     "link": "https://www.reuters.com/business/aerospace-defense/north-korea-vice-defence-minister-says-us-arms-buildup-justifies-expanding-2026-09-17/",
+     "published_cst": "2026-09-17T01:39:41+08:00",
+     "time": "09-17 01:39",
+     "body": null,
+     "title_zh": "朝鲜副防长称美国军备扩张证明扩大核力量合理"
+    },
+    {
+     "title": "ICE agent charged with assault, lying about shooting, arrested in Minnesota",
+     "url": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
+     "link": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
+     "published_cst": "2026-09-17T01:34:10+08:00",
+     "time": "09-17 01:34",
+     "body": null,
+     "title_zh": "美国移民及海关执法局探员因袭击和枪击事件撒谎在明尼苏达州被捕"
+    },
+    {
+     "title": "LNG spot price surge deters Asian buyers, but saves Europe",
+     "url": "https://www.reuters.com/commentary/reuters-open-interest/lng-spot-price-surge-deters-asian-buyers-saves-europe-2026-09-17/",
+     "link": "https://www.reuters.com/commentary/reuters-open-interest/lng-spot-price-surge-deters-asian-buyers-saves-europe-2026-09-17/",
+     "published_cst": "2026-09-17T01:28:30+08:00",
+     "time": "09-17 01:28",
+     "body": null,
+     "title_zh": "LNG现货价格飙升，亚洲买家却步，欧洲得救"
+    },
+    {
+     "title": "Goldman Sachs now sees Fed hiking again in October",
+     "url": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/",
+     "link": "https://www.reuters.com/business/goldman-sachs-now-sees-fed-hiking-again-october-2026-09-17/",
+     "published_cst": "2026-09-17T01:27:43+08:00",
+     "time": "09-17 01:27",
+     "body": null,
+     "title_zh": "高盛现预计美联储10月再次加息"
+    },
+    {
+     "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
+     "url": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
+     "link": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
+     "published_cst": "2026-09-17T01:24:38+08:00",
+     "time": "09-17 01:24",
+     "body": null,
+     "title_zh": "众议院通过格雷厄姆力推的对俄制裁法案，提交特朗普"
+    },
+    {
+     "title": "South Korea foreign minister says US investment deal delayed by procedural issues",
+     "url": "https://www.reuters.com/world/asia-pacific/south-korea-foreign-minister-says-us-investment-deal-delayed-by-procedural-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-korea-foreign-minister-says-us-investment-deal-delayed-by-procedural-2026-09-17/",
+     "published_cst": "2026-09-17T01:22:13+08:00",
+     "time": "09-17 01:22",
+     "body": null,
+     "title_zh": "韩外长称美投资协议因程序问题推迟"
+    },
+    {
+     "title": "Russian strikes injure 13 in Ukraine's Kyiv, Odesa, officials say",
+     "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
+     "link": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
+     "published_cst": "2026-09-17T01:18:09+08:00",
+     "time": "09-17 01:18",
+     "body": null,
+     "title_zh": "俄罗斯袭击乌克兰基辅，敖德萨三人受伤，官员称"
+    },
+    {
+     "title": "Former Chelsea owners Boehly and Walter sell holdings to Clearlake",
+     "url": "https://www.reuters.com/legal/transactional/former-chelsea-owners-boehly-walter-sell-holdings-clearlake-2026-09-16/",
+     "link": "https://www.reuters.com/legal/transactional/former-chelsea-owners-boehly-walter-sell-holdings-clearlake-2026-09-16/",
+     "published_cst": "2026-09-17T01:15:45+08:00",
+     "time": "09-17 01:15",
+     "body": null,
+     "title_zh": "前切尔西老板伯利和沃尔特将股份出售给清湖资本"
+    },
+    {
+     "title": "US temporarily eases curb on working hours for fuel truck drivers",
+     "url": "https://www.reuters.com/business/energy/us-temporarily-eases-curb-working-hours-fuel-truck-drivers-2026-09-17/",
+     "link": "https://www.reuters.com/business/energy/us-temporarily-eases-curb-working-hours-fuel-truck-drivers-2026-09-17/",
+     "published_cst": "2026-09-17T01:12:56+08:00",
+     "time": "09-17 01:12",
+     "body": null,
+     "title_zh": "美国暂时放宽燃油卡车司机工作时间限制"
+    },
     {
      "title": "Climate change likely to have helped trigger Nepal glacier collapse, scientists say",
      "url": "https://www.reuters.com/sustainability/cop/climate-change-likely-have-helped-trigger-nepal-glacier-collapse-scientists-say-2026-09-17/",
@@ -252,15 +498,6 @@
      "title_zh": "科学家称气候变化可能是尼泊尔冰川崩塌的诱因"
     },
     {
-     "title": "US temporarily eases curb on working hours for fuel truck drivers",
-     "url": "https://www.reuters.com/business/energy/us-temporarily-eases-curb-working-hours-fuel-truck-drivers-2026-09-17/",
-     "link": "https://www.reuters.com/business/energy/us-temporarily-eases-curb-working-hours-fuel-truck-drivers-2026-09-17/",
-     "published_cst": "2026-09-17T01:07:47+08:00",
-     "time": "09-17 01:07",
-     "body": null,
-     "title_zh": "美国暂时放宽燃油卡车司机工作时间限制"
-    },
-    {
      "title": "Oil prices extend losses as fears of Middle East supply disruptions ease",
      "url": "https://www.reuters.com/business/energy/oil-prices-extend-losses-fears-middle-east-supply-disruptions-ease-2026-09-17/",
      "link": "https://www.reuters.com/business/energy/oil-prices-extend-losses-fears-middle-east-supply-disruptions-ease-2026-09-17/",
@@ -268,15 +505,6 @@
      "time": "09-17 01:01",
      "body": null,
      "title_zh": "油价延续跌势，中东供应中断担忧缓解"
-    },
-    {
-     "title": "China's brutal AI economics hold lessons for US",
-     "url": "https://www.reuters.com/commentary/breakingviews/chinas-brutal-ai-economics-hold-lessons-us-2026-09-16/",
-     "link": "https://www.reuters.com/commentary/breakingviews/chinas-brutal-ai-economics-hold-lessons-us-2026-09-16/",
-     "published_cst": "2026-09-17T01:00:31+08:00",
-     "time": "09-17 01:00",
-     "body": null,
-     "title_zh": "中国残酷的AI经济给美国敲响警钟"
     },
     {
      "title": "Japan's Takaichi set to signal policy continuity in cabinet reshuffle",
@@ -360,15 +588,6 @@
      "title_zh": "巴西石油公司上调柴油价格，通过新补贴抵消涨幅"
     },
     {
-     "title": "Russia strikes Ukraine's Kyiv, injures three in Odesa, officials say",
-     "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
-     "link": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
-     "published_cst": "2026-09-17T00:17:59+08:00",
-     "time": "09-17 00:17",
-     "body": null,
-     "title_zh": "俄罗斯袭击乌克兰基辅，敖德萨三人受伤，官员称"
-    },
-    {
      "title": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA'",
      "url": "https://www.reuters.com/world/middle-east/netanyahu-steps-up-threats-against-directors-gaza-documentary-naza-2026-09-16/",
      "link": "https://www.reuters.com/world/middle-east/netanyahu-steps-up-threats-against-directors-gaza-documentary-naza-2026-09-16/",
@@ -385,24 +604,6 @@
      "time": "09-17 00:11",
      "body": null,
      "title_zh": "新西兰GDP增长放缓但超预期 显韧性"
-    },
-    {
-     "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
-     "url": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
-     "link": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
-     "published_cst": "2026-09-17T00:08:46+08:00",
-     "time": "09-17 00:08",
-     "body": null,
-     "title_zh": "众议院通过格雷厄姆力推的对俄制裁法案，提交特朗普"
-    },
-    {
-     "title": "US extends visa sanctions on Palestinian Authority officials, PLO members",
-     "url": "https://www.reuters.com/world/middle-east/us-extends-visa-sanctions-palestinian-authority-officials-plo-members-2026-09-17/",
-     "link": "https://www.reuters.com/world/middle-east/us-extends-visa-sanctions-palestinian-authority-officials-plo-members-2026-09-17/",
-     "published_cst": "2026-09-17T00:05:45+08:00",
-     "time": "09-17 00:05",
-     "body": null,
-     "title_zh": "美国扩大对巴勒斯坦权力机构官员及巴解组织成员的签证制裁。"
     },
     {
      "title": "Câmara dos Deputados dos EUA aprova primeiro projeto de lei que aborda impacto econômico do boom dos data centers",

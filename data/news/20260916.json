@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T09:18:15.418712+08:00",
+ "generated_at": "2026-09-17T10:11:25.940753+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -509,7 +509,7 @@
      "summary_zh": "美联储加息25个基点至3.75%-4%，沃什抗通胀表态安抚市场，美债收益率回落，油价续跌。"
     },
     {
-     "title": "Oil Extends Drop as Saudi Arabia Moves to Restore Vital Pipeline",
+     "title": "Oil Holds Drop as Saudi Arabia Moves to Restore Vital Pipeline",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
      "published_cst": "2026-09-16T22:05:54+08:00",
