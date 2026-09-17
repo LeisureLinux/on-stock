@@ -1,16 +1,500 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-17T12:12:42.168627+08:00",
+ "generated_at": "2026-09-17T14:13:59.554214+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 22,
+   "count": 41,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "Qoves, Other AI Beauty and Hair Apps Turn Attractiveness Into a Score",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/qoves-other-ai-beauty-and-hair-apps-turn-attractiveness-into-a-score",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/qoves-other-ai-beauty-and-hair-apps-turn-attractiveness-into-a-score",
+     "published_cst": "2026-09-17T06:00:12+08:00",
+     "time": "09-17 06:00",
+     "body": [
+      "How much distress does your face cause you?” I stared at the question on my phone and the following options: “no distress at all,” “minor,” “moderate,” “extreme distress that affects your day to day.”",
+      "This comes near the start of the intake form for Qoves, an artificial intelligence facial-analysis service. Answer its questionnaire, upload selfies from different angles (including the top of your head), pay $150 and let the AI do its magic. It maps 521 points on your face against dozens of aesthetic tests drawn from “ years studying the literature in facial morphology, dermatology, and beauty science,” then suggests nonsurgical interventions to fix whatever needs fixing.",
+      "Twenty-eight days later — after human experts checked the AI responses — Qoves Inc. sends my report, a long list of personalized recommendations to help me reach OptimizedAlice. The first thing that stood out was my poor eyebrows, where I was to “fill sparse areas with a dark eyebrow pencil” and “thread the upper edge and tail” if I wanted the definition that created “a more youthful, attractive appearance.” I could then subscribe to an annual reevaluation of my face and skin metrics — tracking aging, lifestyle changes and how effective the recommendations have been.",
+      "Qoves is one of a growing crop of companies trying to use AI to turn contested ideas about beauty into seemingly objective measures. Overchat AI scores your face on four dimensions, among them “harmony”—how your features measure against the so-called golden ratio (Φ 1.618)—and dimorphism—“how masculine or feminine the face reads.” UMax AI, the self-described “No. 1 looksmaxxing” app, tells users who want to “become hot” that they’ll “get there faster,” after they pay for a $3.99 per week subscription and get their PSL (physical sexual level). Hairstyle AI generates color and style options trained on more than 500 cuts curated from “top salons worldwide.” Then there’s MyHairline and Hairloss AI, which scan your hairline in seconds to return your Norwood balding stage, how many grafts you’d need to reach your desired hairline and what other treatments could help regrow your crown.",
+      "The pitch of these tools is seductive: If beauty hierarchies are real — if there are ideal jawlines, hairlines and eyebrows — then AI can optimize for them.",
+      "The global beauty market is expected to generate $590 billion in sales this year, according to Euromonitor International Ltd. “Beauty tech” is estimated by Business Research Co. to grow to around $90 billion in 2026 — and AI is the fastest-growing slice.",
+      "Beauty is no stranger to standards. What would AI be trained on if not years of investigation into what it means to be beautiful, each measurement encoding assumptions about what a “ harmonious” face should look like? Some of this rests on geometric facial rules that Renaissance artists adapted from the ancient Greeks: equal proportions of hairline to brow, brow to nose, nose to chin. Of course, some supermodels have risen to fame by disrupting the formula—one or two features exaggerated past the ideal, like Cara Delevingne’s eyebrows or Lauren Hutton’s tooth gap. But for the most part, popular culture has focused on conforming. Remember the cyborgian perfection of 2019’s Instagram Face?",
+      "Beauty standards carry real benefits for those who achieve them. In 1993 economists Daniel Hamermesh and Jeff Biddle published research finding an earnings premium for above-average looks and a pernicious penalty for the less lucky. In their study, interviewers were tasked with rating survey respondents’ looks, holding education and experience constant. Good-looking people earned about 5% more than average-looking people. The penalty in earnings for falling below average was 5% to 10%. Hamermesh later estimated that the earnings gap between the best- and worst-looking workers could reach $250,000 over a career. It’s a “social reward,” he tells me.",
+      "Qoves cites Hamermesh and Biddle’s study on its website, listing beauty’s benefits in everything from finances to dating to health. Doctors, the company warns, miss 3.67 times as many diagnoses in “unattractive patients,” while attractive people “live longer” (perhaps in part because they’re more likely to get the right diagnosis).",
+      "The decades between the 1993 study and the social media era have only narrowed our ideas of beauty, from the so-called heroin chic of the 1990s to widespread diet culture of the 2000s, where “model” meant “flat stomach.” The internet of the 2010s brought forward more efforts to challenge these hierarchies — campaigns featured real bodies (in 2014, American Eagle’s lingerie brand Aerie stopped retouching its photos) and older faces (in 2017, Allure declared the “end of anti-aging” with a then-72-year-old Helen Mirren on its cover)—and to expand the definition of beauty beyond racial or socioeconomic hierarchies of power. Later in 2017, Halima Aden became Allure’s first hijab-wearing cover girl, and Rihanna started her 40-shade “beauty for everyone” makeup line.",
+      "It’s hard not to see the renewed turn to optimization as starkly regressive. Improving the composition of the human population was a pernicious founding value of eugenics. Scoring a face by its adherence to specific angles may not be as neutral as it claims to be. Qoves did not respond to multiple requests for comment.",
+      "“There is a belief that the more we approximate the ideal, the more we’ll be rewarded with the goods of the good life,” says Heather Widdows, a professor of global ethics at the University of Birmingham and author of 2018’s Perfect Me: Beauty as an Ethical Ideal. Her book argues that the beauty ideal — being thinner, firmer, smoother, younger — has become more dominant, more demanding and more global than ever. As life pivoted on-camera because of social media, it became easier to impose ever-escalating standards on one another and ourselves. Failure to conform, Widdows argues, becomes a moral failure.",
+      "Her book came out the same year that plastic surgeons began to observe “ Snapchat dysmorphia,” patients bringing filtered versions of themselves—not of celebrities—as inspiration for procedures. Instagram’s own researchers concluded in 2019 that the app made body image issues worse for 1 in 3 teen girls who already had them. (Meta introduced Teen accounts for Instagram in 2024, defaulting teenagers into strict content settings.) Eventually the rise of “ Zoom dysmorphia” took hold as we collectively gained awareness of how we looked on video-conferencing calls, even if some apps allow you to hide self-view.",
+      "Beauty has always run on the same relative logic of looking better than someone else, but now our lexicon has caught up. “Framemogging” is a contest born in the manosphere, where men size up whose frame — jaw, shoulders, you name it — outdoes the others. Dating apps now let you pay to stratify by physical characteristics, as with Tinder’s height filter. Nowhere is it more personified than the “tongue-in-cheek” dating net-worth calculator, which converts looks and height (along with age and salary) into a dollar figure (mine, for any suitors reading, is $255,288).",
+      "In today’s economy, we can “maxx” just about anything: GLP-1s to make us skinnier, plastic surgery to mold us into better proportions, cosmetic tourism to make such molding affordable.",
+      "If everyone can access a fix, then flaws become “abnormal, odd and unnatural,” Widdows wrote in an email. In the 2024 International Society of Aesthetic Plastic Surgery (ISAPS) report, surgical and nonsurgical procedures were up 42.5% from 2020. That year eyelid surgery overtook liposuction — the first time the most popular surgical procedure wasn’t about the body but about the face.",
+      "Even demographic groups such as middle-aged men have been dragged into the fray. It’s no secret that hypermasculine ideals are back, in beauty as in power. Male celebrities are now often subject to the same speculation about surgeries that their female counterparts have long battled. An ISAPS report from 2023 noted a 20% increase of “surgical procedures in face and head” — mostly driven by the increase in men — from 2022.",
+      "While I was reporting this piece, a friend messaged me with a link to the Qoves website: “Is this the company you were talking about?” I reassured him he’s sufficiently “maxxed” and doesn’t need it. “I don’t know,” he replied. “I’m curious.”",
+      "In July, another friend used Hairstyle AI to visualize different cuts she was considering: something new, layered, asymmetrical. I saw her the following week, but nothing looked different. “The hairdresser insisted that what the AI suggested wouldn’t suit me,” she sighed. AI tools only have as much power as we (or our stylists and plastic surgeons) give them.",
+      "When I got Qoves’ visualization of OptimizedAlice, the all-improved mock-up of me, I sent it around to various friends. “She has no soul,” one said; another noted that OptimizedAlice looked like me but got the essence all wrong. The face in the pictures was overly made-up and looked unapproachable. In most before-and-after images of individual features, the main noticeable difference was that my freckles had been removed.",
+      "I’m starting to understand why surgical experts have long disputed the use of objective metrics for measuring beauty. OptimizedAlice may be an aggregation of everyone’s beauty preferences, but not a single person who saw her preferred her to unoptimized me."
+     ],
+     "title_zh": "Qoves等AI美容美发应用将吸引力转化为评分",
+     "summary_zh": "AI面部分析服务Qoves收费150美元，扫描521个面部点并提供美容建议，推动美容科技市场2026年预计达900亿美元。"
+    },
+    {
+     "title": "Port of LA Foiled Around 120 Million Cyberattacks Last Month",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/port-of-la-foiled-around-120-million-cyberattacks-last-month",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/port-of-la-foiled-around-120-million-cyberattacks-last-month",
+     "published_cst": "2026-09-17T05:56:26+08:00",
+     "time": "09-17 05:56",
+     "body": [
+      "The US’s busiest container port for global trade foiled more than 120 million cyberattack attempts in August, posing a persistent threat to its operations as it grapples with shifting tariff policies.",
+      "The Port of Los Angeles identified intrusion, network exploitation, credential harvesting and malware attacks, among other efforts, Executive Director Gene Seroka told Bloomberg Television in an interview. The port’s cybersecurity operations team in a coalition with private-sector businesses form a seven-layer digital defense around its operations, he added.",
+      "Seroka’s comments came after US officials disclosed that American government agencies were tracking cyber threats against nearly 20 ships around the world. Attacks in the maritime sector have escalated in recent years as vessels become increasingly dependent on digital systems for navigation, communications and other operations.",
+      "“All they have to do is to get it right one time,” Seroka said. “This is front of mind every day.”",
+      "Read more: US Tracking Cyber Threats Against Nearly 20 Ships Worldwide",
+      "Shifts in trade flows and policy have also impacted the port’s business, with the amount of cargo it handles from Southeast Asia increasing over the past year and a half and China’s share of total business shrinking. Vietnam’s business with the port has quadrupled over the past decade, while China’s has fallen to 40% of the port’s total throughput from 60% over the same period, he said.",
+      "The port has benefited from increased traffic as ships divert away from the Suez and Panama Canals for security and weather-related reasons, Seroka said. Low water levels in the Panama Canal mean carriers from Asia are forced to unload cargo on the US west coast and truck it overland to east coast markets.",
+      "Having just completed its busiest three-month period on record over June-August, Seroka said the port could see a further 5% to 10% boost to volumes due to restrictions in the Panama Canal rerouting cargoes in its direction."
+     ],
+     "title_zh": "洛杉矶港上月挫败约1.2亿次网络攻击",
+     "summary_zh": "洛杉矶港8月挫败逾1.2亿次网络攻击，同时受关税政策影响，中国货运份额从60%降至40%。"
+    },
+    {
+     "title": "Indonesia Steps Up E20 Bioethanol Push in Bid to Cut Oil Imports",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/indonesia-steps-up-e20-bioethanol-push-in-bid-to-cut-oil-imports",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/indonesia-steps-up-e20-bioethanol-push-in-bid-to-cut-oil-imports",
+     "published_cst": "2026-09-17T05:47:34+08:00",
+     "time": "09-17 05:47",
+     "body": [
+      "Indonesia is doubling its 2028 bioethanol-blending target to 20%, accelerating a push under President Prabowo Subianto to reduce reliance on fuel imports.",
+      "Authorities are preparing about 2 million hectares across Java, Sumatra, Kalimantan and Papua for sugarcane cultivation, Coordinating Minister for Food Affairs Zulkifli Hasan told reporters after a meeting with the president in Jakarta late Wednesday. Sovereign wealth fund Danantara will develop ethanol-processing facilities.",
+      "The move would extend Indonesia’s aggressive biofuels drive after it raised the mandatory palm-based biodiesel blend to 50% in July. Demand for crop-based fuels is also rising globally as governments seek to support agriculture, cut transport emissions and improve energy security, a trend given fresh impetus by disruption to oil exports through the Strait of Hormuz this year.",
+      "Read More: How Push for Energy Security Is Driving Biofuels Boom: Explainer",
+      "The planned expansion will require a significant increase in ethanol supply. Indonesia currently runs a limited E5 program, which blends 5% bioethanol into gasoline, while output is forecast to rise just 15% from nearly a decade earlier to 225 million liters this year, US Department of Agriculture data show.",
+      "Much of the additional fuel is expected to come from sugarcane, even though Indonesia is the world’s second-largest sugar importer. The country is forecast to bring in 4.2 million tons of sugar in 2026-27, compared with domestic production of 2.5 million tons, according to the USDA.",
+      "Sugarcane is considered the most feasible feedstock after officials assessed corn and cassava, Zulkifli said. The Agriculture Ministry will draw up a production strategy and secure the necessary land, which he identified as the main bottleneck.",
+      "Efforts to boost cane output were already underway. In July, the ministry announced plans with state producer Sinergi Gula Nusantara to replant 298,000 hectares of aging fields, improve irrigation and upgrade sugar mills. Authorities also earmarked 9 trillion rupiah ($507 million) to lift plantation yields, including through higher-yield seedlings.",
+      "Meanwhile, the Energy Ministry is drawing up a road map to speed up ethanol use as crude remains above $100 a barrel amid geopolitical tensions, Eniya Listiani Dewi, director general of new and renewable energy, said at an industry conference in Bali on Thursday. Road tests of higher ethanol blends are planned for December, while officials are encouraging investment in production capacity.",
+      "Indonesia had previously targeted E10 from 2028. The government now aims to gradually raise the blend further, eventually reaching E50, following a similar approach to biodiesel, Eniya added."
+     ],
+     "title_zh": "印尼加大E20生物乙醇推广力度以减少石油进口",
+     "summary_zh": "印尼将2028年生物乙醇掺混目标翻倍至20%，并准备约200万公顷土地种植甘蔗以推进乙醇生产。"
+    },
+    {
+     "title": "FTSE 100 Live: UK Stocks Futures Gain, Pound Steady Ahead of BOE",
+     "url": "https://www.bloomberg.com/news/live-blog/2026-09-17/ftse-100-live-boe-rate-decision-bailey-pound-bonds-gilts-oil-prices-ai-stocks-what-s-moving-uk-markets-right-now-markets-today-mu53wbsg",
+     "link": "https://www.bloomberg.com/news/live-blog/2026-09-17/ftse-100-live-boe-rate-decision-bailey-pound-bonds-gilts-oil-prices-ai-stocks-what-s-moving-uk-markets-right-now-markets-today-mu53wbsg",
+     "published_cst": "2026-09-17T05:45:57+08:00",
+     "time": "09-17 05:45",
+     "body": null,
+     "title_zh": "富时100直播：英国股指期货上涨，英镑在英国央行决议前持稳"
+    },
+    {
+     "title": "Fed Hikes, Defying Trump's Calls to Lower Rates",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-17/fed-hikes-defying-trump-s-calls-to-lower-rates",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-17/fed-hikes-defying-trump-s-calls-to-lower-rates",
+     "published_cst": "2026-09-17T05:40:42+08:00",
+     "time": "09-17 05:40",
+     "body": [
+      "Good morning. The Federal Reserve raises rates to curb inflation, defying Donald Trump’s call for lower borrowing costs. OpenAI shares incidents of its AI models misbehaving. And European chips may be at risk from a bad potato crop. Listen to the day’s top stories.",
+      "The Federal Reserve raised interest rates by a quarter percentage point and penciled in an additional hike later this year — steps aimed at containing inflation that could test Chairman Kevin Warsh’s relationship with President Donald Trump. The president said on social media that US rates should be at 1% or lower, but stopped short of calling out the Fed chair. The bond market is signaling growing confidence that Warsh will act on his vow to tame prices.",
+      "The Bank of England is expected to hold interest rates at 3.75% today as it waits for more evidence of a fresh bout of inflation risks. The majority of BOE rate-setters have so far argued that the current level of rates is doing enough to bear down on price pressures, but that position is becoming harder to maintain. Check out our Markets Today live blog for all the latest news and analysis relevant to UK assets.",
+      "OpenAI shared several undisclosed incidents of its AI models misbehaving, and unveiled a new framework for how it plans to track and disclose such episodes. The cases included models concealing and fabricating information to return results, the company said. Meanwhile, Microsoft’s AI chief Mustafa Suleyman warned that infusing tools like Anthropic’s Claude with humanlike characteristics increases the risks of such systems going rogue. Congress gave final approval to a bill handing Trump new powers to impose tariffs on countries that purchase Russian petroleum products, a setback for business lobbyists concerned the legislation creates a legal underpinning for a broad new tariff regime against US trading partners. The bill had faced opposition from some American lawmakers. Separately, Trump threatened “very serious” European tariffs or curbs on trade if the EU’s push to make Canada an associate member is deemed a “hostile act.”",
+      "Sweden’s center-left opposition bloc is projected to win Sunday’s tight general election by one seat after days of limbo. Former Prime Minister Magdalena Andersson was on track for 175 seats against 174 for Prime Minister Ulf Kristersson and his allies. Broadcaster SVT put the likelihood of a Social Democrat-led majority at 99.9%.",
+      "More Top Stories",
+      "Europe is set for one of its smallest-ever potato harvests after a succession of heat waves and lingering drought battered the water-hungry staple.",
+      "Spain should regulate data-center growth before rising electricity, water and land demands create the pressures already seen in Ireland and the US, Prime Minister Pedro Sanchez writes. Clear efficiency standards, new renewable capacity and scrutiny of projects can support AI growth while protecting resources and strengthening Europe’s technological sovereignty.",
+      "Our daily word puzzle with a plot twist.",
+      "Play now!",
+      "Chelsea owner Clearlake Capital agreed to buy out chairman Todd Boehly and director Mark Walter, bringing an end to a turbulent period. The transaction gives the club an enterprise value of about £5 billion, according to people familiar.A Couple One More",
+      "Enjoying Morning Briefing? Check out these newsletters:",
+      "Explore all newsletters at Bloomberg.com."
+     ],
+     "title_zh": "美联储加息，无视特朗普降息呼吁",
+     "summary_zh": "美联储加息25个基点并拟年内再升息以遏制通胀，无视特朗普降息呼吁。"
+    },
+    {
+     "title": "India Warns US Oil Sanctions Bill Could Hurt Bilateral Ties",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/india-warns-us-oil-sanctions-bill-could-hurt-bilateral-ties",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/india-warns-us-oil-sanctions-bill-could-hurt-bilateral-ties",
+     "published_cst": "2026-09-17T05:32:14+08:00",
+     "time": "09-17 05:32",
+     "body": [
+      "India warned that a US bill imposing sanctions on buyers of Russian oil could hurt ties between New Delhi and Washington and disrupt global energy markets, after the legislation passed the House of Representatives.",
+      "“This issue has been discussed at high levels in recent months with various US interlocutors,” India’s Ministry of External Affairs said in a statement. “Its potential implications for not just the bilateral relationship but also the international energy market have been very clearly articulated by the Indian side.”",
+      "This marks the first time New Delhi has publicly indicated that the US bill could impact ties with Washington.",
+      "Congress gave final approval to the bill after it easily passed the Senate last month. The measure, which gives President Donald Trump new powers to impose tariffs on countries that buy Russian petroleum products, now goes to his desk for signature. A White House official said Trump plans to sign it in the coming days.",
+      "The powers could expose the five biggest buyers of Russian petroleum products, including China, India and US ally Turkey, to broad new tariffs.",
+      "India is currently Russia’s top buyer of seaborne crude, but its refiners have already been leaning on the US, Brazil, Canada, Venezuela and Africa for additional and more varied supplies.",
+      "Indian state-owned refiners are facing the most significant supply uncertainty in months as the impact of a drawn-out conflict in the Middle East is compounded by the prospect of tighter US restrictions on Russian purchases, according a Bloomberg News report."
+     ],
+     "title_zh": "印度警告美国石油制裁法案或损害双边关系",
+     "summary_zh": "印度警告美国制裁俄油买家法案或损害印美关系并扰乱全球能源市场，该法案已获国会通过待特朗普签署。"
+    },
+    {
+     "title": "Twitch CEO Urges Game Firms to Avoid Attention Vortex of 'GTA 6'",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/twitch-ceo-urges-game-firms-to-avoid-attention-vortex-of-gta-6",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/twitch-ceo-urges-game-firms-to-avoid-attention-vortex-of-gta-6",
+     "published_cst": "2026-09-17T05:23:37+08:00",
+     "time": "09-17 05:23",
+     "body": [
+      "Twitch Chief Executive Officer Dan Clancy said Grand Theft Auto VI will likely face little serious competition for gamer attention this holiday season, and he sees that as the correct strategy.",
+      "Widely expected to be the biggest debut in video game history, GTA 6 is set to be a star attraction on Sony Group Corp.’s PlayStation 5 and Microsoft Corp.’s Xbox Series when it’s released on Nov. 19. Clancy, visiting Japan to meet game developers and content creators from across Asia at the Tokyo Game Show, said the frenzy around the new Rockstar Games Inc. title is likely to extend into January.",
+      "Clancy, who oversees the world’s most popular game-streaming platform, said he sees game companies planning to either get their big new releases out in October or holding them back until after the GTA 6 fanfare cools off. That may still be a while off, however, as Clancy also said he anticipates Rockstar Games to add a multiplayer mode — where GTA players can cooperate or compete online — which will then likely give a fresh spurt of interest.",
+      "“We spent a lot of time talking with Rockstar about their plans, and also helping them think about how they can engage our creators,” Clancy said in an interview. “You are going to see this big bump with GTA 6, but then an even bigger one next year when they launch multiplayer.”",
+      "That new role-playing game is shaping up to be the biggest event for the Amazon.com Inc.-owned livestreaming platform. Clancy said there has been nothing comparable during his time as CEO, now seven years in, for the level of user anticipation and excitement ahead of launch.",
+      "For Twitch, the much-anticipated game and its multiplayer mode will likely bring back people who haven’t visited the service lately, boosting overall viewership.",
+      "“It absolutely will spike the overall viewership meaningfully,” Clancy said. “How much I have no idea.”",
+      "Rockstar’s GTA V remains one of the most watched games on Twitch thanks in part to the popularity of so-called role-playing, in which streamers assume characters such as police officers, criminals and judges and create storylines inside the game. Clancy described it as a form of “improvisational performance art.”",
+      "The format has helped GTA attract viewers who may not play the game themselves. Such sustained engagement has become increasingly important to publishers seeking to keep players and viewers interested in their titles for longer.",
+      "Looking at the competitive field, Clancy said the ability to build lasting communities is Twitch’s key advantage over rivals such as TikTok and Alphabet Inc.’s YouTube, where users quickly jump from one piece of content to another.",
+      "Twitch is designed to let viewers spend extended periods with the same creators and each other, giving relationships time to form, Clancy said. That distinction is becoming more important amid ballooning social media feeds and content generated by artificial intelligence as people seek interaction with other humans, he added.",
+      "AI can help Twitch creators come up with new ways to entertain their audiences, but Clancy doesn’t expect the technology will replace human creators. He said AI-operated streamers will remain “the exception,” because viewers come to Twitch to form relationships with creators and other members of their communities.",
+      "“We’re programmed to feel a sense of belonging and connection with other people,” Clancy said."
+     ],
+     "title_zh": "Twitch CEO敦促游戏公司避免卷入GTA 6关注漩涡",
+     "summary_zh": "Twitch CEO称《GTA 6》11月19日发售，假期几无竞品，预计明年多人模式上线将再掀热潮，并提振平台观看量。"
+    },
+    {
+     "title": "Lady Gaga, Bad Bunny Stage Designer Directs Venice's Homo Faber Biennial",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/lady-gaga-bad-bunny-stage-designer-directs-venice-s-homo-faber-biennial",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/lady-gaga-bad-bunny-stage-designer-directs-venice-s-homo-faber-biennial",
+     "published_cst": "2026-09-17T05:00:05+08:00",
+     "time": "09-17 05:00",
+     "body": [
+      "With the gradual cessation of summer tourism, September in Venice is historically fairly quiet. But this month there’s been a steady stream of design insiders making their way to the Italian city. Their destination? The Homo Faber Biennial, a one-month celebration of craft at the Fondazione Giorgio Cini, a monumental complex on the island of San Giorgio Maggiore. In its fourth edition, the biennial enlisted the celebrity artist and stage designer Es Devlin as this year’s artistic director.",
+      "Best known for creating concert stage sculptures for Lady Gaga, Beyoncé, Bad Bunny, U2 and dozens of others, Devlin, in “Homo Faber 2026: An Island of Light,” transformed the otherwise staid exhibition into a multisensory full-body experience. It comprises 15 installations that display more than 700 objects made by about 500 artisans from 70 countries. Focusing on the interplay among light, material and the human hand, the monthlong presentation celebrates individual objects while creating an exhibition that’s greater than the sum of those parts.",
+      "The biennial, which was initiated by Cie Financière Richemont SA Chairman Johann Rupert and former chairman of Cartier International Franco Cologni through their Geneva-based Michelangelo Foundation for Creativity and Craftsmanship, is dedicated to nurturing artisans and artisanship around the world. While the Homo Faber exhibition is its most visible component, it also organizes educational programs and underwrites fellowships that support up-and-coming craftspeople. Unlike design fairs, of which there are many, Homo Faber isn’t intended as a selling exhibition. But it’s certainly a way to showcase individual artisans and connect them to interested buyers, which makes it fairly unique in the world of decorative arts.",
+      "Bloomberg Pursuitsspoke to Devlin about how she approached the exhibition, along with the existential threats facing craft in general. This conversation has been edited for clarity and length.",
+      "You’re known for creating spectacle. How did you balance that with the often extremely quiet nature of some objects, like a small exquisite vase reminiscent of the moon by the Polish ceramicist Marcin Kuberna, or the hyperdetailed miniature models by the French artist Hannah Levesque?Spectacle, or large-scale gestures let’s say, only work if they’re rooted in something truthful. Just because something is loud, we all know that doesn’t mean it resonates within our bodies and souls. So, for example, there’s a table which underlights many, many objects, which are all made in different circumstances, in different materialities, from feather to ceramic to glass to marble to paper to Legos. But because they’re all white and they’re all concerned with form, without any type of pigmentation, they cumulatively amount to an installation and something pretty big, even though each object is small.",
+      "How did the artisans feel about their work being arranged like that?There was one gentleman who’s from Hawaii, and he came up to me and said, “I make these things alone, and I sell them alone. I had no idea that other people were making things that had a similarity to mine or were in a similar vein. I feel like I’ve met my brothers and sisters and like I’ve met my community.”",
+      "Craftmaking is seemingly a precarious existence for many. The show has some fairly commercial examples (a gorgeous gem-encrusted hummingbird from the Paris-based Surya Mathew), but then you have things like small, paper origami by the Italian artist Giuseppe Romeo, and hyperintricate metalwork by the Egyptian Noha El Qahwagy.It’s quite precarious to some, especially some of the older artisans, and they’re worried how they will pass their skills on. So there is a sense of need in this exhibition as well — to protect endangered ways of making things. They’re a sort of endangered species, I would say.",
+      "Artificial intelligence probably won’t help.These techniques are desperately under threat, the way that languages are under threat. If we look down the list of endangered languages that’s published by the Endangered Language Alliance, you’ll see that there are certain languages, as you get to the bottom of the list, that are only spoken by two people. Similarly, some of these practices that take years to learn have not been passed on for all sorts of reasons, and they’re in danger. There’s no doubt that mechanization has absolutely played its part in that.",
+      "Do you have a favorite work in the show?Oh, that would be like choosing a favorite child.",
+      "You might have a favorite child.No, you can’t have a favorite child. And what I will say is that the exhibition is arranged cumulatively. There is an introduction at the beginning where you’re in an artisan’s workshop, and then, almost like Benjamin Britten’s Young Person’s Guide to the Orchestra, you’re introduced incrementally to a way of reading the objects. So first you’re introduced to the hands that made them, then the faces behind the hands, then the shadows of the objects first to get a grip on how you might read them as a language — it comes step-by-step like that. It’s sort of symphonic.",
+      "Right, for visitors it’s designed as an unfolding series of dramatic visuals — that room with shadows has all the objects on a circular shelf in the middle of the space, with their forms projected on the outer wall. And then the showstopper has a circular display of vases that rises out of a pool of water.Listen, at the most basic level, I want them to be reminded of the wild variety of ways in which human hands can interact with the elements. The wild number of ways that have been developed and are still being developed. I want to open their eyes to that, as mine have been opened, and I want them to feel a little stirring in their own fingers. Any way of reconnecting our feet back into the clay from whence they came seems to me important, as we get ever more disembodied and unmoored from our planet, and therefore ourselves."
+     ],
+     "title_zh": "Lady Gaga与Bad Bunny舞台设计师执导威尼斯Homo Faber双年展",
+     "summary_zh": "威尼斯9月举办Homo Faber双年展，由Es Devlin策展，呈现70国500名工匠的700余件作品。"
+    },
+    {
+     "title": "King Charles Wants AI Chiefs To Promise They'll Protect Mankind",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
+     "published_cst": "2026-09-17T05:00:00+08:00",
+     "time": "09-17 05:00",
+     "body": [
+      "Britain’s monarch plans to ask some of the most critical figures in artificial intelligence for reassurances the technologists can keep their inventions under control.",
+      "“Those in our world who value our humanity and its vital moral component are anxiously seeking your reassurance that we will not lose control of our destiny,” King Charles III will say on Thursday at a royal event in Scotland, according to prepared remarks.",
+      "The king is hosting a gathering to discuss how the technology could be “harnessed in ways to benefit society and the natural world.”",
+      "Google DeepMind co-founder Demis Hassabis will attend, along with senior representatives from Nvidia Corp. OpenAI and Anthropic PBC and the UK’s AI minister Kanishka Narayan.",
+      "The closed-door discussion is timely. Anthropic Chief Executive Officer Dario Amodei triggered a global debate about the escalating risks of AI in a weekend essay calling for a slowdown in frontier model development. OpenAI CEO Sam Altman agreed with the essay’s conclusions, while Hassabis described it as the “right path forward.” Nvidia boss Jensen Huang disagreed with a slowdown or further regulation. Over the last week, two AI researchers quit Google DeepMind and Anthropic, claiming that the technology could be lethal.",
+      "Read More: Anthropic Worker Quits Over AI Firms ‘Gambling With Our Lives’",
+      "Those concerns have caused jitters among lawmakers and the wider public internationally. UK Prime Minister Andy Burnham is under pressure from lawmakers within his governing Labour Party to provide more clarity on the country’s AI policy. Chinese officials have both rejected Amodei’s “fearmongering” and warned about the dangers of AI in recent days. While US President Donald Trump has argued against any slowdown, bipartisan lawmakers have floated measures to address AI safety and voters are increasingly concerned by the technology.",
+      "At the summit, King Charles is set to ask the executives two key questions: “First, how can we harness the benefits of AI, with safety at its heart. And, second, how we can we build international cooperation and consensus to achieve this, so no nation is left behind - and the future of mankind protected?”",
+      "The monarch has previously spoken publicly about AI, saying the risks of the technology needed to be urgently tackled during the UK’s inaugural AI Safety Summit in 2023.",
+      "He has also repeatedly spoken about his concerns about climate change, a topic that could put the AI chiefs on the defense. Emissions from the largest tech companies have spiked as they’ve turned to energy-intensive data centers, with some replying on fossil fuel sources. In Scotland, lawmakers said new applications for data centers would need to undergo assessments for their impact on the environment."
+     ],
+     "title_zh": "查尔斯国王希望人工智能负责人承诺保护人类",
+     "summary_zh": "英国国王查尔斯三世将会见谷歌DeepMind、OpenAI等AI高管，呼吁确保人类不失去对AI的控制。"
+    },
+    {
+     "title": "Germany's Green Power Boom Leaves Developers Fighting to Survive",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/germany-s-green-power-boom-leaves-developers-fighting-to-survive",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/germany-s-green-power-boom-leaves-developers-fighting-to-survive",
+     "published_cst": "2026-09-17T05:00:00+08:00",
+     "time": "09-17 05:00",
+     "body": [
+      "Germany’s renewable-energy developers are entering a shakeout after years of rapid expansion, with worsening project economics pushing a growing number into financial distress.",
+      "Hamburg-based solar developer Enerparc AG, one of Europe’s largest solar park operators, filed for insolvency this month with around €3 billion ($3.5 billion) of debt across the group. That follows the insolvency of wind developer Sowitec Group GmbH, while others including BayWa r.e. and ABO Energy have embarked on restructuring efforts.",
+      "The difficulties mark a reversal for an industry that expanded rapidly on cheap financing and supportive subsidies as Germany accelerated its transition away from fossil fuels. Developers now face higher borrowing costs and weaker returns on new projects — pressures that are also weighing on the industry across Europe.",
+      "Germany’s rapid buildout has created problems of its own. Wind and solar capacity has expanded faster than the power grid and energy storage needed to accommodate it, making some new projects harder to connect. And when renewable generation surges, the glut of electricity can push prices below zero or force producers to curb output, undermining the economics of both new and existing projects.",
+      "“Companies are now really under stress, and it’s not the standard cyclical thing. It’s more of a structural issue,” said Jochen Magerfleisch, managing partner at renewables-focused financial advisor Capcora GmbH.",
+      "The risks facing the sector have grabbed the attention of some of the country’s largest banks, who warned the government this week that an overhaul of renewable energy subsidies may make green projects harder to finance. Part of the state’s plan involves phasing out compensation for wind and solar producers when grids are unable to absorb their electricity, which would increase financial risk for developers in congested areas.",
+      "“We do not see a pure credit crunch yet, but we see strong signals that we are running into something like that,” Magerfleisch said.",
+      "A key question is what the financial difficulties among developers will mean for Germany’s energy transition. According to Jens Burchardt, co-founder of Boston Consulting Group’s Center for Climate and Sustainability, the situation is unlikely to derail the shift, as renewable deployment is at record levels and project pipelines are full. But he still sees tougher business prospects weeding out certain companies in the sector.",
+      "“Efficient, diversified developers will still make money, just not the kind of money they made during the energy-crisis years,” he said.",
+      "For years, renewable developers attracted strong investor interest. Partners Group acquired a majority stake in German developer VSB Group in 2020 before selling the business five years later to TotalEnergies for €1.57 billion. Lenders also became increasingly willing to finance developers at earlier stages of projects.",
+      "Enerparc itself was put up for sale around 18 months ago, with a valuation of about €1 billion, but a deal failed to materialize.",
+      "Its insolvency filing came as a surprise. As recently as March, lenders had agreed to a €1 billion financing package for the company, and little has been publicly disclosed about what precipitated its collapse. The company couldn’t secure required financing by the end of June and, after a short period of negotiations, an insolvency filing was unavoidable, according to the firm’s provisional insolvency administrator Stefan Denkhaus.",
+      "The plan is to kick off a process to sound out potential buyers of the business, he added in emailed comments.",
+      "Untangling Enerparc may prove difficult. The group has more than 190 subsidiaries as of end-2024, according to corporate filings, many with their own project financing, alongside layers of mezzanine and corporate debt.",
+      "Across the sector, the financial strain is likely to put more renewable assets up for sale, according to Tim Heitling, an energy-focused lawyer at Hogan Lovells Cadwalader.",
+      "Finding buyers at the desired price may prove difficult. Sellers and bidders are already far apart on valuations, he said, amid uncertainty around government subsidies.",
+      "PNE AG offers one example of the disconnect. The wind and solar developer, which is sounding out investors about a potential sale, said in August that indications of interest suggested bids for the company could come in below where its shares had traded during the first half of the year.",
+      "Further ahead, a shift toward deeper electrification — from electric vehicles to data centers — should push up electricity prices, offering some reprieve for developers. Germany’s battery boom could also eventually ease some of strains by allowing generators to hold on to power and sell it when it’s profitable.",
+      "“The hope in the market is that further expansion of storage will lead to stabilization in the medium term,” Heitling said."
+     ],
+     "title_zh": "德国绿色电力繁荣致开发商艰难求生",
+     "summary_zh": "德国最大太阳能开发商Enerparc申请破产，负债约30亿欧元，多家可再生能源企业陷入财务困境。"
+    },
+    {
+     "title": "Tata Sons' IPO Standoff Against RBI Tests Power and Reach of India Central Bank",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-17/tata-sons-ipo-standoff-against-rbi-tests-power-and-reach-of-india-central-bank",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-17/tata-sons-ipo-standoff-against-rbi-tests-power-and-reach-of-india-central-bank",
+     "published_cst": "2026-09-17T04:52:40+08:00",
+     "time": "09-17 04:52",
+     "body": [
+      "Welcome to the Thursday issue of India Edition; I’m Menaka Doshi. Each week, I bring you a ringside view of the billionaires, businesses and policy decisions behind India’s rise as an emerging economic powerhouse. You can subscribe here, and share feedback with me here.",
+      "This week: Will Tata Sons take the country’s most powerful regulator to court, NSE prepares to list and a mega bet on data centers.",
+      "As you read this, the six directors of Tata Sons will be contemplating two decisions that could shape the future of one of India’s best-known conglomerates.",
+      "The first is who will lead it. N. Chandrasekaran has said he won’t seek another term as chairman when his current one ends on Feb. 20. Bloomberg and others have reported that the board may ask Chandrasekaran to reconsider. That would be an awkward public decision to walk back, though he could perhaps be persuaded to stay until a successor is found.",
+      "The search has yet to get going because of regulatory restrictions on one of the two main Tata Trusts that together control Tata Sons through a 66% shareholding.",
+      "The second decision is arguably more consequential: whether to accept the Reserve Bank of India’s mandate to list or challenge the regulator in court.",
+      "That choice matters well beyond Bombay House, the group’s Mumbai headquarters. A listing could change the ownership and governance of the holding company at the apex of the $185 billion Tata empire. A court fight could test something equally important: the reach and exercise of power by India’s most powerful financial regulator.",
+      "Investors around the world will be watching the outcome of some key legal debates.",
+      "No reason was given for the RBI’s rejection.",
+      "After almost 30 months of silence, last week the RBI rejected Tata Sons’ application to surrender its registration as a core investment company, or CIC — a type of nonbank financial company (NBFC) that primarily holds stakes in group companies.",
+      "The regulator’s letter said Tata’s request “cannot be acceded to” after examining the relevant factors, but offered no specific reason. Such unexplained decisions are unfortunately not unusual, adding to regulatory opacity.",
+      "The RBI has made real improvements in rulemaking by committing to public consultation, impact analysis and a review mechanism, Sandeep Parekh, managing partner of Finsec Law Advisors, tells me. “But the discipline of explaining a rule has not yet carried over to explaining a decision,” he says. A registration decision about a single entity is where a regulator’s discretion is widest, and that is exactly where reasons matter most because they are what a court examines when the decision is challenged, Parekh, who has also served as executive director at market regulator SEBI, says.",
+      "From a broader ease-of-doing-business perspective, reasoned orders in the public domain are critical for transparency, limiting arbitrariness as well as establishing precedent, Rajat Sethi, partner at law firm S&R Associates, tells me.",
+      "Especially because, as has been lamented for long, there is little recourse to appeal the RBI’s rejection.",
+      "A SEBI order can be challenged before the Securities Appellate Tribunal. There is no equivalent for the RBI. The RBI Act provides an appeal to the central government when registration is refused or cancelled, Parekh says, not when a company asks to surrender its registration and is told it cannot.",
+      "“That leaves a writ petition, in which the High Court asks whether the decision was lawful, fair and rational, not whether it was correct, and in which courts have traditionally shown considerable deference to the central bank on economic matters,” he says.",
+      "The lawyers I spoke to expect Tata Sons’ first step may therefore be to ask the RBI for its reasons before deciding whether to challenge the rejection. The RBI, meanwhile, has moved surprisingly fast to file a caveat in the Bombay High Court to ensure it is heard if Tata Sons seeks judicial relief.",
+      "Does the RBI have jurisdiction?",
+      "That is where things get more complicated.",
+      "Tata Sons repaid debt of reportedly over $2 billion before applying in March 2024 to surrender its CIC registration. RBI rules say a large CIC need not register if it does not access public funds.",
+      "Tata Sons, however, has some equity owned by listed group companies. That raises the question of whether the RBI can regard it as having indirect access to public funds. There is another hurdle: On the basis of its asset size, Tata Sons has been also categorized as an upper layer NBFC and will be subject to enhanced regulation for a while, even after it no longer meets the criteria.",
+      "The legal question, therefore, is whether those rules are enough to keep Tata Sons within the RBI’s regulatory net despite having extinguished its own public debt. “If public funds are not accessed then there is no question of Tata Sons requiring registration with RBI, says Abizer Diwanji, founder of consultancy NeoStrat Advisors.",
+      "Sethi concurs. “What is the purpose of extending the regulation to companies that are not extending loans or receiving deposits?”",
+      "He points out that of the 17 upper layer NBFCs on the RBI’s Aug. 6 list, 16 are lending companies, some of which also accept deposits. Tata Sons is the exception.",
+      "“A listing requirement for companies providing loans or accepting deposits that are above a specified size appears to be sound policy, but the basis for extending this to a private company which only has investments in group companies appears to be flawed,” Sethi says.",
+      "That RBI allowed another CIC, Shanghvi Finance, to deregister could also provide Tata Sons a ground for challenge, Sethi says. Shanghvi is, however, considerably smaller.",
+      "Can the RBI force a listing?",
+      "Listing is a commercial decision to be taken by a company’s board and owners. Tata Sons clearly prefers to remain private. It has no apparent need to raise external capital and going public could complicate the special rights Tata Trusts exercise over important board decisions.",
+      "Typically, company law and market regulators are vested with authority to lay down when a private company must list. The same power exercised by the RBI has vexed many, yet never been challenged.",
+      "Diwanji argues that as a custodian of public funds, the central bank has the authority to impose listing requirements on regulated NBFCs. But if it is relying on the fact that a few listed group companies are Tata Sons shareholders, that seems like “a very narrow case for RBI to assert its regulatory jurisdiction,” Diwanji says.",
+      "It’s possible the regulator has considerations that go beyond the letter of the law.",
+      "The heavily indebted Shapoorji Pallonji Group has been lobbying for a listing so as to monetize some of its 18.37% holding in Tata Sons and reduce debt. Diwanji says avoiding a default that could ripple through credit markets is a legitimate concern for the RBI, but solving that problem cannot become Tata Sons’ responsibility.",
+      "RBI may also be concerned about the sheer size of Tata Sons and the group it controls.",
+      "The logic behind mandatory listing is that once an entity becomes sufficiently large and interconnected, supervisors shouldn’t be the only people watching it, Parekh says. Listing brings continuous disclosure and greater shareholder scrutiny of governance, related-party transactions and special rights.",
+      "“If the Reserve Bank has concluded that Tata Sons meets that test despite being debt-free, it should say so, with reasons, so that the company and the market can understand and, if necessary, contest it,” Parekh says.",
+      "Which brings us back to the Tata Sons board.",
+      "It would be surprising if it simply acquiesced to the RBI. Five of its six current directors were on the board in 2024 and were ostensibly against listing, without which the company would not have moved to deregister itself. The group doyen Ratan Tata was alive then and his desire to keep the holding company private is widely known. Noel Tata, who has taken Ratan’s place as chairman of the trusts and joined the Tata Sons board, is also reportedly opposed to a listing.",
+      "If the board turns course now, the obvious question is: What changed?",
+      "One possibility is the bitter internal politics that have since engulfed the group, pitting Noel Tata versus Chandrasekaran. Another possibility is simpler: the board may not have the stomach for lengthy litigation against a powerful regulator.",
+      "Few have taken on the RBI. Veteran banker Uday Kotak did, challenging its ownership rules for banks before eventually reaching a settlement and withdrawing the case.",
+      "A court battle may not deliver Tata Sons the answer it wants either, as Parekh noted earlier. Even a successful challenge could merely result in the matter being sent back to the regulator for reconsideration.",
+      "But it could force something that Tata Sons — and everyone else the RBI regulates — has so far been denied in this case: an explanation.",
+      "Do you think Tata Sons should be listed? Send me your views here.",
+      "The US Federal Reserve raised interest rates by a quarter percentage point, drawing a rebuke from President Donald Trump.",
+      "Saudi Arabia is seeking to return about half the capacity of its cross-country oil pipeline within days after the link was halted following drone attacks.",
+      "US Congress gave final approval to a bill giving Trump new powers to impose tariffs on countries that purchase Russian petroleum products, including India and China.",
+      "India supplies Wall Street banks with CEOs but has a shortage at home, as HDFC Bank and Kotak Mahindra Bank hunt for successors.",
+      "Don’t Miss",
+      "Want more India news? Sign up for Markets Daily India, a subscriber-only newsletter featuring key insights before the trading day starts.",
+      "National Stock Exchange of India’s long-awaited IPO starts taking orders Thursday, testing investor appetite for a valuation that remains rich compared with some of the world’s biggest listed exchanges.",
+      "Goldman Sachs, HSBC, Fidelity and Eastspring are among major investors that participated in NSE’s $703 million anchor book. The IPO aims to raise as much as 226 billion rupees ($2.4 billion).",
+      "The premium reflects NSE’s dominant position in one of the world’s fastest-growing capital markets and its high profitability. But its gray-market premium has fallen sharpy this month and the issue was downsized over valuation concerns.",
+      "Read the full story here.",
+      "Thanks for reading India Edition. —MenakaSave the date: Bloomberg New Economy Forum - New Delhi: This October, the Bloomberg New Economy Forum convenes its global community of business and public-sector leaders under the guiding theme, “A World in Play: Defining the New Levers of Power.” This year’s Forum, held Oct. 13-15 in New Delhi, will examine the shifting geopolitical landscape and explore the risks and opportunities reshaping the global economy. Visit BloombergNewEconomy.com/India to learn more.",
+      "Enjoying India Edition with Menaka Doshi? You might also like:"
+     ],
+     "title_zh": "塔塔集团IPO与印度央行对峙考验央行权力与影响力",
+     "summary_zh": "塔塔之子董事会面临两大抉择：是否接受印度央行上市要求或诉诸法庭，以及谁将接替2月20日卸任的董事长钱德拉塞卡兰。"
+    },
+    {
+     "title": "Takaichi Tweaks Cabinet to Double Down on Policy Direction",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/takaichi-keeps-core-ministers-in-place-in-cabinet-reshuffle",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/takaichi-keeps-core-ministers-in-place-in-cabinet-reshuffle",
+     "published_cst": "2026-09-17T04:41:24+08:00",
+     "time": "09-17 04:41",
+     "body": [
+      "Japanese Prime Minister Sanae Takaichi retained the core of her administration while ousting a potential rival and bringing her junior coalition partner into the cabinet, consolidating her grip on power nearly a year after taking office.",
+      "Takaichi kept Satsuki Katayama as finance minister, Toshimitsu Motegi as foreign minister, Shinjiro Koizumi as defense minister, Minoru Kihara as chief cabinet secretary, and Minoru Kiuchi as economic revitalization minister, Kihara said Thursday.",
+      "Among the few changes, Takaichi removed Yoshimasa Hayashi, who ran against Takaichi for the ruling party’s leadership last year. She replaced him with Hisayuki Fujii as the internal affairs minister.",
+      "Hayashi’s omission from the cabinet leaves him without any post in the government or within the ruling Liberal Democratic Party, making it difficult for him to be in the public eye. Still, it also frees him up to campaign across Japan without being tied down by ministerial duties, should he wish to do so.",
+      "In a move that accommodates her right-leaning coalition party, Takaichi also brought Hiroshi Nakatsuka of the Japan Innovation Party, or Ishin, into the cabinet as regulatory reform minister. Nakatsuka’s inclusion cements the alliance that gave Takaichi a lifeline last autumn, when Ishin agreed to form a partnership with the LDP after its former coalition partner Komeito abruptly broke off their long-standing coalition. Ishin’s turnaround gave Takaichi the votes she needed to clinch the premiership.",
+      "The retention of Kiuchi signals continuity in Takaichi’s expansionary economic agenda, an approach that has already stirred concern in Japan’s bond market. The minister, known for his reflationist views, grabbed unwanted attention earlier this year by overseeing the draft of an economic and fiscal policy plan that unsettled the bond market due to concerns over Japan’s finances.",
+      "Speaking after it was announced that he would stay in his post, Kiuchi told reporters he would seek to ease market concerns about finances through transparent and consistent communication.",
+      "“It’s important to have a strong economy, but that doesn’t at all mean we will pursue unchecked fiscal expansion,” he said.",
+      "An initial draft of this year’s “Honebuto” policy blueprint had fueled concerns that the government was shifting toward a more expansionary stance. It stressed the importance of appropriate monetary policy in achieving a strong economy sought by the government, while dropping language in previous plans on fiscal consolidation. The government was later forced to fine-tune the wording after government bond yields climbed.",
+      "Kiuchi’s comments came just days after he said he was personally supportive of economists who advocate running a “high-pressure economy.”",
+      "Keeping Katayama shows Takaichi intends to continue supporting the yen. Katayama has cultivated close ties with US Treasury Secretary Scott Bessent as the two countries coordinated efforts to support Japan’s currency and stabilize financial markets.",
+      "The limited turnover contrasts with the more extensive cabinet changes sometimes undertaken by Japanese premiers in the past in a bid to revive flagging public support. Takaichi has little need for such a reset: her administration has remained relatively free of scandal, and her approval rating was around 53% in the latest NHK poll.",
+      "Takaichi also kept the LDP’s senior leadership largely intact a day earlier, retaining former premier Taro Aso as vice president and former Finance Minister Shunichi Suzuki as secretary-general.",
+      "The main departure from Takaichi’s team, Hayashi, has had an illustrious career holding down an array of senior cabinet posts including defense minister, foreign affairs minister, and chief cabinet secretary. That makes him a formidable challenger if he decides to run for the party leadership once again. He came in third out of five candidates in the leadership race held last year that Takaichi ultimately won, but proved to be more popular than Takaichi among lawmakers in the initial round of voting."
+     ],
+     "title_zh": "高市调整内阁以强化政策方向",
+     "summary_zh": "日本首相高市早苗改组内阁，保留财务大臣等核心成员，剔除潜在对手林芳正，并首次纳入维新会成员中司宏。"
+    },
+    {
+     "title": "The Best Portuguese Egg Tarts in Hong Kong and Macau, Ranked",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-17/the-best-portuguese-egg-tarts-in-hong-kong-and-macau-ranked",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-17/the-best-portuguese-egg-tarts-in-hong-kong-and-macau-ranked",
+     "published_cst": "2026-09-17T04:29:26+08:00",
+     "time": "09-17 04:29",
+     "body": [
+      "In this week’s Hong Kong Edition, Tara Mulholland guides you through the very best egg tarts in Hong Kong, Venus Feng interviews the former star athlete CEO of AS Watson Group and David Ingles offers a glimpse of his musical tastes to highlight a key stock market trend. For the Review, Will Davies gives in to the temptations of cheese to test a fondue place.",
+      "To subscribe to this weekly newsletter for free, click here.",
+      "Mid-Autumn festival is upon us, and with it, a craving for small round pastries. Having already ranked Hong Kong’s best mooncakes last year, we’re turning a critical eye on another bakery staple — the humble egg tart.",
+      "Hong Kong and egg tarts go together like yuen and yeung, with recommendations for the beloved custard-and-pastry confections topping every city tourist guide.",
+      "And just as New Yorkers never agree on the best pizza place, Hong Kongers can have wildly different preferences for their favorite tart purveyor — from local bakeries to major chains, Hong Kong or Macau brands, and a growing array of flavors, toppings and sizes.",
+      "A recent influx of international bakeries has threatened to upset the delicate pastry ecosystem, with London’s Santa Nata and Lisbon’s Manteigaria setting up shop a few streets apart and drawing long queues in Central this summer.",
+      "It’s forced the Hong Kong Edition team to confront an eternal question: Who really makes the best egg tart in town (and in our equally pastry-loving neighbor Macau)?",
+      "As we can’t visit every bakery out there, we narrowed our scope to the top eight Portuguese-style egg tarts on the market, distinguishable from the Hong Kong style by their flaky crust and caramelized top. During the blind taste test, our discerning panel of judges drew on childhood memories, culinary training and good old-fashioned gluttony to declare one clear winner:",
+      "1. Bakehouse - 8/10",
+      "What is there left to say about the Bakehouse egg tart? For all its ubiquity — around 30,000 are produced every day — it still managed to top our blind taste test, and surprised some judges who didn’t recognize it or had never eaten one. Since the chain launched in Wan Chai in 2018, its blue-and-white bags have become a mainstay on Instagram and Xiaohongshu, with branches stretching from Sha Tin to Victoria Peak and, soon, Hong Kong International Airport. It’s all built on the back of the little sourdough egg tart, its teacup-like shell encasing a distinctive crème brûlée filling, winning points for its deep, slightly roasted flavor and firmness.",
+      "Various locations in Hong Kong, HK$14 ($1.80) per tart.",
+      "2. Manteigaria - 7.5/10",
+      "This much-hyped new addition to Central’s bakery scene was also one of the highest-praised by our judges — they loved the tarts’ thin, flaky crust, the cinnamon notes in the sweet filling and the harmonious balance between the two. (One also noted the crust had stayed crunchy even after sitting in the fridge.) For those who want even more cinnamon in their custard, a cute spice sachet comes with every tart.",
+      "Shop B G/F, Man Hing Commercial Building, 79-83 Queen’s Road Central, Hong Kong, HK$15 per tart.",
+      "3. Lord Stow’s - 7.35/10",
+      "The birthplace of the Macanese egg tart — less lemony and cinnamony than its Portuguese cousin — still produces the Platonic ideal of the pastry for some of our judges, who singled out the balanced buttery egginess of the filling. But the bakery’s adherence to tradition was met with shrugs from some of the panel who were looking for variations on the form.",
+      "Various locations in Macau, 10-14 patacas per tart.",
+      "4. Hashtag B - 6.6/10",
+      "Technically a Napoleon egg tart, Hashtag B’s viral offering stands out for its wavy, crunchy crust and hefty proportions. (We tried the mini tart — the maxi version is even larger.) Some judges found the crust overwhelmed the delicate filling, though its consistency was singled out for praise.",
+      "Various locations in Hong Kong, HK$14 per tart.",
+      "5. Margaret’s Café e Nata - 6.2/10",
+      "Margaret Wong co-founded Lord Stow’s bakery in 1989, and now runs Macau’s other major producer of traditional egg tarts. Judges praised the flake factor of the pastry, though the slightly more subdued filling provoked a mixed response.",
+      "17B R. do Cmte. Mata e Oliveira, Macau, 11 patacas per tart.",
+      "6. Bamu - 6.1/10",
+      "“Is this really Portuguese?” one judge queried, not unkindly. These tarts look pretty different to their Macanese neighbors at Lord Stow’s and Margaret’s Café, and their lack of egginess is distinct from the more traditional egg tart formula. But the flakiness of the wavy-edged pastry found some fans.",
+      "Various locations in Macau, 12 patacas per tart.",
+      "7. KFC - 5.65/10",
+      "The biggest egg tart supplier on the list has taken the oddest route to get there. Not content with dominating the chicken side of fast food, KFC aimed for the other side of the world’s oldest question in 1999 when it bought Margaret Wong’s egg tart recipe (yes, her again) after a blind taste test. Its long history as an affordable China-wide treat has lodged it in the memory of some judges, with one commenting that it reminded him of his childhood egg tarts. However, it lost points for an overly eggy flavor and “factory-made” feel.",
+      "Various locations in Hong Kong, HK$8 per tart.",
+      "8. Santa Nata - 5.1/10",
+      "The other new challenger for the egg tart crown won both very high and very low scores, with its extremely gooey, vanilla-y custard dividing opinion. The chewy crust had some fans, though one judge noted a flowery aftertaste. The exterior of Santa Nata’s Central branch has a large bell bearing the legend “ring the bell if we do well!” Sadly, Hong Kong Edition will not be ringing it.",
+      "25-27 Lyndhurst Terrace, Hong Kong, HK$14 per tart.",
+      "—Tara Mulholland",
+      "Hong Kong unveiled its first five-year plan yesterday and while it largely hewed to expectations, there were a few surprises. As we surmised in our preview, there was extensive discussion of the Northern Metropolis, with some actual hard targets sprinkled in. Predictably, there was also an expression of the city’s ambitions for wide-ranging areas, from building a global gold trading hub to attracting more international students.",
+      "The biggest new measure, though, was probably a plan to cut the property stamp duty for new parents — the latest attempt to address the city’s spiraling demographic crisis. A plan to radically expand public housing also sounded more forceful than what we heard before.",
+      "On the finance front, those expecting more clarity on some much talked-about plans for bolstering the bond market did get something to chew on. The main goal is to deepen Hong Kong’s role as an offshore yuan hub and the city will also promote dim sum bond sales.",
+      "To relive all the excitement, you can read our live blog here and for a recap, watch Yvonne Man’s catchup video below:",
+      "For the rest of our coverage, see:",
+      "Malina Ngai has had to handle various twists and turns in her life. She was a track-and-field athlete before a knee injury made her pivot to rowing, despite not knowing how to swim. No matter, she still won a bronze medal in the lightweight double sculls at the 1994 Asian Games. Ngai later entered the corporate world, where she’s risen all the way to CEO at one of Hong Kong’s most storied brands, AS Watson, now in its 185th year.",
+      "We caught up on the sidelines of the PBC Forum, convened by the Hong Kong Jockey Club Charities Trust, to chat about Ngai’s daily routine, her successes and journey into the heart of retailing in the city. —Venus Feng",
+      "What drove you to the retail business more than 20 years ago?",
+      "Crisis management. It was the first year I joined CK Hutchison, and there was a crisis related to AS Watson in one of the Asian markets. I was sent by the headquarters to be on site to support the local managing director to handle the crisis. It was like just one month in and I was very new to the company.",
+      "Because of my athlete background, we are normally quick to analyze facts and the environment and come up with decisions. I was able to stay cool and manage the people I didn’t really know at the time. We managed to get out of the crisis in three days. After this mission, they started asking if I would like to join.",
+      "What’s your daily work schedule like as the CEO of a brand with outlets across the world?",
+      "If I am in Hong Kong, I usually wake up at 6 a.m. and then I check my emails because they will be coming from Europe overnight. After refreshing myself, the first thing I do actually is two minutes of planking, because that helps me to clear my mind and think through the day — what are the key events and what I really want to achieve. Then I get on the treadmill for about 30 minutes, and after that I will have breakfast and go to work. Breakfast is very important for me to start the engine. My typical day could have 10 to 12 meetings and I try to leave the office at 7 p.m. latest. I might check work emails when I arrive home, but I also try to sleep right after 10 p.m.",
+      "But if I’m traveling, it could be like four days in four different countries when I am heading to Europe. Waking up at 5 a.m., then get to the airport and get to the work location, finish a whole day of meetings with the local teams and customers. Then the next day, all over again before I head home.",
+      "What’s a typical breakfast to help you keep up all this energy?",
+      "Boiled eggs, sweet potatoes and a glass of milk or protein drink.",
+      "It’s a quite interesting fun fact from the panel just now that you cannot swim but won a bronze medal for rowing at Asian Games decades ago. Do you still go rowing these days?",
+      "I’m so embarrassed that I still cannot swim. The good thing is, when you can’t swim, what would you do? You focus on staying on the boat and getting back to the pontoon as soon as possible. So you row very fast!",
+      "I am scared of water in general. But I’ve also tried to go indoor rowing on a rowing machine. The muscle memory comes back to me, like how the coach asked me to row all out in the old days. I just do it once in a while now.",
+      "What do you think is the biggest trait you learned from sports that can re-apply in your management life?",
+      "It’s the resilience. When I was an athlete, I didn’t even know this word. As an athlete, we lose more often than we win. Or when you have been winning medals, setting records, and suddenly you have an injury — it’s like your whole world stops. I recall at the time for my first serious injury on the knee, I didn’t know what to do and it took me nearly a year to get back up — I was really upset and kept asking why, but then I decided to move on and focus on what was next. I really wanted to represent Hong Kong so I chose to switch to rowing.",
+      "When you have a challenge in the business environment, what do you do? You can’t keep asking why we have so many competitions and why we have this and that. It’s about focusing on what you can control. I can’t control the macroeconomics. I can’t control competitions, but I can control how we improve the business day after day for the customer.",
+      "The retail and business landscape in Hong Kong has changed a lot in recent years. How would you see a historic brand like AS Watson adapting to the new trends?",
+      "We are 185 years old, but there’s one thing that hasn’t changed — we are very focused on our customers. Imagine walking into a store called Hong Kong Dispensary 185 years ago. It was a small pharmacy selling Western medicines and the store manager Alexander Skirving Watson kept focusing on one thing: Where do you feel sick and how can I treat you? It’s not about thinking about where to grow and where to open more stores. It’s the same for us today, although we have grown into an international retailer. It’s still all about thinking about the customers.",
+      "It’s not that retail is dying because no one goes to the shops. It’s about focusing on what the customers need — how do they shop now and how can we support them? Over my journey of more than two decades here, we grew from an Asia player to a global player with acquisitions in Europe. Then we became more specialized in categories, from pharmacy to health and beauty. Then the digital evolution came, and we built the online shop so customers can look for products anytime, anywhere. Now with AI, we are also transforming, and seeing how we can make the whole company more intelligent.",
+      "Each week, David Ingles, chief markets editor for Asia at Bloomberg TV and host of The China Show, looks beyond the headlines at some of the less obvious moves in financial markets.",
+      "It’s been 25 years since the release of one of the greatest songs ever written (editors note: opinions expressed in this segment are David’s). So I’m taking this random opportunity to crowbar the title into this week’s chart.",
+      "The top panel shows turnover in Hong Kong’s equity market. The bottom panel tracks the amount of Hong Kong-listed stocks that mainland investors are buying. Suffice to say, flows in Hong Kong are now largely determined by the amount of money flowing across the border.",
+      "Hong Kong unveiled its first-ever five-year plan this week, aligning the city’s long-term economic strategy even closer with China’s. Looking at how the two equity markets are tied at the hip, it does make a lot of sense.",
+      "The song’s chorus goes on to say, “Way up high or down low, I’ll go wherever you will go.” It’s like The Calling wrote the anthem for this market moment way ahead of schedule.",
+      "We scope out the dining scene to let you know where to eat — everything from hole-in-the-wall joints to establishments with three Michelin stars. Read all our reviews here.",
+      "I’m pretty sure the last time I’d had a cheese fondue was up a snowy Swiss alp in winter, a world away from Hong Kong’s 30-degree (86 Fahrenheit) heat and humidity levels that could melt a marmot. But I’m a sucker for cheese, regardless of the conditions, so Stübli in Kennedy Town piqued my interest.",
+      "Tucked away on Cadogan Street, Stübli is on the western end of Kennedy Town where Bistro du Vin and Piccolo used to be. Several restaurants have come and gone on this short stretch of road over the years, but it’s not a complete culinary deathtrap — a few yards up, a branch of pasta chain Pici does a decent job of anchoring a crowd, and Stübli’s been around a few months now.",
+      "Cheese fondue’s been around a lot longer — a couple of centuries at least. It was a way for farmers and herders in the Alps to turn hardened cheese and stale bread into a hearty meal when fresher ingredients were in short supply. Given its popularity among peasants, I decided to take my two kids along.",
+      "Stübli means cozy room, and the restaurant is decked out accordingly, with wooden tables and chairs, Swiss flag bunting hanging from the ceiling and cowbells and other alpine paraphernalia on the walls.",
+      "For the fondue, we opted for a small caquelon of the classic “Neuchâtel Style” (HK$169) — gruyère and emmental cheese, white wine, garlic and kirsch, which I’m only just realizing now is an alcohol. There can’t have been much in there as it didn’t taste of much beyond cheese, and my children didn’t start a brawl.",
+      "The fondue comes with baguette chunks for skewering and dipping. Once they’d been wolfed down, we ordered a side of pickles (HK$39), which was a couple of gherkin slices, some carrot and a pickled onion or two.",
+      "The large versions of the other two fondues, Summer Black Truffle and Lobster Thermidor, cost HK$358 and HK$428, respectively — enough to alarm 19th-century Swiss peasants everywhere. Add-ons include cuts of air-dried beef and salami (HK$59).",
+      "Service was slightly haphazard. Our starter — wagyu beef tartare mixed with smoked egg yolks and topped off with crispy strips of potato chips (HK$129) — was served after the fondue. The waiter gently warned us it packed a bit of a punch, a point reflected in my younger daughter’s live review: “It’s really good but I can’t eat any more because it’s spicy, so can you take the rest of the ‘meat thing’ please?”",
+      "Child one was a bit more insightful, describing the dish as having a good mixture of texture and flavor, with the soft beef and crunchy chips complementing each other nicely. I agreed. I also said it was a bit spicy.",
+      "The menu has three so-called Stübli classics as well — veal strips, homemade sausage, and breadcrumbed veal loin though the last item was unavailable. We were steered in the direction of the wurst, served with thick red wine (oh dear) gravy and mashed potatoes (HK$189). It was decent but expensive at that price.",
+      "The medium-rare Australian grain-fed striploin steak (HK$266) came with creamy peppercorn sauce and a side of Swiss salad that was well doused in a honey-infused dressing. We skipped ordering more sides, which — at HK$59 per serving — were rösti, fries and mashed potato.",
+      "There was just about enough cheese left over in our caquelon to smear on the slices of steak too. We tucked in, only pausing for a moment after learning that the cheesy crust in the bottom of the pot is known as the grandmother.",
+      "Feeling fairly stuffed at this point, we still pushed on into desserts, ordering the Coupe Peach Melba (HK$89) — vanilla gelato and white peach sorbet with poached peaches, raspberry sauce, toasted almonds and whipped cream — and a chocolate tart (HK$99) with a deliciously crispy base.",
+      "The vibe: Cozy and relaxed. Music plays at an appropriate volume and included classics from the likes of Duran Duran and Phil Collins — hardly an album of authentic yodeling, but frankly preferable.",
+      "Who’s next to you: The place was about three-quarters full when we arrived at 7 p.m. on Tuesday, mostly twentysomething friends and couples, and a family or two.",
+      "Can you conduct a meeting here? While the tables are packed closely together, yes, you could.",
+      "What we’d order again: It’s no great friend of the lactose intolerant, but it would have to be the classic cheese fondue. Also the chocolate tart. I’d give the rösti fries a go too.",
+      "Need to know: Stübli is located on 39-41 Cadogan Street in Kennedy Town, connected to sister restaurant Nocino, which leans more toward Italian-Swiss cuisine like pasta. It’s open Monday through Sunday from 11:30 a.m. to 10 p.m., and you can reserve a table in advance. —Will Davies",
+      "Are there any restaurants you think we should check out? Let us know at hkedition@bloomberg.net. See our reviews here.",
+      "For some of our recent reviews of other restaurants, see:",
+      "Bloomberg New Economy Forum: This October, the Bloomberg New Economy Forum convenes its global community of business and public-sector leaders under the guiding theme, “A World in Play: Defining the New Levers of Power.” The forum, held Oct. 13-15 in New Delhi, will examine the shifting geopolitical landscape and explore the risks and opportunities reshaping the global economy. See BloombergNewEconomy.com/India for more.",
+      "Thanks for reading our newsletter. Click here to read earlier editions. Subscribe here if you haven’t, and send any feedback or ideas our way to hkedition@bloomberg.net.",
+      "More from Bloomberg"
+     ],
+     "title_zh": "港澳葡式蛋挞排行榜",
+     "summary_zh": "香港蛋挞评选盲测八款葡式蛋挞，最终一家胜出。"
+    },
+    {
+     "title": "Hong Kong Property Stocks Fall as Rate Hike Threatens Recovery",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/hong-kong-property-stocks-fall-as-rate-hike-threatens-recovery",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/hong-kong-property-stocks-fall-as-rate-hike-threatens-recovery",
+     "published_cst": "2026-09-17T04:21:10+08:00",
+     "time": "09-17 04:21",
+     "body": [
+      "Shares of Hong Kong developers dropped after the city followed the Federal Reserve with an interest rate increase, fueling concerns that higher borrowing costs may derail a nascent housing market recovery.",
+      "The benchmark Hang Seng Index’s property sub-gauge fell as much as 2.4%, heading for its lowest closing level since early January. Sun Hung Kai Properties Ltd. and Hang Lung Properties Ltd. led declines by losing at least 3.4% each.",
+      "The latest rate hike by the Hong Kong Monetary Authority, which moves in lockstep with the Fed to protect the local dollar’s peg to the greenback, threatens to weaken demand in a property market that’s just emerged from a prolonged slump. Investor sentiment has already started souring after China stepped up efforts to curb outflows of mainland capital, once a strong growth driver for the city’s housing sector.",
+      "READ: Hong Kong Follows Fed With First Rate Hike in Over Three Years",
+      "“Hong Kong’s reinvigorated housing market may face softening investment demand if the US fed funds rate rises another 25 basis points in 4Q after its latest hike by 25 basis points,” said Bloomberg Intelligence analyst Patrick Wong.",
+      "Earlier this year, there were expectations for home prices in the Asian financial hub to head for their strongest growth in nearly a decade, driven by robust mainland Chinese demand, tight inventory and rising rental yields.",
+      "Hong Kong’s first five-year development plan unveiled on Wednesday also offered no major support for housing demand, according to Morgan Stanley. “We think additional supply in the Northern Metropolis and higher public-housing output should not materially alter current residential supply-demand dynamics in the near term,” the brokerage’s analyst Praveen Choudhary wrote in note, referring to the technology hub in the northern part of the city."
+     ],
+     "title_zh": "香港地产股下跌 加息威胁复苏",
+     "summary_zh": "香港跟随美联储加息，恒指地产股一度跌2.4%，新鸿基等跌超3.4%，楼市复苏或受借贷成本上升拖累。"
+    },
+    {
+     "title": "Goldman Says Go for Gasoline as Global Fuel Crunch Morphs",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/goldman-pivots-to-gasoline-from-diesel-as-fuel-tightness-spreads",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/goldman-pivots-to-gasoline-from-diesel-as-fuel-tightness-spreads",
+     "published_cst": "2026-09-17T04:14:21+08:00",
+     "time": "09-17 04:14",
+     "body": [
+      "Gasoline stands to extend gains as tightness in global fuel markets spreads, according to Goldman Sachs Group Inc., which shifted a trading call to the popular motor fuel and away from diesel.",
+      "“The key reason for this new recommendation is that refiners’ switching output from gasoline to diesel is rapidly tightening gasoline markets,” analysts including Yulia Zhestkova Grigsby and Daan Struyven said in a note.",
+      "Global fuel markets have been squeezed this year by the combined impact of the US-Iran conflict and the war between Russia and Ukraine, with Kyiv pummeling Moscow’s refineries. In the US, diesel futures have settled at a record, and average retail pump prices for the fuel have rallied to an all-time high, as gains in product prices far outstrip advances in crude oil.",
+      "While diesel may yet climb further, gasoline now offered “more upside price opportunities,” the analysts said in the Sept. 16 report, citing reasons including more resilient demand and relative shifts in stockpiles.",
+      "As a result, the bank closed an earlier call for gains between different diesel contracts, betting on shifts in so-called timespreads, and recommended a long position in European gasoline for mid-2027, the analysts wrote. “High diesel prices cause high gasoline prices,” they said in the report’s title."
+     ],
+     "title_zh": "高盛建议买入汽油，全球燃料危机加剧",
+     "summary_zh": "高盛因全球燃料市场趋紧，将交易押注从柴油转向汽油，预计汽油价格将进一步上涨。"
+    },
+    {
+     "title": "Warsh's Fed Soars Like a Hawk Into a Hiking Cycle",
+     "url": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+     "link": "https://www.bloomberg.com/opinion/newsletters/2026-09-17/warsh-s-fed-soars-like-a-hawk-into-a-hiking-cycle",
+     "published_cst": "2026-09-17T04:05:05+08:00",
+     "time": "09-17 04:05",
+     "body": [
+      "To get John Authers’ newsletter delivered directly to your inbox, sign up here.",
+      "Heading into Wednesday’s Federal Open Market Committee meeting, it was a truth almost universally acknowledged that the central bank would raise rates. New Chair Kevin Warsh’s speech last month at Jackson Hole appeared to leave him no choice. Many were unconvinced a hike was necessary, and expected Warsh to draw the sting by hinting this would be “one and done,” not the start of a hiking cycle.",
+      "He didn’t do that. By the close, markets were convinced that more hikes would come, and that Warsh was happy about it. A potentially contentious meeting  ended with unusual clarity.",
+      "Why so convinced? Key clues were:",
+      "Perhaps the single clearest indication of intent was the dot plot, which Warsh dislikes. The other members submitted projections that showed their average predicted fed funds rate for the end of the year had risen 25 basis points since the last dot plot in June. Their estimate for the end of 2027 rose half a percentage point:",
+      "The accompanying statement revised the previous version from July subtly but clearly in a hawkish direction. Here it is, with changes annotated in red by Oxford Economics:",
+      "References to supply shocks are out, while there is now a broader nod to geopolitics rather than the specifics of the war with Iran. Then came the Warsh press conference, in which reporters weren’t allowed to ask follow-ups to their questions. It was truncated to 29 minutes from the usual 45, but the way stocks and bonds traded during his brief back-and-forth showed that he’d had enough time to make his point:",
+      "The biggest reaction was in foreign exchange, portending confidence in the Fed but also a tightening of financial conditions in the emerging world. The JPMorgan EM FX index of emerging currencies dropped to its lowest since March, while Bloomberg’s broad dollar index enjoyed its best day since Warsh’s first FOMC meeting sparked a rally three months ago:",
+      "To some extent, the key was what Warsh didn’t say, rather than what he did. There was no suggestion that this was a one-off. Instead, he said the FOMC has “removed a dose of accommodation” — not all of it, implying the rate was still accommodative and that there would be more doses in the prescription. He added that the hike “starts to show we’re serious about this.” If that was only a start to the seriousness, the direct implication is to brace for more.",
+      "As a result, the market priced in a lot of tightening. Implicit fed funds rates, as gauged by the Bloomberg World Interest Rate Probabilities, were projected to peak below 4% when Warsh took office in May — at a point when the market had already had time to adjust to the energy shock from the Iran war. Expectations crept up a bit by the time he spoke at Jackson Hole; and since then the market has braced for three more hikes before the Fed is done:",
+      "This turnabout is made all the more remarkable by the fact that inflation has declined since Warsh took over. There’s no obvious change in the environment in that time to force the central bank to shift direction. It also, of course, runs directly counter to the express wishes of President Donald Trump, who nominated him. He responded to the news with a social media post calling for rates to come down to 1%.",
+      "Trump didn’t, however, attack Warsh by name, and in comments to reporters appeared to suggest that his chairman was the prisoner of a hostile committee: “You might as well vote with the board because it’s not going to matter. The board is very hostile, very political.”",
+      "That’s not the way everyone else saw it, with the unanimity widely interpreted as showing that Warsh was beginning to exert control. Steven Englander of Standard Chartered PLC, who earlier cautioned that a hike wasn’t necessary, explained how the chairman convinced investors that it was his idea to tighten further:",
+      "Given the Fed’s stark change of direction, and the heated political environment, the market reaction was remarkable chiefly for its moderation. Stocks fell, but by the close the S&P 500 had shed only 0.45% while the Nasdaq 100, home of the big tech groups that lead this bull market, was flat — a non-reaction that implies investors don’t think the AI boom has much to fear from a hiking cycle. The 10-year yield rose to 5.02%, but it had gone slightly higher on Tuesday. This wasn’t the much-feared disorderly bond selloff, implying some degree of confidence in Warsh.",
+      "In the longer term, this moment could yet seem more significant. It’s a big step away from the “new normal” conditions that followed the Global Financial Crisis, and implies the destination is not the pre-crisis “old normal” driven by globalization and favorable demographics. Salman Ahmed of Fidelity International argued:",
+      "The calm reception so far shows investors’ acceptance that the world is more expensive and could require higher rates. That calm can continue if bonds move in orderly fashion, and whether the strengthening dollar drives crises in the many countries that have big overhangs of government debt.",
+      "Bitcoin investors were seriously disappointed by the US Senate’s inability to advance the Clarity Act — legislation aimed at providing clear legal parameters for the crypto industry (or, to its critics, make life far too easy for crypto scammers). Their disappointment is understandable. Cryptocurrency had been enjoying a rare good spell, driven predominantly by renewed concerns about debasement after Scott Bessent’s Treasury buyback announcement, which prompted a 30% rebound in a matter of days.  But it never regained all its losses for the year, and the Senate vote not to move the Clarity Act forward knocked the wind out of Bitcoin’s sails again:",
+      "For crypto enthusiasts, this setback stings. Until Bessent’s announcement, Bitcoin had been in the doldrums, and losing support from institutional investors. The return of the debasement trade had raised the prospect of a sustained rally.",
+      "Before the legislation failed, Bitcoin exchange-traded fund flows had surged, attracting $3.5 billion in August and another $600 million so far in September. Bloomberg Intelligence’s analysis shows that Bitcoin funds have attracted a cumulative $55 billion since the launch over two years ago, down from a high of $63 billion.",
+      "However, the latest tumble by more than 4% underscores how much investors needed the Clarity Act. To quote Bitwise Asset Management’s Matthew Hougan, “If Clarity had passed, crypto would have been the consensus smart money trade in Q4.”",
+      "This administration continues to be the most crypto-friendly by an awesome distance. Still, some of the Senate sticking points should have investors questioning its staying power. Democrats raised concerns over ethics provisions concerning governing officials’ crypto holdings, an apparent dig at the Trump family’s huge stake in crypto.",
+      "It’s unclear how much that affected the vote. It’s plausible that this is not the end of the road, especially if Republicans make concessions as they did last year with the GENIUS Act — which established a regulatory framework for issuing stablecoins and also failed its first cloture vote. But as Frnt Financial’s Stephane Ouellette notes, the two scenarios are slightly different:",
+      "How realistic are the odds that the Clarity Act sees the light of day? Prediction markets give a very slim probability that it ever passes. Regardless, Trump’s crypto empire and his commitment to the asset class suggest that there will likely be more policy tailwinds from Washington.",
+      "Meanwhile, the war in the Middle East could determine crypto’s trajectory. Bitcoin hasn’t worked as a safe haven. It’s hard to see how it could weather a possible escalation, particularly one that coincides with tighter monetary policy.",
+      "Of course, enthusiasts have seen worse. Between 2017 and 2020, Bitcoin went more than 1,100 days without making an all-time high. The current drought stands at less than 350.",
+      "—Richard Abbey",
+      "Some podcasts for your listening pleasure. I started the day discussing bond yields with Stephanie Flanders on Trumponomics, and ended it talking about the Fed with David Gura and Maria Eloisa Capurro on The Big Take.",
+      "If for some strange reason you’d rather not listen to anything about bonds or monetary policy, try this.",
+      "More From Bloomberg Opinion",
+      "Want more Bloomberg Opinion? OPIN. Or you can subscribe to our daily newsletter.",
+      "Like Bloomberg’s Points of Return? Subscribe for unlimited access to trusted, data-based journalism in 120 countries around the world and gain expert analysis from exclusive daily newsletters like Markets Daily or Odd Lots."
+     ],
+     "title_zh": "沃什的美联储如鹰派般强势进入加息周期",
+     "summary_zh": "美联储新主席沃什暗示将继续加息，市场预期更多紧缩，美元走强，新兴市场货币跌至3月来最低。"
+    },
     {
      "title": "New GLP-1 Pills Curb Snacking Less Than Shots in Survey",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/new-glp-1-pills-curb-snacking-less-than-shots-in-survey",
@@ -408,6 +892,31 @@
      "summary_zh": "塔塔集团董事会今日开会，讨论印度央行强制上市要求及挽留即将卸任的董事长钱德拉塞卡兰。"
     },
     {
+     "title": "Australia Targets Family Visas, Overstayers to Cut Migration",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/australia-to-target-family-visas-overstayers-to-curb-migration",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/australia-to-target-family-visas-overstayers-to-curb-migration",
+     "published_cst": "2026-09-17T02:30:00+08:00",
+     "time": "09-17 02:30",
+     "body": [
+      "Australia’s center-left government is moving to reduce immigration, planning a clampdown on people who have overstayed their visas as well as restricting most student-visa holders from bringing family members into the country.",
+      "Home Affairs Minister Tony Burke outlined the changes in a long-delayed speech to the National Press Club on Thursday titled “The work of managing the migration program: Who arrives, who stays, who leaves.”",
+      "The government will target people who skip from one visa class to another, students and temporary workers, as well as their family members, according to a statement from Burke. It will also introduce a “no further stay” condition to all visitor visas, in an attempt to ensure that these are genuinely temporary and don’t become a pathway to staying long-term.",
+      "It will also do more to detain and deport those whose visas have expired, with Burke saying he expected that effort would encourage other overstayers to leave.",
+      "“Almost everyone who comes to Australia is a good guest in our country,” Burke said. “These reforms are to ensure that our migration system can be better targeted to the current needs of Australia.”",
+      "Australia is aiming to cap net migration this fiscal year at about 245,000 people — a target set in the budget in May — falling to 225,000 people in the following year. The government has repeatedly overshot its target for migrant numbers, opening it up to criticism from the political right.",
+      "More than 292,000 people moved permanently to Australia in the year through the end of March, according to data released Thursday morning before the speech. That was a decline of almost 6% compared to the preceding 12 months.",
+      "The new plan will use changed rules to target skilled migration at key sectors, including healthcare, construction, education, law enforcement, defense, resources, agriculture, aquaculture and fishing, according to the statement.",
+      "Authorities plan to limit the number of people who are in the country on working-holiday visas, which are popular with backpackers, instituting a ballot for those who wish to continue on these visas for a second or third year, Burke said in his speech. The government had already slowed or paused the issuance of new “working holiday” visas.",
+      "While there is popular demand and political agreement that immigration should be lowered, there’s also concern from industry that it will lead to fewer workers, and there was a swift backlash to the announcement.",
+      "The agricultural industry called it a “low blow” that risked food security, and regional economies. “Working holiday makers fill about one in seven farm jobs making them central to getting food and fiber produced, harvested, packed and into supermarkets,” National Farmers Federation President Hamish McIntyre said in a statement.",
+      "Independent lawmaker Helen Haines from rural Victoria state told parliament Wednesday that her district is experiencing a worker shortage, and asked the government to speed up approvals for some categories, including nurses, to come to Australia.",
+      "Read more: Far-Right Firebrand Rises in Australia After 30 Years on Fringes",
+      "Earlier this week, the far right One Nation party proposed cutting the number of temporary migrants by 750,000 over three years to drive down the country’s population, before returning to a policy of allowing 130,000 people to move permanently to Australia each year."
+     ],
+     "title_zh": "澳大利亚针对家庭签证和逾期滞留者以减少移民",
+     "summary_zh": "澳大利亚工党政府拟收紧移民，限制学生携家属并遣返逾期滞留者，目标本财年净移民降至约24.5万人。"
+    },
+    {
      "title": "Russia Taps North Korean Workers to Make Drones Under Fake Visas",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/russia-taps-north-korean-workers-to-make-drones-under-fake-visas",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/russia-taps-north-korean-workers-to-make-drones-under-fake-visas",
@@ -427,6 +936,26 @@
      ],
      "title_zh": "俄罗斯利用朝鲜劳工持假签证制造无人机",
      "summary_zh": "美国及其盟友称俄罗斯动员多达2.5万名朝鲜工人为其建造无人机，去年为朝鲜创收约8亿美元，用于资助其核与弹道导弹项目。"
+    },
+    {
+     "title": "Global Bonds Recover as Warsh's Inflation Fight Calms Market",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/global-bonds-recover-as-warsh-s-inflation-fight-calms-market",
+     "published_cst": "2026-09-17T02:15:47+08:00",
+     "time": "09-17 02:15",
+     "body": [
+      "Global bond yields retreated Thursday as the Federal Reserve’s rate hike and vow to tame inflation calmed a pressured market, leaving traders to look ahead to Friday’s key Bank of Japan decision.",
+      "Yields on 10-year Treasuries fell three basis points to 4.99%, ending eight days of gains. Those on similar-tenor notes declined three basis points and less than one basis point in Australia and Japan, respectively.",
+      "The average yield on global government bonds climbed to a 19-year high this week as escalating Middle East tensions drove up oil prices, fanning inflation expectations. The Fed raised interest rates by a quarter percentage point in a widely expected move on Wednesday, while the median policymaker projection indicated one more hike later this year.",
+      "“The Fed had no choice but to give the market a hike or risk a much bigger bond market selloff,” said Byron Anderson, head of fixed income at Laffer Tengler Investments. “The market narrative is on a collision course with the Fed from here on out, which means more volatility.”",
+      "The central bank’s favored inflation gauge stood at 3.7% in July, close to the highest since 2023 and above the Fed’s long-run target of 2%. Warsh said inflation readings during summer don’t tell him that underlying trends have meaningfully improved.",
+      "“For the bond market, this is likely to cast a long shadow rather than create a short-lived storm,” said Hebe Chen, a market analyst at Vantage Global Prime. “The front end now has to price the possibility of further Fed tightening, while the long end is already wrestling with inflation, heavy issuance and fiscal concerns — meaning even when the initial volatility settles, the gravitational pull of higher yields may remain.”",
+      "While digesting the Fed decision, investors were also shifting their attention to the Bank of Japan as it started its two-day policy meeting on Thursday. All BOJ watchers surveyed by Bloomberg expect the central bank to raise its policy rate to 1.25% from 1%.",
+      "US Treasury Secretary Scott Bessent has expressed strong support for Japan’s decisive market and monetary steps to address the substantial undervaluation of the yen, according to a readout.",
+      "“The chances have risen significantly that the BOJ will hike on Friday and signal further increases” after the Fed’s projections pointed to one more rate hike this year, Eiji Kinouchi, chief technical analyst at Daiwa Securities Co., wrote in a research note. If that happens, “there’s a risk of a repeat” of the surging yen and the slump in Japanese stocks seen in 2024, he wrote."
+     ],
+     "title_zh": "全球债券回升，沃什抗击通胀安抚市场",
+     "summary_zh": "美联储加息后全球国债收益率回落，10年期美债收益率跌至4.99%，市场转向关注日本央行周五决议。"
     },
     {
      "title": "Nvidia Partner GMI Cloud Seeks Loan to Buy Chips for Thai Site",
@@ -490,6 +1019,30 @@
      ],
      "title_zh": "特朗普重返北卡罗来纳州竞选，参议院席位成焦点",
      "summary_zh": "特朗普赴北卡罗来纳州为共和党参议员候选人拉票，该州选情可能决定参议院控制权，目前民主党对手民调领先。"
+    },
+    {
+     "title": "NSE's $2.4 Billion India IPO Opens With Valuation in Focus",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/nse-subscription-for-india-ipo-starts-with-valuation-in-focus",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/nse-subscription-for-india-ipo-starts-with-valuation-in-focus",
+     "published_cst": "2026-09-17T01:00:00+08:00",
+     "time": "09-17 01:00",
+     "body": [
+      "National Stock Exchange of India Ltd.’s long-awaited initial public offering starts taking orders Thursday, testing investor appetite for a valuation that remains rich compared with some of the world’s biggest listed exchanges.",
+      "The shares are being offered at 1,700 rupees to 1,785 rupees a share and will close for subscription on Sept. 21. NSE reduced the number of shares on offer to 126.44 million from 148.9 million planned earlier, according to its updated prospectus. The offering is entirely a sale by existing shareholders, meaning the exchange won’t receive any of the proceeds.",
+      "The IPO was subscribed 15% as of 11 a.m. local time, with bids come mainly from retail investors and wealthy individuals, according to data on the BSE Ltd.’s website.",
+      "At the top end of the range, the deal is set to raise 226 billion rupees ($2.4 billion), the second-most ever for an IPO in the country behind Hyundai Motor India Ltd.’s 2024 listing, which netted 279 billion rupees. That price would value NSE at about 42.9 times its earnings for the year ended March. While that’s a discount to domestic rival BSE Ltd., it’s well above the roughly 24 to 25 times ratio for some of the world’s largest listed exchanges.",
+      "The premium reflects NSE’s dominant position in one of the world’s fastest-growing capital markets and its high profitability. The exchange reported net income of 103 billion rupees on revenue of 166 billion rupees in the year ended March 2026, according to its prospectus, translating into a profit margin of about 62%, above most large global peers.",
+      "“NSE is well positioned to benefit from structural tailwinds and remains the best franchise among peers” because of India’s deepening capital markets and rising global investor participation, SBICAPS Securities said in a note to clients.",
+      "Still, analysts and investors are divided over whether NSE’s market dominance and growth prospects justify the premium. NSE’s gray-market premium has fallen to about 160 rupees a share from as high as 285 rupees on Sept. 7, according to ipowatch.in.",
+      "“While the long-term growth opportunity in India’s capital markets remains favorable, the sustainability of earnings growth will depend on trading activity, regulatory stability and continued market participation,” Religare Broking said in a note to clients as it initiated the stock with a neutral recommendation.",
+      "One of the biggest risks is tighter regulatory scrutiny of speculative derivatives trading, a business central to NSE’s profitability. Options trading accounted for about 60% of operating revenue in the year ended March, leaving the exchange exposed to measures aimed at curbing activity in the segment.",
+      "NSE first filed for an IPO in 2016, but its listing was delayed by corporate-governance concerns and a co-location controversy, in which some brokers were alleged to have received preferential access to the exchange’s trading systems. The exchange recently settled the cases by paying 14.91 billion rupees.",
+      "On Wednesday, investment bankers advising on the deal allocated 37.79 million shares to anchor investors at 1,785 rupees apiece, the top end of the marketed range, raising 67.46 billion rupees, according to an exchange filing.",
+      "Goldman Sachs, HSBC, Fidelity and Eastspring were among major investors in the anchor book. Sovereign wealth funds including GIC and Abu Dhabi Investment Authority also participated, the filing showed.",
+      "The anchor book also drew strong demand from local mutual funds and insurers. Life Insurance Corp., SBI Funds Management Ltd. and ICICI Prudential Asset Management Co. were among the largest anchor investors."
+     ],
+     "title_zh": "印度国家证券交易所24亿美元IPO启动，估值成焦点",
+     "summary_zh": "印度国家证券交易所今日启动IPO，发行价1700至1785卢比，拟募资2260亿卢比，估值达42.9倍市盈率，认购率暂为15%。"
     },
     {
      "title": "Taiwan Poised for Hawkish Hold After Headline Inflation Slowed",
@@ -637,10 +1190,19 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 14,
+   "count": 15,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "Volvo Car Plans Major Model Lineup Revamp",
+     "url": "https://www.wsj.com/business/autos/volvo-car-plans-major-model-lineup-revamp-9142ef94",
+     "link": "https://www.wsj.com/business/autos/volvo-car-plans-major-model-lineup-revamp-9142ef94",
+     "published_cst": "2026-09-17T05:38:00+08:00",
+     "time": "09-17 05:38",
+     "body": null,
+     "title_zh": "沃尔沃汽车计划大规模调整车型阵容"
+    },
     {
      "title": "Pepper…and Salt",
      "url": "https://www.wsj.com/opinion/pepperand-salt-eb550a28",
@@ -687,7 +1249,7 @@
      "title_zh": "日经指数涨1.0%，医药和机械股领涨"
     },
     {
-     "title": "Global Tightening Could Cap Dollar’s Fed Boost",
+     "title": "Fed Tightening Isn’t Start of Dollar-Strengthening Trend",
      "url": "https://www.wsj.com/finance/currencies/global-tightening-could-cap-dollars-fed-boost-fe1f509c",
      "link": "https://www.wsj.com/finance/currencies/global-tightening-could-cap-dollars-fed-boost-fe1f509c",
      "published_cst": "2026-09-17T01:19:00+08:00",
@@ -705,7 +1267,7 @@
      "title_zh": "金价小幅上涨，市场权衡美联储路径"
     },
     {
-     "title": "U.S.-Japan Rate Gap Unlikely to Narrow Significantly",
+     "title": "U.S. Treasury Yields Trade Calm, Little Changed in Asian Session",
      "url": "https://www.wsj.com/finance/long-term-jgb-yields-largely-steady-as-boj-starts-two-day-meeting-0e67c4e8",
      "link": "https://www.wsj.com/finance/long-term-jgb-yields-largely-steady-as-boj-starts-two-day-meeting-0e67c4e8",
      "published_cst": "2026-09-17T01:06:00+08:00",
@@ -772,18 +1334,432 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 53,
+   "count": 89,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
     {
+     "title": "Trump warns EU of tariffs over Canada's potential associate membership, calls it 'laughable'",
+     "url": "https://www.reuters.com/world/americas/trump-warns-eu-tariffs-over-canadas-potential-associate-membership-calls-it-2026-09-17/",
+     "link": "https://www.reuters.com/world/americas/trump-warns-eu-tariffs-over-canadas-potential-associate-membership-calls-it-2026-09-17/",
+     "published_cst": "2026-09-17T06:08:33+08:00",
+     "time": "09-17 06:08",
+     "body": null,
+     "title_zh": "特朗普警告欧盟：加拿大若准成员将加征关税，称其“可笑”"
+    },
+    {
+     "title": "Germany's east-west divide shifts from jobs to wealth",
+     "url": "https://www.reuters.com/business/germanys-east-west-divide-shifts-jobs-wealth-2026-09-17/",
+     "link": "https://www.reuters.com/business/germanys-east-west-divide-shifts-jobs-wealth-2026-09-17/",
+     "published_cst": "2026-09-17T06:08:19+08:00",
+     "time": "09-17 06:08",
+     "body": null,
+     "title_zh": "德国东西部分歧从就业转向财富"
+    },
+    {
+     "title": "Malaysia talks to rival airlines as it monitors AirAsia's financial health, sources say",
+     "url": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
+     "published_cst": "2026-09-17T06:08:00+08:00",
+     "time": "09-17 06:08",
+     "body": null,
+     "title_zh": "马来西亚与竞争对手航空公司洽谈，同时监控亚航财务状况，消息人士称"
+    },
+    {
+     "title": "Italian gunmaker Beretta to raise stake in Sturm Ruger to 25%, paper says",
+     "url": "https://www.reuters.com/business/italian-gunmaker-beretta-raise-stake-sturm-ruger-25-paper-says-2026-09-17/",
+     "link": "https://www.reuters.com/business/italian-gunmaker-beretta-raise-stake-sturm-ruger-25-paper-says-2026-09-17/",
+     "published_cst": "2026-09-17T06:06:21+08:00",
+     "time": "09-17 06:06",
+     "body": null,
+     "title_zh": "意大利枪械制造商贝雷塔拟将斯特姆鲁格持股增至25%"
+    },
+    {
+     "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
+     "url": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
+     "link": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
+     "published_cst": "2026-09-17T06:06:16+08:00",
+     "time": "09-17 06:06",
+     "body": null,
+     "title_zh": "众议院通过格雷厄姆力推的对俄制裁法案，提交特朗普"
+    },
+    {
+     "title": "Red tape, bad targets hobble Europe in critical minerals race",
+     "url": "https://www.reuters.com/commentary/reuters-open-interest/red-tape-bad-targets-hobble-europe-critical-minerals-race-2026-09-17/",
+     "link": "https://www.reuters.com/commentary/reuters-open-interest/red-tape-bad-targets-hobble-europe-critical-minerals-race-2026-09-17/",
+     "published_cst": "2026-09-17T06:05:50+08:00",
+     "time": "09-17 06:05",
+     "body": null,
+     "title_zh": "繁文缛节与目标不当拖累欧洲关键矿产竞争"
+    },
+    {
+     "title": "OpenAI's rogue agents probed Hugging Face for weaknesses two months before major hack",
+     "url": "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/",
+     "link": "https://www.reuters.com/legal/litigation/openais-rogue-agents-probed-hugging-face-weaknesses-two-months-before-major-hack-2026-09-16/",
+     "published_cst": "2026-09-17T06:05:42+08:00",
+     "time": "09-17 06:05",
+     "body": null,
+     "title_zh": "OpenAI失控代理在重大黑客攻击前两个月探查Hugging Face漏洞"
+    },
+    {
+     "title": "LVMH signed a secret 2002 pact to buy Hermès heir’s shares. Now he says his fortune is missing",
+     "url": "https://www.reuters.com/legal/litigation/lvmh-signed-secret-2002-pact-buy-herms-heirs-shares-now-he-says-his-fortune-is-2026-09-17/",
+     "link": "https://www.reuters.com/legal/litigation/lvmh-signed-secret-2002-pact-buy-herms-heirs-shares-now-he-says-his-fortune-is-2026-09-17/",
+     "published_cst": "2026-09-17T06:05:08+08:00",
+     "time": "09-17 06:05",
+     "body": null,
+     "title_zh": "路威酩轩2002年秘密签约购买爱马仕继承人股份，如今他称财富失踪"
+    },
+    {
+     "title": "India vows to protect energy security, warns U.S. tariffs could hit ties",
+     "url": "https://www.reuters.com/business/energy/india-vows-protect-energy-security-warns-us-tariffs-could-hit-ties-2026-09-17/",
+     "link": "https://www.reuters.com/business/energy/india-vows-protect-energy-security-warns-us-tariffs-could-hit-ties-2026-09-17/",
+     "published_cst": "2026-09-17T06:04:51+08:00",
+     "time": "09-17 06:04",
+     "body": null,
+     "title_zh": "印度誓言保障能源安全，警告美国关税或损害双边关系"
+    },
+    {
+     "title": "Trump espera que el fin de la guerra con Irán esté cerca pese a la escalada en Yemen",
+     "url": "https://www.reuters.com/es/mundo/ENBZ22ZKJZN4DLPQX7GTA56GIU-2026-09-17/",
+     "link": "https://www.reuters.com/es/mundo/ENBZ22ZKJZN4DLPQX7GTA56GIU-2026-09-17/",
+     "published_cst": "2026-09-17T06:04:09+08:00",
+     "time": "09-17 06:04",
+     "body": null,
+     "title_zh": "特朗普预计尽管也门局势升级，与伊朗的战争即将结束"
+    },
+    {
+     "title": "Hy24 y COFIDES adquirirán el 29% en el proyecto de hidrógeno verde de Moeve en España",
+     "url": "https://www.reuters.com/es/negocio/4QGWRNXKJJP4REYWD4B6VBFHEA-2026-09-17/",
+     "link": "https://www.reuters.com/es/negocio/4QGWRNXKJJP4REYWD4B6VBFHEA-2026-09-17/",
+     "published_cst": "2026-09-17T06:02:10+08:00",
+     "time": "09-17 06:02",
+     "body": null,
+     "title_zh": "Hy24和COFIDES将收购Moeve西班牙绿氢项目29%股份"
+    },
+    {
+     "title": "Hawkish Fed lifts dollar to seven-week high; markets brace for BOE, BOJ",
+     "url": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
+     "published_cst": "2026-09-17T06:01:31+08:00",
+     "time": "09-17 06:01",
+     "body": null,
+     "title_zh": "鹰派美联储推高美元至七周高位，焦点转向日本央行"
+    },
+    {
+     "title": "Australia cracks down on student and backpacker visas to curb migration",
+     "url": "https://www.reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/",
+     "link": "https://www.reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/",
+     "published_cst": "2026-09-17T06:01:28+08:00",
+     "time": "09-17 06:01",
+     "body": null,
+     "title_zh": "澳大利亚将禁止外国留学生在学习期间携带伴侣和子女"
+    },
+    {
+     "title": "Panama Canal stress shows the real shipping squeeze may still be ahead",
+     "url": "https://www.reuters.com/commentary/reuters-open-interest/panama-canal-stress-shows-real-shipping-squeeze-may-still-be-ahead-2026-09-17/",
+     "link": "https://www.reuters.com/commentary/reuters-open-interest/panama-canal-stress-shows-real-shipping-squeeze-may-still-be-ahead-2026-09-17/",
+     "published_cst": "2026-09-17T06:00:54+08:00",
+     "time": "09-17 06:00",
+     "body": null,
+     "title_zh": "巴拿马运河压力显示真正的航运紧缩可能还在后头"
+    },
+    {
+     "title": "Nagoya faces possible typhoon threat early in Asian Games",
+     "url": "https://www.reuters.com/business/environment/nagoya-faces-possible-typhoon-threat-early-asian-games-2026-09-17/",
+     "link": "https://www.reuters.com/business/environment/nagoya-faces-possible-typhoon-threat-early-asian-games-2026-09-17/",
+     "published_cst": "2026-09-17T05:59:43+08:00",
+     "time": "09-17 05:59",
+     "body": null,
+     "title_zh": "名古屋亚运会初期可能遭遇台风威胁"
+    },
+    {
+     "title": "Poland's Allegro boosts 2026 outlook as growth accelerates",
+     "url": "https://www.reuters.com/business/retail-consumer/polands-allegro-boosts-2026-outlook-growth-accelerates-2026-09-17/",
+     "link": "https://www.reuters.com/business/retail-consumer/polands-allegro-boosts-2026-outlook-growth-accelerates-2026-09-17/",
+     "published_cst": "2026-09-17T05:57:43+08:00",
+     "time": "09-17 05:57",
+     "body": null,
+     "title_zh": "波兰Allegro加速增长上调2026年前景"
+    },
+    {
+     "title": "Japan vows effort to maintain orderly yen moves",
+     "url": "https://www.reuters.com/world/asia-pacific/japan-vows-effort-maintain-orderly-yen-moves-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/japan-vows-effort-maintain-orderly-yen-moves-2026-09-17/",
+     "published_cst": "2026-09-17T05:54:47+08:00",
+     "time": "09-17 05:54",
+     "body": null,
+     "title_zh": "日本承诺努力维持日元有序波动"
+    },
+    {
+     "title": "Fed builds credibility, but hawkish turn leaves investors edgy",
+     "url": "https://www.reuters.com/markets/wealth/fed-builds-credibility-hawkish-turn-leaves-investors-edgy-2026-09-17/",
+     "link": "https://www.reuters.com/markets/wealth/fed-builds-credibility-hawkish-turn-leaves-investors-edgy-2026-09-17/",
+     "published_cst": "2026-09-17T05:53:37+08:00",
+     "time": "09-17 05:53",
+     "body": null,
+     "title_zh": "美联储建立信誉，但鹰派转向令投资者不安"
+    },
+    {
+     "title": "Global LNG prices could spike this winter on low European gas stocks",
+     "url": "https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/",
+     "link": "https://www.reuters.com/business/energy/global-lng-prices-could-spike-this-winter-low-european-gas-stocks-2026-09-17/",
+     "published_cst": "2026-09-17T05:51:43+08:00",
+     "time": "09-17 05:51",
+     "body": null,
+     "title_zh": "全球液化天然气价格今冬或因欧洲天然气库存低位而飙升"
+    },
+    {
+     "title": "Japans Ministerpräsidentin Takaichi setzt im Kabinett auf Kontinuität",
+     "url": "https://www.reuters.com/de/welt/japans-ministerprsidentin-takaichi-setzt-im-kabinett-auf-kontinuitt-2026-09-17/",
+     "link": "https://www.reuters.com/de/welt/japans-ministerprsidentin-takaichi-setzt-im-kabinett-auf-kontinuitt-2026-09-17/",
+     "published_cst": "2026-09-17T05:47:43+08:00",
+     "time": "09-17 05:47",
+     "body": null,
+     "title_zh": "日本首相高市早苗在内阁中注重延续性"
+    },
+    {
+     "title": "Dax höher erwartet - BoE und Iran im Blick",
+     "url": "https://www.reuters.com/de/firma/dax-hher-erwartet-boe-und-iran-im-blick-2026-09-17/",
+     "link": "https://www.reuters.com/de/firma/dax-hher-erwartet-boe-und-iran-im-blick-2026-09-17/",
+     "published_cst": "2026-09-17T05:43:58+08:00",
+     "time": "09-17 05:43",
+     "body": null,
+     "title_zh": "德国DAX指数预计走高——关注英国央行与伊朗"
+    },
+    {
+     "title": "Reiche und Unions-Fraktion: Mehrwertsteuer beim Sprit senken",
+     "url": "https://www.reuters.com/de/hauslich/reiche-und-unions-fraktion-mehrwertsteuer-beim-sprit-senken-2026-09-17/",
+     "link": "https://www.reuters.com/de/hauslich/reiche-und-unions-fraktion-mehrwertsteuer-beim-sprit-senken-2026-09-17/",
+     "published_cst": "2026-09-17T05:41:43+08:00",
+     "time": "09-17 05:41",
+     "body": null,
+     "title_zh": "富人与联盟党团：降低燃油增值税"
+    },
+    {
+     "title": "Sender: Schwedens Mitte-Links-Opposition gewinnt Parlamentswahl hauchdünn",
+     "url": "https://www.reuters.com/de/welt/sender-schwedens-mitte-links-opposition-gewinnt-parlamentswahl-hauchdnn-2026-09-17/",
+     "link": "https://www.reuters.com/de/welt/sender-schwedens-mitte-links-opposition-gewinnt-parlamentswahl-hauchdnn-2026-09-17/",
+     "published_cst": "2026-09-17T05:37:43+08:00",
+     "time": "09-17 05:37",
+     "body": null,
+     "title_zh": "瑞典中左翼反对党以微弱优势赢得议会选举"
+    },
+    {
+     "title": "HKMA raises rate for first time in three years, major banks keep rates steady",
+     "url": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
+     "published_cst": "2026-09-17T05:37:25+08:00",
+     "time": "09-17 05:37",
+     "body": null,
+     "title_zh": "香港金管局上调利率 追随美联储步伐"
+    },
+    {
+     "title": "Indonesia president calls for stricter sanctions against forest fire perpetrators",
+     "url": "https://www.reuters.com/business/environment/indonesia-president-calls-stricter-sanctions-against-forest-fire-perpetrators-2026-09-17/",
+     "link": "https://www.reuters.com/business/environment/indonesia-president-calls-stricter-sanctions-against-forest-fire-perpetrators-2026-09-17/",
+     "published_cst": "2026-09-17T05:35:28+08:00",
+     "time": "09-17 05:35",
+     "body": null,
+     "title_zh": "印尼总统呼吁对纵火者实施更严厉制裁"
+    },
+    {
+     "title": "Volvo Cars to launch 13 new models this decade, eyes earnings boost",
+     "url": "https://www.reuters.com/world/china/volvo-cars-launch-13-new-cars-this-decade-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/volvo-cars-launch-13-new-cars-this-decade-2026-09-17/",
+     "published_cst": "2026-09-17T05:35:22+08:00",
+     "time": "09-17 05:35",
+     "body": null,
+     "title_zh": "沃尔沃汽车将在本十年推出13款新车型，期望提振盈利"
+    },
+    {
+     "title": "Netanyahu amplifie ses menaces contre les réalisateurs du documentaire \"NAZA\"",
+     "url": "https://www.reuters.com/fr/affaires/netanyahu-amplifie-ses-menaces-contre-les-ralisateurs-du-documentaire-naza-2026-09-17/",
+     "link": "https://www.reuters.com/fr/affaires/netanyahu-amplifie-ses-menaces-contre-les-ralisateurs-du-documentaire-naza-2026-09-17/",
+     "published_cst": "2026-09-17T05:33:44+08:00",
+     "time": "09-17 05:33",
+     "body": null,
+     "title_zh": "内塔尼亚胡加大对纪录片《NAZA》制作人的威胁"
+    },
+    {
+     "title": "Shares edge up after Fed hike, dollar firm on short-term yields",
+     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/",
+     "published_cst": "2026-09-17T05:33:38+08:00",
+     "time": "09-17 05:33",
+     "body": null,
+     "title_zh": "美联储加息短期收益率上升美元跳涨股市微升"
+    },
+    {
+     "title": "UN-Generalsekretär warnt vor KI-Risiken",
+     "url": "https://www.reuters.com/de/welt/un-generalsekretr-warnt-vor-ki-risiken-2026-09-17/",
+     "link": "https://www.reuters.com/de/welt/un-generalsekretr-warnt-vor-ki-risiken-2026-09-17/",
+     "published_cst": "2026-09-17T05:33:19+08:00",
+     "time": "09-17 05:33",
+     "body": null,
+     "title_zh": "联合国秘书长警告人工智能风险"
+    },
+    {
+     "title": "OFRMO Summary",
+     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "published_cst": "2026-09-17T05:33:14+08:00",
+     "time": "09-17 05:33",
+     "body": null,
+     "title_zh": "OFRMO摘要"
+    },
+    {
      "title": "Impoverished by war in Iran, Afghan migrants return to Taliban rule",
      "url": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
      "link": "https://www.reuters.com/world/asia-pacific/impoverished-by-war-iran-afghan-migrants-return-taliban-rule-2026-09-17/",
-     "published_cst": "2026-09-17T04:07:45+08:00",
-     "time": "09-17 04:07",
+     "published_cst": "2026-09-17T05:31:58+08:00",
+     "time": "09-17 05:31",
      "body": null,
      "title_zh": "受伊朗战争所困，阿富汗移民重返塔利班统治"
+    },
+    {
+     "title": "USA/MIDTERMS-En Caroline du Nord, Trump s'en prend aux démocrates",
+     "url": "https://www.reuters.com/fr/affaires/usamidterms-en-caroline-du-nord-trump-sen-prend-aux-dmocrates-2026-09-17/",
+     "link": "https://www.reuters.com/fr/affaires/usamidterms-en-caroline-du-nord-trump-sen-prend-aux-dmocrates-2026-09-17/",
+     "published_cst": "2026-09-17T05:31:43+08:00",
+     "time": "09-17 05:31",
+     "body": null,
+     "title_zh": "美国中期选举：特朗普在北卡罗来纳州抨击民主党"
+    },
+    {
+     "title": "Number of ships transiting Strait of Hormuz falls to three on Wednesday, data shows",
+     "url": "https://www.reuters.com/world/middle-east/number-ships-transiting-strait-hormuz-falls-three-wednesday-data-shows-2026-09-17/",
+     "link": "https://www.reuters.com/world/middle-east/number-ships-transiting-strait-hormuz-falls-three-wednesday-data-shows-2026-09-17/",
+     "published_cst": "2026-09-17T05:31:02+08:00",
+     "time": "09-17 05:31",
+     "body": null,
+     "title_zh": "数据显示周三通过霍尔木兹海峡的船只数量降至三艘"
+    },
+    {
+     "title": "National Stock Exchange of India's $2.3 billion India IPO opens for subscription",
+     "url": "https://www.reuters.com/world/india/national-stock-exchange-indias-23-billion-india-ipo-opens-subscription-2026-09-17/",
+     "link": "https://www.reuters.com/world/india/national-stock-exchange-indias-23-billion-india-ipo-opens-subscription-2026-09-17/",
+     "published_cst": "2026-09-17T05:29:39+08:00",
+     "time": "09-17 05:29",
+     "body": null,
+     "title_zh": "印度国家证券交易所23亿美元IPO开放认购"
+    },
+    {
+     "title": "Autobauer BYD plant langfristig drei Fahrzeugwerke in Europa",
+     "url": "https://www.reuters.com/de/firma/autobauer-byd-plant-langfristig-drei-fahrzeugwerke-europa-2026-09-17/",
+     "link": "https://www.reuters.com/de/firma/autobauer-byd-plant-langfristig-drei-fahrzeugwerke-europa-2026-09-17/",
+     "published_cst": "2026-09-17T05:27:43+08:00",
+     "time": "09-17 05:27",
+     "body": null,
+     "title_zh": "比亚迪计划在欧洲长期设立三家汽车工厂"
+    },
+    {
+     "title": "Japan's Takaichi retains key ministers in cabinet reshuffle",
+     "url": "https://www.reuters.com/world/asia-pacific/japans-takaichi-set-signal-policy-continuity-cabinet-reshuffle-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/japans-takaichi-set-signal-policy-continuity-cabinet-reshuffle-2026-09-16/",
+     "published_cst": "2026-09-17T05:26:09+08:00",
+     "time": "09-17 05:26",
+     "body": null,
+     "title_zh": "日本高市在内阁改组中料将释放政策连续性信号"
+    },
+    {
+     "title": "Bilfinger gibt Aufholjagd auf und streicht 1500 Stellen",
+     "url": "https://www.reuters.com/de/firma/bilfinger-gibt-aufholjagd-auf-und-streicht-1500-stellen-2026-09-17/",
+     "link": "https://www.reuters.com/de/firma/bilfinger-gibt-aufholjagd-auf-und-streicht-1500-stellen-2026-09-17/",
+     "published_cst": "2026-09-17T05:24:09+08:00",
+     "time": "09-17 05:24",
+     "body": null,
+     "title_zh": "比尔芬格放弃追赶并裁员1500人"
+    },
+    {
+     "title": "Les USA privent de nouveau Mahmoud Abbas de visa avant l'Assemblée générale de l'Onu",
+     "url": "https://www.reuters.com/fr/affaires/les-usa-privent-de-nouveau-mahmoud-abbas-de-visa-avant-lassemble-gnrale-de-lonu-2026-09-17/",
+     "link": "https://www.reuters.com/fr/affaires/les-usa-privent-de-nouveau-mahmoud-abbas-de-visa-avant-lassemble-gnrale-de-lonu-2026-09-17/",
+     "published_cst": "2026-09-17T05:23:46+08:00",
+     "time": "09-17 05:23",
+     "body": null,
+     "title_zh": "美国再次拒绝向阿巴斯发放签证"
+    },
+    {
+     "title": "Agentur: Banken stellen 22 Mrd Dollar für KI-Projekt von Google und Blackstone",
+     "url": "https://www.reuters.com/de/firma/agentur-banken-stellen-22-mrd-dollar-fr-ki-projekt-von-google-und-blackstone-2026-09-17/",
+     "link": "https://www.reuters.com/de/firma/agentur-banken-stellen-22-mrd-dollar-fr-ki-projekt-von-google-und-blackstone-2026-09-17/",
+     "published_cst": "2026-09-17T05:23:45+08:00",
+     "time": "09-17 05:23",
+     "body": null,
+     "title_zh": "机构：银行将为谷歌和黑石的AI项目提供220亿美元"
+    },
+    {
+     "title": "EU seeks China curbs on hybrid car exports to avert trade row, FT reports",
+     "url": "https://www.reuters.com/world/china/eu-seeks-china-curbs-hybrid-car-exports-avert-trade-row-ft-reports-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/eu-seeks-china-curbs-hybrid-car-exports-avert-trade-row-ft-reports-2026-09-17/",
+     "published_cst": "2026-09-17T05:23:03+08:00",
+     "time": "09-17 05:23",
+     "body": null,
+     "title_zh": "欧盟寻求中国限制混合动力汽车出口以避免贸易争端，据金融时报报道"
+    },
+    {
+     "title": "Onu-Les cours d'eau mondiaux à leur plus bas depuis plus de 30 ans en 2025-rapport",
+     "url": "https://www.reuters.com/fr/affaires/onu-les-cours-deau-mondiaux-leur-plus-bas-depuis-plus-de-30-ans-en-2025-rapport-2026-09-17/",
+     "link": "https://www.reuters.com/fr/affaires/onu-les-cours-deau-mondiaux-leur-plus-bas-depuis-plus-de-30-ans-en-2025-rapport-2026-09-17/",
+     "published_cst": "2026-09-17T05:21:44+08:00",
+     "time": "09-17 05:21",
+     "body": null,
+     "title_zh": "2025年全球河流水位降至30多年来最低点"
+    },
+    {
+     "title": "Peter Max, known for groovy art that came to symbolize the 60s, dies at 88",
+     "url": "https://www.reuters.com/lifestyle/peter-max-known-groovy-art-that-came-symbolize-60s-dies-88-2026-09-17/",
+     "link": "https://www.reuters.com/lifestyle/peter-max-known-groovy-art-that-came-symbolize-60s-dies-88-2026-09-17/",
+     "published_cst": "2026-09-17T05:20:21+08:00",
+     "time": "09-17 05:20",
+     "body": null,
+     "title_zh": "以象征60年代时髦艺术闻名的彼得·马克斯去世，享年88岁"
+    },
+    {
+     "title": "Warsh macht Ernst mit Zinserhöhung: \"Inflation ist schlicht zu hoch\"",
+     "url": "https://www.reuters.com/de/wirtschaft/warsh-macht-ernst-mit-zinserhhung-inflation-ist-schlicht-zu-hoch-2026-09-17/",
+     "link": "https://www.reuters.com/de/wirtschaft/warsh-macht-ernst-mit-zinserhhung-inflation-ist-schlicht-zu-hoch-2026-09-17/",
+     "published_cst": "2026-09-17T05:19:43+08:00",
+     "time": "09-17 05:19",
+     "body": null,
+     "title_zh": "沃什认真对待加息：通胀实在太高"
+    },
+    {
+     "title": "Estudiantes vence a Corinthians y avanza a semifinales de Libertadores",
+     "url": "https://www.reuters.com/es/deportivo/YTLYMD6HCVNFZOEYW4FLJUUMJA-2026-09-17/",
+     "link": "https://www.reuters.com/es/deportivo/YTLYMD6HCVNFZOEYW4FLJUUMJA-2026-09-17/",
+     "published_cst": "2026-09-17T05:17:43+08:00",
+     "time": "09-17 05:17",
+     "body": null,
+     "title_zh": "大学生队击败科林蒂安晋级解放者杯半决赛"
+    },
+    {
+     "title": "Trump, in North Carolina, says Democrats are soft on crime and communism",
+     "url": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
+     "link": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
+     "published_cst": "2026-09-17T05:16:50+08:00",
+     "time": "09-17 05:16",
+     "body": null,
+     "title_zh": "特朗普在北卡罗来纳州称民主党对犯罪和共产主义态度软弱"
+    },
+    {
+     "title": "Indian shares rise on bargain buying, Fed, oil cap gains",
+     "url": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
+     "link": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
+     "published_cst": "2026-09-17T05:16:12+08:00",
+     "time": "09-17 05:16",
+     "body": null,
+     "title_zh": "印度股市预计平开，美联储暗示将再加息；NSE IPO受关注"
+    },
+    {
+     "title": "Turkish watchdog files complaints, orders trading bans over share manipulation",
+     "url": "https://www.reuters.com/legal/government/turkish-watchdog-files-complaints-apply-trading-bans-share-manipulation-2026-09-17/",
+     "link": "https://www.reuters.com/legal/government/turkish-watchdog-files-complaints-apply-trading-bans-share-manipulation-2026-09-17/",
+     "published_cst": "2026-09-17T05:15:52+08:00",
+     "time": "09-17 05:15",
+     "body": null,
+     "title_zh": "土耳其监管机构投诉并下令禁止股票操纵交易"
     },
     {
      "title": "Ed Sheeran's opening acts quit tour after Macklemore axed for pro-Palestinian remarks",
@@ -822,15 +1798,6 @@
      "title_zh": "世界气象组织称2025年河流流量为数十年来最干旱之一"
     },
     {
-     "title": "Indian shares flat after Fed rate hike; NSE IPO in focus",
-     "url": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
-     "link": "https://www.reuters.com/world/india/indian-shares-seen-opening-flat-after-fed-signals-more-hikes-nse-ipo-focus-2026-09-17/",
-     "published_cst": "2026-09-17T03:57:31+08:00",
-     "time": "09-17 03:57",
-     "body": null,
-     "title_zh": "印度股市预计平开，美联储暗示将再加息；NSE IPO受关注"
-    },
-    {
      "title": "ICE agent charged with assault, lying about shooting, jailed in Minnesota",
      "url": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
      "link": "https://www.reuters.com/legal/government/ice-agent-charged-with-assault-lying-about-shooting-arrested-minnesota-2026-09-17/",
@@ -865,15 +1832,6 @@
      "time": "09-17 03:34",
      "body": null,
      "title_zh": "中国华为瞄准英伟达，计划2027年推出新AI芯片"
-    },
-    {
-     "title": "Peter Max, known for groovy art that came to symbolize the 60s, dies at 88",
-     "url": "https://www.reuters.com/lifestyle/peter-max-known-groovy-art-that-came-symbolize-60s-dies-88-2026-09-17/",
-     "link": "https://www.reuters.com/lifestyle/peter-max-known-groovy-art-that-came-symbolize-60s-dies-88-2026-09-17/",
-     "published_cst": "2026-09-17T03:23:44+08:00",
-     "time": "09-17 03:23",
-     "body": null,
-     "title_zh": "以象征60年代时髦艺术闻名的彼得·马克斯去世，享年88岁"
     },
     {
      "title": "North Korea says US-led arms buildup justifies expanding nuclear force",
@@ -921,15 +1879,6 @@
      "title_zh": "鹰派美联储加剧卢比困境，交易员关注96关口"
     },
     {
-     "title": "Hong Kong Monetary Authority raises rates for first time since July 2023",
-     "url": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
-     "link": "https://www.reuters.com/world/asia-pacific/hong-kong-monetary-authority-raises-interest-rates-tracking-fed-move-2026-09-16/",
-     "published_cst": "2026-09-17T03:04:42+08:00",
-     "time": "09-17 03:04",
-     "body": null,
-     "title_zh": "香港金管局上调利率 追随美联储步伐"
-    },
-    {
      "title": "Judge in Kennedy Center case orders Trump administration to explain closure plans",
      "url": "https://www.reuters.com/legal/government/judge-kennedy-center-case-orders-trump-administration-explain-closure-plans-2026-09-16/",
      "link": "https://www.reuters.com/legal/government/judge-kennedy-center-case-orders-trump-administration-explain-closure-plans-2026-09-16/",
@@ -964,15 +1913,6 @@
      "time": "09-17 02:49",
      "body": null,
      "title_zh": "特朗普称“希望我们正接近伊朗战争的尾声”"
-    },
-    {
-     "title": "Trump, in North Carolina, says Democrats are soft on crime and communism",
-     "url": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
-     "link": "https://www.reuters.com/world/us/trump-seeks-rebuild-support-among-2024-voters-north-carolina-2026-09-16/",
-     "published_cst": "2026-09-17T02:46:48+08:00",
-     "time": "09-17 02:46",
-     "body": null,
-     "title_zh": "特朗普在北卡罗来纳州称民主党对犯罪和共产主义态度软弱"
     },
     {
      "title": "Trump lashes out at Fed after Warsh backs rate hike",
@@ -1029,24 +1969,6 @@
      "title_zh": "印尼救援人员计划扶正倾覆船只 恶劣天气阻碍搜寻129名失踪者"
     },
     {
-     "title": "Hawkish Fed lifts dollar to seven-week high as focus turn to BOJ",
-     "url": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
-     "link": "https://www.reuters.com/world/asia-pacific/hawkish-fed-lifts-dollar-seven-week-high-focus-turn-boj-2026-09-17/",
-     "published_cst": "2026-09-17T02:09:43+08:00",
-     "time": "09-17 02:09",
-     "body": null,
-     "title_zh": "鹰派美联储推高美元至七周高位，焦点转向日本央行"
-    },
-    {
-     "title": "Shares tick higher as Fed hikes rates, dollar jumps with short-term yields",
-     "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/",
-     "link": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-17/",
-     "published_cst": "2026-09-17T02:05:31+08:00",
-     "time": "09-17 02:05",
-     "body": null,
-     "title_zh": "美联储加息短期收益率上升美元跳涨股市微升"
-    },
-    {
      "title": "India's NSE allots shares worth $703 million to anchor investors; LIC top bidder",
      "url": "https://www.reuters.com/world/india/indias-nse-allots-around-703-million-worth-shares-anchor-investors-sources-say-2026-09-16/",
      "link": "https://www.reuters.com/world/india/indias-nse-allots-around-703-million-worth-shares-anchor-investors-sources-say-2026-09-16/",
@@ -1083,15 +2005,6 @@
      "title_zh": "爱泼斯坦幸存者就其儿童色情藏品起诉其遗产"
     },
     {
-     "title": "Malaysia talks to rival airlines as it monitors AirAsia's financial health, sources say",
-     "url": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
-     "link": "https://www.reuters.com/world/asia-pacific/malaysia-talks-rival-airlines-it-monitors-airasias-financial-health-sources-say-2026-09-16/",
-     "published_cst": "2026-09-17T01:50:43+08:00",
-     "time": "09-17 01:50",
-     "body": null,
-     "title_zh": "马来西亚与竞争对手航空公司洽谈，同时监控亚航财务状况，消息人士称"
-    },
-    {
      "title": "JERA expects more overseas LNG sales as it expands trading portfolio",
      "url": "https://www.reuters.com/business/energy/jera-expects-more-overseas-lng-sales-it-expands-trading-portfolio-2026-09-17/",
      "link": "https://www.reuters.com/business/energy/jera-expects-more-overseas-lng-sales-it-expands-trading-portfolio-2026-09-17/",
@@ -1108,15 +2021,6 @@
      "time": "09-17 01:39",
      "body": null,
      "title_zh": "中国残酷的AI经济给美国敲响警钟"
-    },
-    {
-     "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
-     "url": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
-     "link": "https://www.reuters.com/legal/government/us-house-takes-up-russia-sanctions-bill-backed-by-late-senator-graham-2026-09-16/",
-     "published_cst": "2026-09-17T01:24:38+08:00",
-     "time": "09-17 01:24",
-     "body": null,
-     "title_zh": "众议院通过格雷厄姆力推的对俄制裁法案，提交特朗普"
     },
     {
      "title": "Former Chelsea owners Boehly and Walter sell holdings to Clearlake",
@@ -1155,15 +2059,6 @@
      "title_zh": "油价延续跌势，中东供应中断担忧缓解"
     },
     {
-     "title": "Japan's Takaichi set to signal policy continuity in cabinet reshuffle",
-     "url": "https://www.reuters.com/world/asia-pacific/japans-takaichi-set-signal-policy-continuity-cabinet-reshuffle-2026-09-16/",
-     "link": "https://www.reuters.com/world/asia-pacific/japans-takaichi-set-signal-policy-continuity-cabinet-reshuffle-2026-09-16/",
-     "published_cst": "2026-09-17T00:56:27+08:00",
-     "time": "09-17 00:56",
-     "body": null,
-     "title_zh": "日本高市在内阁改组中料将释放政策连续性信号"
-    },
-    {
      "title": "IMF says Australia may need further interest rate rises to tame inflation",
      "url": "https://www.reuters.com/world/asia-pacific/imf-says-australia-may-need-further-interest-rate-rises-tame-inflation-2026-09-17/",
      "link": "https://www.reuters.com/world/asia-pacific/imf-says-australia-may-need-further-interest-rate-rises-tame-inflation-2026-09-17/",
@@ -1198,15 +2093,6 @@
      "time": "09-17 00:30",
      "body": null,
      "title_zh": "美国众议院推进首项应对数据中心热潮经济影响的法案"
-    },
-    {
-     "title": "Australia to bar foreign students from bringing partners, children while they study",
-     "url": "https://www.reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/",
-     "link": "https://www.reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/",
-     "published_cst": "2026-09-17T00:22:07+08:00",
-     "time": "09-17 00:22",
-     "body": null,
-     "title_zh": "澳大利亚将禁止外国留学生在学习期间携带伴侣和子女"
     },
     {
      "title": "Ghana Gas to decide on $500 million gas pipeline early next year, CEO says",
@@ -1258,10 +2144,82 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 42,
+   "count": 50,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "Getting to know Mr Warsh",
+     "url": "https://www.ft.com/content/be4a0acf-f4e8-41da-ba04-2ed6d44b7fc2",
+     "link": "https://www.ft.com/content/be4a0acf-f4e8-41da-ba04-2ed6d44b7fc2",
+     "published_cst": "2026-09-17T05:30:01+08:00",
+     "time": "09-17 05:30",
+     "body": null,
+     "title_zh": "了解沃什先生"
+    },
+    {
+     "title": "FTAV’s further reading",
+     "url": "https://www.ft.com/content/094d8a79-e0d0-47b7-8b0d-d4e72e079dbe",
+     "link": "https://www.ft.com/content/094d8a79-e0d0-47b7-8b0d-d4e72e079dbe",
+     "published_cst": "2026-09-17T05:30:01+08:00",
+     "time": "09-17 05:30",
+     "body": null,
+     "title_zh": "FT中文网延伸阅读"
+    },
+    {
+     "title": "HSBC scraps $38,000 school subsidy for some Hong Kong bankers",
+     "url": "https://www.ft.com/content/3edfa4b0-a492-4627-b9ac-e6f11583242d",
+     "link": "https://www.ft.com/content/3edfa4b0-a492-4627-b9ac-e6f11583242d",
+     "published_cst": "2026-09-17T05:15:01+08:00",
+     "time": "09-17 05:15",
+     "body": null,
+     "title_zh": "汇丰取消部分香港银行家3.8万美元学费补贴"
+    },
+    {
+     "title": "Von der Leyen advances EU defence pitch with army of new ideas",
+     "url": "https://www.ft.com/content/5d1dba1a-db81-464d-b2d0-9e0741010560",
+     "link": "https://www.ft.com/content/5d1dba1a-db81-464d-b2d0-9e0741010560",
+     "published_cst": "2026-09-17T05:00:01+08:00",
+     "time": "09-17 05:00",
+     "body": null,
+     "title_zh": "冯德莱恩以大量新构想推进欧盟防务主张"
+    },
+    {
+     "title": "Either Meta Glasses are selling extremely well or this Citi survey might have some issues",
+     "url": "https://www.ft.com/content/2739954a-816a-465a-ae21-7d846bb70365",
+     "link": "https://www.ft.com/content/2739954a-816a-465a-ae21-7d846bb70365",
+     "published_cst": "2026-09-17T05:00:01+08:00",
+     "time": "09-17 05:00",
+     "body": null,
+     "title_zh": "要么Meta眼镜销量极佳，要么花旗调查存在问题"
+    },
+    {
+     "title": "FirstFT: How AI is transforming warfare",
+     "url": "https://www.ft.com/content/d719d59e-cb2a-4488-a4cf-2f291a85e9ca",
+     "link": "https://www.ft.com/content/d719d59e-cb2a-4488-a4cf-2f291a85e9ca",
+     "published_cst": "2026-09-17T04:30:59+08:00",
+     "time": "09-17 04:30",
+     "body": null,
+     "title_zh": "FirstFT：人工智能如何改变战争"
+    },
+    {
+     "title": "Transcript: David Miliband — ‘Peacemaking has gone into retreat’",
+     "url": "https://www.ft.com/content/6865477e-bf35-4804-8251-e75093ecdf01",
+     "link": "https://www.ft.com/content/6865477e-bf35-4804-8251-e75093ecdf01",
+     "published_cst": "2026-09-17T04:23:20+08:00",
+     "time": "09-17 04:23",
+     "body": null,
+     "title_zh": "文字记录：戴维·米利班德——‘和平构建已陷入倒退’"
+    },
+    {
+     "title": "US rate rise jolts yen ahead of Bank of Japan meeting",
+     "url": "https://www.ft.com/content/5226dcb7-d89d-4b68-981f-b2736d7e4dca",
+     "link": "https://www.ft.com/content/5226dcb7-d89d-4b68-981f-b2736d7e4dca",
+     "published_cst": "2026-09-17T04:15:56+08:00",
+     "time": "09-17 04:15",
+     "body": null,
+     "title_zh": "美国加息在日本央行会议前震动日元"
+    },
     {
      "title": "Business of Sailing",
      "url": "https://www.ft.com/reports/business-sailing",
@@ -1290,7 +2248,7 @@
      "title_zh": "科学家报告称尼泊尔灾难背后存在复合危机"
     },
     {
-     "title": "Why Carney’s romance with Europe can only go so far",
+     "title": "Why Mark Carney’s romance with Europe can only go so far",
      "url": "https://www.ft.com/content/7b1a00f1-6842-4f5e-ace4-d6a57e98b21e",
      "link": "https://www.ft.com/content/7b1a00f1-6842-4f5e-ace4-d6a57e98b21e",
      "published_cst": "2026-09-17T04:00:31+08:00",

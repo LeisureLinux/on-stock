@@ -1,13 +1,13 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T12:12:02.065955+08:00",
+ "generated_at": "2026-09-17T14:12:49.443997+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 240,
+   "count": 241,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -111,6 +111,32 @@
      ],
      "title_zh": "自由放任的香港遇上五年规划",
      "summary_zh": "香港推出首个五年计划，效仿全球产业政策趋势，以补贴等激励措施引导市场，而非苏联式指令控制。"
+    },
+    {
+     "title": "CATL Bulls Reject 'De‑CATLization' Fear After $100 Billion Rout",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/catl-bulls-reject-de-catlization-fear-after-100-billion-rout",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/catl-bulls-reject-de-catlization-fear-after-100-billion-rout",
+     "published_cst": "2026-09-16T23:30:00+08:00",
+     "time": "09-16 23:30",
+     "body": [
+      "Contemporary Amperex Technology Co. Ltd. bulls are unfazed by a $100 billion market value wipeout over just four months, arguing the Chinese battery leader’s technology moat makes it a clear winner in the long-term global energy transition.",
+      "Its Shenzhen‑listed shares have slid 34% from their May record high, tracking weakness in global electric vehicle and battery peers as investors fret over profitability and demand. CATL’s selloff accelerated this week on concerns over its outlook as the domestic industry struggles with excess capacity and tough competition.",
+      "Such difficulties have renewed long-standing market fears of Chinese EV makers diversifying battery supply away from CATL’s higher-priced offerings. The sell-side remains positive on CATL, with a unanimous 47 buy ratings among analysts touting its superior technology and product quality.",
+      "“Many automakers in the past have pushed for ‘de-CATLization’ but none succeeded” said Bing Yuan, a fund manager at Edmond de Rothschild Asset Management. “Replicating CATL’s technology and reliability is extremely difficult. Smaller suppliers may serve mass‑market models, but flagship and premium lines will still rely on CATL.”",
+      "Read more: CATL Shares Drop 10% in Two Days as Outlook Worries Mount",
+      "Among recent headlines stirring investor unease, Chinese EV maker Li Auto Inc. announced plans to switch to self-developed batteries from CATL products. And Xiaomi Corp. forged pacts with rivals Sunwoda Electronic Co. and CALB Group Co., looking to add battery suppliers beyond CATL.",
+      "Such stories have overshadowed news of supply deal wins that help even the score, according to UBS Group AG. “On carmakers’ de-CATLization, despite multi-year discussion, CATL’s domestic market share remains stable at more than 40%,” analysts including Paul Gong wrote in a Sept. 9 note.",
+      "In fact, even though Volkswagen AG is the largest shareholder in battery maker Gotion High-tech Co., CATL continues to increase its share of the German car giant’s business, according to Morgan Stanley analysts including Jack Lu.",
+      "“Several automakers have reported quality-related issues in the past, including recalls, warranty costs, and damage to brand equity, highlighting the significant opportunity cost of moving away from the industry leader,” they wrote in a report last week.",
+      "Investors have somewhat pared bearish bets against CATL, with short interest in its Hong Kong-listed shares down to 19.2% of the free float, compared with 21% in July, according to data from S3 Partners.",
+      "Despite confidence in its technology leadership, CATL is facing a domestic market struggling with weak auto demand. Overseas EV sales have been strong, but momentum is clouded by geopolitical and trade uncertainties.",
+      "“Continued pressure on vehicle sales could weigh on CATL’s demand outlook and raise questions around capacity utilization, making some of the market’s concerns understandable,” said Gareth Pan, senior investment manager at Pictet Asset Management. “While near-term uncertainty is likely to persist, the risk-reward profile may be becoming more balanced at current levels.”",
+      "For bulls, the recent slump offers a buying opportunity after a multi-year run higher as the artificial intelligence boom spurred a surge in energy-storage system demand at data centers.",
+      "Mainland-listed shares are cheaper now at about 12 times forward earnings estimates, less than half the five-year average. At the same time, prospects for shareholder returns have improved with the company launching its first-ever buyback this week.",
+      "“CATL is and will be the dominant player, not only as a battery maker but also an AI electrification infra-player,” said Wooho Rho, an analyst at Meritz Securities Co. “If you could invest in CATL for more than 10 years, there are few business risks, and still a good chance to buy it.”"
+     ],
+     "title_zh": "宁德时代多头无惧万亿市值蒸发后的去宁德化担忧",
+     "summary_zh": "宁德时代市值四个月蒸发千亿美元，股价较五月高点跌34%，但分析师仍维持47个买入评级，看好其技术护城河。"
     },
     {
      "title": "Fed's Hawkish Hike to Pressure Asian Currencies, Strategists Say",
@@ -250,7 +276,7 @@
      "summary_zh": "IMF称澳大利亚通胀风险偏上行，澳央行应准备必要时加息，并下调今年经济增长预期至1.9%。"
     },
     {
-     "title": "Huawei Set to Unveil China's Best Answer to Nvidia AI Chip Reign",
+     "title": "Huawei Accelerates Launch of New AI Chip to Take On Nvidia",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/huawei-set-to-unveil-china-s-best-answer-to-nvidia-ai-chip-reign",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/huawei-set-to-unveil-china-s-best-answer-to-nvidia-ai-chip-reign",
      "published_cst": "2026-09-16T23:00:00+08:00",
@@ -1748,7 +1774,7 @@
      "summary_zh": "欧盟提议加拿大成为首个准成员国，以应对美国关税冲击。土耳其股市因流动性担忧一度跌6%触发熔断。沙特绕过霍尔木兹海峡紧急售油2000万桶。美国拟向以色列提供数万枚炸弹。迈凯伦拟建英国新厂产首款SUV，创千岗投5亿英镑。嘉能可指控Radiant World伪造发票。"
     },
     {
-     "title": "Ex-Balyasny Trader Bets El Niño Can Turbocharge Hedge Fund Gains",
+     "title": "Ex-Balyasny Trader Bets El Niño Can Juice Hedge Fund Returns",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/ex-balyasny-trader-bets-el-nino-can-turbocharge-hedge-fund-gains",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/ex-balyasny-trader-bets-el-nino-can-turbocharge-hedge-fund-gains",
      "published_cst": "2026-09-16T16:00:00+08:00",
@@ -6378,7 +6404,7 @@
      "title_zh": "LVMH继承人亚历山大·阿尔诺加入耐克董事会"
     },
     {
-     "title": "US lawmakers pass sanctions bill to put pressure on Russia’s economy",
+     "title": "US passes bill targeting importers of Russian oil",
      "url": "https://www.ft.com/content/42ab32f0-8c22-4912-a928-c73552305b7e",
      "link": "https://www.ft.com/content/42ab32f0-8c22-4912-a928-c73552305b7e",
      "published_cst": "2026-09-16T22:52:13+08:00",
