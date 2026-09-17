@@ -1,6 +1,6 @@
 {
  "date": "20260911",
- "generated_at": "2026-09-17T08:16:03.580338+08:00",
+ "generated_at": "2026-09-17T09:02:59.975262+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -17,7 +17,18 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-11/jd-com-unit-agrees-to-pay-sec-500-000-over-sham-transactions",
      "published_cst": "2026-09-11T22:37:09+08:00",
      "time": "09-11 22:37",
-     "body": null
+     "body": [
+      "A unit of China’s online retailer JD.com Inc. agreed to pay $500,000 to settle US Securities and Exchange Commission claims it made a series of “sham transactions” to meet revenue targets for several quarters starting in October 2022.",
+      "Dada Nexus Ltd., an on-demand retail and delivery platform headquartered in Shanghai, allegedly faked certain online advertising and marketing transactions from October 2022 through September 2023 that overstated net revenue and operation and support costs by more than $160 million, the SEC said in a cease-and-desist order Friday.",
+      "Representatives of the firm, which agreed to pay the penalty without admitting to the SEC’s claims, did not immediately respond to an after-hours request for comment.",
+      "Dada in January 2024 disclosed it was investigating “suspicious practices” that could cast doubt on revenues from the company’s online advertising and marketing services for the first three quarters of 2023. The company at the time estimated that millions in revenue could have been overstated. Dada’s shares cratered on the news.",
+      "Read More: JD.com Unit Dives 46% After Disclosing ‘Suspicious’ Revenue",
+      "The deals involved almost identical payments and disbursements of funds that lacked substance or weren’t supported by business records, the SEC said Friday. The transactions helped Dada overstate net revenue by 8% and 9% in the the second and third quarters of fiscal year 2023, the SEC said.",
+      "JD.com took Dada Nexus private in June 2025, when it became a wholly owned subsidiary of the company.",
+      "The SEC cited the company’s cooperation with agency investigators and its steps to fix internal problems in the agency’s assessment of how to arrive at the settlement."
+     ],
+     "title_zh": "京东子公司因虚假交易向美国证交会支付50万美元",
+     "summary_zh": "京东旗下达达因虚增收入逾1.6亿美元，同意向美国SEC支付50万美元和解。"
     },
     {
      "title": "Andrew Garfield's New Movie 'The Uprising' Speaks to Current UK Politics",
@@ -25,7 +36,22 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-11/andrew-garfield-s-new-movie-the-uprising-speaks-to-current-uk-politics",
      "published_cst": "2026-09-11T09:00:06+08:00",
      "time": "09-11 09:00",
-     "body": null
+     "body": [
+      "Margaret Thatcher’s fall began with a poll tax. Technically known as a community charge, it shifted the structure of local taxation away from the value of property (paid by the occupier, not necessarily the owner) to a flat tax paid by every adult resident. The change went into effect in 1990, and protests of tens of thousands in Trafalgar Square devolved into riots. After consultation with Queen Elizabeth II, Thatcher resigned that November and left No. 10 Downing St. with tears in her eyes, a scene you might remember Meryl Streep playing in the 2011 biopic The Iron Lady. Her successor, John Major, abolished the poll tax in 1991 and eked out a win in the 1992 general election, but the Tories’ days were numbered. Tony Blair became the leader of what he called the New Labour Party in 1994, and perhaps it was no coincidence that one of the next summer’s biggest movies told a story of revolt from below against the crown: Braveheart.",
+      "Directed by an Australian, Braveheart was exceptional in many ways, chief among them its lack of deference to the monarchy and Britain’s landowning class, the typical posture of English and Hollywood filmmakers across the decades. William Wallace was a knight and a member of the lesser nobility, but Mel Gibson presented him onscreen as a hardscrabble rebel sprung from the lochs of the Scottish Highlands. It was an outburst of a film and can now be understood as a cultural hinge point between the post-Thatcher recession and the Cool Britannia of Britpop, the Spice Girls and Trainspotting.",
+      "Soon enough, though, cinematic deference toward Britain’s crown and class system reverted to type. The manic midcentury eloquence of monarchs played by Katharine Hepburn, Peter O’Toole (twice) and Richard Burton was later echoed by the kings of Colin Firth and Timothée Chalamet and the queens of Cate Blanchett and Helen Mirren. All of them had their problems, but none of them was dethroned.",
+      "Britain’s monarchy may now be largely ceremonial, but its class system is as operative as ever. A signal feature of upstairs-downstairs dramas such as Downton Abbey is, as the late Gary Indiana put it in a column for Vice, the “conviction that we can learn something important by watching members of two classes, poles apart economically but symbiotically dependent on each other, prepare food, eat it and bring the greatest number of melodramatic conflicts to the most absurd conclusion possible before the next meal is served.”",
+      "One thing we learn is that class mobility is a myth; everyone has their place. This is true even when, as in The Remains of the Day, your lord and master turns out to be a Nazi traitor: When he moves out, so does the help. Comedies including Gosford Park and The Favourite might be less reverent toward the monarchy and the establishment, but they don’t involve anything being overthrown.",
+      "In a twist, after almost 30 years of swelling strings and stiff upper lips, we once again have a movie, The Uprising, directed by Paul Greengrass, that pits the governed against their governors. Andrew Garfield stars as a compatriot of Wat Tyler (Cosmo Jarvis), the humble but courageous artisan who led the 1381 Peasants’ Revolt that saw a horde of rebels—most of them serfs—march on London. Much like Braveheart, the film appears after a decade of popular discontent in the UK, one that arguably began with the Brexit referendum in the summer of 2016 and has felled one prime minister after another.",
+      "Like the backlash that brought down Thatcher, the 1381 rebellion was also triggered by a poll tax. Every person, rich or poor, was required to pay. It’s said that Tyler, who got his surname from his roofing profession, became indignant when a poll tax collector pulled up his daughter’s skirt to detect whether she’d undergone puberty. Tyler—sources vary on his first name (Walter or John), his year of birth (1320 or 1341) and whether he was a veteran of the Hundred Years’ War—murdered the tax man, and the uprising kicked off. That story may be apocryphal, but historians agree that the revolt began with an attack on a poll tax commissioner named John Bampton in Essex, where Tyler lived and from where he set off to collect recruits of his own in Kent.",
+      "Tyler was known for imposing restraint on the rebellion, preventing his rustic troops from engaging in mass killings and excessive pillaging. They weren’t going to kill the king (Richard II, then only a teenager), but they wanted to appeal to someone above the landlords who were holding them down. Tyler’s horde arrived in London on Thursday, June 13, the Feast of Corpus Christi. They entered the fortress city the next day, liberated prisons and sacked John of Gaunt’s Savoy Palace. Thousands of Londoners joined their side.",
+      "Richard met them twice, first at Mile End, then at Smithfield. According to historian David Carpenter, Tyler “failed to doff his cap, instead taking the king’s arm and shaking it roughly in greeting. He then refused with a great oath to dismiss his men and promised that within a fortnight there would be forty thousand of them.” William Walworth, the Lord Mayor of London, knocked Tyler from his horse, and one of the king’s knights impaled him. His head was put on a stake. The charismatic teenage king made some promises to the rebels, and they went home. In the months that followed, he arrested and beheaded the rest of the uprising’s leaders. But the poll tax was abolished.",
+      "That Greengrass is telling this story now is a mark of the political upheaval Britain has experienced in the past decade. The string of four Conservative prime ministers that came after David Cameron was deeply unpopular; the Tories were finally unseated by Sir Keir Starmer and the Labour Party in 2024. Starmer himself was ousted in June and replaced at No. 10 by Manchester Mayor Andy Burnham, a veteran of Blair’s New Labour who’s recast himself as a populist, at least rhetorically.",
+      "Greengrass, in other words, seems to be responding to the zeitgeist, though some of his past work has displayed similar populist sympathies. He came to prominence with the 2002 Sundance Film Festival winner Bloody Sunday, about the day in 1972 when British soldiers shot dead 13 unarmed civilians in Derry, Northern Ireland. He brought his faux-documentary style to The Bourne Supremacy, The Bourne Ultimatum and Jason Bourne, sequels that presented a more thoroughly paranoid vision of state power than the original, The Bourne Identity, directed by Doug Liman.",
+      "Taken together, the Bourne films were a long parable for an era of black sites and enhanced interrogation techniques. Whether The Uprising comes at a moment of rising or falling popular discontent remains to be seen. When it comes to rebellion, it’s all fun and games until somebody gets his head cut off."
+     ],
+     "title_zh": "安德鲁·加菲尔德新片《起义》呼应英国当前政治",
+     "summary_zh": "撒切尔因1990年人头税引发骚乱而辞职，约翰·梅杰1991年废除该税，但保守党最终在1997年大选败给托尼·布莱尔的新工党。"
     }
    ]
   },
@@ -42,7 +68,8 @@
      "link": "https://www.wsj.com/buyside/personal-finance/mortgage/mortgage-rates-today-9-11-2026",
      "published_cst": "2026-09-11T13:03:00+08:00",
      "time": "09-11 13:03",
-     "body": null
+     "body": null,
+     "title_zh": "今日房贷利率2026年9月11日：30年期利率维持6.85%不变"
     },
     {
      "title": "Today’s CD Rates for September 11, 2026: Highest APYs Range From 4.14% to 4.60%",
@@ -50,7 +77,8 @@
      "link": "https://www.wsj.com/buyside/personal-finance/banking/cd-rates-today-9-11-2026",
      "published_cst": "2026-09-11T09:00:00+08:00",
      "time": "09-11 09:00",
-     "body": null
+     "body": null,
+     "title_zh": "今日9月11日定期存单利率：最高年收益率4.14%至4.60%"
     },
     {
      "title": "Today's High-Yield Savings Rates for September 11, 2026: Up to 4.50%",
@@ -58,7 +86,8 @@
      "link": "https://www.wsj.com/buyside/personal-finance/banking/high-yield-savings-rates-today-9-11-2026",
      "published_cst": "2026-09-11T09:00:00+08:00",
      "time": "09-11 09:00",
-     "body": null
+     "body": null,
+     "title_zh": "今日高收益储蓄利率2026年9月11日：高达4.50%"
     }
    ]
   }

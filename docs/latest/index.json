@@ -1,16 +1,71 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-17T08:16:32.752392+08:00",
+ "generated_at": "2026-09-17T09:15:39.416592+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 3,
+   "count": 5,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "Taiwan Poised for Hawkish Hold After Headline Inflation Slowed",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/taiwan-poised-for-hawkish-hold-after-headline-inflation-slowed",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/taiwan-poised-for-hawkish-hold-after-headline-inflation-slowed",
+     "published_cst": "2026-09-17T00:31:34+08:00",
+     "time": "09-17 00:31",
+     "body": [
+      "Taiwan is expected to hold its benchmark rate for the 10th straight quarter, the longest stretch since 2019, as consumer inflation slows even with the economy soaring on AI.",
+      "Some 21 of 28 economists surveyed by Bloomberg expect the Central Bank of Republic of China, as the monetary authority is officially known, to hold the interest rate at 2% when it convenes its quarterly meeting on Thursday.",
+      "The seven who predict the central bank soon join the US Federal Reserve and others in the region in tightening foresee a hike of 12.5 basis points.",
+      "While Taiwan’s economy has been skyrocketing — it clocked the fastest first-half growth since 1976 on demand for its high-end tech exports like semiconductors — the consumer price index for August was well short of expectations. Power costs in Taiwan have been held in check somewhat because the government has been giving state-owned energy firms subsidies to offset rising costs due to the fighting in the Middle East.",
+      "“Softer inflation has given policymakers more room to wait, with headline CPI easing toward the CBC’s 2% alert line as food prices moderated,” Hyosung Kwon, Korea and Taiwan economist for Bloomberg Economics, wrote. Local elections set for November “also argue for patience, as the CBC is likely to avoid any move that could appear politically motivated.”",
+      "Kwon added that Taiwan was expected “to begin a gradual tightening cycle in December” because “core inflation remains sticky, while the AI boom is increasingly spilling over from exports into investment, wages and domestic demand.”",
+      "Core CPI rose 2.30% in August, while the producer price index surged more than 16.7%, near the highest level in data going back to 2021.",
+      "The US Federal Reserve may have given Taiwan another reason to boost its policy rate. A quarter percentage point hike by the Fed on Wednesday — the first since 2023 — could spur the CBC to do the same eventually because any widening of the rate gap with the US spurs capital outflows.",
+      "Lenders in Taiwan will welcome a hold by the central bank. Liquidity in the banking system has been tight this summer and a lower rate would allow them cheap access to funding."
+     ],
+     "title_zh": "台湾通胀放缓后料维持鹰派立场",
+     "summary_zh": "台湾央行预计连续10季维持利率2%，因通胀放缓，尽管AI推动经济飙升。"
+    },
+    {
+     "title": "Trump Denied Rate Cut as Federal Reserve Targets War-Stoked Inflation",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/trump-denied-rate-cut-as-federal-reserve-targets-war-stoked-inflation",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/trump-denied-rate-cut-as-federal-reserve-targets-war-stoked-inflation",
+     "published_cst": "2026-09-17T00:30:02+08:00",
+     "time": "09-17 00:30",
+     "body": [
+      "A year ago, when Kevin Warsh was angling to lead the Federal Reserve, he called out the central bank for keeping interest rates too high and touted a technological revolution that would spur growth without driving inflation.",
+      "The sunny outlook drew comparisons with the 1990s boom overseen by then Fed Chairman Alan Greenspan and helped convince President Donald Trump, who has lashed out at policymakers for not cutting rates, to pick Warsh to run the world’s most important central bank.",
+      "Now, less than four months after being sworn in as Fed chairman in May, Warsh has defied skeptics with a unanimous decision to deliver the Fed’s first interest-rate hike in over three years.",
+      "That’s as war, tariffs and booming investment into artificial intelligence have stoked inflation and shredded expectations of an easy path to lower borrowing costs.",
+      "Trump responded on social media hours after officials raised their policy rate to 3.75%-4%, demanding that rates be quickly cut to 1% or lower. In comments to reporters later, Trump blamed a “very hostile board” and stopped short of criticizing Warsh — a marked difference from the repeated attacks on his predecessor Jerome Powell.",
+      "Bond investors had a different reaction than the US president, welcoming the move as a sign the Fed remains independent and committed to fighting inflation. Traders quickly priced in additional rate increases from Warsh and his colleagues and pushed down their expectations for inflation in coming years.",
+      "Yields on two-year Treasuries, the maturity most sensitive to Fed expectations, climbed to 4.74%, the highest since 2024. Longer-term Treasuries, which are more vulnerable to inflation, trailed the move — an indication investors’ anticipate the Fed will keep on top of price pressures. Long-term inflation expectations receded and US stocks fell.",
+      "“The market is taking this as a much more credible Fed chair,” Jeffrey Rosenberg, a senior portfolio manager at BlackRock, said on Bloomberg Television.",
+      "Warsh framed the decision to hike with a delicate dual message of an economy that continues to speed up while inflation remains too high. There was also a clear signal that inflation hits lower-income workers hardest.",
+      "Analysts said that was aimed at two audiences: investors seeking assurance that the Fed is serious about curbing inflation and a White House nervous about rising interest rates ahead of crucial elections. In a February interview with NBC, Trump said Warsh “would not have gotten the job” if he had indicated support for higher rates.",
+      "While Warsh didn’t signal his preference for what comes next on Wednesday, he made it clear there’s more work to do. “The plain fact is that inflation is too high and has been for too long,” Warsh told reporters.",
+      "Stress tests are still ahead. The Fed’s next policy meeting in October falls just days before critical mid-term elections and analysts warn if inflation continues to simmer, policymakers may be forced to hike on the eve of the vote.",
+      "“I have a little more skepticism that we are seeing a Fed that is on a pathway to significantly higher rates to ensure a return to price stability,” said Lindsey Piegza, chief economist at Stifel Nicolaus & Co.",
+      "With inflation exceeding the Fed’s 2% target for over five years, traders had priced in more than a 90% probability of a hike at the September meeting. Whenever expectations for a rate increase have been that high, the Fed has invariably delivered one, according to Bloomberg-compiled data going back to 2008.",
+      "The decision capped months of twists and turns by Fed policymakers who had hoped they could hold rates steady and allow inflation more time to return toward their 2% goal.",
+      "A decision to leave rates unchanged in July, followed by a press conference by the Fed chairman that investors found unconvincing, sent bond yields soaring.",
+      "Warsh — who had a reputation as an inflation hawk when he served as a Fed governor from 2006 to 2011 — then reaffirmed his commitment to returning inflation to target in a speech last month.",
+      "In the end, the tipping point came after price pressures in August accelerated more than expected.",
+      "Just weeks ahead of the decision to raise rates, key Fed officials had continued to argue that policymakers had time to wait, a dynamic that Olu Sonola, head of US economics at Fitch Ratings, likened to monetary policy whiplash.",
+      "“Patience has clearly not worked,” Sonola said.",
+      "In a new set of rate projections released Wednesday, Fed officials’ median outlook for interest rates at the end of 2026 rose to 4.1% from 3.8%, signaling growing support for a series of rate hikes.",
+      "Nearly all officials — 16 of the 18 who submitted forecasts — penciled in another rate hike this year. Investors see an almost-even chance that it comes before the midterm elections, risking Trump’s ire as Republicans fight to retain control of Congress.",
+      "Heather Long, chief economist at Navy Federal Credit Union, said persistent inflation ultimately left Warsh with little option.",
+      "“I don’t envy him,” she said. “But it’s almost easier to do it now than to do it when you’ve really got a problem in December.”"
+     ],
+     "title_zh": "特朗普降息请求遭拒 美联储聚焦战争引发的通胀",
+     "summary_zh": "沃什任美联储主席不到四个月即推动三年多来首次加息至3.75%-4%，特朗普要求降至1%以下，债市欢迎此举。"
+    },
     {
      "title": "Malaysia's Battered Bonds Face Growing Risk of Japan Fund Exodus",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/malaysia-s-battered-bonds-face-growing-risk-of-japan-fund-exodus",
@@ -138,18 +193,99 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 6,
+   "count": 14,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
     {
+     "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds",
+     "url": "https://www.reuters.com/world/google-should-appoint-antitrust-compliance-officer-us-judge-says-ad-tech-case-2026-09-16/",
+     "link": "https://www.reuters.com/world/google-should-appoint-antitrust-compliance-officer-us-judge-says-ad-tech-case-2026-09-16/",
+     "published_cst": "2026-09-17T00:45:46+08:00",
+     "time": "09-17 00:45",
+     "body": null,
+     "title_zh": "美国法官认定谷歌应放宽广告技术规则并任命反垄断监察员"
+    },
+    {
+     "title": "OpenAI to regularly disclose AI misbehavior, warns safety challenges remain",
+     "url": "https://www.reuters.com/technology/openai-releases-framework-track-model-misalignment-2026-09-16/",
+     "link": "https://www.reuters.com/technology/openai-releases-framework-track-model-misalignment-2026-09-16/",
+     "published_cst": "2026-09-17T00:43:10+08:00",
+     "time": "09-17 00:43",
+     "body": null,
+     "title_zh": "OpenAI将定期披露AI不当行为，警告安全挑战仍存"
+    },
+    {
+     "title": "Singapore's August exports surge by 46.2% yr/yr as AI boom powers demand",
+     "url": "https://www.reuters.com/world/asia-pacific/singapores-august-exports-surge-by-462-yryr-ai-boom-powers-demand-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/singapores-august-exports-surge-by-462-yryr-ai-boom-powers-demand-2026-09-17/",
+     "published_cst": "2026-09-17T00:34:55+08:00",
+     "time": "09-17 00:34",
+     "body": null,
+     "title_zh": "新加坡8月出口同比增长46.2%，AI热潮推动需求"
+    },
+    {
      "title": "US House advances first bill addressing economic impact of data center boom",
      "url": "https://www.reuters.com/world/us-house-advances-first-bill-addressing-economic-impacts-data-center-boom-2026-09-16/",
      "link": "https://www.reuters.com/world/us-house-advances-first-bill-addressing-economic-impacts-data-center-boom-2026-09-16/",
-     "published_cst": "2026-09-17T00:09:03+08:00",
-     "time": "09-17 00:09",
+     "published_cst": "2026-09-17T00:30:25+08:00",
+     "time": "09-17 00:30",
      "body": null,
      "title_zh": "美国众议院推进首项应对数据中心热潮经济影响的法案"
+    },
+    {
+     "title": "Australia to bar foreign students from bringing partners, children while they study",
+     "url": "https://www.reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/",
+     "link": "https://www.reuters.com/business/media-telecom/australia-bar-foreign-students-bringing-partners-children-while-they-study-2026-09-17/",
+     "published_cst": "2026-09-17T00:22:07+08:00",
+     "time": "09-17 00:22",
+     "body": null,
+     "title_zh": "澳大利亚将禁止外国留学生在学习期间携带伴侣和子女"
+    },
+    {
+     "title": "Ghana Gas to decide on $500 million gas pipeline early next year, CEO says",
+     "url": "https://www.reuters.com/business/energy/ghana-gas-decide-500-million-gas-pipeline-early-next-year-ceo-says-2026-09-16/",
+     "link": "https://www.reuters.com/business/energy/ghana-gas-decide-500-million-gas-pipeline-early-next-year-ceo-says-2026-09-16/",
+     "published_cst": "2026-09-17T00:18:57+08:00",
+     "time": "09-17 00:18",
+     "body": null,
+     "title_zh": "加纳天然气公司将于明年初决定5亿美元天然气管道项目，CEO称"
+    },
+    {
+     "title": "Petrobras raises diesel price, offsets increase with new Brazil subsidy",
+     "url": "https://www.reuters.com/business/energy/petrobras-raises-diesel-price-offsets-increase-with-new-brazil-subsidy-2026-09-17/",
+     "link": "https://www.reuters.com/business/energy/petrobras-raises-diesel-price-offsets-increase-with-new-brazil-subsidy-2026-09-17/",
+     "published_cst": "2026-09-17T00:18:09+08:00",
+     "time": "09-17 00:18",
+     "body": null,
+     "title_zh": "巴西石油公司上调柴油价格，通过新补贴抵消涨幅"
+    },
+    {
+     "title": "Russia strikes Ukraine's Kyiv, injures three in Odesa, officials say",
+     "url": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
+     "link": "https://www.reuters.com/world/europe/russia-strikes-ukraines-kyiv-injures-three-odesa-officials-say-2026-09-17/",
+     "published_cst": "2026-09-17T00:17:59+08:00",
+     "time": "09-17 00:17",
+     "body": null,
+     "title_zh": "俄罗斯袭击乌克兰基辅，敖德萨三人受伤，官员称"
+    },
+    {
+     "title": "Netanyahu steps up threats against directors of Gaza documentary 'NAZA'",
+     "url": "https://www.reuters.com/world/middle-east/netanyahu-steps-up-threats-against-directors-gaza-documentary-naza-2026-09-16/",
+     "link": "https://www.reuters.com/world/middle-east/netanyahu-steps-up-threats-against-directors-gaza-documentary-naza-2026-09-16/",
+     "published_cst": "2026-09-17T00:17:34+08:00",
+     "time": "09-17 00:17",
+     "body": null,
+     "title_zh": "内塔尼亚胡加大对加沙纪录片《NAZA》导演的威胁"
+    },
+    {
+     "title": "New Zealand's GDP growth slows but tops forecasts in sign of resilience",
+     "url": "https://www.reuters.com/world/asia-pacific/new-zealands-economy-grows-02-q2-2026-09-16/",
+     "link": "https://www.reuters.com/world/asia-pacific/new-zealands-economy-grows-02-q2-2026-09-16/",
+     "published_cst": "2026-09-17T00:11:49+08:00",
+     "time": "09-17 00:11",
+     "body": null,
+     "title_zh": "新西兰GDP增长放缓但超预期 显韧性"
     },
     {
      "title": "House passes Russia sanctions bill championed by Graham, sending it to Trump",
@@ -170,15 +306,6 @@
      "title_zh": "日本高市在内阁改组中料将释放政策连续性信号"
     },
     {
-     "title": "Ghana Gas to decide on $500 million gas pipeline early next year, CEO says",
-     "url": "https://www.reuters.com/business/energy/ghana-gas-decide-500-million-gas-pipeline-early-next-year-ceo-says-2026-09-16/",
-     "link": "https://www.reuters.com/business/energy/ghana-gas-decide-500-million-gas-pipeline-early-next-year-ceo-says-2026-09-16/",
-     "published_cst": "2026-09-17T00:06:06+08:00",
-     "time": "09-17 00:06",
-     "body": null,
-     "title_zh": "加纳天然气公司将于明年初决定5亿美元天然气管道项目，CEO称"
-    },
-    {
      "title": "US extends visa sanctions on Palestinian Authority officials, PLO members",
      "url": "https://www.reuters.com/world/middle-east/us-extends-visa-sanctions-palestinian-authority-officials-plo-members-2026-09-17/",
      "link": "https://www.reuters.com/world/middle-east/us-extends-visa-sanctions-palestinian-authority-officials-plo-members-2026-09-17/",
@@ -195,6 +322,33 @@
      "time": "09-17 00:05",
      "body": null,
      "title_zh": "美国众议院通过首个应对数据中心热潮经济影响的法案"
+    }
+   ]
+  },
+  "ft": {
+   "name": "Financial Times",
+   "home": "https://www.ft.com",
+   "count": 2,
+   "body_support": false,
+   "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
+   "items": [
+    {
+     "title": "Donald Trump suggests EU-Canada associate member deal would be ‘hostile act’",
+     "url": "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3",
+     "link": "https://www.ft.com/content/7b0f8f90-b3ad-4640-916a-f8b5495920a3",
+     "published_cst": "2026-09-17T00:30:30+08:00",
+     "time": "09-17 00:30",
+     "body": null,
+     "title_zh": "特朗普称加拿大申请欧盟“准成员国”是“敌对行为”"
+    },
+    {
+     "title": "Ed Sheeran’s support acts pull out in wake of Gaza protest",
+     "url": "https://www.ft.com/content/cfb69a08-902f-4311-a6ef-b506aaac1ec1",
+     "link": "https://www.ft.com/content/cfb69a08-902f-4311-a6ef-b506aaac1ec1",
+     "published_cst": "2026-09-17T00:30:09+08:00",
+     "time": "09-17 00:30",
+     "body": null,
+     "title_zh": "艾德·希兰演出嘉宾因加沙抗议退出"
     }
    ]
   }

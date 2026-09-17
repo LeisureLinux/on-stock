@@ -1,6 +1,6 @@
 {
  "date": "20260914",
- "generated_at": "2026-09-17T08:16:03.557565+08:00",
+ "generated_at": "2026-09-17T09:03:22.688926+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -2055,26 +2055,6 @@
      "summary_zh": "英国油气行业游说组织称，若将新财政制度提前至明年实施，未来十年可多征150亿英镑税收，其中24亿来自油气行业，126亿来自薪资税。"
     },
     {
-     "title": "Samsung Faces Local Hedge Fund's Push to Cancel Preferred Shares",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-faces-local-hedge-fund-s-push-to-cancel-preferred-shares",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-faces-local-hedge-fund-s-push-to-cancel-preferred-shares",
-     "published_cst": "2026-09-14T23:00:00+08:00",
-     "time": "09-14 23:00",
-     "body": [
-      "A South Korean hedge fund is urging Samsung Electronics Co. to buy back and cancel preferred shares, becoming one of the first shareholders to directly press for the step in hopes of boosting valuation.",
-      "In a letter to Samsung’s board and management this week, Life Asset Management called on the Korean tech giant to repurchase and cancel the shares until their price gap with common stock is erased, according to the fund’s statement. Life Asset, which didn’t disclose its Samsung stake, asked the board to review the plan during an October meeting and cancel the shares by December.",
-      "Life Asset’s call hints at more shareholder pressure coming Samsung’s way after the chipmaker recently laid out plans to return as much as 110 trillion won ($81.7 billion) to investors this year to share an AI windfall. While Samsung hasn’t fully disclosed details, company watchers have emphasized buying back preferred shares, given their steep discount to common stock.",
-      "Samsung’s preferred shares rose as much as 3.3% on Tuesday, the most in nearly a week, while the common stock gained 1%.",
-      "The Seoul-based hedge fund said as much as 73 trillion won of the shareholder return package, after special and regular dividends, should be allocated for the equity buyback.",
-      "Its preferred shares now trade at more than a 25% discount to common stock. Market watchers expect Samsung to allocate a significant portion of the buyback to preferred shares given the move will be more cost efficient.",
-      "Samsung is now in position to cancel 1.36 preferred shares for the same capital needed to cancel one common share, according to Life Asset. The fund oversees $4 billion in assets, according to its website.",
-      "Steering the buyback away from common shares would also help Samsung sidestep a rule that could force its affiliates to sell down its holdings. A Korean law bans financial affiliates from holding more than 10% of voting common stock.",
-      "Read: Samsung Buyback Highlights Korea’s 45% Preferred Stock Discount"
-     ],
-     "title_zh": "三星面临本土对冲基金施压要求取消优先股",
-     "summary_zh": "韩国对冲基金敦促三星回购并注销优先股以缩小与普通股折价，优先股一度涨3.3%。"
-    },
-    {
      "title": "Junk Debt From Asia Is Beating Bonds Almost Everywhere in 2026",
      "url": "https://www.bloomberg.com/news/articles/2026-09-14/asian-junk-debt-is-beating-returns-on-bonds-almost-everywhere",
      "link": "https://www.bloomberg.com/news/articles/2026-09-14/asian-junk-debt-is-beating-returns-on-bonds-almost-everywhere",
@@ -2098,6 +2078,26 @@
      ],
      "title_zh": "亚洲垃圾债2026年表现几乎超越全球所有债券",
      "summary_zh": "亚洲高收益债今年回报4.3%，超美债1.8%，中国低借贷成本与经济增长降低违约。"
+    },
+    {
+     "title": "Samsung Faces Local Hedge Fund's Push to Cancel Preferred Shares",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-faces-local-hedge-fund-s-push-to-cancel-preferred-shares",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-14/samsung-faces-local-hedge-fund-s-push-to-cancel-preferred-shares",
+     "published_cst": "2026-09-14T23:00:00+08:00",
+     "time": "09-14 23:00",
+     "body": [
+      "A South Korean hedge fund is urging Samsung Electronics Co. to buy back and cancel preferred shares, becoming one of the first shareholders to directly press for the step in hopes of boosting valuation.",
+      "In a letter to Samsung’s board and management this week, Life Asset Management called on the Korean tech giant to repurchase and cancel the shares until their price gap with common stock is erased, according to the fund’s statement. Life Asset, which didn’t disclose its Samsung stake, asked the board to review the plan during an October meeting and cancel the shares by December.",
+      "Life Asset’s call hints at more shareholder pressure coming Samsung’s way after the chipmaker recently laid out plans to return as much as 110 trillion won ($81.7 billion) to investors this year to share an AI windfall. While Samsung hasn’t fully disclosed details, company watchers have emphasized buying back preferred shares, given their steep discount to common stock.",
+      "Samsung’s preferred shares rose as much as 3.3% on Tuesday, the most in nearly a week, while the common stock gained 1%.",
+      "The Seoul-based hedge fund said as much as 73 trillion won of the shareholder return package, after special and regular dividends, should be allocated for the equity buyback.",
+      "Its preferred shares now trade at more than a 25% discount to common stock. Market watchers expect Samsung to allocate a significant portion of the buyback to preferred shares given the move will be more cost efficient.",
+      "Samsung is now in position to cancel 1.36 preferred shares for the same capital needed to cancel one common share, according to Life Asset. The fund oversees $4 billion in assets, according to its website.",
+      "Steering the buyback away from common shares would also help Samsung sidestep a rule that could force its affiliates to sell down its holdings. A Korean law bans financial affiliates from holding more than 10% of voting common stock.",
+      "Read: Samsung Buyback Highlights Korea’s 45% Preferred Stock Discount"
+     ],
+     "title_zh": "三星面临本土对冲基金施压要求取消优先股",
+     "summary_zh": "韩国对冲基金敦促三星回购并注销优先股以缩小与普通股折价，优先股一度涨3.3%。"
     },
     {
      "title": "Yuan Popularity Boost Likely Focus of Hong Kong's Five-Year Plan",
@@ -6395,7 +6395,19 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-14/australia-s-ailing-whyalla-steelworks-to-shut-furnace-cut-jobs",
      "published_cst": "2026-09-14T07:20:20+08:00",
      "time": "09-14 07:20",
-     "body": null
+     "body": [
+      "Australia’s Whyalla steelworks will shut its 60-year-old blast furnace and halt steelmaking, with the potential loss of as many as 600 jobs as administrators look for a new owner for the troubled operation.",
+      "KordaMentha, the administrator of the beleaguered South Australian site, said in a statement Monday that a months-long effort to restore the aging plant had failed. The steelmaking function and parts of the pellet plant will close, with 500 employees and 100 contract workers to be affected, it said.",
+      "“This is a difficult decision, but it is a necessary one as the company transitions to modern steelmaking technologies,” joint administrator Sebastian Hams said in the statement. “The blast furnace and the current basic oxygen furnace were always intended to be replaced.”",
+      "Whyalla was forced into administration in February 2025 after tycoon Sanjeev Gupta’s GFG Alliance failed to pay state royalties, with the government saying the group’s deteriorating financial position was jeopardizing operations at the steelworks. The Whyalla port and iron ore mine will continue to operate, the administrators said on Monday.",
+      "The federal and South Australian state governments announced a joint A$10 million ($7.1 million) support package for workers affected by the furnace shutdown. In a statement, they said years of under-investment by the previous owner has left the furnace “beyond repair.”",
+      "The sale process for Whyalla, meanwhile, has narrowed to two final bidders — Matt Latimore’s M Resources and India’s Jindal Group. The right to a final offer on the sale remains with BlueScope Steel Ltd.",
+      "A spokesperson for M Resources said that, if selected, it intended to build a low emissions electric arc furnace at the site and ensure the steelworks remain active by importing semi-finished blooms to make steel products. Jindal did not immediately respond when contacted.",
+      "“Ideally we would have been in a position where we would have been able to announce the sale at the same time as this resizing of the steelworks — unfortunately we’re not quite there yet,” Hams said at a media briefing.",
+      "The closure drew criticism from the federal opposition. “This is a brutal blow for 500 Aussie workers,” said Andrew Hastie, shadow minister for industry and sovereign capability. He said the shutdown amounted to the loss of 75% of Australia’s structural steelmaking capacity."
+     ],
+     "title_zh": "澳大利亚陷入困境的怀阿拉钢铁厂将关闭高炉",
+     "summary_zh": "澳大利亚怀阿拉钢厂将关停60年高炉并停止炼钢，或致多达600人失业，政府提供1000万澳元支持。"
     },
     {
      "title": "ICBC, HSBC Among Major Lenders on $30 Billion ByteDance Loan",

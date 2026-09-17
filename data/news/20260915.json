@@ -1,6 +1,6 @@
 {
  "date": "20260915",
- "generated_at": "2026-09-17T08:16:03.531612+08:00",
+ "generated_at": "2026-09-17T09:04:00.925641+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -43,7 +43,22 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/germany-leads-last-minute-push-to-avoid-eu-carbon-market-glut",
      "published_cst": "2026-09-15T23:47:30+08:00",
      "time": "09-15 23:47",
-     "body": null
+     "body": [
+      "Germany is seeking to reduce the risk of a glut of permits in the European Union carbon market and scale down supply-control concessions the bloc’s executive offered to allay industry concerns over excessive price swings.",
+      "In a last-minute push during EU talks on a revised carbon market reserve, Germany proposed changes to ensure that the bloc can “effectively and quickly” avert the threat of surplus allowances that could drive down emission prices. Its amendments include strengthened parameters for withdrawing excess carbon permits from the market, according to a document shared with member states on Tuesday and seen by Bloomberg.",
+      "The German plan is endorsed by a group of nations supporting ambitious climate policy and opposed by countries wary of a sharp increase in carbon prices in the longer term, such as Poland, according to people with knowledge of the talks, who asked not to be named because the discussions are private. The division underscores the challenge for the EU to reconcile its climate-neutrality goal with the need to avert placing an excessive burden on industry during the energy transition.",
+      "The revision of the carbon permit control-supply mechanism, known as the Market Stability Reserve, was originally put forward by the European Commission in April, after EU leaders called on the bloc’s executive to take steps to reduce energy costs that were already stubbornly high before the Iran war disrupted oil and gas shipments. The proposal was to make the MSR more flexible by scrapping invalidation of permits that it absorbs from the market and keeping them usable for potential future interventions.",
+      "The goal was to reach a fast deal on the adjustment to calm the market and then discuss potential further changes during a broader reform of the EU Emissions Trading System that the commission unveiled in July.",
+      "The spat over the German proposal means that talks on the reserve are likely to last longer than planned by Ireland, which currently presides over EU member states meetings and was aiming for an accord on Wednesday. Only after the governments reach their joint position, will they start negotiations with the European Parliament on the final shape of the regulation.",
+      "“It seems that some countries are keen to make sure the MSR is a carbon allowances black hole big enough to suck in our industries,” said Krzysztof Bolesta, Poland’s deputy climate minister.",
+      "Read More: EU Countries Plan to Seek More Free Carbon Permits for Industry",
+      "“We look forward to hearing the views of member states on the MSR proposal, which may likely require further consideration,” said a spokesperson for the Irish presidency. “This is a time-sensitive file and European leaders have called for its swift adoption. The Presidency will continue to work for timely agreement.”",
+      "The MSR became a key feature of the ETS in 2019, when it began absorbing surplus permits from the market once a certain threshold of allowances in circulation was reached. The legislation currently in force invalidates any allowances held in the reserve above a threshold of 400 million on Jan. 1 each year, a provision that the commission sought to repel to build a bigger buffer of permits that could be used to stabilize the market.",
+      "In a draft compromise for member states earlier this month, the Irish presidency proposed introducing safeguards to avert too big a surplus of permits in the reserve. Its plan would let the excess allowances sit in the MSR until the end of 2030. From then on, the reserve could keep up to 800 million allowances, with the level to be potentially reduced during the post-2030 reform of the ETS that the EU is negotiating in a separate process.",
+      "The German proposal goes further, calling for an annual 4% reduction of the threshold starting in 2028, in line with the declining emissions cap. The country also wants to maintain the rate at which the MSR absorbs allowances at 24%, and to reduce the level triggering the withdrawal of surplus permits from circulation. It should be set at 650 million compared with the current 833 million, according to the document."
+     ],
+     "title_zh": "德国牵头最后努力避免欧盟碳市场过剩",
+     "summary_zh": "德国提议收紧欧盟碳市场供给控制，以防配额过剩压低碳价，但遭波兰等国反对，谈判或延长。"
     },
     {
      "title": "Nvidia CEO Set to Attend Trump Dinner With Chinese President",
@@ -134,7 +149,28 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/carry-traders-eye-franc-and-krona-as-yen-s-funding-appeal-ebbs",
      "published_cst": "2026-09-15T23:00:00+08:00",
      "time": "09-15 23:00",
-     "body": null
+     "body": [
+      "Currencies such as the Swedish krona and Swiss franc are emerging as prime candidates to finance carry trades as the yen’s recent surge makes it a less reliable bet than in the past.",
+      "Russell Investments Ltd., and Allianz Global Investors favor the franc, citing a widening monetary-policy divergence between Switzerland and Japan, while JPMorgan Chase & Co strategists recommend the Swedish krona and the Canadian dollar as attractive options.",
+      "All those are vying to replace the yen in carry trades, where investors borrow in low-yielding currencies to buy higher-yield assets. For decades, the yen was traders’ currency of choice to sell but now its appeal is fading as Japan’s bond yields rise and joint US-Japanese intervention to support it underscored a preference for higher Japanese interest rates and a stronger yen.",
+      "“Investors still want to be engaged in the carry trade, but the funding leg is the interesting question,” Van Luu, global head of FI and FX solutions strategy at Russell Investments.",
+      "He said that by intervening twice this year to support the yen and preparing investors for higher interest rates, Japan has effectively signaled it wants a stronger yen. Switzerland, in contrast, is set to keep rates at zero until end-2027, and appears content to let the franc slide to support its exporters.",
+      "“If people migrate their funding currency from the yen to something else, then from a valuation perspective, from a monetary policy and exchange-rate policy perspective, the Swiss franc becomes the most appealing,” Luu added.",
+      "Returns show the attraction of yen-funded carry trades is waning. Selling yen to buy the Australian dollar, the highest-yielding Group-of-10 currency, would have generated a 1.3% loss since July, versus a 9% profit in the first half of this year. In contrast, anyone using the Swiss franc, would have reaped total gains of 14% in 2026.",
+      "Read: Bessent Dares Traders to Bet Against Yen: ‘I Am the House’",
+      "The yen has gained about 3% this month and rose by a similar amount in July after the intervention, while Japan’s two-year bond yields have more than doubled this year. The franc on the other hand has come under selling pressure, shedding more than 1% against the dollar and over 4% to the yen.",
+      "“Selling the franc and buying yen was very much a reflection of the longer-term shift in the use of funding currencies,” said Neil Jones, managing director, FX sales and trading at TJM London.",
+      "That trade may not be without risk. The yen still has much greater liquidity than most of its peers, and carry strategies work when currencies are stable — but the franc is among the world’s leading haven assets and tends to surge during periods of geopolitical stress.",
+      "Greg Hirt, chief investment officer of multi-asset strategies at AllianzGI, sees the franc as a viable “complement” to the yen but also highlights potential for volatility around next year’s Italian and French elections.",
+      "“The Swissie is very much a safe haven in terms of European risk,” he said. “If indeed, there is an issue in France, you’ll have a much stronger Swiss franc.”",
+      "Japan’s interventions have also upended another long-standing equation that’s key to carry-trade returns. For decades, the yen was the currency most sensitive to US interest-rates, weakening as two-year Treasury yields rose. Other currencies have taken its spot.",
+      "Meera Chandan, JPMorgan’s co-head of global FX strategy, says Swedish krona and the Canadian dollar are most vulnerable as global rates rise because of their low yields and sensitivity to the economic cycle. She recommends selling both versus the dollar, which is being supported by expectations the Federal Reserve may raise rates twice this year.",
+      "“If you compare them to the high yielders in developed markets like Australia and Norway, or in emerging markets, which are even more high yielding, there’s actually a pretty big yield deficit,” Chandan said, adding that the franc and the New Zealand dollar also fit her bill.",
+      "Read more: Swedish Markets Unfazed as Election Outcome Hangs in Balance",
+      "The Swedish krona is the worst performing Group-of-10 currency against the dollar and the euro this year. It has continued to weaken this week, with the final result of a tight presidential election still pending."
+     ],
+     "title_zh": "套利交易者关注法郎和克朗，日元融资吸引力减弱",
+     "summary_zh": "随着日元升值吸引力下降，瑞典克朗和瑞郎成为融资套利交易热门选择，瑞郎融资交易今年回报达14%。"
     },
     {
      "title": "ANZ CEO Matos Warns on AI, Data Centers, Treasury Yields: Australia Briefing",
@@ -167,7 +203,22 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/us-coast-guard-boards-oil-tanker-in-cyber-attack-investigation",
      "published_cst": "2026-09-15T22:50:41+08:00",
      "time": "09-15 22:50",
-     "body": null
+     "body": [
+      "The US is investigating potential cyberattacks on oil and gas tankers, as concerns grow around the threat to maritime safety posed by hackers interfering with vessels’ electronic systems.",
+      "Personnel from the US Coast Guard and the Federal Bureau of Investigation boarded an unnamed, foreign-flagged vessel on Aug. 21, following indications its network had been compromised by hackers, a Coast Guard spokesperson said in response to questions from Bloomberg News about the VL Prosperity supertanker.",
+      "The VL Prosperity is currently idling off the Texas coast after arriving in the area in late August, ship-tracking data shows. Iran’s semi-official Mehr News Agency reported late last month that the ship, which had picked up oil in Egypt, had its communications cut for 30 hours following a cyberattack in the Strait of Gibraltar.",
+      "The tanker has been cleared by the Coast Guard for normal operations, HMM Ocean Service, a South Korea-based company that acts as the safety and technical manager of the ship, said in an emailed response to questions. HMM Ocean Service has rigorous cyber protocols in place to ensure the safety and security of vessels under its care, the company said, adding that it’s awaiting a final investigation report from US authorities.",
+      "A second vessel, an unidentified liquefied natural gas carrier, was also inspected over a potential cyberattack, according to a Wall Street Journal report that cited an FBI statement. The second boarding occurred on Aug. 24, according to the newspaper.",
+      "The incidents come as global shipping comes under increasing strain due to wars and geopolitical rivalry, while vessel-owners look to digitize navigational and operating systems in order to optimize journeys and reduce costs. Ships nowadays face a myriad of security threats, including becoming collateral damage in conflict zones when militaries jam navigational systems in order to foil drone attacks.",
+      "“The attack surface for vessels is growing,” said Mark Douglas, an analyst at Starboard Maritime Intelligence, who is also a former New Zealand naval officer. “Vessels’ electronic control systems are increasingly connected to the internet in order to collect data on vessel operations.”",
+      "The improvement in ships’ navigational systems makes monitoring their movements and optimizing sailing speeds to save fuel or reduce idling times easier. Yet, it also makes them more vulnerable to hackers, who can infiltrate systems and dictate anything from a vessel’s ability to navigate to how secure its cargo is.",
+      "In April, the US Department of Transportation’s Maritime Administration issued an advisory urging shipowners and operators to adopt best practices to restrict access to these digital systems and reduce vulnerabilities. Last year, the International Maritime Organization, a United Nations agency, issued guidelines on how to manage cyber risks.",
+      "Experts boarded the VL Prosperity to “conduct a comprehensive cyber security boarding and investigation,” a Coast Guard spokesperson said. The tanker’s captain, crew, and shore-based staff cooperated with the investigation, and there are currently no reports of operational disruptions, vessel instability, physical danger to crew or environmental impact, the spokesperson said.",
+      "“The Coast Guard is actively managing communications with port operators, vessel owners, and local maritime stakeholders to ensure port operations continue safely and without interruption,” the agency said.",
+      "The VLCC had arrived at Sidi Kerir on Egypt’s Mediterranean coast in late July, where it received nearly 2 million barrels of Saudi Arabian oil, ship-tracking data show. It then sailed west, past Gibraltar and into the Atlantic Ocean. The ship’s owner is listed as GMF GLV No. 4 SA, based in Liberia. Maritime database Equasis doesn’t list any telephone or email details for the company."
+     ],
+     "title_zh": "美国海岸警卫队和联邦调查局对油轮遭网络攻击展开调查",
+     "summary_zh": "美国正调查油气油轮遭网络攻击事件，海岸警卫队和FBI已登船检查VL Prosperity号及另一艘LNG船。"
     },
     {
      "title": "Chile Central Bank Deputy Governor: Investors Shouldn't Overlook Recovery",
@@ -175,7 +226,29 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/chile-central-bank-deputy-governor-investors-shouldn-t-overlook-recovery",
      "published_cst": "2026-09-15T22:49:13+08:00",
      "time": "09-15 22:49",
-     "body": null
+     "body": [
+      "Lea en español",
+      "A senior Chilean central banker urged investors to look beyond this year’s economic stagnation and pay more attention to forecasts of a recovery next year.",
+      "Recent pro-business legislation is forecast to drive investment and boost domestic activity in the coming years, according to Central Bank Deputy Governor Alberto Naudon.",
+      "“It seems to me that there has been a little too much emphasis on the current weakness and less on our message of greater strength going forward,” Naudon said Tuesday, in an interview from the bank’s headquarters in Santiago. “You have to take both sides into account.”",
+      "Chile’s economy shrank in the first quarter and was flat in the second, leaving it teetering on the edge of a technical recession. More recently, activity plunged 1.7% in July from a month earlier following a series of strong winter storms. Still, the central bank and analysts forecast a rebound in growth next year.",
+      "Policymakers left their estimate for growth in 2027 at 2% to 3% this month, while cutting their forecast for this year to between 0.25% and 0.75% from between 1% and 1.75%, citing factors including an unexpected slowdown in demand.",
+      "At the same time, they raised their projection for 2028, when they now see the economy expanding as fast as 3.25%.",
+      "The global outlook is helping Chile, largely through strong demand for its metals exports, said Naudon, who holds a doctorate in economics from the University of California, Los Angeles, and previously served as head of the central bank’s research division. Chile is the world’s largest exporter of copper, which hit a record high earlier this month.",
+      "Looking ahead, much of the expected economic improvement stems from the measures approved by Congress, including corporate tax cuts and and streamlined regulations.",
+      "“If we didn’t see that strength ahead, monetary policy would obviously be different,” Naudon said.",
+      "Policymakers have held their key interest rate steady at 4.5% throughout 2026. They have declined to give explicit forward guidance on borrowing costs, emphasizing that each decision will depend on the latest data.",
+      "In the minutes to their September rate decision published on Wednesday, Chile central bankers reiterated that, while their base scenario envisaged the local economy regaining momentum toward 2027, they still could not rule out more persistent weakness.",
+      "“It was emphasized that several of the fundamentals supporting investment remained solid and that the baseline scenario envisaged a significant recovery in demand,” they wrote.",
+      "Policymakers also said they will pay attention to the possibility that prolonged economic malaise “could ultimately drive inflation below the 3% target over the two-year policy horizon, implying that monetary policy should retain the capacity to respond.”",
+      "Central bankers’ next policy meeting is set for October.",
+      "Still, there are plenty of inflation risks. Chile’s peso touched lowest level in nearly a year this week, driven in part by the intense pressure on Federal Reserve Chairman Kevin Warsh to raise rates in the world’s largest economy at Wednesday’s policy decision.",
+      "The sliding currency, coupled with soaring oil costs, are a potentially treacherous combination for Chile, which has one of the world’s most open economies and imports nearly all its fuels. Annual inflation accelerated to 4.1% in August, but policymakers see it slowing to the 3% target in the second quarter of next year.",
+      "The mixed outlook has split traders and investors on where Chile’s interest rates will go next. While markets are pricing in tightening starting in about six months, economists surveyed by the central bank this month expect a cut in about a year and a half.",
+      "“Our inflation framework is designed to deal with these kinds of problems,” Naudon said. “That is why our goal is for inflation to converge to 3% within a two-year period.”"
+     ],
+     "title_zh": "智利央行副行长：投资者不应忽视复苏",
+     "summary_zh": "智利央行副行长呼吁投资者关注明年经济复苏预测，预计2027年增长2%至3%，2028年最高达3.25%。"
     },
     {
      "title": "RBNZ Assistant Governor Karen Silk to Step Down in December",
@@ -236,7 +309,19 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation",
      "published_cst": "2026-09-15T22:31:33+08:00",
      "time": "09-15 22:31",
-     "body": null
+     "body": [
+      "OpenAI is holding early talks with investors about a fresh funding round that would value the ChatGPT creator at more than $1.2 trillion ahead of an initial public offering.",
+      "Any decision to move forward with the fundraising effort will hinge on exactly when OpenAI decides to go public, a person familiar with the talks said, asking not to be identified. The talks were initiated by investors, the person said.",
+      "OpenAI Chief Executive Officer Sam Altman told Fortune earlier the company’s long-anticipated IPO is still in the works but would not happen this year. The additional funding, if the AI giant takes it, would provide flexibility to potentially push back its IPO further, by one or two quarters, another person familiar said.",
+      "Another reason OpenAI could consider additional fundraising would be to support more mergers and acquisitions, the person said.",
+      "The company has spent billions acquiring startups, including Apple Inc. veteran Jony Ive’s AI device startup io and Astral, a startup that makes Python tools for developers.",
+      "A funding round of that magnitude may allow OpenAI to leapfrog its chief rival Anthropic, which raised funds in May at a $965 billion valuation, including the new investment.",
+      "OpenAI is also considering legal restrictions about what information it may be able to share with private market investors ahead of an IPO, the person said.",
+      "The Financial Times reported on the talks earlier on Tuesday, noting that the round would allow longtime backers to increase their exposure ahead of the company’s IPO.",
+      "Anthropic is preparing for its own IPO and has picked Nasdaq as its listing venue. The Claude chatbot maker is seeking to raise as much as or more than SpaceX in an IPO that could take place as soon as October, Bloomberg has reported. SpaceX raised a record $86.3 billion in its offering in June."
+     ],
+     "title_zh": "OpenAI考虑以超1.2万亿美元估值融资",
+     "summary_zh": "OpenAI洽谈新一轮融资，估值超1.2万亿美元，IPO或推迟。"
     },
     {
      "title": "NZ's Dominant Grocer to be Broken Up Under National Party Plan",
@@ -345,7 +430,24 @@
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/latest-oil-market-news-and-analysis-for-sept-16",
      "published_cst": "2026-09-15T22:03:27+08:00",
      "time": "09-15 22:03",
-     "body": null
+     "body": [
+      "Oil retreated on indications that some of the recent supply outages in the Middle East are beginning to resolve and traders adjust positions after a blistering rally over recent sessions.",
+      "Brent slipped to settle near $106 a barrel, and West Texas Intermediate fell more than 3%, as Saudi Arabia seeks to return about half the capacity of its East-West pipeline within days after shutting the conduit last week because of drone strikes. Riyadh is also ramping up sales of crude from outside the Strait of Hormuz following the disruption. Libya, meanwhile, restored output to normal after outages at oil fields this week.",
+      "Oil had jumped 4% over the previous two sessions on fears of fresh supply disruptions stemming from the Iran war, including questions about a prolonged closure of Saudi Arabia’s cross-country pipeline that has served as a lifeline to circumnavigate the severely disrupted Hormuz. Brent’s 14-day relative strength index rose to overbrought territory above 70, a level that can signal a correction is imminent.",
+      "Oil has surged almost 80% this year following the outbreak of the US-Iran war and as the Russia-Ukraine conflict drags on. The jump, along with even steeper rises in fuel costs, have contributed to concerns over global inflation. The Federal Reserve joined some of its central bank peers in tightening policy, voting on Wednesday to hike interest rates by a quarter point to try and address price pressures.",
+      "Oil’s price dip should be seen “as a breather rather than a clear reversal for now,” said Charu Chanana, chief investment strategist at Saxo Markets in Singapore, cautioning that risks remained severe. Any further escalation or prolonged outages could quickly put upward pressure back on prices, she added.",
+      "As a result of the interruption of the East-West pipeline, Saudi Aramco has been delaying oil deliveries to some European customers, sparking a scramble for alternative barrels.",
+      "Traders are also tracking turmoil in Yemen, where Houthi militants have been advancing against local rivals, while escalating attacks on targets in Saudi Arabia and its shipping routes. The group has pushed toward the Bab el-Mandeb Strait, the chokepoint at the southern end of the Red Sea.",
+      "Read More: Houthi Strikes, Pipeline Closure Mark Crisis for MBS and Saudis",
+      "The price of Middle Eastern crude loading outside the Persian Gulf rose to the highest since March on growing concerns that supply shortages may be returning to the critical levels seen in the early days of the conflict. Oman crude futures advanced to more than $130 a barrel.",
+      "The diesel market has been particularly tight, with supplies hit both by the conflict in the Middle East and Ukrainian attacks on Russian refineries. US diesel futures settled at a record on Tuesday, and average retail pump prices are also at an all-time high. Senate Majority Leader John Thune said that he was “open to exploring” an export ban, while a top energy official in the Trump administration said such a move wouldn’t bring down prices.",
+      "Freight has also soared given the dislocations in global shipping, with flows through the Strait of Hormuz still below pre-war levels and refiners seeking cargoes from more-distant suppliers. The cost of shipping US crude to Asia hit a record, with a very large crude carrier from the US Gulf to China costing $44.8 million. That’s up from $39 million a day earlier.",
+      "Elsewhere, US data offered a counterweight to the midweek slide. Crude inventories fell 640,000 barrels, compared to a large build forecast by a widely followed industry report. Nationwide diesel stockpiles rose 1.6 million barrels but remain at their lowest seasonal level since at least 2000, while gasoline inventories also ticked higher. West Coast refinery utilization, meanwhile, climbed to its highest seasonal level since 2018, as California contends with some of the highest fuel prices in the country.",
+      "(A previous version of this story was corrected to remove source of strikes on Saudi pipeline.)",
+      "To get Bloomberg’s Energy Daily newsletter in your inbox, click here."
+     ],
+     "title_zh": "9月16日最新石油市场新闻与分析",
+     "summary_zh": "中东供应中断缓解，布伦特原油回落至约106美元，美油跌超3%，因沙特恢复管道及利比亚产量正常。"
     },
     {
      "title": "US Iran War Blockade Costs Strain Taiwan China Deterrence",
@@ -7694,7 +7796,8 @@
      "link": "https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-09-16-2026",
      "published_cst": "2026-09-15T19:48:37+08:00",
      "time": "09-15 19:48",
-     "body": null
+     "body": null,
+     "title_zh": "股市新闻，2026年9月16日：美联储加息后道指下跌逾600点"
     },
     {
      "title": "Fourth Measles-Related Death Reported in Pennsylvania",
@@ -8422,7 +8525,8 @@
      "link": "https://www.wsj.com/lifestyle/speakerphone-in-public-spaces-08a6a16d",
      "published_cst": "2026-09-15T09:30:00+08:00",
      "time": "09-15 09:30",
-     "body": null
+     "body": null,
+     "title_zh": "看在上帝的份上，请戴上耳机"
     },
     {
      "title": "Bond Yields Could Come Down as Fast as They’ve Climbed",
