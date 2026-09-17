@@ -1194,8 +1194,7 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
     "mainEntity": {{
       "@type": "Person",
       "name": "{site_author}",
-      "url": "https://github.com/LeisureLinux",
-      "email": "albertxu@freelamp.com",
+      "url": "https://github.com/LeisureLinux",{jsonld_email}
       "knowsAbout": ["Linux", "自由软件", "开源", "系统管理", "DevSecOps"],
       "sameAs": [
         "https://github.com/LeisureLinux"
@@ -1337,11 +1336,16 @@ ABOUT_TEMPLATE = """<!DOCTYPE html>
 
 def build_about_page():
     """生成「关于 Readings」页面（站点介绍 + 作者）"""
+    # 联系邮箱不写死：未设 CONTACT_EMAIL 时不输出 email 字段（这是公开发布页，
+    # 作者邮箱已出现在每处 git commit 里，不必再往 HTML 里塞一份）。
+    email = os.environ.get("CONTACT_EMAIL", "").strip()
+    jsonld_email = f'\n      "email": "{email}",' if email else ""
     return ABOUT_TEMPLATE.format(
         analytics_snippet=analytics_html(),
         site_url=SITE_URL,
         site_name=SITE_NAME,
         site_author=SITE_AUTHOR,
+        jsonld_email=jsonld_email,
     )
 
 
