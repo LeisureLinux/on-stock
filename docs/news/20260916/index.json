@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-18T18:13:02.129492+08:00",
+ "generated_at": "2026-09-18T22:24:24.003888+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -3324,6 +3324,38 @@
      "summary_zh": "美伊战争致霍尔木兹海峡LNG供应中断，全球五分之一供应被困，美2030年产能将翻倍成替代焦点。"
     },
     {
+     "title": "AI's Existential Fears Meet Wall Street Financing FOMO in Europe",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/ai-debt-boom-heads-from-wall-street-to-europe-despite-tech-angst",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/ai-debt-boom-heads-from-wall-street-to-europe-despite-tech-angst",
+     "published_cst": "2026-09-16T11:09:42+08:00",
+     "time": "09-16 11:09",
+     "body": [
+      "JPMorgan Chase & Co. and Goldman Sachs Group Inc. are among banks lining up to finance billions of dollars in European AI debt as the region races to close the gap with the US.",
+      "The Wall Street underwriters are vying for a leading role in financing Europe’s push to reduce its reliance on overseas technology. Both have assembled specialist teams to pitch deals to data-center operators and investors.",
+      "“There hasn’t been a great deal of issuance here but there has been intense investor focus,” said Noah Roth, JPMorgan’s London-based head of EMEA leveraged finance. “There’s a lot of FOMO.”",
+      "Investors may not have to miss out much longer. Anywhere from $5 billion to $10 billion of data-center bonds could reach European markets by the end of the year, with a much bigger wave expected in 2027, according to Goldman Sachs estimates.",
+      "By contrast, the US has already seen more than $350 billion in AI-related issuance so far this year, according to data compiled by Bloomberg. AI executives there are warning of catastrophic risks from their most advanced models and states including Texas and New York are restricting new data centers.",
+      "Read More: Are We Losing Control of AI? What’s Driving Fears: Explainer",
+      "Europe, meanwhile, is worried about not building fast enough. European Central Bank President Christine Lagarde has warned that relying on US technology risks giving Europe’s trading partners enormous leverage.",
+      "“Regardless of whether or not we have a European champion in AI, Europe will need to have data centers, for European security and for data sovereignty,” said Giacomo Reali, a leveraged finance partner at Linklaters.",
+      "Closing the gap won’t come cheap. Europe may need about $3 trillion through 2035 to fund cloud infrastructure, data centers and other critical technologies, according to Bloomberg Intelligence.",
+      "Until now, banks, project finance and securitizations were enough for Europe’s smaller-scale projects. The next generation will require deeper pools of capital. Among them: Start Campus, a planned 1.2-gigawatt facility in Portugal.",
+      "Projects of that size will pave the way for a bigger role for both investment-grade and high-yield debt markets. AI-related debt represents about 5% of European high-yield issuance, versus 19% in the US, according to Dealogic and Goldman Sachs research.",
+      "Each new 100 to 200 megawatt center in Europe could translate to “$1 billion, $2 billion debt deals at a minimum,” Miriam Wheeler, global head of leveraged finance at Goldman Sachs, said on the sidelines of her bank’s leveraged finance conference in London. She estimates Europe’s role in the global AI build-out could rise to as much as 25% from 10%.",
+      "“We think if you start seeing more of that mega capex come to Europe, then you’ll start to see it financed in the 144A market, investment-grade and non-investment grade,” she said.",
+      "The first European high-yield data-center deals are likely to borrow heavily from the US playbook. Cahill Gordon & Reindel partner Ariel Goldman expects issuers to take the “cleanest, easiest path” to establish a track record before more customized structures.",
+      "Before that can happen, a large amount of lender education will be needed to bring investors up to speed with the risks of committing to projects that have yet to be built. Data centers’ heavy consumption of electricity and water is drawing greater scrutiny from lenders with ESG mandates. Even if investors don’t want to be left behind in the AI wave, they aren’t prepared to finance every project.",
+      "The sole data center bonds priced in Europe’s junk bond market, from CoreWeave Inc., have been trading below their face value since news emerged that key client Meta Platforms Inc. was developing a competing cloud-infrastructure business.",
+      "“The threshold and diligence we need to do is quite high,” said Sid Chhabra, head of securitized credit, CLO management and euro high yield at RBC BlueBay.",
+      "European investors spent much of the summer doing their homework. In July, some made the hour-long trip from London to Slough to tour data centers owned by Equinix Inc. It was an unusual amount of effort for a £280 million ($377 million) bond deal.",
+      "The turnout said something about the scarcity of AI-related debt in Europe. Equinix’s asset-backed securities offering is tiny compared with the trillions of dollars needed to finance the global build-out of artificial intelligence infrastructure.",
+      "But for the daytrippers to Slough, the data-center deal was an early opportunity to get in on the AI boom. Orders for Equinix’s bonds ended up totalling over £510 million.",
+      "“We will see companies in the sector ultimately needing to raise billions from the market,” said Ben Thompson, head of EMEA leveraged finance capital markets at JPMorgan. “We will see how big that number can be.”"
+     ],
+     "title_zh": "人工智能的生存恐惧与华尔街融资错失恐惧在欧洲相遇",
+     "summary_zh": "摩根大通和高盛等银行争相为欧洲AI数据中心融资，预计年底前50亿至100亿美元债券入市，2027年规模更大。"
+    },
+    {
      "title": "Venture Investors Find Liquidity Fix Outside IPO Market",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/venture-investors-find-liquidity-fix-outside-ipo-market",
      "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/venture-investors-find-liquidity-fix-outside-ipo-market",
@@ -3412,38 +3444,6 @@
      ],
      "title_zh": "欧盟提议加拿大成为其首个准成员国",
      "summary_zh": "欧盟邀加拿大成为首个准成员国，冯德莱恩称需重塑伙伴关系。"
-    },
-    {
-     "title": "AI's Existential Fears Meet Wall Street Financing FOMO in Europe",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/ai-debt-boom-heads-from-wall-street-to-europe-despite-tech-angst",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/ai-debt-boom-heads-from-wall-street-to-europe-despite-tech-angst",
-     "published_cst": "2026-09-16T11:09:42+08:00",
-     "time": "09-16 11:09",
-     "body": [
-      "JPMorgan Chase & Co. and Goldman Sachs Group Inc. are among banks lining up to finance billions of dollars in European AI debt as the region races to close the gap with the US.",
-      "The Wall Street underwriters are vying for a leading role in financing Europe’s push to reduce its reliance on overseas technology. Both have assembled specialist teams to pitch deals to data-center operators and investors.",
-      "“There hasn’t been a great deal of issuance here but there has been intense investor focus,” said Noah Roth, JPMorgan’s London-based head of EMEA leveraged finance. “There’s a lot of FOMO.”",
-      "Investors may not have to miss out much longer. Anywhere from $5 billion to $10 billion of data-center bonds could reach European markets by the end of the year, with a much bigger wave expected in 2027, according to Goldman Sachs estimates.",
-      "By contrast, the US has already seen more than $350 billion in AI-related issuance so far this year, according to data compiled by Bloomberg. AI executives there are warning of catastrophic risks from their most advanced models and states including Texas and New York are restricting new data centers.",
-      "Read More: Are We Losing Control of AI? What’s Driving Fears: Explainer",
-      "Europe, meanwhile, is worried about not building fast enough. European Central Bank President Christine Lagarde has warned that relying on US technology risks giving Europe’s trading partners enormous leverage.",
-      "“Regardless of whether or not we have a European champion in AI, Europe will need to have data centers, for European security and for data sovereignty,” said Giacomo Reali, a leveraged finance partner at Linklaters.",
-      "Closing the gap won’t come cheap. Europe may need about $3 trillion through 2035 to fund cloud infrastructure, data centers and other critical technologies, according to Bloomberg Intelligence.",
-      "Until now, banks, project finance and securitizations were enough for Europe’s smaller-scale projects. The next generation will require deeper pools of capital. Among them: Start Campus, a planned 1.2-gigawatt facility in Portugal.",
-      "Projects of that size will pave the way for a bigger role for both investment-grade and high-yield debt markets. AI-related debt represents about 5% of European high-yield issuance, versus 19% in the US, according to Dealogic and Goldman Sachs research.",
-      "Each new 100 to 200 megawatt center in Europe could translate to “$1 billion, $2 billion debt deals at a minimum,” Miriam Wheeler, global head of leveraged finance at Goldman Sachs, said on the sidelines of her bank’s leveraged finance conference in London. She estimates Europe’s role in the global AI build-out could rise to as much as 25% from 10%.",
-      "“We think if you start seeing more of that mega capex come to Europe, then you’ll start to see it financed in the 144A market, investment-grade and non-investment grade,” she said.",
-      "The first European high-yield data-center deals are likely to borrow heavily from the US playbook. Cahill Gordon & Reindel partner Ariel Goldman expects issuers to take the “cleanest, easiest path” to establish a track record before more customized structures.",
-      "Before that can happen, a large amount of lender education will be needed to bring investors up to speed with the risks of committing to projects that have yet to be built. Data centers’ heavy consumption of electricity and water is drawing greater scrutiny from lenders with ESG mandates. Even if investors don’t want to be left behind in the AI wave, they aren’t prepared to finance every project.",
-      "The sole data center bonds priced in Europe’s junk bond market, from CoreWeave Inc., have been trading below their face value since news emerged that key client Meta Platforms Inc. was developing a competing cloud-infrastructure business.",
-      "“The threshold and diligence we need to do is quite high,” said Sid Chhabra, head of securitized credit, CLO management and euro high yield at RBC BlueBay.",
-      "European investors spent much of the summer doing their homework. In July, some made the hour-long trip from London to Slough to tour data centers owned by Equinix Inc. It was an unusual amount of effort for a £280 million ($377 million) bond deal.",
-      "The turnout said something about the scarcity of AI-related debt in Europe. Equinix’s asset-backed securities offering is tiny compared with the trillions of dollars needed to finance the global build-out of artificial intelligence infrastructure.",
-      "But for the daytrippers to Slough, the data-center deal was an early opportunity to get in on the AI boom. Orders for Equinix’s bonds ended up totalling over £510 million.",
-      "“We will see companies in the sector ultimately needing to raise billions from the market,” said Ben Thompson, head of EMEA leveraged finance capital markets at JPMorgan. “We will see how big that number can be.”"
-     ],
-     "title_zh": "人工智能的生存恐惧与华尔街融资错失恐惧在欧洲相遇",
-     "summary_zh": "摩根大通和高盛等银行争相为欧洲AI数据中心融资，预计年底前50亿至100亿美元债券入市，2027年规模更大。"
     },
     {
      "title": "After Talking the Talk on Inflation, Fed's Warsh May Be Made to Walk",
@@ -6948,6 +6948,15 @@
      "title_zh": "这对人工智能有利！啊！"
     },
     {
+     "title": "Scientists grow human brain tissue in mice",
+     "url": "https://www.ft.com/content/b36ab062-dfe2-4d20-b584-f3d8739c44a6",
+     "link": "https://www.ft.com/content/b36ab062-dfe2-4d20-b584-f3d8739c44a6",
+     "published_cst": "2026-09-16T15:00:04+08:00",
+     "time": "09-16 15:00",
+     "body": null,
+     "title_zh": "人脑组织首次在小鼠体内培育成功"
+    },
+    {
      "title": "Oura will struggle to justify pulse-racing $16bn valuation",
      "url": "https://www.ft.com/content/8abe8957-83c1-475a-b6d0-556d094f474d",
      "link": "https://www.ft.com/content/8abe8957-83c1-475a-b6d0-556d094f474d",
@@ -6955,15 +6964,6 @@
      "time": "09-16 15:00",
      "body": null,
      "title_zh": "Oura难以证明其160亿美元高估值合理性"
-    },
-    {
-     "title": "Human brain tissue grown in mice for first time",
-     "url": "https://www.ft.com/content/b36ab062-dfe2-4d20-b584-f3d8739c44a6",
-     "link": "https://www.ft.com/content/b36ab062-dfe2-4d20-b584-f3d8739c44a6",
-     "published_cst": "2026-09-16T15:00:04+08:00",
-     "time": "09-16 15:00",
-     "body": null,
-     "title_zh": "人脑组织首次在小鼠体内培育成功"
     },
     {
      "title": "AI must not outrun safety controls, DeepMind co-founder warns",
@@ -8793,15 +8793,6 @@
      "title_zh": "诺和诺德将用Anthropic的Claude进行药物研究"
     },
     {
-     "title": "The Hidden Pet Insurance Math That Costs You Money",
-     "url": "https://www.wsj.com/buyside/personal-finance/life-insurance/pet-insurance-claim-payment-math",
-     "link": "https://www.wsj.com/buyside/personal-finance/life-insurance/pet-insurance-claim-payment-math",
-     "published_cst": "2026-09-16T12:31:00+08:00",
-     "time": "09-16 12:31",
-     "body": null,
-     "title_zh": "宠物保险隐藏算法让你多花钱"
-    },
-    {
      "title": "Auto & Transport Roundup: Market Talk",
      "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-afb641b4",
      "link": "https://www.wsj.com/business/auto-transport-roundup-market-talk-afb641b4",
@@ -8809,6 +8800,15 @@
      "time": "09-16 12:31",
      "body": null,
      "title_zh": "汽车与交通综述：市场动态"
+    },
+    {
+     "title": "The Hidden Pet Insurance Math That Costs You Money",
+     "url": "https://www.wsj.com/buyside/personal-finance/life-insurance/pet-insurance-claim-payment-math",
+     "link": "https://www.wsj.com/buyside/personal-finance/life-insurance/pet-insurance-claim-payment-math",
+     "published_cst": "2026-09-16T12:31:00+08:00",
+     "time": "09-16 12:31",
+     "body": null,
+     "title_zh": "宠物保险隐藏算法让你多花钱"
     },
     {
      "title": "Energy & Utilities Roundup: Market Talk",
@@ -8919,15 +8919,6 @@
      "title_zh": "Lysol和Mucinex制造商Reckitt扩大美国生产"
     },
     {
-     "title": "Not Even a Stroke Can Stop These Aging Rock Stars From Going on Stage",
-     "url": "https://www.wsj.com/arts-culture/music/concerts-lionel-richie-barry-manilow-rod-stewart-a51b3d52",
-     "link": "https://www.wsj.com/arts-culture/music/concerts-lionel-richie-barry-manilow-rod-stewart-a51b3d52",
-     "published_cst": "2026-09-16T11:00:00+08:00",
-     "time": "09-16 11:00",
-     "body": null,
-     "title_zh": "即使中风也阻挡不了这些老龄摇滚明星登台"
-    },
-    {
      "title": "Congressional Democrats Take Aim at Private Equity’s Role in Medicine",
      "url": "https://www.wsj.com/pro/private-equity/congressional-democrats-take-aim-at-private-equitys-role-in-medicine-444ee2ed",
      "link": "https://www.wsj.com/pro/private-equity/congressional-democrats-take-aim-at-private-equitys-role-in-medicine-444ee2ed",
@@ -8935,6 +8926,15 @@
      "time": "09-16 11:00",
      "body": null,
      "title_zh": "国会民主党人瞄准私募股权在医疗领域的角色"
+    },
+    {
+     "title": "Not Even a Stroke Can Stop These Aging Rock Stars From Going on Stage",
+     "url": "https://www.wsj.com/arts-culture/music/concerts-lionel-richie-barry-manilow-rod-stewart-a51b3d52",
+     "link": "https://www.wsj.com/arts-culture/music/concerts-lionel-richie-barry-manilow-rod-stewart-a51b3d52",
+     "published_cst": "2026-09-16T11:00:00+08:00",
+     "time": "09-16 11:00",
+     "body": null,
+     "title_zh": "即使中风也阻挡不了这些老龄摇滚明星登台"
     },
     {
      "title": "Will the Trump-Xi Dinner Bring AI Enemies Musk and Altman to the Table?",

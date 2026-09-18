@@ -1,6 +1,6 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-18T18:13:20.106374+08:00",
+ "generated_at": "2026-09-18T22:29:01.908370+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -322,7 +322,7 @@
      "summary_zh": "宾州州长夏皮罗呼吁加强AI安全防护，并签署行政令规范数据中心，要求其自付电力并遵守节水标准。"
     },
     {
-     "title": "Stocks Rise as Tech Climbs and Oil Extends Retreat: Markets Wrap",
+     "title": "S&amp;P 500 Falls as Treasury Yields Resume Advance: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-17T22:14:33+08:00",
@@ -803,7 +803,7 @@
      "summary_zh": "中期选举前，美国两党争相拉拢“工人阶级”，但其定义已模糊不清，播客探讨这一变迁。"
     },
     {
-     "title": "Suspended Glencore Executive Told Radiant 'Say Nothing on Email'",
+     "title": "Suspended Glencore Exec Told Radiant 'Say Nothing on Email'",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/suspended-glencore-executive-told-radiant-say-nothing-on-email",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/suspended-glencore-executive-told-radiant-say-nothing-on-email",
      "published_cst": "2026-09-17T20:27:50+08:00",
@@ -1365,7 +1365,7 @@
      "summary_zh": "美国国务院通知国会拟向沙特出售最多48架F-35战机，价值或达243亿美元，为首次向以色列以外中东国家出售。"
     },
     {
-     "title": "Russia Grabs Nestle Assets in Biggest Seizure Since 2024",
+     "title": "Russia Ties Nestle, Auchan Asset Grabs to Europe Aid for Ukraine",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
      "published_cst": "2026-09-17T17:28:48+08:00",
@@ -6417,7 +6417,7 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 155,
+   "count": 156,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
@@ -6440,7 +6440,7 @@
      "title_zh": "有毒烟雾投诉导致空客合资企业飞机停飞"
     },
     {
-     "title": "Red and Blue America Have Found Something to Agree On: Flock Cameras Must Go",
+     "title": "Red and Blue America Have Found Something to Agree on: Flock Cameras Must Go",
      "url": "https://www.wsj.com/us-news/red-and-blue-america-have-found-something-to-agree-on-flock-cameras-must-go-765cd0b2",
      "link": "https://www.wsj.com/us-news/red-and-blue-america-have-found-something-to-agree-on-flock-cameras-must-go-765cd0b2",
      "published_cst": "2026-09-17T23:00:00+08:00",
@@ -6474,6 +6474,15 @@
      "time": "09-17 22:01",
      "body": null,
      "title_zh": "还记得民主党支持乌克兰的时候吗？"
+    },
+    {
+     "title": "The Three Dreaded Words No One Wants to Hear: What’s for Dinner?",
+     "url": "https://www.wsj.com/us-news/the-three-dreaded-words-no-one-wants-to-hear-whats-for-dinner-7a9b2e51",
+     "link": "https://www.wsj.com/us-news/the-three-dreaded-words-no-one-wants-to-hear-whats-for-dinner-7a9b2e51",
+     "published_cst": "2026-09-17T22:00:00+08:00",
+     "time": "09-17 22:00",
+     "body": null,
+     "title_zh": "没人想听到的三个可怕字眼：晚饭吃什么？"
     },
     {
      "title": "The Three Dreaded Words No One Wants to Hear: What’s for Dinner?",
@@ -6629,7 +6638,7 @@
      "title_zh": "海蒂·克鲁姆在柏林的完美一天，从土耳其烤肉到贝格汉夜店"
     },
     {
-     "title": "Stock Market Today: Nasdaq Heads for Weekly Gain as AI Stocks Surge",
+     "title": "Stock Market Today: Nasdaq Heads for Weekly Gain as AI Stocks Rise",
      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026",
      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026",
      "published_cst": "2026-09-17T20:45:31+08:00",
