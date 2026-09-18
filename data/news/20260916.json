@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-18T09:12:21.060689+08:00",
+ "generated_at": "2026-09-18T12:12:26.746804+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -5742,6 +5742,32 @@
      "summary_zh": "伊朗无人机袭击促使海湾国家掀起史上最大防务采购潮，已批逾50亿美元合同，推动联合生产与反无人机系统需求。"
     },
     {
+     "title": "UK Should Slash Tax on Rich, Report for Farage's Reform Says",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/uk-should-slash-tax-on-rich-blueprint-for-farage-s-reform-says",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/uk-should-slash-tax-on-rich-blueprint-for-farage-s-reform-says",
+     "published_cst": "2026-09-16T04:00:00+08:00",
+     "time": "09-16 04:00",
+     "body": [
+      "The UK should slash taxes on the rich and encourage the City to take greater risks, according to a report by a think-tank linked to Reform UK that’s set to guide the economic policies of Nigel Farage’s insurgent party.",
+      "The Centre for a Better Britain blueprint is set to propose cutting a raft of rules as well as a reorganization of government bodies to focus on growth, according to people familiar with the matter who spoke on condition of anonymity in order to divulge unpublished details. They said it will urge a breakup of the Treasury, with responsibility for growth moved to a different department.",
+      "The document, styled as “Big Bang 2.0” in a reference to Margaret Thatcher’s 1980s deregulatory bonanza, is set for publication on Wednesday next week. It was commissioned last year by Deputy Reform Leader Richard Tice, who announced four working groups on regulation, growth finance, tax and pensions at an event hosted by Bloomberg.",
+      "The report matters because it’s likely to guide Reform’s financial and economic policies as the party gears up to fight the next election due in 2029. Despite being under investigation by both the police and Parliamentary authorities over donations, Reform — which denies wrongdoing — is seeking to portray itself as a government-in-waiting after leading national polls for most of the past 18 months.",
+      "The party’s coffers were swelled over the weekend by two record gifts of £36 million ($49 million) each by crypto billionaires Ben Delo and Christopher Harborne. That cash will boost Reform’s efforts to design a credible policy offering for government and prepare the ground war for the next national vote. But it’s also prompted fresh questions about whether Reform’s plans are being influenced by the interests of the crypto lobby or other figures with a deregulatory agenda. Both Harborne and Delo have denied seeking to buy influence.",
+      "Further complicating matters for Reform, Andy Burnham’s Labour government is threatening to enact retroactive legislation that would invalidate the two gifts because neither Delo nor Harborne has been resident in the UK for long enough, with both men appearing to have moved their residency back to the UK from overseas this year. Reform is considering legal action if the law is passed.",
+      "The CFABB proposal on hiving off the Treasury’s growth responsibilities has echoes of plans considered earlier this year by UK Prime Minister Andy Burnham before entering office. While he’s kept Britain’s finance ministry intact since coming to power in July, he’s also established an outpost of the prime minister’s office, dubbed No. 10 North, in Manchester, calling it “the government’s new situation room for growth.”",
+      "The idea is one of several likely to cause tensions between Tice, who is responsible Reform’s plans on business, trade and energy, and Robert Jenrick, who defected from the Conservatives in January and is now Reform’s Treasury spokesman. Jenrick stressed the importance of the Treasury retaining a growth mandate in multiple appearances at Reform’s conference in Birmingham earlier this month.",
+      "The report’s position on tax may also be a point of tension. It is set to call for the abolition of inheritance tax and say capital gains tax should be phased out, one person said. Eliminating inheritance tax would deprive the Treasury of an income stream that was worth £8.5 billion last fiscal year. Capital gains tax earned the exchequer £24 billion, a record, in 2024-25.",
+      "In Birmingham, Jenrick unveiled a high-profile plan to increase the tax-free personal allowance, which he said would benefit millions, and ruled out an improvement on inheritance tax, saying it only affected about 36,000 families.",
+      "While it’s improbable investors would respond to policies from a party unlikely to gain power for years, Reform officials will want to avoid comparisons to former Conservative Prime Minister Liz Truss, whose package of unfunded tax cuts in 2022 sent UK assets into a tailspin on concern over inflation and extra borrowing. Almost four years later, the International Monetary Fund warned Burnham on taking power that the Truss budget crisis had caused permanent scarring, with gilt markets more jittery about Britain’s fiscal policy.",
+      "CFABB’s report has been compiled with the help of a group of business figures from areas including private equity and investment banking. Its draft stretches to about 200 pages, and details could still be changed, according to the people. CFABB, which was set up last year, will also engage with other political parties.",
+      "There may be a populist tone to the report in the form of championing small businesses and criticism of large financial institutions such as big banks for not doing enough to lend to smaller firms, and pension funds for their low levels of investment in UK assets, the people said.",
+      "Tice and Reform leader Nigel Farage have previously raised the prospect of reducing interest paid to banks on reserves they keep at the Bank of England. The CFABB report is expected to address the topic and could call for the UK to introduce a tiered payments system similar to the European Central Bank, the people said.",
+      "There are also set to be more details on potential reform of local government pension plans, including introducing a government guarantee for the programs in return for requiring them to invest in local projects, one person said. The ideas have received pushback from industry figures but are seen as a priority by Tice, they said."
+     ],
+     "title_zh": "英国应大幅削减富人税收，法拉奇改革蓝图建议",
+     "summary_zh": "与改革英国相关的智库建议对富人减税并鼓励伦敦金融城承担更大风险，作为法拉奇政党的经济政策蓝图。"
+    },
+    {
      "title": "Chris Rokos: No, Tax Isn't Driving UK Billionaires to Athens",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-16/chris-rokos-no-tax-isn-t-driving-uk-billionaires-to-athens",
      "link": "https://www.bloomberg.com/opinion/articles/2026-09-16/chris-rokos-no-tax-isn-t-driving-uk-billionaires-to-athens",
@@ -5854,32 +5880,6 @@
      ],
      "title_zh": "美联储加息：谁惧怕可怕的债券收益率？",
      "summary_zh": "尽管美债收益率和利率预期大幅上升，标普500今年仍涨10.7%，因AI推动盈利预期飙升，市场对加息承受力较强。"
-    },
-    {
-     "title": "UK Should Slash Tax on Rich, Report for Farage's Reform Says",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/uk-should-slash-tax-on-rich-blueprint-for-farage-s-reform-says",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/uk-should-slash-tax-on-rich-blueprint-for-farage-s-reform-says",
-     "published_cst": "2026-09-16T04:00:00+08:00",
-     "time": "09-16 04:00",
-     "body": [
-      "The UK should slash taxes on the rich and encourage the City to take greater risks, according to a report by a think-tank linked to Reform UK that’s set to guide the economic policies of Nigel Farage’s insurgent party.",
-      "The Centre for a Better Britain blueprint is set to propose cutting a raft of rules as well as a reorganization of government bodies to focus on growth, according to people familiar with the matter who spoke on condition of anonymity in order to divulge unpublished details. They said it will urge a breakup of the Treasury, with responsibility for growth moved to a different department.",
-      "The document, styled as “Big Bang 2.0” in a reference to Margaret Thatcher’s 1980s deregulatory bonanza, is set for publication on Wednesday next week. It was commissioned last year by Deputy Reform Leader Richard Tice, who announced four working groups on regulation, growth finance, tax and pensions at an event hosted by Bloomberg.",
-      "The report matters because it’s likely to guide Reform’s financial and economic policies as the party gears up to fight the next election due in 2029. Despite being under investigation by both the police and Parliamentary authorities over donations, Reform — which denies wrongdoing — is seeking to portray itself as a government-in-waiting after leading national polls for most of the past 18 months.",
-      "The party’s coffers were swelled over the weekend by two record gifts of £36 million ($49 million) each by crypto billionaires Ben Delo and Christopher Harborne. That cash will boost Reform’s efforts to design a credible policy offering for government and prepare the ground war for the next national vote. But it’s also prompted fresh questions about whether Reform’s plans are being influenced by the interests of the crypto lobby or other figures with a deregulatory agenda. Both Harborne and Delo have denied seeking to buy influence.",
-      "Further complicating matters for Reform, Andy Burnham’s Labour government is threatening to enact retroactive legislation that would invalidate the two gifts because neither Delo nor Harborne has been resident in the UK for long enough, with both men appearing to have moved their residency back to the UK from overseas this year. Reform is considering legal action if the law is passed.",
-      "The CFABB proposal on hiving off the Treasury’s growth responsibilities has echoes of plans considered earlier this year by UK Prime Minister Andy Burnham before entering office. While he’s kept Britain’s finance ministry intact since coming to power in July, he’s also established an outpost of the prime minister’s office, dubbed No. 10 North, in Manchester, calling it “the government’s new situation room for growth.”",
-      "The idea is one of several likely to cause tensions between Tice, who is responsible Reform’s plans on business, trade and energy, and Robert Jenrick, who defected from the Conservatives in January and is now Reform’s Treasury spokesman. Jenrick stressed the importance of the Treasury retaining a growth mandate in multiple appearances at Reform’s conference in Birmingham earlier this month.",
-      "The report’s position on tax may also be a point of tension. It is set to call for the abolition of inheritance tax and say capital gains tax should be phased out, one person said. Eliminating inheritance tax would deprive the Treasury of an income stream that was worth £8.5 billion last fiscal year. Capital gains tax earned the exchequer £24 billion, a record, in 2024-25.",
-      "In Birmingham, Jenrick unveiled a high-profile plan to increase the tax-free personal allowance, which he said would benefit millions, and ruled out an improvement on inheritance tax, saying it only affected about 36,000 families.",
-      "While it’s improbable investors would respond to policies from a party unlikely to gain power for years, Reform officials will want to avoid comparisons to former Conservative Prime Minister Liz Truss, whose package of unfunded tax cuts in 2022 sent UK assets into a tailspin on concern over inflation and extra borrowing. Almost four years later, the International Monetary Fund warned Burnham on taking power that the Truss budget crisis had caused permanent scarring, with gilt markets more jittery about Britain’s fiscal policy.",
-      "CFABB’s report has been compiled with the help of a group of business figures from areas including private equity and investment banking. Its draft stretches to about 200 pages, and details could still be changed, according to the people. CFABB, which was set up last year, will also engage with other political parties.",
-      "There may be a populist tone to the report in the form of championing small businesses and criticism of large financial institutions such as big banks for not doing enough to lend to smaller firms, and pension funds for their low levels of investment in UK assets, the people said.",
-      "Tice and Reform leader Nigel Farage have previously raised the prospect of reducing interest paid to banks on reserves they keep at the Bank of England. The CFABB report is expected to address the topic and could call for the UK to introduce a tiered payments system similar to the European Central Bank, the people said.",
-      "There are also set to be more details on potential reform of local government pension plans, including introducing a government guarantee for the programs in return for requiring them to invest in local projects, one person said. The ideas have received pushback from industry figures but are seen as a priority by Tice, they said."
-     ],
-     "title_zh": "英国应大幅削减富人税收，法拉奇改革蓝图建议",
-     "summary_zh": "与改革英国相关的智库建议对富人减税并鼓励伦敦金融城承担更大风险，作为法拉奇政党的经济政策蓝图。"
     },
     {
      "title": "Southeast Asia Growth Divergence Seen Widening Over Next Decade",

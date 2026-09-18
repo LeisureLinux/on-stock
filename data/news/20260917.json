@@ -1,13 +1,13 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-18T09:12:37.881196+08:00",
+ "generated_at": "2026-09-18T12:12:44.414670+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 240,
+   "count": 242,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -188,6 +188,36 @@
      "summary_zh": "格力电器将欧洲寒冬视为新增长点，其欧洲部分国家上半年销售激增92%，但海外收入仅占约15%。"
     },
     {
+     "title": "China's $33 Billion Funding Experiment Sputters on Weak Demand",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/china-s-push-for-niche-property-funding-sputters-with-oversupply",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/china-s-push-for-niche-property-funding-sputters-with-oversupply",
+     "published_cst": "2026-09-17T23:00:00+08:00",
+     "time": "09-17 23:00",
+     "body": [
+      "One of China’s less publicized avenues for pumping funding into the country’s struggling property market is running into the same problem that’s long plagued the industry: supply is overwhelming demand.",
+      "The market for publicly listed REITs, introduced in 2021, is showing signs of fatigue, with a glut of deals in the pipeline — more than $13 billion worth of offerings — set to add to the supply, including two that will begin raising funds next week. That deluge threatens to undermine a market that has grown to $33 billion as Beijing seeks to tap its massive capital markets to fund real estate projects and ease the burden on local governments.",
+      "Beijing has been looking for new ways to fund infrastructure projects, including rental housing, traditionally the domain of local government financing vehicles. As the property downturn since 2021 squeezed their cash flows, Beijing has increasingly relied on REITs to recycle some of the investment already in real estate assets.",
+      "Among a series of regulatory changes and other fixes, REITs were initially greeted with enthusiasm, particularly as a way to mobilize deep pools of liquidity for infrastructure projects.",
+      "Now they are emerging as the latest corner of China’s capital markets where supply is overwhelming demand, raising questions about the financing tool that has helped shift the cost of funding roads, industrial parks and utilities away from local governments and toward the market. The struggles expose a mismatch between infrastructure funding needs and low investor interest outside China’s tech ambitions.",
+      "“The REIT market slid into a deep correction as a flood of new supply collided with deteriorating fundamentals, unwinding the crowded trades that had supported the sector years ago,” said Zhao Yunjiao, an analyst at CSCI Pengyuan Credit Ratings. “The result has been a market characterized by low odds of gains and steep drawdowns, disrupting the trading dynamics that once supported the sector.”",
+      "Roughly 30 REIT products are awaiting regulatory approval to raise a combined 90.4 billion yuan ($13.5 billion), on top of another 3.9 billion yuan of issuance expected in the coming weeks, according to figures compiled by Bloomberg.",
+      "The pipeline is equivalent to about 40% of the value of the market’s 89 currently listed products, fueling concern that investor demand may no longer be deep enough to absorb the steady flow of new offerings, especially as returns have fallen short of expectations.",
+      "Just next week, the Yinhua Yuehai Water Resources fund will look to raise as much as $255 million and the Huatai Zijin Huazhu Anzhu fund will price its $196 million initial public offering. The queue is still building. New World Development Co. on Thursday said it had applied spin-off a Shanghai commercial building to list as a REIT on the city’s exchange pending regulatory approval.",
+      "While the trusts are pitched as bond-like investment vehicles that offer stable yields and predictable cash flows, their market performance has undercut that appeal. They have fallen 10.4% over the past six months by weighted average, while only half of this year’s debuts are trading above their listing price.",
+      "One example is an E Fund product tied to an industrial zone in Guangzhou, which has lost more than 50% since its 2024 listing, though its annualized dividend yield is still merely 4.5%. It suffered a net loss of 8 million yuan in the first half, and said that tenants remain under financial strain while competition is intensifying.",
+      "Oversubscription levels have halved from a year ago. A China Securities Index gauge of REIT products is down 28% from its 2022 peak, and trading has slumped to a quarter of the highs two years ago.",
+      "The surge in supply is no accident, even given that weak secondary market backdrop. Regulators have spent years expanding the market, broadening eligibility from industrial parks and office buildings to rental housing, shopping malls, hotels and other commercial assets. A once tightly controlled pilot has matured into a regular issuance program with streamlined approvals.",
+      "More recently, Beijing has cast REITs as a pillar of its new property-financing framework, encouraging issuance backed by rental housing and urban-renewal projects. Exacerbating the market’s caution, the wave of issuance also coincides with a deterioration in the investment case.",
+      "“The concept made sense: unlock capital tied up in assets owned by state firms and local-government financing vehicles and recycle it into new investment,” said Cai Yibin, chief investment officer at Xiamen Chuangzhao Private Fund Management. “But some assets were packaged too aggressively and listed at peak performance. Once fundamentals like rent and occupancy rate softened, investors started questioning the valuations.”",
+      "Among recent listings, the CICC Xiamen Affordable Rental Housing Closed-end Infrastructure Fund offered an annualized cash dividend yield of 2.4% in the first half according to a filing, while the Huatai Zijin Suzhou Hengtai Rental Housing Closed-end Infrastructure Fund yielded just 3.4%.",
+      "Backed by assets with operating lives exceeding 50 years, the products offered only a modest premium over the 30-year Chinese government bond yield of 2.15%, leaving little compensation for the additional risks investors assume.",
+      "Even the market’s more glamorous sectors have struggled to attract buyers. Data-center REITs have joined shopping malls, logistics parks and highways in trading below investor expectations, with a pair of such funds both trading below their offer price, at annualized cash dividend yields at 4.4% and 3.1%. While that is higher than the 1.7% on China’s 10-year government bond, it pales in comparison to the 30% gain in the CSI Telecommunication Services Index this year.",
+      "“When debuts were generating easy gains, even investors with little interest in REITs piled in. But if prices keep falling after listing, institutions eventually stop participating,” said Cai. “Then issuance becomes difficult and the market risks turning stagnant.”"
+     ],
+     "title_zh": "中国330亿美元融资实验因需求疲软而受挫",
+     "summary_zh": "中国公募REITs市场面临超1300亿元待发项目供应过剩，总规模330亿美元的市场需求疲软，回报不及预期。"
+    },
+    {
      "title": "NY Penn Station's Tracks Bar Reopens After Seven-Year Absence",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/ny-penn-station-s-tracks-bar-reopens-after-seven-year-absence",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/ny-penn-station-s-tracks-bar-reopens-after-seven-year-absence",
@@ -266,7 +296,7 @@
      "summary_zh": "宾州州长夏皮罗呼吁加强AI安全防护，并签署行政令规范数据中心，要求其自付电力并遵守节水标准。"
     },
     {
-     "title": "Asian Stocks, Bonds Gain as Oil Extends Decline: Markets Wrap",
+     "title": "Stocks Rise, Yen Slips as BOJ Hikes in Split Vote: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-17T22:14:33+08:00",
@@ -685,7 +715,7 @@
      "summary_zh": "尽管《清晰法案》在参议院未获通过，但SEC迅速推出创新豁免，允许发行代币化股票，CFTC也扩大加密交易，数字资产行业仍成赢家。"
     },
     {
-     "title": "South Korea President Seeks Reset After Approval Rating Nosedive",
+     "title": "Korea's Lee Apologizes, Vows to be Humble as Support Nosedives",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/south-korea-president-seeks-reset-after-approval-rating-nosedive",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/south-korea-president-seeks-reset-after-approval-rating-nosedive",
      "published_cst": "2026-09-17T21:00:00+08:00",
@@ -3082,7 +3112,7 @@
      "summary_zh": "澳大利亚政府考虑禁止在联邦建筑使用智能眼镜，因隐私安全担忧，涉近20万公务员。"
     },
     {
-     "title": "AI Helps Hackers Open a New Front in Crypto's Cybercrime Wave",
+     "title": "AI Fuels 440% Surge in Hackers Using Blockchains in Attacks",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/ai-helps-hackers-open-a-new-front-in-crypto-s-cybercrime-wave",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/ai-helps-hackers-open-a-new-front-in-crypto-s-cybercrime-wave",
      "published_cst": "2026-09-17T12:00:00+08:00",
@@ -4688,6 +4718,32 @@
      ],
      "title_zh": "土耳其监管机构将清算Tera等运营的基金",
      "summary_zh": "土耳其监管机构清算Tera等资产管理公司部分基金，并处罚涉嫌操纵股价人员，以遏制市场动荡。"
+    },
+    {
+     "title": "Singapore's Record AI Boom Unlikely to Move MAS: Analysts",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/singapore-s-record-ai-boom-unlikely-to-move-mas-analysts-say",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/singapore-s-record-ai-boom-unlikely-to-move-mas-analysts-say",
+     "published_cst": "2026-09-17T08:19:10+08:00",
+     "time": "09-17 08:19",
+     "body": [
+      "Singapore’s electronics exports grew at an unprecedented pace in August as the artificial-intelligence boom shows no signs of waning.",
+      "While boosting the city-state’s economy, the surge is unlikely to stoke price pressures and push the central bank toward aggressive tightening, according to analysts.",
+      "Data released Thursday showed electronics exports last month rose 132% from a year ago. Shipments of personal computers — which include server racks used by data centers — were up 238%, while disk drives climbed 214% and integrated circuits up 91%.",
+      "The Singapore dollar outperformed all Asian peers except for the yen on Thursday and was little changed on Friday.",
+      "After the trade data, Barclays Plc revised its economic growth forecasts for this year and next by a percentage point each, to 5.5% and 4%. Still, economist Brian Tan doesn’t see this translating to significant price pressures, pegging core inflation at just 1.7%, at the lower half of the central bank’s 2026 forecast range of 1.5%-2.5%.",
+      "Tan predicts that the Monetary Authority of Singapore will “very slightly” tighten anew, but mainly because of the commodities price risks related to the Middle East conflict and the El Niño weather disruptions.",
+      "“We view this as a relatively close call, with an elevated risk that the MAS will decide to stay on hold at the upcoming policy meeting” in mid-October, he wrote.",
+      "Neighboring Taiwan held its benchmark rate on Thursday as consumer inflation slows even with the economy rocketing on AI.",
+      "Singapore’s growth has been unevenly driven by the capital-intensive semiconductor sector, where higher output has been achieved by raising capacity utilization, rather than increasing the workforce, according to Tan. And, he added, firms operating in Singapore are likely to repatriate profits, rather than reward employees with inflation-fueling big payouts, like in South Korea.",
+      "Maybank Securities Pte.’s Chua Hak Bin and Brian Lee expect the MAS to stand pat at its meeting in October, noting that policy is already “mildly restrictive” after back-to-back moves in April and July, which likely steepened the policy band by a combined 75 basis points.",
+      "“Optionality is of course there for another tightening at the October monetary policy statement,” said Selena Ling, chief economist at Oversea-Chinese Banking Corp. “But would likely have to see some upside risk to the 2027 core inflation trajectory.”",
+      "The latest data comes as some tech leaders have proposed slowing cutting edge AI development and calling for common safety standards, in the face of cybersecurity and existential threats posed by advanced models.",
+      "Read More: Are We Losing Control of AI? What’s Driving Fears: Explainer",
+      "That call for stricter governance may end up benefiting Singapore, said United Banking Overseas Ltd. economist Jester Koh.",
+      "“Stronger cybersecurity requirements and additional controls on AI development and deployment could, conversely, support chip demand, given the greater computing complexity and data requirements involved,” Koh wrote."
+     ],
+     "title_zh": "新加坡创纪录AI繁荣不太可能促使金管局行动：分析师",
+     "summary_zh": "新加坡8月电子产品出口同比增132%，个人电脑出货量增238%，AI热潮推高经济，巴克莱上调增长预期至5.5%。"
     },
     {
      "title": "What Francis Fukuyama Is Seeing at 'The End of History'",

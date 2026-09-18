@@ -1,16 +1,573 @@
 {
  "date": "20260918",
- "generated_at": "2026-09-18T09:12:55.433442+08:00",
+ "generated_at": "2026-09-18T12:13:56.744838+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 7,
+   "count": 32,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "AI Panic Needs Some Nuclear Metaphors",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-18/ai-panic-needs-some-nuclear-metaphors",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-18/ai-panic-needs-some-nuclear-metaphors",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": [
+      "Much about the global AI panic — could it really “kill us all by the end of the decade”? — is genuinely new, and thus extra-scary. Then again, the specter of human-engineered extinction is hardly novel; we have about eight decades of experience in thinking about it.",
+      "So what metaphors and lessons can we draw from the field of nuclear weapons as we wrap our minds around what lies ahead in artificial intelligence?",
+      "One of the oldest metaphors came from J. Robert Oppenheimer, sometimes called “the father of the atomic bomb.” Writing in 1953, when Washington and Moscow were already able to annihilate one another while irradiating the world, he likened America and the Soviet Union “to two scorpions in a bottle, each capable of killing the other, but only at the risk of his own life.”",
+      "In game theory, which was then in its heyday, Oppenheimer’s analogy was often paired with the Prisoner’s Dilemma, which analyzes the incentives for cooperation or betrayal between two people who are arrested and separately interrogated. Its upshot is that cooperation would be better for both, if they could trust each other; but since they can’t, defection may be the more rational choice.",
+      "These scorpions, or prisoners, bear a passing resemblance to contestants in today’s AI revolution, whether they’re companies (OpenAI and Anthropic, say) or the two AI superpowers, the United States and China.",
+      "Yes, it would be safer, for them and all of humanity, if, as Anthropic’s boss urges, the rivals start cooperating by “pacing the frontier” — voluntarily slowing down to give regulators time to catch up. But each must assume the other could cheat, so it may be safer to keep racing, even if that leads to dead scorpions or miserable prisoners.",
+      "“Whoever wins AI wins,” US President Donald Trump has said, believing that the US is ahead by a nose and seeing no reason to slow down. Beijing, as long as it’s slightly behind, sees no way to ease off without losing. So both hurtle forward.",
+      "Believe it or not, Oppenheimer’s metaphor may nonetheless be too optimistic — or not pessimistic enough — to fit today’s context. When rational players go round after round (as opposed to just once) in the Prisoner’s Dilemma, they can reach stability. That’s what happened during the Cold War in the form of deterrence.",
+      "But as leading AI scholars have been making clear all week, nothing about AI, which has advanced by leaps and bounds just in a few months, is stable. A more apt metaphor may be the one used by Thomas Schelling, a titan of nuclear strategy and winner of the Nobel Prize for his work in game theory.",
+      "As the Cold War advanced, Schelling imagined a situation in which two adversaries find themselves “in a room full of gasoline,” each holding matches. Neither can credibly threaten to strike his match, since the conflagration would kill them both. But each can, through provocation or miscalculation, raise the risk of incineration by inadvertent escalation or accident.",
+      "Schelling was describing a situation of brinkmanship that is captured in game theory with Chicken, a scenario in which two drivers race toward each other. If one swerves, the other wins. If both swerve, neither wins, but both are safe. If neither swerves, they crash. Translated to today’s AI situation, it looks as follows.",
+      "Whereas the Prisoner’s Dilemma allows for rationality (even for scorpions, in this mixed metaphor), Chicken describes something more frightening: the loss of control and, in Schelling’s phrase, a “threat that leaves something to chance.”",
+      "That seems to describe the AI race, as companies in the US, and presumably China, are creating large-language models and other agents that autonomously manipulate or attack other systems and have already done so.",
+      "As if that weren’t scary enough, the industry has also entered the phase of “recursive self-improvement,” as AI agents autonomously build the next generation of even more powerful models. It’s as though, in a gasoline-filled room, the matches were not only making sparks all by themselves but also building new matches, and then sophisticated flame throwers.",
+      "This makes one more metaphor relevant: the sword of Damocles. It was used by President John F. Kennedy in a speech at the United Nations. “Every inhabitant of this planet must contemplate the day when this planet may no longer be habitable,” he said; “every man, woman and child lives under a nuclear sword of Damocles, hanging by the slenderest of threads, capable of being cut at any moment by accident or miscalculation or by madness.”",
+      "That madness resembles visions I’ve had in the past week of AI agents going rogue. If Oppenheimer’s scorpions make us think of retaliation and Schelling’s gasoline-filled room evokes uncontrollable risk, the Damocles sword sums up the panic by positing extinction not for the individual players, but for the species.",
+      "The sword of Damocles allows for hope as well as despair. Hope, because in the years after Kennedy’s exhortation the world achieved a form of détente, with treaties for non-proliferation and arms control (an era that is now sadly turning into one of rearmament again). Today, that would mean collective pacing, plus mutual verification, as well as coordinated regulation by Washington, Beijing and others.",
+      "Better yet, the US and China could start playing a different game, called Stag Hunt. It imagines two hunters who must decide whether to cooperate and kill a stag that would feed both of them for a long time. If either defects, the other catches nothing, while the defector only gets a rabbit.",
+      "In today’s context, the stag represents the huge benefits that AI could bring to humanity, from curing its diseases to fixing its other problems. The upside of nuclear technology was mainly electricity generation; the bonus of superintelligence could be much larger.",
+      "What fills me with awe is the point at which the metaphors and game theory of the Cold War era break down. The scorpions, prisoners, car racers and other characters in our thought exercises all represented humans with agency interacting with an exogenous technology, namely fission. But what happens when the AI models themselves become players?",
+      "AI doesn’t share, at least not intrinsically, our human instinct to avoid catastrophe — a difference euphemistically called the “alignment problem.” That one insight is enough to explain why it’s imperative, as the jargon has it, always to keep a human in the loop, and to go no faster than human speed. This too is a lesson already learned by leaders during the late Cold War: An out-of-control AI contest, like a nuclear war, cannot be won, and must never be fought.",
+      "More From Bloomberg Opinion:",
+      "For more, subscribe to our newsletter."
+     ],
+     "title_zh": "AI恐慌需要一些核隐喻",
+     "summary_zh": "奥本海默曾以瓶中蝎子比喻美苏核对抗，如今AI竞赛中中美及企业同样陷入囚徒困境，双方互不信任只能持续竞速，难以合作减速。"
+    },
+    {
+     "title": "Austria's Plansee Is Challenging China's Critical Minerals Grip on Tungsten",
+     "url": "https://www.bloomberg.com/news/features/2026-09-18/austria-s-plansee-is-challenging-china-s-critical-minerals-grip-on-tungsten",
+     "link": "https://www.bloomberg.com/news/features/2026-09-18/austria-s-plansee-is-challenging-china-s-critical-minerals-grip-on-tungsten",
+     "published_cst": "2026-09-18T04:00:17+08:00",
+     "time": "09-18 04:00",
+     "body": [
+      "Nestled between a turquoise-colored lake and the soaring peaks of the Austrian Alps, Plansee Group is building one of the West’s most formidable critical minerals operations outside China.",
+      "The closely held company, based in the town of Reutte, sells tungsten, a metal that attracts far less attention than rare earths but is no less vital to modern industry. The material’s exceptional hardness makes it ideal for tools that cut and shape car parts. Its resistance to heat is crucial to semiconductor manufacturing. And its extraordinary density, nearly twice that of lead, gives armor-piercing ammunition much of its penetrating power.",
+      "Few metals can match that versatility, but sourcing it comes with a familiar vulnerability: Beijing dominates the supply chain. A series of moves by China over the past two years — restricting exports, drawing in more raw material and, most recently, cutting off key shipments to Japan — has intensified a global scramble for tungsten. In turn, its cost has soared.",
+      "That marks a stark turnaround after years of low prices forced many Western tungsten suppliers out of business. A similar shift is playing out across several critical minerals markets, as Chinese export controls and surging prices put a spotlight on the handful of alternative producers capable of quickly boosting supply.",
+      "Plansee is one of them. The company has built up its position in tungsten over decades, securing ore from a mine in South Korea and expanding US processing alongside its European operations. Today, it’s by far the largest manufacturer outside China, accounting for about 12% of global demand and supplying some of the world’s most valuable companies, including ASML Holding NV and SpaceX.",
+      "Increasingly, the company’s advantage is that much of its tungsten requires no new mining at all. More than 90% of the 15,000 metric tons it can produce each year comes from worn drill bits, milling inserts and other scrap, thanks to two decades spent developing ways to recycle used material into tungsten comparable in quality to that made from ore.",
+      "“Our starting point was China independence,” Chairman Karlheinz Wex said from the company’s headquarters, located a two-hour drive south of Munich. “The basis for becoming independent was recycling.”",
+      "That strategy gives Plansee greater control over its materials — and more leverage as competition for supply intensifies. China still accounts for more than 80% of mined tungsten, while its own supplies are tightening as mines age and domestic demand grows. After the country became a net importer last year, Chinese buyers began aggressively snapping up US scrap, in some cases outbidding domestic traders, according to Wex.",
+      "China also curbed exports of intermediate tungsten products. Wex estimates that about 20,000 tons of material that flowed annually to Western markets a decade ago has since disappeared.",
+      "Amid supply concerns, the Trump administration effectively halted US tungsten scrap exports in August, requiring sellers to offer all of it to domestic buyers.",
+      "Tungsten is a niche market on paper, valued at only around $16 billion globally — about 5% of copper’s. But its reach is far greater. Carbide tools made with the metal are used throughout modern manufacturing, from aircraft and automobiles to computers and phones.",
+      "“The world would stand still without these carbide tools,” said Simon Jost, managing director of Plansee’s Ceratizit unit in Reutte.",
+      "Inside the highly-automated factory, robots navigate between hundreds of workers. They’re ferrying tungsten plates and rods to be stamped, pressed and polished. Some are as thin as a human hair and used by hospitals to perform surgeries. Others look like menacing claws and can bore tunnels through mountains. Nearly every manufactured product requires something to be drilled, cut or shaped along the way, Jost said.",
+      "Tungsten is hardly an isolated case of China’s dominance in critical minerals. The country is the leading refiner of the vast majority of strategic metals, according to the International Energy Agency. The IEA estimates that China’s rare earth export curbs alone could put $6.5 trillion in annual downstream production at risk. Ursula von der Leyen, President of the European Commission, warned this week about “dangerous dependencies” on Beijing for critical minerals.",
+      "Austria central bank Governor  Martin Kocher said policymakers are paying closer attention to how shortages of critical materials can constrain production and fuel inflation. Central bankers have long factored oil and gas into their models. Now they’re looking at less visible inputs such as tungsten, where a shortage of a relatively cheap material can hold up production worth many times more.",
+      "Plansee has treated the squeeze as an opportunity to gain market share and advertise its services. The company’s global network makes it one of the few able to turn scrap and ore into usable tungsten without relying on China. Material collected in Europe can be processed in Austria, Finland or Pennsylvania before moving to factories and customers.",
+      "Recycling leaves Plansee less exposed to volatile mining markets and swings in Chinese exports. The company is a rarity in Europe.",
+      "“We are not particularly good at recycling in Europe right now,” said Román Arjona, chief economist at the European Commission’s internal-market and industry directorate. Too much critical material is still lost because Europe lacks the investment, skills and infrastructure to recover it, he said.",
+      "Recycling also cuts Plansee’s environmental footprint. Products made from recycled tungsten generate four to five times fewer carbon emissions than those made from newly mined material, Wex said. Renewable sources provide 98% of Plansee’s electricity, helping the group cut its carbon footprint by almost a third over the past five years.",
+      "Revenue rose 4% to €2.35 billion in fiscal 2026, and Plansee has invested €145 million in new capacity to process concentrate, make powder and produce higher-value tungsten products.",
+      "Plansee’s location explains some of its success. Jewish chemist and entrepreneur Paul Schwarzkopf founded the company in the Alpine town of Reutte in 1921, lured from Berlin by cheap hydropower from nearby Lake Plansee.",
+      "Schwarzkopf fled to the US as Nazi persecution intensified, and his factory was expropriated and converted into an armaments plant. He returned after World War II and eventually recovered ownership following a prolonged restitution struggle. A century later, the same access to low-carbon power remains a competitive strength.",
+      "Plansee’s ability to produce tungsten outside China is becoming more valuable for the US, in particular. This year, the company formed a joint venture with Manhattan Five Partners — a US property developer that works with the federal government — to build a strategic reserve of tungsten oxide. Plansee plans to expand its Pennsylvania plant to process about 12,000 tons annually, using recycled scrap and ore from approved sources.",
+      "The push is becoming more urgent ahead of January 2027, when new Pentagon restrictions will further limit the use of tungsten originating in China, Russia, Iran or North Korea. Defense suppliers will increasingly need to trace the metal back to where it was mined or recycled and processed — playing to Plansee’s decades of investment in tracking material across borders.",
+      "Plansee is also locking in new supplies. It recently extended a deal to buy tungsten concentrate for another 21 years from   Almonty Industries Inc.’s Sangdong mine in South Korea. Plansee owns about 10% of Almonty, its largest shareholder, which is also restarting the long-shuttered Los Santos mine in Spain.",
+      "Sangdong is instructive of how tough it is to compete with China. The mine closed about three decades ago after cheap Chinese tungsten drove down prices. Now being revived, it could eventually supply as much as 20% of the tungsten concentrate produced outside China, according to Plansee.",
+      "This time, the deal includes protections designed to keep Sangdong viable if prices fall again.",
+      "“You must think long term,” Wex said.",
+      "The European Union is trying to build resilience more broadly. Its Critical Raw Materials Act calls for the bloc by 2030 to extract 10%, process 40% and recycle 25% of the strategic materials it consumes, while reducing dependence on any single foreign country.",
+      "Tungsten illustrates the challenge. Europe has mines, processors such as Plansee and a vast stock of the metal already embedded in tools and machinery. Almonty has been working to start up a major potential project in Spain since 2013, but the future of the operation has been thrown into doubt after a regional government issued a non-binding negative environmental assessment against it in July.",
+      "Ultimately, recycling more tungsten is key to reducing reliance on China — but only if the scrap remains in Europe long enough to be recovered.",
+      "“We need to make sure that all the used tools stay in the Western world,” Jost said."
+     ],
+     "title_zh": "奥地利普兰西挑战中国对钨关键矿产的控制",
+     "summary_zh": "奥地利Plansee集团在中国以外建最大钨生产基地，年产1.5万吨，逾90%来自回收，占全球需求约12%。"
+    },
+    {
+     "title": "King Charles Has a Perfect AI Watchdog for OpenAI and Anthropic",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-18/king-charles-has-a-perfect-ai-watchdog-for-openai-and-anthropic",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-18/king-charles-has-a-perfect-ai-watchdog-for-openai-and-anthropic",
+     "published_cst": "2026-09-18T04:00:15+08:00",
+     "time": "09-18 04:00",
+     "body": [
+      "King Charles met with executives from the world’s top artificial intelligence companies this week, just as they were calling for government help in regulating their risky, frontier systems. The king should point to a source of help in his own backyard.",
+      "The UK’s AI Security Institute is the world’s best-funded agency for testing cutting-edge AI models, thanks to the £240 million ($325 million) it got from the British government in 2025, and an annual budget of about £66 million. The equivalent US agency in Washington, known as the Center for AI Standards and Innovation, gets just $10 million a year.",
+      "AISI is about three years old and has more than 100 technical staff who’ve come from AI safety organizations and academia, as well as tech companies including OpenAI, Anthropic PBC and Google DeepMind, many of them taking a pay cut to join the taxpayer-funded program. Agency workers are bound by strict non-disclosure agreements, but behind closed doors they talk of their concerns about the safety of novel AI systems, the same worry that compelled former Anthropic researcher Jacob Coxon and other engineers to speak out this month. Many also want to see more government intervention in the technology.",
+      "The leaders of AI firms say they want that too, but their warnings are falling on deaf ears in Washington. President Donald Trump is meeting Chinese leader Xi Jinping next week and Nvidia boss Jensen Huang is expected to attend a state dinner, but don’t expect a fruitful discussion about safety. Trump recently said fears about AI’s risks were a hoax and dismissed calls for a slowdown which could let China gain ground. Huang agreed this week, telling Trump, “We’re not going to let that happen, sir.”",
+      "But the “hoax” isn’t going away. The latest evidence comes from OpenAI, which says its AI models have misbehaved in several concerning ways, namely fabricating data and trying to bypass network restrictions. The company wants to report these incidents to the US federal government, and said it would propose a mechanism to do so.OpenAI said in its blog post: \"We also believe that serious safety, security and misalignment incidents should be shared with the US federal government, and we are working to propose reporting mechanisms.\"",
+      "How often do companies ask for more government rules and get refused? Rarely. But specific recommendations like OpenAI’s on reporting are sensible and might just be palatable to the White House. There’s also a good chance AI companies will agree to embed independent evaluators to ensure models are being developed safely. That was a recent suggestion from Anthropic Chief Executive Officer Dario Amodei.",
+      "Those testers would play a vital role not only in scrutinizing risky new innovations but in allaying widespread fears as tech firms race to find the next big breakthrough.",
+      "Models such as ChatGPT initially improved thanks to so-called scaling laws — the notion that more computing power plus more data leads to smarter models. But the gains are becoming more expensive and incremental, leading engineering teams to pursue novel methods like recursive self-improvement, where AI systems help develop their own successors. That was the technique singled out by Coxon in an X post viewed more than 170 million times since Sept. 9, when he accused Anthropic and OpenAI of acting irresponsibly and “racing straight to self-improving superintelligence and gambling with our lives.”OpenAI and Anthropic do hire their own safety auditors, bound by company’s own commercial imperative of course. OpenAI recently posted a job ad for its “preparedness safety team” which offered a pay package of between $295,000 and $445,000 to “support preparations for recursive self-improvement.\" The company said it was “important that people in this role are tasteful and strategic.”",
+      "While the risks can be debated, his warning unquestionably shook public confidence. That alone calls for credible safety evaluations, and makes the identity of the evaluator matter immensely.",
+      "Britain’s AISI already has a track record of testing the latest AI systems. It got early access to Mythos, the Anthropic model that was initially restricted because of its cyber capabilities. The government-backed agency lacks a commercial conflict of interest, and its base in London gives it meaningful distance from the financial and ideological bubble of Silicon Valley.",
+      "“Our view is there should be a diverse range [of evaluators],” Mustafa Suleyman, the CEO of Microsoft AI, tells me. “AISI would be a good candidate.”",
+      "There are indeed other evaluation groups to choose from. Amodei recommends METR (Model Evaluation and Threat Research), the Berkeley, California-based research firm, but there are questions about its independence. Having a government agency as an assessor would create a clearer route from testing to enforcement. AISI itself doesn’t have policing power today, and its relationships with AI labs are voluntary. It makes sense to give the agency more teeth. After all, what’s the point of monitoring dangerous new technology if you can’t stop it from being built?",
+      "Some of the most important regulators of high-risk technology are government backed, from the International Atomic Energy Agency based in Vienna to the Federal Aviation Administration in Washington.",
+      "The same principle should apply to AI. Altman and Amodei may have their own ideas about who should oversee their work, but in the spirit of proper oversight, the choice shouldn’t be entirely theirs.",
+      "It would be a great irony if meeting King Charles, a symbol of Britain’s former empire, helped encourage today’s American tech royalty to think about empowering a sophisticated AI inspector in London. But it would be prudent to do so. The UK has already built the watchdog they say they want. The next step is inviting it in and giving it some real authority.",
+      "More from Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? OPIN <GO>. Or subscribe to our daily newsletter."
+     ],
+     "title_zh": "查尔斯国王拥有人工智能监管的理想人选，可监督OpenAI和Anthropic。",
+     "summary_zh": "英国AI安全研究所获2.4亿英镑拨款，成全球资金最充足的AI测试机构，而美国同类机构年预算仅1000万美元。"
+    },
+    {
+     "title": "'King CATL' Stranglehold on Chinese EV Makers Starts Loosening",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/-king-catl-stranglehold-on-chinese-ev-makers-starts-loosening",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/-king-catl-stranglehold-on-chinese-ev-makers-starts-loosening",
+     "published_cst": "2026-09-18T03:51:16+08:00",
+     "time": "09-18 03:51",
+     "body": [
+      "Contemporary Amperex Technology Co. Ltd. has long dominated the global market for electric-vehicle batteries. Now some of its customers in China are trying to break free.",
+      "Automakers including Li Auto Inc. and Xiaomi Corp. have started to design their own cells and are adding new suppliers including Sunwoda Electronic Co. The moves have sparked concerns that a larger trend of “de-CATLization” is behind the company’s recent $100 billion market rout.",
+      "The carmakers are trying to “enhance their bargaining power” because they’re squeezed by components inflation, said Morgan Stanley analyst Tim Hsiao. “It’s a good idea and makes commercial sense to diversify.”",
+      "The push reflects the tensions between large suppliers and their customers in the world’s largest auto market, where fierce pricing competition is weighing on carmaker margins. Profits at CATL, however, have continued to grow in large part because of its outsized market dominance and pricing power.",
+      "“CATL takes all the profits, squeezing downstream automakers,” Hu Xijin, former editor-in-chief of China’s nationalist tabloid Global Times, wrote in a Weibo post this week. “There’s a saying circulating in the industry: the world has suffered under King CATL for too long.”",
+      "CATL didnt’ immediately respond to a request for comment. The company’s shares declined 0.9% in Shenzhen. They’re down 17% this year.",
+      "Read More: CATL Shares Drop 10% in Two Days as Outlook Worries Mount",
+      "Li Auto has been at the forefront of the diversification push and plans to gradually supply all of its models with self-developed batteries, it said on Sept. 7. Earlier this year, the company’s new i6 electric sedan was delayed when CATL didn’t deliver batteries on time. Li Auto had to tap alternative supplier Sunwoda to ease the bottleneck.",
+      "Xiaomi, which has long relied on batteries from CATL and BYD Co., earlier this month unveiled a new battery platform designed with two smaller producers, CALB Group Co. and Sunwoda. Called Longjia, it’s slated to go into Xiaomi’s new line of Skynomad sport utility vehicles.",
+      "With the development of autonomous driving, carmakers have also begun to focus more on developing energy systems and battery expertise in house, said Hsiao, the Morgan Stanley analyst.",
+      "“So, on one hand, it’s driven by business strategy, while on the other hand, power solutions remain very important for their future development — not only for vehicles but also for embodied AI,” he said."
+     ],
+     "title_zh": "宁德时代对中国电动车企的钳制开始松动",
+     "summary_zh": "宁德时代遭车企“去宁化”，理想、小米等自研电池并引入新供应商，市值蒸发千亿美元。"
+    },
+    {
+     "title": "Chinese Robotics Suppliers Rise on Tesla Optimus Audit Report",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/chinese-robotics-suppliers-rise-on-tesla-optimus-audit-report",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/chinese-robotics-suppliers-rise-on-tesla-optimus-audit-report",
+     "published_cst": "2026-09-18T03:50:46+08:00",
+     "time": "09-18 03:50",
+     "body": [
+      "Shares of Chinese robotics‑component suppliers climbed after a local report said Tesla Inc. teams had arrived in the country to audit suppliers and place additional orders to boost production of its Optimus humanoid model.",
+      "The Solactive China Humanoid Robotics Index, which tracks companies in the sector, jumped as much as 2.4% following the report by 21st Century Business Herald. Shares of actuator maker Ningbo Tuopu Group, which rose as much as 7%, contributed the most to the index’s gain. Sensor manufacturer Ningbo Joyson Electronic Corp. and thermal-management supplier Zhejiang Sanhua Intelligent Controls Co. both advanced by more than 4%.",
+      "The stock moves highlight the key role of Chinese suppliers in robotics development worldwide. Optimism around humanoid robots has emerged as an important theme in China’s market this year, driving gains in automation and precision‑manufacturing shares.",
+      "“Tesla’s reported supplier audits are a positive commercialization signal for China’s humanoid supply chain, pointing to progress toward repeatable Optimus production,” Bloomberg Intelligence analyst Ian Ma said. “Near-term sentiment could stay supported if audits lead to confirmed supplier nominations and larger orders.”",
+      "Tesla’s teams arrived in the city of Ningbo this week for audits focused on production consistency and exclusivity requirements, the local report said, citing unnamed supply-chain sources. The US tech company, chaired by billionaire Elon Musk, has already begun placing orders from suppliers tied to the Optimus robot, the report said.",
+      "Tesla didn’t immediately respond to a Bloomberg request for comment.",
+      "While accelerating production of Optimus may lift suppliers’ near‑term outlook, Ma said earnings impact across the supply chain is likely to stay modest until robot volumes scale up.",
+      "In July, Musk said 2026 will be a ‘massive’ capex year, with plans to spend more than $25 billion and significantly expand factory operations, including the production of Optimus robots.",
+      "READ: Tesla Sinks on Investor Angst Over AI Spending, Profit Drop (1)"
+     ],
+     "title_zh": "中国机器人供应商因特斯拉擎天柱审计报告上涨",
+     "summary_zh": "特斯拉团队赴宁波审核供应商并追加Optimus订单，中国机器人概念股大涨，指数一度升2.4%，拓普集团涨7%。"
+    },
+    {
+     "title": "China Urges Stable Coal Output as Prices Rise to Three-Year High",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/china-urges-stable-coal-output-as-prices-rise-to-three-year-high",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/china-urges-stable-coal-output-as-prices-rise-to-three-year-high",
+     "published_cst": "2026-09-18T03:45:32+08:00",
+     "time": "09-18 03:45",
+     "body": [
+      "China’s government urged coal miners to ensure stable production and supply after spot prices for the power-station fuel rallied to the highest level in nearly three years.",
+      "The National Development and Reform Commission, National Energy Administration, and National Mine Safety Administration recently issued a joint notice calling on coal-producing regions and companies to accelerate efforts to ensure steady output and promote the reopening of mines to support economic growth and energy supply, the NEA said in a post on its WeChat account.",
+      "Chinese coal output has fallen after a deadly accident in Shanxi province in May prompted a series of safety inspections. Coking coal for steel-making initially felt the biggest impact, with futures rising to a two-year high in early September.",
+      "Spot prices for thermal, or power-station, coal have recently surged as electricity generators stock up on supplies before a busy holiday period in the country with the Mid-Autumn Festival and National Day occurring within days of each other. Prices at the hub of Qinhuangdao rose 1.9% this week to 980 yuan ($146), the highest level since October 2023."
+     ],
+     "title_zh": "中国敦促稳定煤炭产量 煤价升至三年高位",
+     "summary_zh": "中国煤价升至近三年高点，发改委等部门要求加快煤矿复产以保障供应。"
+    },
+    {
+     "title": "AirAsia Founder Hits Back at Critics as Airline's Stock Slumps",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/airasia-founder-hits-back-at-critics-as-airline-s-stock-slumps",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/airasia-founder-hits-back-at-critics-as-airline-s-stock-slumps",
+     "published_cst": "2026-09-18T03:44:30+08:00",
+     "time": "09-18 03:44",
+     "body": [
+      "A defiant AirAsia Group Bhd. co-founder Tony Fernandes said reports Malaysia’s government has asked rivals for help were false, saying the low-cost airline will emerge from its current crisis stronger than before.",
+      "The airline’s woes have mounted this year following the outbreak of war in the Middle East, which sent oil and jet fuel prices surging. Its stock has plunged around 75% — since the conflict started amid concern the carrier is under growing financial strain. The carrier has taken the unusual step of offloading six newly-delivered planes, including two in July, Bloomberg News reported earlier.",
+      "“We’ve been through many many crises, but we’ve always come out stronger,” Fernandes said at a briefing Friday in Bangkok. “Covid was far, far worse than what we are dealing with now.”",
+      "The hastily arranged briefing came after AirAsia’s stock slumped 21% to a four-year low on Thursday after reports Malaysia’s government had asked other local airlines to potentially absorb the cash-strapped carrier’s domestic market share.",
+      "“I can say confidently the government said we never said anything like that,” Fernandes said. “You cannot just say, “Oh, this airline is going to take AirAsia’s capacity.” I mean, it’s the most ludicrous statement I have seen in 25 years.”",
+      "AirAsia had 954 million ringgit ($233 million) in cash and equivalents as of the end of June, one of the lowest balances among airlines tracked by Bloomberg globally.",
+      "“I have better things to do right now than have this press conference” because of an inaccurate article, he said. “We are good at managing cash and we are strong in liquidity,” he added.",
+      "“Things get blown out of proportion when it’s AirAsia,” Fernandes said. “I sneeze, it’s a big story.”"
+     ],
+     "title_zh": "亚航创始人回击批评，股价暴跌",
+     "summary_zh": "亚洲航空否认马来西亚政府要求其他航司接手其市场份额，联合创始人费尔南德斯称公司现金充裕，将比以往更强大地走出危机。"
+    },
+    {
+     "title": "BOJ Split Vote Sends Bearish Signal on Yen, Strategists Say",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/boj-split-vote-sends-bearish-signal-on-yen-strategists-say",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/boj-split-vote-sends-bearish-signal-on-yen-strategists-say",
+     "published_cst": "2026-09-18T03:29:32+08:00",
+     "time": "09-18 03:29",
+     "body": [
+      "The yen dropped after the Bank of Japan’s decision to hike rates as a split vote sent bearish signals, strategists said. The Japanese currency fell as much as 0.8% and bond markets erased earlier gains after the central bank raised its benchmark interest rate by a quarter percentage point to 1.25%.",
+      "Board members voted 7-2 to raise the key rate in a move was predicted by all economists surveyed by Bloomberg. Investor focus now shifts to Governor Kazuo Ueda’s post-decision press conference scheduled for 3:30 p.m. Tokyo time.",
+      "Read more: BOJ Hikes Rates at Fastest Pace Since 1990 as Inflation Persists",
+      "Here’s what strategists are saying:",
+      "Nikos Tzabouras, senior financial strategist at Tradu",
+      "Masahiro Ichikawa, chief market strategist at Sumitomo Mitsui DS Asset Management",
+      "Masahiko Loo, senior fixed income strategist at State Street Investment Management:",
+      "Naomi Muguruma, chief bond strategist at Mitsubishi UFJ Morgan Stanley Securities",
+      "Neil Newman, head of strategy at Astris Advisory Japan",
+      "Hirofumi Suzuki, chief FX strategist at Sumitomo Mitsui Banking Corp.",
+      "Homin Lee, senior macro strategist at Lombard Odier Singapore Ltd.",
+      "Chidu Narayanan, chief APAC strategist at Wells Fargo in Singapore"
+     ],
+     "title_zh": "日本央行分歧投票释放日元看跌信号，策略师称",
+     "summary_zh": "日本央行加息25个基点至1.25%，投票分歧致日元一度跌0.8%，债市回吐涨幅。"
+    },
+    {
+     "title": "Flooding Kills Three People as Heavy Rains Hit Northern Vietnam",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/flooding-kills-three-people-as-heavy-rains-hit-northern-vietnam",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/flooding-kills-three-people-as-heavy-rains-hit-northern-vietnam",
+     "published_cst": "2026-09-18T03:18:59+08:00",
+     "time": "09-18 03:18",
+     "body": [
+      "Heavy rains triggered flooding and landslides across northern Vietnam, killing three people and damaging thousands of homes as well as more than 22,000 hectares of crops.",
+      "The northern region has experienced downpours since Sept. 14, with some areas receiving as much as 653 millimeters of rain, according to a statement on the government’s website. More than 16,000 of houses have been inundated while rice and other crops have been damaged.",
+      "National and provincial roads have been affected by 11 landslides and flooding in 30 locations, causing traffic tie-ups. The Hanoi-Ho Chi Minh City railway was flooded to a depth of about one meter. Several train services on the north-south railway were suspended Thursday and Friday.",
+      "In the northern coastal province of Thanh Hoa, more than 29,000 officials and soldiers were mobilized for emergency assistance.",
+      "Some Hanoi schools switched to online classes or gave students the day off Thursday as streets inundated with as much as one-meter of floodwaters caused gridlocked in the center of the capital city, state media reported. More heavy rain is expected from Thanh Hoa province to the city of Hue through the weekend, with some areas forecast to receive a deluge of over 100 millimeters.",
+      "Vietnam’s long coastline makes it vulnerable to storms roaring in from the South China Sea, while climate change and deforestation have increased the country’s potential for severe damage. As many as five more storms are expected off the coast the rest of the year, with one or two possibly sweeping over Vietnam’s mainland.",
+      "Natural disasters have killed or left 63 people missing in Vietnam in 2026, causing total losses of around 2.2 trillion dong ($84.6 million). Financial losses are down 84.9% from the same period last year when the country was hit by severe typhoons and flooding, according to separate government statement.",
+      "Meanwhile, El Nino is expected to reduce rainfall in central and southern Vietnam by 10% to 50% later this year, potentially affecting around 350,000 hectares of rice in the Mekong Delta. Severe water shortages are also forecast in the central highlands, the country’s largest coffee growing region.",
+      "Read More: El Niño Worsens Plight of Asia’s Rice Belt After War Price Shock"
+     ],
+     "title_zh": "暴雨袭击越南北部，洪水致三人死亡",
+     "summary_zh": "越南北部暴雨引发洪灾和山体滑坡，造成3人死亡、逾1.6万栋房屋被淹、2.2万公顷农作物受损。"
+    },
+    {
+     "title": "Yen Extends Declines After BOJ Hikes Rates With Two Dissents",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/yen-drops-against-dollar-after-boj-raises-rates-as-expected",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/yen-drops-against-dollar-after-boj-raises-rates-as-expected",
+     "published_cst": "2026-09-18T03:03:57+08:00",
+     "time": "09-18 03:03",
+     "body": [
+      "The yen extended its drop against the dollar after the Bank of Japan lifted interest rates as expected, with two dissents casting doubts on the outlook for further policy tightening.",
+      "Japan’s currency fell as much as 0.7% to 157.09 per greenback, while Japanese government bonds erased earlier gains. While the move was predicted by all economists surveyed by Bloomberg, the vote was 7-2 as board members Toichiro Asada and Ayano Sato dissented.",
+      "Read more: BOJ Hikes Rates at Fastest Pace Since 1990 After Bessent’s Calls",
+      "The outcome was “not hawkish enough for markets and should push USDJPY higher and front-end JPY yields lower,” said Chidu Narayanan, chief APAC strategist at Wells Fargo. “Two dissents at this meeting, albeit from the two most dovish members of the board, does not support market expectations of a slew of rapid rates hikes from the BOJ.”",
+      "Japan’s Nikkei 225 extended gains to as much as 2% in afternoon trading as the yen weakened. The Topix index was little changed as financial shares weighed on the broader gauge. Spillover in other currency and bond markets was also limited.",
+      "The BOJ’s rate increase came after the Federal Reserve’s hawkish hike earlier this week pushed the yen weaker, partly reversing a sharp rally earlier this month fueled by expectations of faster BOJ tightening, an unwind of yen-funded carry trades and speculation that Japanese pension funds could shift more money to domestic assets.",
+      "Traders will focus on BOJ Governor Kazuo Ueda’s post-decision press conference, which typically starts at 3:30 p.m. in Tokyo, for clues on the pace and scope of further tightening.",
+      "“I expect a neutral-to-slightly hawkish tone, emphasizing that every meeting remains ‘live’ from here given resilient growth, persistent inflation risks and a policy rate that remains accommodative even at 1.25%,” said Masahiko Loo, senior fixed income strategist at State Street Investment Management.",
+      "Strategists say dollar-yen could climb toward 160 if investors conclude the BOJ’s tightening path will struggle to keep pace with the Fed’s. The risk is particularly acute if subsequent communication from the BOJ is interpreted as dovish, given that a quarter-point increase had already been largely priced into markets.",
+      "The latest slide also puts intervention risk back in focus after Japan and the US carried out their first coordinated yen-buying operation this summer since 1998. Officials have emphasized the speed and disorderliness of currency moves rather than any specific level, but another push toward 160 could test their tolerance.",
+      "“We should expect further Japan-US intervention in forex markets if the yen is pressured again past 160 per dollar,” said Neil Newman, head of strategy at Astris Advisory Japan.",
+      "Japan spent a record ¥15.4 trillion ($98.3 billion) on intervention in the month through Aug. 26, according to Finance Ministry data. US Treasury Secretary Scott Bessent has since continued to signal support for a stronger yen, potentially adding to traders’ reluctance to rebuild bearish positions."
+     ],
+     "title_zh": "日本央行加息两票反对后日元续跌",
+     "summary_zh": "日本央行加息后日元兑美元一度跌0.7%至157.09，两名委员反对令进一步紧缩前景存疑。"
+    },
+    {
+     "title": "Big Iron Ore Miners Deplete Reserves Faster Than They Replace",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/big-iron-ore-miners-deplete-reserves-faster-than-they-replace",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/big-iron-ore-miners-deplete-reserves-faster-than-they-replace",
+     "published_cst": "2026-09-18T03:02:18+08:00",
+     "time": "09-18 03:02",
+     "body": [
+      "The world’s biggest iron ore producers are depleting ore reserves faster than they can replenish them, as the cost and complexity of developing replacements continues to rise, according to Wood Mackenzie Ltd.",
+      "The six largest iron ore producers, which includes BHP Group and Rio Tinto Group, collectively depleted 11.1 billion tons of ore reserves that could be sold between 2016 and 2025, the consultancy said in a report released Thursday. Only three replaced the volume they mined over the period, and some spent five times more than others to add new reserves, it found.",
+      "The industry is increasingly facing an issue with grade depletion, which occurs when the average iron ore content in a mine drops as it ages and requires operators to dig deeper and invest more to extract. Miners are now reaching a point where it’s no longer about growth, but keeping operations running.",
+      "“The main challenge for the current iron ore industry is rising costs to maintain existing production,” said Mihir Vora, Wood Mackenzie’s research director for metals and mining. “The industry is investing to sustain production, but it is having to work harder to stand still.”",
+      "Read More: The World’s Biggest Iron Ore Windfall Is Fading for Australia",
+      "Costs for major miners have roughly doubled for some companies since 2016, Wood Mackenzie said. Cash margins across the industry peaked in 2021 and have since settled at around $50-$60 a ton, shrinking the margin to absorb rising costs and falling prices.",
+      "The analysis also found ore grades had fallen by as much as 1.6 percentage points among some miners since 2016. Higher-grade material is increasingly required to offset the depletion of lower-grade ore, while impurity levels, including alumina, are rising in some products."
+     ],
+     "title_zh": "大型铁矿石开采商储量消耗快于补充",
+     "summary_zh": "全球六大铁矿石生产商2016至2025年消耗111亿吨可售储量，仅三家实现补充，成本翻倍、品位下降，行业面临维持生产而非增长挑战。"
+    },
+    {
+     "title": "When War Damages Cultural Treasures, What Can UNESCO Do?",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-18/when-war-damages-cultural-treasures-what-can-unesco-do",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-18/when-war-damages-cultural-treasures-what-can-unesco-do",
+     "published_cst": "2026-09-18T03:00:17+08:00",
+     "time": "09-18 03:00",
+     "body": [
+      "I don’t know if artificial intelligence poses an existential threat, but the human damage to civilization’s cultural legacy is a matter of record. It continues to this day with the violent erosion of our historical heritage through war.",
+      "This week, Saudi Arabia said it intercepted a drone attack on Mecca launched from Yemen by Iran-backed Houthi rebels. The Saudis said it was the second such attempt, citing a ballistic-missile launch nine years ago. The Houthis denied firing drones toward the birthplace of the Prophet Muhammad; in 2017, they said they were targeting a military installation some 40 miles from the holy city.",
+      "In April, I wrote about the risks posed to the splendid 400-year-old Shah mosque in Isfahan by US and Israeli bombing of Iran’s nearby nuclear research hub. The historic edifice hasn’t suffered a direct hit, but blast waves from the assaults have shaken tiles loose and damaged windows. The United Nations Educational, Scientific and Cultural Organization (UNESCO) has designated the mosque and nearly 1,000 other cultural monuments around the world as “so exceptional as to transcend national boundaries and to be of common importance for present and future generations of all humanity.” That hasn’t prevented desecration.",
+      "Last week, two UNESCO arms released a joint report about the damage inflicted on a 1,000-year-old Hindu clifftop temple during last year’s border dispute between Thailand and Cambodia. The agency suggested those responsible could face “criminal liability” — but the legal, evidentiary and regulatory hurdles to pursuing that route are laborious. Despite surviving centuries of depredation, these priceless relics rarely have the luxury of time.",
+      "At least two international courts have adjudicated on the Thai-Cambodia quarrel, recognizing the promontory hosting the ancient Preah Vihear temple as Cambodian. But they left open the question of who owns the surrounding territory, which sits directly on the frontier between the two nations. And so the fighting engulfed the entire area, including the temple. A photo published by UNESCO appears to show the collapse of the front of one ornamental gateway in the complex.",
+      "Criminal liability was also a potential recourse in 2024 after Israeli bombing in Lebanon came close to the 2,000-year-old Temple of Jupiter in Baalbek and the archaeological zones of Tyre, which include Roman baths and crusader fortifications. Instead, Lebanese officials requested — and eventually received — what’s called “enhanced protection” from UNESCO’s Committee for the Protection of Cultural Property in the Event of Armed Conflict. That adds an additional level of moral opprobrium to any attack that vandalizes the sites. Lebanon pledged that the locations wouldn’t be used for military purposes.",
+      "But ethical qualms aren’t enough to deter destruction, especially when non-state actors are involved. From 2015 to 2017, the terrorist group Islamic State demolished several temples in the ancient Syrian city of Palmyra. These included the Temple of BelThe name of the Palmyrene god Bel derives from the semitic word Baal (Lord) that was a generic name for the pagan rivals of the monotheistic deity of ancient Israel., which was dedicated in the year 32, arguably within the lifetime of Jesus of Nazareth. It predated the Colosseum in Rome. The battles that eventually retook the site from ISIS further despoiled Palmyra.",
+      "Criminal prosecutions may be easier if the antagonists are not nation states — and you can identify specific assailants. In 2012, Islamist fighters associated with Al-Qaeda smashed most of the historic mausoleums in the city of Timbuktu in Mali, some of which date to the 13th century. The episode produced the only conviction of any person for the war crime of heritage destruction: Ahmad Al Faqi Al Mahdi, the head of the Ansar Dine militia’s morality police during its 10-month occupation of the city. He was imprisoned first in the Netherlands and then in Scotland; his whereabouts since completing his sentence (nine years reduced to seven) are unknown.",
+      "Although a legal precedent was established, no comparable punishments have followed. In the meantime, the tombs — traditionally constructed of mud in the manner of the Great Mosque of Djenne to the south of Timbuktu — have been rebuilt.",
+      "Even if it falls short of providing protection in times of war, UNESCO’s list of heritage sites embodies our reverence for the past, appealing to primal instincts that are the opposite of carnage: preservation and remembrance.",
+      "Take the Dormition Cathedral in Kyiv. Built in the 11th century, it went through several alterations before suffering a catastrophic fire in the 18th century. Rebuilt shortly afterwards with baroque splendor, it was destroyed again in 1941 either by occupying Nazis or opposing resistance forces. It remained a ruin for six decades until Ukraine became independent following the collapse of the Soviet Union. The cathedral’s UNESCO-approved reconstruction was completed in 2000.",
+      "And then, on June 15, 2026, a Russian drone attack set the cathedral roof on fire and damaged the interior.",
+      "AI is trained on human knowledge and thus absorbs human foibles — but surely something of our nobler selves can also be incorporated. I can only hope that UNESCO’S records feed into the models and can influence computer-directed military operations to avoid attacking these communal treasures.",
+      "More From Bloomberg Opinion:",
+      "Want more Bloomberg Opinion? OPIN <GO>. Or subscribe to our daily newsletter."
+     ],
+     "title_zh": "当战争破坏文化瑰宝，联合国教科文组织能做什么？",
+     "summary_zh": "沙特称拦截也门胡塞武装对麦加的无人机袭击，胡塞否认。"
+    },
+    {
+     "title": "The $2.4 Billion Legacy Project Changing Belgrade",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/the-2-4-billion-legacy-project-changing-belgrade",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/the-2-4-billion-legacy-project-changing-belgrade",
+     "published_cst": "2026-09-18T03:00:15+08:00",
+     "time": "09-18 03:00",
+     "body": [
+      "Every few weeks, Serbian President Aleksandar Vucic visits the sprawling EXPO 2027 construction site just outside Belgrade to check on the $2.4 billion investment seen locally as his legacy project, and to update his social media followers on the progress.",
+      "As he stood by massive steel plinths in late July, trucks transported sand to and from the future pavilions of more than 140 countries. The event — the biggest of its kind in the Western Balkans since the wars that tore up former Yugoslavia three decades ago — will serve as an “engine that will drive development” from tourism and hospitality to construction, transport and trade, Vucic said in an Instagram video.",
+      "He has also said he hopes that it will help recast Serbia’s image. Action movie star Jackie Chan, Olympic gold medalist Usain Bolt, Chinese badminton champion Lin Dan, as well as Serbia’s own Jelena Jankovic, a former top-ranked tennis player, serve as brand ambassadors.",
+      "When the three-month-long exhibition – ‘Play for Humanity: Sport and Music for All’ – ends in August, the complex is slated to become a new suburb of the capital, with thousands of apartments, a rail link to the airport, and a dock on the Sava River. A sports stadium big enough to seat 52,000 people will be completed in 2028, ready to host the UEFA Europa League final a year later.",
+      "Vucic wants to see the project through to completion, but he and his ruling Progressive Party would need to win an election next month. He has called a snap parliamentary vote for Oct. 25 as he plans to step down as president and run for prime minister in a bid to extend his hold on power over the nation of 6.6 million people. Some polls indicate it’s a tight race that he may lose.",
+      "Vucic has dominated Serbia’s politics for more than a decade. During that time the country attracted more foreign investment than any other in the western Balkans as he balanced ties between the European Union, Russia, China and the US. The economy doubled to around $99.95 billion. But he’s facing mounting public discontent with his rule.",
+      "Over the past two years, student-led protests have grown into a mass movement that has now entered electoral politics. Its candidates promise to battle corruption, improve the rule of law and judicial independence, expand labor rights and ensure better access to health care and education.",
+      "Such tensions have made EXPO 2027 a lightning rod for political opponents, who see the event as a way for the ruling administration to siphon off public funds, while increasing public debt and widening the wealth gap between Belgrade and the provinces.",
+      "Five small opposition groups, including the People’s Movement of Serbia, have called on the Paris-based Bureau International des Expositions, which chose Belgrade, to cancel the exhibition. They also warned about “risks to the security and health” of participants, citing the concrete canopy collapse at a renovated train station in 2024 that killed 16 people.",
+      "Those worries surfaced in a European Parliament report on Serbia last year, which urged participants to “take into account the serious concerns and evidence of widespread corruption linked to the ruling authorities, as well as the reported lack of compliance with basic construction standards and legal requirements in the organization and construction.”",
+      "The authorities have dismissed the claims as politically motivated and baseless.",
+      "The 25 hectare- (62 acre-) exhibition site used to be farmland. Serbia is investing €1.23 billion ($1.4 billion) in its transformation into fairgrounds, and another €700 million in related infrastructure, according to EXPO 2027, the state company overseeing the preparations. Fees for the brand ambassadors haven’t been disclosed, and the organizers say the celebrities will be paid by unspecified sponsors.",
+      "Around 1.6 million visitors are expected at the event. The Belgrade-based Louis Berger Adria consultancy estimated it will generate more than €9 billion in new value for the economy by 2037 and €3.8 billion in tax revenues over 10 years. It said that every dinar of public investment may generate 1.91 dinars in tax revenue, along with boosting employment.",
+      "“It’s been an enormous challenge but the benefits are even bigger,” said EXPO 2027 director Danilo Jerinic in an interview.",
+      "Serbia has selected PowerChina as the main contractor, and has asked the Beijing-based company to add a thousand more laborers to ensure pavilions are ready by December, according to Jerinic. More than 4,000 people are already working in three shifts around the clock, he said.",
+      "After the exhibition, around 700 hectares of adjacent land will be offered to private companies, mainly real estate developers. Residents of this new area will have access to schools, retail and office space, as well as the Nikola Tesla airport rail link. And, by reinforcing the Sava River embankment with a port, a waterborne route to central Belgrade.",
+      "Such a carefully planned urban space would mark a break from practices of the past three decades, when authorities often turned a blind eye to structures built without permits or planning, leading to shanty town-style suburbs near cities, including the capital.",
+      "For Jerinic, “the EXPO will be an example of how to activate a completely new location in a city.”"
+     ],
+     "title_zh": "24亿美元遗产项目改变贝尔格莱德",
+     "summary_zh": "塞尔维亚总统武契奇斥资24亿美元建EXPO 2027，欲借此拉动经济并重塑形象，但面临下月大选和抗议浪潮，连任存疑。"
+    },
+    {
+     "title": "Copper Set for Weekly Gain as Chinese Buyers Return to the Fore",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/copper-set-for-weekly-gain-as-chinese-buyers-return-to-the-fore",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/copper-set-for-weekly-gain-as-chinese-buyers-return-to-the-fore",
+     "published_cst": "2026-09-18T02:58:25+08:00",
+     "time": "09-18 02:58",
+     "body": [
+      "Copper headed for a weekly gain, as signs of a rebound in Chinese demand helped to offset hawkish messaging from the Federal Reserve about the likelihood of more interest rate rises.",
+      "Benchmark futures were little changed near $14,460 a ton on the London Metal Exchange on Friday, on pace for the 11th weekly advance in the past 12. That streak saw the metal advance to a record earlier this month.",
+      "In China, the Yangshan premium — a gauge of demand named after the port in Shanghai that’s a major entry point for imported copper — rose to $121 a ton on Thursday, the highest level since November 2022. Meanwhile, domestic copper production fell slightly in August from the month before.",
+      "Copper has risen 16% this year as bets that the Trump administration would hit refined metal with tariffs triggered a surge of imports into the US, squeezing availability elsewhere. This week’s hike by the Fed — the first since 2023 — had little impact, even with hawkish messaging on the scope for further tightening. Higher rates typically damp demand for non-yielding assets like commodities.",
+      "“We expect base metals to remain mostly range-bound in the coming weeks, as supply-side risks offset a fragile macro backdrop,” analysts at BMI, a Fitch Solutions company, said in a note. “Markets continue to wait for a firm decision on US copper tariffs.”",
+      "Copper was 0.2% lower at $14,458.50 a ton on the LME at 10:57 a.m. in Singapore. Other metals were little changed, with aluminum declining 0.3%.",
+      "Iron ore added 0.8% to $97.15 a ton in Singapore, rising for a third day."
+     ],
+     "title_zh": "铜价有望录得周涨幅，因中国买家重返市场",
+     "summary_zh": "铜价有望周线上涨，因中国需求复苏迹象抵消了美联储的鹰派信号，伦铜报每吨14458.50美元。"
+    },
+    {
+     "title": "BOJ Hikes at Fastest Pace Since 1990 After Bessent's Calls",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/boj-hikes-rates-at-fastest-pace-since-1990-as-inflation-persists",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/boj-hikes-rates-at-fastest-pace-since-1990-as-inflation-persists",
+     "published_cst": "2026-09-18T02:54:25+08:00",
+     "time": "09-18 02:54",
+     "body": [
+      "The Bank of Japan raised its benchmark interest rate, ramping up the pace of hikes to the fastest in 36 years as it confronts mounting inflation risks and unusually explicit calls for further policy normalization from Washington.",
+      "The BOJ lifted its policy rate by a quarter point to 1.25% Friday at the end of a two-day meeting, according to its statement, in a move predicted by all economists surveyed by Bloomberg. The vote was 7-2 as board members Toichiro Asada and Ayano Sato dissented.",
+      "The yen weakened to 156.95 against the dollar after the highly telegraphed move, with no strong sign of more hawkish language in the statement to fuel bullish bets on Japan’s currency.",
+      "The move, coming just three months after the BOJ’s previous increase, marks the shortest interval between rate hikes since 1990, when the central bank’s rapid policy tightening played a key role in bursting Japan’s asset bubble. It was the sixth rate increase under Governor Kazuo Ueda — the most by any BOJ chief in at least half a century — and came after a wave of US pressure from Treasury Secretary Scott Bessent to push up rates.",
+      "The BOJ’s accelerated pace of hikes comes after a shift in the global backdrop for monetary policy as authorities address the fallout from the Iran war. The Federal Reserve underscored the change Wednesday with its first rate hike in three years, while also penciling in another move later this year, and the European Central Bank raised rates last week for the second time this year.",
+      "The latest hike in Japan marks the first time that the BOJ, Fed and ECB have all raised borrowing costs in the same month. The synchronized moves also underscore how far the BOJ has come from its longtime status as a global monetary policy outlier.",
+      "The increase came as little surprise after a salvo of remarks from Bessent helped cement market expectations for a move.",
+      "While the yen weakened against the dollar shortly after the announcement, it remains stronger than its levels in July after coordinated intervention by the US and Japan at the end of that month helped push it further from the roughly 40-year low of 163.99 set on July 23.",
+      "The BOJ reiterated its stance that it would continue raising rates if its outlook for the economy and prices is realized. At 1.25%, the policy rate would for the first time sit inside the lower end of the bank’s estimated range for the neutral rate, a level considered neither stimulative nor restrictive.",
+      "Bessent’s repeated remarks supporting BOJ action in the run-up to the board meeting helped fuel expectations for a rate increase, with the move almost fully priced in by early September. In a face-to-face meeting with Ueda in North Carolina last month, Bessent “expressed strong support” for Japan’s decisive steps to address the weakening of the yen, according to the Treasury Department.",
+      "Japan’s key inflation gauge remained above 2% for a fourth straight year through 2025, and the BOJ expects inflation to stay above its target in coming years. Data released earlier Friday showed that core inflation slowed a tad in August thanks partly to distortions from subsidies. Analysts expect price gains to accelerate toward 3% by early next year.",
+      "Ueda is set to explain the thinking behind Friday’s decision and the trajectory for rates in the months ahead at a press briefing that usually begins at 3:30 p.m."
+     ],
+     "title_zh": "日本央行在贝森特呼吁后以1990年以来最快速度加息",
+     "summary_zh": "日本央行加息25个基点至1.25%，为36年来最快加息步伐，日元随后走弱至156.95。"
+    },
+    {
+     "title": "Tata Sons Power Struggle Deepens as Chandra's Return a Setback for Noel",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-18/tata-sons-power-struggle-deepens-as-chandra-s-return-a-setback-for-noel",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-18/tata-sons-power-struggle-deepens-as-chandra-s-return-a-setback-for-noel",
+     "published_cst": "2026-09-18T02:33:17+08:00",
+     "time": "09-18 02:33",
+     "body": [
+      "Good morning... I’m Pratigya Vajpayee in New Delhi, wrapping up the week in markets for you.Tata Group shares stole the show in an otherwise lackluster session on Thursday. They are likely to stay in the spotlight today as well after Tata Sons’ board said it would pursue a stock listing and give its chairman another five-year term despite strong opposition from the founding-family patriarch (more on that below).Meanwhile, India’s benchmark NSE Nifty 50 Index continues to struggle. The gauge is on course to extend a five-week losing streak as foreign funds remain net sellers. In the bond market, yields rose after the central bank sold 500 billion rupees of bonds to drain excess cash from the financial system.Investors will be hoping positive regional cues lend support. Asian stocks and bonds have edged higher early on Friday as a pullback in oil prices eased inflation concerns. The region’s biggest event today is the Bank of Japan’s policy decision. The central bank is set to raise its benchmark interest rate, delivering its most closely spaced rate increases since 1990.In today’s newsletter, we write about:",
+      "The Tata Sons board on Thursday approved going public by a majority vote and asked Chairman Natarajan Chandrasekaran to stay on for five more years. But the listing and succession saga at India’s oldest conglomerate may have more twists and turns in store.The board’s decisions are a sharp setback for patriarch Noel Tata, who has long fought to keep the holding company private. While Chandrasekaran, widely known as Chandra, agreed to stay on, Tata Trusts — the controlling shareholder of Tata Sons led by Noel — called the board’s decision on his reappointment “illegal.” In a separate statement late on Thursday, the Trusts — a group of 13 charities — said they had not agreed to a listing and that the company’s board had to explore all available options.That sets the stage for a showdown. A public float would bring far greater regulatory and market scrutiny to Tata Sons. For Tata Trusts, the move risks diluting its ability to fend off any hostile takeover attempts. For minority shareholder Shapoorji Pallonji Group, however, it provides a path to monetize its holding and reduce costly debt.At the same board meeting, Noel had presented a proposal from the SP Group to monetize part of its stake in Tata Sons in a deal that would raise at least 250 billion rupees ($2.6 billion), according to the Tata Trusts’ statement. The proposal envisages a share buyout in two tranches over 18 months, with Noel suggesting the funds could come from internal cash flows, sales of listed shares or stakes in newer businesses.Despite the power struggle, group stocks reacted positively to the developments on Thursday. Tata Chemicals jumped more than 13% to a four-month high. Tata Motors Passenger Vehicles climbed as much as 6.3%, while Tata Consultancy Services rose 3.4%. Tata Investment Corp. surged 7.6%.",
+      "IPO market heats up with NSE in focus",
+      "India’s primary market showed renewed vigor as investors bid for the National Stock Exchange’s IPO, with the $2.4 billion offering being subscribed 42% on the first day. Meanwhile, six relatively small companies made their trading debuts, with most posting solid first-day gains. Karamtara Engineering surged as much as 39% above its offer price, while Rentomojo jumped as much as 29%, putting the online rental platform on track for one of the strongest debuts this year among Indian IPOs that raised at least $100 million. Steamhouse India also climbed as much as 29%, while LCC Projects rallied about 15%. Asset Reconstruction Co. India and Manipal Payment and Identity Solutions bucked the trend, closing slightly below their IPO prices.",
+      "Staples firms grapple with pricey inputs: Yes Securities",
+      "Expensive raw materials are threatening a recovery in consumer staples firms’ margins this year, according to Yes Securities. Crude oil, cocoa, sugar, palm oil and dairy are driving costs higher, while international freight remains expensive. The impact, however, will be company specific, the brokerage says. Britannia has some protection from its procurement strategy, while Varun Beverages benefits from its portfolio mix. Nestlé and Colgate are leaning more on productivity gains and cost savings, while HUL and Dabur are using price increases to rebuild margins.",
+      "UPI fee to boost valuations for Paytm, Pine Labs: Emkay",
+      "NPCI’s move to start charging merchants for larger UPI payments could give payment firms a more predictable source of revenue, Emkay says. Using conservative assumptions about how much of the merchant discount rate Paytm and Pine Labs ultimately retain, the brokerage estimates the new charge could generate 11.2 billion rupees of UPI revenue for Paytm and 1.55 billion rupees for Pine Labs in fiscal 2028. The additional earnings stream materially raises its valuations for both companies, Emkay says, lifting its price targets for Paytm’s stock to 2,400 rupees and for Pine Labs to 230 rupees while retaining buy ratings on both.",
+      "The Federal Reserve’s hawkish rate hike has reinforced expectations that the RBI may not be able to stay on hold much longer. Elevated Treasury yields make global investors demand higher returns from emerging markets such as India, while a narrowing rate differential risks adding pressure on the rupee. That gives the RBI less room to tolerate rising inflation or let the gap with US yields shrink further. India’s swap market is already pricing in more than 75 basis points of increases in overnight rates by December, as traders expect the central bank to drain excess liquidity and raise policy rates with oil holding above $100 a barrel.",
+      "MORE: Check out Bloomberg’s Emerging, a monthly podcast series hosted by Menaka Doshi and Haslinda Amin on the rising economies shaping the global future. In episode two, Menaka explores how the AI boom is reshaping electricity demand and whether it could strain power grids. You can watch it here or listen on iHeart, Apple, Amazon, or Spotify.",
+      "The Fed hiked and Trump pushed back. Our journalists answer your questions about market signals and what might come next. Click here to access.",
+      "Save the date: Bloomberg New Economy Forum - New Delhi: This October, the Bloomberg New Economy Forum convenes its global community of business and public-sector leaders under the guiding theme, “A World in Play: Defining the New Levers of Power.” This year’s Forum, held Oct. 13-15 in New Delhi, will examine the shifting geopolitical landscape and explore the risks and opportunities reshaping the global economy. Visit BloombergNewEconomy.com/India to learn more.",
+      "Thank you for reading Markets Daily India. If you haven’t yet, sign up here. Got feedback and ideas? Send them our way at marketsindia@bloomberg.net."
+     ],
+     "title_zh": "塔塔集团权力斗争加剧，钱德拉回归对诺埃尔构成挫折",
+     "summary_zh": "塔塔集团董事会批准上市并让主席连任五年，尽管遭创始家族反对，塔塔化学股价大涨13%。"
+    },
+    {
+     "title": "Malaysia Airlines Closing in on Order for Boeing 787 Dreamliners",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/malaysia-airlines-closing-in-on-order-for-boeing-787-dreamliners",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/malaysia-airlines-closing-in-on-order-for-boeing-787-dreamliners",
+     "published_cst": "2026-09-18T02:31:07+08:00",
+     "time": "09-18 02:31",
+     "body": [
+      "Malaysia Airlines’s parent is said to be closing in on an order for Boeing Co. 787 Dreamliners as the carrier seeks to renew its long-haul fleet, according to people familiar with the matter.",
+      "Malaysia Aviation Group is likely to place an order for about ten 787-10s, the people said, asking not to be identified because the discussions are confidential. Boeing edged out Airbus SE by offering earlier delivery slots starting in 2031, with GE Aviation offering better terms on the engines compared with Rolls-Royce Holdings Plc, some of the people said.",
+      "The new 787s will replace the airline’s seven leased Airbus A350 jets while also providing room for future growth, the people said. Malaysia Airlines has been looking to replace the A350s due to high lease rentals, and the airline evaluated planes from both manufacturers for the order, the people said.",
+      "The deal also has political undertones because US President Donald Trump has tied Boeing orders to trade pacts he signed with various countries. Trump and Malaysian Prime Minister Anwar Ibrahim announced last year that the country would purchase 30 Boeing aircraft with options for 30 more.",
+      "Malaysia Aviation Group did not immediately respond to requests for a response. Boeing and Airbus declined to comment.",
+      "Malaysia Airlines has relied on Airbus for its widebody planes since 2016, using older A330s and newer A350s when it retired the Boeing 777 from service. The company ordered forty A330neos in recent years to replace its oldest jets, with 10 already now delivered among its roughly 90-strong fleet which includes fifty-seven 737 single-aisle jets."
+     ],
+     "title_zh": "马来西亚航空接近订购波音787梦想飞机",
+     "summary_zh": "马来西亚航空母公司拟订购约10架波音787-10，以替换7架租赁空客A350，波音因交付更早胜出。"
+    },
+    {
+     "title": "Waymo Plans to Offer Paid Robotaxi Rides in Singapore in 2028",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/waymo-plans-to-offer-paid-robotaxi-rides-in-singapore-in-2028",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/waymo-plans-to-offer-paid-robotaxi-rides-in-singapore-in-2028",
+     "published_cst": "2026-09-18T02:00:24+08:00",
+     "time": "09-18 02:00",
+     "body": [
+      "Waymo plans to offer its robotaxi service in Singapore in 2028, the latest in a string of domestic and international expansions by the Alphabet Inc. unit.",
+      "The Mountain View, California-based company will bring a fleet of Jaguar I-PACE electric vehicles to the Asian city-state in the coming months, it said in a statement late Thursday in the US.  Starting next year, its trained specialists will manually drive the vehicles to map and learn Singapore’s roads and monsoon weather patterns, it added.",
+      "Waymo offers paid service in 15 US cities and has been preparing to launch internationally, including in London, Tokyo and Germany. The company has also registered operations in France, the Netherlands and Spain, though it has yet to announce commercial plans. It has begun paid rides in several markets recently, including Las Vegas this week and Denver, San Diego, and Tampa, Florida, earlier this month.",
+      "When it opens service to the Singaporean public in 2028, Waymo plans to make its vehicles available on its own consumer app. That’s a different approach from Chinese rivals like WeRide Inc. and Pony AI Inc., which have launched small-scale services in the city-state by partnering with local ride-hailing apps, such as Grab Holdings Ltd. and ComfortDelGro Corp Ltd.",
+      "It is unclear whether Waymo will operate limited routes in Singapore similar to ones offered by other robotaxi providers. Waymo said in the statement that its service will complement that market’s public transit network by bridging “first-and-last-mile transit gaps across residential and commercial hubs.”",
+      "The company plans to manually map all the regions of Singapore and collect the necessary data to seek Land Transport Authority approval for its autonomous driving system in 2027, a Waymo spokesperson said."
+     ],
+     "title_zh": "Waymo计划2028年在新加坡推出付费自动驾驶出租车服务",
+     "summary_zh": "Waymo计划2028年在新加坡推出自动驾驶出租车服务，明年起手动采集道路数据，2027年申请审批。"
+    },
+    {
+     "title": "RBA: Firms Starting to Ask If Inflation Coming Back Under 3%",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/rba-firms-starting-to-ask-if-inflation-coming-back-under-3",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/rba-firms-starting-to-ask-if-inflation-coming-back-under-3",
+     "published_cst": "2026-09-18T01:32:20+08:00",
+     "time": "09-18 01:32",
+     "body": [
+      "Australian businesses are starting to “bubble up” a view that elevated inflation is not coming back down below 3%, Reserve Bank of Australia Governor Michele Bullock told a parliamentary panel on Friday."
+     ],
+     "title_zh": "澳洲联储：企业开始询问通胀是否回落至3%以下",
+     "summary_zh": "澳洲联储主席布洛克称企业界日益认为通胀不会回落至3%以下。"
+    },
+    {
+     "title": "Yuan Hits Four-Year High as PBOC Signals Support Before Trump-Xi",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/chinese-yuan-hits-strongest-level-since-2022-after-pboc-fixing",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/chinese-yuan-hits-strongest-level-since-2022-after-pboc-fixing",
+     "published_cst": "2026-09-18T01:32:12+08:00",
+     "time": "09-18 01:32",
+     "body": [
+      "The yuan climbed to its strongest level in more than four years as China’s central bank continued to guide the currency higher ahead of a meeting between Chinese leader Xi Jinping and US President Donald Trump.",
+      "The offshore yuan gained as much as 0.1% to 6.6957 per dollar on Friday, the strongest since July 2022. The move came after the People’s Bank of China strengthened its daily currency fixing for an eighth straight session, the longest streak since 2023.",
+      "The timing puts the yuan in focus ahead of the Trump-Xi meeting next week, with trade tensions likely to feature prominently. A stronger currency could help ease some friction, with Western officials arguing that an undervalued yuan gives Chinese exports a competitive advantage and contributes to the country’s record trade surplus.",
+      "“The renminbi is likely to receive further support from the Trump-Xi summit,” said Serena Zhou, senior economist at Mizuho Securities Asia Ltd. She expects the offshore yuan to end September around 6.70 per dollar and maintained her year-end forecast of 6.65.",
+      "Zhou said expectations for yuan appreciation have become “increasingly self-reinforcing” despite slowing Chinese growth and rising bets on Federal Reserve rate hikes, while Beijing appears more tolerant of a gradual strengthening as it seeks to promote the currency’s internationalization.",
+      "Still, the PBOC has kept its daily reference rates weaker than prevailing market levels, suggesting officials favor a measured appreciation rather than a rapid move higher.",
+      "That approach is consistent with the central bank’s emphasis on currency stability. Deputy Governor Lu Lei said this month that the PBOC will firmly maintain yuan stability through 2030, while emphasizing that China has neither the need nor the intention to seek a trade advantage through depreciation as exports have become less sensitive to exchange-rate moves.",
+      "The yuan is now heading for a seventh straight quarterly gain, making it Asia’s best-performing currency this year. China’s surging exports and robust conversion flows have supported the rally, which has persisted even as rising bets on Fed rate hikes have pushed Treasury yields and the dollar higher, widening the China-US yield gap to a record.",
+      "“We expect CNH to outperform in Asia given its relatively low dependence on imported energy and strategic energy inventory,” said Abbas Keshvani, Asia macro strategist at RBC Capital Markets. “It also helps that the PBOC tends to marshal the currency stable through periods of volatility.”"
+     ],
+     "title_zh": "人民币触及四年高位 央行在特习会前释放支持信号",
+     "summary_zh": "人民币升至逾四年最强，离岸人民币一度触及6.6957，央行连续第八日调强中间价，市场聚焦下周特朗普与习近平会晤。"
+    },
+    {
+     "title": "Strapped AirAsia Takes Unusual Step of Offloading New Planes",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/cash-strapped-airasia-takes-unusual-step-of-unloading-new-planes",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/cash-strapped-airasia-takes-unusual-step-of-unloading-new-planes",
+     "published_cst": "2026-09-18T01:30:11+08:00",
+     "time": "09-18 01:30",
+     "body": [
+      "AirAsia Group Bhd. has sold six newly-delivered aircraft since the start of last year, including two in July, in an unusual about-face that points to the financial strain gripping the airline.",
+      "The Malaysian low-cost carrier, which has received 10 factory-fresh Airbus SE 321neos since the start of 2025, sold half a dozen of them to lessor BBAM LLC, according to a Bloomberg News analysis of aircraft transactions tracked by the Cirium Fleet Analyzer database. They have since been purchased or leased by Vietnamese startup Sun PhuQuoc Airways, the data shows.",
+      "While airlines regularly execute sale-and-leaseback deals on new planes to replace large upfront purchase costs with regular lease payments, selling aircraft without ever having put them into service is uncommon. AirAsia’s disposal of the new-generation fuel-efficient jets come at a time that co-founder Tony Fernandes is seeking to modernize the fleet to combat higher fuel costs.",
+      "“It’s unusual for a newly delivered aircraft in AirAsia’s livery to not enter service with only the ‘sale’ and no ‘leaseback,’” independent aviation capital markets analyst Andrew Light said. “Selling a newly delivered aircraft is probably the cleanest option, especially to maximize cash.”",
+      "AirAsia and its management team didn’t respond to repeated requests for comment. BBAM, Sun PhuQuoc Airways and its parent Sun Group, also didn’t respond to requests for a response.",
+      "Read More: AirAsia Plunges To Four-Year Low on Route Absorption Report",
+      "The airline’s woes have mounted this year following the outbreak of war in the Middle East, which sent oil and jet fuel prices surging. Low-cost carriers can be harder hit than full-service airlines by rising fuel costs because they are harder to pass on to price-conscious passengers. AirAsia doesn’t hedge its fuel purchases, leaving it exposed to volatile swings in prices.",
+      "Fuel expenses surged 58% in the second quarter, sparking the company’s largest quarterly loss in four years. Bloomberg reported this week that AirAsia is seeking to use collateral on a private-credit loan to pay lessors. In June, Bloomberg reported that the airline had fallen behind on payments to suppliers and asked for deferrals on at least a dozen planes.",
+      "AirAsia had 954 million ringgit ($233 million) in cash and equivalents as of the end of June, one of the lowest balances among airlines tracked by Bloomberg globally.",
+      "The shares have slumped more than 75% since the Iran war started at the end of February, making it the worst-performing stock in the 58-member Bloomberg World Airlines Index. They fell as much 6.9% on Friday, after tumbling 21% on Thursday amid mounting concerns about the company’s prospects.",
+      "Meanwhile, Tony Fernandes, co-founder of AirAsia, said at a briefing on Friday that recent media coverage of the company was causing a “ripple effect” and said that its liquidity was strong.",
+      "AirAsia Says Liquidity Is Strong, Third-Quarter Bookings Hit 80%",
+      "Of the 239 Airbus planes in AirAsia’s fleet at the end of June, only 161 were operational, according to the company. The airline said it was returning 25 older aircraft this year to optimize its fleet, however, it has made no mention of the disposal of brand new planes.",
+      "Cirium’s database shows Vietnam’s Sun PhuQuoc Airways has expanded to a fleet of 19 aircraft since its launch in November 2025. A total of 14 planes it has bought or leased have come directly from AirAsia. Cirium records don’t include AirAsia’s most recent July delivery, which is still in AirAsia’s possession but will be transferred to Sun PhuQuoc in October."
+     ],
+     "title_zh": "资金紧张的亚航采取不寻常举措，转手新飞机",
+     "summary_zh": "亚航自去年起售出6架新交付飞机，因燃油成本飙升二季度亏损创四年新高。"
+    },
+    {
+     "title": "Indian Project Financier's Data Center Loans Top $1.2 Billion",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/indian-project-financier-s-data-center-loans-top-1-2-billion",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/indian-project-financier-s-data-center-loans-top-1-2-billion",
+     "published_cst": "2026-09-18T01:30:00+08:00",
+     "time": "09-18 01:30",
+     "body": [
+      "India’s top state-run infrastructure financier has sanctioned loans upwards of 30 billion rupees ($313 million) each to at least four data centers, reflecting the nation’s push to participate in the artificial intelligence buildout.",
+      "The facilities from the National Bank for Financing Infrastructure and Development, or Nabfid, have a moratorium of as much as five years, with repayment over the following 10 years, Managing Director Rajkiran Rai G. said in an interview.",
+      "Such projects generate “good” cash flows despite long construction periods, he said, adding that Nabfid has seen good traction from hyperscalers or large cloud services providers.",
+      "Demand for such loans signals growing corporate spending on large projects such as data centers in India. Global investors from EQT AB and Blackstone Inc. to Alphabet Inc., alongside local conglomerates like Adani Group, have also committed billions of dollars to set up AI compute infrastructure in the country.",
+      "Nabfid estimates that India’s data centers will need about 1 trillion rupees in funding through March 2031, according to its presentation.",
+      "The lender, which is looking to diversify borrowing sources, has readied its maiden dollar bond after the US Federal Reserve raised interest rates this week.",
+      "The lender plans to raise 1 trillion rupees in the year through March, with about 40% coming from overseas by end-December, Rai said.",
+      "Nabfid raised close to $1 billion in offshore loans under the central bank’s concessional window available till Dec. 31, and has mandated foreign banks to mobilize a 10-year dollar bond of a similar amount through the window by the end of this month, Rai said."
+     ],
+     "title_zh": "印度项目融资商数据中心贷款超12亿美元",
+     "summary_zh": "印度国有的Nabfid向至少四家数据中心各批贷超300亿卢比，预计到2031年3月印度数据中心需约1万亿卢比资金。"
+    },
+    {
+     "title": "Thailand Power Demand Growth Set for Nine-Year High on AI Boom",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/thailand-power-demand-growth-set-for-nine-year-high-on-ai-boom",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/thailand-power-demand-growth-set-for-nine-year-high-on-ai-boom",
+     "published_cst": "2026-09-18T01:25:06+08:00",
+     "time": "09-18 01:25",
+     "body": [
+      "Thailand expects electricity demand to grow at the fastest pace since at least 2018, fueled by industrial activity including electronics production amid a global boom in artificial intelligence and data-center investment.",
+      "Electricity consumption is forecast to increase 5.3% in 2026, the highest growth rate in nine years, according to the Energy Policy and Planning Office. Overall energy use is also expected to rise, supported by electronics exports, public investment and domestic consumption.",
+      "The surge highlights a growing challenge for Thailand as it attracts technology investment that is both boosting manufacturing and placing greater demands on the country’s power system. Electronics producers are expanding output of components used in global technology and data-center supply chains, while billions of dollars of new data-center projects are creating an additional source of future electricity demand.",
+      "Read More: AI Boom Set to Lift Thai Exports to Record Value This Year",
+      "Domestic energy consumption rose 6% in the first half, led by industry, which accounted for more than 40% of total use. Electronics manufacturing was among the biggest contributors to the increase, followed by auto production, according to the Energy Ministry data. Energy use also increased among businesses including retailers, hotels and other tourism-related operators.",
+      "Thailand has emerged as a beneficiary of the global AI investment boom as demand rises for electronics used in computing and data-center infrastructure. The International Monetary Fund has identified the country among Asian economies benefiting from the technology cycle through its electronics exports.",
+      "The growing power requirements come as Thailand is reassessing how quickly it can accommodate the technology investment. The government recently halted dozens of data-center projects while it develops new regulations covering their electricity and water use.",
+      "Read More: Thailand Puts 49 Data Centers on Hold Over Resource Strain"
+     ],
+     "title_zh": "泰国电力需求增长将因AI热潮创九年新高",
+     "summary_zh": "泰国预计2026年电力需求增长5.3%，创九年新高，受电子制造和数据中心投资推动，政府已暂停数十个数据中心项目以制定新规。"
+    },
+    {
+     "title": "Jailed Ex-Malaysian PM Najib's Bid for Royal Pardon Said to Be Reviewed Friday",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/jailed-ex-malaysian-pm-najib-s-bid-for-royal-pardon-said-to-be-reviewed-friday",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/jailed-ex-malaysian-pm-najib-s-bid-for-royal-pardon-said-to-be-reviewed-friday",
+     "published_cst": "2026-09-18T01:07:52+08:00",
+     "time": "09-18 01:07",
+     "body": [
+      "Malaysia’s jailed former premier Najib Razak’s bid for another royal intervention in his corruption conviction linked to the multibillion dollar 1MDB scandal will be considered Friday by the country’s Pardons Board, which is headed by the Malaysian king, according to people familiar with the matter.",
+      "The Pardons Board will discuss Najib’s pardon application just a week after deferring the matter, the people said, asking not to be identified because the information is private.",
+      "Singapore’s Straits Times earlier reported on the Pardons Board meeting. The newspaper said the decision to reconvene the board so soon was highly unusual, with Najib’s application expected to be the only item on the agenda.",
+      "The Pardons Board deferred a decision on Najib’s application at its Sept. 11 meeting, saying it would be considered at a future sitting. The meeting coincided with the annual general assembly of the United Malays National Organisation, a party that Najib once led and has called for his release. Party President Ahmad Zahid Hamidi expressed disappointment over the delay while appealing for a favorable outcome for the former premier, given his enduring popularity among party members.",
+      "Any fresh royal intervention risks widening divisions between UMNO and Prime Minister Anwar Ibrahim’s Pakatan Harapan alliance, whose rise to power was fueled in part by public anger over the 1MDB scandal. Pakatan Harapan said in a statement last week that those convicted of corruption or abuse of power, particularly in high-profile cases, should serve the full sentences imposed by the courts, without naming Najib specifically.",
+      "Najib’s lawyer and an aide didn’t respond to requests for comment. Hannah Yeoh, a cabinet minister who sits on the Pardons Board, also didn’t respond to a request for comment. A representative for the national palace didn’t respond to a request for comment.",
+      "Najib was ousted in 2018 elections as the fallout from 1MDB ended UMNO’s six-decade hold on power. The former premier, who has been in prison since August 2022, may return to politics if he’s pardoned and allowed out of jail, his lawyer said last year.",
+      "In early 2024, then-King Sultan Abdullah Ahmad Shah halved Najib’s 12-year prison sentence and reduced his fines shortly before his reign ended under Malaysia’s rotational monarchy. Najib said that Sultan Abdullah, who hails from his home state of Pahang, had also issued a supplementary royal order allowing him to serve the rest of his sentence under house arrest.",
+      "In December, a court rejected Najib’s bid to serve the rest of his jail term at home. He challenged the decision, but withdrew the appeal in April without giving a reason.",
+      "A Malaysian court sentenced him to a further 15 years in prison after finding him guilty on all 25 charges of abuse of power and money laundering linked to the failed state investment fund, formally known as 1Malaysia Development Bhd. The court also imposed an 11.4 billion ringgit ($2.8 billion) fine. He has appealed both the conviction and sentence."
+     ],
+     "title_zh": "马来西亚前总理纳吉布寻求皇家赦免 据称周五审议",
+     "summary_zh": "马来西亚特赦局周五将审议前总理纳吉的1MDB腐败案特赦申请，其12年刑期此前已减半。"
+    },
+    {
+     "title": "Indonesian Tycoon Close to Prabowo Creates Coal Mining Giant",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/haji-isam-swoops-on-bayan-to-create-an-indonesian-coal-giant",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/haji-isam-swoops-on-bayan-to-create-an-indonesian-coal-giant",
+     "published_cst": "2026-09-18T00:55:26+08:00",
+     "time": "09-18 00:55",
+     "body": [
+      "Indonesian tycoon Andi Syamsuddin Arsyad agreed to acquire a major stake in miner PT Bayan Resources, setting the stage for him to become one of the biggest players in the global coal industry.",
+      "The billionaire, better known as Haji Isam, has been seeking control of Bayan in a deal that would make him one of the world’s top coal producers. He was among the biggest backers of Indonesian President Prabowo Subianto’s 2024 election campaign and now oversees major government projects, including a 1-million-hectare food estate in Papua.",
+      "Haji Isam agreed on Sept. 16 to acquire 30% of Bayan’s shares through his company PT Jhonlin Baratama, according to a stock exchange filing late Thursday. The shares will be transferred from Low Tuck Kwong and his daughter Elaine Low, Bayan’s two biggest shareholders, subject to several conditions.",
+      "Bayan didn’t elaborate further on the deal or the price of the share sale in the filing. The company’s stock rose as much as 20% in Jakarta on Friday, the biggest intraday gain in a month, and was set for a weekly advance of around 12%.",
+      "Jhonlin and Bayan didn’t immediately respond to requests for comment. Haji Isam made a $3 billion cash offer for a 62% stake in the coal company earlier this month, according to people familiar with the matter. That offer put a price tag of roughly $4.8 billion on Bayan.",
+      "Haji Isam’s conglomerate PT Jhonlin Group is already a major producer of thermal coal, requesting a mining quota of 60 million tons this year, Bloomberg reported in July. Bayan, meanwhile, mined about 68 million tons last year.",
+      "Read More: Prabowo’s Favored Tycoon Wants to Become Indonesia’s Richest Man",
+      "The combined total would place Haji Isam above industry giants like Glencore Plc and below only Indian and Chinese miners that sell their product domestically. If he gets a controlling stake in Bayan, the 49-year-old from Kalimantan would oversee by far the largest coal business in Indonesia, the world’s biggest exporter of the fossil fuel.",
+      "Market participants are now waiting for more details of the transaction to gauge the impact on the company’s share price, said Andreas Yordan Tarigan, an equity analyst at PT Sucor Sekuritas. “But the market has been waiting excitedly for this to happen. It’s always exciting when there’s a jumbo transaction happening,” he said.",
+      "Bayan, founded by Singapore-born Low in 2004, had its production quota slashed by the Indonesian government earlier this year, leading it to declare force majeure last week. Competitors including PT Bumi Resources and PT Adaro Andalan were largely spared from enforced output cuts, Bloomberg reported in February.",
+      "Haji Isam has quickly become one of Prabowo’s favorite businessmen, with the Indonesian president flying to the entrepreneur’s coastal hometown of Batulicin the day after he was sworn in to express his gratitude. Considering most of Haji Isam’s businesses are unlisted, his fortune is hard to pin down, but people who know him say it easily exceeds $1 billion."
+     ],
+     "title_zh": "印尼大亨与普拉博沃关系密切 创建煤炭开采巨头",
+     "summary_zh": "印尼富豪哈吉·伊萨姆同意收购巴彦资源公司30%股份，交易将使其成为全球最大煤炭生产商之一，巴彦股价周五一度上涨20%。"
+    },
     {
      "title": "Traders Eye Xi-Trump Meet for Clues on AI Rivalry, Yuan Outlook",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/traders-eye-xi-trump-meet-for-clues-on-ai-rivalry-yuan-outlook",
@@ -79,7 +636,7 @@
      "summary_zh": "印度今年季风降雨量较长期均值少15%，或创17年来最干旱纪录，威胁水稻、甘蔗和棉花等作物产量并推高食品价格风险。"
     },
     {
-     "title": "Vietnam Stocks See Early Foreign Inflows as FTSE Upgrade Nears",
+     "title": "Vietnam Stocks See Early Foreign Flows as FTSE Upgrade Nears",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/vietnam-stocks-see-early-foreign-inflows-as-ftse-upgrade-nears",
      "link": "https://www.bloomberg.com/news/articles/2026-09-18/vietnam-stocks-see-early-foreign-inflows-as-ftse-upgrade-nears",
      "published_cst": "2026-09-18T00:28:51+08:00",
@@ -164,10 +721,316 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 3,
+   "count": 37,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "Lessons in Leadership",
+     "url": "https://www.ft.com/reports/lessons-leadership",
+     "link": "https://www.ft.com/reports/lessons-leadership",
+     "published_cst": "2026-09-18T04:05:46+08:00",
+     "time": "09-18 04:05",
+     "body": null,
+     "title_zh": "领导力课程"
+    },
+    {
+     "title": "Transcript: News alert — Fed acts normal",
+     "url": "https://www.ft.com/content/47a5cc19-dffa-4d40-a3d4-707d1ae2b960",
+     "link": "https://www.ft.com/content/47a5cc19-dffa-4d40-a3d4-707d1ae2b960",
+     "published_cst": "2026-09-18T04:02:01+08:00",
+     "time": "09-18 04:02",
+     "body": null,
+     "title_zh": "新闻快讯——美联储表现如常"
+    },
+    {
+     "title": "NHS executive lobbied data watchdog to rewrite criticism before Palantir deal",
+     "url": "https://www.ft.com/content/63bfdeb2-efb1-4e3a-8c89-a884eb5bd618",
+     "link": "https://www.ft.com/content/63bfdeb2-efb1-4e3a-8c89-a884eb5bd618",
+     "published_cst": "2026-09-18T04:00:30+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "英国国家医疗服务体系高管在Palantir交易前游说数据监管机构改写批评意见"
+    },
+    {
+     "title": "Venezuela nears deal to move $4bn gold reserve to New York",
+     "url": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c",
+     "link": "https://www.ft.com/content/8f1f3047-372d-425f-bcd6-cfe9d5d4890c",
+     "published_cst": "2026-09-18T04:00:29+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "委内瑞拉接近达成协议将40亿美元黄金储备转移至纽约"
+    },
+    {
+     "title": "Transcript: Reform UK mega-donors stir controversy",
+     "url": "https://www.ft.com/content/48b2f400-07cd-4c5e-8561-347c0e316bfb",
+     "link": "https://www.ft.com/content/48b2f400-07cd-4c5e-8561-347c0e316bfb",
+     "published_cst": "2026-09-18T04:00:29+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "英国改革党巨额捐赠者引发争议"
+    },
+    {
+     "title": "Red lipstick and expropriation: anti-capitalist seeks power in Berlin",
+     "url": "https://www.ft.com/content/7cf54faa-90d7-4f2b-a626-a57fb402be61",
+     "link": "https://www.ft.com/content/7cf54faa-90d7-4f2b-a626-a57fb402be61",
+     "published_cst": "2026-09-18T04:00:29+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "红唇与征用：反资本主义者在柏林寻求权力"
+    },
+    {
+     "title": "Lib Dems hope EU single market campaign will reignite political fortunes",
+     "url": "https://www.ft.com/content/a2f2ba6b-dc26-40d5-87ff-839d864c909b",
+     "link": "https://www.ft.com/content/a2f2ba6b-dc26-40d5-87ff-839d864c909b",
+     "published_cst": "2026-09-18T04:00:29+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "自由民主党希望欧盟单一市场运动能重燃政治命运"
+    },
+    {
+     "title": "Transcript: Can you spreadsheet your way to equal parenting? With Corinne Low",
+     "url": "https://www.ft.com/content/d30999d0-c1a6-42a8-a345-72c9475f7826",
+     "link": "https://www.ft.com/content/d30999d0-c1a6-42a8-a345-72c9475f7826",
+     "published_cst": "2026-09-18T04:00:28+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "文字记录：你能通过电子表格实现平等育儿吗？与科琳·洛探讨"
+    },
+    {
+     "title": "The new credit debacle gripping Wall Street",
+     "url": "https://www.ft.com/content/a117a105-545e-45a9-b4a1-7d03f7b4082b",
+     "link": "https://www.ft.com/content/a117a105-545e-45a9-b4a1-7d03f7b4082b",
+     "published_cst": "2026-09-18T04:00:28+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "新的信贷危机笼罩华尔街"
+    },
+    {
+     "title": "Will El Niño be the saviour of Europe’s energy market?",
+     "url": "https://www.ft.com/content/19309369-2741-4caf-91f9-a45505f82148",
+     "link": "https://www.ft.com/content/19309369-2741-4caf-91f9-a45505f82148",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "厄尔尼诺会拯救欧洲能源市场吗？"
+    },
+    {
+     "title": "The real risk of private credit’s involvement in the annuity business",
+     "url": "https://www.ft.com/content/b420f86e-4266-432a-b2a1-cf1cde516463",
+     "link": "https://www.ft.com/content/b420f86e-4266-432a-b2a1-cf1cde516463",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "私人信贷涉足年金业务的真正风险"
+    },
+    {
+     "title": "Pakistan army chief urges Iran to restrain Houthis",
+     "url": "https://www.ft.com/content/dc6b63b3-2853-48eb-88cb-33b9c46d1a31",
+     "link": "https://www.ft.com/content/dc6b63b3-2853-48eb-88cb-33b9c46d1a31",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "巴基斯坦陆军参谋长敦促伊朗约束胡塞武装"
+    },
+    {
+     "title": "Iran switches from ships to trucks to evade US blockade",
+     "url": "https://www.ft.com/content/f69943f7-b173-444c-a79e-c9396a0380bd",
+     "link": "https://www.ft.com/content/f69943f7-b173-444c-a79e-c9396a0380bd",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "伊朗改用卡车替代船只以规避美国封锁"
+    },
+    {
+     "title": "How Glencore became entangled in $2bn battle with iron ore trader Radiant",
+     "url": "https://www.ft.com/content/350df9ff-fa41-4984-a1ee-248d8335b213",
+     "link": "https://www.ft.com/content/350df9ff-fa41-4984-a1ee-248d8335b213",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "嘉能可如何卷入与铁矿石交易商Radiant的20亿美元之争"
+    },
+    {
+     "title": "Europe can attract more stock trading with fewer, better markets",
+     "url": "https://www.ft.com/content/fa36c637-05fd-4669-8784-0ada6f671f39",
+     "link": "https://www.ft.com/content/fa36c637-05fd-4669-8784-0ada6f671f39",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "欧洲可通过更少更优市场吸引更多股票交易"
+    },
+    {
+     "title": "Democrats vow to pursue ‘Trump crime family’ after midterm elections",
+     "url": "https://www.ft.com/content/0e64746c-d531-4ceb-a700-e5e47289bfb3",
+     "link": "https://www.ft.com/content/0e64746c-d531-4ceb-a700-e5e47289bfb3",
+     "published_cst": "2026-09-18T04:00:19+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "民主党誓言中期选举后追查“特朗普犯罪家族”"
+    },
+    {
+     "title": "The west must hurry to catch up with Ukraine on AI combat",
+     "url": "https://www.ft.com/content/5b08fae3-51b5-465b-acb5-e842c30ebd0c",
+     "link": "https://www.ft.com/content/5b08fae3-51b5-465b-acb5-e842c30ebd0c",
+     "published_cst": "2026-09-18T04:00:18+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "西方须在AI作战上迎头赶上乌克兰"
+    },
+    {
+     "title": "The people who enabled Trump",
+     "url": "https://www.ft.com/content/aca1e562-9a12-4140-a8a2-0f21ff827f49",
+     "link": "https://www.ft.com/content/aca1e562-9a12-4140-a8a2-0f21ff827f49",
+     "published_cst": "2026-09-18T04:00:18+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "助力特朗普的人"
+    },
+    {
+     "title": "Liechtenstein royals threaten lawsuit over dynasty reforms",
+     "url": "https://www.ft.com/content/6fd9f78e-f822-4e48-b8e2-968a3e4d2181",
+     "link": "https://www.ft.com/content/6fd9f78e-f822-4e48-b8e2-968a3e4d2181",
+     "published_cst": "2026-09-18T04:00:18+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "列支敦士登王室威胁就王朝改革提起诉讼"
+    },
+    {
+     "title": "The Last Emperor of China — Paul French on the life of Puyi",
+     "url": "https://www.ft.com/content/f4b6e650-aa17-490c-a06f-89e2faf058d7",
+     "link": "https://www.ft.com/content/f4b6e650-aa17-490c-a06f-89e2faf058d7",
+     "published_cst": "2026-09-18T04:00:10+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "中国末代皇帝——保罗·法兰奇讲述溥仪的一生"
+    },
+    {
+     "title": "Medical AI has a proof problem",
+     "url": "https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190",
+     "link": "https://www.ft.com/content/34319b00-f874-4119-aa28-8376d81e7190",
+     "published_cst": "2026-09-18T04:00:10+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "医疗AI面临验证难题"
+    },
+    {
+     "title": "Inside Casey Casey’s medieval French priory",
+     "url": "https://www.ft.com/content/10a5dfef-26a0-4190-b2f3-4cef548d4e5a",
+     "link": "https://www.ft.com/content/10a5dfef-26a0-4190-b2f3-4cef548d4e5a",
+     "published_cst": "2026-09-18T04:00:10+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "走进凯西·凯西的中世纪法国修道院"
+    },
+    {
+     "title": "How to make good decisions under pressure",
+     "url": "https://www.ft.com/content/b27228b7-d722-4ac8-987d-a748753e8ea7",
+     "link": "https://www.ft.com/content/b27228b7-d722-4ac8-987d-a748753e8ea7",
+     "published_cst": "2026-09-18T04:00:10+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "如何在压力下做出明智决策"
+    },
+    {
+     "title": "How money moved across Mark Walter’s empire",
+     "url": "https://www.ft.com/content/97999668-dd71-41b8-b0e5-f540902abc45",
+     "link": "https://www.ft.com/content/97999668-dd71-41b8-b0e5-f540902abc45",
+     "published_cst": "2026-09-18T04:00:10+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "资金如何在马克·沃尔特的帝国中流动"
+    },
+    {
+     "title": "Private equity turns to financial engineering to lure insurance billions",
+     "url": "https://www.ft.com/content/9c6fac10-9f3f-4503-9765-b9e29e18c68d",
+     "link": "https://www.ft.com/content/9c6fac10-9f3f-4503-9765-b9e29e18c68d",
+     "published_cst": "2026-09-18T04:00:09+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "私募股权利用金融工程吸引保险资金数十亿"
+    },
+    {
+     "title": "How managers can support women in the workplace",
+     "url": "https://www.ft.com/content/da017b75-dfcb-4a2b-9ecc-020be85bcaaa",
+     "link": "https://www.ft.com/content/da017b75-dfcb-4a2b-9ecc-020be85bcaaa",
+     "published_cst": "2026-09-18T04:00:09+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "管理者如何支持职场女性"
+    },
+    {
+     "title": "Francis Bacon’s beautiful detritus",
+     "url": "https://www.ft.com/content/02d33d01-37a3-4411-9c75-fe9b5c1930f5",
+     "link": "https://www.ft.com/content/02d33d01-37a3-4411-9c75-fe9b5c1930f5",
+     "published_cst": "2026-09-18T04:00:09+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "弗朗西斯·培根的美丽残骸"
+    },
+    {
+     "title": "Beck finds his bearings with the handsomely stylised Ride Lonesome — album review",
+     "url": "https://www.ft.com/content/b63bfccf-9fec-42d4-9d55-4ec6d40e6996",
+     "link": "https://www.ft.com/content/b63bfccf-9fec-42d4-9d55-4ec6d40e6996",
+     "published_cst": "2026-09-18T04:00:09+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "贝克以风格华丽的《孤独骑行》找到方向——专辑评论"
+    },
+    {
+     "title": "Reform UK mega-donors stir controversy",
+     "url": "https://www.ft.com/content/59e43f27-aca4-4dd8-a337-31ba502b7ad7",
+     "link": "https://www.ft.com/content/59e43f27-aca4-4dd8-a337-31ba502b7ad7",
+     "published_cst": "2026-09-18T04:00:00+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "英国改革党大金主引发争议"
+    },
+    {
+     "title": "Can you spreadsheet your way to equal parenting? With Corinne Low",
+     "url": "https://www.ft.com/content/51271554-ba9b-4c40-8d88-c0f014d208b6",
+     "link": "https://www.ft.com/content/51271554-ba9b-4c40-8d88-c0f014d208b6",
+     "published_cst": "2026-09-18T04:00:00+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "你能用电子表格实现平等育儿吗？与科琳·洛"
+    },
+    {
+     "title": "OpenAI breached by researchers using Anthropic models",
+     "url": "https://www.ft.com/content/c4aa118e-a258-48bc-b50e-28e453a95db8",
+     "link": "https://www.ft.com/content/c4aa118e-a258-48bc-b50e-28e453a95db8",
+     "published_cst": "2026-09-18T03:31:31+08:00",
+     "time": "09-18 03:31",
+     "body": null,
+     "title_zh": "研究人员利用Anthropic模型入侵OpenAI"
+    },
+    {
+     "title": "Bank of Japan raises rates to highest since 1995",
+     "url": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2",
+     "link": "https://www.ft.com/content/97a0bed5-0580-4ccc-bd3c-fe9a714259e2",
+     "published_cst": "2026-09-18T03:26:05+08:00",
+     "time": "09-18 03:26",
+     "body": null,
+     "title_zh": "日本央行加息至1995年以来最高水平"
+    },
+    {
+     "title": "OpenAI’s listing delay raises stakes for SoftBank’s $50bn data centre IPO",
+     "url": "https://www.ft.com/content/6c467774-9d91-425e-a901-26db055e37ad",
+     "link": "https://www.ft.com/content/6c467774-9d91-425e-a901-26db055e37ad",
+     "published_cst": "2026-09-18T03:04:36+08:00",
+     "time": "09-18 03:04",
+     "body": null,
+     "title_zh": "OpenAI上市推迟加剧软银500亿美元数据中心IPO风险"
+    },
+    {
+     "title": "Meta in Indian government’s crosshairs",
+     "url": "https://www.ft.com/content/83d10214-e315-4f87-81dd-99d86d5ba73c",
+     "link": "https://www.ft.com/content/83d10214-e315-4f87-81dd-99d86d5ba73c",
+     "published_cst": "2026-09-18T01:30:07+08:00",
+     "time": "09-18 01:30",
+     "body": null,
+     "title_zh": "Meta成为印度政府目标"
+    },
     {
      "title": "King Charles denies Diana allegations in new Spencer book",
      "url": "https://www.ft.com/content/f6cf9df2-dd20-4586-b274-2b92e4b40bed",
@@ -200,10 +1063,82 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 10,
+   "count": 18,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "Bank of Japan Raises Benchmark Interest Rate to 1.25%, Highest Level Since 1995",
+     "url": "https://www.wsj.com/finance/investing/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9",
+     "link": "https://www.wsj.com/finance/investing/bank-of-japan-raises-benchmark-interest-rate-to-1-25-highest-level-since-1995-2b28cbe9",
+     "published_cst": "2026-09-18T04:07:00+08:00",
+     "time": "09-18 04:07",
+     "body": null,
+     "title_zh": "日本央行将基准利率上调至1.25%，为1995年以来最高水平"
+    },
+    {
+     "title": "Pepper…and Salt",
+     "url": "https://www.wsj.com/opinion/pepperand-salt-3d8bf4cf",
+     "link": "https://www.wsj.com/opinion/pepperand-salt-3d8bf4cf",
+     "published_cst": "2026-09-18T04:00:00+08:00",
+     "time": "09-18 04:00",
+     "body": null,
+     "title_zh": "胡椒……和盐"
+    },
+    {
+     "title": "Yen Weakens After BOJ Raises Rate as Expected",
+     "url": "https://www.wsj.com/finance/currencies/yen-weakens-after-boj-raises-rate-as-expected-10cc8985",
+     "link": "https://www.wsj.com/finance/currencies/yen-weakens-after-boj-raises-rate-as-expected-10cc8985",
+     "published_cst": "2026-09-18T03:32:00+08:00",
+     "time": "09-18 03:32",
+     "body": null,
+     "title_zh": "日本央行如期加息后日元走弱"
+    },
+    {
+     "title": "Japan’s Central Bank Picks Up Pace of Tightening With Rate Hike",
+     "url": "https://www.wsj.com/economy/central-banking/japans-central-bank-picks-up-pace-of-tightening-with-rate-hike-dc59f741",
+     "link": "https://www.wsj.com/economy/central-banking/japans-central-bank-picks-up-pace-of-tightening-with-rate-hike-dc59f741",
+     "published_cst": "2026-09-18T03:21:00+08:00",
+     "time": "09-18 03:21",
+     "body": null,
+     "title_zh": "日本央行加快紧缩步伐并加息"
+    },
+    {
+     "title": "Corrections & Amplifications",
+     "url": "https://www.wsj.com/articles/corrections-amplifications-c06454a6",
+     "link": "https://www.wsj.com/articles/corrections-amplifications-c06454a6",
+     "published_cst": "2026-09-18T02:27:00+08:00",
+     "time": "09-18 02:27",
+     "body": null,
+     "title_zh": "更正与补充"
+    },
+    {
+     "title": "JGB Yields Decline as Energy Inflation Fears Ease",
+     "url": "https://www.wsj.com/finance/jgb-yields-decline-as-energy-inflation-fears-ease-85bf5679",
+     "link": "https://www.wsj.com/finance/jgb-yields-decline-as-energy-inflation-fears-ease-85bf5679",
+     "published_cst": "2026-09-18T02:12:00+08:00",
+     "time": "09-18 02:12",
+     "body": null,
+     "title_zh": "日本国债收益率下跌，能源通胀担忧缓解"
+    },
+    {
+     "title": "The U.S. and China Want AI Guardrails. But Their Ideas Couldn’t Be More Different.",
+     "url": "https://www.wsj.com/world/china/u-s-and-china-agree-ai-needs-guardrails-their-ideas-are-very-different-845415ff",
+     "link": "https://www.wsj.com/world/china/u-s-and-china-agree-ai-needs-guardrails-their-ideas-are-very-different-845415ff",
+     "published_cst": "2026-09-18T02:00:00+08:00",
+     "time": "09-18 02:00",
+     "body": null,
+     "title_zh": "美中都想为AI设护栏，但想法大相径庭。"
+    },
+    {
+     "title": "North Korea Sends Women to Russian Factories in Line of Ukrainian Fire",
+     "url": "https://www.wsj.com/world/asia/north-korea-sends-women-to-russian-factories-in-line-of-ukrainian-fire-8d0477ed",
+     "link": "https://www.wsj.com/world/asia/north-korea-sends-women-to-russian-factories-in-line-of-ukrainian-fire-8d0477ed",
+     "published_cst": "2026-09-18T02:00:00+08:00",
+     "time": "09-18 02:00",
+     "body": null,
+     "title_zh": "朝鲜派女性赴俄工厂，身处乌克兰炮火威胁中"
+    },
     {
      "title": "RBA Governor Bullock Says Inflation Fears Materializing",
      "url": "https://www.wsj.com/economy/central-banking/rba-governor-bullock-says-inflation-fears-materializing-03e52081",
@@ -259,7 +1194,7 @@
      "title_zh": "黄金上涨，可能受油价回落支撑"
     },
     {
-     "title": "Nikkei Rises 0.8%, Led by Chip-Related Stocks",
+     "title": "Potential AI IPOs Could Create Liquidity Headwind for Existing Listings",
      "url": "https://www.wsj.com/finance/stocks/nikkei-rises-0-8-led-by-chip-related-stocks-2b0efbba",
      "link": "https://www.wsj.com/finance/stocks/nikkei-rises-0-8-led-by-chip-related-stocks-2b0efbba",
      "published_cst": "2026-09-18T00:14:00+08:00",
@@ -299,36 +1234,333 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 23,
+   "count": 53,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
     {
-     "title": "Foreign investors buy Vietnam stocks ahead of FTSE market upgrade",
-     "url": "https://www.reuters.com/world/asia-pacific/foreign-investors-buy-vietnam-stocks-ahead-ftse-market-upgrade-2026-09-18/",
-     "link": "https://www.reuters.com/world/asia-pacific/foreign-investors-buy-vietnam-stocks-ahead-ftse-market-upgrade-2026-09-18/",
-     "published_cst": "2026-09-18T01:04:27+08:00",
-     "time": "09-18 01:04",
+     "title": "India's Tata group stocks fall, reversing some gains from previous session",
+     "url": "https://www.reuters.com/world/india/indias-tata-group-stocks-fall-reversing-some-gains-previous-session-2026-09-18/",
+     "link": "https://www.reuters.com/world/india/indias-tata-group-stocks-fall-reversing-some-gains-previous-session-2026-09-18/",
+     "published_cst": "2026-09-18T04:03:44+08:00",
+     "time": "09-18 04:03",
      "body": null,
-     "title_zh": "外国投资者在富时指数升级前买入越南股票"
+     "title_zh": "印度塔塔集团股票下跌，回吐前一交易日部分涨幅"
     },
     {
-     "title": "Oil prices fall 1% on hopes of limited supply disruptions",
+     "title": "Moody's raises India FY27 GDP growth forecast to 7% on Middle East resilience",
+     "url": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
+     "link": "https://www.reuters.com/world/india/moodys-raises-india-fy27-gdp-growth-forecast-7-middle-east-resilience-2026-09-18/",
+     "published_cst": "2026-09-18T03:59:03+08:00",
+     "time": "09-18 03:59",
+     "body": null,
+     "title_zh": "穆迪上调印度2027财年GDP增长预测至7%，因中东韧性"
+    },
+    {
+     "title": "Stocks in Indonesia's Bayan Resources jump after share deal announcement",
+     "url": "https://www.reuters.com/world/asia-pacific/stocks-indonesias-bayan-resources-jump-after-share-deal-announcement-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/stocks-indonesias-bayan-resources-jump-after-share-deal-announcement-2026-09-18/",
+     "published_cst": "2026-09-18T03:58:47+08:00",
+     "time": "09-18 03:58",
+     "body": null,
+     "title_zh": "印尼Bayan Resources宣布股权交易后股价大涨"
+    },
+    {
+     "title": "VIEW Investors react to BOJ raising interest rates to 31-year high",
+     "url": "https://www.reuters.com/world/asia-pacific/view-investors-react-boj-raising-interest-rates-31-year-high-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/view-investors-react-boj-raising-interest-rates-31-year-high-2026-09-18/",
+     "published_cst": "2026-09-18T03:58:00+08:00",
+     "time": "09-18 03:58",
+     "body": null,
+     "title_zh": "投资者对日本央行加息至31年高点作出反应"
+    },
+    {
+     "title": "Indian shares open higher as oil eases; IPO rush limits gains",
+     "url": "https://www.reuters.com/world/india/indian-shares-set-inch-higher-oil-eases-ipo-rush-cap-upside-2026-09-18/",
+     "link": "https://www.reuters.com/world/india/indian-shares-set-inch-higher-oil-eases-ipo-rush-cap-upside-2026-09-18/",
+     "published_cst": "2026-09-18T03:56:03+08:00",
+     "time": "09-18 03:56",
+     "body": null,
+     "title_zh": "印度股市高开，因油价回落；IPO热潮限制涨幅"
+    },
+    {
+     "title": "Malaysia pardons board members at palace amid speculation of meeting on Najib clemency",
+     "url": "https://www.reuters.com/world/asia-pacific/malaysia-pardons-board-members-palace-amid-speculation-meeting-najib-clemency-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/malaysia-pardons-board-members-palace-amid-speculation-meeting-najib-clemency-2026-09-18/",
+     "published_cst": "2026-09-18T03:55:44+08:00",
+     "time": "09-18 03:55",
+     "body": null,
+     "title_zh": "马来西亚赦免委员会成员齐聚王宫，或商讨纳吉布特赦事宜"
+    },
+    {
+     "title": "Dr Reddy's signs India distribution deal for Takeda's Qdenga dengue vaccine",
+     "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/indias-dr-reddys-inks-distribution-agreement-with-takeda-dengue-vaccine-india-2026-09-18/",
+     "link": "https://www.reuters.com/business/healthcare-pharmaceuticals/indias-dr-reddys-inks-distribution-agreement-with-takeda-dengue-vaccine-india-2026-09-18/",
+     "published_cst": "2026-09-18T03:55:41+08:00",
+     "time": "09-18 03:55",
+     "body": null,
+     "title_zh": "瑞迪博士签署印度分销协议，代理武田登革热疫苗Qdenga"
+    },
+    {
+     "title": "Oil prices fall for third day on hopes of limited Saudi supply disruptions",
      "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/",
      "link": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/",
-     "published_cst": "2026-09-18T01:03:35+08:00",
-     "time": "09-18 01:03",
+     "published_cst": "2026-09-18T03:54:50+08:00",
+     "time": "09-18 03:54",
      "body": null,
      "title_zh": "油价下跌1%，因预期供应中断有限"
     },
     {
-     "title": "Yen weak ahead of BOJ decision; rate hike expected",
+     "title": "AirAsia's Fernandes says travel demand remains strong, current crisis 'far' less severe than COVID",
+     "url": "https://www.reuters.com/world/asia-pacific/airasias-fernandes-says-travel-demand-remains-strong-current-crisis-far-less-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/airasias-fernandes-says-travel-demand-remains-strong-current-crisis-far-less-2026-09-18/",
+     "published_cst": "2026-09-18T03:54:03+08:00",
+     "time": "09-18 03:54",
+     "body": null,
+     "title_zh": "亚航费尔南德斯称旅游需求依然强劲，当前危机远不及新冠疫情严重"
+    },
+    {
+     "title": "Indonesia to keep policy of cash placement at state banks until July, official says",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesia-keep-policy-cash-placement-state-banks-until-july-official-says-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/indonesia-keep-policy-cash-placement-state-banks-until-july-official-says-2026-09-18/",
+     "published_cst": "2026-09-18T03:51:47+08:00",
+     "time": "09-18 03:51",
+     "body": null,
+     "title_zh": "印尼官员称将维持向国有银行注资政策至7月"
+    },
+    {
+     "title": "Bank of Japan lifts rates to 31-year high, two board members dissent",
+     "url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
+     "published_cst": "2026-09-18T03:51:35+08:00",
+     "time": "09-18 03:51",
+     "body": null,
+     "title_zh": "日本央行将加息至31年高位"
+    },
+    {
+     "title": "BOJ live: Japan's central bank raises policy rate to 31-year high",
+     "url": "https://www.reuters.com/live/boj-decision-live-japans-policy-interest-rate-set-rise-31-year-high-2026-09-18/",
+     "link": "https://www.reuters.com/live/boj-decision-live-japans-policy-interest-rate-set-rise-31-year-high-2026-09-18/",
+     "published_cst": "2026-09-18T03:50:15+08:00",
+     "time": "09-18 03:50",
+     "body": null,
+     "title_zh": "日本央行直播：日本央行将政策利率上调至31年高位"
+    },
+    {
+     "title": "China's Forms Syntron delays $120 million Hong Kong listing",
+     "url": "https://www.reuters.com/world/asia-pacific/chinas-forms-syntron-delays-120-million-hong-kong-listing-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/chinas-forms-syntron-delays-120-million-hong-kong-listing-2026-09-18/",
+     "published_cst": "2026-09-18T03:48:47+08:00",
+     "time": "09-18 03:48",
+     "body": null,
+     "title_zh": "中国Forms Syntron推迟1.2亿美元香港上市"
+    },
+    {
+     "title": "US FCC approves foreign investment in Paramount Warner merger",
+     "url": "https://www.reuters.com/business/media-telecom/us-fcc-approves-foreign-investment-paramount-warner-merger-deal-2026-09-17/",
+     "link": "https://www.reuters.com/business/media-telecom/us-fcc-approves-foreign-investment-paramount-warner-merger-deal-2026-09-17/",
+     "published_cst": "2026-09-18T03:45:11+08:00",
+     "time": "09-18 03:45",
+     "body": null,
+     "title_zh": "美国FCC批准外资参与派拉蒙华纳合并"
+    },
+    {
+     "title": "FAA waives emissions rules to let Boeing sell 35 additional 777F freighters",
+     "url": "https://www.reuters.com/business/autos-transportation/faa-waives-emissions-rules-let-boeing-sell-35-additional-777f-freighters-2026-09-17/",
+     "link": "https://www.reuters.com/business/autos-transportation/faa-waives-emissions-rules-let-boeing-sell-35-additional-777f-freighters-2026-09-17/",
+     "published_cst": "2026-09-18T03:44:04+08:00",
+     "time": "09-18 03:44",
+     "body": null,
+     "title_zh": "美国联邦航空管理局豁免排放规定，允许波音额外销售35架777F货机"
+    },
+    {
+     "title": "Foreign investors buy Vietnam stocks ahead of FTSE market upgrade",
+     "url": "https://www.reuters.com/world/asia-pacific/foreign-investors-buy-vietnam-stocks-ahead-ftse-market-upgrade-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/foreign-investors-buy-vietnam-stocks-ahead-ftse-market-upgrade-2026-09-18/",
+     "published_cst": "2026-09-18T03:43:19+08:00",
+     "time": "09-18 03:43",
+     "body": null,
+     "title_zh": "外国投资者在富时指数升级前买入越南股票"
+    },
+    {
+     "title": "Qantas ground workers to strike over pay and conditions next week",
+     "url": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
+     "link": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
+     "published_cst": "2026-09-18T03:39:50+08:00",
+     "time": "09-18 03:39",
+     "body": null,
+     "title_zh": "澳洲航空地勤人员下周因薪酬问题罢工"
+    },
+    {
+     "title": "BOJ raises interest rates to 31-year high in widely expected move",
+     "url": "https://www.reuters.com/world/asia-pacific/boj-raises-interest-rates-31-year-high-widely-expected-move-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/boj-raises-interest-rates-31-year-high-widely-expected-move-2026-09-18/",
+     "published_cst": "2026-09-18T03:36:52+08:00",
+     "time": "09-18 03:36",
+     "body": null,
+     "title_zh": "日本央行加息至31年高位 符合普遍预期"
+    },
+    {
+     "title": "New Zealand says it has not held talks with EU about becoming associate member",
+     "url": "https://www.reuters.com/world/americas/new-zealand-says-it-has-not-held-talks-with-eu-about-becoming-associate-member-2026-09-18/",
+     "link": "https://www.reuters.com/world/americas/new-zealand-says-it-has-not-held-talks-with-eu-about-becoming-associate-member-2026-09-18/",
+     "published_cst": "2026-09-18T03:35:46+08:00",
+     "time": "09-18 03:35",
+     "body": null,
+     "title_zh": "新西兰称未与欧盟就准成员国身份进行谈判"
+    },
+    {
+     "title": "How Bessent, America's bond salesman, cornered Japan on big spending",
+     "url": "https://www.reuters.com/world/asia-pacific/how-bessent-americas-bond-salesman-cornered-japan-big-spending-2026-09-17/",
+     "link": "https://www.reuters.com/world/asia-pacific/how-bessent-americas-bond-salesman-cornered-japan-big-spending-2026-09-17/",
+     "published_cst": "2026-09-18T03:35:00+08:00",
+     "time": "09-18 03:35",
+     "body": null,
+     "title_zh": "美国债券推销员贝森特如何在大手笔支出上逼日本就范"
+    },
+    {
+     "title": "Stocks rise as oil dips, yen weakens after BOJ hikes as expected",
+     "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-18/",
+     "link": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-18/",
+     "published_cst": "2026-09-18T03:32:33+08:00",
+     "time": "09-18 03:32",
+     "body": null,
+     "title_zh": "股市上涨，油价下跌，日本央行如期加息后日元走弱"
+    },
+    {
+     "title": "Yen slumps after BOJ hikes rates as expected",
      "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/",
      "link": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/",
-     "published_cst": "2026-09-18T01:03:02+08:00",
-     "time": "09-18 01:03",
+     "published_cst": "2026-09-18T03:31:49+08:00",
+     "time": "09-18 03:31",
      "body": null,
      "title_zh": "日本央行决议前日元走弱，预计加息"
+    },
+    {
+     "title": "Vanguard says it expects to invest $2.5 billion in Vietnam in coming years",
+     "url": "https://www.reuters.com/world/asia-pacific/vanguard-says-it-expects-invest-25-billion-vietnam-coming-years-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/vanguard-says-it-expects-invest-25-billion-vietnam-coming-years-2026-09-18/",
+     "published_cst": "2026-09-18T03:31:16+08:00",
+     "time": "09-18 03:31",
+     "body": null,
+     "title_zh": "先锋集团预计未来几年将在越南投资25亿美元"
+    },
+    {
+     "title": "Tata board fight sets up lose-lose stalemate",
+     "url": "https://www.reuters.com/commentary/breakingviews/tata-board-fight-sets-up-lose-lose-stalemate-2026-09-17/",
+     "link": "https://www.reuters.com/commentary/breakingviews/tata-board-fight-sets-up-lose-lose-stalemate-2026-09-17/",
+     "published_cst": "2026-09-18T03:27:58+08:00",
+     "time": "09-18 03:27",
+     "body": null,
+     "title_zh": "塔塔董事会之争陷入双输僵局"
+    },
+    {
+     "title": "Shipping traffic via Strait of Hormuz stays below 10-day average, data shows",
+     "url": "https://www.reuters.com/world/middle-east/shipping-traffic-via-strait-hormuz-stays-below-10-day-average-data-shows-2026-09-18/",
+     "link": "https://www.reuters.com/world/middle-east/shipping-traffic-via-strait-hormuz-stays-below-10-day-average-data-shows-2026-09-18/",
+     "published_cst": "2026-09-18T03:27:43+08:00",
+     "time": "09-18 03:27",
+     "body": null,
+     "title_zh": "数据显示霍尔木兹海峡航运量仍低于10日均值"
+    },
+    {
+     "title": "Japan PM Takaichi working to arrange meeting with Trump, NHK reports",
+     "url": "https://www.reuters.com/world/asia-pacific/japan-pm-takaichi-working-arrange-meeting-with-trump-nhk-reports-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/japan-pm-takaichi-working-arrange-meeting-with-trump-nhk-reports-2026-09-18/",
+     "published_cst": "2026-09-18T03:26:13+08:00",
+     "time": "09-18 03:26",
+     "body": null,
+     "title_zh": "日本首相高市早苗正安排与特朗普会面，NHK报道"
+    },
+    {
+     "title": "Indonesia's new finance minister pledges to refund tax for those who overpaid",
+     "url": "https://www.reuters.com/world/asia-pacific/indonesias-new-finance-minister-pledges-refund-tax-those-who-overpaid-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/indonesias-new-finance-minister-pledges-refund-tax-those-who-overpaid-2026-09-18/",
+     "published_cst": "2026-09-18T03:17:45+08:00",
+     "time": "09-18 03:17",
+     "body": null,
+     "title_zh": "印尼新财长承诺退还多缴税款"
+    },
+    {
+     "title": "Trump lashes out at Fed after Warsh backs rate hike",
+     "url": "https://www.reuters.com/business/trump-says-us-interest-rates-should-be-1-or-lower-2026-09-16/",
+     "link": "https://www.reuters.com/business/trump-says-us-interest-rates-should-be-1-or-lower-2026-09-16/",
+     "published_cst": "2026-09-18T03:16:31+08:00",
+     "time": "09-18 03:16",
+     "body": null,
+     "title_zh": "特朗普在沃什支持加息后抨击美联储"
+    },
+    {
+     "title": "South Korea's Lee says commercial viability a sticking point in US investment talks",
+     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-commercial-viability-sticking-point-us-investment-talks-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-commercial-viability-sticking-point-us-investment-talks-2026-09-18/",
+     "published_cst": "2026-09-18T03:13:53+08:00",
+     "time": "09-18 03:13",
+     "body": null,
+     "title_zh": "韩国李表示商业可行性是美投资谈判症结"
+    },
+    {
+     "title": "Rupee may find breathing room on IPO-linked inflows, oil retreat",
+     "url": "https://www.reuters.com/world/india/rupee-may-find-breathing-room-ipo-linked-inflows-oil-retreat-2026-09-18/",
+     "link": "https://www.reuters.com/world/india/rupee-may-find-breathing-room-ipo-linked-inflows-oil-retreat-2026-09-18/",
+     "published_cst": "2026-09-18T03:01:43+08:00",
+     "time": "09-18 03:01",
+     "body": null,
+     "title_zh": "卢比或因IPO资金流入和油价回落获得喘息空间"
+    },
+    {
+     "title": "What commodity markets can expect from the Trump-Xi summit",
+     "url": "https://www.reuters.com/world/china/what-commodity-markets-can-expect-trump-xi-summit-2026-09-18/",
+     "link": "https://www.reuters.com/world/china/what-commodity-markets-can-expect-trump-xi-summit-2026-09-18/",
+     "published_cst": "2026-09-18T02:56:10+08:00",
+     "time": "09-18 02:56",
+     "body": null,
+     "title_zh": "大宗商品市场对特习会抱有怎样的期待"
+    },
+    {
+     "title": "Asia's richest man sails through US-China storm",
+     "url": "https://www.reuters.com/commentary/breakingviews/asias-richest-man-sails-through-us-china-storm-2026-09-18/",
+     "link": "https://www.reuters.com/commentary/breakingviews/asias-richest-man-sails-through-us-china-storm-2026-09-18/",
+     "published_cst": "2026-09-18T02:52:32+08:00",
+     "time": "09-18 02:52",
+     "body": null,
+     "title_zh": "亚洲首富安然度过中美风暴"
+    },
+    {
+     "title": "South Korea's Lee says will not deploy military to get involved in Middle East conflict",
+     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-will-not-deploy-military-get-involved-middle-east-conflict-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-will-not-deploy-military-get-involved-middle-east-conflict-2026-09-18/",
+     "published_cst": "2026-09-18T02:36:09+08:00",
+     "time": "09-18 02:36",
+     "body": null,
+     "title_zh": "韩国李表示不会部署军队介入中东冲突"
+    },
+    {
+     "title": "What will Trump and Xi discuss in Washington next week?",
+     "url": "https://www.reuters.com/world/china/what-will-trump-xi-discuss-washington-next-week-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/what-will-trump-xi-discuss-washington-next-week-2026-09-17/",
+     "published_cst": "2026-09-18T02:25:31+08:00",
+     "time": "09-18 02:25",
+     "body": null,
+     "title_zh": "特朗普与习近平下周将在华盛顿讨论什么？"
+    },
+    {
+     "title": "South Korea's Lee says he has no intention of seeking a second term",
+     "url": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-he-has-no-intention-seeking-second-term-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-koreas-lee-says-he-has-no-intention-seeking-second-term-2026-09-18/",
+     "published_cst": "2026-09-18T02:12:03+08:00",
+     "time": "09-18 02:12",
+     "body": null,
+     "title_zh": "韩国李表示无意寻求连任"
+    },
+    {
+     "title": "Waymo to bring autonomous ride-hailing to Singapore in 2028",
+     "url": "https://www.reuters.com/world/asia-pacific/waymo-bring-autonomous-ride-hailing-singapore-2028-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/waymo-bring-autonomous-ride-hailing-singapore-2028-2026-09-18/",
+     "published_cst": "2026-09-18T02:03:52+08:00",
+     "time": "09-18 02:03",
+     "body": null,
+     "title_zh": "Waymo将于2028年在新加坡推出自动驾驶网约车服务"
     },
     {
      "title": "Indonesia calls off search for journalists missing while covering volcano eruption",
@@ -338,15 +1570,6 @@
      "time": "09-18 00:59",
      "body": null,
      "title_zh": "印尼停止搜寻报道火山喷发时失踪的记者"
-    },
-    {
-     "title": "Qantas ground workers to strike over pay and conditions next week",
-     "url": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
-     "link": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
-     "published_cst": "2026-09-18T00:48:59+08:00",
-     "time": "09-18 00:48",
-     "body": null,
-     "title_zh": "澳洲航空地勤人员下周因薪酬问题罢工"
     },
     {
      "title": "Nombran a Carlos Augusto Suárez como presidente de junta directiva de colombiano Ecopetrol",
@@ -448,15 +1671,6 @@
      "title_zh": "联合国调查团认为有理由相信美国在伊朗犯下战争罪，而德黑兰犯下危害人类罪。"
     },
     {
-     "title": "How Bessent, America's bond salesman, cornered Japan on big spending",
-     "url": "https://www.reuters.com/world/asia-pacific/how-bessent-americas-bond-salesman-cornered-japan-big-spending-2026-09-17/",
-     "link": "https://www.reuters.com/world/asia-pacific/how-bessent-americas-bond-salesman-cornered-japan-big-spending-2026-09-17/",
-     "published_cst": "2026-09-18T00:15:56+08:00",
-     "time": "09-18 00:15",
-     "body": null,
-     "title_zh": "美国债券推销员贝森特如何在大手笔支出上逼日本就范"
-    },
-    {
      "title": "US government website used AI search tool from China that FBI said copied Anthropic",
      "url": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/",
      "link": "https://www.reuters.com/legal/litigation/us-government-website-used-ai-search-tool-china-that-fbi-said-copied-anthropic-2026-09-17/",
@@ -464,15 +1678,6 @@
      "time": "09-18 00:15",
      "body": null,
      "title_zh": "美国政府网站使用了中国的人工智能搜索工具，联邦调查局称其抄袭了Anthropic。"
-    },
-    {
-     "title": "Bank of Japan set to raise interest rates to 31-year high",
-     "url": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
-     "link": "https://www.reuters.com/world/asia-pacific/bank-japan-set-raise-interest-rates-31-year-high-2026-09-17/",
-     "published_cst": "2026-09-18T00:06:39+08:00",
-     "time": "09-18 00:06",
-     "body": null,
-     "title_zh": "日本央行将加息至31年高位"
     },
     {
      "title": "Irmã do líder da Coreia do Norte adverte que haverá resposta mais contundente aos exercícios liderados pelos EUA",
