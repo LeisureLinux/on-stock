@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-18 10:09",
-   "title": "Russia seizes control of Nestlé and Auchan operations"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-18 14:08",
+   "title": "Trump pledged fiscal restraint. Instead, debt tops $40 trillion as borrowing costs rise"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 10:08",
-   "title": "NSE's $2.3 billion India IPO fully subscribed, led by institutional demand"
+   "time": "09-18 14:07",
+   "title": "Trump and the left: Republicans' two-pronged midterms strategy"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 10:08",
-   "title": "London's FTSE 100 retreats as banks, energy weigh but eyes weekly rise"
+   "time": "09-18 14:07",
+   "title": "Mbappé deixa Nike e assina com a On, que está entrando no mercado do futebol"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 10:07",
-   "title": "Record US diesel prices squeeze farmers; food prices may rise"
+   "time": "09-18 14:07",
+   "title": "Trump's $5,000 dividend plan draws some Republican skepticism"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 10:07",
-   "title": "Major central banks on tightening path amid energy price shock"
+   "time": "09-18 14:06",
+   "title": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says"
   }
  ]
 }
