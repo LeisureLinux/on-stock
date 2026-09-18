@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-18T08:41:43.405382+08:00",
+ "generated_at": "2026-09-18T09:12:21.060689+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -6364,6 +6364,26 @@
      "summary_zh": "中国汽柴油库存降至多年低点，政府或再度限制燃料出口，第四季度清洁油品出口或压至约120万吨。"
     },
     {
+     "title": "Gold Swings Lower as Fed Tilts Hawkish After Raising Rates",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/gold-steadies-below-4-300-as-markets-await-fed-rate-decision",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/gold-steadies-below-4-300-as-markets-await-fed-rate-decision",
+     "published_cst": "2026-09-16T00:00:15+08:00",
+     "time": "09-16 00:00",
+     "body": [
+      "Gold was steady after a two-day drop as high oil prices continued to fuel inflation concerns and keep interest-rate hike bets a near-certainty ahead of the Federal Reserve’s policy decision later Wednesday.",
+      "Bullion was trading around $4,290 an ounce. Elevated energy prices pushed bond yields higher, and traders are now pricing in a 92% chance of the Fed hiking rates. Higher borrowing costs are typically negative for gold, which doesn’t pay interest.",
+      "The 10-year US Treasury yield rose to the highest level in almost two decades, the latest milestone in a bruising global bond selloff driven by booming capital investment and soaring energy prices that are exacerbating inflation. The yield, which serves as a benchmark for borrowing costs across the globe, rose as much as five basis points to 5.04% on Tuesday, the highest since 2007.",
+      "That’s adding to investor expectations that the central bank will raise interest rates for the first time since 2023. If it doesn’t, or if Fed Chairman Kevin Warsh is noncommittal about additional increases, traders may demand even higher yields on long-term bonds to safeguard their investments against the risk of inflation remaining elevated.",
+      "Read More: US 10-Year Yield Rises to Highest Since 2007 as Fed Looms",
+      "“With markets already pricing a high chance of a Fed hike this week, the main uncertainty is less about the hike itself, and more about what comes after,” said Christopher Wong, a strategist at Oversea-Chinese Banking Corp. “If the Fed keeps the door open to further tightening, gold may be more vulnerable,” and move lower toward $4,000 an ounce if key support at $4,250 is broken, he added.",
+      "Oil steadied after a two-day gain, as the duration of Saudi Arabia’s East-West pipeline shutdown after attacks last week remains unclear. The route had allowed millions of barrels a day to avoid passing through the Strait of Hormuz, and Saudi Aramco is now delaying deliveries to some European customers.",
+      "Gold is down more than 3% in September, after trading above $4,700 an ounce in late August, as traders repeatedly recalibrate the outlook for Fed policy. Still, many investors are betting that bullion will regain momentum once it rediscovers its traditional value as a portfolio hedge.",
+      "Spot gold was 0.2% lower at $4,284.99 an ounce at 8:45 a.m. in Singapore. Silver was little changed at $63.68 an ounce. Platinum dipped 0.2% and palladium was up 0.1%. The Bloomberg Dollar Spot Index, a gauge of the US currency, was 0.1% higher after gaining 0.6% in the past two sessions."
+     ],
+     "title_zh": "金价持稳于4300美元下方 市场等待美联储利率决议",
+     "summary_zh": "金价持稳于每盎司4290美元附近，油价高企加剧通胀担忧，市场押注美联储加息概率达92%，10年期美债收益率升至5.04%创2007年以来新高。"
+    },
+    {
      "title": "Meta's Zuckerberg Favors Evaluators Over Slowdown for AI",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-s-zuckerberg-favors-evaluators-over-slowdown-for-ai-safety",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/meta-s-zuckerberg-favors-evaluators-over-slowdown-for-ai-safety",
@@ -6388,26 +6408,6 @@
      ],
      "title_zh": "扎克伯格倾向评估者而非放缓AI",
      "summary_zh": "Meta CEO扎克伯格呼吁AI实验室依靠独立评估者确保模型安全，并透露Meta曾主动推迟Muse工具发布数月以专注安全。"
-    },
-    {
-     "title": "Gold Swings Lower as Fed Tilts Hawkish After Raising Rates",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/gold-steadies-below-4-300-as-markets-await-fed-rate-decision",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/gold-steadies-below-4-300-as-markets-await-fed-rate-decision",
-     "published_cst": "2026-09-16T00:00:15+08:00",
-     "time": "09-16 00:00",
-     "body": [
-      "Gold was steady after a two-day drop as high oil prices continued to fuel inflation concerns and keep interest-rate hike bets a near-certainty ahead of the Federal Reserve’s policy decision later Wednesday.",
-      "Bullion was trading around $4,290 an ounce. Elevated energy prices pushed bond yields higher, and traders are now pricing in a 92% chance of the Fed hiking rates. Higher borrowing costs are typically negative for gold, which doesn’t pay interest.",
-      "The 10-year US Treasury yield rose to the highest level in almost two decades, the latest milestone in a bruising global bond selloff driven by booming capital investment and soaring energy prices that are exacerbating inflation. The yield, which serves as a benchmark for borrowing costs across the globe, rose as much as five basis points to 5.04% on Tuesday, the highest since 2007.",
-      "That’s adding to investor expectations that the central bank will raise interest rates for the first time since 2023. If it doesn’t, or if Fed Chairman Kevin Warsh is noncommittal about additional increases, traders may demand even higher yields on long-term bonds to safeguard their investments against the risk of inflation remaining elevated.",
-      "Read More: US 10-Year Yield Rises to Highest Since 2007 as Fed Looms",
-      "“With markets already pricing a high chance of a Fed hike this week, the main uncertainty is less about the hike itself, and more about what comes after,” said Christopher Wong, a strategist at Oversea-Chinese Banking Corp. “If the Fed keeps the door open to further tightening, gold may be more vulnerable,” and move lower toward $4,000 an ounce if key support at $4,250 is broken, he added.",
-      "Oil steadied after a two-day gain, as the duration of Saudi Arabia’s East-West pipeline shutdown after attacks last week remains unclear. The route had allowed millions of barrels a day to avoid passing through the Strait of Hormuz, and Saudi Aramco is now delaying deliveries to some European customers.",
-      "Gold is down more than 3% in September, after trading above $4,700 an ounce in late August, as traders repeatedly recalibrate the outlook for Fed policy. Still, many investors are betting that bullion will regain momentum once it rediscovers its traditional value as a portfolio hedge.",
-      "Spot gold was 0.2% lower at $4,284.99 an ounce at 8:45 a.m. in Singapore. Silver was little changed at $63.68 an ounce. Platinum dipped 0.2% and palladium was up 0.1%. The Bloomberg Dollar Spot Index, a gauge of the US currency, was 0.1% higher after gaining 0.6% in the past two sessions."
-     ],
-     "title_zh": "金价持稳于4300美元下方 市场等待美联储利率决议",
-     "summary_zh": "金价持稳于每盎司4290美元附近，油价高企加剧通胀担忧，市场押注美联储加息概率达92%，10年期美债收益率升至5.04%创2007年以来新高。"
     },
     {
      "title": "Apollo Gives $585 Million of Financing to The Executive Centre",

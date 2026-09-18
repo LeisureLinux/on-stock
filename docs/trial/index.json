@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 00:36",
-   "title": "Orion180 Insurance prices US IPO below range, raises $240 million"
+   "time": "09-18 01:04",
+   "title": "Foreign investors buy Vietnam stocks ahead of FTSE market upgrade"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 00:32",
-   "title": "In Silicon Valley, AI data center boom meets local resistance"
-  },
-  {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-18 00:30",
-   "title": "King Charles denies Diana allegations in new Spencer book"
+   "time": "09-18 01:03",
+   "title": "Oil prices fall 1% on hopes of limited supply disruptions"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-18 00:28",
-   "title": "Qantas ground workers to strike over pay and conditions next week"
+   "time": "09-18 01:03",
+   "title": "Yen weak ahead of BOJ decision; rate hike expected"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-18 00:27",
-   "title": "Clarification: LNG tankers"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-18 01:01",
+   "title": "RBA Governor Bullock Says Inflation Fears Materializing"
+  },
+  {
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-18 01:00",
+   "title": "When Weight Loss Isn’t the Goal of Taking a GLP-1"
   }
  ]
 }

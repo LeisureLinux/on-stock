@@ -1,16 +1,100 @@
 {
  "date": "20260918",
- "generated_at": "2026-09-18T08:44:47.292513+08:00",
+ "generated_at": "2026-09-18T09:12:55.433442+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 3,
+   "count": 7,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "Traders Eye Xi-Trump Meet for Clues on AI Rivalry, Yuan Outlook",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/traders-eye-xi-trump-meet-for-clues-on-ai-rivalry-yuan-outlook",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/traders-eye-xi-trump-meet-for-clues-on-ai-rivalry-yuan-outlook",
+     "published_cst": "2026-09-18T00:39:37+08:00",
+     "time": "09-18 00:39",
+     "body": [
+      "Artificial intelligence, a lingering trade war and the yuan will likely dominate the agenda of the upcoming US-China summit, with focus on whether the two nations can reach concessions or put guardrails around key areas of competition, analysts say.",
+      "For now, markets are sending mixed signals about the outcome of next week’s meeting between US President Donald Trump and his Chinese counterpart Xi Jinping.",
+      "Indicating cautious optimism, a Goldman Sachs Group Inc. survey shows 46% of offshore and 38% of onshore investors expect Chinese stocks to rise after the talks. Only a small minority foresees losses. Meanwhile, overseas exchange-traded fund flows and options positioning suggest foreign investors remain wary ahead of the summit, according to Tony Lee, JPMorgan Chase & Co.’s equity-derivatives strategist.",
+      "AI is widely expected to be a central topic as the technology race turns increasingly heated, with access to advanced US chips, safety standards and disputes over the pace of the industry’s development among key points of contention. The fate of a soon-to-expire one-year tariff truce, Beijing’s export curbs on rare earths, as well as the value of China’s currency may also be in the spotlight.",
+      "Here’s a closer look at what investors are watching ahead of the event:",
+      "The two countries’ tech rivalry has become more intense lately, with Beijing criticizing calls among leading US industry executives to slow AI development and impose tighter curbs on Chinese model makers as fearmongering and confrontation.",
+      "It risks weighing further on Chinese AI firms from Z.AI Co. and MiniMax Group Inc., whose stocks have been under pressure in recent months due to fierce competition and concerns over cash burn.",
+      "“Ultimately, both leaders know that AI is critical for national security, so neither is likely to slow its efforts and each will seek to undermine the other,” said Vey-Sern Ling,  a managing director at Union Bancaire Privée. “Any loosening of semiconductor restrictions will be positive for both countries, especially for Nvidia, and China’s large language model developers such as Alibaba, Tencent and Zhipu.”",
+      "Expectations are high that the summit may result in an extension of the bilateral trade truce that will expire in November, after the two nations have started talks over slashing tariffs on certain goods, including on American energy and agricultural shipments, as well as lower duties on Chinese inputs for manufacturers.",
+      "With representatives from state-owned food trading firm Cofco likely to join President Xi’s delegation, investors will be watching for fresh Chinese orders for US agricultural products such as soybean, analysts say. The potential for BYD Co. to feature in the trade mission also has drawn interest in Chinese electric-vehicle makers’ access to the US market.",
+      "A major sticking point in the bilateral relations, access to Chinese rare earths will likely remain high on the agenda. Any easing by Beijing on export restrictions could help downstream manufacturers, while reducing some of the scarcity premium in alternative suppliers, Charu Chanana, chief investment strategist at Saxo Markets, wrote in a note.",
+      "The yuan may also be discussed at the summit, especially after US Treasury Secretary Scott Bessent said in August that many people considered the Chinese currency undervalued.",
+      "The yuan has strengthened around 4% against the dollar this year, making itself Asia’s top performer. Despite the gains, Beijing also faces criticism from European countries such as Germany for using an artificially cheap currency to gain an unfair trade advantage.",
+      "While some analysts expect China to allow the yuan to see modest gains in the coming days to help create a more conducive environment for the summit, it’s unlikely to tolerate significant appreciation given the country’s reliance on a robust export machine to keep its economy humming.",
+      "“China’s strategy has been maintaining currency stability at a reasonable level, and this does not look likely to change even if there is external pressure,” said Lynn Song, chief economist for Greater China at ING Bank NV."
+     ],
+     "title_zh": "交易员关注习特会，寻找AI竞争与人民币走势线索",
+     "summary_zh": "美中峰会聚焦AI、贸易战与人民币，高盛调查显示46%离岸投资者预期中国股市上涨。"
+    },
+    {
+     "title": "Immunology Drugmaker Electra Raises $350 Million in Upsized IPO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/immunology-drugmaker-electra-raises-350-million-in-upsized-ipo",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/immunology-drugmaker-electra-raises-350-million-in-upsized-ipo",
+     "published_cst": "2026-09-18T00:39:03+08:00",
+     "time": "09-18 00:39",
+     "body": [
+      "Electra Therapeutics Inc., a clinical-stage developer of immunology drugs, raised $350 million in an upsized US initial public offering priced at the mid-point of its marketed range.",
+      "The OrbiMed-backed firm sold 23.3 million shares for $15 each, according to a statement Thursday. Electra had offered 21.67 million shares for $14 to $16 apiece, its filings with the US Securities and Exchange Commission show.",
+      "The offering was multiple times oversubscribed, Bloomberg News reported. At the IPO price, the San Francisco-based company would have a market value of roughly $941.5 million, based on the outstanding shares in the filings.",
+      "Electra’s lead drug candidate is designed to treat secondary hemophagocytic lymphohistiocytosis, a severe immune system overreaction. The company is conducting a global mid-stage trial of the drug in newly diagnosed patients, according to its filing. The therapy has received a Breakthrough Therapy designation from the US Food and Drug Administration as well as a Priority Medicine designation from the European Medicines Agency.",
+      "The IPO will hit the US market at an exuberant time for drug developers. Listings of biotech and pharmaceutical companies have raised $6.8 billion this year, versus $1.3 billion in the corresponding period in 2025, data compiled by Bloomberg show.",
+      "The company’s investors include entities affiliated with OrbiMed, Westlake BioPartners and Redmile Group. Electra raised about $182.7 million from a Series C funding round in October, led by a unit of French drugmaker Sanofi SA, OrbiMed and Redmile and carried $97.7 million of cash and equivalents at of June 30 this year, according to the filings.",
+      "The firm had a net loss of $58.6 million for the six months ended June 30, compared to a net loss of $25.4 million for the same period a year prior, the filings show.",
+      "Electra’s offering was led by Jefferies Financial Group Inc., Toronto-Dominion Bank, Evercore Inc. and Cantor Fitzgerald. Shares are expected to begin trading Friday on the Nasdaq Global Select Market under the symbol ETRA."
+     ],
+     "title_zh": "免疫学制药公司Electra扩大IPO规模，筹资3.5亿美元",
+     "summary_zh": "临床阶段免疫药物开发商Electra Therapeutics以每股15美元发行2330万股，募资3.5亿美元，估值约9.4亿美元，预计周五在纳斯达克上市。"
+    },
+    {
+     "title": "El Niño Puts India on Track for Its Driest Monsoon Since 2009",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/el-nino-puts-india-on-track-for-its-driest-monsoon-since-2009",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/el-nino-puts-india-on-track-for-its-driest-monsoon-since-2009",
+     "published_cst": "2026-09-18T00:30:00+08:00",
+     "time": "09-18 00:30",
+     "body": [
+      "India is on course for its driest monsoon in 17 years as a strengthening El Niño curbs rainfall, threatening crop yields and raising food-price risks.",
+      "Cumulative rainfall during the June to September monsoon season is 15% below the long-term average so far, according to the India Meteorological Department. If the deficit persists, it would be the weakest monsoon since 2009, when precipitation was 18% below normal. The weather office had forecast a 10% shortfall for this season back in May.",
+      "Conditions may become favorable for a tropical cyclone in the Bay of Bengal in the last week of September, said Christian Werner, managing director of Australia-based consultancy Global Weather Climate Analytics. That could potentially bring much-needed rain to eastern and northeastern India, mitigating the deficit there, he added.",
+      "Read More: Powerful El Niño Nears Record Strength, US Forecasters Say",
+      "Still, the storm is unlikely to materially change the national picture and Werner expects the seasonal deficit to hold between 13% and 16%.",
+      "Forecasters and academics are also placing bets on India’s monsoon through a specialty prediction platform at Lancaster University in the UK, known by its acronym CRUCIAL. With less than two weeks of monsoon remaining, the platform is assigning a 68% chance that the season will end with a rainfall deficit of 10% to 20%, according to founder and planetary scientist Mark Roulston.",
+      "Adequate monsoon rains are crucial for the hundreds of millions of Indian farmers who depend on the seasonal precipitation to irrigate fields in the country, which is among the world’s biggest producers of rice, sugar and cotton. The season accounts for most of India’s annual rainfall.",
+      "Read More: A Dozen Ingredients Show India’s Mounting Food Inflation Risk",
+      "The prolonged shortfall could hurt both the current harvest and the next crop cycle, adding to the pressure on food prices that are already accelerating, with costs rising for a seventh straight month to 5.95% in August, the highest level this year. Rice, sugar cane and corn plantings are running behind last season.",
+      "When the monsoon is deficient, every 1 percentage-point shortfall in precipitation from normal levels typically raises food inflation by about 25 basis points, according to Yuvika Singhal, an economist at QuantEco.",
+      "Weaker rains and rising prices have already pushed the government to allow duty-free sugar imports to bolster supplies. The government is also selling onions at subsidized prices in some states, as part of efforts to cool rising food costs."
+     ],
+     "title_zh": "厄尔尼诺致印度或遇2009年来最干旱季风",
+     "summary_zh": "印度今年季风降雨量较长期均值少15%，或创17年来最干旱纪录，威胁水稻、甘蔗和棉花等作物产量并推高食品价格风险。"
+    },
+    {
+     "title": "Vietnam Stocks See Early Foreign Inflows as FTSE Upgrade Nears",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/vietnam-stocks-see-early-foreign-inflows-as-ftse-upgrade-nears",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/vietnam-stocks-see-early-foreign-inflows-as-ftse-upgrade-nears",
+     "published_cst": "2026-09-18T00:28:51+08:00",
+     "time": "09-18 00:28",
+     "body": [
+      "Global funds are dipping back into Vietnamese stocks ahead of their inclusion in FTSE Russell’s emerging markets universe next week.",
+      "Foreigners have bought $54.2 million of local shares on a net basis so far this week, set for the most in six weeks. Vietnam’s reclassification by FTSE takes effect on Sept. 21.",
+      "Foreign selling in Vietnamese shares have slowed in recent months, helping the benchmark to erase losses for the year. The country in August secured a bigger-than-expected weighting in FTSE Russell’s semi-annual index review, paving the way for billions in foreign stock inflows.",
+      "“Foreign re-engagement in Vietnamese equities could build gradually as FTSE inclusion is phased in and market access improves,” said Sufianti, a Singapore-based analyst at Bloomberg Intelligence.",
+      "Passive funds that track FTSE indexes are expected to execute orders later Friday as they look to mirror the country’s weight in the index provider’s emerging-market gauge.",
+      "Global funds remain substantial sellers on an annual basis, withdrawing a net $3.5 billion of shares so far this year. That adds to the record $4.8 billion outflow in 2025, as geopolitical tensions and a rotation toward faster-growing markets weighed on demand."
+     ],
+     "title_zh": "越南股市迎外资早期流入，富时升级在即",
+     "summary_zh": "越南股市纳入富时罗素新兴市场指数前，外资本周净买入5420万美元，创六周新高。"
+    },
     {
      "title": "Gold Holds Gain as Lower Oil and Fed Hike Temper Inflation Fears",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/gold-holds-gain-as-lower-oil-and-fed-hike-temper-inflation-fears",
@@ -116,10 +200,55 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 5,
+   "count": 10,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "RBA Governor Bullock Says Inflation Fears Materializing",
+     "url": "https://www.wsj.com/economy/central-banking/rba-governor-bullock-says-inflation-fears-materializing-03e52081",
+     "link": "https://www.wsj.com/economy/central-banking/rba-governor-bullock-says-inflation-fears-materializing-03e52081",
+     "published_cst": "2026-09-18T01:01:00+08:00",
+     "time": "09-18 01:01",
+     "body": null,
+     "title_zh": "澳洲联储主席布洛克称通胀担忧正在成为现实"
+    },
+    {
+     "title": "When Weight Loss Isn’t the Goal of Taking a GLP-1",
+     "url": "https://www.wsj.com/health/wellness/when-weight-loss-isnt-the-goal-of-taking-a-glp-1-37944de2",
+     "link": "https://www.wsj.com/health/wellness/when-weight-loss-isnt-the-goal-of-taking-a-glp-1-37944de2",
+     "published_cst": "2026-09-18T01:00:00+08:00",
+     "time": "09-18 01:00",
+     "body": null,
+     "title_zh": "当服用GLP-1不为减肥时"
+    },
+    {
+     "title": "Weeks Before the Midterms, Almost Everything Is Getting More Expensive",
+     "url": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5",
+     "link": "https://www.wsj.com/economy/weeks-before-the-midterms-almost-everything-is-getting-more-expensive-5b201bb5",
+     "published_cst": "2026-09-18T01:00:00+08:00",
+     "time": "09-18 01:00",
+     "body": null,
+     "title_zh": "中期选举前几周，几乎所有东西都在涨价"
+    },
+    {
+     "title": "Hackers Used Anthropic’s Claude to Break Into OpenAI",
+     "url": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+     "link": "https://www.wsj.com/tech/ai/hackers-used-anthropics-claude-to-break-into-openai-b40ba883",
+     "published_cst": "2026-09-18T01:00:00+08:00",
+     "time": "09-18 01:00",
+     "body": null,
+     "title_zh": "黑客利用Anthropic的Claude入侵OpenAI"
+    },
+    {
+     "title": "Oil Falls as Worries Over Middle East Supply Disruptions Ease",
+     "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-as-worries-over-middle-east-supply-disruptions-ease-36be861a",
+     "link": "https://www.wsj.com/finance/commodities-futures/oil-falls-as-worries-over-middle-east-supply-disruptions-ease-36be861a",
+     "published_cst": "2026-09-18T00:39:00+08:00",
+     "time": "09-18 00:39",
+     "body": null,
+     "title_zh": "油价下跌，中东供应中断担忧缓解"
+    },
     {
      "title": "Gold Rises, Likely Supported by Oil Pullback",
      "url": "https://www.wsj.com/finance/commodities-futures/gold-rises-likely-supported-by-oil-pullback-0023a879",
@@ -170,10 +299,82 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 16,
+   "count": 23,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "Foreign investors buy Vietnam stocks ahead of FTSE market upgrade",
+     "url": "https://www.reuters.com/world/asia-pacific/foreign-investors-buy-vietnam-stocks-ahead-ftse-market-upgrade-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/foreign-investors-buy-vietnam-stocks-ahead-ftse-market-upgrade-2026-09-18/",
+     "published_cst": "2026-09-18T01:04:27+08:00",
+     "time": "09-18 01:04",
+     "body": null,
+     "title_zh": "外国投资者在富时指数升级前买入越南股票"
+    },
+    {
+     "title": "Oil prices fall 1% on hopes of limited supply disruptions",
+     "url": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/",
+     "link": "https://www.reuters.com/business/energy/oil-prices-fall-1-hopes-limited-supply-disruptions-2026-09-18/",
+     "published_cst": "2026-09-18T01:03:35+08:00",
+     "time": "09-18 01:03",
+     "body": null,
+     "title_zh": "油价下跌1%，因预期供应中断有限"
+    },
+    {
+     "title": "Yen weak ahead of BOJ decision; rate hike expected",
+     "url": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/",
+     "link": "https://www.reuters.com/world/asia-pacific/yen-weak-ahead-boj-decision-rate-hike-expected-2026-09-18/",
+     "published_cst": "2026-09-18T01:03:02+08:00",
+     "time": "09-18 01:03",
+     "body": null,
+     "title_zh": "日本央行决议前日元走弱，预计加息"
+    },
+    {
+     "title": "Indonesia calls off search for journalists missing while covering volcano eruption",
+     "url": "https://www.reuters.com/business/environment/indonesia-calls-off-search-journalists-missing-while-covering-volcano-eruption-2026-09-18/",
+     "link": "https://www.reuters.com/business/environment/indonesia-calls-off-search-journalists-missing-while-covering-volcano-eruption-2026-09-18/",
+     "published_cst": "2026-09-18T00:59:44+08:00",
+     "time": "09-18 00:59",
+     "body": null,
+     "title_zh": "印尼停止搜寻报道火山喷发时失踪的记者"
+    },
+    {
+     "title": "Qantas ground workers to strike over pay and conditions next week",
+     "url": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
+     "link": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
+     "published_cst": "2026-09-18T00:48:59+08:00",
+     "time": "09-18 00:48",
+     "body": null,
+     "title_zh": "澳洲航空地勤人员下周因薪酬问题罢工"
+    },
+    {
+     "title": "Nombran a Carlos Augusto Suárez como presidente de junta directiva de colombiano Ecopetrol",
+     "url": "https://www.reuters.com/es/mundo/BIQO5NJI7FOFNOFF5RTRI2UBQE-2026-09-18/",
+     "link": "https://www.reuters.com/es/mundo/BIQO5NJI7FOFNOFF5RTRI2UBQE-2026-09-18/",
+     "published_cst": "2026-09-18T00:47:23+08:00",
+     "time": "09-18 00:47",
+     "body": null,
+     "title_zh": "卡洛斯·奥古斯托·苏亚雷斯被任命为哥伦比亚国家石油公司董事会主席"
+    },
+    {
+     "title": "Colombia convoca a nueva generación de jugadores para gira de amistosos en Estados Unidos",
+     "url": "https://www.reuters.com/es/mundo/67GEYUH7IROOBK3SBKAKKFITAQ-2026-09-18/",
+     "link": "https://www.reuters.com/es/mundo/67GEYUH7IROOBK3SBKAKKFITAQ-2026-09-18/",
+     "published_cst": "2026-09-18T00:41:14+08:00",
+     "time": "09-18 00:41",
+     "body": null,
+     "title_zh": "哥伦比亚征召新一代球员赴美参加友谊赛"
+    },
+    {
+     "title": "China presses Iran to help rein in Houthis after Saudi appeal, sources say",
+     "url": "https://www.reuters.com/world/china/china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say-2026-09-17/",
+     "link": "https://www.reuters.com/world/china/china-presses-iran-help-rein-houthis-after-saudi-appeal-sources-say-2026-09-17/",
+     "published_cst": "2026-09-18T00:41:01+08:00",
+     "time": "09-18 00:41",
+     "body": null,
+     "title_zh": "消息人士称，沙特求助后，中国向伊朗施压协助遏制胡塞武装"
+    },
     {
      "title": "Orion180 Insurance prices US IPO below range, raises $240 million",
      "url": "https://www.reuters.com/legal/litigation/orion180-insurance-prices-us-ipo-below-range-raises-240-million-2026-09-18/",
@@ -191,15 +392,6 @@
      "time": "09-18 00:32",
      "body": null,
      "title_zh": "硅谷AI数据中心热潮遭遇当地抵制"
-    },
-    {
-     "title": "Qantas ground workers to strike over pay and conditions next week",
-     "url": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
-     "link": "https://www.reuters.com/business/world-at-work/qantas-ground-workers-strike-over-pay-next-week-2026-09-18/",
-     "published_cst": "2026-09-18T00:28:28+08:00",
-     "time": "09-18 00:28",
-     "body": null,
-     "title_zh": "澳洲航空地勤人员下周因薪酬问题罢工"
     },
     {
      "title": "Pentagon to proceed with controversial testosterone testing after pause",
