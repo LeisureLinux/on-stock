@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-18T14:12:07.420993+08:00",
+ "generated_at": "2026-09-18T18:13:02.129492+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -3849,6 +3849,55 @@
      "summary_zh": "奢侈品电商Mytheresa母公司LuxExperience第四财季净销售额增长7.6%，股价飙升26%，市值达12.5亿美元。"
     },
     {
+     "title": "Walmart and Insurer Scan Health to Sell Medicare Advantage Plan",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/walmart-and-insurer-scan-health-to-sell-medicare-advantage-plan",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/walmart-and-insurer-scan-health-to-sell-medicare-advantage-plan",
+     "published_cst": "2026-09-16T10:00:00+08:00",
+     "time": "09-16 10:00",
+     "body": [
+      "Walmart Inc. and nonprofit insurer Scan Health Plan are partnering to sell Medicare Advantage plans to seniors, betting that they can use the big-box retailer’s data to push down the cost of healthcare.",
+      "Prices for medical care have risen steeply in recent years, making it more difficult for health insurers to profit by selling Medicare Advantage plans, which are a private version of Medicare. Insurers have been pulling back and closing some plans, forcing millions of people to find other coverage. Scan hopes their plan may help fill some of that gap.",
+      "“Partnering with Walmart, in particular around its low prices, can help solve some of the challenges that our patients face around accessing the things that they need to be able to live a healthy life,” said Zachary Myers, Scan’s national general manager.",
+      "Walmart already collects data on some shoppers’ spending habits as part of a program that recommends healthier choices. Scan hopes these nudges from the retailer will encourage enrollees in the co-branded Medicare Advantage plan to behave in ways that will lower overall healthcare costs, Myers said.",
+      "Walmart didn’t say how many customers have opted in to having their shopping data collected.",
+      "The Medicare Advantage plan will be available in two states, Myers said, declining to specify which ones. He also didn’t say how many people are expected to enroll or share more specifics about the plan, which is still pending regulatory clearance, or disclose financial details of the partnership. Walmart also declined to offer details on the plan.",
+      "If approved, the plan will be sold in the upcoming annual enrollment period, which starts Oct. 15. Coverage would begin Jan. 1.",
+      "This is the second co-branded Medicare Advantage plan with a retailer that Scan has announced in recent months. Scan is also selling a Medicare Advantage plan with Costco Wholesale Corp. A Scan spokesperson said the Costco and Walmart plans have different benefits and will be offered in different states."
+     ],
+     "title_zh": "沃尔玛与保险公司Scan Health将合作销售联邦医疗保险优势计划",
+     "summary_zh": "沃尔玛与Scan Health Plan合作，利用沃尔玛数据销售Medicare Advantage计划，以降低医疗成本，计划10月15日起在两国销售。"
+    },
+    {
+     "title": "Brazil Central Bank to Cut Interest Rate to 13.75%",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/brazil-central-bank-to-cut-interest-rate-to-13-75",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/brazil-central-bank-to-cut-interest-rate-to-13-75",
+     "published_cst": "2026-09-16T10:00:00+08:00",
+     "time": "09-16 10:00",
+     "body": [
+      "Brazil’s central bank is widely expected to cut its interest rate by a quarter-point in the final policy decision before a cutthroat presidential election. What happens to borrowing costs after that vote is anyone’s guess.",
+      "Policymakers led by Gabriel Galípolo will lower the benchmark Selic to 13.75% on Wednesday, according to all analysts surveyed by Bloomberg. The decision, which will be announced after 6:30 p.m. in Brasilia together with a statement, would bring total easing since March to 1.25 percentage points.",
+      "Central bankers are meeting less than a month before voters cast their ballots, with polls showing President Luiz Inácio Lula da Silva in dead heat with Senator Flávio Bolsonaro. The election is adding another layer of uncertainty to the policy outlook, with shifts in investors’ expectations for Brazil’s fiscal trajectory likely to reverberate through local markets. Changes in those perceptions could move the currency and feed into inflation expectations, which remain above the 3% target.",
+      "“The central bank won’t react directly to the outcome of the election, but it will react to how markets respond to it,” said Alberto Ramos, chief Latin America economist at Goldman Sachs & Co. LLC. “If we see a sharp selloff in the real, that would raise the probability that the central bank pauses its easing cycle.”",
+      "The election is far from the only source of uncertainty. Brazil central bankers will announce their decision hours after the Federal Reserve sets its own rates, with expectations for a hike priced in futures markets. The conflict in Iran remains unresolved, keeping oil prices volatile, while severe weather stemming from El Niño poses risks to food costs.",
+      "That complexity leaves policymakers with limited visibility beyond this week’s decision. Central bankers have avoided signaling their next moves, preferring instead to maintain flexibility and to make decisions on a meeting-by-meeting basis as the outlook evolves. They have also stressed that monetary policy needs to remain tight because inflation expectations are still above their goal.",
+      "In recent months, Lula has rolled out billions of dollars in stimulus to support demand, complicating policymaker efforts to tame inflation. Those measures have also intensified investor concerns over how his administration would manage public finances and contain government debt if he wins a new term.",
+      "Those worries could affect monetary policy through the exchange rate, making the vote particularly important for the real, which is trading near the stronger end of its recent range, said Brendan McKenna, a strategist at Societe Generale.",
+      "“Markets see a greater chance of fiscal consolidation under a Bolsonaro administration, while a Lula victory without a clear adjustment plan could trigger a selloff,” McKenna said. A weaker currency fans inflation by making imports more expensive.",
+      "After September, the bar for easing gets higher, McKenna sad. He expects policymakers to hold rates through the end of 2026 as the election and its aftermath inject greater volatility into Brazilian markets.",
+      "Some Brazil-watchers, like XP Inc. Chief Economist Caio Megale, say the easing cycle has more room to run regardless of the political tensions. He expects two additional quarter-point cuts by the end of 2026, which would lower the Selic to 13.25%.",
+      "“If the central bank cut rates in a less favorable environment, there’s no reason to stop now,” he said.",
+      "Better-than-expected inflation readings and a weakening economy are providing needed relief for policymakers. On Wednesday, the central bank’s economic activity index, a proxy for gross domestic product fell 0.22% in July from the month prior, slightly worse than -0.2% median estimate from analysts in a Bloomberg survey. From a year ago, activity gained 1.14%.",
+      "Brazil created 58,568 formal jobs in July, the lowest monthly figure so far this year, while personal loan default rates jumped to the highest level since 2009.",
+      "And while consumer price expectations remain above 3% target, they have not deteriorated further since the last rate decision in August. Economists surveyed by the central bank see inflation at 3.8% in 2028.",
+      "“The scenario is moving in the direction the central bank anticipated,” said Leonardo Costa, an economist at ASA.",
+      "Diogo Guillen, Itau’s chief economist and a former central bank director, is more cautious. His base case is for policymakers to pause the easing cycle at 13.75%, given the high degree of uncertainty and lingering inflation risks.",
+      "But he also sees another possible path: continuing to cut rates in quarter-point steps. That scenario would become more likely if both the exchange rate and inflation forecasts remain around current levels, he wrote in a note.",
+      "“The central bank will likely stick to data-dependent language because it wouldn’t make sense to box itself into a corner,” said David Beker, chief Brazil economist at Bank of America Corp."
+     ],
+     "title_zh": "巴西央行将降息至13.75%",
+     "summary_zh": "巴西央行预计周三降息25个基点至13.75%，大选前政策不确定性加剧。"
+    },
+    {
      "title": "Almost £20,000 Wiped Off London Properties, Official Data Show",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/almost-20-000-wiped-off-london-properties-official-data-show",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/almost-20-000-wiped-off-london-properties-official-data-show",
@@ -3982,25 +4031,6 @@
      "summary_zh": "AI医疗公司Sword Health以近3亿美元全现金收购冥想应用Headspace，预计2026年第四季度初完成交易。"
     },
     {
-     "title": "Walmart and Insurer Scan Health to Sell Medicare Advantage Plan",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/walmart-and-insurer-scan-health-to-sell-medicare-advantage-plan",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/walmart-and-insurer-scan-health-to-sell-medicare-advantage-plan",
-     "published_cst": "2026-09-16T10:00:00+08:00",
-     "time": "09-16 10:00",
-     "body": [
-      "Walmart Inc. and nonprofit insurer Scan Health Plan are partnering to sell Medicare Advantage plans to seniors, betting that they can use the big-box retailer’s data to push down the cost of healthcare.",
-      "Prices for medical care have risen steeply in recent years, making it more difficult for health insurers to profit by selling Medicare Advantage plans, which are a private version of Medicare. Insurers have been pulling back and closing some plans, forcing millions of people to find other coverage. Scan hopes their plan may help fill some of that gap.",
-      "“Partnering with Walmart, in particular around its low prices, can help solve some of the challenges that our patients face around accessing the things that they need to be able to live a healthy life,” said Zachary Myers, Scan’s national general manager.",
-      "Walmart already collects data on some shoppers’ spending habits as part of a program that recommends healthier choices. Scan hopes these nudges from the retailer will encourage enrollees in the co-branded Medicare Advantage plan to behave in ways that will lower overall healthcare costs, Myers said.",
-      "Walmart didn’t say how many customers have opted in to having their shopping data collected.",
-      "The Medicare Advantage plan will be available in two states, Myers said, declining to specify which ones. He also didn’t say how many people are expected to enroll or share more specifics about the plan, which is still pending regulatory clearance, or disclose financial details of the partnership. Walmart also declined to offer details on the plan.",
-      "If approved, the plan will be sold in the upcoming annual enrollment period, which starts Oct. 15. Coverage would begin Jan. 1.",
-      "This is the second co-branded Medicare Advantage plan with a retailer that Scan has announced in recent months. Scan is also selling a Medicare Advantage plan with Costco Wholesale Corp. A Scan spokesperson said the Costco and Walmart plans have different benefits and will be offered in different states."
-     ],
-     "title_zh": "沃尔玛与保险公司Scan Health将合作销售联邦医疗保险优势计划",
-     "summary_zh": "沃尔玛与Scan Health Plan合作，利用沃尔玛数据销售Medicare Advantage计划，以降低医疗成本，计划10月15日起在两国销售。"
-    },
-    {
      "title": "Meta CEO Zuckerberg Leans on Powell McCormick to Clear Path for AI Push",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/meta-ceo-zuckerberg-leans-on-powell-mccormick-to-clear-path-for-ai-push",
@@ -4058,36 +4088,6 @@
      ],
      "title_zh": "Meta首席执行官扎克伯格倚重鲍威尔·麦考密克为AI推进扫清障碍",
      "summary_zh": "Meta CEO扎克伯格将1.7万亿美元公司未来押注AI，需外部巨额资本，前特朗普官员Powell McCormick从董事会转任Meta Compute总裁，助其应对AI反弹及180亿美元和解等挑战。"
-    },
-    {
-     "title": "Brazil Central Bank to Cut Interest Rate to 13.75%",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/brazil-central-bank-to-cut-interest-rate-to-13-75",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/brazil-central-bank-to-cut-interest-rate-to-13-75",
-     "published_cst": "2026-09-16T10:00:00+08:00",
-     "time": "09-16 10:00",
-     "body": [
-      "Brazil’s central bank is widely expected to cut its interest rate by a quarter-point in the final policy decision before a cutthroat presidential election. What happens to borrowing costs after that vote is anyone’s guess.",
-      "Policymakers led by Gabriel Galípolo will lower the benchmark Selic to 13.75% on Wednesday, according to all analysts surveyed by Bloomberg. The decision, which will be announced after 6:30 p.m. in Brasilia together with a statement, would bring total easing since March to 1.25 percentage points.",
-      "Central bankers are meeting less than a month before voters cast their ballots, with polls showing President Luiz Inácio Lula da Silva in dead heat with Senator Flávio Bolsonaro. The election is adding another layer of uncertainty to the policy outlook, with shifts in investors’ expectations for Brazil’s fiscal trajectory likely to reverberate through local markets. Changes in those perceptions could move the currency and feed into inflation expectations, which remain above the 3% target.",
-      "“The central bank won’t react directly to the outcome of the election, but it will react to how markets respond to it,” said Alberto Ramos, chief Latin America economist at Goldman Sachs & Co. LLC. “If we see a sharp selloff in the real, that would raise the probability that the central bank pauses its easing cycle.”",
-      "The election is far from the only source of uncertainty. Brazil central bankers will announce their decision hours after the Federal Reserve sets its own rates, with expectations for a hike priced in futures markets. The conflict in Iran remains unresolved, keeping oil prices volatile, while severe weather stemming from El Niño poses risks to food costs.",
-      "That complexity leaves policymakers with limited visibility beyond this week’s decision. Central bankers have avoided signaling their next moves, preferring instead to maintain flexibility and to make decisions on a meeting-by-meeting basis as the outlook evolves. They have also stressed that monetary policy needs to remain tight because inflation expectations are still above their goal.",
-      "In recent months, Lula has rolled out billions of dollars in stimulus to support demand, complicating policymaker efforts to tame inflation. Those measures have also intensified investor concerns over how his administration would manage public finances and contain government debt if he wins a new term.",
-      "Those worries could affect monetary policy through the exchange rate, making the vote particularly important for the real, which is trading near the stronger end of its recent range, said Brendan McKenna, a strategist at Societe Generale.",
-      "“Markets see a greater chance of fiscal consolidation under a Bolsonaro administration, while a Lula victory without a clear adjustment plan could trigger a selloff,” McKenna said. A weaker currency fans inflation by making imports more expensive.",
-      "After September, the bar for easing gets higher, McKenna sad. He expects policymakers to hold rates through the end of 2026 as the election and its aftermath inject greater volatility into Brazilian markets.",
-      "Some Brazil-watchers, like XP Inc. Chief Economist Caio Megale, say the easing cycle has more room to run regardless of the political tensions. He expects two additional quarter-point cuts by the end of 2026, which would lower the Selic to 13.25%.",
-      "“If the central bank cut rates in a less favorable environment, there’s no reason to stop now,” he said.",
-      "Better-than-expected inflation readings and a weakening economy are providing needed relief for policymakers. On Wednesday, the central bank’s economic activity index, a proxy for gross domestic product fell 0.22% in July from the month prior, slightly worse than -0.2% median estimate from analysts in a Bloomberg survey. From a year ago, activity gained 1.14%.",
-      "Brazil created 58,568 formal jobs in July, the lowest monthly figure so far this year, while personal loan default rates jumped to the highest level since 2009.",
-      "And while consumer price expectations remain above 3% target, they have not deteriorated further since the last rate decision in August. Economists surveyed by the central bank see inflation at 3.8% in 2028.",
-      "“The scenario is moving in the direction the central bank anticipated,” said Leonardo Costa, an economist at ASA.",
-      "Diogo Guillen, Itau’s chief economist and a former central bank director, is more cautious. His base case is for policymakers to pause the easing cycle at 13.75%, given the high degree of uncertainty and lingering inflation risks.",
-      "But he also sees another possible path: continuing to cut rates in quarter-point steps. That scenario would become more likely if both the exchange rate and inflation forecasts remain around current levels, he wrote in a note.",
-      "“The central bank will likely stick to data-dependent language because it wouldn’t make sense to box itself into a corner,” said David Beker, chief Brazil economist at Bank of America Corp."
-     ],
-     "title_zh": "巴西央行将降息至13.75%",
-     "summary_zh": "巴西央行预计周三降息25个基点至13.75%，大选前政策不确定性加剧。"
     },
     {
      "title": "Dirty Politics Dominate in Brazil's Presidential Election",

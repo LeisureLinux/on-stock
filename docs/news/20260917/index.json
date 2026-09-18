@@ -1,13 +1,13 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-18T14:12:20.346835+08:00",
+ "generated_at": "2026-09-18T18:13:20.106374+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 242,
+   "count": 244,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -101,6 +101,32 @@
      "summary_zh": "策略师预计日本央行立场不及市场预期鹰派，日元可能走弱至159，当前报156.02。"
     },
     {
+     "title": "Block Thames Creditors From Taking Control, UK Lawmakers Say",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/uk-lawmakers-say-thames-creditors-have-been-joyriding-family-car",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/uk-lawmakers-say-thames-creditors-have-been-joyriding-family-car",
+     "published_cst": "2026-09-17T23:01:00+08:00",
+     "time": "09-17 23:01",
+     "body": [
+      "Thames Water’s senior creditors should be blocked from taking full control over the utility, a group of British lawmakers said Friday.",
+      "Alistair Carmichael, chair of the Environment, Food and Rural Affairs Committee, accused creditors of the UK’s biggest water and sewerage company of “joyriding in the family car.” The committee said the government and regulator Ofwat should withdraw from negotiations with the creditor group London & Valley Water, or LV&W.",
+      "Doing so would likely trigger Special Administration, the committee said, a form of temporary nationalization, but would ultimately put the company on more sustainable footing and be cost neutral for taxpayers.",
+      "Thames, which supplies 16 million people in and around London, has effectively been in the hands of its creditors since shareholders walked away in 2024. It is drowning in more than £18 billion ($24.1 billion) of debt and is working on another loan to take it through next year as talks with Ofwat continue.",
+      "In the report published Friday, the EFRA committee said creditors currently fall through regulatory cracks as their position as “economic owners” means they do not have to go through due diligence in the same way that shareholders would.",
+      "A spokesperson for LV&W said the group is committed to ensuring Thames Water provides the service that customers and local communities deserve.",
+      "Read More: Why Thames Water Is Edging Closer to State Control: Explainer",
+      "Efforts to attract new shareholders in Thames last year failed when when KKR & Co. walked away. Since then, Thames’ senior creditors have been trying to secure government backing for a private-sector rescue of the utility, which would see them become “ultimate controllers” and give them the ability to materially influence Thames’ direction.",
+      "LV&W is preparing a significantly revised rescue proposal aimed at winning over the new government. The previous plan was criticized by former Environment Secretary Emma Reynolds. The new plan includes taking bigger losses on their debt and increasing the £3.35 billion of new equity previously pledged, Bloomberg News reported.",
+      "The group’s spokesperson said its proposal will address all feedback from Ofwat and ministers and is the fastest route to fix Thames Water’s problems.",
+      "The EFRA committee said the government should tighten the rules for putting a company into special administration as the current legislation is too vague and risks a legal battle. However, the MPs stopped short of Thames Water to be permanently nationalized, saying the company should enter SAR until a new owner can be found.",
+      "Prime Minister Andy Burnham’s team had signaled before taking office that it was prepared to put Thames into special administration. But like the government before it, Burnham’s administration has run up against a fundamental obstacle: officials first have to establish whether Thames meets the legal threshold for a performance-based SAR.",
+      "His government is still studying whether to put Thames into special administration, Bloomberg reported this week.",
+      "A spokesman for the Department for Environment, Food and Rural Affairs said Thames has been failing the public for a long time, and that it is looking at every option, including SAR.",
+      "A spokesman for Thames Water said that it didn’t want anything to delay from its current recapitalization and turnaround plan, which is needed to protect customers and the environment."
+     ],
+     "title_zh": "英国议员称应阻止泰晤士债权人取得控制权",
+     "summary_zh": "英国议员呼吁阻止泰晤士水务债权人全面控制该公司，该公司负债超180亿英镑，服务伦敦1600万人。"
+    },
+    {
      "title": "Tibet Wine Industry Grows at World's Highest Vineyard",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/tibet-wine-industry-grows-at-world-s-highest-vineyard",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/tibet-wine-industry-grows-at-world-s-highest-vineyard",
@@ -188,7 +214,7 @@
      "summary_zh": "格力电器将欧洲寒冬视为新增长点，其欧洲部分国家上半年销售激增92%，但海外收入仅占约15%。"
     },
     {
-     "title": "China's $33 Billion Funding Experiment Sputters on Weak Demand",
+     "title": "China's $33 Billion REIT Experiment Sputters Due to Weak Demand",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/china-s-push-for-niche-property-funding-sputters-with-oversupply",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/china-s-push-for-niche-property-funding-sputters-with-oversupply",
      "published_cst": "2026-09-17T23:00:00+08:00",
@@ -296,7 +322,7 @@
      "summary_zh": "宾州州长夏皮罗呼吁加强AI安全防护，并签署行政令规范数据中心，要求其自付电力并遵守节水标准。"
     },
     {
-     "title": "Stocks Rise, Yen Slips as BOJ Hikes in Split Vote: Markets Wrap",
+     "title": "Stocks Rise as Tech Climbs and Oil Extends Retreat: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-17T22:14:33+08:00",
@@ -715,7 +741,7 @@
      "summary_zh": "尽管《清晰法案》在参议院未获通过，但SEC迅速推出创新豁免，允许发行代币化股票，CFTC也扩大加密交易，数字资产行业仍成赢家。"
     },
     {
-     "title": "Korea's Lee Vows Not Get Drawn Into Iran War as Support Sinks",
+     "title": "Korea's Lee Vows Not to Get Drawn Into Iran War as Support Sinks",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/south-korea-president-seeks-reset-after-approval-rating-nosedive",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/south-korea-president-seeks-reset-after-approval-rating-nosedive",
      "published_cst": "2026-09-17T21:00:00+08:00",
@@ -1339,7 +1365,7 @@
      "summary_zh": "美国国务院通知国会拟向沙特出售最多48架F-35战机，价值或达243亿美元，为首次向以色列以外中东国家出售。"
     },
     {
-     "title": "Putin Signs Decree to Seize Control of Nestle Assets in Russia",
+     "title": "Russia Grabs Nestle Assets in Biggest Seizure Since 2024",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/putin-orders-temporary-administration-of-nestle-assets-in-russia",
      "published_cst": "2026-09-17T17:28:48+08:00",
@@ -1636,7 +1662,7 @@
      "summary_zh": "德总理默茨称，二战后建立的跨大西洋无条件友谊时代已结束，至少短期内不再。"
     },
     {
-     "title": "Poland Warns That Russia Plans to Strike Ukraine's NATO Allies",
+     "title": "Poland Says Russia Plans to Strike Ukraine's NATO Allies",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/poland-warns-that-russia-plans-to-strike-ukraine-s-nato-allies",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/poland-warns-that-russia-plans-to-strike-ukraine-s-nato-allies",
      "published_cst": "2026-09-17T16:30:32+08:00",
@@ -2425,6 +2451,31 @@
      ],
      "title_zh": "卢拉在激烈选战前提高社会福利支出",
      "summary_zh": "巴西大选前提高家庭补助金至每月691雷亚尔，今年将耗资58亿雷亚尔，引发市场对财政恶化的担忧，雷亚尔和股市下跌。"
+    },
+    {
+     "title": "Mozambique, Senegal Eurobonds Top Emerging Market Returns",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/mozambique-senegal-eurobonds-top-emerging-market-returns-lifted-by-imf-talks",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/mozambique-senegal-eurobonds-top-emerging-market-returns-lifted-by-imf-talks",
+     "published_cst": "2026-09-17T13:54:53+08:00",
+     "time": "09-17 13:54",
+     "body": [
+      "Mozambique and Senegal’s eurobonds are topping returns across emerging markets, spurred by progress in talks with the International Monetary Fund over new programs.",
+      "The gains buck a wider dip in EMs, driven by a sharp rise in developed-market yields from the US to Japan, as investors fret over ballooning fiscal deficits and higher inflation.",
+      "An emerging-market bond index has handed investors losses of 0.9% so far this month, according to data compiled by Bloomberg. By contrast, returns on the dollar-denominated debt of Mozambique and Senegal have risen 3.5% and 3.4% respectively.",
+      "Senegal is seeking IMF board approval for a $2.2 billion program, while Mozambique is in talks for a new facility, as both countries seek to put their borrowings on a more sustainable path.",
+      "The “positive tone” of discussions with the Washington-based lender has helped lift sentiment, according to Manuel Mondia, a portfolio manager at Aquila Asset Management AG in Switzerland.",
+      "Also working in Mozambique’s favor are discussions with China to “reschedule some debt” and tentative approaches from bondholders with restructuring proposals, he said.",
+      "A rally in Mozambique’s $900 million eurobond maturing in 2031 has pushed its yield to the lowest since October 2021. It has fallen 85 basis points this month to 10.35% as of 10:35 a.m. Friday in London, according to CBBT pricing.",
+      "Read More: Mozambique’s Dollar Bonds Hit Six-Year High as IMF Starts Visit",
+      "Senegal’s euro- and dollar-denominated bonds, which repriced sharply on Sept. 1 after the government announced plans to rework its debt following IMF staff-level agreement for a new facility, have since pared losses.",
+      "President Bassirou Diomaye Faye met IMF Managing Director Kristalina Georgieva in Washington on Tuesday for talks on the program, which the lender said it is working “expeditiously”toward.",
+      "The modest rebound in Senegal’s bond prices could also be due to clarification that debt servicing will continue for now, as well as the recent payment of the coupon on its bonds due 2048, said Samir Gadio, head of Africa strategy at Standard Chartered Plc.",
+      "Gabon is another African sovereign delivering positive returns for bondholders, after a government audit indicated that its debt stock is nearly 20% lower than previously reported. It’s returned 2% so far this month, and 21% for 2026, lagging only Lebanon.",
+      "“While the IMF may seek independent verification, the audit’s completion could pave the way for an IMF technical mission,” Gadio said.",
+      "Sign up here for the daily Next Africa newsletter and subscribe to the Next Africa podcast on Apple, Spotify or anywhere you listen."
+     ],
+     "title_zh": "莫桑比克和塞内加尔欧元债券领跑新兴市场回报",
+     "summary_zh": "莫桑比克和塞内加尔欧元债券因与国际货币基金组织谈判取得进展，回报率分别上涨3.5%和3.4%，领跑新兴市场。"
     },
     {
      "title": "India's Chip Plan Investment Pledges Hit $12 Billion",
@@ -6366,7 +6417,7 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 154,
+   "count": 155,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
@@ -6576,6 +6627,15 @@
      "time": "09-17 21:00",
      "body": null,
      "title_zh": "海蒂·克鲁姆在柏林的完美一天，从土耳其烤肉到贝格汉夜店"
+    },
+    {
+     "title": "Stock Market Today: Nasdaq Heads for Weekly Gain as AI Stocks Surge",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026",
+     "published_cst": "2026-09-17T20:45:31+08:00",
+     "time": "09-17 20:45",
+     "body": null,
+     "title_zh": "今日股市：人工智能股飙升，纳指有望周线上涨"
     },
     {
      "title": "‘American Hostage’ Review: Jon Hamm Plays Radio Host to a Kidnapping",
