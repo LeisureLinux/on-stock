@@ -1,6 +1,6 @@
 {
  "date": "20260915",
- "generated_at": "2026-09-17T22:28:00.866705+08:00",
+ "generated_at": "2026-09-18T08:41:33.690116+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -1142,7 +1142,7 @@
      "summary_zh": "宾夕法尼亚州新增两例未接种疫苗者麻疹死亡，今年累计四例，全美死亡数达数十年来最高。"
     },
     {
-     "title": "AI Agents Lied, Stole in Simulated Experiment, Researchers Say",
+     "title": "AI Agents Lied, Stole in Simulation, Researchers Say",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/ai-agents-lied-stole-in-simulated-experiment-researchers-say",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/ai-agents-lied-stole-in-simulated-experiment-researchers-say",
      "published_cst": "2026-09-15T18:40:03+08:00",
@@ -1234,6 +1234,38 @@
      "summary_zh": "高管用内幕信息买短期虚值看涨期权，并购公布后获利，但SEC会调查异常交易并追究刑责。"
     },
     {
+     "title": "How the Great Gas Crisis of 2030 Will Play Out",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-15/how-the-great-gas-crisis-of-2030-will-play-out",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-15/how-the-great-gas-crisis-of-2030-will-play-out",
+     "published_cst": "2026-09-15T18:00:14+08:00",
+     "time": "09-15 18:00",
+     "body": [
+      "It’s October 2030. In hindsight, the vulnerabilities that triggered the third great natural gas crisis in eight years seem painfully obvious.",
+      "After Russia’s invasion of Ukraine cut off Europe from two-fifths of its gas in 2022, importers reassured themselves that the Persian Gulf and the US had plenty to spare.",
+      "When the 2026 war with Iran similarly knocked out 20% of global LNG supply, America’s booming fossil-fuel industry again promised to fill the gap.",
+      "That confidence now seems shockingly naive. US natural gas prices have been caught in a perfect storm: Growth in shale output has been faltering. Season upon season of extreme weather has hit a power sector crippled by former President Donald Trump’s war on clean energy. Frontier AI labs, racing to beat a technological singularity they are warning is finally just months away, are sucking up fossil fuels to power data centers. Meanwhile, LNG terminals are allowing foreign buyers to compete directly with Americans habituated to rock-bottom prices.",
+      "With storage tanks at record lows amid a polar vortex cold snap in February, US benchmark Henry Hub prices rose above $10 per million British thermal units  for the first time since 2008. Summer heatwaves repeatedly drove them back there. The ripples spread quickly through the economy.",
+      "In Iowa, a tripling in the price of gas-derived fertilizer caused farmers to plant their smallest spring corn crop in two decades. In June, China’s Fuyao Glass Industry Group Co. blamed gas prices in announcing the closure of an iconic glass factory outside Dayton, Ohio, with the loss of 2,000 jobs. A month later, Ford Motor Co. eliminated the second shift at its Wayne, Michigan, assembly line, citing rising energy and supply-chain costs. Another 2,000 workers were put on indefinite layoff.",
+      "What began as an energy shock was becoming a political hot potato. Much as a backlash against data centers erupted from nowhere during August 2026, calls to “keep American energy for Americans” quickly became deafening. With midterms approaching, Democratic lawmakers in the northeast who had long sought restrictions on LNG exports found unlikely allies among Republicans watching one of the country’s great competitive advantages — cheap energy — disappear.",
+      "Then came July’s heat dome. New Orleans recorded 70 heat-related deaths. Many were suburban retirees who had switched off air conditioners as electricity bills devoured half of their Social Security payments.",
+      "On the day a new poll showed Louisiana Republican heavyweight and gas-export advocate Steve Scalise trailing a populist primary challenger by 11 points, Fox News broadcast footage of four LNG tankers departing the Gulf Coast bound for China.",
+      "Within days, protestors carrying “It’s OUR gas” placards were outside Congress.",
+      "After demurring for weeks, the President on Sept. 15 signed the bipartisan Secure American Fuel for Everyone Act, declaring a gas supply emergency and ordering the Department of Energy to curtail exports within 30 days.",
+      "That’s when all hell broke loose. European gas storage was already running dangerously low after the same torrid El Niño summer, leaving importers heavily dependent on US shipments. Japan and South Korea were even more exposed. After a bruising trade fight with Washington in 2027, both had restricted Chinese clean-energy imports in return for preferential access to US LNG. That slowed deployment of the technologies that might have now insulated them from the crisis.",
+      "Russia was in no position to come to the rescue. Eight years of war in Ukraine, an economy approaching Venezuela-style degeneration and incessant hybrid-warfare attacks on its petroleum infrastructure had decimated its capacity to respond.",
+      "The situation in the Gulf offered little reassurance. Relations between Qatar and Iran’s increasingly lawless government were deteriorating over the management of their vast shared offshore gas field, threatening the uneasy truce in Hormuz brokered after the 2028 US election. Then Iran’s Revolutionary Guards boarded a QatarEnergy LNG tanker and turned it back.",
+      "Australia offered no respite either. The world’s biggest LNG exporter as recently as 2022 had imposed US-style export restrictions in 2026 to shield domestic supplies.",
+      "How did the world fail to see what seems so inevitable now? It was hardly unprecedented. In the 1970s, the US banned exports of soybeans and crude oil to protect consumers from rising prices. The oil ban lasted four decades before being lifted in 2015, sparking a production boom that eventually hardened into hubris about a new era of American energy dominance.",
+      "The mistake was to believe the petroleum industry’s bromides about the stability of LNG — what Shell Plc described as the fuel’s “flexible and reliable energy security.” The poorer Asian countries hit hardest by the 2022 and 2026 crises look best-placed right now. Rather than betting their power systems on a fuel for which rich countries could always outbid them, countries from Pakistan to the Philippines accelerated investment in solar, batteries and domestic energy.",
+      "Developed Asia and Europe, in contrast, conflated flexibility with security, and were slower to pivot. That was a disastrous choice. LNG can be shipped halfway around the world, but Russia, Qatar and now the US have each demonstrated how quickly politics can disrupt those flows.",
+      "After three gas crises in eight years, perhaps the remarkable thing isn’t that countries are finally learning this. It’s that anyone still needed the lesson.",
+      "More from Bloomberg Opinion:",
+      "Want more Bloomberg Opinion?   OPIN   <GO>. Or subscribe to       our daily newsletter    ."
+     ],
+     "title_zh": "2030年天然气大危机将如何上演",
+     "summary_zh": "2030年美国天然气价格突破每百万英热单位10美元，创2008年以来新高，引发化肥、玻璃、汽车等行业停产裁员，并造成新奥尔良70人热死。"
+    },
+    {
      "title": "Iran War Has Cost US $38 Billion Over Five Months, CBO Says",
      "url": "https://www.bloomberg.com/news/articles/2026-09-15/war-in-iran-has-cost-us-38-billion-over-five-months-cbo-says",
      "link": "https://www.bloomberg.com/news/articles/2026-09-15/war-in-iran-has-cost-us-38-billion-over-five-months-cbo-says",
@@ -1287,38 +1319,6 @@
      ],
      "title_zh": "小罗伯特·肯尼迪副手提名人在参议院听证会上坚定支持疫苗",
      "summary_zh": "特朗普提名的美国卫生部副部长人选Klomp公开支持麻疹疫苗安全有效，与特朗普和肯尼迪的质疑相矛盾。"
-    },
-    {
-     "title": "How the Great Gas Crisis of 2030 Will Play Out",
-     "url": "https://www.bloomberg.com/opinion/articles/2026-09-15/how-the-great-gas-crisis-of-2030-will-play-out",
-     "link": "https://www.bloomberg.com/opinion/articles/2026-09-15/how-the-great-gas-crisis-of-2030-will-play-out",
-     "published_cst": "2026-09-15T18:00:14+08:00",
-     "time": "09-15 18:00",
-     "body": [
-      "It’s October 2030. In hindsight, the vulnerabilities that triggered the third great natural gas crisis in eight years seem painfully obvious.",
-      "After Russia’s invasion of Ukraine cut off Europe from two-fifths of its gas in 2022, importers reassured themselves that the Persian Gulf and the US had plenty to spare.",
-      "When the 2026 war with Iran similarly knocked out 20% of global LNG supply, America’s booming fossil-fuel industry again promised to fill the gap.",
-      "That confidence now seems shockingly naive. US natural gas prices have been caught in a perfect storm: Growth in shale output has been faltering. Season upon season of extreme weather has hit a power sector crippled by former President Donald Trump’s war on clean energy. Frontier AI labs, racing to beat a technological singularity they are warning is finally just months away, are sucking up fossil fuels to power data centers. Meanwhile, LNG terminals are allowing foreign buyers to compete directly with Americans habituated to rock-bottom prices.",
-      "With storage tanks at record lows amid a polar vortex cold snap in February, US benchmark Henry Hub prices rose above $10 per million British thermal units  for the first time since 2008. Summer heatwaves repeatedly drove them back there. The ripples spread quickly through the economy.",
-      "In Iowa, a tripling in the price of gas-derived fertilizer caused farmers to plant their smallest spring corn crop in two decades. In June, China’s Fuyao Glass Industry Group Co. blamed gas prices in announcing the closure of an iconic glass factory outside Dayton, Ohio, with the loss of 2,000 jobs. A month later, Ford Motor Co. eliminated the second shift at its Wayne, Michigan, assembly line, citing rising energy and supply-chain costs. Another 2,000 workers were put on indefinite layoff.",
-      "What began as an energy shock was becoming a political hot potato. Much as a backlash against data centers erupted from nowhere during August 2026, calls to “keep American energy for Americans” quickly became deafening. With midterms approaching, Democratic lawmakers in the northeast who had long sought restrictions on LNG exports found unlikely allies among Republicans watching one of the country’s great competitive advantages — cheap energy — disappear.",
-      "Then came July’s heat dome. New Orleans recorded 70 heat-related deaths. Many were suburban retirees who had switched off air conditioners as electricity bills devoured half of their Social Security payments.",
-      "On the day a new poll showed Louisiana Republican heavyweight and gas-export advocate Steve Scalise trailing a populist primary challenger by 11 points, Fox News broadcast footage of four LNG tankers departing the Gulf Coast bound for China.",
-      "Within days, protestors carrying “It’s OUR gas” placards were outside Congress.",
-      "After demurring for weeks, the President on Sept. 15 signed the bipartisan Secure American Fuel for Everyone Act, declaring a gas supply emergency and ordering the Department of Energy to curtail exports within 30 days.",
-      "That’s when all hell broke loose. European gas storage was already running dangerously low after the same torrid El Niño summer, leaving importers heavily dependent on US shipments. Japan and South Korea were even more exposed. After a bruising trade fight with Washington in 2027, both had restricted Chinese clean-energy imports in return for preferential access to US LNG. That slowed deployment of the technologies that might have now insulated them from the crisis.",
-      "Russia was in no position to come to the rescue. Eight years of war in Ukraine, an economy approaching Venezuela-style degeneration and incessant hybrid-warfare attacks on its petroleum infrastructure had decimated its capacity to respond.",
-      "The situation in the Gulf offered little reassurance. Relations between Qatar and Iran’s increasingly lawless government were deteriorating over the management of their vast shared offshore gas field, threatening the uneasy truce in Hormuz brokered after the 2028 US election. Then Iran’s Revolutionary Guards boarded a QatarEnergy LNG tanker and turned it back.",
-      "Australia offered no respite either. The world’s biggest LNG exporter as recently as 2022 had imposed US-style export restrictions in 2026 to shield domestic supplies.",
-      "How did the world fail to see what seems so inevitable now? It was hardly unprecedented. In the 1970s, the US banned exports of soybeans and crude oil to protect consumers from rising prices. The oil ban lasted four decades before being lifted in 2015, sparking a production boom that eventually hardened into hubris about a new era of American energy dominance.",
-      "The mistake was to believe the petroleum industry’s bromides about the stability of LNG — what Shell Plc described as the fuel’s “flexible and reliable energy security.” The poorer Asian countries hit hardest by the 2022 and 2026 crises look best-placed right now. Rather than betting their power systems on a fuel for which rich countries could always outbid them, countries from Pakistan to the Philippines accelerated investment in solar, batteries and domestic energy.",
-      "Developed Asia and Europe, in contrast, conflated flexibility with security, and were slower to pivot. That was a disastrous choice. LNG can be shipped halfway around the world, but Russia, Qatar and now the US have each demonstrated how quickly politics can disrupt those flows.",
-      "After three gas crises in eight years, perhaps the remarkable thing isn’t that countries are finally learning this. It’s that anyone still needed the lesson.",
-      "More from Bloomberg Opinion:",
-      "Want more Bloomberg Opinion?   OPIN   <GO>. Or subscribe to       our daily newsletter    ."
-     ],
-     "title_zh": "2030年天然气大危机将如何上演",
-     "summary_zh": "2030年美国天然气价格突破每百万英热单位10美元，创2008年以来新高，引发化肥、玻璃、汽车等行业停产裁员，并造成新奥尔良70人热死。"
     },
     {
      "title": "Venezuela Oil Opening Is 'Smoke and Mirrors,' Pickering Says",
@@ -7755,15 +7755,6 @@
      "title_zh": "五角大楼要求仅最精锐部队参加即将举行的赫格塞斯演讲"
     },
     {
-     "title": "Bessent Unplugged: Notable Quotes From the Treasury Secretary Today",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-15-2026/card/bessent-unplugged-notable-quotes-from-the-treasury-secretary-today-V7SXzV3502F4F7lVPYpR",
-     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-15-2026/card/bessent-unplugged-notable-quotes-from-the-treasury-secretary-today-V7SXzV3502F4F7lVPYpR",
-     "published_cst": "2026-09-15T19:53:05+08:00",
-     "time": "09-15 19:53",
-     "body": null,
-     "title_zh": "贝森特直言：美财长今日言论集锦"
-    },
-    {
      "title": "Landmark Crypto Bill Fails in Key Vote, Casting Doubt on New Rules and Hitting Stocks",
      "url": "https://www.wsj.com/politics/policy/landmark-crypto-bill-fails-procedural-vote-casting-doubt-on-new-digital-asset-rules-d6fc4c47",
      "link": "https://www.wsj.com/politics/policy/landmark-crypto-bill-fails-procedural-vote-casting-doubt-on-new-digital-asset-rules-d6fc4c47",
@@ -7771,6 +7762,15 @@
      "time": "09-15 19:53",
      "body": null,
      "title_zh": "里程碑加密法案关键投票未通过，新规前景存疑拖累股市"
+    },
+    {
+     "title": "Bessent Unplugged: Notable Quotes From the Treasury Secretary Today",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-15-2026/card/bessent-unplugged-notable-quotes-from-the-treasury-secretary-today-V7SXzV3502F4F7lVPYpR",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-15-2026/card/bessent-unplugged-notable-quotes-from-the-treasury-secretary-today-V7SXzV3502F4F7lVPYpR",
+     "published_cst": "2026-09-15T19:53:05+08:00",
+     "time": "09-15 19:53",
+     "body": null,
+     "title_zh": "贝森特直言：美财长今日言论集锦"
     },
     {
      "title": "Trump’s Frustration With His Own Supreme Court Appointees Boils Over",

@@ -1,13 +1,13 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-17T22:32:58.585089+08:00",
+ "generated_at": "2026-09-18T08:41:43.405382+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 244,
+   "count": 245,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -524,7 +524,7 @@
      "summary_zh": "巴西国家石油公司与科特迪瓦签署8个海上勘探区块产量分成合同，持股90%，以扩充非洲勘探版图。"
     },
     {
-     "title": "Apple's Cook, OpenAI CEO to Attend Trump Dinner With Xi",
+     "title": "Apple, OpenAI and Qualcomm Leaders to Attend Trump-Xi Dinner",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-s-altman-to-attend-trump-dinner-with-chinese-president",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/openai-s-altman-to-attend-trump-dinner-with-chinese-president",
      "published_cst": "2026-09-16T22:16:44+08:00",
@@ -589,7 +589,7 @@
      "summary_zh": "美联储加息25个基点至3.75%-4%，沃什抗通胀表态安抚市场，美债收益率回落，油价续跌。"
     },
     {
-     "title": "Oil Extends Drop as Saudi Arabia Moves to Restore Vital Pipeline",
+     "title": "Oil Drops as Traders See Supply Outages Proving Short-Lived",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/oil-extends-slump-as-saudi-arabia-moves-to-restore-key-pipeline",
      "published_cst": "2026-09-16T22:05:54+08:00",
@@ -808,6 +808,28 @@
      ],
      "title_zh": "加拿大卡尼将在欧盟冯德莱恩提议准会员资格后回应",
      "summary_zh": "欧盟提议加拿大成为其首个准成员国，民调显示八成加拿大人支持深化融合，约半数赞成全面入盟。"
+    },
+    {
+     "title": "Calpers CEO Notches $1 Milllion Bonus As Returns Beat Target",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/calpers-ceo-bonus-jumps-43-after-pension-returns-beat-target",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/calpers-ceo-bonus-jumps-43-after-pension-returns-beat-target",
+     "published_cst": "2026-09-16T21:11:34+08:00",
+     "time": "09-16 21:11",
+     "body": [
+      "California Public Employees’ Retirement System voted Wednesday to give its chief executive officer a $1.1 million bonus and a salary bump, even as state workers fight for higher pay.",
+      "The board of the largest public pension fund in the US voted eight to two, with two abstentions, to boost CEO Marcie Frost’s bonus by 43% from last year. She will also earn the top salary allowed in the current fiscal year, with base pay increasing to $641,250, up from $601,398.",
+      "The pay bump comes after Calpers notched an annual return of 14.8%, beating the pension’s 6.8% annual target.",
+      "Calpers President Theresa Taylor said the pay increase was well-earned given that the pension system’s funding level has risen to 85%, up from 65% a decade ago, when Frost took over as the organization’s head.",
+      "“Marcie Frost is a CEO on top of her game and delivering excellent results for Calpers members,” Taylor said.",
+      "California is continuing a trend of providing top talent at its retirement funds’ pay packages that extend from six figures into seven figures. But the increase comes at a turbulent time for state government workers contributing to the $653 billion pension system. Governor Gavin Newsom has ordered state employees back to in-office work, reducing remote work for many, and a major union representing California government workers is considering a strike.",
+      "Read More: California’s 90,000-Worker Office Return Sets Up Union Clash",
+      "Two Calpers board members voted against the bonus, including a representative for state controller Malia Cohen, who cited concerns about the state’s budget outlook and the prospect of deficits in future years.",
+      "Retired Public Employees’ Association of California also opposed the payout, arguing the bonus is structured to provide a major payout for Calpers executives, meeting benchmarks the advocacy group contends are too low.",
+      "“Bonuses should reward exceptional performance, not merely doing the job you were hired to do,” Margaret Brown, the group’s president, said in a statement.",
+      "The bonus is apportioned based on the CEO’s salary and her performance, as well as the system’s performance, against various metrics approved by the board. Last year, the board voted to increase the range of the CEO’s bonus, allowing Frost to receive incentive-based pay that would total up to 150% of her salary for meeting expectations, up from 100%. They also raised the maximum bonus to 225% of salary, from 150%."
+     ],
+     "title_zh": "加州公务员退休基金CEO因回报超目标获100万美元奖金",
+     "summary_zh": "加州公务员退休基金董事会以8比2投票，给CEO加薪并发放110万美元奖金，尽管州政府雇员正争取更高薪酬。"
     },
     {
      "title": "Exxon Is in Talks to Return to Venezuela as Deals Accelerate",
@@ -8636,7 +8658,7 @@
      "title_zh": "美联储会议关注要点"
     },
     {
-     "title": "Silversmith Capital Backs Vantora to Turn Enterprise Pain Points Into AI Ventures",
+     "title": "Silversmith Backs Vantora to Turn Enterprise Pain Points Into AI Ventures",
      "url": "https://www.wsj.com/pro/private-equity/silversmith-capital-backs-vantora-to-turn-enterprise-pain-points-into-ai-ventures-8265c966",
      "link": "https://www.wsj.com/pro/private-equity/silversmith-capital-backs-vantora-to-turn-enterprise-pain-points-into-ai-ventures-8265c966",
      "published_cst": "2026-09-16T14:00:00+08:00",
@@ -8708,7 +8730,7 @@
      "title_zh": "吟游诗人的元素弹弓兼顾实用耐用与现代风格"
     },
     {
-     "title": "These Are the Best Cases for the iPhone 17 and iPhone Air, According to Our Longtime Apple Reviewer",
+     "title": "These Are the Best Cases for the iPhone 18 Pro and iPhone Air, According to Our Longtime Apple Reviewer",
      "url": "https://www.wsj.com/buyside/technology/smartphones/best-cases-iphone-17-air-18-pro",
      "link": "https://www.wsj.com/buyside/technology/smartphones/best-cases-iphone-17-air-18-pro",
      "published_cst": "2026-09-16T13:25:00+08:00",
