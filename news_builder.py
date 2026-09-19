@@ -883,7 +883,10 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
               ? ('验证码错误已达 ' + MAX_FAILS + ' 次，请重新获取验证码')
               : r.msg);
           }} else {{
-            setMsg('email-msg', r.msg + '（还可再试 ' + Math.max(0, MAX_FAILS - verifyFails) + ' 次）', false);
+            // 服务端已带“还剩 N 次”时不再重复拼接
+            var left = Math.max(0, MAX_FAILS - verifyFails);
+            var m = r.msg || '验证码错误';
+            setMsg('email-msg', /还剩|还可再试/.test(m) ? m : (m + '（还可再试 ' + left + ' 次）'), false);
           }}
         }}
       }});
