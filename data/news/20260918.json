@@ -1,13 +1,13 @@
 {
  "date": "20260918",
- "generated_at": "2026-09-19T18:11:33.972196+08:00",
+ "generated_at": "2026-09-19T22:29:41.390269+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 247,
+   "count": 248,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -446,6 +446,34 @@
      ],
      "title_zh": "Anthropic 11月IPO前销售额近百亿美元，据《纽约时报》报道",
      "summary_zh": "Anthropic预计今年年化营收超1000亿美元，并计划最早11月上市。"
+    },
+    {
+     "title": "Greece Wins Highest Rating Since Europe's Sovereign Debt Crisis",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/greece-s-credit-rating-upgraded-to-bbb-from-bbb-at-scope",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/greece-s-credit-rating-upgraded-to-bbb-from-bbb-at-scope",
+     "published_cst": "2026-09-18T20:21:42+08:00",
+     "time": "09-18 20:21",
+     "body": [
+      "Greece clinched a double victory for its credit status, with one upgrade to Italy’s level and the hope of shedding its last score at the brink of junk.",
+      "The country is now BBB+ at Scope Ratings, on a par with that company’s view of its Mediterranean neighbor, according to a statement. That’s Greece’s highest score at any major assessor.",
+      "Separately, rival Moody’s Ratings changed its outlook to positive while keeping the nation at Baa3, its lowest rung of investment grade.",
+      "The upgrade reflects “a rapidly declining public debt ratio and strengthening fiscal sustainability, supported by large and sustained primary surpluses, structural improvements in tax administration and compliance, and a track record of prudent fiscal management,” Scope said.",
+      "There are increasing signs that the authorities’ continued focus on structural economic and institutional reforms “is bearing fruit in the form of increased economic and fiscal resilience that will exceed our current expectations,” Moody’s said in its statement.",
+      "Together, the announcements on Friday mark another milestone in Greece’s rehabilitation as a borrower, turning the page from the dark days when calamitous public finances almost forced it out of the euro.",
+      "The country’s fiscal repair has been so determined that it will probably succeed this year in bringing its debt ratio below that of Italy, whose mountain of borrowings will then be Europe’s biggest.",
+      "Greece’s central-bank chief Yannis Stournaras said Saturday in an interview that “good policies can change everything,” adding that “there are no structural constraints that cannot be addressed.”",
+      "“Many people in the past had forecast Greece would not make it,” he said. But now the country is growing twice as fast as the rest of the euro zone, there’s a rapid decline in the public debt-to-GDP ratio, and it’s undergoing reforms though more is needed, he said.",
+      "Speaking in Dublin on the sidelines of a meeting of finance ministers and central bankers, he stressed that this is also “an encouraging conclusion for many countries now.”",
+      "“But of course it needs political will and governments that understand the important issues,” he said.",
+      "Greece’s bond yields are now lower than those of France, Italy and the US. The country stands out in the region for its budget overperformance at a time when investors worry about such peers. On Friday, one measure of French bond risk rose to a key level for the first time in 14 years.",
+      "The Greek economy is growing faster than many others in Europe. The government’s primary surpluses, a budget measure which exclude interest payments, consistently exceed targets.",
+      "As a result, Athens keeps reimbursing creditors ahead of schedule. The finance ministry plans to repay some €13 billion ($14.9 billion) of bailout program debt in 2026, and continuing to do so in the future.",
+      "One source of potential turbulence for Greece is the upcoming elections, due to the highly fragmented political situation. Prime Minister Kyriakos Mitsotakis has repeatedly said that they will take place next spring.",
+      "While his center-right New Democracy party is leading the race in polls, the premier, currently in his second term, may fall short of the necessary support to shape an single-party government.",
+      "“While current polling suggests government formation could become more complex, the risk of material policy reversals appears limited,” Scope said."
+     ],
+     "title_zh": "希腊获欧洲主权债务危机以来最高评级",
+     "summary_zh": "希腊信用评级获双喜，Scope上调至BBB+，与意大利同级，穆迪展望调至正面，维持Baa3。"
     },
     {
      "title": "Nvidia-Backed Data Center Firm Nscale Files Publicly for IPO",

@@ -1,6 +1,6 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-19T18:11:25.775954+08:00",
+ "generated_at": "2026-09-19T22:24:48.757010+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -2392,6 +2392,26 @@
      "summary_zh": "查尔斯三世在苏格兰召集约30名AI高管与专家，讨论控制AI发明。黄仁勋称无需新规，哈萨比斯呼吁紧急行动。"
     },
     {
+     "title": "Pending-Home Sales Unexpectedly Tick Up Despite High Rates",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/pending-home-sales-unexpectedly-tick-up-despite-high-rates",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/pending-home-sales-unexpectedly-tick-up-despite-high-rates",
+     "published_cst": "2026-09-17T14:00:00+08:00",
+     "time": "09-17 14:00",
+     "body": [
+      "Pending sales of existing US homes picked up slightly in August, though they remained subdued as high mortgage rates continue to suppress demand.",
+      "An index of contract signings increased 0.3% to 71.2 last month, rising for the first time since May, according to National Association of Realtors data released Thursday. Economists surveyed by Bloomberg expected the index to fall by 0.1%.",
+      "“Buyers steadily entered into contracts in August even though mortgage rates increased,” NAR Chief Economist Lawrence Yun said in a statement. “However, the housing market is still sluggish, with contract signings below last year.”",
+      "Compared to a year ago, pending home sales are down nearly 5%.",
+      "The figures point to lingering pent-up demand for previously owned homes, as buyers who may have been waiting for lower mortgage rates finally gave in and purchased a home. However, there is little evidence the housing market is picking up.",
+      "Mortgage rates have been climbing since the start of the war with Iran and nearly hit 7% in the week ended Sept. 11, according to Mortgage Bankers Association figures. Rates could go even higher. Home borrowing costs closely track the 10-year US Treasury yield, which climbed earlier this week to the highest level in almost two decades.",
+      "Contract signings generally occur a month or two before closings and historically have provided a forward look at existing-home sales.",
+      "Across the US, pending sales in the South, the nation’s biggest home-selling region, increased 2.3%. Sales also rose in the West. The Midwest and Northeast posted declines.",
+      "Separately, federal government data released Thursday showed US housing starts fell last month to one of the weakest paces since the pandemic, reflecting a plunge in multifamily construction."
+     ],
+     "title_zh": "待售房屋销量尽管利率高企仍意外小幅上升",
+     "summary_zh": "美国8月成屋签约销售指数环比微升0.3%至71.2，但同比仍降近5%，高房贷利率持续抑制需求。"
+    },
+    {
      "title": "White House Weighs US Incubator for Cyber Research, Startups",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/white-house-weighs-us-incubator-for-cyber-research-startups",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/white-house-weighs-us-incubator-for-cyber-research-startups",
@@ -2415,26 +2435,6 @@
      ],
      "title_zh": "白宫考虑设立网络安全研究与初创企业孵化器",
      "summary_zh": "特朗普政府拟设政府主导网络安全孵化器，吸引风投并催生新公司，同时筹建网络安全学院。"
-    },
-    {
-     "title": "Pending-Home Sales Unexpectedly Tick Up Despite High Rates",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/pending-home-sales-unexpectedly-tick-up-despite-high-rates",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/pending-home-sales-unexpectedly-tick-up-despite-high-rates",
-     "published_cst": "2026-09-17T14:00:00+08:00",
-     "time": "09-17 14:00",
-     "body": [
-      "Pending sales of existing US homes picked up slightly in August, though they remained subdued as high mortgage rates continue to suppress demand.",
-      "An index of contract signings increased 0.3% to 71.2 last month, rising for the first time since May, according to National Association of Realtors data released Thursday. Economists surveyed by Bloomberg expected the index to fall by 0.1%.",
-      "“Buyers steadily entered into contracts in August even though mortgage rates increased,” NAR Chief Economist Lawrence Yun said in a statement. “However, the housing market is still sluggish, with contract signings below last year.”",
-      "Compared to a year ago, pending home sales are down nearly 5%.",
-      "The figures point to lingering pent-up demand for previously owned homes, as buyers who may have been waiting for lower mortgage rates finally gave in and purchased a home. However, there is little evidence the housing market is picking up.",
-      "Mortgage rates have been climbing since the start of the war with Iran and nearly hit 7% in the week ended Sept. 11, according to Mortgage Bankers Association figures. Rates could go even higher. Home borrowing costs closely track the 10-year US Treasury yield, which climbed earlier this week to the highest level in almost two decades.",
-      "Contract signings generally occur a month or two before closings and historically have provided a forward look at existing-home sales.",
-      "Across the US, pending sales in the South, the nation’s biggest home-selling region, increased 2.3%. Sales also rose in the West. The Midwest and Northeast posted declines.",
-      "Separately, federal government data released Thursday showed US housing starts fell last month to one of the weakest paces since the pandemic, reflecting a plunge in multifamily construction."
-     ],
-     "title_zh": "待售房屋销量尽管利率高企仍意外小幅上升",
-     "summary_zh": "美国8月成屋签约销售指数环比微升0.3%至71.2，但同比仍降近5%，高房贷利率持续抑制需求。"
     },
     {
      "title": "Lula Boosts Social Welfare Payments Ahead of Tight Election",
@@ -2734,6 +2734,29 @@
      "summary_zh": "埃克森美孚预测，因煤炭持续使用，2050年全球二氧化碳排放将达300亿吨，是控温2°C目标所需的三倍，全球气温或升2.5至3°C。"
     },
     {
+     "title": "Citigroup Raises $12 Billion in Its Biggest-Ever Bond Sale",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/citi-wells-offer-high-grade-bonds-on-heels-of-fed-rate-hike",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/citi-wells-offer-high-grade-bonds-on-heels-of-fed-rate-hike",
+     "published_cst": "2026-09-17T12:43:18+08:00",
+     "time": "09-17 12:43",
+     "body": [
+      "Citigroup Inc. raised $12 billion in its largest-ever US dollar bond sale, seizing a chance to sell debt as credit markets rallied a day after the Federal Reserve hiked rates.",
+      "The Wall Street heavyweight drew about $40 billion of peak demand for Thursday’s deal, according to people with knowledge of the matter, or about 3.3 times the size of the offering.",
+      "Its timing coincided with a broad risk-on rally after the Fed’s first interest-rate increase since 2023, a move that helped calm investors worried about inflation.",
+      "A measure of US high-grade corporate credit risk plunged the most in more than a month on Thursday, while average spreads hit a five-week low on Wednesday at 77 basis points.",
+      "Read More: Stocks, Bonds Rise After Fed-Day Drop as Oil Falls: Markets Wrap",
+      "Pricing on the longest 11-year maturity tightened to 0.93 percentage point above the benchmark rate from early discussions of around 1.25 percentage points, a separate person said, asking not to be identified because they’re not authorized to speak publicly.",
+      "Banks are particularly savvy when it comes to timing borrowing, typically selling bonds after quarterly reports. But as credit spreads tightened and bond yields dropped, conditions were especially attractive after a volatile start to the week.",
+      "Wells Fargo & Co. also tapped the market Thursday, attracting roughly $28 billion of peak demand for its $6 billion offering, the people said. It priced notes due in four and 11 years.",
+      "There is further evidence that investors are seeking more exposure to longer-dated debt, which has become increasingly scarce in the high-grade market as borrowers shy away from more expensive rates.",
+      "Citigroup had about $18 billion of demand for its longest-tenored note, the most among the deal’s tranches, the people said. The company’s sale overall is tied for the fourth-largest dollar bond deal by a US bank, according to data compiled by Bloomberg.",
+      "Including Thursday’s deals, the six big US banks have sold a combined $177.3 billion of investment-grade bonds this year. Citigroup’s volume had far trailed its peers but is now at $18.3 billion, with Wells Fargo reaching $24 billion. Goldman Sachs Group Inc. leads the way at $44 billion, which includes January’s record $16 billion sale.",
+      "The high-grade market had six offerings on Thursday, as this week’s volume neared dealers’ forecasts."
+     ],
+     "title_zh": "花旗集团发行债券筹资120亿美元 规模创纪录",
+     "summary_zh": "花旗集团趁美联储加息后信贷市场反弹，发行120亿美元债券，创其美元债发行规模纪录，峰值认购需求约400亿美元。"
+    },
+    {
      "title": "Risk of Midterm 'Blue Wave' Leaves Defense Stocks Out of Favor",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/risk-of-midterm-blue-wave-leaves-defense-stocks-out-of-favor",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/risk-of-midterm-blue-wave-leaves-defense-stocks-out-of-favor",
@@ -2760,29 +2783,6 @@
      ],
      "title_zh": "中期“蓝色浪潮”风险令防务股失宠",
      "summary_zh": "军工股今年大幅下跌，因市场担忧民主党中期选举获胜将导致国防预算谈判拖延和资金延迟。"
-    },
-    {
-     "title": "Citigroup Raises $12 Billion in Its Biggest-Ever Bond Sale",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/citi-wells-offer-high-grade-bonds-on-heels-of-fed-rate-hike",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/citi-wells-offer-high-grade-bonds-on-heels-of-fed-rate-hike",
-     "published_cst": "2026-09-17T12:43:18+08:00",
-     "time": "09-17 12:43",
-     "body": [
-      "Citigroup Inc. raised $12 billion in its largest-ever US dollar bond sale, seizing a chance to sell debt as credit markets rallied a day after the Federal Reserve hiked rates.",
-      "The Wall Street heavyweight drew about $40 billion of peak demand for Thursday’s deal, according to people with knowledge of the matter, or about 3.3 times the size of the offering.",
-      "Its timing coincided with a broad risk-on rally after the Fed’s first interest-rate increase since 2023, a move that helped calm investors worried about inflation.",
-      "A measure of US high-grade corporate credit risk plunged the most in more than a month on Thursday, while average spreads hit a five-week low on Wednesday at 77 basis points.",
-      "Read More: Stocks, Bonds Rise After Fed-Day Drop as Oil Falls: Markets Wrap",
-      "Pricing on the longest 11-year maturity tightened to 0.93 percentage point above the benchmark rate from early discussions of around 1.25 percentage points, a separate person said, asking not to be identified because they’re not authorized to speak publicly.",
-      "Banks are particularly savvy when it comes to timing borrowing, typically selling bonds after quarterly reports. But as credit spreads tightened and bond yields dropped, conditions were especially attractive after a volatile start to the week.",
-      "Wells Fargo & Co. also tapped the market Thursday, attracting roughly $28 billion of peak demand for its $6 billion offering, the people said. It priced notes due in four and 11 years.",
-      "There is further evidence that investors are seeking more exposure to longer-dated debt, which has become increasingly scarce in the high-grade market as borrowers shy away from more expensive rates.",
-      "Citigroup had about $18 billion of demand for its longest-tenored note, the most among the deal’s tranches, the people said. The company’s sale overall is tied for the fourth-largest dollar bond deal by a US bank, according to data compiled by Bloomberg.",
-      "Including Thursday’s deals, the six big US banks have sold a combined $177.3 billion of investment-grade bonds this year. Citigroup’s volume had far trailed its peers but is now at $18.3 billion, with Wells Fargo reaching $24 billion. Goldman Sachs Group Inc. leads the way at $44 billion, which includes January’s record $16 billion sale.",
-      "The high-grade market had six offerings on Thursday, as this week’s volume neared dealers’ forecasts."
-     ],
-     "title_zh": "花旗集团发行债券筹资120亿美元 规模创纪录",
-     "summary_zh": "花旗集团趁美联储加息后信贷市场反弹，发行120亿美元债券，创其美元债发行规模纪录，峰值认购需求约400亿美元。"
     },
     {
      "title": "Three New ETFs to Watch: From Tax Avoidance to AI Winners",
@@ -3001,44 +3001,6 @@
      "summary_zh": "五角大楼与洛克希德·马丁加速生产新型JATM空对空导弹，拟签多年合同，2027年预算申请29亿美元。"
     },
     {
-     "title": "San Francisco's AI Wealth Boom Skirts Engineers as OpenAI, Anthropic IPOs Near",
-     "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
-     "link": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
-     "published_cst": "2026-09-17T12:00:11+08:00",
-     "time": "09-17 12:00",
-     "body": [
-      "The coming IPOs of Anthropic and OpenAI are set to rain down riches in San Francisco. Just across the Golden Gate bridge, a recent gathering captured the flip side of the AI boom.",
-      "A group of more than four dozen laid-off workers gathered at 11 a.m. on a Monday to hike Mount Tamalpais, a majestic peak overlooking the San Francisco Bay. They descended the mostly deserted trail in groups of about a dozen, led by Basem Istanbouli, a former Google employee sporting a bucket hat and a pair of toe shoes.",
-      "Among them was a former Meta Platforms Inc. worker considering leaving tech altogether to pursue her passion for illustration. A software engineer, out of work for more than a year, lugged a large camera he’d bought a week before he was laid off.",
-      "Istanbouli has been organizing the weekly outings since December, when he started un(PTO), a community for people navigating unemployment. The group’s first hike included him, a friend and a “random dude off Reddit.” The online community has since grown to more than 1,700 people, and sometimes more than 80 show up to the outings.",
-      "Trillion-dollar startups, once-unthinkable compensation packages and bidding wars for workers who can build and deploy artificial intelligence have created the impression of a Bay Area labor market on fire. But even as debate swirls about AI’s potential dangers and the need for regulation, the technology has already had a profound disruption on jobs. Many of the workers who helped power San Francisco’s last boom are struggling to find their place in this one.",
-      "Read more: Are We Losing Control of AI? What’s Driving New Fears",
-      "Tech-industry employers filed layoff notices for more than 14,500 Bay Area workers in the 12 months that ended in June, almost double the count for the previous fiscal year, a Bloomberg analysis of data from California’s Employment Development Department shows. Across all industries, San Francisco and nearby San Mateo County have added more than 10,000 jobs in the last 12 months, but have lost more than 60,000 since February 2020, according to a report by Ted Egan, chief economist of the city and county of San Francisco.",
-      "Just as many once-booming software companies are trying to reinvent themselves for the age of AI, tech workers are now having to adapt. Demand for software engineers in the Bay Area has fallen 42% since 2022, according to Lightcast, a labor-market analytics firm. Jobs tied to AI-related IT and computer science, meanwhile, have jumped 37%.",
-      "Nico Crisafulli, a 55-year-old single dad who’s part of the un(PTO) group, worked as a full-time front-end web developer for an e-commerce company before being laid off in July. He was thrust into a labor market he didn’t recognize.",
-      "“Hard coding is sort of not really a thing anymore,” he said. “Getting a front-end engineer job seems a little bit of yesterday’s problem. I don’t know if that’s even possible.”",
-      "Crisafulli decided to become a software engineer at a very different moment in Silicon Valley. In 2013, he paid $15,000 for a coding boot camp and made a career out of skills like JavaScript and front-end development. Now he’s parsing job titles like “AI strategist” and “AI engineer,” trying to figure out where his experience fits in a labor market that increasingly prizes a different kind of technical worker.",
-      "While the AI boom is responsible for a lot of San Francisco’s revival, tech isn’t driving hiring in the area. In the last 12 months, the information sector, which includes most of tech, lost about 2,000 jobs. In fact, the industries driving the labor recovery are private education and health, as well as leisure and hospitality, according to Egan.",
-      "There’s a “sort of a seesaw between the labor market stimulating effects of the AI investment and then the depressive effects of the layoffs of the legacy tech companies,” said Egan. “It is clear that you’ve got a lot of people getting laid off and a smaller number of people at this point getting hired for AI-specific skills.”",
-      "Just this month, Uber Technologies Inc., one of the standout startups of San Francisco’s 2010s boom, announced it was cutting about 3,300 roles, or 10% of its staff globally, in a restructuring aimed at reducing management layers.",
-      "Istanbouli, the un(PTO) founder, started the group to help ease the isolation that comes with having a tough time finding a job. It has evolved beyond hikes to also include career-related gatherings such as interview preparation. Still, he’s concerned to see so many people joining.",
-      "“You wonder, how held back are people gonna be in their careers?” he said. “And you also wonder how much of these people are going to actually face financial instability to a point where a lot of really smart people are actually going to end up leaving San Francisco.”",
-      "Adding to the financial pressure, AI wealth is making the city more expensive: San Francisco rents are rising at the fastest pace in the country.",
-      "While one class of worker is watching the skills that once made them indispensable become easier to automate, the premium is shifting toward those who can keep pace with AI, where the skills in demand can seem to change almost by the day.",
-      "The market is particularly unforgiving for engineers at the beginning of their careers. In California, employment among workers ages 22 to 25 in the occupations most exposed to AI has fallen 16.8% since the launch of ChatGPT, compared with a 4.6% decline among other workers, according to workforce intelligence platform Revelio Labs.",
-      "Tawni Cranz, an operating partner focused on talent at venture capital firm SignalFire, said the traditional “on-ramp” for new graduates has been “completely stifled.” Larger technology companies, she said, face the challenge of figuring out how to redesign the entry-level experience while still “building a pipeline for future founders and future leaders.”",
-      "Now, one of the most popular jobs in tech may be forward deployed engineers, a once-obscure role popularized by Palantir Technologies Inc. in the early 2010s. It blends engineering with the customer-facing work of figuring out how businesses can actually put AI to use.",
-      "Postings for the position in the Bay Area are up nearly 600% since 2022 and command a median advertised salary of $202,300, according to Lightcast. OpenAI currently has almost 20 job postings for forward deployed engineers, with salary offerings running from around $145,000 to $325,000 plus equity. At Anthropic, forward deployed engineers  command a salary ranging from $280,000 to $320,000. Salesforce Inc., one of San Francisco’s largest private employers, has committed to hiring 1,000 workers for the role.",
-      "At Taktile, which sells AI software to banks and insurers, forward deployed engineers increasingly do work that previously might have required software engineering, product and business teams, said Hao Li, who leads the company’s FDE team in North America.",
-      "“You can combine these three things into one role and that becomes this unicorn called FDE,” Li said.",
-      "Crisafulli, the laid off tech worker, is eager to embrace AI in his next role. At his former job, he had used it to build a workflow that compressed roughly two days of work into about an hour. He doesn’t blame AI directly for his layoff, but believes the technology made it easier for the company to do the same work with fewer people.",
-      "Since losing his job, he’s built five applications with AI and is trying to learn as much as he can about the technology. Yet some days he feels more hopeful than others.",
-      "“Some days I wake up and I’m like, maybe I’ll just open a flower shop,” he said. “That sounds much nicer, to be honest.”"
-     ],
-     "title_zh": "旧金山AI财富热潮绕过工程师，OpenAI与Anthropic IPO临近",
-     "summary_zh": "AI热潮下旧金山湾区科技业一年裁员超1.45万人，软件工程师需求较2022年降42%，失业者组建互助社群。"
-    },
-    {
      "title": "How Buffalo Scored a $2.2 Billion NFL Stadium for the 'Bills Mafia'",
      "url": "https://www.bloomberg.com/news/features/2026-09-17/how-buffalo-scored-a-2-2-billion-nfl-stadium-for-the-bills-mafia",
      "link": "https://www.bloomberg.com/news/features/2026-09-17/how-buffalo-scored-a-2-2-billion-nfl-stadium-for-the-bills-mafia",
@@ -3079,39 +3041,6 @@
      "summary_zh": "比尔队启用22.2亿美元新主场，终结球队搬迁疑虑，确保其扎根布法罗至少再一代。"
     },
     {
-     "title": "US Bonds and Tina Turner: What Is the True Price of Safety?",
-     "url": "https://www.bloomberg.com/opinion/articles/2026-09-17/us-bonds-and-tina-turner-what-is-the-true-price-of-safety",
-     "link": "https://www.bloomberg.com/opinion/articles/2026-09-17/us-bonds-and-tina-turner-what-is-the-true-price-of-safety",
-     "published_cst": "2026-09-17T12:00:07+08:00",
-     "time": "09-17 12:00",
-     "body": [
-      "This article is adapted from      Worth the Risk: The Seven Myths That Keep Us From Taking the Chances We Need to Take       by Allison Schrager, to be published by Yale University Press. Copyright © 2026 by Allison Schrager. Excerpted by permission. All rights reserved.",
-      "What does Tina Turner have in common with a US Treasury bond? They both show that the meaning of safety is not always straightforward.",
-      "Born into poverty in rural Tennessee, Anna Mae Bullock sang in the church choir as a child and eventually made her way to the St. Louis music scene, where she became a teen mother and married a band leader who already had two children of his own. They started singing together and became rich and famous, traveling the world as the duo Ike and Tina Turner.",
-      "Before long, however, the relationship turned abusive, both emotionally and physically. Tina eventually summoned the courage to leave Ike Turner in 1976. You might think that a divorced woman, especially of that era, would need money to feel safe — and she was certainly entitled to plenty of it, having created hits like Proud Mary with him. But Tina Turner made a surprising decision during the divorce proceedings: She said she didn’t want the assets from the marriage, including royalties from the songs she made famous. She left with nothing except custody of the four children, two cars, and the right to keep using her stage name.",
-      "Tina Turner chose her name over money in the bank because she knew that doing so would make her feel safer. The assets she left behind were part of a life in which she didn’t feel safe. It wasn’t clear if her decision would work out in her favor, and those first few years were very difficult. She went on food stamps, and her career did not seem to be going anywhere as she approached middle age. But in her mid-forties, Turner released the album Private Dancer, which went multi-platinum and made her an even bigger international superstar than when she was married.",
-      "Money in the bank might seem like a universally safe concept — especially to Americans accustomed to the government insuring their deposits. But the idea that a universally safe investment or situation exists and can protect your future is a myth that prevents many people from taking risks like Turner did.",
-      "Safety isn’t a real place. It’s a feeling. It’s deeply personal, and it can change with your life circumstances. What you need to feel safe is not what someone else needs. What’s safe in one era doesn’t feel so safe in the next. But defining your personal feeling of “safety” is key to making good decisions about risk.",
-      "For Turner, her name meant her career and identity, which felt more secure than money from the past. What you see as safe defines how you perceive, value, and take risks. In financial economics, what safe means depends on your goals.",
-      "For example, we think of bonds as a safe investment. But not all bonds are a safe way to meet your goal. If you are saving for the long term, like for retirement, a long-term bond will likely protect your money from all the changes that will happen in markets over the decades, especially if it is inflation-protected. Yet a long-term bond still has risk: Because its price fluctuates more than a short-term bond’s, its market is less predictable in the near term. Only if you are investing to feel safe several decades from now, and no sooner, are you assured of long-term security.",
-      "If your personal definition of safety is long term, beware that the financial industry usually defines a safe asset as something different: one that offers a certain rate of return each year, and can be sold whenever you need it for at least what you paid for it. The industry regards a US Treasury bill (a short-term government bond) as a safe asset since it is backed by the government and its price doesn’t change. This makes sense if you are saving for an upcoming vacation or are a company with extra cash waiting a few months for the right investing project.",
-      "The distinction is important because bonds are how the financial industry values safety, and by extension how it defines risk. And yet it gets what’s safe wrong all the time by choosing the wrong bonds as safe and by assuming that bond prices don’t change as much as they do. Price changes in the bond markets tell us more about the state of risk and the economy than any other asset, because bonds represent the current price of safety. To be precise, the price of the “risk-free asset,” as US Treasury bonds are colloquially referred to, appears in almost every asset-pricing formula used in finance; it is the standard of how all risk is priced. It influences bank rates for loans to individuals, and it is used as collateral. It is the single most important asset in finance. The development of sovereign debt markets is one reason that Europe is thought to have industrialized first, and why the North prevailed during the US Civil War.",
-      "Most important, the value of US Treasury bonds has changed over time, as the way we view safety has evolved. Mirroring how we have come to value safety ever more highly, the price of a risk-free bond has been rising over time. And the more a bond costs, the lower the rate of interest paid to the bond holder.",
-      "Why did safety become so expensive (and thus yields so low)? There are many reasons, and some have been more important at different points in time. For most of history, these bonds were not really that safe, and gold was considered the ultimate risk-free investment. Now it is US Treasury bonds. Someday, though probably not anytime soon, it could be another country’s bonds or even German renewable energy stocks. No one knows. Anything can happen.",
-      "The idea that a relatively young country’s sovereign debt could be considered risk-free would have been unthinkable a century ago. For most of history, governments had problems paying debt or inflating it away. Rates of bonds trended down partly because the asset became safer and more valuable as governments got richer and more stable. Once they did, they had no need to offer high rates to entice buyers.",
-      "But events over the past several decades have proven especially telling when it comes to our mounting risk aversion. As the demand for safety increased across all parts of our lives — from the removal of seesaws on children’s playgrounds to everything else — the price of low-risk assets increased. After the 1997 Asian financial crisis, many countries wanted to reduce their risk exposure. So they bought lots of safe bonds — those issued by big rich countries like the United States and European Union members. Regulators wanted to ensure less risk in markets and demanded that financial institutions hold more low-risk assets. This created more demand for bonds, so they got a lot more expensive. It was a low-rate and low-risk time. Inflation was very low and predictable. Bonds from rich countries were the established safe asset of the world, and yields kept falling and falling.",
-      "After the 2008 financial crisis, central banks also started to buy many of their own countries’ bonds, which further increased the demand. Tremendous demand for low-risk assets that were in limited supply combined to make them even more expensive. As the price of safety grew significantly, it transformed how financial markets worked because if you wanted to invest in a low-risk asset, it would not return very much.",
-      "This sky-high demand for safety in recent years explains why investing in low-risk assets like a government bond or savings bank account earns you so little. It explains why mortgage rates fell — from 13 percent in the 1980s to 3 percent until the early 2020s. It explains why so much money went to crypto or tech startups: if you wanted your savings to grow, you had no choice but invest it in riskier assets. Gone was the time a bank would pay you 8 percent for a twelve-month certificate of deposit; now you are lucky to a get a rate that keeps up (barely) with inflation. If you are pension-fund manager who needs to make a certain return to pay benefits, you turn to risk. Safety has become very expensive.",
-      "In short, going into the early 2020s it became cheaper to be on the other side of a risk. It became better to be a borrower instead of a saver. It was cheaper to borrow for mortgages or cars. The low rates also trickled throughout the global financial system, which meant even developing countries, which normally pay a fortune, could borrow at lower rates and so help finance their development. It was also cheaper for businesses to fund an expansion or hire more people. Cheaper debt in many ways makes the world less risky, because cash is readily available from lenders when needed. Alternatively, it is easier to take on leverage, a riskier position. If anything changes suddenly and interest rates increase or the bond market freezes, we are more vulnerable.",
-      "What’s happened to the risk-free asset and its impact on financial markets offers a useful metaphor for the rest of the economy and our approach to risk in other areas of our lives. As the world became hungrier for safety, the entire financial system changed. In some ways, the world became safer as we valued safety more — most of the time, anyway.",
-      "But in other ways, this shift made us more vulnerable. For example, recessions became more difficult for central banks to counter, because interest rates were so low there was less room to cut rates further to spur new growth. Rates got so low that many investors needed to take on more risk to reach their goals: they became open to assets that seemed safe and offered some extra return. But Greek bonds or mortgage-backed securities turned out to not be as safe as they once appeared.",
-      "After decades of falling rates, especially after 2010, bond rates have started to rebound, with rates in the 2020s increasing and current rates seeming to stay higher. This turnaround has surprised many people — even economists. People in the financial industry and government had started to believe that interest rates would either keep falling or at least stand still. We all should have known better. Research on rates over many decades shows that rates still do go up and down, even if they have slowly trended down over the centuries. And it suggests that much of what happened since 2010 was a blip, not a permanent fall.",
-      "The price of safety is not stable. It never has and never will be, because how we value it changes over time."
-     ],
-     "title_zh": "美国国债与蒂娜·特纳：安全的真正代价是什么？",
-     "summary_zh": "蒂娜·特纳离婚时放弃与艾克·特纳婚姻中的资产，只保留艺名和四个孩子抚养权，因为她认为名字比金钱更安全；45岁后凭专辑《Private Dancer》成为更大国际巨星。"
-    },
-    {
      "title": "Shareholders Revolt After Crypto Hoarders' $50 Billion Crash",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/shareholder-revolt-hits-crypto-hoarders-after-50-billion-crash",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/shareholder-revolt-hits-crypto-hoarders-after-50-billion-crash",
@@ -3148,21 +3077,6 @@
      "summary_zh": "投资者加大对加密囤币企业薪酬审查，股东损失约500亿美元，SkyAI和Metaplanet遭施压。"
     },
     {
-     "title": "Australia Mulls Ban on Smart Glasses in Federal Office Buildings",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/australia-mulls-ban-on-smart-glasses-in-federal-office-buildings",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/australia-mulls-ban-on-smart-glasses-in-federal-office-buildings",
-     "published_cst": "2026-09-17T12:00:00+08:00",
-     "time": "09-17 12:00",
-     "body": [
-      "Australia’s government is considering a ban on smart glasses in federal buildings, citing privacy and security concerns over using the devices to record people without their knowledge.",
-      "“Smart glasses can raise legitimate privacy and security concerns, particularly because of their ability to record and capture information, and we need clear and consistent guidance for public servants,” Minister for the Public Service Katy Gallagher said in a statement Thursday.",
-      "The Australian Public Service is one of the nation’s largest employers, with almost 200,000 people as of last year, and a ban in federal workplaces could set a precedent for other local and state jurisdictions, as well as companies. The government said it sees the move as a step toward “a potential world leading ban.”",
-      "The Brisbane city council last month banned the non-consensual use of smart glasses, phones and other wearable technology to film at public pools. Those rules allow lifeguards to eject people who film anyone without permission, and a number of other councils in Australia are following suit."
-     ],
-     "title_zh": "澳大利亚考虑禁止在联邦办公楼使用智能眼镜",
-     "summary_zh": "澳大利亚政府考虑禁止在联邦建筑使用智能眼镜，因隐私安全担忧，涉近20万公务员。"
-    },
-    {
      "title": "AI Fuels 440% Surge in Hackers Using Blockchains in Attacks",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/ai-helps-hackers-open-a-new-front-in-crypto-s-cybercrime-wave",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/ai-helps-hackers-open-a-new-front-in-crypto-s-cybercrime-wave",
@@ -3185,6 +3099,92 @@
      ],
      "title_zh": "AI助黑客开辟加密货币网络犯罪新战线",
      "summary_zh": "开源AI助黑客在区块链藏恶意代码，相关案例不到一年激增440%，日均11起，朝鲜和伊朗相关团体为主。"
+    },
+    {
+     "title": "San Francisco's AI Wealth Boom Skirts Engineers as OpenAI, Anthropic IPOs Near",
+     "url": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+     "link": "https://www.bloomberg.com/news/features/2026-09-17/san-francisco-s-ai-wealth-boom-skirts-engineers-as-openai-anthropic-ipos-near",
+     "published_cst": "2026-09-17T12:00:11+08:00",
+     "time": "09-17 12:00",
+     "body": [
+      "The coming IPOs of Anthropic and OpenAI are set to rain down riches in San Francisco. Just across the Golden Gate bridge, a recent gathering captured the flip side of the AI boom.",
+      "A group of more than four dozen laid-off workers gathered at 11 a.m. on a Monday to hike Mount Tamalpais, a majestic peak overlooking the San Francisco Bay. They descended the mostly deserted trail in groups of about a dozen, led by Basem Istanbouli, a former Google employee sporting a bucket hat and a pair of toe shoes.",
+      "Among them was a former Meta Platforms Inc. worker considering leaving tech altogether to pursue her passion for illustration. A software engineer, out of work for more than a year, lugged a large camera he’d bought a week before he was laid off.",
+      "Istanbouli has been organizing the weekly outings since December, when he started un(PTO), a community for people navigating unemployment. The group’s first hike included him, a friend and a “random dude off Reddit.” The online community has since grown to more than 1,700 people, and sometimes more than 80 show up to the outings.",
+      "Trillion-dollar startups, once-unthinkable compensation packages and bidding wars for workers who can build and deploy artificial intelligence have created the impression of a Bay Area labor market on fire. But even as debate swirls about AI’s potential dangers and the need for regulation, the technology has already had a profound disruption on jobs. Many of the workers who helped power San Francisco’s last boom are struggling to find their place in this one.",
+      "Read more: Are We Losing Control of AI? What’s Driving New Fears",
+      "Tech-industry employers filed layoff notices for more than 14,500 Bay Area workers in the 12 months that ended in June, almost double the count for the previous fiscal year, a Bloomberg analysis of data from California’s Employment Development Department shows. Across all industries, San Francisco and nearby San Mateo County have added more than 10,000 jobs in the last 12 months, but have lost more than 60,000 since February 2020, according to a report by Ted Egan, chief economist of the city and county of San Francisco.",
+      "Just as many once-booming software companies are trying to reinvent themselves for the age of AI, tech workers are now having to adapt. Demand for software engineers in the Bay Area has fallen 42% since 2022, according to Lightcast, a labor-market analytics firm. Jobs tied to AI-related IT and computer science, meanwhile, have jumped 37%.",
+      "Nico Crisafulli, a 55-year-old single dad who’s part of the un(PTO) group, worked as a full-time front-end web developer for an e-commerce company before being laid off in July. He was thrust into a labor market he didn’t recognize.",
+      "“Hard coding is sort of not really a thing anymore,” he said. “Getting a front-end engineer job seems a little bit of yesterday’s problem. I don’t know if that’s even possible.”",
+      "Crisafulli decided to become a software engineer at a very different moment in Silicon Valley. In 2013, he paid $15,000 for a coding boot camp and made a career out of skills like JavaScript and front-end development. Now he’s parsing job titles like “AI strategist” and “AI engineer,” trying to figure out where his experience fits in a labor market that increasingly prizes a different kind of technical worker.",
+      "While the AI boom is responsible for a lot of San Francisco’s revival, tech isn’t driving hiring in the area. In the last 12 months, the information sector, which includes most of tech, lost about 2,000 jobs. In fact, the industries driving the labor recovery are private education and health, as well as leisure and hospitality, according to Egan.",
+      "There’s a “sort of a seesaw between the labor market stimulating effects of the AI investment and then the depressive effects of the layoffs of the legacy tech companies,” said Egan. “It is clear that you’ve got a lot of people getting laid off and a smaller number of people at this point getting hired for AI-specific skills.”",
+      "Just this month, Uber Technologies Inc., one of the standout startups of San Francisco’s 2010s boom, announced it was cutting about 3,300 roles, or 10% of its staff globally, in a restructuring aimed at reducing management layers.",
+      "Istanbouli, the un(PTO) founder, started the group to help ease the isolation that comes with having a tough time finding a job. It has evolved beyond hikes to also include career-related gatherings such as interview preparation. Still, he’s concerned to see so many people joining.",
+      "“You wonder, how held back are people gonna be in their careers?” he said. “And you also wonder how much of these people are going to actually face financial instability to a point where a lot of really smart people are actually going to end up leaving San Francisco.”",
+      "Adding to the financial pressure, AI wealth is making the city more expensive: San Francisco rents are rising at the fastest pace in the country.",
+      "While one class of worker is watching the skills that once made them indispensable become easier to automate, the premium is shifting toward those who can keep pace with AI, where the skills in demand can seem to change almost by the day.",
+      "The market is particularly unforgiving for engineers at the beginning of their careers. In California, employment among workers ages 22 to 25 in the occupations most exposed to AI has fallen 16.8% since the launch of ChatGPT, compared with a 4.6% decline among other workers, according to workforce intelligence platform Revelio Labs.",
+      "Tawni Cranz, an operating partner focused on talent at venture capital firm SignalFire, said the traditional “on-ramp” for new graduates has been “completely stifled.” Larger technology companies, she said, face the challenge of figuring out how to redesign the entry-level experience while still “building a pipeline for future founders and future leaders.”",
+      "Now, one of the most popular jobs in tech may be forward deployed engineers, a once-obscure role popularized by Palantir Technologies Inc. in the early 2010s. It blends engineering with the customer-facing work of figuring out how businesses can actually put AI to use.",
+      "Postings for the position in the Bay Area are up nearly 600% since 2022 and command a median advertised salary of $202,300, according to Lightcast. OpenAI currently has almost 20 job postings for forward deployed engineers, with salary offerings running from around $145,000 to $325,000 plus equity. At Anthropic, forward deployed engineers  command a salary ranging from $280,000 to $320,000. Salesforce Inc., one of San Francisco’s largest private employers, has committed to hiring 1,000 workers for the role.",
+      "At Taktile, which sells AI software to banks and insurers, forward deployed engineers increasingly do work that previously might have required software engineering, product and business teams, said Hao Li, who leads the company’s FDE team in North America.",
+      "“You can combine these three things into one role and that becomes this unicorn called FDE,” Li said.",
+      "Crisafulli, the laid off tech worker, is eager to embrace AI in his next role. At his former job, he had used it to build a workflow that compressed roughly two days of work into about an hour. He doesn’t blame AI directly for his layoff, but believes the technology made it easier for the company to do the same work with fewer people.",
+      "Since losing his job, he’s built five applications with AI and is trying to learn as much as he can about the technology. Yet some days he feels more hopeful than others.",
+      "“Some days I wake up and I’m like, maybe I’ll just open a flower shop,” he said. “That sounds much nicer, to be honest.”"
+     ],
+     "title_zh": "旧金山AI财富热潮绕过工程师，OpenAI与Anthropic IPO临近",
+     "summary_zh": "AI热潮下旧金山湾区科技业一年裁员超1.45万人，软件工程师需求较2022年降42%，失业者组建互助社群。"
+    },
+    {
+     "title": "US Bonds and Tina Turner: What Is the True Price of Safety?",
+     "url": "https://www.bloomberg.com/opinion/articles/2026-09-17/us-bonds-and-tina-turner-what-is-the-true-price-of-safety",
+     "link": "https://www.bloomberg.com/opinion/articles/2026-09-17/us-bonds-and-tina-turner-what-is-the-true-price-of-safety",
+     "published_cst": "2026-09-17T12:00:07+08:00",
+     "time": "09-17 12:00",
+     "body": [
+      "This article is adapted from      Worth the Risk: The Seven Myths That Keep Us From Taking the Chances We Need to Take       by Allison Schrager, to be published by Yale University Press. Copyright © 2026 by Allison Schrager. Excerpted by permission. All rights reserved.",
+      "What does Tina Turner have in common with a US Treasury bond? They both show that the meaning of safety is not always straightforward.",
+      "Born into poverty in rural Tennessee, Anna Mae Bullock sang in the church choir as a child and eventually made her way to the St. Louis music scene, where she became a teen mother and married a band leader who already had two children of his own. They started singing together and became rich and famous, traveling the world as the duo Ike and Tina Turner.",
+      "Before long, however, the relationship turned abusive, both emotionally and physically. Tina eventually summoned the courage to leave Ike Turner in 1976. You might think that a divorced woman, especially of that era, would need money to feel safe — and she was certainly entitled to plenty of it, having created hits like Proud Mary with him. But Tina Turner made a surprising decision during the divorce proceedings: She said she didn’t want the assets from the marriage, including royalties from the songs she made famous. She left with nothing except custody of the four children, two cars, and the right to keep using her stage name.",
+      "Tina Turner chose her name over money in the bank because she knew that doing so would make her feel safer. The assets she left behind were part of a life in which she didn’t feel safe. It wasn’t clear if her decision would work out in her favor, and those first few years were very difficult. She went on food stamps, and her career did not seem to be going anywhere as she approached middle age. But in her mid-forties, Turner released the album Private Dancer, which went multi-platinum and made her an even bigger international superstar than when she was married.",
+      "Money in the bank might seem like a universally safe concept — especially to Americans accustomed to the government insuring their deposits. But the idea that a universally safe investment or situation exists and can protect your future is a myth that prevents many people from taking risks like Turner did.",
+      "Safety isn’t a real place. It’s a feeling. It’s deeply personal, and it can change with your life circumstances. What you need to feel safe is not what someone else needs. What’s safe in one era doesn’t feel so safe in the next. But defining your personal feeling of “safety” is key to making good decisions about risk.",
+      "For Turner, her name meant her career and identity, which felt more secure than money from the past. What you see as safe defines how you perceive, value, and take risks. In financial economics, what safe means depends on your goals.",
+      "For example, we think of bonds as a safe investment. But not all bonds are a safe way to meet your goal. If you are saving for the long term, like for retirement, a long-term bond will likely protect your money from all the changes that will happen in markets over the decades, especially if it is inflation-protected. Yet a long-term bond still has risk: Because its price fluctuates more than a short-term bond’s, its market is less predictable in the near term. Only if you are investing to feel safe several decades from now, and no sooner, are you assured of long-term security.",
+      "If your personal definition of safety is long term, beware that the financial industry usually defines a safe asset as something different: one that offers a certain rate of return each year, and can be sold whenever you need it for at least what you paid for it. The industry regards a US Treasury bill (a short-term government bond) as a safe asset since it is backed by the government and its price doesn’t change. This makes sense if you are saving for an upcoming vacation or are a company with extra cash waiting a few months for the right investing project.",
+      "The distinction is important because bonds are how the financial industry values safety, and by extension how it defines risk. And yet it gets what’s safe wrong all the time by choosing the wrong bonds as safe and by assuming that bond prices don’t change as much as they do. Price changes in the bond markets tell us more about the state of risk and the economy than any other asset, because bonds represent the current price of safety. To be precise, the price of the “risk-free asset,” as US Treasury bonds are colloquially referred to, appears in almost every asset-pricing formula used in finance; it is the standard of how all risk is priced. It influences bank rates for loans to individuals, and it is used as collateral. It is the single most important asset in finance. The development of sovereign debt markets is one reason that Europe is thought to have industrialized first, and why the North prevailed during the US Civil War.",
+      "Most important, the value of US Treasury bonds has changed over time, as the way we view safety has evolved. Mirroring how we have come to value safety ever more highly, the price of a risk-free bond has been rising over time. And the more a bond costs, the lower the rate of interest paid to the bond holder.",
+      "Why did safety become so expensive (and thus yields so low)? There are many reasons, and some have been more important at different points in time. For most of history, these bonds were not really that safe, and gold was considered the ultimate risk-free investment. Now it is US Treasury bonds. Someday, though probably not anytime soon, it could be another country’s bonds or even German renewable energy stocks. No one knows. Anything can happen.",
+      "The idea that a relatively young country’s sovereign debt could be considered risk-free would have been unthinkable a century ago. For most of history, governments had problems paying debt or inflating it away. Rates of bonds trended down partly because the asset became safer and more valuable as governments got richer and more stable. Once they did, they had no need to offer high rates to entice buyers.",
+      "But events over the past several decades have proven especially telling when it comes to our mounting risk aversion. As the demand for safety increased across all parts of our lives — from the removal of seesaws on children’s playgrounds to everything else — the price of low-risk assets increased. After the 1997 Asian financial crisis, many countries wanted to reduce their risk exposure. So they bought lots of safe bonds — those issued by big rich countries like the United States and European Union members. Regulators wanted to ensure less risk in markets and demanded that financial institutions hold more low-risk assets. This created more demand for bonds, so they got a lot more expensive. It was a low-rate and low-risk time. Inflation was very low and predictable. Bonds from rich countries were the established safe asset of the world, and yields kept falling and falling.",
+      "After the 2008 financial crisis, central banks also started to buy many of their own countries’ bonds, which further increased the demand. Tremendous demand for low-risk assets that were in limited supply combined to make them even more expensive. As the price of safety grew significantly, it transformed how financial markets worked because if you wanted to invest in a low-risk asset, it would not return very much.",
+      "This sky-high demand for safety in recent years explains why investing in low-risk assets like a government bond or savings bank account earns you so little. It explains why mortgage rates fell — from 13 percent in the 1980s to 3 percent until the early 2020s. It explains why so much money went to crypto or tech startups: if you wanted your savings to grow, you had no choice but invest it in riskier assets. Gone was the time a bank would pay you 8 percent for a twelve-month certificate of deposit; now you are lucky to a get a rate that keeps up (barely) with inflation. If you are pension-fund manager who needs to make a certain return to pay benefits, you turn to risk. Safety has become very expensive.",
+      "In short, going into the early 2020s it became cheaper to be on the other side of a risk. It became better to be a borrower instead of a saver. It was cheaper to borrow for mortgages or cars. The low rates also trickled throughout the global financial system, which meant even developing countries, which normally pay a fortune, could borrow at lower rates and so help finance their development. It was also cheaper for businesses to fund an expansion or hire more people. Cheaper debt in many ways makes the world less risky, because cash is readily available from lenders when needed. Alternatively, it is easier to take on leverage, a riskier position. If anything changes suddenly and interest rates increase or the bond market freezes, we are more vulnerable.",
+      "What’s happened to the risk-free asset and its impact on financial markets offers a useful metaphor for the rest of the economy and our approach to risk in other areas of our lives. As the world became hungrier for safety, the entire financial system changed. In some ways, the world became safer as we valued safety more — most of the time, anyway.",
+      "But in other ways, this shift made us more vulnerable. For example, recessions became more difficult for central banks to counter, because interest rates were so low there was less room to cut rates further to spur new growth. Rates got so low that many investors needed to take on more risk to reach their goals: they became open to assets that seemed safe and offered some extra return. But Greek bonds or mortgage-backed securities turned out to not be as safe as they once appeared.",
+      "After decades of falling rates, especially after 2010, bond rates have started to rebound, with rates in the 2020s increasing and current rates seeming to stay higher. This turnaround has surprised many people — even economists. People in the financial industry and government had started to believe that interest rates would either keep falling or at least stand still. We all should have known better. Research on rates over many decades shows that rates still do go up and down, even if they have slowly trended down over the centuries. And it suggests that much of what happened since 2010 was a blip, not a permanent fall.",
+      "The price of safety is not stable. It never has and never will be, because how we value it changes over time."
+     ],
+     "title_zh": "美国国债与蒂娜·特纳：安全的真正代价是什么？",
+     "summary_zh": "蒂娜·特纳离婚时放弃与艾克·特纳婚姻中的资产，只保留艺名和四个孩子抚养权，因为她认为名字比金钱更安全；45岁后凭专辑《Private Dancer》成为更大国际巨星。"
+    },
+    {
+     "title": "Australia Mulls Ban on Smart Glasses in Federal Office Buildings",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/australia-mulls-ban-on-smart-glasses-in-federal-office-buildings",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/australia-mulls-ban-on-smart-glasses-in-federal-office-buildings",
+     "published_cst": "2026-09-17T12:00:00+08:00",
+     "time": "09-17 12:00",
+     "body": [
+      "Australia’s government is considering a ban on smart glasses in federal buildings, citing privacy and security concerns over using the devices to record people without their knowledge.",
+      "“Smart glasses can raise legitimate privacy and security concerns, particularly because of their ability to record and capture information, and we need clear and consistent guidance for public servants,” Minister for the Public Service Katy Gallagher said in a statement Thursday.",
+      "The Australian Public Service is one of the nation’s largest employers, with almost 200,000 people as of last year, and a ban in federal workplaces could set a precedent for other local and state jurisdictions, as well as companies. The government said it sees the move as a step toward “a potential world leading ban.”",
+      "The Brisbane city council last month banned the non-consensual use of smart glasses, phones and other wearable technology to film at public pools. Those rules allow lifeguards to eject people who film anyone without permission, and a number of other councils in Australia are following suit."
+     ],
+     "title_zh": "澳大利亚考虑禁止在联邦办公楼使用智能眼镜",
+     "summary_zh": "澳大利亚政府考虑禁止在联邦建筑使用智能眼镜，因隐私安全担忧，涉近20万公务员。"
     },
     {
      "title": "Sweden Center Left Seals Election Win to Keep Far Right Out",
@@ -3570,6 +3570,40 @@
      "summary_zh": "SK海力士考虑与英特尔在美合作造芯，字节跳动张一鸣成亚洲首富，Salesforce预计2030财年销售630亿美元，Sword Health以近3亿美元收购Headspace。"
     },
     {
+     "title": "Bank of England Eases Bond-Market Pain With Gilt Sales Overhaul",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/boe-scraps-long-end-gilt-sales-in-plan-to-unwind-qe-by-2034",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/boe-scraps-long-end-gilt-sales-in-plan-to-unwind-qe-by-2034",
+     "published_cst": "2026-09-17T11:00:01+08:00",
+     "time": "09-17 11:00",
+     "body": [
+      "The Bank of England gave Britain’s bond market some much needed relief with a dramatic overhaul of its plan for selling off excess gilts that piled up on its balance sheet in the previous decade.",
+      "UK government borrowing costs fell on Thursday in response to the shake-up of the British central bank’s quantitative tightening program. Under the new schedule, the BOE will pause all bond sales from its £488 billion ($650 billion) portfolio until April and stop selling long-dated bonds altogether.",
+      "The measures are expected to reduce the supply of gilts in the coming months, offering support to the gilt market at a time when bonds are selling off across the globe due to inflation and fiscal concerns. They were announced by Governor Andrew Bailey in London alongside the BOE’s decision to hold interest rates at 3.75% for the sixth straight meeting.",
+      "The yield on 30-year bonds, which had in recent days touched the highest level since 1998, fell more than 10 basis points after the midday announcement, the biggest drop in four months. Two-year yields, more sensitive to monetary policy, also dipped.",
+      "The decline in bond yields may take some of the pressure off Prime Minister Andy Burnham as he faces questions about the sustainability of his fiscal agenda. Burnham’s chancellor of the exchequer, John Healey, is due to lay out his first budget on Oct. 28 amid a worsening outlook on inflation.",
+      "“We’ve made a major announcement today because we’ve set out the path to the endpoint,” Bailey told broadcasters after the decision. “We’ve been planning and working on this for a long time. I can assure you, this work did not start when we had a change of government back in the early summer.”",
+      "Under the plan, the QT portfolio would now be unwound by September 2034. The central bank also intends to unload gilts maturing between 2035 and 2049 to the Debt Management Office rather than directly to the market. It will pause all QT sales until April 2027 as terms of these transfers are thrashed out.",
+      "“This is definitely a positive surprise,” said Daniel Loughney head of fixed income at Mediolanum International Funds. “The BOE, DMO and Treasury working closer on soft yield-curve control.”",
+      "Read more: Bank of England Holds Rates Warning of Hike If War Continues",
+      "The global bond selloff of the past weeks took government borrowing costs to levels last seen almost two decades ago. It also prompted US Treasury Secretary Scott Bessent to supersize his department’s debt buyback program, in a bid to cool down yields.",
+      "But the controversy sounding the BOE’s QT program predates the current market squeeze. Investors have long criticized the central bank for the impact its asset sales have on yields, which the British central bank acknowledges have lifted the cost of benchmark 10-year government debt by 20-30 basis points.",
+      "Meanwhile, politicians have blamed the program for punishing households as the £110 billion of QT losses since 2022 have had to be funded by taxpayers under a state indemnity. The Liberal Democrats, Reform UK and the Green Party have all demanded that the losses are recovered, potentially by a windfall levy on the banks that are the ultimate beneficiaries or through other changes to the program.",
+      "“The Bank of England today appeared to recognize that their QT program was imposing an unnecessary burden on gilts with the pausing of all QT auctions until next spring,” said Anthony Willis, senior economist at Columbia Threadneedle.",
+      "Under proposals that have yet to be finalized, the bank will keep £120 billion of gilts that mature in 2049 or later and use them as the matching asset against future banknote issuance. Another £222 billion of gilts that mature by 2035 will be run off.",
+      "The remaining £146 billion maturing between 2035 and 2049 will be sold at a pace of £20 billion a year, potentially directly to the government through the DMO. The arrangements may slightly erode the chancellor’s cushion under his main fiscal rule. The Treasury believes the changes have little implication for the Oct. 28 budget, a person familiar with the situation said.",
+      "In a letter to Healey, Bailey said the arrangement “preserves the independence of monetary policy” and would “maximize value for money by minimizing cost and risk over the lifetime” of the program.",
+      "The Treasury will work out whether to press ahead with the BOE’s plans to sell assets to the DMO. If it does, the DMO could then retire those gilts and replace them with ones with a duration that better meets market demand.",
+      "Michael Saunders, a former BOE ratesetter and adviser to Oxford Economics, said the plan to sell the bank’s bonds to the DMO rather than directly to the market should lead to longer-lasting reductions in government borrowing costs.",
+      "“This replaces BOE sales of less liquid non-benchmark gilts with DMO sales of benchmarks, which are more liquid and hence likely to trade at lower yields,” he said.",
+      "Bailey said he had been discussing the move since Rachel Reeves was chancellor, and a final decision will be made by the Treasury. The BOE also said the £120 billion of long-dated gilts to be retained would be used to back cash in circulation, which sits as a liability with the bank.",
+      "Under the new proposals, the portfolio would be run off at an average pace of £46 billion a year — £20 billion of which will be active sales. That’s slower than the Office for Budget Responsibility’s latest estimate for £32 billion of active sales a year.",
+      "QT has accrued £110 billion of losses since 2022, but made £124 billion of profit previously, all of which was spent by previous chancellors. BOE documents show that another £100 billion of losses had been expected.",
+      "“These changes should be seen as gilt positive, in particular for long end maturities,” said Matthew Amis, investment director of rates management at Aberdeen Investments. “The coordination of the sales in one place at the DMO should be also applauded.”"
+     ],
+     "title_zh": "英国央行改革量化紧缩国债销售以缓解债市压力",
+     "summary_zh": "英国央行暂停减持4880亿英镑国债至2027年4月并停售长期债券，30年期国债收益率应声下跌超10个基点。"
+    },
+    {
      "title": "Health Insurance Denials Can Be Overturned When US Patients Appeal",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-17/health-insurance-denials-can-be-overturned-when-us-patients-appeal",
      "link": "https://www.bloomberg.com/news/newsletters/2026-09-17/health-insurance-denials-can-be-overturned-when-us-patients-appeal",
@@ -3679,40 +3713,6 @@
      ],
      "title_zh": "英国央行维持利率不变，警告若战争持续将加息",
      "summary_zh": "英国央行维持利率3.75%不变，警告中东冲突若推高通胀压力或需加息。"
-    },
-    {
-     "title": "Bank of England Eases Bond-Market Pain With Gilt Sales Overhaul",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/boe-scraps-long-end-gilt-sales-in-plan-to-unwind-qe-by-2034",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/boe-scraps-long-end-gilt-sales-in-plan-to-unwind-qe-by-2034",
-     "published_cst": "2026-09-17T11:00:01+08:00",
-     "time": "09-17 11:00",
-     "body": [
-      "The Bank of England gave Britain’s bond market some much needed relief with a dramatic overhaul of its plan for selling off excess gilts that piled up on its balance sheet in the previous decade.",
-      "UK government borrowing costs fell on Thursday in response to the shake-up of the British central bank’s quantitative tightening program. Under the new schedule, the BOE will pause all bond sales from its £488 billion ($650 billion) portfolio until April and stop selling long-dated bonds altogether.",
-      "The measures are expected to reduce the supply of gilts in the coming months, offering support to the gilt market at a time when bonds are selling off across the globe due to inflation and fiscal concerns. They were announced by Governor Andrew Bailey in London alongside the BOE’s decision to hold interest rates at 3.75% for the sixth straight meeting.",
-      "The yield on 30-year bonds, which had in recent days touched the highest level since 1998, fell more than 10 basis points after the midday announcement, the biggest drop in four months. Two-year yields, more sensitive to monetary policy, also dipped.",
-      "The decline in bond yields may take some of the pressure off Prime Minister Andy Burnham as he faces questions about the sustainability of his fiscal agenda. Burnham’s chancellor of the exchequer, John Healey, is due to lay out his first budget on Oct. 28 amid a worsening outlook on inflation.",
-      "“We’ve made a major announcement today because we’ve set out the path to the endpoint,” Bailey told broadcasters after the decision. “We’ve been planning and working on this for a long time. I can assure you, this work did not start when we had a change of government back in the early summer.”",
-      "Under the plan, the QT portfolio would now be unwound by September 2034. The central bank also intends to unload gilts maturing between 2035 and 2049 to the Debt Management Office rather than directly to the market. It will pause all QT sales until April 2027 as terms of these transfers are thrashed out.",
-      "“This is definitely a positive surprise,” said Daniel Loughney head of fixed income at Mediolanum International Funds. “The BOE, DMO and Treasury working closer on soft yield-curve control.”",
-      "Read more: Bank of England Holds Rates Warning of Hike If War Continues",
-      "The global bond selloff of the past weeks took government borrowing costs to levels last seen almost two decades ago. It also prompted US Treasury Secretary Scott Bessent to supersize his department’s debt buyback program, in a bid to cool down yields.",
-      "But the controversy sounding the BOE’s QT program predates the current market squeeze. Investors have long criticized the central bank for the impact its asset sales have on yields, which the British central bank acknowledges have lifted the cost of benchmark 10-year government debt by 20-30 basis points.",
-      "Meanwhile, politicians have blamed the program for punishing households as the £110 billion of QT losses since 2022 have had to be funded by taxpayers under a state indemnity. The Liberal Democrats, Reform UK and the Green Party have all demanded that the losses are recovered, potentially by a windfall levy on the banks that are the ultimate beneficiaries or through other changes to the program.",
-      "“The Bank of England today appeared to recognize that their QT program was imposing an unnecessary burden on gilts with the pausing of all QT auctions until next spring,” said Anthony Willis, senior economist at Columbia Threadneedle.",
-      "Under proposals that have yet to be finalized, the bank will keep £120 billion of gilts that mature in 2049 or later and use them as the matching asset against future banknote issuance. Another £222 billion of gilts that mature by 2035 will be run off.",
-      "The remaining £146 billion maturing between 2035 and 2049 will be sold at a pace of £20 billion a year, potentially directly to the government through the DMO. The arrangements may slightly erode the chancellor’s cushion under his main fiscal rule. The Treasury believes the changes have little implication for the Oct. 28 budget, a person familiar with the situation said.",
-      "In a letter to Healey, Bailey said the arrangement “preserves the independence of monetary policy” and would “maximize value for money by minimizing cost and risk over the lifetime” of the program.",
-      "The Treasury will work out whether to press ahead with the BOE’s plans to sell assets to the DMO. If it does, the DMO could then retire those gilts and replace them with ones with a duration that better meets market demand.",
-      "Michael Saunders, a former BOE ratesetter and adviser to Oxford Economics, said the plan to sell the bank’s bonds to the DMO rather than directly to the market should lead to longer-lasting reductions in government borrowing costs.",
-      "“This replaces BOE sales of less liquid non-benchmark gilts with DMO sales of benchmarks, which are more liquid and hence likely to trade at lower yields,” he said.",
-      "Bailey said he had been discussing the move since Rachel Reeves was chancellor, and a final decision will be made by the Treasury. The BOE also said the £120 billion of long-dated gilts to be retained would be used to back cash in circulation, which sits as a liability with the bank.",
-      "Under the new proposals, the portfolio would be run off at an average pace of £46 billion a year — £20 billion of which will be active sales. That’s slower than the Office for Budget Responsibility’s latest estimate for £32 billion of active sales a year.",
-      "QT has accrued £110 billion of losses since 2022, but made £124 billion of profit previously, all of which was spent by previous chancellors. BOE documents show that another £100 billion of losses had been expected.",
-      "“These changes should be seen as gilt positive, in particular for long end maturities,” said Matthew Amis, investment director of rates management at Aberdeen Investments. “The coordination of the sales in one place at the DMO should be also applauded.”"
-     ],
-     "title_zh": "英国央行改革量化紧缩国债销售以缓解债市压力",
-     "summary_zh": "英国央行暂停减持4880亿英镑国债至2027年4月并停售长期债券，30年期国债收益率应声下跌超10个基点。"
     },
     {
      "title": "Red Sea shipping return",
@@ -7159,6 +7159,15 @@
      "title_zh": "今日房贷利率2026年9月17日：30年期利率攀升至7.06%"
     },
     {
+     "title": "GM to Produce Patriot Missile Parts as U.S. Faces Critical Arms Shortage",
+     "url": "https://www.wsj.com/business/autos/gm-to-produce-patriot-missile-parts-as-u-s-faces-critical-arms-shortage-c0f94101",
+     "link": "https://www.wsj.com/business/autos/gm-to-produce-patriot-missile-parts-as-u-s-faces-critical-arms-shortage-c0f94101",
+     "published_cst": "2026-09-17T13:00:00+08:00",
+     "time": "09-17 13:00",
+     "body": null,
+     "title_zh": "通用汽车将生产爱国者导弹部件以应对美国武器严重短缺"
+    },
+    {
      "title": "U.S. Jobless Claims Tumbled Last Week",
      "url": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-tumbled-last-week-00f109ae",
      "link": "https://www.wsj.com/economy/jobs/u-s-jobless-claims-tumbled-last-week-00f109ae",
@@ -7211,15 +7220,6 @@
      "time": "09-17 13:00",
      "body": null,
      "title_zh": "微软正以身作则，推动AI转型。"
-    },
-    {
-     "title": "GM to Produce Patriot Missile Parts as U.S. Faces Critical Arms Shortage",
-     "url": "https://www.wsj.com/business/autos/gm-to-produce-patriot-missile-parts-as-u-s-faces-critical-arms-shortage-c0f94101",
-     "link": "https://www.wsj.com/business/autos/gm-to-produce-patriot-missile-parts-as-u-s-faces-critical-arms-shortage-c0f94101",
-     "published_cst": "2026-09-17T13:00:00+08:00",
-     "time": "09-17 13:00",
-     "body": null,
-     "title_zh": "通用汽车将生产爱国者导弹部件以应对美国武器严重短缺"
     },
     {
      "title": "U.S. Housing Starts Fell in August",
