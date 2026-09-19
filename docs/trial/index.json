@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-19 00:01",
-   "title": "Correction: Simpson’s-in-the-Strand chef"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-19 01:05",
+   "title": "Paramount could settle with states over Warner Bros. as soon as this weekend, sources say"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-19 01:04",
+   "title": "US and Denmark reach deal on Greenland, Trump says"
   },
   {
    "src": "bb",
    "src_name": "Bloomberg",
    "badge": "BB",
    "color": "#B45309",
-   "time": "09-19 00:00",
-   "title": "Stübli Rewards Cheese Fondue Lovers Even in Hong Kong's Heat"
+   "time": "09-19 01:00",
+   "title": "Indonesia's New Finance Minister Aims for Stability After Political Drama"
   },
   {
    "src": "wsj",
    "src_name": "The Wall Street Journal",
    "badge": "WSJ",
    "color": "#1D4ED8",
-   "time": "09-19 00:00",
-   "title": "Patients Sue GLP-1 Drugmakers Over Risk of Sudden Vision Loss"
+   "time": "09-19 01:00",
+   "title": "Republicans in Tough Races Are Tip-Toeing Away From Trump"
   },
   {
    "src": "wsj",
    "src_name": "The Wall Street Journal",
    "badge": "WSJ",
    "color": "#1D4ED8",
-   "time": "09-19 00:00",
-   "title": "Are Phones Really to Blame for the Rise in Childhood Anxiety?"
-  },
-  {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-19 00:00",
-   "title": "A New Buffett Takes On the Task of Preserving Berkshire Hathaway’s Culture"
+   "time": "09-19 01:00",
+   "title": "Law Firms Have a Big Problem: Senior Partners Aren’t Retiring"
   }
  ]
 }
