@@ -1,13 +1,13 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-18T22:29:01.908370+08:00",
+ "generated_at": "2026-09-19T08:15:40.868138+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 244,
+   "count": 245,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -62,7 +62,7 @@
      "summary_zh": "日本8月核心CPI同比涨1.7%，四个月来首次放缓，因政府补贴压低能源价格，但央行料仍将加息。"
     },
     {
-     "title": "Sheinbaum, Trump Held Call to Discuss Trade as Talks Continue",
+     "title": "Sheinbaum Says Mexico Is Closer to Trade Deal After Trump Call",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/sheinbaum-trump-held-call-to-discuss-trade-as-talks-continue",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/sheinbaum-trump-held-call-to-discuss-trade-as-talks-continue",
      "published_cst": "2026-09-17T23:21:38+08:00",
@@ -101,7 +101,7 @@
      "summary_zh": "策略师预计日本央行立场不及市场预期鹰派，日元可能走弱至159，当前报156.02。"
     },
     {
-     "title": "Block Thames Creditors From Taking Control, UK Lawmakers Say",
+     "title": "Thames Water Seeks to Buy Time as MPs Push for Nationalization",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/uk-lawmakers-say-thames-creditors-have-been-joyriding-family-car",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/uk-lawmakers-say-thames-creditors-have-been-joyriding-family-car",
      "published_cst": "2026-09-17T23:01:00+08:00",
@@ -294,7 +294,7 @@
      "summary_zh": "澳洲建筑商Bathla倒闭波及私人信贷市场，主要支持者Centuria Bass Credit正考虑出售相关债务。"
     },
     {
-     "title": "Pennsylvania Governor Shapiro Calls For Tougher AI Safeguards",
+     "title": "Pennsylvania's Josh Shapiro Calls for Tougher AI Safeguards",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/pennsylvania-governor-shapiro-calls-for-tougher-ai-safeguards",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/pennsylvania-governor-shapiro-calls-for-tougher-ai-safeguards",
      "published_cst": "2026-09-17T22:26:06+08:00",
@@ -322,7 +322,7 @@
      "summary_zh": "宾州州长夏皮罗呼吁加强AI安全防护，并签署行政令规范数据中心，要求其自付电力并遵守节水标准。"
     },
     {
-     "title": "S&amp;P 500 Falls as Treasury Yields Resume Advance: Markets Wrap",
+     "title": "S&amp;P 500 Volume Spikes on $7 Trillion Options Day: Markets Wrap",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/stock-market-today-dow-s-p-live-updates",
      "published_cst": "2026-09-17T22:14:33+08:00",
@@ -4962,6 +4962,23 @@
      "summary_zh": "印度软件服务出口占GDP升至5.2%，AI担忧为时过早，外包业正向高价值服务转型。"
     },
     {
+     "title": "Bavarian Nordic Names Former Sanofi Executive as CEO",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/bavarian-nordic-appoints-former-sanofi-executive-as-ceo",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/bavarian-nordic-appoints-former-sanofi-executive-as-ceo",
+     "published_cst": "2026-09-17T06:46:34+08:00",
+     "time": "09-17 06:46",
+     "body": [
+      "Bavarian Nordic A/S appointed former Sanofi executive Tarja Stenvall as its new chief executive officer, resetting the top leadership team after a failed takeover bid.",
+      "Stenvall replaces Paul Chaplin, who is stepping down for personal reasons and whose departure was announced earlier this year. Stenvall has spent decades at large pharmaceutical companies, including AstraZeneca Plc and Pfizer Inc., according to a Bavarian Nordic statement on Thursday. She starts on Oct. 15.",
+      "Bavarian Nordic shareholders last year thwarted a takeover attempt by private equity firms Nordic Capital and Permira. Chairman Luc Debruyne resigned after the failed effort. The company announced in March that Chaplin would leave by year-end, or when a successor was named.",
+      "Read More: Bavarian Nordic CEO Steps Down After Failed $3 Billion Deal",
+      "The Danish company is best known for its smallpox shot that is also used against mpox. Bavarian secured several large government contracts for the vaccine during the 2022 and 2024 mpox outbreaks.",
+      "However, the company suffered a major setback in 2023 when its vaccine program for respiratory syncytial virus, or RSV, failed."
+     ],
+     "title_zh": "巴伐利亚北欧任命前赛诺菲高管为CEO",
+     "summary_zh": "巴伐利亚北欧任命前赛诺菲高管Tarja Stenvall为CEO，接替因个人原因离职的Paul Chaplin，10月15日生效。"
+    },
+    {
      "title": "Japan Appoints Bear Control Czar as Attacks Surge to Record",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/japan-appoints-bear-control-czar-as-attacks-surge-to-record",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/japan-appoints-bear-control-czar-as-attacks-surge-to-record",
@@ -6344,6 +6361,33 @@
      "summary_zh": "美联储鹰派加息后日元一度跌至156.42，日本央行周五会议面临更大压力，若政策偏鸽，日元可能进一步走弱至160。"
     },
     {
+     "title": "Modi Draws US Chip Leaders' Backing for $30 Billion India Bet",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/modi-courts-investors-with-india-s-30-billion-chipmaking-bet",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/modi-courts-investors-with-india-s-30-billion-chipmaking-bet",
+     "published_cst": "2026-09-17T00:00:00+08:00",
+     "time": "09-17 00:00",
+     "body": [
+      "Prime Minister Narendra Modi launched a charm offensive for global investors at India’s top chip-industry event, drawing pledges from US firms Applied Materials Inc. and Lam Research Corp. for billions of dollars in outlays.",
+      "Marking India’s audacious bid to win a seat at the global chip-making table, Modi touted the country’s vast pool of engineering graduates and semiconductor-friendly policies as assets international companies should take advantage of.",
+      "“The world urgently needs new and reliable locations for manufacturing,” Modi told the conference in New Delhi Thursday. “India is readying itself constantly.”",
+      "Modi is using the three-day Semicon event to display India’s fledgling chip and electronics industry that barely existed a decade ago. He’s courting global semiconductor producers, potential partners and customers for India’s homegrown contenders, as well as equipment makers and parts suppliers all seeking to ride the artificial intelligence investment wave.",
+      "The stakes are high for the planet’s most populous country and an economy that’s outpaced much of the world for years. Modi is trying to prove the nation has what it takes to become a hub in higher value-added industries such as chips, all part of a bid to further modernize the economy and keep it humming by bolstering exports. Expanding manufacturing is crucial for Modi’s vision of moving more workers from farms into better-paying jobs.",
+      "“Semicon in New Delhi is Modi’s way of signaling that India has a long-term commitment to growing the chip industry,” said Pranay Kotasthane, deputy director of Bangalore-based think tank Takshashila Institution. “That’s his message to global investors.”",
+      "More than 600 exhibitors, over 150 speakers and 300 global companies are converging on a state-of-the-art convention center in New Delhi. There’ll be startup showcases as well as a student hackathon.",
+      "The event comes just two months after India pledged a further 1.9 trillion rupees ($19.8 billion) in subsidies to boost local chip and electronics production. The first round of subsidies in 2020-21 helped Apple Inc. expand iPhone manufacturing in the South Asian region — it now makes 25% of its marquee device here.",
+      "India sought to replicate that momentum in semiconductors with an initial $10 billion fund that helped drive early initiatives. Some of those are starting to bear fruit: conglomerates Tata Group and Murugappa Group have begun packaging and assembling chips, while US memory maker Micron Technology Inc. has also commenced production. Tata is also building a chip fabrication plant in western Gujarat state that’s due to become operational in early 2028.",
+      "Executives from both Micron and Tata spoke ahead of Modi, pledging to forge ahead with their local plans. Micron will test and assemble hundreds of millions of chips in India in 2027 after starting output from its Gujarat plant this year, Chief Executive Officer Sanjay Mehrotra said.",
+      "Chip-equipment maker Applied Materials will invest $5 billion in India over the next decade, said Prabu Raja, president of the US company’s semiconductor products group. Competitor Lam Research plans to invest about $1 billion in a local manufacturing facility, Chief Operating Officer Sesha Varadarajan told the audience.",
+      "Germany’s Infineon Technologies AG, known for power and automotive chips, boosted its workforce 28% in the country over the past year, Chief Executive Officer Jochen Hanebeck said.",
+      "Countries around the world are committing massive budgets to making chips at home as the race for AI supremacy heats up. AI is already becoming ubiquitous in everything from self-driving cars and healthcare to finance and fraud detection. But as computing resources remain scarce, chips and chipmakers are fast becoming kingmakers in deciding who’s winning.",
+      "Though India’s push is in early stages, it’s accelerating efforts to build a domestic industry spanning the entire supply chain. It’s offering seed funding to startups working on semiconductor products, support for chip-making gear as well as for new fabs and assembly plants.",
+      "Chipmaking is a complicated and long-drawn process that countries such as Taiwan, South Korea, the US and Malaysia have taken several decades to develop and perfect. India started its campaign by making less sophisticated legacy semiconductors that are used widely in electronics and power systems, but it will have to move swiftly on to producing cutting-edge chips and advanced packaging to catch up.",
+      "“If you’re working in AI today, the challenge is not just what’s inside the chip but also what’s happening around it,” Modi said, citing chip design and packaging, as well as power and heat management as tasks India can help tackle. “There are many such challenges before the semiconductor industry.”"
+     ],
+     "title_zh": "莫迪吸引美国芯片巨头支持300亿美元印度投资",
+     "summary_zh": "莫迪在印度半导体展上吸引全球投资，美企应用材料与泛林承诺数十亿美元支出，印度此前已承诺198亿美元补贴。"
+    },
+    {
      "title": "Thai Protest Leader Who Seized Bangkok Airport Is Back in Action",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/thai-protest-leader-who-seized-bangkok-airport-is-back-in-action",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/thai-protest-leader-who-seized-bangkok-airport-is-back-in-action",
@@ -6384,33 +6428,6 @@
      ],
      "title_zh": "泰国机场占领事件领导人重返政坛",
      "summary_zh": "泰国抗议领袖颂提发起“夺回泰国”运动，动员民众向总理阿努廷政府施压，要求回应生活成本与腐败等诉求。"
-    },
-    {
-     "title": "Modi Draws US Chip Leaders' Backing for $30 Billion India Bet",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/modi-courts-investors-with-india-s-30-billion-chipmaking-bet",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/modi-courts-investors-with-india-s-30-billion-chipmaking-bet",
-     "published_cst": "2026-09-17T00:00:00+08:00",
-     "time": "09-17 00:00",
-     "body": [
-      "Prime Minister Narendra Modi launched a charm offensive for global investors at India’s top chip-industry event, drawing pledges from US firms Applied Materials Inc. and Lam Research Corp. for billions of dollars in outlays.",
-      "Marking India’s audacious bid to win a seat at the global chip-making table, Modi touted the country’s vast pool of engineering graduates and semiconductor-friendly policies as assets international companies should take advantage of.",
-      "“The world urgently needs new and reliable locations for manufacturing,” Modi told the conference in New Delhi Thursday. “India is readying itself constantly.”",
-      "Modi is using the three-day Semicon event to display India’s fledgling chip and electronics industry that barely existed a decade ago. He’s courting global semiconductor producers, potential partners and customers for India’s homegrown contenders, as well as equipment makers and parts suppliers all seeking to ride the artificial intelligence investment wave.",
-      "The stakes are high for the planet’s most populous country and an economy that’s outpaced much of the world for years. Modi is trying to prove the nation has what it takes to become a hub in higher value-added industries such as chips, all part of a bid to further modernize the economy and keep it humming by bolstering exports. Expanding manufacturing is crucial for Modi’s vision of moving more workers from farms into better-paying jobs.",
-      "“Semicon in New Delhi is Modi’s way of signaling that India has a long-term commitment to growing the chip industry,” said Pranay Kotasthane, deputy director of Bangalore-based think tank Takshashila Institution. “That’s his message to global investors.”",
-      "More than 600 exhibitors, over 150 speakers and 300 global companies are converging on a state-of-the-art convention center in New Delhi. There’ll be startup showcases as well as a student hackathon.",
-      "The event comes just two months after India pledged a further 1.9 trillion rupees ($19.8 billion) in subsidies to boost local chip and electronics production. The first round of subsidies in 2020-21 helped Apple Inc. expand iPhone manufacturing in the South Asian region — it now makes 25% of its marquee device here.",
-      "India sought to replicate that momentum in semiconductors with an initial $10 billion fund that helped drive early initiatives. Some of those are starting to bear fruit: conglomerates Tata Group and Murugappa Group have begun packaging and assembling chips, while US memory maker Micron Technology Inc. has also commenced production. Tata is also building a chip fabrication plant in western Gujarat state that’s due to become operational in early 2028.",
-      "Executives from both Micron and Tata spoke ahead of Modi, pledging to forge ahead with their local plans. Micron will test and assemble hundreds of millions of chips in India in 2027 after starting output from its Gujarat plant this year, Chief Executive Officer Sanjay Mehrotra said.",
-      "Chip-equipment maker Applied Materials will invest $5 billion in India over the next decade, said Prabu Raja, president of the US company’s semiconductor products group. Competitor Lam Research plans to invest about $1 billion in a local manufacturing facility, Chief Operating Officer Sesha Varadarajan told the audience.",
-      "Germany’s Infineon Technologies AG, known for power and automotive chips, boosted its workforce 28% in the country over the past year, Chief Executive Officer Jochen Hanebeck said.",
-      "Countries around the world are committing massive budgets to making chips at home as the race for AI supremacy heats up. AI is already becoming ubiquitous in everything from self-driving cars and healthcare to finance and fraud detection. But as computing resources remain scarce, chips and chipmakers are fast becoming kingmakers in deciding who’s winning.",
-      "Though India’s push is in early stages, it’s accelerating efforts to build a domestic industry spanning the entire supply chain. It’s offering seed funding to startups working on semiconductor products, support for chip-making gear as well as for new fabs and assembly plants.",
-      "Chipmaking is a complicated and long-drawn process that countries such as Taiwan, South Korea, the US and Malaysia have taken several decades to develop and perfect. India started its campaign by making less sophisticated legacy semiconductors that are used widely in electronics and power systems, but it will have to move swiftly on to producing cutting-edge chips and advanced packaging to catch up.",
-      "“If you’re working in AI today, the challenge is not just what’s inside the chip but also what’s happening around it,” Modi said, citing chip design and packaging, as well as power and heat management as tasks India can help tackle. “There are many such challenges before the semiconductor industry.”"
-     ],
-     "title_zh": "莫迪吸引美国芯片巨头支持300亿美元印度投资",
-     "summary_zh": "莫迪在印度半导体展上吸引全球投资，美企应用材料与泛林承诺数十亿美元支出，印度此前已承诺198亿美元补贴。"
     }
    ]
   },
@@ -6638,7 +6655,7 @@
      "title_zh": "海蒂·克鲁姆在柏林的完美一天，从土耳其烤肉到贝格汉夜店"
     },
     {
-     "title": "Stock Market Today: Nasdaq Heads for Weekly Gain as AI Stocks Rise",
+     "title": "Stock Market News, Sept. 18, 2026: Tech Stocks Climb as Treasury Yields Rise",
      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026",
      "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-18-2026",
      "published_cst": "2026-09-17T20:45:31+08:00",

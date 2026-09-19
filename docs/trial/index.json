@@ -1,46 +1,46 @@
 {
- "date": "20260918",
+ "date": "20260919",
  "trial_limit": 5,
  "items": [
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-18 14:08",
-   "title": "Trump pledged fiscal restraint. Instead, debt tops $40 trillion as borrowing costs rise"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-19 00:01",
+   "title": "Correction: Simpson’s-in-the-Strand chef"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-18 14:07",
-   "title": "Trump and the left: Republicans' two-pronged midterms strategy"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-19 00:00",
+   "title": "Stübli Rewards Cheese Fondue Lovers Even in Hong Kong's Heat"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-18 14:07",
-   "title": "Mbappé deixa Nike e assina com a On, que está entrando no mercado do futebol"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-19 00:00",
+   "title": "Patients Sue GLP-1 Drugmakers Over Risk of Sudden Vision Loss"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-18 14:07",
-   "title": "Trump's $5,000 dividend plan draws some Republican skepticism"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-19 00:00",
+   "title": "Are Phones Really to Blame for the Rise in Childhood Anxiety?"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-18 14:06",
-   "title": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-19 00:00",
+   "title": "A New Buffett Takes On the Task of Preserving Berkshire Hathaway’s Culture"
   }
  ]
 }

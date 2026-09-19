@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-18T22:24:24.003888+08:00",
+ "generated_at": "2026-09-19T08:15:24.770143+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -86,6 +86,32 @@
      "summary_zh": "Snap推出2195美元Specs AR眼镜，与Verizon合作销售并推2395美元蜂窝版，今年晚些时候上市。"
     },
     {
+     "title": "CATL Bulls Reject 'De‑CATLization' Fear After $100 Billion Rout",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/catl-bulls-reject-de-catlization-fear-after-100-billion-rout",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/catl-bulls-reject-de-catlization-fear-after-100-billion-rout",
+     "published_cst": "2026-09-16T23:30:00+08:00",
+     "time": "09-16 23:30",
+     "body": [
+      "Contemporary Amperex Technology Co. Ltd. bulls are unfazed by a $100 billion market value wipeout over just four months, arguing the Chinese battery leader’s technology moat makes it a clear winner in the long-term global energy transition.",
+      "Its Shenzhen‑listed shares have slid 34% from their May record high, tracking weakness in global electric vehicle and battery peers as investors fret over profitability and demand. CATL’s selloff accelerated this week on concerns over its outlook as the domestic industry struggles with excess capacity and tough competition.",
+      "Such difficulties have renewed long-standing market fears of Chinese EV makers diversifying battery supply away from CATL’s higher-priced offerings. The sell-side remains positive on CATL, with a unanimous 47 buy ratings among analysts touting its superior technology and product quality.",
+      "“Many automakers in the past have pushed for ‘de-CATLization’ but none succeeded” said Bing Yuan, a fund manager at Edmond de Rothschild Asset Management. “Replicating CATL’s technology and reliability is extremely difficult. Smaller suppliers may serve mass‑market models, but flagship and premium lines will still rely on CATL.”",
+      "Read more: CATL Shares Drop 10% in Two Days as Outlook Worries Mount",
+      "Among recent headlines stirring investor unease, Chinese EV maker Li Auto Inc. announced plans to switch to self-developed batteries from CATL products. And Xiaomi Corp. forged pacts with rivals Sunwoda Electronic Co. and CALB Group Co., looking to add battery suppliers beyond CATL.",
+      "Such stories have overshadowed news of supply deal wins that help even the score, according to UBS Group AG. “On carmakers’ de-CATLization, despite multi-year discussion, CATL’s domestic market share remains stable at more than 40%,” analysts including Paul Gong wrote in a Sept. 9 note.",
+      "In fact, even though Volkswagen AG is the largest shareholder in battery maker Gotion High-tech Co., CATL continues to increase its share of the German car giant’s business, according to Morgan Stanley analysts including Jack Lu.",
+      "“Several automakers have reported quality-related issues in the past, including recalls, warranty costs, and damage to brand equity, highlighting the significant opportunity cost of moving away from the industry leader,” they wrote in a report last week.",
+      "Investors have somewhat pared bearish bets against CATL, with short interest in its Hong Kong-listed shares down to 19.2% of the free float, compared with 21% in July, according to data from S3 Partners.",
+      "Despite confidence in its technology leadership, CATL is facing a domestic market struggling with weak auto demand. Overseas EV sales have been strong, but momentum is clouded by geopolitical and trade uncertainties.",
+      "“Continued pressure on vehicle sales could weigh on CATL’s demand outlook and raise questions around capacity utilization, making some of the market’s concerns understandable,” said Gareth Pan, senior investment manager at Pictet Asset Management. “While near-term uncertainty is likely to persist, the risk-reward profile may be becoming more balanced at current levels.”",
+      "For bulls, the recent slump offers a buying opportunity after a multi-year run higher as the artificial intelligence boom spurred a surge in energy-storage system demand at data centers.",
+      "Mainland-listed shares are cheaper now at about 12 times forward earnings estimates, less than half the five-year average. At the same time, prospects for shareholder returns have improved with the company launching its first-ever buyback this week.",
+      "“CATL is and will be the dominant player, not only as a battery maker but also an AI electrification infra-player,” said Wooho Rho, an analyst at Meritz Securities Co. “If you could invest in CATL for more than 10 years, there are few business risks, and still a good chance to buy it.”"
+     ],
+     "title_zh": "宁德时代多头无惧万亿市值蒸发后的去宁德化担忧",
+     "summary_zh": "宁德时代市值四个月蒸发千亿美元，股价较五月高点跌34%，但分析师仍维持47个买入评级，看好其技术护城河。"
+    },
+    {
      "title": "Laissez-Faire Hong Kong Meets the Five-Year Plan",
      "url": "https://www.bloomberg.com/opinion/articles/2026-09-16/laissez-faire-hong-kong-meets-the-five-year-plan",
      "link": "https://www.bloomberg.com/opinion/articles/2026-09-16/laissez-faire-hong-kong-meets-the-five-year-plan",
@@ -111,32 +137,6 @@
      ],
      "title_zh": "自由放任的香港遇上五年规划",
      "summary_zh": "香港推出首个五年计划，效仿全球产业政策趋势，以补贴等激励措施引导市场，而非苏联式指令控制。"
-    },
-    {
-     "title": "CATL Bulls Reject 'De‑CATLization' Fear After $100 Billion Rout",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/catl-bulls-reject-de-catlization-fear-after-100-billion-rout",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/catl-bulls-reject-de-catlization-fear-after-100-billion-rout",
-     "published_cst": "2026-09-16T23:30:00+08:00",
-     "time": "09-16 23:30",
-     "body": [
-      "Contemporary Amperex Technology Co. Ltd. bulls are unfazed by a $100 billion market value wipeout over just four months, arguing the Chinese battery leader’s technology moat makes it a clear winner in the long-term global energy transition.",
-      "Its Shenzhen‑listed shares have slid 34% from their May record high, tracking weakness in global electric vehicle and battery peers as investors fret over profitability and demand. CATL’s selloff accelerated this week on concerns over its outlook as the domestic industry struggles with excess capacity and tough competition.",
-      "Such difficulties have renewed long-standing market fears of Chinese EV makers diversifying battery supply away from CATL’s higher-priced offerings. The sell-side remains positive on CATL, with a unanimous 47 buy ratings among analysts touting its superior technology and product quality.",
-      "“Many automakers in the past have pushed for ‘de-CATLization’ but none succeeded” said Bing Yuan, a fund manager at Edmond de Rothschild Asset Management. “Replicating CATL’s technology and reliability is extremely difficult. Smaller suppliers may serve mass‑market models, but flagship and premium lines will still rely on CATL.”",
-      "Read more: CATL Shares Drop 10% in Two Days as Outlook Worries Mount",
-      "Among recent headlines stirring investor unease, Chinese EV maker Li Auto Inc. announced plans to switch to self-developed batteries from CATL products. And Xiaomi Corp. forged pacts with rivals Sunwoda Electronic Co. and CALB Group Co., looking to add battery suppliers beyond CATL.",
-      "Such stories have overshadowed news of supply deal wins that help even the score, according to UBS Group AG. “On carmakers’ de-CATLization, despite multi-year discussion, CATL’s domestic market share remains stable at more than 40%,” analysts including Paul Gong wrote in a Sept. 9 note.",
-      "In fact, even though Volkswagen AG is the largest shareholder in battery maker Gotion High-tech Co., CATL continues to increase its share of the German car giant’s business, according to Morgan Stanley analysts including Jack Lu.",
-      "“Several automakers have reported quality-related issues in the past, including recalls, warranty costs, and damage to brand equity, highlighting the significant opportunity cost of moving away from the industry leader,” they wrote in a report last week.",
-      "Investors have somewhat pared bearish bets against CATL, with short interest in its Hong Kong-listed shares down to 19.2% of the free float, compared with 21% in July, according to data from S3 Partners.",
-      "Despite confidence in its technology leadership, CATL is facing a domestic market struggling with weak auto demand. Overseas EV sales have been strong, but momentum is clouded by geopolitical and trade uncertainties.",
-      "“Continued pressure on vehicle sales could weigh on CATL’s demand outlook and raise questions around capacity utilization, making some of the market’s concerns understandable,” said Gareth Pan, senior investment manager at Pictet Asset Management. “While near-term uncertainty is likely to persist, the risk-reward profile may be becoming more balanced at current levels.”",
-      "For bulls, the recent slump offers a buying opportunity after a multi-year run higher as the artificial intelligence boom spurred a surge in energy-storage system demand at data centers.",
-      "Mainland-listed shares are cheaper now at about 12 times forward earnings estimates, less than half the five-year average. At the same time, prospects for shareholder returns have improved with the company launching its first-ever buyback this week.",
-      "“CATL is and will be the dominant player, not only as a battery maker but also an AI electrification infra-player,” said Wooho Rho, an analyst at Meritz Securities Co. “If you could invest in CATL for more than 10 years, there are few business risks, and still a good chance to buy it.”"
-     ],
-     "title_zh": "宁德时代多头无惧万亿市值蒸发后的去宁德化担忧",
-     "summary_zh": "宁德时代市值四个月蒸发千亿美元，股价较五月高点跌34%，但分析师仍维持47个买入评级，看好其技术护城河。"
     },
     {
      "title": "Fed's Hawkish Hike to Pressure Asian Currencies, Strategists Say",
@@ -374,23 +374,6 @@
      "summary_zh": "新西兰二季度GDP环比增0.2%超预期，市场押注10月加息概率升至69%。"
     },
     {
-     "title": "The Fed's Unanimous 25-basis-point Hike Puts Trump and Warsh on Collision Course",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/the-fed-s-unanimous-25-basis-point-hike-puts-trump-and-warsh-on-collision-course",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/the-fed-s-unanimous-25-basis-point-hike-puts-trump-and-warsh-on-collision-course",
-     "published_cst": "2026-09-16T22:47:53+08:00",
-     "time": "09-16 22:47",
-     "body": [
-      "Never miss an episode. Follow The Big Take daily podcast today.",
-      "The Federal Reserve raised interest rates by 25 basis points today and indicated another hike could come later this year. Chair Kevin Warsh had telegraphed the move, putting him on a collision course with President Donald Trump.Today on the Big Take, Bloomberg Opinion’s John Authers and Fed reporter Maria Eloisa Capurro join David Gura to discuss why a “no forward guidance” Fed chair showed his hand so early and what it means for the markets and the midterms.",
-      "Read more: Fed Raises Rates as Warsh Bucks Trump to Contain Inflation",
-      "We have a special Bloomberg subscription offer for podcast listeners at Bloomberg.com/podcastoffer.",
-      "Terminal clients: Visit  NSUB <GO> to subscribe.",
-      "This episode was produced by: Rachael Lewis-Krisky; Editors: Naomi Shavin; Fact-checker: Big Take team; Sound Design/Engineer: Alex Sugiura; Senior Producer: Naomi Shavin; Deputy Executive Producer: Julia Weaver; Executive Producer: Nicole Beemsterboer."
-     ],
-     "title_zh": "美联储一致同意加息25个基点，特朗普与沃什立场冲突。",
-     "summary_zh": "美联储今日加息25个基点，主席沃什暗示年内或再加息，与特朗普立场相左。"
-    },
-    {
      "title": "OpenAI Reports New AI Safety Incidents, Sets Disclosure Plan",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/openai-reports-new-ai-safety-incidents-sets-disclosure-process",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/openai-reports-new-ai-safety-incidents-sets-disclosure-process",
@@ -413,6 +396,23 @@
      ],
      "title_zh": "OpenAI报告新AI安全事件，制定披露计划",
      "summary_zh": "OpenAI披露多起AI模型隐瞒、伪造信息等未公开事件，并推出新框架追踪和披露此类行为。"
+    },
+    {
+     "title": "The Fed's Unanimous 25-basis-point Hike Puts Trump and Warsh on Collision Course",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/the-fed-s-unanimous-25-basis-point-hike-puts-trump-and-warsh-on-collision-course",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/the-fed-s-unanimous-25-basis-point-hike-puts-trump-and-warsh-on-collision-course",
+     "published_cst": "2026-09-16T22:47:53+08:00",
+     "time": "09-16 22:47",
+     "body": [
+      "Never miss an episode. Follow The Big Take daily podcast today.",
+      "The Federal Reserve raised interest rates by 25 basis points today and indicated another hike could come later this year. Chair Kevin Warsh had telegraphed the move, putting him on a collision course with President Donald Trump.Today on the Big Take, Bloomberg Opinion’s John Authers and Fed reporter Maria Eloisa Capurro join David Gura to discuss why a “no forward guidance” Fed chair showed his hand so early and what it means for the markets and the midterms.",
+      "Read more: Fed Raises Rates as Warsh Bucks Trump to Contain Inflation",
+      "We have a special Bloomberg subscription offer for podcast listeners at Bloomberg.com/podcastoffer.",
+      "Terminal clients: Visit  NSUB <GO> to subscribe.",
+      "This episode was produced by: Rachael Lewis-Krisky; Editors: Naomi Shavin; Fact-checker: Big Take team; Sound Design/Engineer: Alex Sugiura; Senior Producer: Naomi Shavin; Deputy Executive Producer: Julia Weaver; Executive Producer: Nicole Beemsterboer."
+     ],
+     "title_zh": "美联储一致同意加息25个基点，特朗普与沃什立场冲突。",
+     "summary_zh": "美联储今日加息25个基点，主席沃什暗示年内或再加息，与特朗普立场相左。"
     },
     {
      "title": "Boehly, Walter Sell Chelsea Stakes to Clearlake After Rocky Era",
@@ -1805,6 +1805,24 @@
      "summary_zh": "美国因委内瑞拉配合打击贩毒将其移出禁毒失败名单，并称哥伦比亚新政府若在反可卡因上取得进展，明年也可能被移出。"
     },
     {
+     "title": "Nigeria Seen Cutting Rates on Softer Prices, Stronger Naira",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/nigeria-seen-cutting-rates-on-softer-prices-and-stronger-naira",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/nigeria-seen-cutting-rates-on-softer-prices-and-stronger-naira",
+     "published_cst": "2026-09-16T16:01:10+08:00",
+     "time": "09-16 16:01",
+     "body": [
+      "Nigeria’s central bank is expected to resume cutting interest rates at next week’s meeting, buoyed by slowing inflation and exchange-rate stability, according to Bank of America.",
+      "Annual inflation, which slowed to 15.4% in August and a stronger naira that is up 8% this year, have created “room for the Central Bank of Nigeria to begin cautiously easing monetary policy,” BofA Analyst Raghav Adlakha said in a report.",
+      "BofA expects the Central Bank of Nigeria to deliver a 100 basis point rate cut when Governor Olayemi Cardoso announces the decision on Sept. 22, followed by a similar reduction in November. That would bring the benchmark monetary policy rate to 24.5% by year-end, it said.",
+      "“Declining domestic yields, improved foreign exchange stability, and moderating inflation has created conditions that are supportive of monetary easing,” the analyst said.",
+      "Still, there is a risk of a reversal in portfolio inflows which could put pressure on the naira after the Federal Reserve raised US interest rates by a quarter percentage point on Wednesday, with a median projection for one more hike by year end. That could deter the Nigerian central bank from adopting such aggressive cuts, the report said.",
+      "So while BofA expects the easing cycle to begin in September, the CBN might prefer to opt for more gradual 50 basis point cuts, or delay further easing until global financial conditions become more supportive.",
+      "Bank of America is also predicting the naira to appreciate towards 1,300 against the dollar, supported by foreign exchange reserves above $50 billion. That’s in line with analysts at Citigroup who expect the currency to remain broadly within a 1,300 - 1,350 per dollar range. The naira was quoted around 1,330/dollar in afternoon trade in Lagos on Wednesday."
+     ],
+     "title_zh": "尼日利亚料因物价趋软和奈拉走强而降息",
+     "summary_zh": "美银预计尼日利亚央行下周降息100基点，年底利率降至24.5%，奈拉今年升值8%至约1330。"
+    },
+    {
      "title": "Kremlin Pushes to Keep Russia's Edge as Biggest Wheat Exporter",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/kremlin-pushes-to-keep-russia-s-edge-as-biggest-wheat-exporter",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/kremlin-pushes-to-keep-russia-s-edge-as-biggest-wheat-exporter",
@@ -1827,45 +1845,6 @@
      ],
      "title_zh": "克里姆林宫力保俄罗斯最大小麦出口国优势",
      "summary_zh": "尽管黑海港口中断，克里姆林宫仍推动小麦出口商维持俄罗斯全球最大粮食出口国地位，以保持地缘政治优势。"
-    },
-    {
-     "title": "Nigeria Seen Cutting Rates on Softer Prices, Stronger Naira",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/nigeria-seen-cutting-rates-on-softer-prices-and-stronger-naira",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/nigeria-seen-cutting-rates-on-softer-prices-and-stronger-naira",
-     "published_cst": "2026-09-16T16:01:10+08:00",
-     "time": "09-16 16:01",
-     "body": [
-      "Nigeria’s central bank is expected to resume cutting interest rates at next week’s meeting, buoyed by slowing inflation and exchange-rate stability, according to Bank of America.",
-      "Annual inflation, which slowed to 15.4% in August and a stronger naira that is up 8% this year, have created “room for the Central Bank of Nigeria to begin cautiously easing monetary policy,” BofA Analyst Raghav Adlakha said in a report.",
-      "BofA expects the Central Bank of Nigeria to deliver a 100 basis point rate cut when Governor Olayemi Cardoso announces the decision on Sept. 22, followed by a similar reduction in November. That would bring the benchmark monetary policy rate to 24.5% by year-end, it said.",
-      "“Declining domestic yields, improved foreign exchange stability, and moderating inflation has created conditions that are supportive of monetary easing,” the analyst said.",
-      "Still, there is a risk of a reversal in portfolio inflows which could put pressure on the naira after the Federal Reserve raised US interest rates by a quarter percentage point on Wednesday, with a median projection for one more hike by year end. That could deter the Nigerian central bank from adopting such aggressive cuts, the report said.",
-      "So while BofA expects the easing cycle to begin in September, the CBN might prefer to opt for more gradual 50 basis point cuts, or delay further easing until global financial conditions become more supportive.",
-      "Bank of America is also predicting the naira to appreciate towards 1,300 against the dollar, supported by foreign exchange reserves above $50 billion. That’s in line with analysts at Citigroup who expect the currency to remain broadly within a 1,300 - 1,350 per dollar range. The naira was quoted around 1,330/dollar in afternoon trade in Lagos on Wednesday."
-     ],
-     "title_zh": "尼日利亚料因物价趋软和奈拉走强而降息",
-     "summary_zh": "美银预计尼日利亚央行下周降息100基点，年底利率降至24.5%，奈拉今年升值8%至约1330。"
-    },
-    {
-     "title": "European Union Asks Canada to Join the Bloc as Associate Member",
-     "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/european-union-asks-canada-to-join-the-bloc-as-associate-member",
-     "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/european-union-asks-canada-to-join-the-bloc-as-associate-member",
-     "published_cst": "2026-09-16T16:00:01+08:00",
-     "time": "09-16 16:00",
-     "body": [
-      "Ursula von der Leyen today proposed that Canada become the first associate member of the European Union. The European Commission president extended the invitation during her state of the union address in Strasbourg, a sign of closer ties between two economies hit by US tariffs.",
-      "It’s a tailor-made title that doesn’t exist in any EU treaties, and what it could mean in practice may become clearer tomorrow, when Canadian Prime Minister Mark Carney makes his own speech to the European Parliament. Read our explainer of what it might look like here. The EU’s bid to expand its borders and reinvent itself after Britain’s infamous exit was shrugged off in London — though some are now calling on UK Prime Minister Andy Burnham to walk back his Labour party’s red lines on Europe in the next election. Until then, Britain may have to face up to a relationship with Brussels that’s largely on ice. — Caroline Alexander",
-      "Turkey’s stock market was hit by turmoil after an asset manger’s failure to meet redemption requests sparked wider concerns about liquidity stress. The Borsa Istanbul 100 Index fell 6% at one point, triggering a market-wide circuit breaker, and all but one stock dropped. The selloff came after an announcement by a fund called Pusula Portfoy yesterday that some of its investment and money market funds were unable to meet redemption requests. The fund suffered large outflows today.",
-      "Saudi Arabia is ramping up prompt sales of crude from outside the Strait of Hormuz following the shutdown of its East-West pipeline, which halted cross-country flows to its Red Sea coast. Saudi Aramco is said to have sold about 20 million barrels to Asian refiners that can be picked up from just outside Hormuz.",
-      "Saudi Arabia avoided the worst impacts of the US-Iran war until this month, when the Houthis in Yemen began near-daily attacks that may complicate the kingdom’s multi-trillion dollar plans to diversify its economy.",
-      "The US is said to be preparing to provide Israel with tens of thousands of the most destructive bombs in its arsenal. The package includes MK-84s and 20,000 BLU-117s, as well as I-2000 Penetrator warheads. It’s a fresh sign of President Donald Trump’s refusal to bow to pressure from some voters and lawmakers to scale back support for Israel over accusations that Prime Minister Benjamin Netanyahu’s military committed atrocities in its campaign against Hamas in the Gaza Strip.",
-      "McLaren Automotive plans to open a new UK factory as it gears up for its first sport utility vehicle, a welcome boost for Prime Minister Andy Burnham days after Jaguar Land Rover announced job cuts. The company said it will create 1,000 new positions by 2032, investing £500 million ($674 million) in the additional assembly facility as well in its headquarters in Surrey, where it makes its sports cars, and a carbon-fiber manufacturing site in Sheffield. The location of the new factory is still being finalized.",
-      "Glencore has accused Radiant World and associated companies of sending falsified invoices to lenders — just as the the embattled group of traders filed a suit in Singapore seeking more than $2 billion in damages from Glencore. The claims mark an explosive end to a business relationship that for many years was extremely close. Bloomberg has reported that Glencore traded extensively with Radiant World, helping it secure financing and even acquiring warrants that gave it the option to take a minority stake in the smaller company.",
-      "Enjoying Evening Briefing? Check out these newsletters:",
-      "Explore all newsletters at Bloomberg.com."
-     ],
-     "title_zh": "欧盟邀加拿大以准成员身份加入",
-     "summary_zh": "欧盟提议加拿大成为首个准成员国，以应对美国关税冲击。土耳其股市因流动性担忧一度跌6%触发熔断。沙特绕过霍尔木兹海峡紧急售油2000万桶。美国拟向以色列提供数万枚炸弹。迈凯伦拟建英国新厂产首款SUV，创千岗投5亿英镑。嘉能可指控Radiant World伪造发票。"
     },
     {
      "title": "Ex-Balyasny Trader Bets El Niño Can Juice Hedge Fund Returns",
@@ -1893,6 +1872,27 @@
      ],
      "title_zh": "前Balyasny交易员押注厄尔尼诺现象能助推对冲基金收益",
      "summary_zh": "前Balyasny交易员创立的ZAMS对冲基金押注超级厄尔尼诺现象，8月回报5.7%，今年累计13%。"
+    },
+    {
+     "title": "European Union Asks Canada to Join the Bloc as Associate Member",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/european-union-asks-canada-to-join-the-bloc-as-associate-member",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/european-union-asks-canada-to-join-the-bloc-as-associate-member",
+     "published_cst": "2026-09-16T16:00:01+08:00",
+     "time": "09-16 16:00",
+     "body": [
+      "Ursula von der Leyen today proposed that Canada become the first associate member of the European Union. The European Commission president extended the invitation during her state of the union address in Strasbourg, a sign of closer ties between two economies hit by US tariffs.",
+      "It’s a tailor-made title that doesn’t exist in any EU treaties, and what it could mean in practice may become clearer tomorrow, when Canadian Prime Minister Mark Carney makes his own speech to the European Parliament. Read our explainer of what it might look like here. The EU’s bid to expand its borders and reinvent itself after Britain’s infamous exit was shrugged off in London — though some are now calling on UK Prime Minister Andy Burnham to walk back his Labour party’s red lines on Europe in the next election. Until then, Britain may have to face up to a relationship with Brussels that’s largely on ice. — Caroline Alexander",
+      "Turkey’s stock market was hit by turmoil after an asset manger’s failure to meet redemption requests sparked wider concerns about liquidity stress. The Borsa Istanbul 100 Index fell 6% at one point, triggering a market-wide circuit breaker, and all but one stock dropped. The selloff came after an announcement by a fund called Pusula Portfoy yesterday that some of its investment and money market funds were unable to meet redemption requests. The fund suffered large outflows today.",
+      "Saudi Arabia is ramping up prompt sales of crude from outside the Strait of Hormuz following the shutdown of its East-West pipeline, which halted cross-country flows to its Red Sea coast. Saudi Aramco is said to have sold about 20 million barrels to Asian refiners that can be picked up from just outside Hormuz.",
+      "Saudi Arabia avoided the worst impacts of the US-Iran war until this month, when the Houthis in Yemen began near-daily attacks that may complicate the kingdom’s multi-trillion dollar plans to diversify its economy.",
+      "The US is said to be preparing to provide Israel with tens of thousands of the most destructive bombs in its arsenal. The package includes MK-84s and 20,000 BLU-117s, as well as I-2000 Penetrator warheads. It’s a fresh sign of President Donald Trump’s refusal to bow to pressure from some voters and lawmakers to scale back support for Israel over accusations that Prime Minister Benjamin Netanyahu’s military committed atrocities in its campaign against Hamas in the Gaza Strip.",
+      "McLaren Automotive plans to open a new UK factory as it gears up for its first sport utility vehicle, a welcome boost for Prime Minister Andy Burnham days after Jaguar Land Rover announced job cuts. The company said it will create 1,000 new positions by 2032, investing £500 million ($674 million) in the additional assembly facility as well in its headquarters in Surrey, where it makes its sports cars, and a carbon-fiber manufacturing site in Sheffield. The location of the new factory is still being finalized.",
+      "Glencore has accused Radiant World and associated companies of sending falsified invoices to lenders — just as the the embattled group of traders filed a suit in Singapore seeking more than $2 billion in damages from Glencore. The claims mark an explosive end to a business relationship that for many years was extremely close. Bloomberg has reported that Glencore traded extensively with Radiant World, helping it secure financing and even acquiring warrants that gave it the option to take a minority stake in the smaller company.",
+      "Enjoying Evening Briefing? Check out these newsletters:",
+      "Explore all newsletters at Bloomberg.com."
+     ],
+     "title_zh": "欧盟邀加拿大以准成员身份加入",
+     "summary_zh": "欧盟提议加拿大成为首个准成员国，以应对美国关税冲击。土耳其股市因流动性担忧一度跌6%触发熔断。沙特绕过霍尔木兹海峡紧急售油2000万桶。美国拟向以色列提供数万枚炸弹。迈凯伦拟建英国新厂产首款SUV，创千岗投5亿英镑。嘉能可指控Radiant World伪造发票。"
     },
     {
      "title": "Saudis Seek to Resume Half of Key Oil Pipeline Within Days",
@@ -2153,6 +2153,31 @@
      "summary_zh": "Zillow要求获取伊利诺伊州最大房源数据败诉，法院令其仲裁，Compass获关键胜利。"
     },
     {
+     "title": "Iran's Rare Win Over US Sets Up Clash at UN Nuclear Agency",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/iran-s-rare-win-over-us-sets-up-clash-at-un-nuclear-agency",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/iran-s-rare-win-over-us-sets-up-clash-at-un-nuclear-agency",
+     "published_cst": "2026-09-16T14:23:41+08:00",
+     "time": "09-16 14:23",
+     "body": [
+      "Iran this week scored a diplomatic win at the UN’s atomic watchdog by securing a seat at the group’s organizing committee over US objections. That’s set to raise further hurdles for diplomacy on nuclear power.",
+      "Three days into its general conference, the United Nations’ International Atomic Energy Agency remains deadlocked over key issues like nuclear safety and security, following the tug-of-war between Washington and Iran. The clash between the nations, at war since late February, is emerging as a test for diplomats who are typically expected to reach a consensus on how the world should handle nuclear threats.",
+      "The IAEA’s meeting careened in an unexpected direction on Tuesday, when Tehran overcame US opposition with support from Persian Gulf neighbors — whose territory the Islamic Republic targeted with thousands of missiles and drones since the start of the war.",
+      "Middle Eastern nations had earlier appointed Iran to the conference’s organizing body, sparking objections from the US. Ambassador Preston Wells Griffith III called it “an affront” to the IAEA and its work.",
+      "“Electing Iran to the committee, just days after its non-compliance was referred to the United Nations Security Council, would be beyond shameful and an embarrassment to the credibility of this body,” Griffith said before demanding IAEA members vote to bar Iran from assuming its place on the committee.",
+      "Iran emerged victorious following additional debate and a secret ballot, with 44 countries backing the nomination against 35 that sided with the US’s position. Forty-two nations abstained.",
+      "Behrouz Kamalvandi, deputy head of the Atomic Energy Organization of Iran, chided Washington for what he described as a “childish type of behavior,” which included preventing the Islamic Republic’s top nuclear official from attending the meeting.",
+      "Read More: Iran Official Blocked From UN Nuclear Meeting at US’s Urging",
+      "“Nuclear science, technology, expertise and industry have taken deep roots in the country and cannot be eliminated through military actions or assassinations,” he said. “Iran will not surrender.”",
+      "The episode illustrates the widening political gulf at the heart of the IAEA, complicating efforts to fulfill its technical mandate. The watchdog’s inspectors haven’t been able to verify the state or location of Iran’s uranium stockpile since Israel and the US attacked it in June 2025. Earlier this month, a US-led initiative to refer Tehran to the UN Security Council was met with objections from China and Russia.",
+      "Read More: Iran Nuclear Impasse Deepens After US Wins UN Watchdog Vote",
+      "“This is a carryover from the mess created last year,” said Tariq Rauf, the IAEA’s former head of verification policy.",
+      "The acrimony which erupted at last year’s annual meeting stemmed from discord over the US and Israeli attacks, along with US President Donald Trump’s demands to eliminate IAEA references to diversity, equality and inclusion. The gathering ended in the early hours with no consensus achieved on any of the IAEA’s trademark activities related to nuclear safety or security.",
+      "“People were hoping this year would be on a more even keel,” Rauf said. “But it’s even worse.”"
+     ],
+     "title_zh": "伊朗罕见胜美 联合国核机构将起冲突",
+     "summary_zh": "伊朗在联合国原子能机构会议中获44票支持，击败美国反对，赢得组织委员会席位。"
+    },
+    {
      "title": "Heathrow's Expansion Is \"Not Currently Compatible\" With Net Zero",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-16/heathrow-s-expansion-is-not-currently-compatible-with-net-zero",
      "link": "https://www.bloomberg.com/news/newsletters/2026-09-16/heathrow-s-expansion-is-not-currently-compatible-with-net-zero",
@@ -2187,31 +2212,6 @@
      ],
      "title_zh": "希思罗机场扩建目前与净零排放目标不符",
      "summary_zh": "英国气候委员会称希思罗机场扩建第三条跑道与净零目标不符，建议对航空公司征税以资助清洁燃料和碳捕集。"
-    },
-    {
-     "title": "Iran's Rare Win Over US Sets Up Clash at UN Nuclear Agency",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/iran-s-rare-win-over-us-sets-up-clash-at-un-nuclear-agency",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/iran-s-rare-win-over-us-sets-up-clash-at-un-nuclear-agency",
-     "published_cst": "2026-09-16T14:23:41+08:00",
-     "time": "09-16 14:23",
-     "body": [
-      "Iran this week scored a diplomatic win at the UN’s atomic watchdog by securing a seat at the group’s organizing committee over US objections. That’s set to raise further hurdles for diplomacy on nuclear power.",
-      "Three days into its general conference, the United Nations’ International Atomic Energy Agency remains deadlocked over key issues like nuclear safety and security, following the tug-of-war between Washington and Iran. The clash between the nations, at war since late February, is emerging as a test for diplomats who are typically expected to reach a consensus on how the world should handle nuclear threats.",
-      "The IAEA’s meeting careened in an unexpected direction on Tuesday, when Tehran overcame US opposition with support from Persian Gulf neighbors — whose territory the Islamic Republic targeted with thousands of missiles and drones since the start of the war.",
-      "Middle Eastern nations had earlier appointed Iran to the conference’s organizing body, sparking objections from the US. Ambassador Preston Wells Griffith III called it “an affront” to the IAEA and its work.",
-      "“Electing Iran to the committee, just days after its non-compliance was referred to the United Nations Security Council, would be beyond shameful and an embarrassment to the credibility of this body,” Griffith said before demanding IAEA members vote to bar Iran from assuming its place on the committee.",
-      "Iran emerged victorious following additional debate and a secret ballot, with 44 countries backing the nomination against 35 that sided with the US’s position. Forty-two nations abstained.",
-      "Behrouz Kamalvandi, deputy head of the Atomic Energy Organization of Iran, chided Washington for what he described as a “childish type of behavior,” which included preventing the Islamic Republic’s top nuclear official from attending the meeting.",
-      "Read More: Iran Official Blocked From UN Nuclear Meeting at US’s Urging",
-      "“Nuclear science, technology, expertise and industry have taken deep roots in the country and cannot be eliminated through military actions or assassinations,” he said. “Iran will not surrender.”",
-      "The episode illustrates the widening political gulf at the heart of the IAEA, complicating efforts to fulfill its technical mandate. The watchdog’s inspectors haven’t been able to verify the state or location of Iran’s uranium stockpile since Israel and the US attacked it in June 2025. Earlier this month, a US-led initiative to refer Tehran to the UN Security Council was met with objections from China and Russia.",
-      "Read More: Iran Nuclear Impasse Deepens After US Wins UN Watchdog Vote",
-      "“This is a carryover from the mess created last year,” said Tariq Rauf, the IAEA’s former head of verification policy.",
-      "The acrimony which erupted at last year’s annual meeting stemmed from discord over the US and Israeli attacks, along with US President Donald Trump’s demands to eliminate IAEA references to diversity, equality and inclusion. The gathering ended in the early hours with no consensus achieved on any of the IAEA’s trademark activities related to nuclear safety or security.",
-      "“People were hoping this year would be on a more even keel,” Rauf said. “But it’s even worse.”"
-     ],
-     "title_zh": "伊朗罕见胜美 联合国核机构将起冲突",
-     "summary_zh": "伊朗在联合国原子能机构会议中获44票支持，击败美国反对，赢得组织委员会席位。"
     },
     {
      "title": "Meet the Czech Investor Who Wants to Unjam Xerox",
