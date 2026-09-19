@@ -1,6 +1,6 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-19T14:11:55.333561+08:00",
+ "generated_at": "2026-09-19T18:11:25.775954+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -5050,27 +5050,6 @@
      "summary_zh": "土耳其监管机构就涉嫌股价操纵提起刑事诉讼并禁交易，涉事基金经理被罚，基准股指三日跌9.3%后反弹2%。"
     },
     {
-     "title": "Apollo Weighs Boosting SoftBank Loan to $9 Billion for OpenAI Investments",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/apollo-mulls-raising-softbank-loan-to-9-billion-for-openai-bets",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/apollo-mulls-raising-softbank-loan-to-9-billion-for-openai-bets",
-     "published_cst": "2026-09-17T06:17:50+08:00",
-     "time": "09-17 06:17",
-     "body": [
-      "Sign up for the Next Japan newsletter, for an inside view of the forces reshaping Japan, and what’s next for its businesses, markets and consumers.",
-      "Apollo Global Management Inc. is in talks with SoftBank Group Corp. about boosting the size of a loan to $9 billion from $5.4 billion to help the Japanese firm finance its investment in AI giant OpenAI.",
-      "The size of the financing, which is backed by assets in SoftBank’s Vision Fund 2, hasn’t been finalized, the people said, requesting not to be identified because the discussions are private. Representatives for Apollo and SoftBank declined to comment.",
-      "Apollo made the so-called net-asset-value loan to SoftBank’s venture capital fund in 2021 and boosted it by $900 million last year to $5.4 billion. NAV loans borrow against fund assets and provide a way for private-capital firms to drum up cash.",
-      "SoftBank has emerged as one of the biggest investors globally in artificial intelligence, putting its various borrowings to finance that push in the spotlight. The cost of insuring the company’s debt against credit risks has been increasing, with credit-default swaps rising this week to a three-year high, amid a flareup in broader concerns about safety issues around AI.",
-      "The company has also been holding investor meetings in New York this week as it sounds out interest for a potential overseas junk bond sale, which people familiar with the matter previously said could raise $10 billion to $20 billion.",
-      "Vision Fund 2 has made more than 300 investments since inception, and has recently been plowing more into ChatGPT creator OpenAI.",
-      "The Japanese conglomerate has committed to invest $64.6 billion in OpenAI, whose Chief Executive Officer Sam Altman recently said a long-anticipated IPO is still in the works but would not happen this year, as some investors had expected. The firm pushed the IPO to 2027 as it focuses on addressing safety issues.",
-      "SoftBank has been using that stake to obtain liquidity; in August it raised a $10 billion loan backed by its OpenAI holding from lenders including Apollo.",
-      "The financing for Softbank’s Vision Fund 2, which had more than $100 billion of committed capital as of February, counts SoftBank’s billionaire boss Masayoshi Son and SoftBank itself as the largest investors."
-     ],
-     "title_zh": "阿波罗考虑将对软银贷款增至90亿美元用于OpenAI投资",
-     "summary_zh": "阿波罗与软银洽谈将贷款增至90亿美元，助其投资OpenAI。"
-    },
-    {
      "title": "Volvo to Streamline Manufacturing as 'Hypercompetition' Looms",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/volvo-car-plans-biggest-model-push-in-bid-to-double-market-share",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/volvo-car-plans-biggest-model-push-in-bid-to-double-market-share",
@@ -5093,6 +5072,27 @@
      ],
      "title_zh": "沃尔沃计划推出最大规模车型攻势，力争市场份额翻倍",
      "summary_zh": "沃尔沃计划到2030年前推出13款新车，将电动车和混动车全球份额从1.7%翻倍，股价一度涨4.2%。"
+    },
+    {
+     "title": "Apollo Weighs Boosting SoftBank Loan to $9 Billion for OpenAI Investments",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/apollo-mulls-raising-softbank-loan-to-9-billion-for-openai-bets",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/apollo-mulls-raising-softbank-loan-to-9-billion-for-openai-bets",
+     "published_cst": "2026-09-17T06:17:50+08:00",
+     "time": "09-17 06:17",
+     "body": [
+      "Sign up for the Next Japan newsletter, for an inside view of the forces reshaping Japan, and what’s next for its businesses, markets and consumers.",
+      "Apollo Global Management Inc. is in talks with SoftBank Group Corp. about boosting the size of a loan to $9 billion from $5.4 billion to help the Japanese firm finance its investment in AI giant OpenAI.",
+      "The size of the financing, which is backed by assets in SoftBank’s Vision Fund 2, hasn’t been finalized, the people said, requesting not to be identified because the discussions are private. Representatives for Apollo and SoftBank declined to comment.",
+      "Apollo made the so-called net-asset-value loan to SoftBank’s venture capital fund in 2021 and boosted it by $900 million last year to $5.4 billion. NAV loans borrow against fund assets and provide a way for private-capital firms to drum up cash.",
+      "SoftBank has emerged as one of the biggest investors globally in artificial intelligence, putting its various borrowings to finance that push in the spotlight. The cost of insuring the company’s debt against credit risks has been increasing, with credit-default swaps rising this week to a three-year high, amid a flareup in broader concerns about safety issues around AI.",
+      "The company has also been holding investor meetings in New York this week as it sounds out interest for a potential overseas junk bond sale, which people familiar with the matter previously said could raise $10 billion to $20 billion.",
+      "Vision Fund 2 has made more than 300 investments since inception, and has recently been plowing more into ChatGPT creator OpenAI.",
+      "The Japanese conglomerate has committed to invest $64.6 billion in OpenAI, whose Chief Executive Officer Sam Altman recently said a long-anticipated IPO is still in the works but would not happen this year, as some investors had expected. The firm pushed the IPO to 2027 as it focuses on addressing safety issues.",
+      "SoftBank has been using that stake to obtain liquidity; in August it raised a $10 billion loan backed by its OpenAI holding from lenders including Apollo.",
+      "The financing for Softbank’s Vision Fund 2, which had more than $100 billion of committed capital as of February, counts SoftBank’s billionaire boss Masayoshi Son and SoftBank itself as the largest investors."
+     ],
+     "title_zh": "阿波罗考虑将对软银贷款增至90亿美元用于OpenAI投资",
+     "summary_zh": "阿波罗与软银洽谈将贷款增至90亿美元，助其投资OpenAI。"
     },
     {
      "title": "UK Stocks Offer Defensive Value as Commodity Earnings Lift FTSE 100",
@@ -7663,15 +7663,6 @@
      "title_zh": "资金语录：开启周期"
     },
     {
-     "title": "Wednesday Recap: Fed Issues First Rate Hike Since 2023",
-     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/wednesday-recap-fed-issues-first-rate-hike-since-2023-fdpcKaCmHJKAiFo7nHeX",
-     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/wednesday-recap-fed-issues-first-rate-hike-since-2023-fdpcKaCmHJKAiFo7nHeX",
-     "published_cst": "2026-09-17T07:57:51+08:00",
-     "time": "09-17 07:57",
-     "body": null,
-     "title_zh": "周三回顾：美联储自2023年以来首次加息"
-    },
-    {
      "title": "U.S. Natural Gas Futures Inch Down in Choppy Trade",
      "url": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-rise-as-european-inventories-remain-low-4d38b0ac",
      "link": "https://www.wsj.com/finance/commodities-futures/european-gas-prices-rise-as-european-inventories-remain-low-4d38b0ac",
@@ -7679,6 +7670,15 @@
      "time": "09-17 07:57",
      "body": null,
      "title_zh": "欧洲天然气价格上涨 库存持续低位"
+    },
+    {
+     "title": "Wednesday Recap: Fed Issues First Rate Hike Since 2023",
+     "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/wednesday-recap-fed-issues-first-rate-hike-since-2023-fdpcKaCmHJKAiFo7nHeX",
+     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-09-17-2026/card/wednesday-recap-fed-issues-first-rate-hike-since-2023-fdpcKaCmHJKAiFo7nHeX",
+     "published_cst": "2026-09-17T07:57:51+08:00",
+     "time": "09-17 07:57",
+     "body": null,
+     "title_zh": "周三回顾：美联储自2023年以来首次加息"
     },
     {
      "title": "Next Shares Rise After Guidance Lift",

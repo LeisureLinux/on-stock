@@ -1,16 +1,270 @@
 {
  "date": "20260919",
- "generated_at": "2026-09-19T14:12:16.413835+08:00",
+ "generated_at": "2026-09-19T18:12:14.121194+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 4,
+   "count": 13,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "FedEx Counts on Polish Billionaire to Crack Markets in Europe",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/fedex-counts-on-polish-billionaire-to-crack-markets-in-europe",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/fedex-counts-on-polish-billionaire-to-crack-markets-in-europe",
+     "published_cst": "2026-09-19T10:00:22+08:00",
+     "time": "09-19 10:00",
+     "body": [
+      "Almost two decades ago, a Polish entrepreneur found a way to break into the country’s postal business. He attached metal plates to letters, making them heavy enough to qualify as parcels and taking them out of the control of the state monopoly.",
+      "That workaround by a young Rafal Brzoska led to the start of InPost, which grew into one of Poland’s most successful companies, transformed the way Europeans receive what they buy online, and made him a billionaire. Now, FedEx Corp. is betting that Brzoska and InPost can help the American company crack European markets.",
+      "A group led by the US logistics giant secured the backing of investors in a tender offer ending on Sept. 18, valuing InPost at about $9 billion and paving the way to delist from the Amsterdam Stock Exchange. Unlike in a typical takeover, InPost will continue to operate as a standalone company, while Brzoska will stay on as its chief executive officer.",
+      "“InPost will retain full operational independence, an independent brand and management team, and will continue pursuing its strategy,” Brzoska, 48, said in an interview with Bloomberg. “I will remain CEO, while the consortium’s role will be to accelerate InPost’s expansion.”",
+      "For FedEx, Brzoska will become one of the key people fueling its growth across Europe. The acquisition provides the company with access to InPost’s infrastructure and strengthens its position against rival delivery companies such as Germany’s DHL and French-owned DPD.",
+      "InPost’s automated parcel lockers now stretch across nine European countries, from Scotland down to Spain and across to Poland. FedEx described Brzoska as a “proven and visionary founder” when it announced its purchase in conjunction with private equity firm Advent International in February.",
+      "Brzoska launched InPost’s first lockers in Krakow in 2009, near a petrol station and a McDonald’s restaurant. The idea was to solve the last-mile-delivery problem: instead of couriers driving to every single person’s home, they drop hundreds of packages off at one central point. Customers then pick up their packages when convenient.",
+      "Even though Brzoska firmly believed from the start that the machines and technology could transform the way consumers bought goods online, he initially put the chances of business success at only about 10%, he told Bloomberg.",
+      "A 2014 partnership with Dubai-based Aramex to develop a locker network in the Middle East helped change his thinking. It convinced Brzoska that the model he’d created could travel beyond Poland and compete in international markets.",
+      "Today, after acquisitions in France and the UK, InPost operates about 70,000 automated parcel machines across Europe, including roughly 30,000 in Poland. It is adding more than 20,000 machines a year.",
+      "“Initially, I thought 10,000 lockers globally would be the maximum,” Brzoska said. “That best shows just how surprised I am by what has happened.”",
+      "The road to get to that scale was hardly smooth. InPost’s first major international expansion, in 2017, pushed the company close to bankruptcy as the cost far outpaced revenue.",
+      "Advent stepped in to rescue the business, taking a controlling stake and delisting it from the Warsaw Stock Exchange, crystallizing losses for many investors.",
+      "As InPost benefited from the surge in e-commerce deliveries during the Covid-19 pandemic, it returned to the stock market in 2021 in an initial public offering, this time listing in Amsterdam. Investors, however, remained skeptical the company could go further. InPost’s earnings have roughly tripled, while the shares are below the IPO price.",
+      "Some investors say the company sits at the intersection of technology, logistics and e-commerce, making it difficult to categorize. Others have questioned the breadth of Brzoska’s ambitions, which have expanded beyond parcel delivery into areas including AI-powered marketplace payments and e-grocery.",
+      "They also point at intensifying competition in InPost’s home market, which is putting pressure on margins, even as the company continues to spend heavily on expansion abroad.",
+      "Brzoska ultimately decided to take control of InPost’s future. During recent earnings calls, he argued that the company needs to increase investment in technology even if that weighs on short-term profits. The strategy, he said, may be difficult to pursue as a listed company with more shareholders.",
+      "“I won’t hide the fact that I was the architect of this idea from the very beginning,” Brzoska said. “It was Advent that connected me with FedEx, where I encountered exceptional openness and saw a tremendous opportunity. The chemistry between us as partners was there from our very first meeting.”",
+      "The consortium led by FedEx and Advent eventually offered shareholders €15.60 a share, representing a sizable premium to the stock’s trading level before the bid, though still below InPost’s €16 IPO price.",
+      "Under the offer memorandum, FedEx said it does not intend to change InPost’s strategy or overhaul its management for at least 18 months following the takeover. Brzoska declined to comment on any future plans.",
+      "Today, his influence extends well beyond InPost in Poland. Over the years, Brzoska has emerged as one of the country’s most prominent advocates for entrepreneurs, lobbying for business-friendly policies and taking part in government efforts aimed at deregulation.",
+      "He also never shied away from challenging the industry’s largest players. He accused competitors of tax evasion. The government is pushing for a European Union probe into Meta Platforms Inc. after a campaign by Brzoska alleging fraudulent advertising on its services that use his public image.",
+      "“He isn’t afraid of taking risks and is constantly looking to add new services,” said Adam Guz, a financial adviser. He helped Brzoska raise money more than two decades ago to expand what was then a leaflet-distribution business employing mostly young students into a more established courier company. “He is a man who has never lost his start-up spirit.”"
+     ],
+     "title_zh": "联邦快递倚重波兰亿万富翁开拓欧洲市场",
+     "summary_zh": "波兰企业家创立的InPost以约90亿美元被FedEx牵头财团收购，将保持独立运营，Brzoska留任CEO，助力FedEx拓展欧洲市场。"
+    },
+    {
+     "title": "World Economy Latest: Fed Boosts Interest Rates, Signals Another 2026 Hike",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/world-economy-latest-fed-boosts-interest-rates-signals-another-2026-hike",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/world-economy-latest-fed-boosts-interest-rates-signals-another-2026-hike",
+     "published_cst": "2026-09-19T09:00:00+08:00",
+     "time": "09-19 09:00",
+     "body": [
+      "The Federal Reserve raised interest rates for the first time since July 2023 and penciled in an additional hike before the end of the year — steps aimed at containing inflation.",
+      "In his remarks after the Fed meeting, Chairman Kevin Warsh restated his concerns about inflation, saying too many categories of goods and services were showing annualized price gains above 3% on a 6- and 12-month basis.",
+      "The Bank of Japan also raised rates. Its hike came just three months after the BOJ’s previous increase. That marks the shortest interval between such moves since 1990, when the central bank’s rapid policy tightening played a key role in bursting Japan’s asset bubble.",
+      "Meanwhile, the Bank of England held rates steady but indicated tighter policy may be needed if inflationary pressures intensify because of war in the Middle East.",
+      "Here are some of the charts that appeared on Bloomberg this week on the latest developments in the global economy, markets and geopolitics:",
+      "The Federal Open Market Committee voted to increase the benchmark federal funds rate to a range of 3.75% to 4%. Fed officials also signaled growing support for a series of rate hikes. Less than four months after being sworn in as Fed chairman in May, Warsh has defied skeptics with a unanimous decision to deliver the Fed’s first interest-rate hike in over three years. Hours later on social media, President Donald Trump demanded that rates be quickly cut to 1% or lower.",
+      "The costs of diesel and home heating oil have surged faster than gasoline in recent months, particularly hammering US states that are critical battlegrounds in November’s midterm congressional elections — just as mail-in ballots arrive.",
+      "Six of nine BOE policymakers chose to leave rates unchanged, including Governor Andrew Bailey, as the committee split along the same lines as in their last meeting in July. Still, “the longer this volatility persists, the bigger the impact it will have on inflation, and the more likely it is we will need to raise Bank rate,” the governor said.",
+      "In the early 2000s, Britain had as many as 10 young workers for every person over-65 with a job. Today there are just two, as older employees hang on for longer and first jobs are harder to come by. The number of Britons aged 65 and over in work topped 1.7 million earlier this year, according to the latest Office for National Statistics figures.",
+      "The BOJ lifted its policy rate by a quarter point to 1.25% and signaled it’s open to further tightening. Still, the move ultimately disappointed yen traders who wanted clearer guidance on the central bank’s next move. Governor Kazuo Ueda said that with the price trend very close to the bank’s 2% target, authorities now need to ensure inflation doesn’t overshoot.",
+      "China’s credit expansion fell well short of expectations in August from a year ago, as subdued borrowing by households and businesses outweighed the support from government bond sales. Financial institutions extended just 60 billion yuan of new yuan loans in the month, less than a sixth of the median forecast of 404 billion yuan.",
+      "Brazil’s central bank cut its interest rate by a quarter-point as inflation slows and the economy fades, just weeks before a tight presidential election that is fueling uncertainty over how much more policymakers can ease.",
+      "Argentina’s economy contracted in the second quarter for the first time in two years, marking a setback for President Javier Milei’s administration. Exports were the only category that drove growth in the quarter along with a pullback in imports. Government expenditure, consumer spending and capital formation all declined on a quarterly basis.",
+      "The AI boom is creating wealth far beyond the companies building the models and designing the chips. It’s enriching the “picks and shovels” sellers, or firms that make often overlooked industrial products or the obscure hardware, materials and equipment needed to build the infrastructure.",
+      "Gold extended its recovery at the end of a volatile week as oil fell and traders weighed the Fed’s rate path after its first hike since 2023. Investors have been flocking to bullion in recent weeks, betting that the long-term drivers of the metal will endure. Gold-backed exchange-traded funds tracked by Bloomberg had eight consecutive days of inflows, the longest streak since October 2025.",
+      "Aside from the decisions by central banks in the US, UK, Japan and Brazil, Armenia, Mongolia and Ukraine raised interest rates. Taiwan, Pakistan, Uzbekistan and the Czech Republic kept interest rates unchanged. Officials in Angola reduced borrowing costs."
+     ],
+     "title_zh": "世界经济最新：美联储加息，暗示2026年将再次加息",
+     "summary_zh": "美联储加息至3.75%-4%并预告年内再升息以遏制通胀，日本央行三个月内二度加息，英国央行维持利率不变但警告或需收紧政策。"
+    },
+    {
+     "title": "Europe's Winter Power Surge Is Biggest Since Energy Crisis",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/europe-s-winter-power-surge-is-biggest-since-energy-crisis",
+     "published_cst": "2026-09-19T09:00:00+08:00",
+     "time": "09-19 09:00",
+     "body": [
+      "As Europe heads into winter, electricity markets are flashing their strongest warning since the energy crisis.",
+      "Wholesale power for January in Germany, the region’s biggest economy, is trading above €180 a megawatt-hour on the European Energy Exchange, up more than 60% from a year earlier. The main driver is natural gas, which has surged in recent weeks as Europe struggles to refill storage amid intensifying competition for the fuel. The Iran war has added to the pressure, with the closure of the Strait of Hormuz cutting off supplies from Qatar.",
+      "The rise in power costs comes as the continent tries to electrify its economy and reduce reliance on imported fossil fuels, which have repeatedly exposed it to price spikes when supplies are disrupted. Europe has made significant progress since Russia’s invasion of Ukraine triggered an energy crisis four years ago, helping the region weather this year’s energy shock better than many initially feared.",
+      "But this winter’s jump in electricity prices underscores just how dependent Europe remains on fuels like gas and coal — and how quickly turmoil in global energy markets can still feed through to its economy. Higher power costs threaten to push up household bills and expenses for businesses, adding to inflation pressures just as investors are betting on further interest-rate hikes. They are also politically sensitive for governments that have spent billions of euros protecting consumers from energy shocks while pushing ahead with the transition away from fossil fuels.",
+      "At the same time, curtailment of France’s nuclear fleet from heat and strikes as well as low hydro power stocks have added extra strain on the power system this year. And with no sign of an end to the Iran war, price-related pains could get even worse.",
+      "“There’s potential for higher prices in power and perhaps a quicker rally than what we’ve seen so far,” said Ulf Ek, chief investment officer at commodities-focused hedge fund Northlander Commodity Advisors LLP. “We can hope it’s going to be a windy and sunny winter, and if not, then electricity, gas and coal prices will go higher.”",
+      "In a cold winter with Middle East supplies still constrained, Ek sees wholesale power prices rising as much as 50%. The impact on consumers’ bills wouldn’t be as dramatic because suppliers typically buy electricity in advance at lower prices, and it will vary widely by country. In the UK, household energy bills are set to rise 25% in January, while in Norway state subsidies will largely shield consumers from higher wholesale prices.",
+      "Europe is in a much stronger position than it was during the energy crisis in 2022, when the loss of Russian pipeline supplies sent power prices soaring to more than €1,000 a megawatt-hour, over five times current futures prices for next January. Since then, the region has built more infrastructure to import liquefied natural gas, reduced fuel consumption and diversified its suppliers, making an outright shortage less likely even as prices rise.",
+      "That resilience has come with a trade-off. Europe is now more exposed to the global LNG market, where it competes with buyers elsewhere in the world for cargoes. That means disruptions thousands of miles away can quickly reverberate through European gas and power markets.",
+      "The increase could provide a boost to the region’s power producers, including renewable generators, which benefit when more expensive fuels set the price of electricity. With prices heading higher, companies including Germany’s RWE AG, Engie SA and EDP Renewables SA could see earnings next year come in 10% above current estimates, according to research by Ahmed Farman, an analyst at Jefferies.",
+      "The expansion of renewable power has helped insulate Europe from volatile fossil fuel prices. Without the solar capacity added since 2021, for example, average wholesale power prices in Europe would have been 30% higher this summer, according to analysis by Baringa provided to Bloomberg News.",
+      "Solar has much less impact in winter, particularly in northern Europe, where short, cloudy days reduce output to a fraction of summer levels. That leaves wind farms to deliver cheap, green power and curb demand for fossil fuels. And while Europe’s growing fleet of turbines can generate significant amounts of electricity, periods of still weather — often coinciding with cold snaps — can leave the region exposed to higher prices.",
+      "“There is not much that can shield power markets,” said Florence Schmit, a senior energy strategist at Rabobank. “The renewables side has been growing but hasn’t been strong enough to make up for this huge reliance on gas.”",
+      "Expensive gas plants are still crucial to balance out the system and likely will be for many years to come. Germany recently opened an auction to build more gas-fired power plants on its grid. The UK has also mulled offering higher prices to help stimulate more investment in new gas-fired stations, despite plans to build a record amount of new offshore wind farms.",
+      "Still, high costs could be short lived if the conflict between the US and Iran eases. And if Europe gets lucky with mild, windy and wet weather, subdued demand and strong renewable power output could provide significant relief, particularly if gas prices fall further.",
+      "“We’re looking at a painful winter, a difficult winter,” said Caspian Conran, an economist at Baringa. “There’s going to be a reasonable hit to energy bills this winter, but nothing expected like Ukraine levels.”"
+     ],
+     "title_zh": "欧洲冬季电力激增创能源危机以来最大",
+     "summary_zh": "欧洲1月电价突破180欧元/兆瓦时，同比涨超60%，天然气竞争与伊朗战争加剧供应压力。"
+    },
+    {
+     "title": "A Goldman M&amp;A Banker Helped Bring the Olympics to Los Angeles",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/a-goldman-m-a-banker-helped-bring-the-olympics-to-los-angeles",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/a-goldman-m-a-banker-helped-bring-the-olympics-to-los-angeles",
+     "published_cst": "2026-09-19T08:00:22+08:00",
+     "time": "09-19 08:00",
+     "body": [
+      "Listen to Odd Lots on Apple PodcastsListen to Odd Lots on SpotifyWatch Odd Lots on YouTubeSubscribe to the newsletter",
+      "We're in an era of megadeals, with Goldman Sachs reporting a record year for big deal volumes as companies scramble to compete with AI. Gene Sykes has seen multiple deal cycles come and go over his multi-decade career. The co-head of mergers and acquisitions has worked on famous transactions like Comcast's purchase of Universal and Disney's buyout of Pixar. In addition to being \"the most-influential M&A banker you've never heard of,\" as New York magazine put it, he has also spearheaded Los Angeles's successful bid to bring the Olympic Games to the city in 2028. In this conversation, recorded live at the Future Proof Festival in Huntington Beach, California, we discuss how a city pays for a big event like the Olympics, and parallels between the early 2000s TMT environment and now."
+     ],
+     "title_zh": "高盛并购银行家助力洛杉矶申奥",
+     "summary_zh": "高盛报告并购交易量创纪录，企业竞相布局AI。资深并购银行家Gene Sykes曾主导康卡斯特收购环球、迪士尼收购皮克斯等交易。"
+    },
+    {
+     "title": "Maggie Haberman: There's a 'Black Hole' Around the Rest of Trump's Term",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-19/maggie-haberman-there-s-a-black-hole-around-the-rest-of-trump-s-term",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-19/maggie-haberman-there-s-a-black-hole-around-the-rest-of-trump-s-term",
+     "published_cst": "2026-09-19T08:00:01+08:00",
+     "time": "09-19 08:00",
+     "body": [
+      "Welcome to the weekend!",
+      "Pope Leo XIV just ended a Covid-era austerity measure imposed by Pope Francis, saying it was “necessary to address the exceptional challenge posed by the pandemic” but now it’s time to move on. What did he cancel? Find out with this week’s Pointed quiz.",
+      "This weekend, expect the unexpected: Making miniatures is having a comeback, the Flatiron Building is turning into luxury homes, Tibet is producing wine, and America’s wealthiest are aren’t who you think.",
+      "Don’t forget to watch Bloomberg This Weekend, browse the On Books newsletter and scenario-plan with the Forecast. For unlimited access to Bloomberg.com, please subscribe!",
+      "Six weeks from the US midterms, the Iran war is dragging on and Americans are anxious about AI. Democrats aren’t sure what they’d do with power, while Donald Trump seems unconcerned about the prospect of Republican losses. “Normally at this point in a lame-duck presidency, I can see what will happen after the midterms,” New York Times reporter and longtime Trump chronicler Maggie Haberman tells Mishal Husain. “I look past this November and it’s a black hole.”",
+      "Trump’s attention will turn to another contest next week, when Xi Jinping arrives in Washington. As US labs call for slowing frontier AI development, fears are growing that China could close the gap — especially since it’s following the playbook it used to dominate EVs. But developing and spreading powerful AI models works differently when they’re mostly free, and Beijing may find that popularity harder to translate into revenue or lasting influence, Alan Wong writes.",
+      "In Europe, the search for control is producing a more physical response: border walls. Almost two months after 70,000 people rushed the border between Morocco and Ceuta, the European Commission announced more than €100 million to strengthen it. Once an anomaly within the bloc, Ceuta’s fence now has company from Estonia to Poland, Morgan Meaker writes. The problem is that walls rarely eliminate pressure; they just redirect it.",
+      "There are gentler ways to make the world feel more manageable. Interest in miniatures has exploded as a younger generation seeks analog hobbies in a digital age. At a “summer camp for miniaturists” in Maine, Madison Darbyshire joins devotees re-creating everyday life at 1/12th scale. “It’s a lot of social intensity for this body of people,” one of the world’s top miniature knitters tells her. “A lot of miniaturists are true introverts. We literally watch paint dry.”",
+      "Meet the millionaires next door. Many of America’s richest people built fortunes not in tech or finance but through private businesses such as dental offices, construction companies, and car dealerships, creating a powerful class hiding in plain sight.",
+      "Try ice wine. At 3,600 meters above sea level in Tibet, Pazhu Winery is growing grapes despite frozen ground, intense UV and an arid climate. The world’s highest vineyard is also part of Beijing’s push to develop and more closely integrate the region.",
+      "Move into a landmark. The Flatiron Building is becoming 37 luxury homes, with prices from $11 million to more than $50 million. The conversion may seem exclusionary, but preservationists argue luxury housing is what made saving the skyscraper possible.",
+      "The global economy is only as strong as its weakest link. The O-ring that doomed the Challenger space shuttle has become a metaphor for today’s fragile supply chains, where a single chokepoint can cause disruption around the world. Those hidden points of failure are multiplying.",
+      "What happened to the 1980s’ promise of Black prosperity? John Rogers built one of America’s leading Black-owned investment firms in an era that promised broader economic advancement. His success endured. The wider prosperity many hoped would follow did not.",
+      "AI panic is making us go medieval. Today’s tech prophets talk of superintelligence, immortality and even humanity’s extinction. The rhetoric has surprising echoes of medieval millenarianism, when charismatic figures promised apocalypse followed by a radically new age.",
+      "A $1,999 foldable iPhone: Perhaps, if you can stomach the price. The iPhone Duo makes a compelling case for foldables and could eventually turn them into the new normal.",
+      "$129 AirPods 5: Another Apple yes. Noise cancellation and better sound make the cheapest AirPods an easy sell, especially if you don’t need heart-rate tracking and other Pro extras.",
+      "A $20-a-month AI detector: Trust, but verify. Pangram claims near-perfect accuracy, and has impressed researchers so far, but even its founders warn against treating a flag as proof.",
+      "36 hours watching the same movie for $1,040: Maybe! Neon challenged moviegoers to sit through It Ends on a continuous loop. The winning team watched the 87-minute film 25 times.",
+      "A $4,850-a-year private airport terminal: If you want to beat the crowds. PS members get separate security, caviar and a BMW ride to the plane. But each visit costs extra.",
+      "What everyone’s watching: How Budget AI Is Giving China an Edge",
+      "Enjoying Bloomberg Weekend? Check out these newsletters:",
+      "Explore all newsletters at Bloomberg.com."
+     ],
+     "title_zh": "玛吉·哈伯曼：特朗普剩余任期存在‘黑洞’",
+     "summary_zh": "教宗良十四世取消方济各因疫情实施的紧缩措施，称疫情挑战已过，应继续前行。"
+    },
+    {
+     "title": "Banks Hit Data-Privacy Wall as They Comb Books for Weather Risk",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/banks-hit-data-privacy-wall-as-they-comb-books-for-weather-risk",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/banks-hit-data-privacy-wall-as-they-comb-books-for-weather-risk",
+     "published_cst": "2026-09-19T07:00:00+08:00",
+     "time": "09-19 07:00",
+     "body": [
+      "As banks face growing pressure from European regulators to manage extreme weather risks, they’re bumping up against client data-privacy barriers that are complicating efforts to guard against losses.",
+      "In countries at the epicenter of Europe’s latest heat waves, banks are now privately voicing their frustrations. That’s as regulators declare their intention to step up scrutiny of the sector’s exposure to wildfires, droughts and floods, with credit risk and pricing models in particular focus.",
+      "To meet regulators’ demands, banks say they’d need access to more granular data on clients’ insurance coverage as well as data on the physical condition of properties insured. For now, though, such information is often off-limits due to both the EU’s General Data Protection Regulation and national laws. A representative from one major European lender, speaking on condition of anonymity, said that given the restrictions, they can’t accurately assess the loss risks they face.",
+      "Tensions are set to mount as Europe, the world’s fastest-warming continent, faces unprecedented weather risks. The financial regulator in France, large parts of which were ravaged by deadly wildfires over the summer, says it expects banks to step up their management of such risks.",
+      "The “main area for improvement” that regulators want to see is for banks to better understand “the detailed geographic breakdown of their exposure,” said Jean Boissinot, director of risk and research at the French financial regulator, Autorite de Controle Prudentiel et de Resolution (ACPR).",
+      "That includes knowing “where the assets they finance are located, or where the assets are that underlie the loans taken out by a customer or a company,” he said in an interview. The losses banks face “depend heavily on assumptions regarding insurance coverage,” and “insurance is generally the first line of defense in managing these types of risks.”",
+      "However, client data-privacy rules are adding “a layer of complexity” to gathering the information, particularly when it comes to residential real estate, a paper published by the European Central Bank concluded earlier this year.",
+      "A spokesperson for insurance Europe, the umbrella association representing insurers across the region, declined to comment.",
+      "Dirk Broeders, senior lead financial risk expert at the ECB, says the task is far from straightforward. That’s because such risks tend to be idiosyncratic in their nature, highly dependent on a specific geographic location, on the type of weather shocks in question, and on the condition of the property at risk.",
+      "“The assessment that you have to make there is quite complicated,” Broeders said in an interview.",
+      "The difficulty of the task is compounded by the considerable gap in risk time-horizons used by insurers and banks, a mismatch that the ECB says has the potential to create a “blind spot” in the industry.",
+      "Insurers can adjust prices — or even drop coverage — based on annual reviews of their clients. Lenders take insurance coverage into account at the point of issuing a loan, but then generally lock into maturities that can run as long as 30 years. The underlying physical risk, meanwhile, can develop in ways that no longer reflect the terms of the original bank loan.",
+      "“Insurance protection gaps could shift more wildfire risk toward bank credit,” says Grace Osborne, a sustainable finance analyst at Bloomberg Intelligence. “Unlike floods and droughts, wildfire property damage isn’t covered by state-backed natural-disaster compensation schemes in Spain or France.”",
+      "Read More: European Banks Need to Price Tomorrow’s Wildfire Exposure Today",
+      "It’s “a very major challenge for banks,” says Adair Turner, the former head of Britain’s financial regulator who’s now the chair of insurer Chubb Europe and the co-chair of the Energy Transitions Commission.",
+      "Banks are “on the wrong side” of what has developed into an “asymmetry of duration,” he said in an interview. “The whole insurance industry works on one-year contracts,” whereas banks “are on the hook for more.” That’s particularly true for the residential mortgage space, he said.",
+      "For countries now racing to bolster their financial sectors against the extreme weather risks ahead, such issues require attention, Turner said. “Clearly this will be a big wake up call in France,” he said.",
+      "The risk of weather-related losses is growing. There’s no single, definitive estimate for the financial cost of Europe’s 2026 heat waves, but Triodos Bank estimated last month that they may end up reducing Europe’s GDP by 1%, or some €180 billion ($208 billion). According to Allianz SE, the June heat wave alone wiped 0.3 percentage point off the region’s economic output.",
+      "Some banks are developing in-house models to identify their exposure. One major lender, speaking on condition of anonymity, said it’s now trying to establish the precise geo-location of private homes and factories as part of its risk management. The data generated then feeds into other internal processes, it said.",
+      "Deutsche Bank AG says it looks at climate-related physical risks when it assesses collateral before granting a home loan. The climate risk of a property’s location can ultimately affect the terms of the loan, the bank said.",
+      "Some banks have started setting aside provisions in anticipation of potential loan losses tied to weather shocks. UniCredit SpA said it’s added €100 million to provisions, specifically to shield it from climate-related risks. It’s also working with clients to reduce such exposures, requesting in some cases that corporate clients change their business strategy.",
+      "At Groupe BPCE, bankers are working “extensively” with small and medium-sized companies, according to Valérie Combes-Santonja, chief impact officer at France’s second-largest lender. Big corporates are generally better equipped to measure and prepare, while small firms’ prospects “are intrinsically linked to the fate of their territories,” she said."
+     ],
+     "title_zh": "银行排查天气风险时遭遇数据隐私障碍",
+     "summary_zh": "欧洲监管施压银行应对极端天气风险，但数据隐私壁垒阻碍客户信息获取，法国ACPR要求银行细化地理敞口评估。"
+    },
+    {
+     "title": "Inside the 24 Hours That Laid Bare Tata's Brutal Power Struggle",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/inside-the-24-hours-that-laid-bare-tata-s-brutal-power-struggle",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/inside-the-24-hours-that-laid-bare-tata-s-brutal-power-struggle",
+     "published_cst": "2026-09-19T06:57:22+08:00",
+     "time": "09-19 06:57",
+     "body": [
+      "Shortly before noon on Sept. 17, the directors of Tata Sons Pvt., the holding company for India’s biggest conglomerate, gathered in a sleek boardroom on the fourth floor of its headquarters for a meeting.",
+      "On one side of the long table that can accommodate 20 people sat Noel Tata, chairman of Tata Trusts, the group of charities that own 66% of the holding company that in turn controls some of India’s biggest brand names from Air India to Jaguar Land Rover. Sleeves rolled up, a seven-page document at the ready, he came prepared with a strategy to keep the company that carries his family name in private hands.",
+      "Among those facing him was Natarajan Chandrasekaran, chairman of Tata Sons, wearing a suit and a fuchsia pink tie. Chandrasekaran, known as Chandra, had helmed the closely held company for a decade, and had signaled openness to the idea of taking it public. But after his reappointment failed to secure unanimity earlier this year, he decided to bow out instead of seeking another term.",
+      "Yet it wasn’t Chandra’s last act. In a surprise move, Tata Sons’ directors voted 4-1 to extend his tenure for another five years and planned to move forward with steps toward a public listing — rebuffing Noel’s position and deepening a rift over control and the future of the 158-year-old conglomerate. The split has set off a civil war that’s likely to reach India’s courts and Prime Minister Narendra Modi’s government before it can be resolved. A stark battle line has been drawn, with Tata Sons describing matters as settled and Tata Trusts calling the vote to extend Chandra’s term “illegal.”",
+      "The controversy over Tata Sons and its chairman’s tenure is set to fuel uncertainty about the Indian conglomerate’s leadership at a time when it’s helming several prestige projects for India. Tata Group has plans to expand local production of Apple Inc. iPhones, and is building India’s first chipmaking facility. The group’s existing businesses are among the country’s most pervasive and renowned, including global brands like Taj Hotels, consumer staples such as Tetley tea, and software giant Tata Consultancy Services Ltd.",
+      "Tension among directors had been building before anyone arrived for the meeting at Bombay House, the group’s headquarters in Mumbai. The immediate chain of events began six days earlier, on Sept. 11, when India’s central bank rejected a petition by Tata Sons to exempt it from a regulatory path that would require a public listing. Then, the day before the board convened, one of the trusts sought — unsuccessfully — to prevent its representative director, Venu Srinivasan, from attending the meeting and voting on the board proposals, reflecting internal schisms that would soon burst into public view.",
+      "This account of the 24 hours surrounding the meeting is based on interviews with people familiar with the events, who asked not to be identified because the discussions were private. Representatives for Tata Trusts and Tata Sons did not respond to requests for comment. Srinivasan did not immediately respond to a request for comment.",
+      "For the first half hour of the pivotal meeting, board members talked about normal business affairs, such as quarterly performance, and accounts, the people familiar said. Then the discussion turned to the decision by the Reserve Bank of India and the mood shifted as the gravity of the subject matter weighed on those in attendance, these people said.",
+      "Noel argued a listing wasn’t inevitable, methodically explaining why that position could be defended, without raising his voice or displaying any hint of hostile body language, according to people familiar with the meeting.",
+      "His proposal was for the board to ask Tata Sons to go back to the regulator, seek a hearing with top officials to plead its case and then exhaust all other legal options to remain private. If those efforts failed, he said the company could seek at least three more years to comply, arguing that a listing would require extensive corporate approvals and financial preparation.",
+      "The fate of Tata Sons’ structure as a closely held entity is intertwined with the death of Ratan Tata, the group’s former patriarch and Noel’s half-brother, in October 2024. Seven months before his death, the Tata Sons board unanimously resolved to remain private. Tata Trusts publicly reiterated that decision on Thursday.",
+      "The company then spent about 200 billion rupees ($2.1 billion) paying down debt and cleaning up its balance sheet, part of an effort to shed the regulatory status that could force Tata Sons to list.",
+      "But in the aftermath of Ratan’s reign, the conglomerate has come under increasing pressure from other stakeholders, especially the central bank, to list shares of Tata Sons on the public markets. Shapoorji Pallonji Group, Tata Sons’ second-largest shareholder, has separately pushed for a listing as a way to create liquidity for its stake.",
+      "Proponents of a listing, including SP Group, argue it would improve transparency and accountability and create a mechanism for shareholders to unlock value.",
+      "However, doing so would also dilute the Trusts’ influence over the company and could restrict its ability to freely make decisions shielded from intense investor and regulatory scrutiny.",
+      "The internal debate about whether to list has also become a proxy for the power struggle between Noel Tata and Chandra over who will control the group at a critical time. UK luxury carmaker Jaguar Land Rover is recovering from a damaging cyberattack, Air India is battling record losses following a fatal crash and Tata Consultancy Services, one of the world’s biggest technology-services companies, is trying to revive growth as artificial intelligence reshapes its industry.",
+      "In addition to Noel Tata and Chandra, those assembled in Bombay House to discuss next steps included Srinivasan, chairman emeritus of Indian motorcycle maker TVS Motor Co. and, like Noel, a Tata Trusts nominee on the Tata Sons board. Also present were former Unilever executive Harish Manwani, Tata Sons Chief Financial Officer Saurabh Agrawal, and former World Bank executive Anita Marangoly George. The three would join Srinivasan to ultimately vote against Noel’s position.",
+      "In his carefully worded brief before the board, Noel maintained Tata Trusts already had resolved to keep Tata Sons private two years ago under Ratan, and that the charities controlling two-thirds of the company should be given a chance to consider any reversal of that policy before the Tata Sons board acted.",
+      "As an alternative, Noel put forward a proposal from the Shapoorji Pallonji Group to sell part of its 18.4% stake in Tata Sons. The plan called for Tata Sons to buy back SP shares in two tranches over 18 months, giving the group at least 250 billion rupees ($2.6 billion) in cash without forcing Tata Sons to list.",
+      "Noel said the buyback could be funded with internal cash, sales of stakes in listed Tata companies, outside investment in newer businesses and possible listings of some group units.",
+      "As he made his case, Noel also produced a written legal opinion from a former chief justice supporting the Trusts’ interpretation of the provisions governing the appointment and reappointment of Tata Sons’ chairman.",
+      "But in the first sign of disunity, the board declined to formally enter the written opinion into the record, the people familiar said. Then Manwani, chairman of the board’s Nomination and Remuneration Committee, presented a resolution seeking to extend Chandra’s role for five more years.",
+      "Chandra recused himself and left the room while the other directors considered his future, according to people familiar with the meeting.",
+      "Noel opposed the extension. He argued that Chandra’s Aug. 12 decision not to offer himself for another term had been clearly communicated and accepted, and told the board that “the page has turned.” Employees, lenders and capital markets had already acted on the executive’s departure, Noel argued, and reversing it would be disruptive.",
+      "He also pointed to Article 121 of Tata Sons’ governing documents, arguing that any move to appoint or reappoint the chairman of Tata Sons required support from a majority of Tata Trust-nominated directors.",
+      "Those two nominees, however, were split down the middle: While Noel argued against the extension for Chandra, Srinivasan supported it, leaving the Trust vote at 1:1.",
+      "Noel tried again to invoke his special powers as chairman of Tata Trusts, but the others proceeded in backing Chandra for another five years. The board minus Noel also backed the proposal to move ahead with steps to comply with the central bank’s requirements.",
+      "Close to three hours after the meeting began, the directors broke for lunch. Noel had lost the key votes in the boardroom, and the fight was already moving beyond the fourth floor.",
+      "By around 3 p.m., Noel departed Bombay House in a gray Range Rover, heading to an office where a team of lawyers and executives awaited him.",
+      "As he was crossing the city, Tata Sons began briefing the media on its account of the meeting. The holding company’s communications team said that Chandra had agreed to reconsider his departure, a majority of directors had reappointed him for five years and that Tata Sons would begin taking steps to comply with the RBI requirements. The resulting headlines flashed across financial wires, sparking substantial market moves.",
+      "By the time Noel reached his office, a narrative casting him as the loser in a decisive board battle was public. He personally vetted a press release that pushed back by indicating debate on the group’s future remained far from settled, and that his arguments would eventually prevail.",
+      "At about 4:30 p.m., an emailed salvo stressing those contentions landed in reporters’ inboxes. Over the next several hours, as Noel dictated further talking points and consultants and lawyers hammered out specific language, additional statements went out casting the board’s actions as unjustified and indefensible. By about 9:15 p.m., Tata Trusts had issued five detailed press releases — an extraordinary public confrontation for a group known for circumspection.",
+      "The Trusts disputed Tata Sons’ account, saying there had been no agreement to list and that the board had instead agreed to explore all available alternatives. On Chandra, the language was harder: his extension was “illegal,” they said, and the 1-1 split between the Trust nominees meant the appointment was a “legal nullity.”",
+      "The counteroffensive quickly moved beyond dueling press statements. By the end of the evening, Noel and his team were consulting senior attorneys about whether the board’s decisions themselves could be challenged in court. Late that night, after the last of the public statements had gone out, Noel finally left the office and headed home.",
+      "With both sides dug in, the path ahead is hard to assess. Chandra’s reappointment as a director still requires shareholder approval at Tata Sons’ next annual meeting, according to people familiar with the matter. The date for that meeting has yet to be announced.",
+      "Meanwhile, investors are trying to price the rupture. Tata companies that had rallied initially on expectations for a speedy public listing of their holding company parent reversed course after the Trusts’ counteroffensive, showing traders’ expectations for an ugly and long-drawn out battle to come."
+     ],
+     "title_zh": "塔塔残酷权力斗争暴露的24小时内幕",
+     "summary_zh": "印度塔塔集团董事会以4比1投票延长董事长钱德拉五年任期并推进上市，遭控股方塔塔信托反对，双方控制权之争或诉诸法院。"
+    },
+    {
+     "title": "China State TV Affiliate Flags Anthropic Data and Privacy Risks",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/china-state-tv-affiliate-flags-anthropic-data-and-privacy-risks",
+     "published_cst": "2026-09-19T06:33:35+08:00",
+     "time": "09-19 06:33",
+     "body": [
+      "Anthropic PBC’s privacy-policy revisions have increased risks to user data by allowing information to be shared with US intelligence agencies when the company considers it necessary without legal procedures, a social-media account affiliated with China Central Television said in a post on Saturday.",
+      "Anthropic has revised its privacy policy 13 times since 2023, including provisions to transfer data from users in Canada, Brazil, South Korea and the European Union to the US, and expanded its data sources from three to six between June 2024 and September 2025, according to the Yuyuantantian post.",
+      "It said Anthropic had changed its model-training terms to use the data by default in September last year.",
+      "The post cited an Anthropic report as saying the company was sharing technical indicators with relevant intelligence agencies after alleging that some Chinese companies had engaged in model-distillation activity.",
+      "Yuyuantantian said two of three threat-intelligence positions advertised by Anthropic gave preference to candidates who spoke Mandarin or Russian, had intelligence-analysis experience in government or military settings and held top secret US security clearance.",
+      "The posting comes as China and the US are set to hold trade talks, ahead of an expected meeting between President Xi Jinping and  President Donald Trump are scheduled to meet.",
+      "READ: Amodei, Altman, Musk Call for Slowing AI Model Development (3)"
+     ],
+     "title_zh": "中国国家电视台附属机构指出Anthropic数据与隐私风险",
+     "summary_zh": "央视账号称Anthropic修改隐私政策13次，允许未经法律程序向美国情报机构共享用户数据。"
+    },
+    {
+     "title": "Saudi Arabia Issues Rare Air-Raid Alerts for Riyadh",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/saudi-arabia-issues-rare-air-raid-alerts-for-riyadh",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/saudi-arabia-issues-rare-air-raid-alerts-for-riyadh",
+     "published_cst": "2026-09-19T05:57:56+08:00",
+     "time": "09-19 05:57",
+     "body": [
+      "Saudi Arabian authorities issued air-raid alerts for Riyadh early Saturday, the first in the capital since the height of the US-Iran war in March and April.",
+      "The kingdom’s early warning system issued emergency alerts at 4 a.m. and again at 6 a.m. for residents of the capital, without giving further details. The Saudi civil defense said the danger had lifted soon after in both cases.",
+      "Other areas across Saudi Arabia received similar warnings overnight, including the Red Sea cities of Jeddah and Yanbu and Farasan Island in the Red Sea.",
+      "Saudi Arabia has come under renewed attack this month, with the Houthis, an Iran-backed group based in Yemen, targeting western towns and energy infrastructure. Last week, the Saudi government said a drone attack emanating from Iraq — which has several pro-Tehran militias — caused the vital East-West pipeline to be shut down.",
+      "Yemen’s Houthis have been carrying out almost daily strikes against Saudi Arabia in the last month, with one attack causing a death and several injuries in Taif on Thursday.",
+      "The group has launched a push recently to exert further control on the Red Sea’s Bab al-Mandeb and made significant gains on Yemen’s western coast, taking over the port city of Mokha and a series of islands close to the strait.",
+      "The Iran-backed militia has also said it was imposing a blockade on Saudi ships in the Red Sea, and hit several ships in the waterway, which has served as a key oil export route for the kingdom since the war between the US and Iran brought traffic in the Strait of Hormuz to a near halt.",
+      "The closure of the pipeline bypassing Hormuz last week further squeezed an energy market grappling with supply shortage and pushed oil prices higher. State-run Saudi Aramco is seeking to restore the pipeline to about half capacity within days and reach full capability in about six weeks, a person familiar with the matter has said, causing oil prices to pare some of their gains, although they remain around $100 a barrel.",
+      "The latest development may also present a challenge for the kingdom’s de facto ruler, Crown Prince Mohammed bin Salman.",
+      "The pipeline attack and Iran’s effective closure of the Strait of Hormuz have caused Saudi Arabia’s oil exports to plunge. The fresh hostilities now threaten to hit the kingdom’s attempts to attract investment and tourists to diversify the economy.",
+      "Next month, Riyadh is scheduled to host Saudi Arabia’s flagship investment conference, called the Future Investment Initiative. This year’s edition is set to feature many high-profile Wall Street executives, including JPMorgan Chase & Co. Chief Executive Officer Jamie Dimon and David Solomon of Goldman Sachs Group Inc."
+     ],
+     "title_zh": "沙特罕见对利雅得发布空袭警报",
+     "summary_zh": "沙特周六凌晨对利雅得发布自3月以来首次空袭警报，胡塞武装近期频繁袭击沙特，上周无人机袭击致东西管道关闭，油价升至约100美元。"
+    },
     {
      "title": "California Court Blocks Part of TikTok's $400 Million Settlement",
      "url": "https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement",
@@ -149,10 +403,46 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 46,
+   "count": 50,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "Forget ‘associate member’, Canada can forge collective resilience with the EU",
+     "url": "https://www.ft.com/content/0f972258-ee7d-4742-816a-b1dd7fa29d0e",
+     "link": "https://www.ft.com/content/0f972258-ee7d-4742-816a-b1dd7fa29d0e",
+     "published_cst": "2026-09-19T10:00:05+08:00",
+     "time": "09-19 10:00",
+     "body": null,
+     "title_zh": "忘掉“准成员”，加拿大可与欧盟共筑集体韧性"
+    },
+    {
+     "title": "Mark Carney takes his investment pitch from ‘Maple Davos’ to Strasbourg",
+     "url": "https://www.ft.com/content/4e7be0a6-a1fd-4161-9656-faff899e938f",
+     "link": "https://www.ft.com/content/4e7be0a6-a1fd-4161-9656-faff899e938f",
+     "published_cst": "2026-09-19T10:00:04+08:00",
+     "time": "09-19 10:00",
+     "body": null,
+     "title_zh": "马克·卡尼将投资推介从“枫叶达沃斯”带到斯特拉斯堡"
+    },
+    {
+     "title": "Chart of the Week: Higher rates, meet indebted consumers",
+     "url": "https://www.ft.com/content/4d6a552e-67de-4c62-a928-c3e7b48827fc",
+     "link": "https://www.ft.com/content/4d6a552e-67de-4c62-a928-c3e7b48827fc",
+     "published_cst": "2026-09-19T09:30:04+08:00",
+     "time": "09-19 09:30",
+     "body": null,
+     "title_zh": "本周图表：高利率遇上负债消费者"
+    },
+    {
+     "title": "On takes aim at ailing Nike with Mbappé transfer coup",
+     "url": "https://www.ft.com/content/40222e79-3ee7-4388-8362-7d06c7f71f69",
+     "link": "https://www.ft.com/content/40222e79-3ee7-4388-8362-7d06c7f71f69",
+     "published_cst": "2026-09-19T08:00:04+08:00",
+     "time": "09-19 08:00",
+     "body": null,
+     "title_zh": "昂跑借姆巴佩转会妙招瞄准困境中的耐克"
+    },
     {
      "title": "Over-80s turn to annuities as rates climb",
      "url": "https://www.ft.com/content/12ea81a9-d806-4997-b0da-ddec093bbe20",
@@ -307,7 +597,7 @@
      "title_zh": "埃米特·蒂尔的遗产"
     },
     {
-     "title": "Investors weigh whether Anthropic can sustain surging revenues post-IPO",
+     "title": "Investors warn Anthropic could struggle to sustain revenues post-IPO",
      "url": "https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57",
      "link": "https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57",
      "published_cst": "2026-09-19T04:00:24+08:00",
@@ -572,10 +862,37 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 12,
+   "count": 15,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "News Quiz for September 19, 2026",
+     "url": "https://www.wsj.com/articles/news-quiz-for-september-19-2026-07e49139",
+     "link": "https://www.wsj.com/articles/news-quiz-for-september-19-2026-07e49139",
+     "published_cst": "2026-09-19T10:00:00+08:00",
+     "time": "09-19 10:00",
+     "body": null,
+     "title_zh": "2026年9月19日新闻测验"
+    },
+    {
+     "title": "The All-Electric Subaru That Practically Screams Toyota",
+     "url": "https://www.wsj.com/lifestyle/cars/2027-subaru-trailseeker-review-8de259d4",
+     "link": "https://www.wsj.com/lifestyle/cars/2027-subaru-trailseeker-review-8de259d4",
+     "published_cst": "2026-09-19T09:30:00+08:00",
+     "time": "09-19 09:30",
+     "body": null,
+     "title_zh": "这款纯电斯巴鲁几乎就是丰田的翻版"
+    },
+    {
+     "title": "Don’t Count Out Corporate Bonds Just Because the Fed Is Raising Rates",
+     "url": "https://www.wsj.com/finance/investing/dont-count-out-corporate-bonds-just-because-the-fed-is-raising-rates-de2e787a",
+     "link": "https://www.wsj.com/finance/investing/dont-count-out-corporate-bonds-just-because-the-fed-is-raising-rates-de2e787a",
+     "published_cst": "2026-09-19T09:30:00+08:00",
+     "time": "09-19 09:30",
+     "body": null,
+     "title_zh": "别因美联储加息就忽视公司债"
+    },
     {
      "title": "Pepper…and Salt",
      "url": "https://www.wsj.com/opinion/pepperand-salt-31e25320",
@@ -689,18 +1006,108 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 38,
+   "count": 45,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
     {
+     "title": "The Week in Breakingviews: The cost of collusion",
+     "url": "https://www.reuters.com/commentary/breakingviews/global-markets-breakingviews-2026-09-19/",
+     "link": "https://www.reuters.com/commentary/breakingviews/global-markets-breakingviews-2026-09-19/",
+     "published_cst": "2026-09-19T10:02:39+08:00",
+     "time": "09-19 10:02",
+     "body": null,
+     "title_zh": "本周Breakingviews：串通的代价"
+    },
+    {
+     "title": "Ottawa like a local",
+     "url": "https://www.reuters.com/city-memo/ottawa-like-local-2026-09-19/",
+     "link": "https://www.reuters.com/city-memo/ottawa-like-local-2026-09-19/",
+     "published_cst": "2026-09-19T10:00:01+08:00",
+     "time": "09-19 10:00",
+     "body": null,
+     "title_zh": "像本地人一样游渥太华"
+    },
+    {
+     "title": "Trump press ban, Saudi stealth jets, drugs in space (Updated)",
+     "url": "https://www.reuters.com/podcasts/saudis-isolation-measles-outbreak-drugs-space-2026-09-18/",
+     "link": "https://www.reuters.com/podcasts/saudis-isolation-measles-outbreak-drugs-space-2026-09-18/",
+     "published_cst": "2026-09-19T09:49:21+08:00",
+     "time": "09-19 09:49",
+     "body": null,
+     "title_zh": "特朗普禁记者，沙特隐身战机，太空毒品（更新）"
+    },
+    {
+     "title": "China investigates Meituan and Alibaba units for suspected antitrust violations",
+     "url": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
+     "published_cst": "2026-09-19T09:14:00+08:00",
+     "time": "09-19 09:14",
+     "body": null,
+     "title_zh": "中国调查美团和阿里巴巴旗下企业涉嫌违反竞争法"
+    },
+    {
+     "title": "Russie-Le système de vote en ligne à Moscou victime d'une cyberattaque - Interfax",
+     "url": "https://www.reuters.com/fr/affaires/russie-le-systme-de-vote-en-ligne-moscou-victime-dune-cyberattaque-interfax-2026-09-19/",
+     "link": "https://www.reuters.com/fr/affaires/russie-le-systme-de-vote-en-ligne-moscou-victime-dune-cyberattaque-interfax-2026-09-19/",
+     "published_cst": "2026-09-19T09:01:44+08:00",
+     "time": "09-19 09:01",
+     "body": null,
+     "title_zh": "俄罗斯莫斯科在线投票系统遭网络攻击 - 国际文传电讯社"
+    },
+    {
+     "title": "OFRMO Summary",
+     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "published_cst": "2026-09-19T09:00:50+08:00",
+     "time": "09-19 09:00",
+     "body": null,
+     "title_zh": "OFRMO摘要"
+    },
+    {
+     "title": "La Pologne en état d'alerte face aux attaques russes en Ukraine - armée",
+     "url": "https://www.reuters.com/fr/affaires/la-pologne-en-tat-dalerte-face-aux-attaques-russes-en-ukraine-arme-2026-09-19/",
+     "link": "https://www.reuters.com/fr/affaires/la-pologne-en-tat-dalerte-face-aux-attaques-russes-en-ukraine-arme-2026-09-19/",
+     "published_cst": "2026-09-19T08:44:56+08:00",
+     "time": "09-19 08:44",
+     "body": null,
+     "title_zh": "波兰因俄罗斯在乌克兰的袭击而处于戒备状态 - 军队"
+    },
+    {
+     "title": "Poland concludes air operation with no airspace violations recorded",
+     "url": "https://www.reuters.com/world/poland-starts-preventive-military-aviation-operations-russia-strikes-ukraine-2026-09-19/",
+     "link": "https://www.reuters.com/world/poland-starts-preventive-military-aviation-operations-russia-strikes-ukraine-2026-09-19/",
+     "published_cst": "2026-09-19T08:36:24+08:00",
+     "time": "09-19 08:36",
+     "body": null,
+     "title_zh": "波兰结束空中行动未记录到领空侵犯"
+    },
+    {
+     "title": "Defence firm Anduril says US delay on Taiwan arms sales affecting its business",
+     "url": "https://www.reuters.com/world/china/defence-firm-anduril-says-us-delay-taiwan-arms-sales-affecting-its-business-2026-09-19/",
+     "link": "https://www.reuters.com/world/china/defence-firm-anduril-says-us-delay-taiwan-arms-sales-affecting-its-business-2026-09-19/",
+     "published_cst": "2026-09-19T07:52:42+08:00",
+     "time": "09-19 07:52",
+     "body": null,
+     "title_zh": "防务公司Anduril称美国对台军售延迟影响其业务"
+    },
+    {
      "title": "AfD surge in eastern Germany makes some immigrants question whether they still belong",
      "url": "https://www.reuters.com/world/europe/afd-surge-eastern-germany-makes-some-immigrants-question-whether-they-still-2026-09-19/",
      "link": "https://www.reuters.com/world/europe/afd-surge-eastern-germany-makes-some-immigrants-question-whether-they-still-2026-09-19/",
-     "published_cst": "2026-09-19T06:05:44+08:00",
-     "time": "09-19 06:05",
+     "published_cst": "2026-09-19T06:47:51+08:00",
+     "time": "09-19 06:47",
      "body": null,
      "title_zh": "德国东部选择党崛起令部分移民质疑自己是否仍属此地"
+    },
+    {
+     "title": "Iran executes man convicted of spying for Israel's Mossad, judiciary says",
+     "url": "https://www.reuters.com/world/middle-east/iran-executes-man-convicted-spying-israels-mossad-judiciary-says-2026-09-19/",
+     "link": "https://www.reuters.com/world/middle-east/iran-executes-man-convicted-spying-israels-mossad-judiciary-says-2026-09-19/",
+     "published_cst": "2026-09-19T06:28:09+08:00",
+     "time": "09-19 06:28",
+     "body": null,
+     "title_zh": "伊朗处决一名被控为以色列摩萨德从事间谍活动的男子，司法机构称"
     },
     {
      "title": "Trump declines to say whether he will tear down Kennedy Center",
@@ -748,15 +1155,6 @@
      "title_zh": "玻利维亚取消柴油补贴以应对燃料短缺"
     },
     {
-     "title": "China investigates Meituan and Alibaba units for suspected antitrust violations",
-     "url": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
-     "link": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
-     "published_cst": "2026-09-19T04:42:08+08:00",
-     "time": "09-19 04:42",
-     "body": null,
-     "title_zh": "中国调查美团和阿里巴巴旗下企业涉嫌违反竞争法"
-    },
-    {
      "title": "Beaches on Australia's west coast to remain shut after fatal shark attack",
      "url": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
      "link": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
@@ -773,15 +1171,6 @@
      "time": "09-19 04:29",
      "body": null,
      "title_zh": "戴安娜死后查尔斯国王听起来像“彩票中奖者”，其弟写道"
-    },
-    {
-     "title": "Defence firm Anduril says US delay on Taiwan arms sales affecting its business",
-     "url": "https://www.reuters.com/world/china/defence-firm-anduril-says-us-delay-taiwan-arms-sales-affecting-its-business-2026-09-19/",
-     "link": "https://www.reuters.com/world/china/defence-firm-anduril-says-us-delay-taiwan-arms-sales-affecting-its-business-2026-09-19/",
-     "published_cst": "2026-09-19T04:26:39+08:00",
-     "time": "09-19 04:26",
-     "body": null,
-     "title_zh": "防务公司Anduril称美国对台军售延迟影响其业务"
     },
     {
      "title": "Cuba's electrical grid collapses again, plunging island into darkness",
@@ -899,15 +1288,6 @@
      "time": "09-19 01:18",
      "body": null,
      "title_zh": "普京指责乌克兰干涉俄罗斯立法选举"
-    },
-    {
-     "title": "OFRMO Summary",
-     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
-     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
-     "published_cst": "2026-09-19T01:18:09+08:00",
-     "time": "09-19 01:18",
-     "body": null,
-     "title_zh": "OFRMO摘要"
     },
     {
      "title": "Paramount could settle with states over Warner Bros. as soon as this weekend, sources say",
