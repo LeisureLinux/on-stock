@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-19 06:05",
-   "title": "AfD surge in eastern Germany makes some immigrants question whether they still belong"
-  },
-  {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-19 05:58",
-   "title": "Trump declines to say whether he will tear down Kennedy Center"
+   "time": "09-19 10:02",
+   "title": "The Week in Breakingviews: The cost of collusion"
   },
   {
    "src": "bb",
    "src_name": "Bloomberg",
    "badge": "BB",
    "color": "#B45309",
-   "time": "09-19 05:54",
-   "title": "California Court Blocks Part of TikTok's $400 Million Settlement"
+   "time": "09-19 10:00",
+   "title": "FedEx Counts on Polish Billionaire to Crack Markets in Europe"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-19 05:27",
-   "title": "Bravos logra primer triunfo en torneo mexicano de fútbol con doblete de colombiano Estupiñán"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-19 10:00",
+   "title": "Forget ‘associate member’, Canada can forge collective resilience with the EU"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-19 05:27",
-   "title": "China vessel rams Philippine boat on refueling mission, coast guard says"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-19 10:00",
+   "title": "Mark Carney takes his investment pitch from ‘Maple Davos’ to Strasbourg"
+  },
+  {
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-19 10:00",
+   "title": "News Quiz for September 19, 2026"
   }
  ]
 }
