@@ -1,6 +1,6 @@
 {
  "date": "20260916",
- "generated_at": "2026-09-19T08:15:24.770143+08:00",
+ "generated_at": "2026-09-19T09:11:02.774589+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -288,28 +288,6 @@
      "summary_zh": "戈尔称伊朗战争加速新兴市场转向清洁能源，3月肯尼亚、埃塞俄比亚和尼日利亚进口中国太阳能分别增207%、391%和519%。"
     },
     {
-     "title": "IMF Urges RBA to Stay Hawkish Citing Inflation Upside Risks",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
-     "published_cst": "2026-09-16T23:00:00+08:00",
-     "time": "09-16 23:00",
-     "body": [
-      "Australia’s central bank should stand ready to hike interest rates as needed given inflation risks remain tilted to the upside, the International Monetary Fund said, adding that the government could support disinflation by tightening its fiscal stance.",
-      "“Returning inflation to target should be the near-term priority,” IMF staff said in the concluding statement of their 2026 Article IV mission released Thursday, referring to the Reserve Bank’s 2-3% band. “Monetary policy should remain focused on containing inflation risks.”",
-      "The IMF trimmed its forecast for economic growth this year to 1.9% from 2% predicted in April, and for next year to 1.6% from 1.7% as the RBA’s earlier rate hikes weigh on activity — including housing — and tighten financial conditions, with the Australian dollar one of the strongest G-10 currencies this year.",
-      "“Given persistent underlying inflation pressures and large uncertainty around whether financial conditions are sufficiently restrictive, the RBA should stand ready to hike rates as needed,” the fund said. “In addition, there is a risk that further large increases in global energy prices lead to stronger second-round effects and lift inflation expectations, warranting further tightening.”",
-      "The US and Iran exchanged strikes on oil tankers in the Persian Gulf earlier this month, driving up energy prices. Tensions flared again in the Strait of Hormuz over the weekend, while Saudi Arabia has come under pressure from the Tehran-backed Houthi militants in Yemen.",
-      "The IMF statement, which noted Australia started the year in a strong position, comes as the RBA is expected to deliver another rate hike as soon as this month. Policymakers boosted borrowing costs three times between February and May before holding at 4.35% at the last two meetings.",
-      "The IMF pointed out that government spending restraint would support the RBA’s disinflation goal and help rebuild fiscal buffers. At the same time, rising data center investment is already adding pressure on the construction sector and could lead to higher energy costs, the statement showed.",
-      "Listen and follow The Bloomberg Australia Podcast on Apple, Spotify, YouTube or wherever you get your podcasts.",
-      "Traders and economists will closely watch unemployment figures next week, which are the final major piece of economic data before the Sept. 28-29 policy meeting.",
-      "The IMF commended the government’s focus on productivity as welcome, though “a more ambitious reform strategy is needed,” it said.",
-      "“Further progress on smarter regulation, alongside addressing infrastructure bottlenecks and making the tax system more growth-friendly, would help boost productivity,” the fund said. “Success will require broader and sustained efforts across agencies and all levels of government to more systemically assess and minimize regulatory costs and distortions of new regulations.”"
-     ],
-     "title_zh": "IMF敦促澳联储保持鹰派立场，警告通胀上行风险",
-     "summary_zh": "IMF称澳大利亚通胀风险偏上行，澳央行应准备必要时加息，并下调今年经济增长预期至1.9%。"
-    },
-    {
      "title": "Huawei Accelerates Launch of New AI Chip to Take On Nvidia",
      "url": "https://www.bloomberg.com/news/articles/2026-09-16/huawei-set-to-unveil-china-s-best-answer-to-nvidia-ai-chip-reign",
      "link": "https://www.bloomberg.com/news/articles/2026-09-16/huawei-set-to-unveil-china-s-best-answer-to-nvidia-ai-chip-reign",
@@ -335,6 +313,28 @@
      ],
      "title_zh": "华为将发布中国挑战英伟达AI芯片霸主地位的最强产品",
      "summary_zh": "华为本周将发布昇腾960 AI芯片，2027年商用，目标对标英伟达并推动中国芯片自主。"
+    },
+    {
+     "title": "IMF Urges RBA to Stay Hawkish Citing Inflation Upside Risks",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-16/imf-urges-rba-to-stay-hawkish-warns-of-inflation-upside-risks",
+     "published_cst": "2026-09-16T23:00:00+08:00",
+     "time": "09-16 23:00",
+     "body": [
+      "Australia’s central bank should stand ready to hike interest rates as needed given inflation risks remain tilted to the upside, the International Monetary Fund said, adding that the government could support disinflation by tightening its fiscal stance.",
+      "“Returning inflation to target should be the near-term priority,” IMF staff said in the concluding statement of their 2026 Article IV mission released Thursday, referring to the Reserve Bank’s 2-3% band. “Monetary policy should remain focused on containing inflation risks.”",
+      "The IMF trimmed its forecast for economic growth this year to 1.9% from 2% predicted in April, and for next year to 1.6% from 1.7% as the RBA’s earlier rate hikes weigh on activity — including housing — and tighten financial conditions, with the Australian dollar one of the strongest G-10 currencies this year.",
+      "“Given persistent underlying inflation pressures and large uncertainty around whether financial conditions are sufficiently restrictive, the RBA should stand ready to hike rates as needed,” the fund said. “In addition, there is a risk that further large increases in global energy prices lead to stronger second-round effects and lift inflation expectations, warranting further tightening.”",
+      "The US and Iran exchanged strikes on oil tankers in the Persian Gulf earlier this month, driving up energy prices. Tensions flared again in the Strait of Hormuz over the weekend, while Saudi Arabia has come under pressure from the Tehran-backed Houthi militants in Yemen.",
+      "The IMF statement, which noted Australia started the year in a strong position, comes as the RBA is expected to deliver another rate hike as soon as this month. Policymakers boosted borrowing costs three times between February and May before holding at 4.35% at the last two meetings.",
+      "The IMF pointed out that government spending restraint would support the RBA’s disinflation goal and help rebuild fiscal buffers. At the same time, rising data center investment is already adding pressure on the construction sector and could lead to higher energy costs, the statement showed.",
+      "Listen and follow The Bloomberg Australia Podcast on Apple, Spotify, YouTube or wherever you get your podcasts.",
+      "Traders and economists will closely watch unemployment figures next week, which are the final major piece of economic data before the Sept. 28-29 policy meeting.",
+      "The IMF commended the government’s focus on productivity as welcome, though “a more ambitious reform strategy is needed,” it said.",
+      "“Further progress on smarter regulation, alongside addressing infrastructure bottlenecks and making the tax system more growth-friendly, would help boost productivity,” the fund said. “Success will require broader and sustained efforts across agencies and all levels of government to more systemically assess and minimize regulatory costs and distortions of new regulations.”"
+     ],
+     "title_zh": "IMF敦促澳联储保持鹰派立场，警告通胀上行风险",
+     "summary_zh": "IMF称澳大利亚通胀风险偏上行，澳央行应准备必要时加息，并下调今年经济增长预期至1.9%。"
     },
     {
      "title": "Salesforce Sees $63 Billion in Revenue in Fiscal Year 2030",

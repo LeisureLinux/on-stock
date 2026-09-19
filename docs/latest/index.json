@@ -1,16 +1,65 @@
 {
  "date": "20260919",
- "generated_at": "2026-09-19T08:19:37.316384+08:00",
+ "generated_at": "2026-09-19T09:11:32.348077+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 1,
+   "count": 2,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "Indonesia's New Finance Minister Aims for Stability After Political Drama",
+     "url": "https://www.bloomberg.com/news/newsletters/2026-09-19/indonesia-s-new-finance-minister-aims-for-stability-after-political-drama",
+     "link": "https://www.bloomberg.com/news/newsletters/2026-09-19/indonesia-s-new-finance-minister-aims-for-stability-after-political-drama",
+     "published_cst": "2026-09-19T01:00:02+08:00",
+     "time": "09-19 01:00",
+     "body": [
+      "Each week we bring you insights into one of Asia’s most dynamic economies. If you haven’t yet, please sign up here.",
+      "This week, Ramsey Al-Rikabi details the drama around the appointment of Indonesia’s new finance minister, Suahasil Nazara; Anand Krishnamoorthy charts gold’s new allure; Andrea Tan and Ishika Mookerjee discuss signs of anti-India sentiment in Singapore; and David Zipper explores the cost of the city-state’s gridlock-free streets.",
+      "Indonesia’s outspoken and supremely confident finance minister finally found out where the red line was this week.",
+      "Purbaya Yudhi Sadewa, handpicked by President Prabowo Subianto about a year ago, was abruptly dismissed Monday.",
+      "Investors had long-standing concerns about his guidance of Southeast Asia’s largest economy and how he’d satisfy his boss’s demands to fund costly development projects while keeping the budget books tidy. With stocks and the currency recently stabilizing after a rough year, there was a sense that perhaps the worst was over.",
+      "In the end, however, it wasn’t investors that forced Prabowo’s hand, replacing Purbaya with his deputy Suahasil Nazara. As my colleagues in Jakarta reported this week, Purbaya had finally crossed the wrong people internally, most notably the powerful heads of the tax and customs officers inside his own ministry.",
+      "His sudden and massive reshuffle of those departments, without approval of their Prabowo-aligned heads, seems to have been the final straw. There were also rumblings he was padding revenue by holding back tax refunds, angering businesses, and seeking to shift billions from Prabowo’s sovereign wealth fund, Danantara, without proper approval.",
+      "The new economic leadership lineup, including the recently appointed central bank chief Destry Damayanti, definitely gives Prabowo experienced hands that are known quantities to investors.",
+      "That will help the country navigate an increasingly rough global economy, as the Iran and Ukraine wars drive up fuel and food prices, the Federal Reserve raises rates (which further pressures emerging market currencies) and the stakes rise higher for the risks and rewards of the artificial intelligence boom.",
+      "But at the end of the day, the former general is still in charge. As Bloomberg Economics’ Tamara Mast Henderson puts it: “Suahasil has extensive experience in fiscal policy and economic management, but ultimately he will be constrained by Prabowo’s decisions.”",
+      "That is, the new finance chief needs to keep his superior and ministry happy, while still keeping the budget deficit below the 3% of GDP cap. But the bigger decisions of governance and spending that investors are watching — particularly around Danantara, defense and commodities exports — will still be Prabowo’s to deliver.—Ramsey Al-Rikabi",
+      "The fog has cleared, giving gold a fresh chance to gleam.",
+      "Following months of endless speculation, the Federal Reserve went ahead with its first interest-rate hike since 2023. Investors, previously holding their breath, can now step back and weigh the road ahead — how many more hikes might follow, and when. Though higher yields usually dampen the appeal of gold, an asset that pays no regular income, the market’s response to the Fed was surprisingly calm.",
+      "Here is the backstory: Gold went on a massive run earlier in the year, touching an eye-watering peak near $5,595 an ounce in January. That high eventually faded, bringing prices down closer to $3,900 and creating a far more tempting entry point for major fund managers looking to build back their holdings. That’s helped the yellow metal climb back to around $4,300.",
+      "This institutional buying aligns neatly with a broader shift, as banks position for long-term structural demand. The timing aligns neatly with Singapore’s ambition to become a premier gold trading hub, with DBS adding bullion storage capacity and other banks considering similar moves.—Anand Krishnamoorthy",
+      "A selection of the best of Bloomberg storytelling, from podcasts and video to explainers and feature stories.",
+      "Read",
+      "Watch",
+      "Listen",
+      "The “Us” versus “Them” mentality has existed for as long as humans have. Highly educated Singapore, which prides itself on multiculturalism, isn’t immune to this all-too-human trait.",
+      "A recent bout of racism in Singapore — where ethnic Indians make up about 8% of the population — has underscored this. Following the devastating floods in Nepal that killed at least 1,400 people, Singapore deployed its police force to help with recovery efforts. But there were online racist comments about missing Singaporeans.",
+      "Bigotry over the ethnic makeup of the leadership at Temasek, the largest shareholder of Singapore Airlines, showed up in online discussions about the carrier mulling a capital injection into lossmaking Air India. The investment firm’s CEO and chief investment officer are ethnic Indians.",
+      "Singapore prides itself on social cohesion, having experienced the horrors of how fault lines across race and religion can tear a community apart. In 1964, the island experienced its worst racial riots when Malays and Chinese clashed, leaving dozens dead and hundreds injured.",
+      "Scarred by that episode, Singapore codified the ideal of racial harmony after independence in 1965 in its national pledge, which is recited daily by students.",
+      "Public flats, where 80% of Singaporeans live, have an ethnic integration policy to prevent racial enclaves. In school, English is the primary language of education, unifying different races. At the hawker centers, you can find stalls selling fish ball noodles, roti prata and nasi lemak. Mosques, temples and churches are located in the same neighborhood.",
+      "But there’s no denying that in a country where those of Chinese ethnicity account for three-quarters of the population, minorities may end up feeling as such. A 2024 survey by the Institute of Policy Studies found that racial stereotyping was on the rise, with almost half of the respondents saying they form assumptions about someone’s behavior based on race. In June, anti-Indian videos sprouted across Instagram and other social media platforms. Singapore blocked 14 social media posts targeting the Indian community, with the home affairs ministry stating that the content most likely originated from a platform based in China.This week, Singapore operationalized its Racial Harmony Act, which allows the ministry to issue restraining orders against those involved in producing and communicating content that incites hatred against a certain group or urges violence.",
+      "The evidence from everyday life shows that the city-state’s rules of behavior — which may seem unusually strict in some other countries — have largely delivered harmony. Still, recent incidents are a reminder of how easily this success can be undermined.—Andrea Tan and Ishika Mookerjee",
+      "Check out Bloomberg’s Emerging, a monthly podcast series hosted by Menaka Doshi and Haslinda Amin on the rising economies shaping the global future. You can watch it here or listen on iHeart, Apple, Amazon, or Spotify.",
+      "As an American who studies transportation practices around the world, I find Singapore’s approach toward traffic management to be deeply impressive — as well as a bit bizarre. On a recent visit, I took car trips around this densely populated island and never encountered the kind of crushing gridlock I have endured in New York City, Beijing and Munich. Except for an occasional slowdown, traffic flowed freely.",
+      "That’s essentially because Singapore has traded automotive egalitarianism for bottleneck-free streets. I was amazed at how much residents must pay for the privilege of using their free-flowing roads. Motorists cough up more than S$130,000 — equivalent to about $102,000 — merely for the opportunity to buy a car and operate it for a decade. The government also imposes hefty taxes and fees on automotive purchases. Thus, you have some of the world’s more expensive rides here: A mid-range Tesla Model Y can cost some S$240,000 — more than three times as much as it would where I live in Washington, DC.",
+      "No other city in the world has so enthusiastically harnessed financial disincentives to maintain unclogged roadways.",
+      "I recently explored Singapore’s twin tactics: congestion-based fees and vehicle quotas for Bloomberg CityLab. Love them or hate them (and I met Singaporeans who fall in the latter camp), these measures have prevented the island’s road network from enduring the kind of standstill traffic endemic in so many other countries.",
+      "I was particularly intrigued with the city-state’s latest traffic-reducing effort. A satellite-based tolling system known as ERP2 being rolled out by the Land Transport Authority is administered through small satellite-linked devices installed in every private car. It could in theory charge individual drivers for the precise number of slowdowns they contribute to during a specific journey. In comparison, sensors or cameras mounted on gantries provide a vastly inferior proxy.",
+      "It remains to be seen whether Singapore ultimately switches to distance-based fees. Some car owners have expressed a wariness about sharing trip data with the government, even if it is used only for billing.",
+      "Still, Singapore’s leaders have not hesitated to adopt measures that can unsnarl traffic, regardless of their popularity. While the policies limit who can afford to motor around the island, the city-state’s integrated subway system offers commuters an efficient way to get from here to there — something most are willing to accept.—David Zipper",
+      "Have a place you’d like us to review or feedback to share? Get in touch at sgedition@bloomberg.net.",
+      "Thanks for reading our newsletter! Subscribe here if you haven’t already.",
+      "More from Bloomberg"
+     ],
+     "title_zh": "印尼新财长政治风波后力求稳定",
+     "summary_zh": "印尼总统普拉博沃突然撤换财长普尔巴亚，由副手苏阿哈西尔接任，因内部权力斗争。"
+    },
     {
      "title": "Stübli Rewards Cheese Fondue Lovers Even in Hong Kong's Heat",
      "url": "https://www.bloomberg.com/news/articles/2026-09-19/stubli-rewards-cheese-fondue-lovers-even-in-hong-kong-s-heat",
@@ -67,10 +116,37 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 3,
+   "count": 6,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "Republicans in Tough Races Are Tip-Toeing Away From Trump",
+     "url": "https://www.wsj.com/politics/elections/republicans-in-tough-races-are-tip-toeing-away-from-trump-374ddd4f",
+     "link": "https://www.wsj.com/politics/elections/republicans-in-tough-races-are-tip-toeing-away-from-trump-374ddd4f",
+     "published_cst": "2026-09-19T01:00:00+08:00",
+     "time": "09-19 01:00",
+     "body": null,
+     "title_zh": "共和党激烈选战中的候选人正悄然与特朗普保持距离"
+    },
+    {
+     "title": "Law Firms Have a Big Problem: Senior Partners Aren’t Retiring",
+     "url": "https://www.wsj.com/business/law-firms-retirement-incentives-packages-1e9bccbd",
+     "link": "https://www.wsj.com/business/law-firms-retirement-incentives-packages-1e9bccbd",
+     "published_cst": "2026-09-19T01:00:00+08:00",
+     "time": "09-19 01:00",
+     "body": null,
+     "title_zh": "律所面临大问题：资深合伙人迟迟不退"
+    },
+    {
+     "title": "Inside Machado’s Plan to Return to Venezuela and Revive Its Democracy",
+     "url": "https://www.wsj.com/world/americas/inside-machados-plan-to-return-to-venezuela-and-revive-its-democracy-5951dc98",
+     "link": "https://www.wsj.com/world/americas/inside-machados-plan-to-return-to-venezuela-and-revive-its-democracy-5951dc98",
+     "published_cst": "2026-09-19T00:12:00+08:00",
+     "time": "09-19 00:12",
+     "body": null,
+     "title_zh": "马查多重返委内瑞拉并重振民主的计划内幕"
+    },
     {
      "title": "Patients Sue GLP-1 Drugmakers Over Risk of Sudden Vision Loss",
      "url": "https://www.wsj.com/health/pharma/patients-sue-glp-1-drugmakers-over-risk-of-sudden-vision-loss-f60d7acb",
@@ -103,10 +179,154 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 1,
+   "count": 17,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "Paramount could settle with states over Warner Bros. as soon as this weekend, sources say",
+     "url": "https://www.reuters.com/business/media-telecom/paramount-states-discuss-cnn-monitoring-film-release-commitment-sources-say-2026-09-18/",
+     "link": "https://www.reuters.com/business/media-telecom/paramount-states-discuss-cnn-monitoring-film-release-commitment-sources-say-2026-09-18/",
+     "published_cst": "2026-09-19T01:05:21+08:00",
+     "time": "09-19 01:05",
+     "body": null,
+     "title_zh": "消息人士称派拉蒙最早本周末就华纳兄弟问题与各州达成和解"
+    },
+    {
+     "title": "US and Denmark reach deal on Greenland, Trump says",
+     "url": "https://www.reuters.com/world/china/us-denmark-close-greenland-deal-sources-say-2026-09-18/",
+     "link": "https://www.reuters.com/world/china/us-denmark-close-greenland-deal-sources-say-2026-09-18/",
+     "published_cst": "2026-09-19T01:04:26+08:00",
+     "time": "09-19 01:04",
+     "body": null,
+     "title_zh": "特朗普称美国与丹麦就格陵兰岛达成协议"
+    },
+    {
+     "title": "Trump says he is banning media outlets CNN, MS NOW, Politico from White House",
+     "url": "https://www.reuters.com/world/us/trump-bans-media-outlets-cnn-msnow-politico-white-house-2026-09-18/",
+     "link": "https://www.reuters.com/world/us/trump-bans-media-outlets-cnn-msnow-politico-white-house-2026-09-18/",
+     "published_cst": "2026-09-19T00:49:10+08:00",
+     "time": "09-19 00:49",
+     "body": null,
+     "title_zh": "特朗普称将禁止CNN、MS NOW、Politico进入白宫"
+    },
+    {
+     "title": "Saudi civil defence sends all-clear after danger warning for capital Riyadh",
+     "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/",
+     "link": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/",
+     "published_cst": "2026-09-19T00:42:51+08:00",
+     "time": "09-19 00:42",
+     "body": null,
+     "title_zh": "沙特民防部门对首都利雅得发出危险警告后解除警报"
+    },
+    {
+     "title": "US Treasury's Bessent to discuss AI, trade, rare earths with China's He, source says",
+     "url": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
+     "link": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
+     "published_cst": "2026-09-19T00:41:43+08:00",
+     "time": "09-19 00:41",
+     "body": null,
+     "title_zh": "美财长贝森特将与中方何立峰讨论人工智能、贸易和稀土问题"
+    },
+    {
+     "title": "Padre de estudiante española muerta en México llega al país, tras detención de sospechoso",
+     "url": "https://www.reuters.com/es/mundo/NDEVY2PIIVI7TP4BEDY3GCZ5DU-2026-09-19/",
+     "link": "https://www.reuters.com/es/mundo/NDEVY2PIIVI7TP4BEDY3GCZ5DU-2026-09-19/",
+     "published_cst": "2026-09-19T00:34:10+08:00",
+     "time": "09-19 00:34",
+     "body": null,
+     "title_zh": "西班牙女学生在墨西哥遇害案嫌犯被捕后其父抵达墨西哥"
+    },
+    {
+     "title": "Warren Buffett steps down as Berkshire chairman, replaced by his son Howard",
+     "url": "https://www.reuters.com/business/retail-consumer/berkshire-hathaway-names-warren-buffett-chairman-emeritus-2026-09-18/",
+     "link": "https://www.reuters.com/business/retail-consumer/berkshire-hathaway-names-warren-buffett-chairman-emeritus-2026-09-18/",
+     "published_cst": "2026-09-19T00:32:18+08:00",
+     "time": "09-19 00:32",
+     "body": null,
+     "title_zh": "沃伦·巴菲特卸任伯克希尔董事长，其子霍华德接任"
+    },
+    {
+     "title": "Anthropic considers releasing new AI model ahead of IPO, sources say",
+     "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
+     "link": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
+     "published_cst": "2026-09-19T00:22:45+08:00",
+     "time": "09-19 00:22",
+     "body": null,
+     "title_zh": "消息人士称Anthropic考虑在IPO前发布新AI模型"
+    },
+    {
+     "title": "Foreign hackers targeted Colorado water systems in August, governor's office says",
+     "url": "https://www.reuters.com/legal/litigation/foreign-hackers-targeted-colorado-water-systems-august-governors-office-says-2026-09-19/",
+     "link": "https://www.reuters.com/legal/litigation/foreign-hackers-targeted-colorado-water-systems-august-governors-office-says-2026-09-19/",
+     "published_cst": "2026-09-19T00:21:46+08:00",
+     "time": "09-19 00:21",
+     "body": null,
+     "title_zh": "外籍黑客8月攻击科罗拉多州供水系统，州长办公室称"
+    },
+    {
+     "title": "Widespread sexual violence in Ukraine war, most cases tied to Russia, says UN report",
+     "url": "https://www.reuters.com/world/widespread-sexual-violence-ukraine-war-most-cases-tied-russia-says-un-report-2026-09-18/",
+     "link": "https://www.reuters.com/world/widespread-sexual-violence-ukraine-war-most-cases-tied-russia-says-un-report-2026-09-18/",
+     "published_cst": "2026-09-19T00:19:09+08:00",
+     "time": "09-19 00:19",
+     "body": null,
+     "title_zh": "联合国报告称乌克兰战争普遍存在性暴力，多数案件与俄罗斯有关"
+    },
+    {
+     "title": "EU antitrust regulators set to block UPM-Sappi merger, sources say",
+     "url": "https://www.reuters.com/business/eu-antitrust-regulators-set-block-upm-sappi-merger-sources-say-2026-09-18/",
+     "link": "https://www.reuters.com/business/eu-antitrust-regulators-set-block-upm-sappi-merger-sources-say-2026-09-18/",
+     "published_cst": "2026-09-19T00:19:03+08:00",
+     "time": "09-19 00:19",
+     "body": null,
+     "title_zh": "消息人士称欧盟反垄断监管机构将阻止UPM与Sappi合并"
+    },
+    {
+     "title": "Russia sanctions bill gives Trump sweeping new tariff powers",
+     "url": "https://www.reuters.com/world/us/russia-sanctions-bill-gives-trump-sweeping-new-tariff-powers-2026-09-18/",
+     "link": "https://www.reuters.com/world/us/russia-sanctions-bill-gives-trump-sweeping-new-tariff-powers-2026-09-18/",
+     "published_cst": "2026-09-19T00:12:40+08:00",
+     "time": "09-19 00:12",
+     "body": null,
+     "title_zh": "俄罗斯制裁法案赋予特朗普广泛的新关税权力"
+    },
+    {
+     "title": "Anthropic quietly sets up biology lab as it ramps AI drug program",
+     "url": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+     "link": "https://www.reuters.com/world/anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-2026-09-18/",
+     "published_cst": "2026-09-19T00:12:19+08:00",
+     "time": "09-19 00:12",
+     "body": null,
+     "title_zh": "Anthropic悄然设立生物实验室，加速AI药物项目"
+    },
+    {
+     "title": "Trump extends push for $100,000 H-1B visas by another year",
+     "url": "https://www.reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/",
+     "link": "https://www.reuters.com/world/us/trump-extends-restrictions-h-1b-non-immigrant-visa-program-by-another-year-2026-09-18/",
+     "published_cst": "2026-09-19T00:11:28+08:00",
+     "time": "09-19 00:11",
+     "body": null,
+     "title_zh": "特朗普将10万美元H-1B签证推动期再延长一年"
+    },
+    {
+     "title": "Trump annonce un accord entre les Etats-Unis et le Danemark sur le Groenland",
+     "url": "https://www.reuters.com/fr/affaires/trump-annonce-un-accord-entre-les-etats-unis-et-le-danemark-sur-le-groenland-2026-09-19/",
+     "link": "https://www.reuters.com/fr/affaires/trump-annonce-un-accord-entre-les-etats-unis-et-le-danemark-sur-le-groenland-2026-09-19/",
+     "published_cst": "2026-09-19T00:07:44+08:00",
+     "time": "09-19 00:07",
+     "body": null,
+     "title_zh": "特朗普宣布美国与丹麦就格陵兰岛达成协议"
+    },
+    {
+     "title": "OFRMO Summary",
+     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "published_cst": "2026-09-19T00:06:24+08:00",
+     "time": "09-19 00:06",
+     "body": null,
+     "title_zh": "OFRMO摘要"
+    },
     {
      "title": "Reajuste do Bolsa Família não fere lei eleitoral, decide Gilmar Mendes, do STF",
      "url": "https://www.reuters.com/pt/domestico/TV6372WEE5KDVDUXHQ3XG5A2TM-2026-09-19/",

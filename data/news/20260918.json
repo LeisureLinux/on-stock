@@ -1,13 +1,13 @@
 {
  "date": "20260918",
- "generated_at": "2026-09-19T08:19:33.656199+08:00",
+ "generated_at": "2026-09-19T09:11:28.603932+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 245,
+   "count": 246,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -106,7 +106,7 @@
      "summary_zh": "OpenAI预计2026至2030年自由现金流负值达2780亿美元，尽管收入将从360亿增至3500亿美元。"
     },
     {
-     "title": "ECP-Backed ProEnergy Said to Seek Up to $50 Billion Value in IPO",
+     "title": "ECP-Backed ProEnergy Seeks Up to $50 Billion Value in IPO",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/ecp-backed-proenergy-said-to-seek-up-to-50-billion-value-in-ipo",
      "link": "https://www.bloomberg.com/news/articles/2026-09-18/ecp-backed-proenergy-said-to-seek-up-to-50-billion-value-in-ipo",
      "published_cst": "2026-09-18T22:55:17+08:00",
@@ -920,6 +920,22 @@
      "summary_zh": "瑞安航空CEO奥利里为称竞争对手为“高票价强奸犯”道歉，此前言论引发爱尔兰总理及强奸危机中心批评。"
     },
     {
+     "title": "Fire Flares Up at Damaged Moss Landing Battery Storage Site",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/fire-flares-up-at-damaged-moss-landing-battery-storage-site",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/fire-flares-up-at-damaged-moss-landing-battery-storage-site",
+     "published_cst": "2026-09-18T16:38:19+08:00",
+     "time": "09-18 16:38",
+     "body": [
+      "Fire crews have contained a blaze Friday at Vistra Corp.’s damaged battery storage facility in California.",
+      "About 1,200 batteries ignited this morning at the Moss Landing site in Monterey County, Vistra said in a statement late Friday. County officials report that the fire is inactive with crews remaining on site to monitor the situation, according to the statement.",
+      "The storage facility was the site of a significant blaze in January 2025, which prompted local evacuations. Less than 5% of the original batteries remain at the site, Vistra said. The modules that caught fire have remained charged and have not been de-energized because they are located in a portion of the building that has not been safely accessible due to damage from the original conflagration, the company said.",
+      "Vistra said earlier Friday that personnel identified a “flare-up” on the north side of the building around 6 a.m. local time Friday.",
+      "The company said the natural gas plant located at the site has been temporarily shut down “out of an abundance of caution.” Air quality monitors are active along the site perimeter and in the surrounding community, the company added."
+     ],
+     "title_zh": "莫斯兰丁受损电池储能站起火",
+     "summary_zh": "加州Vistra电池储能设施约1200块电池起火，火势已控制，天然气厂临时关闭。"
+    },
+    {
      "title": "Blackstone Lands Loan for Data Center Cooling Firm Acquisition",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/blackstone-lands-loan-for-data-center-cooling-firm-acquisition",
      "link": "https://www.bloomberg.com/news/articles/2026-09-18/blackstone-lands-loan-for-data-center-cooling-firm-acquisition",
@@ -1069,7 +1085,8 @@
       "More from Bloomberg Opinion:",
       "Want more from Bloomberg Opinion?   OPIN <GO>. Web readers, click here. Or subscribe to our daily newsletter."
      ],
-     "title_zh": "姆巴佩在耐克困境中再补一脚"
+     "title_zh": "姆巴佩在耐克困境中再补一脚",
+     "summary_zh": "耐克痛失球星姆巴佩，后者转投瑞士昂跑，耐克股价跌至十年低点。"
     },
     {
      "title": "Immunology Drugmaker Electra Falls 12% After Upsized US IPO",
