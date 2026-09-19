@@ -79,7 +79,10 @@
     .msg { font-size:13px;min-height:18px;margin-top:6px;color:#6B7280; }
     .msg.ok { color:#059669; }
     .msg.err { color:#DC2626; }
-    #cf-turnstile { margin:8px 0; }
+    #cf-turnstile { margin:8px 0; min-height:0; }
+    .flabel.done { background:#ECFDF5; border:1px solid #A7F3D0; color:#065F46;
+      border-radius:10px; padding:14px 16px; font-size:14.5px; line-height:1.9; }
+    .flabel.done b { color:#DC2626; }
     .faq dt { font-weight: 700; margin-top: 14px; color: #111827; }
     .faq dd { color: #6B7280; }
     footer { text-align: center; color: #9CA3AF; font-size: 13px; padding: 32px 0 40px;
@@ -127,21 +130,21 @@
     <div class="flow">
       <h2>订阅流程</h2>
       <div class="step1">
-        <p class="flabel">① 先验证邮箱（确保能收到账号邮件）</p>
+        <p class="flabel">① 选好上方套餐时长</p>
+        <p class="flabel">② 填写邮箱，点「获取验证码」（此时会做人机验证）</p>
         <div class="row">
           <input id="email" type="email" placeholder="你的邮箱，如 you@qq.com" autocomplete="email">
           <button id="btn-code" type="button">获取验证码</button>
         </div>
         <div class="row" id="code-row" style="display:none">
           <input id="code" type="text" placeholder="6 位验证码" inputmode="numeric" maxlength="6">
-          <button id="btn-verify" type="button">验证邮箱</button>
+          <button id="btn-verify" type="button">验证并提交</button>
         </div>
         <div class="cf-turnstile" id="cf-turnstile"></div>
         <div class="msg" id="email-msg"></div>
       </div>
-      <div class="step2">
-        <p class="flabel">② 选好上方套餐，扫码付款（备注邮箱）</p>
-        <p class="flabel">③ 我确认收款后，账号自动发到你的邮箱</p>
+      <div class="step2" id="step2" style="display:none">
+        <p class="flabel done" id="done-msg"></p>
       </div>
     </div>
 
@@ -164,9 +167,9 @@
     </div>
 
     <ol class="steps">
-      <li>按上面的套餐金额扫码付款，备注里留一句话（微信号或邮箱即可）。</li>
-      <li>我收到款后人工核对，一般 2 小时内、最长当天回复。</li>
-      <li>你会收到一组<b>用户名 + 密码 + 到期日期</b>，浏览器打开站点时填入弹出的登录框即可，登录状态记住 7 天。</li>
+      <li>按上方选定时长的金额扫码付款，备注里填你的邮箱。</li>
+      <li>我收到款后人工核对，一般 2 小时内、最长 1 个工作日回复。</li>
+      <li>登录密码发到你的邮箱，浏览器打开站点登录即可，登录状态记住 7 天。</li>
     </ol>
 
     <dl class="faq">
@@ -213,40 +216,176 @@
         return sel ? sel.dataset.plan : '';
       }
 
-      // ① 获取验证码
+      // ---- Turnstile：页面打开时不渲染，首次真正需要（获取验证码/登录）才渲染 ----
+      // 这样用户刚进页面不会被无谓地过一遍人机验证；只有点“获取验证码”时才验证。
+      var tsApiReady = false;   // api.js 是否已加载完成
+      var tsWidgetId = null;    // 已渲染的 widget id（null = 尚未渲染）
+      var tsTokenValue = '';    // 当前 token（一次性）
+
+      /** 等 api.js 就绪（最多 ~15s） */
+      function tsWaitApi() {
+        if (tsApiReady && window.turnstile) return Promise.resolve(true);
+        return new Promise(function (resolve) {
+          var n = 0;
+          var iv = setInterval(function () {
+            if ((tsApiReady && window.turnstile) || ++n > 60) {
+              clearInterval(iv);
+              resolve(!!window.turnstile);
+            }
+          }, 250);
+        });
+      }
+
+      /** 首次调用时才真正渲染 widget */
+      async function tsEnsureWidget() {
+        if (tsWidgetId !== null) return true;
+        if (!(await tsWaitApi())) return false;
+        if (!TURNSTILE_SITE_KEY) return false;
+        try {
+          tsWidgetId = window.turnstile.render('#cf-turnstile', {
+            sitekey: TURNSTILE_SITE_KEY,
+            callback: function (t) { tsTokenValue = t; },
+            'error-callback': function () { tsTokenValue = ''; }
+          });
+        } catch (e) { return false; }
+        return true;
+      }
+
+      /** 等到拿到 token：需人工交互时给足时间（最多 ~45s） */
+      function tsEnsureToken() {
+        if (tsTokenValue) return Promise.resolve(tsTokenValue);
+        return new Promise(function (resolve) {
+          var n = 0;
+          var iv = setInterval(function () {
+            if (tsTokenValue || ++n > 180) { clearInterval(iv); resolve(tsTokenValue); }
+          }, 250);
+        });
+      }
+
+      /** token 一次性，用后重置，保证下次操作能拿到新 token */
+      function tsReset() {
+        tsTokenValue = '';
+        if (window.turnstile && tsWidgetId !== null) {
+          try { window.turnstile.reset(tsWidgetId); } catch (e) {}
+        }
+      }
+
+      // api.js 加载完成后回调（?onload=onloadTurnstileCallback 触发）
+      window.onloadTurnstileCallback = function () { tsApiReady = true; };
+
+      // ---- 获取验证码按钮的 60s 倒计时 ----
+      var cdTimer = null;
+      function startCountdown(btn, seconds) {
+        var left = Math.max(1, parseInt(seconds, 10) || 60);
+        btn.disabled = true;
+        btn.textContent = left + 's 后重发';
+        clearInterval(cdTimer);
+        cdTimer = setInterval(function () {
+          left--;
+          if (left <= 0) {
+            clearInterval(cdTimer); cdTimer = null;
+            btn.disabled = false;
+            btn.textContent = '重新获取验证码';
+          } else {
+            btn.textContent = left + 's 后重发';
+          }
+        }, 1000);
+      }
+      function stopCountdown(btn, text) {
+        clearInterval(cdTimer); cdTimer = null;
+        if (btn) { btn.disabled = false; btn.textContent = text; }
+      }
+
+      // 验证码连续错误计数：服务端有同样的限制，这里再叠一层客户端兜底，
+      // 使旧版服务端也能正确“连错 3 次从头开始”。
+      var MAX_FAILS = 3;
+      var verifyFails = 0;
+
+      /** 回到“重新获取验证码”的初始状态（验证码连错达上限 / 已过期时用） */
+      function resetToStart(msg) {
+        verifyFails = 0;
+        document.getElementById('code-row').style.display = 'none';
+        document.getElementById('code').value = '';
+        document.getElementById('step2').style.display = 'none';
+        stopCountdown(document.getElementById('btn-code'), '重新获取验证码');
+        setMsg('email-msg', msg, false);
+      }
+
+      // ② 获取验证码（此时才做人机验证）
       document.getElementById('btn-code').addEventListener('click', async function () {
+        var btn = this;
         var email = document.getElementById('email').value.trim();
         var plan = getPlan();
         if (!plan) return setMsg('email-msg', '请先选择上方套餐时长', false);
         if (!email || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return setMsg('email-msg', '邮箱格式不正确', false);
-        setMsg('email-msg', '验证中…');
-        var token = await tsEnsure();   // token 一次性，重发时需等新 token 生成
-        if (!token) return setMsg('email-msg', '人机验证未完成，请刷新页面重试', false);
+
+        setMsg('email-msg', '正在确认你不是机器人…');
+        if (!(await tsEnsureWidget())) return setMsg('email-msg', '人机验证组件加载失败，请刷新页面重试', false);
+        var token = await tsEnsureToken();
+        if (!token) return setMsg('email-msg', '请先完成上方的人机验证', false);
+
         setMsg('email-msg', '发送中…');
         var r = await fetch('/api/verify-email', {
           method: 'POST', headers: {'Content-Type':'application/json'},
           body: JSON.stringify({ email: email, plan: plan, turnstile: token })
         }).then(function (x) { return x.json(); })
          .catch(function () { return { ok: false, msg: '网络错误，请重试' }; });
-        tsReset();   // token 一次性，用掉后重置，保证后续操作能拿到新 token
+        tsReset();   // token 一次性
+
         if (r.ok) {
-          setMsg('email-msg', r.msg, true);
+          setMsg('email-msg', r.msg + '（10 分钟内有效）', true);
+          verifyFails = 0;
           document.getElementById('code-row').style.display = 'flex';
+          document.getElementById('code').focus();
+          startCountdown(btn, r.cooldown || 60);
         } else {
+          if (r.retry_after) startCountdown(btn, r.retry_after);   // 服务端重发冷却
           setMsg('email-msg', r.msg, false);
         }
       });
 
-      // ② 校验验证码
+      // ③ 校验验证码 → 提交给后台
       document.getElementById('btn-verify').addEventListener('click', async function () {
+        var btn = this;
         var email = document.getElementById('email').value.trim();
         var code = document.getElementById('code').value.trim();
+        if (!code) return setMsg('email-msg', '请输入验证码', false);
         setMsg('email-msg', '验证中…');
+        btn.disabled = true;
         var r = await fetch('/api/verify-code', {
           method: 'POST', headers: {'Content-Type':'application/json'},
           body: JSON.stringify({ email: email, code: code })
-        }).then(function (x) { return x.json(); });
-        setMsg('email-msg', r.msg, r.ok);
+        }).then(function (x) { return x.json(); })
+         .catch(function () { return { ok: false, msg: '网络错误，请重试' }; });
+        btn.disabled = false;
+
+        if (r.ok) {
+          verifyFails = 0;
+          // 验证通过 → 提示付款（密码由管理员确认收款后邮件发出）
+          setMsg('email-msg', '', true);
+          document.getElementById('code-row').style.display = 'none';
+          stopCountdown(document.getElementById('btn-code'), '邮箱已验证');
+          document.getElementById('btn-code').disabled = true;
+          document.getElementById('step2').style.display = 'block';
+          document.getElementById('done-msg').innerHTML =
+            '✅ 邮箱已确认：<b>' + email + '</b><br>'
+            + '请按上方选定套餐扫码付款，备注里填上这个邮箱。<br>'
+            + '付款后请查收邮箱——<b>登录密码会发到你的邮箱</b>。'
+            + '因需人工核对付款信息，<b>最晚 1 个工作日</b>完成。';
+        } else {
+          // 连错达上限 / 已过期 → 从头开始。
+          // 服务端会返回 reset=true；再做一层客户端计数兜底，
+          // 这样即使服务端版本较旧也能正确重置。
+          verifyFails++;
+          var needReset = r.reset || verifyFails >= MAX_FAILS || /过期|重新获取/.test(r.msg || '');
+          if (needReset) {
+            resetToStart((verifyFails >= MAX_FAILS && !r.reset)
+              ? ('验证码错误已达 ' + MAX_FAILS + ' 次，请重新获取验证码')
+              : r.msg);
+          } else {
+            setMsg('email-msg', r.msg + '（还可再试 ' + Math.max(0, MAX_FAILS - verifyFails) + ' 次）', false);
+          }
+        }
       });
 
       // 登录
@@ -254,9 +393,10 @@
         var u = document.getElementById('lu').value.trim();
         var p = document.getElementById('lp').value;
         if (!u || !p) return setMsg('login-msg', '请输入用户名和密码', false);
-        setMsg('login-msg', '验证中…');
-        var token = await tsEnsure();
-        if (!token) return setMsg('login-msg', '人机验证未完成，请刷新页面重试', false);
+        setMsg('login-msg', '正在确认你不是机器人…');
+        if (!(await tsEnsureWidget())) return setMsg('login-msg', '人机验证组件加载失败，请刷新页面重试', false);
+        var token = await tsEnsureToken();
+        if (!token) return setMsg('login-msg', '请先完成上方的人机验证', false);
         setMsg('login-msg', '登录中…');
         var r = await fetch('/api/login', {
           method: 'POST', headers: {'Content-Type':'application/json'},
@@ -271,39 +411,6 @@
           setMsg('login-msg', r.msg, false);
         }
       });
-
-      // Turnstile：token 一次性，用后重置；重置后新 token 需几秒才生成，
-      // 所以下一次操作要“等”而不是直接报错（否则连点/重发会误报人机失败）。
-      function tsToken() {
-        return (window.turnstile && window._tsToken) ? window._tsToken : '';
-      }
-      function tsReset() {
-        window._tsToken = '';
-        if (window.turnstile && window._tsWidgetId != null) {
-          try { turnstile.reset(window._tsWidgetId); } catch (e) {}
-        }
-      }
-      /** 等到 widget 给出 token（最多 ~20s），拿不到返回 '' */
-      function tsEnsure() {
-        if (tsToken()) return Promise.resolve(tsToken());
-        return new Promise(function (resolve) {
-          var n = 0;
-          var iv = setInterval(function () {
-            if (tsToken() || ++n > 80) { clearInterval(iv); resolve(tsToken()); }
-          }, 250);
-        });
-      }
-
-      // api.js 加载完成后回调（?onload=onloadTurnstileCallback 触发）
-      // 注意：不要在这里初始化 window._tsWidgetId。api.js 是 async，
-      // 可能在本内联脚本之前就已执行完 onload，重新赋值会把 widget id 抹掉。
-      window.onloadTurnstileCallback = function () {
-        if (!(window.turnstile && TURNSTILE_SITE_KEY)) return;
-        window._tsWidgetId = turnstile.render('#cf-turnstile', {
-          sitekey: TURNSTILE_SITE_KEY,
-          callback: function (t) { window._tsToken = t; }
-        });
-      };
     })();
   </script>
 </body>
