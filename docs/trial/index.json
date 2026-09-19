@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-19 04:08",
-   "title": "Death toll at 31 in Pakistan police compound attack, AFP reports"
-  },
-  {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-19 04:02",
-   "title": "The colour of flavour — an autumn food and drink special"
+   "time": "09-19 06:05",
+   "title": "AfD surge in eastern Germany makes some immigrants question whether they still belong"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-19 04:01",
-   "title": "China investigates Meituan and Alibaba units for suspected violations of competition laws"
+   "time": "09-19 05:58",
+   "title": "Trump declines to say whether he will tear down Kennedy Center"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-19 04:00",
-   "title": "Unpacking the real fiscal costs of immigration"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-19 05:54",
+   "title": "California Court Blocks Part of TikTok's $400 Million Settlement"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-19 04:00",
-   "title": "Emma Bonino, Italian politician and activist 1948-2026"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-19 05:27",
+   "title": "Bravos logra primer triunfo en torneo mexicano de fútbol con doblete de colombiano Estupiñán"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-19 05:27",
+   "title": "China vessel rams Philippine boat on refueling mission, coast guard says"
   }
  ]
 }
