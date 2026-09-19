@@ -1,6 +1,6 @@
 {
  "date": "20260918",
- "generated_at": "2026-09-19T09:11:28.603932+08:00",
+ "generated_at": "2026-09-19T12:12:29.170568+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -66,7 +66,7 @@
      "summary_zh": "英伟达CEO黄仁勋重申AI不会对人类构成灭绝风险，称2030年世界末日概率为零，主张行业全速发展但确保安全。"
     },
     {
-     "title": "Paramount Shares Climb on Reports of Warner Settlement Talks",
+     "title": "Paramount in Settlement Talks With States Over Warner Takeover",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/paramount-shares-climb-on-report-of-warner-deal-settlement-talks",
      "link": "https://www.bloomberg.com/news/articles/2026-09-18/paramount-shares-climb-on-report-of-warner-deal-settlement-talks",
      "published_cst": "2026-09-18T23:15:29+08:00",
@@ -274,7 +274,7 @@
      "summary_zh": "加拿大总理卡尼本周推动与欧盟建立新伙伴关系，欧盟提议加拿大成为“准成员”，以减少对美经济依赖。"
     },
     {
-     "title": "Trump Says He Has Security Deal on Greenland With Denmark",
+     "title": "Trump Says US Has Security Deal on Greenland With Denmark",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/trump-says-he-reached-security-deal-on-greenland-with-denmark",
      "link": "https://www.bloomberg.com/news/articles/2026-09-18/trump-says-he-reached-security-deal-on-greenland-with-denmark",
      "published_cst": "2026-09-18T21:27:03+08:00",
@@ -3368,7 +3368,7 @@
      "summary_zh": "法国10年期国债风险溢价升至104基点，创14年新高，因赤字超标和政治不确定性加剧。"
     },
     {
-     "title": "China's Fiscal Pullback Stretches Into August as Spending Slumps",
+     "title": "China's Fiscal Pullback Extends to August as Spending Slumps",
      "url": "https://www.bloomberg.com/news/articles/2026-09-18/china-s-fiscal-pullback-stretches-into-august-as-spending-slumps",
      "link": "https://www.bloomberg.com/news/articles/2026-09-18/china-s-fiscal-pullback-stretches-into-august-as-spending-slumps",
      "published_cst": "2026-09-18T10:43:01+08:00",

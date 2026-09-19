@@ -1,6 +1,6 @@
 {
  "date": "20260919",
- "generated_at": "2026-09-19T09:11:32.348077+08:00",
+ "generated_at": "2026-09-19T12:11:14.256932+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -98,10 +98,379 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 1,
+   "count": 42,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "The colour of flavour — an autumn food and drink special",
+     "url": "https://www.ft.com/content/2eba881e-033a-485f-8b2e-46f2d5a1542c",
+     "link": "https://www.ft.com/content/2eba881e-033a-485f-8b2e-46f2d5a1542c",
+     "published_cst": "2026-09-19T04:02:02+08:00",
+     "time": "09-19 04:02",
+     "body": null,
+     "title_zh": "风味之色——秋季美食饮品特辑"
+    },
+    {
+     "title": "Unpacking the real fiscal costs of immigration",
+     "url": "https://www.ft.com/content/124c1cf0-4885-495c-a907-a5217d589f9d",
+     "link": "https://www.ft.com/content/124c1cf0-4885-495c-a907-a5217d589f9d",
+     "published_cst": "2026-09-19T04:00:34+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "解析移民的真实财政成本"
+    },
+    {
+     "title": "Emma Bonino, Italian politician and activist 1948-2026",
+     "url": "https://www.ft.com/content/d1714339-d54c-4e45-8989-0c2f4246b9b2",
+     "link": "https://www.ft.com/content/d1714339-d54c-4e45-8989-0c2f4246b9b2",
+     "published_cst": "2026-09-19T04:00:34+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "埃玛·博尼诺，意大利政治家和社会活动家，1948-2026"
+    },
+    {
+     "title": "The Anglo-French moment",
+     "url": "https://www.ft.com/content/b6c4501e-76fe-4559-a3c3-6ad7aa07eaa5",
+     "link": "https://www.ft.com/content/b6c4501e-76fe-4559-a3c3-6ad7aa07eaa5",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "英法时刻"
+    },
+    {
+     "title": "South Africa’s ANC fails to register 181 local election candidates",
+     "url": "https://www.ft.com/content/a82a42a4-8f80-4569-a706-e7278c088d4d",
+     "link": "https://www.ft.com/content/a82a42a4-8f80-4569-a706-e7278c088d4d",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "南非非国大未能登记181名地方选举候选人"
+    },
+    {
+     "title": "Passport to Piddington: a short history of micronations",
+     "url": "https://www.ft.com/content/81064dde-d1eb-49db-ba38-b6e28f334798",
+     "link": "https://www.ft.com/content/81064dde-d1eb-49db-ba38-b6e28f334798",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "皮丁顿护照：微型国家的简史"
+    },
+    {
+     "title": "How should investors position for the robot apocalypse?",
+     "url": "https://www.ft.com/content/129a5052-ac31-4975-8a88-91ce09740a0b",
+     "link": "https://www.ft.com/content/129a5052-ac31-4975-8a88-91ce09740a0b",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "投资者应如何为机器人时代布局？"
+    },
+    {
+     "title": "Housebuilders aren’t the only ones who benefit from ‘Help to Buy’",
+     "url": "https://www.ft.com/content/64ee1dec-7b98-40b1-8f50-5fa6bb760cfd",
+     "link": "https://www.ft.com/content/64ee1dec-7b98-40b1-8f50-5fa6bb760cfd",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "购房援助计划受益者不止房屋建筑商"
+    },
+    {
+     "title": "Dry British summers raise hopes of homegrown chickpeas",
+     "url": "https://www.ft.com/content/527bad1f-53a2-482c-b06b-ae3484993144",
+     "link": "https://www.ft.com/content/527bad1f-53a2-482c-b06b-ae3484993144",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "英国干旱夏季让本土鹰嘴豆种植有望"
+    },
+    {
+     "title": "Australia has a secret weapon in the race for AI compute",
+     "url": "https://www.ft.com/content/9cd59652-3e31-4ad0-942f-3eb744ec7893",
+     "link": "https://www.ft.com/content/9cd59652-3e31-4ad0-942f-3eb744ec7893",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "澳大利亚在AI算力竞赛中拥有秘密武器"
+    },
+    {
+     "title": "Abdulmalik al-Houthi, the Yemeni rebel leader spooking oil markets",
+     "url": "https://www.ft.com/content/bb47c76c-1a41-4fc0-9674-41469397dd3f",
+     "link": "https://www.ft.com/content/bb47c76c-1a41-4fc0-9674-41469397dd3f",
+     "published_cst": "2026-09-19T04:00:33+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "也门叛军领袖阿卜杜勒·马利克·胡塞令石油市场恐慌"
+    },
+    {
+     "title": "The men’s style guide AW26",
+     "url": "https://www.ft.com/content/0816fe9d-3d92-46dd-9f87-2f888be02122",
+     "link": "https://www.ft.com/content/0816fe9d-3d92-46dd-9f87-2f888be02122",
+     "published_cst": "2026-09-19T04:00:24+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "男士时尚指南AW26"
+    },
+    {
+     "title": "The legacy of Emmett Till",
+     "url": "https://www.ft.com/content/38b807a6-462b-49c6-9969-bdafdb73ee2c",
+     "link": "https://www.ft.com/content/38b807a6-462b-49c6-9969-bdafdb73ee2c",
+     "published_cst": "2026-09-19T04:00:24+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "埃米特·蒂尔的遗产"
+    },
+    {
+     "title": "Investors weigh whether Anthropic can sustain surging revenues post-IPO",
+     "url": "https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57",
+     "link": "https://www.ft.com/content/96d0a206-a37b-4166-b78d-b27ed24f7d57",
+     "published_cst": "2026-09-19T04:00:24+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "投资者权衡Anthropic上市后能否维持收入激增"
+    },
+    {
+     "title": "Five ways the Iran energy shock is wrongfooting the world",
+     "url": "https://www.ft.com/content/09c2e11c-1632-42e3-8fc6-809468b7f87e",
+     "link": "https://www.ft.com/content/09c2e11c-1632-42e3-8fc6-809468b7f87e",
+     "published_cst": "2026-09-19T04:00:24+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "伊朗能源冲击令世界措手不及的五种方式"
+    },
+    {
+     "title": "Directors’ Deals: Applied Nutrition executives garner £19.2mn in share sales",
+     "url": "https://www.ft.com/content/2d0524ad-7e14-4af4-a058-8311b4069bf6",
+     "link": "https://www.ft.com/content/2d0524ad-7e14-4af4-a058-8311b4069bf6",
+     "published_cst": "2026-09-19T04:00:24+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "董事交易：应用营养公司高管抛售股票套现1920万英镑"
+    },
+    {
+     "title": "Can seven puddings make a roomful of friends?",
+     "url": "https://www.ft.com/content/e3a0ab67-8b8a-4cb7-a3d9-25944249d0bb",
+     "link": "https://www.ft.com/content/e3a0ab67-8b8a-4cb7-a3d9-25944249d0bb",
+     "published_cst": "2026-09-19T04:00:24+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "七布丁能聚满屋友吗？"
+    },
+    {
+     "title": "‘Eat!’: The Balkan art of feeding people",
+     "url": "https://www.ft.com/content/d8dd5b1b-4792-407b-9fb8-fb8ae09cb8eb",
+     "link": "https://www.ft.com/content/d8dd5b1b-4792-407b-9fb8-fb8ae09cb8eb",
+     "published_cst": "2026-09-19T04:00:23+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "“吃吧！”：巴尔干半岛的待客之道"
+    },
+    {
+     "title": "US state department under pressure to disclose Venezuelan oil takings",
+     "url": "https://www.ft.com/content/05887f92-c777-48ab-8efa-9a39e7e18a9f",
+     "link": "https://www.ft.com/content/05887f92-c777-48ab-8efa-9a39e7e18a9f",
+     "published_cst": "2026-09-19T04:00:23+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "美国国务院面临压力披露委内瑞拉石油收益"
+    },
+    {
+     "title": "Is not saying ‘I love you’ bad parenting?",
+     "url": "https://www.ft.com/content/ec1817f2-ba1e-4dad-9d97-4700b960ec67",
+     "link": "https://www.ft.com/content/ec1817f2-ba1e-4dad-9d97-4700b960ec67",
+     "published_cst": "2026-09-19T04:00:23+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "不说我爱你就是糟糕的父母吗？"
+    },
+    {
+     "title": "Brussels rebuffs calls for EU-wide digital services tax",
+     "url": "https://www.ft.com/content/e5a76494-71df-4ee0-a85f-b28f2c94ded6",
+     "link": "https://www.ft.com/content/e5a76494-71df-4ee0-a85f-b28f2c94ded6",
+     "published_cst": "2026-09-19T04:00:23+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "布鲁塞尔拒绝欧盟范围内数字服务税呼吁"
+    },
+    {
+     "title": "What to drink when comfort is called for",
+     "url": "https://www.ft.com/content/b1f8ee98-f708-416a-80be-edaffd362b54",
+     "link": "https://www.ft.com/content/b1f8ee98-f708-416a-80be-edaffd362b54",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "需要慰藉时该喝什么"
+    },
+    {
+     "title": "Tim Hayward on the strange shame of brown food",
+     "url": "https://www.ft.com/content/27e4b30f-13d0-43c6-b99d-29aa3e8e0bee",
+     "link": "https://www.ft.com/content/27e4b30f-13d0-43c6-b99d-29aa3e8e0bee",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "蒂姆·海沃德谈棕色食物的莫名羞耻"
+    },
+    {
+     "title": "Mirtala, Chiswick: Mexican food with a story worth retelling — restaurant review",
+     "url": "https://www.ft.com/content/b402eefb-7565-4e8c-bba9-e82c9c60c97d",
+     "link": "https://www.ft.com/content/b402eefb-7565-4e8c-bba9-e82c9c60c97d",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "米尔塔拉，奇西克：值得回味的墨西哥美食——餐厅评论"
+    },
+    {
+     "title": "Jay Rayner’s quest for the Best Brown Dish",
+     "url": "https://www.ft.com/content/d006d37e-1c24-46be-9010-2dfc88b53399",
+     "link": "https://www.ft.com/content/d006d37e-1c24-46be-9010-2dfc88b53399",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "杰伊·雷纳探寻最佳布朗尼菜肴"
+    },
+    {
+     "title": "I’ve covered wine for 50 years. Here are 50 ways it changed",
+     "url": "https://www.ft.com/content/b4317f3f-ba01-4547-bf69-98628d7ebe7b",
+     "link": "https://www.ft.com/content/b4317f3f-ba01-4547-bf69-98628d7ebe7b",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "我报道葡萄酒50年，以下是它的50种变化"
+    },
+    {
+     "title": "How long is too long to cook a stew?",
+     "url": "https://www.ft.com/content/eb4c0c46-1bd3-44e8-91d9-61ae580a0d86",
+     "link": "https://www.ft.com/content/eb4c0c46-1bd3-44e8-91d9-61ae580a0d86",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "炖菜炖多久算太久？"
+    },
+    {
+     "title": "Fiona Shaw on the new Sense and Sensibility film: ‘I was brought up in the 19th century’",
+     "url": "https://www.ft.com/content/55f006f0-2de4-41bc-a949-d1146e7bf018",
+     "link": "https://www.ft.com/content/55f006f0-2de4-41bc-a949-d1146e7bf018",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "菲奥娜·肖谈新《理智与情感》电影：“我在19世纪长大”"
+    },
+    {
+     "title": "Amar Kanwar: ‘If the work has meaning, it will connect’",
+     "url": "https://www.ft.com/content/9a3df6d3-0a97-47d5-824d-40cf45d3b566",
+     "link": "https://www.ft.com/content/9a3df6d3-0a97-47d5-824d-40cf45d3b566",
+     "published_cst": "2026-09-19T04:00:14+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "阿马尔·坎瓦尔：“作品有意义，自会引人共鸣”"
+    },
+    {
+     "title": "Richard E Grant: ‘Terror is a great motivator. I like that’",
+     "url": "https://www.ft.com/content/d96d452f-9da0-41b3-a248-b8b8d0caf382",
+     "link": "https://www.ft.com/content/d96d452f-9da0-41b3-a248-b8b8d0caf382",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "理查德·E·格兰特：“恐惧是强大的动力，我喜欢这样”"
+    },
+    {
+     "title": "Nine gourmand scents for sweet tooths",
+     "url": "https://www.ft.com/content/6b3b4011-08e6-4970-a6dd-0a33b541cd64",
+     "link": "https://www.ft.com/content/6b3b4011-08e6-4970-a6dd-0a33b541cd64",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "九款甜品控的香氛美食"
+    },
+    {
+     "title": "Nike’s Martin Lotti picks the best of Portland",
+     "url": "https://www.ft.com/content/41539aaa-2f83-4bc2-a1d1-ffadcab11827",
+     "link": "https://www.ft.com/content/41539aaa-2f83-4bc2-a1d1-ffadcab11827",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "耐克马丁·洛蒂精选波特兰最佳"
+    },
+    {
+     "title": "My secret, feel-good comfort food",
+     "url": "https://www.ft.com/content/0c128ddf-c0d4-4cd9-9e7a-7db81ab8ba48",
+     "link": "https://www.ft.com/content/0c128ddf-c0d4-4cd9-9e7a-7db81ab8ba48",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "我秘密的舒心安慰食物"
+    },
+    {
+     "title": "Louis Thompson – fashion’s favourite pastry chef",
+     "url": "https://www.ft.com/content/3acf1d52-5e0e-40b4-a3cd-6e311ffec459",
+     "link": "https://www.ft.com/content/3acf1d52-5e0e-40b4-a3cd-6e311ffec459",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "路易斯·汤普森——时尚界最爱的糕点师"
+    },
+    {
+     "title": "Jemima Kelly: my week at Rafa Nadal’s school of padel",
+     "url": "https://www.ft.com/content/4e59f62f-bf3d-4284-8d1c-032ab86c3301",
+     "link": "https://www.ft.com/content/4e59f62f-bf3d-4284-8d1c-032ab86c3301",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "杰迈玛·凯利：我在拉法·纳达尔的板网球学校的一周"
+    },
+    {
+     "title": "Entente cordiale: how French living has influenced British artists",
+     "url": "https://www.ft.com/content/0369d11b-7e38-4c65-bc75-de9199f7227b",
+     "link": "https://www.ft.com/content/0369d11b-7e38-4c65-bc75-de9199f7227b",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "法英友好：法国生活如何影响英国艺术家"
+    },
+    {
+     "title": "Diary of a garden rescue: Patrick Grant is feeling fruity",
+     "url": "https://www.ft.com/content/6265eae4-b959-4f00-a003-87abe60485b0",
+     "link": "https://www.ft.com/content/6265eae4-b959-4f00-a003-87abe60485b0",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "花园救援日记：帕特里克·格兰特心情愉悦"
+    },
+    {
+     "title": "Bus Palladium, Paris: rock ’n’ roll history with room service",
+     "url": "https://www.ft.com/content/430b8827-2c48-477c-a9ef-522570127e06",
+     "link": "https://www.ft.com/content/430b8827-2c48-477c-a9ef-522570127e06",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "巴黎钯金巴士：摇滚历史与客房服务"
+    },
+    {
+     "title": "A love letter to the luncheonette",
+     "url": "https://www.ft.com/content/ea34d615-0751-4058-8295-7a7c582f5ca7",
+     "link": "https://www.ft.com/content/ea34d615-0751-4058-8295-7a7c582f5ca7",
+     "published_cst": "2026-09-19T04:00:05+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "致午餐柜台的情书"
+    },
+    {
+     "title": "Paramount in talks to settle antitrust lawsuit blocking WBD deal",
+     "url": "https://www.ft.com/content/e0e384b8-aa4c-4948-b4ee-7bdff414641b",
+     "link": "https://www.ft.com/content/e0e384b8-aa4c-4948-b4ee-7bdff414641b",
+     "published_cst": "2026-09-19T01:37:52+08:00",
+     "time": "09-19 01:37",
+     "body": null,
+     "title_zh": "派拉蒙洽谈和解反垄断诉讼以推进华纳兄弟探索交易"
+    },
+    {
+     "title": "Google’s Gemini hacked three companies in new AI safety incident",
+     "url": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189",
+     "link": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189",
+     "published_cst": "2026-09-19T01:29:25+08:00",
+     "time": "09-19 01:29",
+     "body": null,
+     "title_zh": "谷歌Gemini在新AI安全事件中入侵三家公司"
+    },
     {
      "title": "Correction: Simpson’s-in-the-Strand chef",
      "url": "https://www.ft.com/content/d845a69d-91bc-4f11-b10d-714c264d4907",
@@ -116,10 +485,64 @@
   "wsj": {
    "name": "The Wall Street Journal",
    "home": "https://www.wsj.com",
-   "count": 6,
+   "count": 12,
    "body_support": false,
    "note": "正文可经 TradingView 道琼斯通讯社转载获取（需搜索）",
    "items": [
+    {
+     "title": "Pepper…and Salt",
+     "url": "https://www.wsj.com/opinion/pepperand-salt-31e25320",
+     "link": "https://www.wsj.com/opinion/pepperand-salt-31e25320",
+     "published_cst": "2026-09-19T04:00:00+08:00",
+     "time": "09-19 04:00",
+     "body": null,
+     "title_zh": "胡椒……和盐"
+    },
+    {
+     "title": "What’s News: Worldwide",
+     "url": "https://www.wsj.com/articles/whats-news-worldwide-06b6d912",
+     "link": "https://www.wsj.com/articles/whats-news-worldwide-06b6d912",
+     "published_cst": "2026-09-19T02:53:00+08:00",
+     "time": "09-19 02:53",
+     "body": null,
+     "title_zh": "全球要闻"
+    },
+    {
+     "title": "What’s News: Business & Finance",
+     "url": "https://www.wsj.com/articles/whats-news-business-finance-2240e34a",
+     "link": "https://www.wsj.com/articles/whats-news-business-finance-2240e34a",
+     "published_cst": "2026-09-19T02:46:00+08:00",
+     "time": "09-19 02:46",
+     "body": null,
+     "title_zh": "商业与金融要闻"
+    },
+    {
+     "title": "Hegseth Is Trump’s Untouchable Warrior—But His Support in Congress Is Slipping",
+     "url": "https://www.wsj.com/politics/national-security/hegseth-is-trumps-untouchable-warriorbut-his-support-in-congress-is-slipping-a2ccdb21",
+     "link": "https://www.wsj.com/politics/national-security/hegseth-is-trumps-untouchable-warriorbut-his-support-in-congress-is-slipping-a2ccdb21",
+     "published_cst": "2026-09-19T02:00:00+08:00",
+     "time": "09-19 02:00",
+     "body": null,
+     "title_zh": "赫格塞斯是特朗普不可触碰的勇士，但他在国会的支持正在下滑"
+    },
+    {
+     "title": "Germany’s Military Rebuild Is Making Its Neighbors Nervous",
+     "url": "https://www.wsj.com/world/europe/germanys-military-rebuild-is-making-its-neighbors-nervous-f7c0091e",
+     "link": "https://www.wsj.com/world/europe/germanys-military-rebuild-is-making-its-neighbors-nervous-f7c0091e",
+     "published_cst": "2026-09-19T02:00:00+08:00",
+     "time": "09-19 02:00",
+     "body": null,
+     "title_zh": "德国军力重建令邻国不安"
+    },
+    {
+     "title": "Corrections & Amplifications",
+     "url": "https://www.wsj.com/articles/corrections-amplifications-61d96d22",
+     "link": "https://www.wsj.com/articles/corrections-amplifications-61d96d22",
+     "published_cst": "2026-09-19T01:23:00+08:00",
+     "time": "09-19 01:23",
+     "body": null,
+     "title_zh": "更正与补充"
+    },
     {
      "title": "Republicans in Tough Races Are Tip-Toeing Away From Trump",
      "url": "https://www.wsj.com/politics/elections/republicans-in-tough-races-are-tip-toeing-away-from-trump-374ddd4f",
@@ -179,10 +602,145 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 17,
+   "count": 29,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "Death toll at 31 in Pakistan police compound attack, AFP reports",
+     "url": "https://www.reuters.com/world/asia-pacific/death-toll-31-pakistan-police-compound-attack-afp-reports-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/death-toll-31-pakistan-police-compound-attack-afp-reports-2026-09-19/",
+     "published_cst": "2026-09-19T04:08:09+08:00",
+     "time": "09-19 04:08",
+     "body": null,
+     "title_zh": "巴基斯坦警察大院袭击死亡人数升至31人，法新社报道"
+    },
+    {
+     "title": "China investigates Meituan and Alibaba units for suspected violations of competition laws",
+     "url": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
+     "published_cst": "2026-09-19T04:01:36+08:00",
+     "time": "09-19 04:01",
+     "body": null,
+     "title_zh": "中国调查美团和阿里巴巴旗下企业涉嫌违反竞争法"
+    },
+    {
+     "title": "US appeals court rejects Trump policy allowing swift deportations to third countries",
+     "url": "https://www.reuters.com/world/us-appeals-court-rejects-trump-policy-allowing-fast-thirdcountry-deportations-2026-09-18/",
+     "link": "https://www.reuters.com/world/us-appeals-court-rejects-trump-policy-allowing-fast-thirdcountry-deportations-2026-09-18/",
+     "published_cst": "2026-09-19T03:51:34+08:00",
+     "time": "09-19 03:51",
+     "body": null,
+     "title_zh": "美国上诉法院驳回特朗普允许快速驱逐至第三国的政策"
+    },
+    {
+     "title": "US fashion council CEO Kolb resigns after clash with runway show protesters",
+     "url": "https://www.reuters.com/lifestyle/us-fashion-council-ceo-kolb-resigns-after-clash-with-runway-show-protesters-2026-09-19/",
+     "link": "https://www.reuters.com/lifestyle/us-fashion-council-ceo-kolb-resigns-after-clash-with-runway-show-protesters-2026-09-19/",
+     "published_cst": "2026-09-19T03:40:14+08:00",
+     "time": "09-19 03:40",
+     "body": null,
+     "title_zh": "美国时装协会CEO科尔布在与秀场抗议者冲突后辞职"
+    },
+    {
+     "title": "South Korea justice nominee withdraws in Lee's second cabinet setback as polls slide",
+     "url": "https://www.reuters.com/world/asia-pacific/south-korea-justice-nominee-withdraws-lees-second-cabinet-setback-polls-slide-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/south-korea-justice-nominee-withdraws-lees-second-cabinet-setback-polls-slide-2026-09-19/",
+     "published_cst": "2026-09-19T03:07:44+08:00",
+     "time": "09-19 03:07",
+     "body": null,
+     "title_zh": "韩国司法部长提名人撤回，李在明内阁再遭挫折，民调下滑"
+    },
+    {
+     "title": "Trump says his son told him he will repay Russian oligarch for wedding parties",
+     "url": "https://www.reuters.com/world/us/trump-says-his-son-told-him-he-will-pay-back-russian-oligarch-wedding-2026-09-18/",
+     "link": "https://www.reuters.com/world/us/trump-says-his-son-told-him-he-will-pay-back-russian-oligarch-wedding-2026-09-18/",
+     "published_cst": "2026-09-19T03:06:18+08:00",
+     "time": "09-19 03:06",
+     "body": null,
+     "title_zh": "特朗普称其子告知他将偿还俄罗斯寡头婚礼派对费用"
+    },
+    {
+     "title": "Saudi civil defence sends all-clear after alerts issued for capital Riyadh",
+     "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/",
+     "link": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/",
+     "published_cst": "2026-09-19T03:01:16+08:00",
+     "time": "09-19 03:01",
+     "body": null,
+     "title_zh": "沙特民防部门对首都利雅得发出危险警告后解除警报"
+    },
+    {
+     "title": "Indigenous, civil-society groups sue Prabowo over forest fire response",
+     "url": "https://www.reuters.com/business/environment/indigenous-civil-society-groups-sue-prabowo-over-forest-fire-response-2026-09-19/",
+     "link": "https://www.reuters.com/business/environment/indigenous-civil-society-groups-sue-prabowo-over-forest-fire-response-2026-09-19/",
+     "published_cst": "2026-09-19T02:59:43+08:00",
+     "time": "09-19 02:59",
+     "body": null,
+     "title_zh": "原住民和民间社会团体因森林火灾应对起诉普拉博沃"
+    },
+    {
+     "title": "US clears way for $2.7 billion sale to Ukraine of air-defense development upgrades",
+     "url": "https://www.reuters.com/world/europe/us-clears-way-27-billion-sale-ukraine-air-defense-development-upgrades-2026-09-19/",
+     "link": "https://www.reuters.com/world/europe/us-clears-way-27-billion-sale-ukraine-air-defense-development-upgrades-2026-09-19/",
+     "published_cst": "2026-09-19T02:17:45+08:00",
+     "time": "09-19 02:17",
+     "body": null,
+     "title_zh": "美国批准向乌克兰出售27亿美元防空系统升级"
+    },
+    {
+     "title": "More Chinese films fill TIFF theaters as Canada-China ties warm",
+     "url": "https://www.reuters.com/business/media-telecom/more-chinese-films-fill-tiff-theaters-canada-china-ties-warm-2026-09-18/",
+     "link": "https://www.reuters.com/business/media-telecom/more-chinese-films-fill-tiff-theaters-canada-china-ties-warm-2026-09-18/",
+     "published_cst": "2026-09-19T02:15:56+08:00",
+     "time": "09-19 02:15",
+     "body": null,
+     "title_zh": "加中关系回暖，多部中国电影亮相多伦多电影节"
+    },
+    {
+     "title": "US Treasury's Bessent to discuss AI, rare earths with China's He, source says",
+     "url": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
+     "link": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
+     "published_cst": "2026-09-19T02:10:58+08:00",
+     "time": "09-19 02:10",
+     "body": null,
+     "title_zh": "美财长贝森特将与中方何立峰讨论人工智能、贸易和稀土问题"
+    },
+    {
+     "title": "Flights resume at Luxembourg Airport after temporary shutdown over drone activity",
+     "url": "https://www.reuters.com/world/flights-resume-luxembourg-airport-after-temporary-shutdown-over-drone-activity-2026-09-19/",
+     "link": "https://www.reuters.com/world/flights-resume-luxembourg-airport-after-temporary-shutdown-over-drone-activity-2026-09-19/",
+     "published_cst": "2026-09-19T01:32:12+08:00",
+     "time": "09-19 01:32",
+     "body": null,
+     "title_zh": "卢森堡机场因无人机活动短暂关闭后恢复航班"
+    },
+    {
+     "title": "Beaches on Australia's west coast remain shut after shark attack",
+     "url": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
+     "published_cst": "2026-09-19T01:26:16+08:00",
+     "time": "09-19 01:26",
+     "body": null,
+     "title_zh": "澳大利亚西海岸海滩在鲨鱼袭击后仍关闭"
+    },
+    {
+     "title": "Poutine accuse l'Ukraine d'ingérence dans les élections législatives russes",
+     "url": "https://www.reuters.com/fr/affaires/poutine-accuse-lukraine-dingrence-dans-les-lections-lgislatives-russes-2026-09-19/",
+     "link": "https://www.reuters.com/fr/affaires/poutine-accuse-lukraine-dingrence-dans-les-lections-lgislatives-russes-2026-09-19/",
+     "published_cst": "2026-09-19T01:18:09+08:00",
+     "time": "09-19 01:18",
+     "body": null,
+     "title_zh": "普京指责乌克兰干涉俄罗斯立法选举"
+    },
+    {
+     "title": "OFRMO Summary",
+     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
+     "published_cst": "2026-09-19T01:18:09+08:00",
+     "time": "09-19 01:18",
+     "body": null,
+     "title_zh": "OFRMO摘要"
+    },
     {
      "title": "Paramount could settle with states over Warner Bros. as soon as this weekend, sources say",
      "url": "https://www.reuters.com/business/media-telecom/paramount-states-discuss-cnn-monitoring-film-release-commitment-sources-say-2026-09-18/",
@@ -209,24 +767,6 @@
      "time": "09-19 00:49",
      "body": null,
      "title_zh": "特朗普称将禁止CNN、MS NOW、Politico进入白宫"
-    },
-    {
-     "title": "Saudi civil defence sends all-clear after danger warning for capital Riyadh",
-     "url": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/",
-     "link": "https://www.reuters.com/world/middle-east/saudi-civil-defence-sends-all-clear-after-danger-warning-capital-riyadh-2026-09-19/",
-     "published_cst": "2026-09-19T00:42:51+08:00",
-     "time": "09-19 00:42",
-     "body": null,
-     "title_zh": "沙特民防部门对首都利雅得发出危险警告后解除警报"
-    },
-    {
-     "title": "US Treasury's Bessent to discuss AI, trade, rare earths with China's He, source says",
-     "url": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
-     "link": "https://www.reuters.com/world/china/us-treasurys-bessent-plans-discuss-ai-rare-earths-with-chinas-he-source-says-2026-09-18/",
-     "published_cst": "2026-09-19T00:41:43+08:00",
-     "time": "09-19 00:41",
-     "body": null,
-     "title_zh": "美财长贝森特将与中方何立峰讨论人工智能、贸易和稀土问题"
     },
     {
      "title": "Padre de estudiante española muerta en México llega al país, tras detención de sospechoso",
@@ -317,15 +857,6 @@
      "time": "09-19 00:07",
      "body": null,
      "title_zh": "特朗普宣布美国与丹麦就格陵兰岛达成协议"
-    },
-    {
-     "title": "OFRMO Summary",
-     "url": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
-     "link": "https://www.reuters.com/fr/international/ofrmo-summary-2026-01-29/",
-     "published_cst": "2026-09-19T00:06:24+08:00",
-     "time": "09-19 00:06",
-     "body": null,
-     "title_zh": "OFRMO摘要"
     },
     {
      "title": "Reajuste do Bolsa Família não fere lei eleitoral, decide Gilmar Mendes, do STF",

@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-19 01:05",
-   "title": "Paramount could settle with states over Warner Bros. as soon as this weekend, sources say"
+   "time": "09-19 04:08",
+   "title": "Death toll at 31 in Pakistan police compound attack, AFP reports"
+  },
+  {
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-19 04:02",
+   "title": "The colour of flavour — an autumn food and drink special"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-19 01:04",
-   "title": "US and Denmark reach deal on Greenland, Trump says"
+   "time": "09-19 04:01",
+   "title": "China investigates Meituan and Alibaba units for suspected violations of competition laws"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-19 01:00",
-   "title": "Indonesia's New Finance Minister Aims for Stability After Political Drama"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-19 04:00",
+   "title": "Unpacking the real fiscal costs of immigration"
   },
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-19 01:00",
-   "title": "Republicans in Tough Races Are Tip-Toeing Away From Trump"
-  },
-  {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-19 01:00",
-   "title": "Law Firms Have a Big Problem: Senior Partners Aren’t Retiring"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-19 04:00",
+   "title": "Emma Bonino, Italian politician and activist 1948-2026"
   }
  ]
 }
