@@ -682,7 +682,11 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
 
     <footer>由 LeisureLinux-Editor 编辑 ｜ <a href="/trial/">免费试读</a></footer>
   </div>
-  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  <!-- Turnstile：必须用 onload + render=explicit 显式渲染。
+       若缺 onload，api.js 会退化为隐式渲染，而本页容器没有 data-sitekey，
+       会抛 TurnstileError: Invalid or missing type for parameter "sitekey"，
+       组件永远不出现 → 前端拿不到 token → /api/verify-email 报“人机验证失败”。 -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback&amp;render=explicit" async defer></script>
   <script>
     (function () {{
       var plans = document.querySelectorAll('.plan');
@@ -715,12 +719,16 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
         var plan = getPlan();
         if (!plan) return setMsg('email-msg', '请先选择上方套餐时长', false);
         if (!email || !/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(email)) return setMsg('email-msg', '邮箱格式不正确', false);
-        var token = (window.turnstile && window._tsToken) ? window._tsToken : '';
+        setMsg('email-msg', '验证中…');
+        var token = await tsEnsure();   // token 一次性，重发时需等新 token 生成
+        if (!token) return setMsg('email-msg', '人机验证未完成，请刷新页面重试', false);
         setMsg('email-msg', '发送中…');
         var r = await fetch('/api/verify-email', {{
           method: 'POST', headers: {{'Content-Type':'application/json'}},
           body: JSON.stringify({{ email: email, plan: plan, turnstile: token }})
-        }}).then(function (x) {{ return x.json(); }});
+        }}).then(function (x) {{ return x.json(); }})
+         .catch(function () {{ return {{ ok: false, msg: '网络错误，请重试' }}; }});
+        tsReset();   // token 一次性，用掉后重置，保证后续操作能拿到新 token
         if (r.ok) {{
           setMsg('email-msg', r.msg, true);
           document.getElementById('code-row').style.display = 'flex';
@@ -745,11 +753,17 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
       document.getElementById('btn-login').addEventListener('click', async function () {{
         var u = document.getElementById('lu').value.trim();
         var p = document.getElementById('lp').value;
+        if (!u || !p) return setMsg('login-msg', '请输入用户名和密码', false);
+        setMsg('login-msg', '验证中…');
+        var token = await tsEnsure();
+        if (!token) return setMsg('login-msg', '人机验证未完成，请刷新页面重试', false);
         setMsg('login-msg', '登录中…');
         var r = await fetch('/api/login', {{
           method: 'POST', headers: {{'Content-Type':'application/json'}},
-          body: JSON.stringify({{ user: u, pass: p }})
-        }}).then(function (x) {{ return x.json(); }});
+          body: JSON.stringify({{ user: u, pass: p, turnstile: token }})
+        }}).then(function (x) {{ return x.json(); }})
+         .catch(function () {{ return {{ ok: false, msg: '网络错误，请重试' }}; }});
+        tsReset();
         if (r.ok) {{
           setMsg('login-msg', '登录成功，正在跳转…', true);
           setTimeout(function () {{ location.href = '/latest/'; }}, 600);
@@ -758,14 +772,37 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
         }}
       }});
 
-      // Turnstile 回调
-      window.onloadTurnstileCallback = function () {{
-        if (window.turnstile && TURNSTILE_SITE_KEY) {{
-          window._tsToken = turnstile.render('#cf-turnstile', {{
-            sitekey: TURNSTILE_SITE_KEY,
-            callback: function (t) {{ window._tsToken = t; }}
-          }});
+      // Turnstile：token 一次性，用后重置；重置后新 token 需几秒才生成，
+      // 所以下一次操作要“等”而不是直接报错（否则连点/重发会误报人机失败）。
+      function tsToken() {{
+        return (window.turnstile && window._tsToken) ? window._tsToken : '';
+      }}
+      function tsReset() {{
+        window._tsToken = '';
+        if (window.turnstile && window._tsWidgetId != null) {{
+          try {{ turnstile.reset(window._tsWidgetId); }} catch (e) {{}}
         }}
+      }}
+      /** 等到 widget 给出 token（最多 ~20s），拿不到返回 '' */
+      function tsEnsure() {{
+        if (tsToken()) return Promise.resolve(tsToken());
+        return new Promise(function (resolve) {{
+          var n = 0;
+          var iv = setInterval(function () {{
+            if (tsToken() || ++n > 80) {{ clearInterval(iv); resolve(tsToken()); }}
+          }}, 250);
+        }});
+      }}
+
+      // api.js 加载完成后回调（?onload=onloadTurnstileCallback 触发）
+      // 注意：不要在这里初始化 window._tsWidgetId。api.js 是 async，
+      // 可能在本内联脚本之前就已执行完 onload，重新赋值会把 widget id 抹掉。
+      window.onloadTurnstileCallback = function () {{
+        if (!(window.turnstile && TURNSTILE_SITE_KEY)) return;
+        window._tsWidgetId = turnstile.render('#cf-turnstile', {{
+          sitekey: TURNSTILE_SITE_KEY,
+          callback: function (t) {{ window._tsToken = t; }}
+        }});
       }};
     }})();
   </script>
