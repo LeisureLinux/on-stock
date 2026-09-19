@@ -1,13 +1,13 @@
 {
  "date": "20260918",
- "generated_at": "2026-09-19T12:12:29.170568+08:00",
+ "generated_at": "2026-09-19T14:12:09.606960+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 246,
+   "count": 247,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
@@ -1866,6 +1866,24 @@
      ],
      "title_zh": "新墨西哥州再现螺旋蝇，港口重开在即",
      "summary_zh": "新世界螺旋蝇在美墨最大牲畜口岸重开前于新墨西哥州再现，该口岸距新病例约150英里，拟9月24日开放。"
+    },
+    {
+     "title": "Weil Gotshal Eyes Merger Options as Rainmakers Exit Law Firm",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-18/us-law-firm-weil-studies-merger-options-after-rainmakers-depart",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-18/us-law-firm-weil-studies-merger-options-after-rainmakers-depart",
+     "published_cst": "2026-09-18T13:22:42+08:00",
+     "time": "09-18 13:22",
+     "body": [
+      "Weil Gotshal & Manges, which has been hit by an exodus of top talent in recent weeks, is considering options for its future including a potential merger with a competitor, people with knowledge of the matter said.",
+      "Top leaders at the US law firm have become more open to the idea of a combination with a rival, and some have held informal discussions to gauge interest in a deal, according to the people. The moves come as Weil evaluates ways to rebuild its business after a slate of departures including Michael Aiello, chair of the firm’s corporate department and one of its most powerful partners.",
+      "Weil has been canvassing its partners in recent days as it seeks to stem the tide of defections, the people said, asking not to be identified because the information is private. It has also been studying other ways to shore up its business through strategic hires and promotions, and it could still remain independent, the people said.",
+      "“Weil is not engaged in merger discussions with any firm,” a spokesperson said in an emailed statement. “Like every leading firm, we continually evaluate opportunities to strengthen our platform.“",
+      "Cravath Swaine & Moore is bringing on Aiello along with five other top Weil partners, including Matthew Gilroy, co-head of the firm’s mergers and acquisitions practice. Sullivan & Cromwell then said Thursday it’s hiring David Avery-Gee, Weil’s co-managing partner in London, and Sarah Flaherty, a partner in Weil’s corporate group in the UK capital.",
+      "Weil, which was founded in New York in 1931, has long been one of the US’s premier law firms. It is especially renowned for its bankruptcy practice; it acted as lead debtors counsel to Lehman Brothers Holdings Inc after its financial crisis collapse and also represented Enron Corporation in its Chapter 11 bankruptcy.",
+      "The firm has also had a track record as an M&A powerhouse, with recent deals including representing Fox Corp. on its $22 billion acquisition of Roku Inc and acting for Orange on its joint bid for €20 billion-valued French telecommunications operator SFR from Altice France."
+     ],
+     "title_zh": "威嘉律所因核心律师离职考虑合并选项",
+     "summary_zh": "美国律所Weil因近期多位顶尖合伙人离职，正考虑与竞争对手合并等选项，但发言人称未进行合并谈判。"
     },
     {
      "title": "US Factory Output Unexpectedly Fell for First Time This Year",
@@ -7367,7 +7385,7 @@
      "title_zh": "派拉蒙与加州总检察长进行高级和解谈判"
     },
     {
-     "title": "U.S. Has Reached Greenland Security Agreement",
+     "title": "U.S. Reaches Greenland Security Agreement",
      "url": "https://www.wsj.com/politics/national-security/trump-says-u-s-has-reached-greenland-security-agreement-with-denmark-61a7ffcd",
      "link": "https://www.wsj.com/politics/national-security/trump-says-u-s-has-reached-greenland-security-agreement-with-denmark-61a7ffcd",
      "published_cst": "2026-09-18T21:59:00+08:00",

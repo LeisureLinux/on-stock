@@ -1,6 +1,6 @@
 {
  "date": "20260917",
- "generated_at": "2026-09-19T12:12:15.196519+08:00",
+ "generated_at": "2026-09-19T14:11:55.333561+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
@@ -5312,6 +5312,27 @@
      "summary_zh": "Twitch CEO称《GTA 6》11月19日发售，假期几无竞品，预计明年多人模式上线将再掀热潮，并提振平台观看量。"
     },
     {
+     "title": "Nvidia CEO Calls for AI Safety Tests at King Charles Summit",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
+     "published_cst": "2026-09-17T05:00:00+08:00",
+     "time": "09-17 05:00",
+     "body": [
+      "Britain’s monarch plans to ask some of the most critical figures in artificial intelligence for reassurances the technologists can keep their inventions under control.",
+      "“Those in our world who value our humanity and its vital moral component are anxiously seeking your reassurance that we will not lose control of our destiny,” King Charles III will say on Thursday at a royal event in Scotland, according to prepared remarks.",
+      "The king is hosting a gathering to discuss how the technology could be “harnessed in ways to benefit society and the natural world.”",
+      "Google DeepMind co-founder Demis Hassabis will attend, along with senior representatives from Nvidia Corp. OpenAI and Anthropic PBC and the UK’s AI minister Kanishka Narayan.",
+      "The closed-door discussion is timely. Anthropic Chief Executive Officer Dario Amodei triggered a global debate about the escalating risks of AI in a weekend essay calling for a slowdown in frontier model development. OpenAI CEO Sam Altman agreed with the essay’s conclusions, while Hassabis described it as the “right path forward.” Nvidia boss Jensen Huang disagreed with a slowdown or further regulation. Over the last week, two AI researchers quit Google DeepMind and Anthropic, claiming that the technology could be lethal.",
+      "Read More: Anthropic Worker Quits Over AI Firms ‘Gambling With Our Lives’",
+      "Those concerns have caused jitters among lawmakers and the wider public internationally. UK Prime Minister Andy Burnham is under pressure from lawmakers within his governing Labour Party to provide more clarity on the country’s AI policy. Chinese officials have both rejected Amodei’s “fearmongering” and warned about the dangers of AI in recent days. While US President Donald Trump has argued against any slowdown, bipartisan lawmakers have floated measures to address AI safety and voters are increasingly concerned by the technology.",
+      "At the summit, King Charles is set to ask the executives two key questions: “First, how can we harness the benefits of AI, with safety at its heart. And, second, how we can we build international cooperation and consensus to achieve this, so no nation is left behind - and the future of mankind protected?”",
+      "The monarch has previously spoken publicly about AI, saying the risks of the technology needed to be urgently tackled during the UK’s inaugural AI Safety Summit in 2023.",
+      "He has also repeatedly spoken about his concerns about climate change, a topic that could put the AI chiefs on the defense. Emissions from the largest tech companies have spiked as they’ve turned to energy-intensive data centers, with some replying on fossil fuel sources. In Scotland, lawmakers said new applications for data centers would need to undergo assessments for their impact on the environment."
+     ],
+     "title_zh": "查尔斯国王希望人工智能负责人承诺保护人类",
+     "summary_zh": "英国国王查尔斯三世将会见谷歌DeepMind、OpenAI等AI高管，呼吁确保人类不失去对AI的控制。"
+    },
+    {
      "title": "Lady Gaga, Bad Bunny Stage Designer Directs Venice's Homo Faber Biennial",
      "url": "https://www.bloomberg.com/news/articles/2026-09-17/lady-gaga-bad-bunny-stage-designer-directs-venice-s-homo-faber-biennial",
      "link": "https://www.bloomberg.com/news/articles/2026-09-17/lady-gaga-bad-bunny-stage-designer-directs-venice-s-homo-faber-biennial",
@@ -5332,27 +5353,6 @@
      ],
      "title_zh": "Lady Gaga与Bad Bunny舞台设计师执导威尼斯Homo Faber双年展",
      "summary_zh": "威尼斯9月举办Homo Faber双年展，由Es Devlin策展，呈现70国500名工匠的700余件作品。"
-    },
-    {
-     "title": "Nvidia CEO Calls for AI Safety Tests at King Charles Summit",
-     "url": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
-     "link": "https://www.bloomberg.com/news/articles/2026-09-17/king-charles-wants-ai-chiefs-to-promise-they-ll-protect-mankind",
-     "published_cst": "2026-09-17T05:00:00+08:00",
-     "time": "09-17 05:00",
-     "body": [
-      "Britain’s monarch plans to ask some of the most critical figures in artificial intelligence for reassurances the technologists can keep their inventions under control.",
-      "“Those in our world who value our humanity and its vital moral component are anxiously seeking your reassurance that we will not lose control of our destiny,” King Charles III will say on Thursday at a royal event in Scotland, according to prepared remarks.",
-      "The king is hosting a gathering to discuss how the technology could be “harnessed in ways to benefit society and the natural world.”",
-      "Google DeepMind co-founder Demis Hassabis will attend, along with senior representatives from Nvidia Corp. OpenAI and Anthropic PBC and the UK’s AI minister Kanishka Narayan.",
-      "The closed-door discussion is timely. Anthropic Chief Executive Officer Dario Amodei triggered a global debate about the escalating risks of AI in a weekend essay calling for a slowdown in frontier model development. OpenAI CEO Sam Altman agreed with the essay’s conclusions, while Hassabis described it as the “right path forward.” Nvidia boss Jensen Huang disagreed with a slowdown or further regulation. Over the last week, two AI researchers quit Google DeepMind and Anthropic, claiming that the technology could be lethal.",
-      "Read More: Anthropic Worker Quits Over AI Firms ‘Gambling With Our Lives’",
-      "Those concerns have caused jitters among lawmakers and the wider public internationally. UK Prime Minister Andy Burnham is under pressure from lawmakers within his governing Labour Party to provide more clarity on the country’s AI policy. Chinese officials have both rejected Amodei’s “fearmongering” and warned about the dangers of AI in recent days. While US President Donald Trump has argued against any slowdown, bipartisan lawmakers have floated measures to address AI safety and voters are increasingly concerned by the technology.",
-      "At the summit, King Charles is set to ask the executives two key questions: “First, how can we harness the benefits of AI, with safety at its heart. And, second, how we can we build international cooperation and consensus to achieve this, so no nation is left behind - and the future of mankind protected?”",
-      "The monarch has previously spoken publicly about AI, saying the risks of the technology needed to be urgently tackled during the UK’s inaugural AI Safety Summit in 2023.",
-      "He has also repeatedly spoken about his concerns about climate change, a topic that could put the AI chiefs on the defense. Emissions from the largest tech companies have spiked as they’ve turned to energy-intensive data centers, with some replying on fossil fuel sources. In Scotland, lawmakers said new applications for data centers would need to undergo assessments for their impact on the environment."
-     ],
-     "title_zh": "查尔斯国王希望人工智能负责人承诺保护人类",
-     "summary_zh": "英国国王查尔斯三世将会见谷歌DeepMind、OpenAI等AI高管，呼吁确保人类不失去对AI的控制。"
     },
     {
      "title": "Germany's Green Power Boom Leaves Developers Fighting to Survive",

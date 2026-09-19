@@ -1,16 +1,67 @@
 {
  "date": "20260919",
- "generated_at": "2026-09-19T12:11:14.256932+08:00",
+ "generated_at": "2026-09-19T14:12:16.413835+08:00",
  "timezone": "Asia/Shanghai (CST, UTC+8)",
  "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
  "sources": {
   "bb": {
    "name": "Bloomberg",
    "home": "https://www.bloomberg.com",
-   "count": 2,
+   "count": 4,
    "body_support": true,
    "note": "正文经镜像域名抓取（envoy.cirrus）；展示链接走官网 bloomberg.com",
    "items": [
+    {
+     "title": "California Court Blocks Part of TikTok's $400 Million Settlement",
+     "url": "https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement",
+     "link": "https://www.bloomberg.com/news/articles/2026-09-19/california-court-blocks-part-of-tiktok-s-400-million-settlement",
+     "published_cst": "2026-09-19T05:54:03+08:00",
+     "time": "09-19 05:54",
+     "body": [
+      "A Los Angeles judge tentatively opposed part of the US government’s agreement with TikTok to resolve allegations of children’s privacy violations, extending uncertainty around the service’s operations in the country.",
+      "US District Judge George H. Wu in the Central District of California on Friday tentatively denied a request to vacate an order initially imposed on TikTok’s predecessor Musical.ly — which Beijing-based ByteDance Ltd. acquired and built into TikTok — relating to the privacy of users under the age of 13. That order imposed obligations that neither TikTok nor the US government has shown to be obviated, Wu wrote, saying in a tentative ruling that he intends to maintain oversight of the company’s privacy practices.",
+      "A Department of Justice spokesperson didn’t respond to a request for comment after business hours. TikTok also didn’t respond to an email query after hours.",
+      "The White House, across the administrations of President Donald Trump and his predecessor Joe Biden, has taken measures to alter TikTok’s US operations, treating the company as a threat due to its Chinese ownership. A deal finalized by the Trump administration and ByteDance in January, which included transferring parts of the US operations to American investors, seemed to resolve the dispute. That was followed by a $400 million settlement in August to resolve privacy allegations first raised by the Biden administration. Part of that payment, $100 million, was contingent on the prior consent decree being vacated.",
+      "“The Government has not shown that the changes in TikTok’s ownership, the changes to the platform’s compliance measures, or the recent settlement warrant termination” of the order originally imposed upon Musical.ly, Wu wrote in his ruling. “These developments, at least as put forth in the Government’s papers, do not establish substantial compliance with the Order or demonstrate that its prospective protections are no longer necessary.”",
+      "A hearing on the request to dismiss the consent decree is scheduled for Sept. 21."
+     ],
+     "title_zh": "加州法院阻止TikTok 4亿美元和解协议部分内容",
+     "summary_zh": "洛杉矶法官初步否决美政府与TikTok和解中撤销儿童隐私令部分，维持监管，9月21日听证。"
+    },
+    {
+     "title": "With a Disability, Workers in Germany Might Earn €2 an Hour",
+     "url": "https://www.bloomberg.com/news/features/2026-09-19/with-a-disability-workers-in-germany-might-earn-2-an-hour",
+     "link": "https://www.bloomberg.com/news/features/2026-09-19/with-a-disability-workers-in-germany-might-earn-2-an-hour",
+     "published_cst": "2026-09-19T05:00:22+08:00",
+     "time": "09-19 05:00",
+     "body": [
+      "In an eastern district of Frankfurt teeming with wine bars and restaurants, dozens of adults gather every day in a bright yellow building with large windows to unravel knotted towel rolls for public restrooms, produce stones for crematoriums and attach wheels to broken suitcases. Across Germany, more than 300,000 people with disabilities are part of these specialized workshops, which also service sectors including catering, manufacturing and gardening. Most are run by government-accredited institutions with the aim of eventually preparing employees for regular jobs.",
+      "But what are, on paper, supposed to be transitional positions often end up as long-term commitments. And instead of Germany’s minimum wage of €13.90 ($16) an hour, participants earn on average around €2 to €3.",
+      "That’s because workshop members usually don’t have the same legal status as those in the regular job market. Instead, most depend on support from individualized government programs, and receive health and long-term care insurance, as well as relatively high pension payouts.",
+      "This set-up has long been controversial, and debate has recently been reignited by a lawsuit calling on a workshop to pay minimum wage. The plaintiff, an employee in North Rhine-Westphalia, argues that his monthly remuneration of roughly €200 violates the prohibition against discrimination enshrined in German law and the UN Convention on the Rights of Persons with Disabilities.",
+      "“People are doing work and should be paid more than just pocket money,” said Soraia Da Costa Batista, a lawyer coordinating the case. “With a ruling, we could establish a legal basis for employees to sue for minimum wage.”",
+      "Although a large majority of workshop employees rated their job positively in a 2023 study commissioned by Germany’s labor ministry, two-thirds of respondents thought pay was too low.",
+      "That includes Leon Neukirchinger, a 24-year-old employee at frankfurter werkgemeinschaft, a nonprofit, which, in addition to suitcase repair and stone-making, also offers people with mental illness or disabilities training in handiwork and information technology. He’s so far enjoyed his time at the workshop, which has helped him gain skills and overcome problems with aggression, but would prefer better rates.",
+      "“Salary is definitely a key topic among the workforce,” said Neukirchinger, whose group of around 15 members is proud to have repaired hundreds of suitcases this year.",
+      "Almost one in ten, or 7.8 million, people living in Germany have a severe disability. And in theory, there should be roles for them outside workshops. Under German law, any business with at least 60 people must fill a minimum of five percent of its workforce with severely disabled staff, while smaller companies have lower quotas to meet.",
+      "The majority of firms, however, don’t reach those thresholds. “Germany has set itself fairly high standards,” said Karolin Hiesinger, a scientist at the Institute for Employment Research (IAB), pointing to the nation’s commitment to guaranteeing disabled people equal participation in the labor market. But “when it comes to actual results,” she continued, “the country often falls short.”",
+      "Despite fines ranging from €155 a month per unfilled spot to €815 a month per spot if a company doesn’t have any disabled workers, only about 1.35 million severely disabled people hold jobs outside of workshops. Internationally, Germany stands out for its large gap between unemployed people with and without disabilities, according to a 2022 OECD analysis.",
+      "Asked why they don’t employ more disabled workers, businesses often pointed to a lack of suitable tasks, according to a 2024 poll by the IAB. They also cited concerns about high costs for special equipment and administration, or too few appropriate applicants. Yet some companies do provide work to the disabled through alternative routes, like Henkel AG, a home products firm that outsources “simple assembly or packaging work” through direct collaboration with workshops.",
+      "And although workshop employment suits some people, it’s not the right option for everybody.",
+      "Cinderella Gluecklich, whose last name translates to “happy,” has worked as a business consultant and in hospitality, including at a hotel reception. But with a severe physical disability from birth she neither can nor wants to hide, Gluecklich has changed jobs several times due to discrimination. Every time the 34-year-old is unemployed, authorities urge her to consider a workshop. “That’s been a constant fight,” said Gluecklich, who’s currently enrolled in a master program in business studies. She described the back-and-forth with authorities as a “Sisyphean task.”",
+      "Workshops shouldn’t feel like a dead end, but once people are in, they can be hard to leave. A 2023 study of more than 300 workshops commissioned by the federal labor ministry indicated that less than half of one percent of employees made the switch in any given year. (Critics note that that figure doesn’t account for how many people might want to leave or would be fit for a change.)",
+      "“The job market is selective, so employers are free to decide whether or not to hire someone,” said Andrea Stratmann, who heads the Federal Association of Sheltered Workshops Germany, an umbrella organization for the groups. To improve the odds, she added, workshops can “prepare the individual, work with the employer to lower barriers, and offer contact and support.”",
+      "But that isn’t always enough. Sabine Zobel was diagnosed in her 30s with a severe disability resulting from her mother drinking alcohol during pregnancy. At the time, she’d struggled for years to find employment, and joining a workshop seemed like a good option — albeit one she considered temporary. In 2013 she joined a workshop in Berlin that employs around 2,000 people with and without disabilities across several locations.",
+      "While Zobel said she’s been happy at Mosaik, she would have liked to move on. With the support of her workshop, she’s made several attempts to join outside businesses, but none have resulted in an offer.",
+      "“For some companies, the mere thought of having to deal with bureaucratic matters is enough to put them off,” Zobel said, referring to the measures that employers must take to adapt workplaces for disabled staffers. The now-47-year-old has over the years advanced within her organization from tasks like packaging cups made from coffee grinds to a more administrative role. While not earning much money, she said she can handle herself with the €1,300 she receives in total every month, around €260 of which comes from the workshop.",
+      "As workshops must pass on at least 70% of revenues to employees, with the rest earmarked for investments or savings, significantly raising pay would require more public subsidies. In a recently painted community room at frankfurter werkgemeinschaft, Neukirchinger and his peers agree that all employees should benefit from a model based on basic income.",
+      "The German government has pledged to reform the workshop system and help more people to enter the open job market — promises that the labor minister reiterated in July. But as the coalition’s policy overhauls have largely eaten away at social security guarantees so far, it’s unclear what might lie in store.",
+      "Meanwhile, growing support for the far-right Alternative fuer Deutschland has generated some fear among those who depend on such measures.",
+      "“People usually feel secure here,” said Evelyn Kupka, who works in the Frankfurt location alongside Neukirchinger. “But since the AfD won in Saxony-Anhalt, a lot of us have been really frightened.”"
+     ],
+     "title_zh": "在德国，残疾工人时薪可能仅为2欧元",
+     "summary_zh": "德国超30万残障人士在政府认证工坊工作，平均时薪仅2至3欧元，远低于13.90欧元最低工资，引发诉讼要求同工同酬。"
+    },
     {
      "title": "Indonesia's New Finance Minister Aims for Stability After Political Drama",
      "url": "https://www.bloomberg.com/news/newsletters/2026-09-19/indonesia-s-new-finance-minister-aims-for-stability-after-political-drama",
@@ -98,10 +149,46 @@
   "ft": {
    "name": "Financial Times",
    "home": "https://www.ft.com",
-   "count": 42,
+   "count": 46,
    "body_support": false,
    "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
    "items": [
+    {
+     "title": "Over-80s turn to annuities as rates climb",
+     "url": "https://www.ft.com/content/12ea81a9-d806-4997-b0da-ddec093bbe20",
+     "link": "https://www.ft.com/content/12ea81a9-d806-4997-b0da-ddec093bbe20",
+     "published_cst": "2026-09-19T05:13:25+08:00",
+     "time": "09-19 05:13",
+     "body": null,
+     "title_zh": "八旬老人因利率上升转向年金"
+    },
+    {
+     "title": "Admit it — is this your worst financial habit?",
+     "url": "https://www.ft.com/content/d6f2132e-bc98-44cb-add0-aa306909ce6b",
+     "link": "https://www.ft.com/content/d6f2132e-bc98-44cb-add0-aa306909ce6b",
+     "published_cst": "2026-09-19T04:54:06+08:00",
+     "time": "09-19 04:54",
+     "body": null,
+     "title_zh": "承认吧——这是你最糟糕的理财习惯吗？"
+    },
+    {
+     "title": "AI chatbots give wrong answers to financial queries ‘most of the time’",
+     "url": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+     "link": "https://www.ft.com/content/c0cd359d-df84-4208-a789-ffa864b43666",
+     "published_cst": "2026-09-19T04:49:57+08:00",
+     "time": "09-19 04:49",
+     "body": null,
+     "title_zh": "AI聊天机器人多数时候对金融查询给出错误答案"
+    },
+    {
+     "title": "Thirty years of buy-to-let: does it have a future?",
+     "url": "https://www.ft.com/content/77f042f0-80c2-40ad-a4d1-9da0367827ee",
+     "link": "https://www.ft.com/content/77f042f0-80c2-40ad-a4d1-9da0367827ee",
+     "published_cst": "2026-09-19T04:24:24+08:00",
+     "time": "09-19 04:24",
+     "body": null,
+     "title_zh": "买房出租三十年：还有未来吗？"
+    },
     {
      "title": "The colour of flavour — an autumn food and drink special",
      "url": "https://www.ft.com/content/2eba881e-033a-485f-8b2e-46f2d5a1542c",
@@ -602,10 +689,109 @@
   "rt": {
    "name": "Reuters",
    "home": "https://www.reuters.com",
-   "count": 29,
+   "count": 38,
    "body_support": false,
    "note": "正文可经 CNA 等授权转载站获取（需搜索）",
    "items": [
+    {
+     "title": "AfD surge in eastern Germany makes some immigrants question whether they still belong",
+     "url": "https://www.reuters.com/world/europe/afd-surge-eastern-germany-makes-some-immigrants-question-whether-they-still-2026-09-19/",
+     "link": "https://www.reuters.com/world/europe/afd-surge-eastern-germany-makes-some-immigrants-question-whether-they-still-2026-09-19/",
+     "published_cst": "2026-09-19T06:05:44+08:00",
+     "time": "09-19 06:05",
+     "body": null,
+     "title_zh": "德国东部选择党崛起令部分移民质疑自己是否仍属此地"
+    },
+    {
+     "title": "Trump declines to say whether he will tear down Kennedy Center",
+     "url": "https://www.reuters.com/world/us/trump-declines-say-whether-he-will-tear-down-kennedy-center-2026-09-18/",
+     "link": "https://www.reuters.com/world/us/trump-declines-say-whether-he-will-tear-down-kennedy-center-2026-09-18/",
+     "published_cst": "2026-09-19T05:58:12+08:00",
+     "time": "09-19 05:58",
+     "body": null,
+     "title_zh": "特朗普拒绝透露是否会拆除肯尼迪中心"
+    },
+    {
+     "title": "Bravos logra primer triunfo en torneo mexicano de fútbol con doblete de colombiano Estupiñán",
+     "url": "https://www.reuters.com/es/deportivo/C4FASZFWNFP73MNAPFAQIDZZVQ-2026-09-19/",
+     "link": "https://www.reuters.com/es/deportivo/C4FASZFWNFP73MNAPFAQIDZZVQ-2026-09-19/",
+     "published_cst": "2026-09-19T05:27:44+08:00",
+     "time": "09-19 05:27",
+     "body": null,
+     "title_zh": "布拉沃斯在墨西哥足球联赛中凭借哥伦比亚球员埃斯图皮尼安的梅开二度取得首胜"
+    },
+    {
+     "title": "China vessel rams Philippine boat on refueling mission, coast guard says",
+     "url": "https://www.reuters.com/world/china/china-vessel-rams-damages-philippine-fishing-boat-coast-guard-says-2026-09-18/",
+     "link": "https://www.reuters.com/world/china/china-vessel-rams-damages-philippine-fishing-boat-coast-guard-says-2026-09-18/",
+     "published_cst": "2026-09-19T05:27:29+08:00",
+     "time": "09-19 05:27",
+     "body": null,
+     "title_zh": "中国海警称中国船只撞击菲律宾补给船"
+    },
+    {
+     "title": "Inside China's AI race",
+     "url": "https://www.reuters.com/podcasts/inside-chinas-ai-race-2026-09-19-2/",
+     "link": "https://www.reuters.com/podcasts/inside-chinas-ai-race-2026-09-19-2/",
+     "published_cst": "2026-09-19T05:00:00+08:00",
+     "time": "09-19 05:00",
+     "body": null,
+     "title_zh": "中国AI竞赛内幕"
+    },
+    {
+     "title": "Bolivia scraps diesel subsidy to combat fuel shortages",
+     "url": "https://www.reuters.com/business/energy/bolivia-scraps-diesel-subsidy-combat-fuel-shortages-2026-09-19/",
+     "link": "https://www.reuters.com/business/energy/bolivia-scraps-diesel-subsidy-combat-fuel-shortages-2026-09-19/",
+     "published_cst": "2026-09-19T04:47:43+08:00",
+     "time": "09-19 04:47",
+     "body": null,
+     "title_zh": "玻利维亚取消柴油补贴以应对燃料短缺"
+    },
+    {
+     "title": "China investigates Meituan and Alibaba units for suspected antitrust violations",
+     "url": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
+     "published_cst": "2026-09-19T04:42:08+08:00",
+     "time": "09-19 04:42",
+     "body": null,
+     "title_zh": "中国调查美团和阿里巴巴旗下企业涉嫌违反竞争法"
+    },
+    {
+     "title": "Beaches on Australia's west coast to remain shut after fatal shark attack",
+     "url": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
+     "link": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
+     "published_cst": "2026-09-19T04:33:07+08:00",
+     "time": "09-19 04:33",
+     "body": null,
+     "title_zh": "澳大利亚西海岸海滩在鲨鱼袭击后仍关闭"
+    },
+    {
+     "title": "King Charles sounded like 'lottery winner' after Diana's death, her brother writes",
+     "url": "https://www.reuters.com/world/uk/king-charles-sounded-like-lottery-winner-after-dianas-death-her-brother-writes-2026-09-17/",
+     "link": "https://www.reuters.com/world/uk/king-charles-sounded-like-lottery-winner-after-dianas-death-her-brother-writes-2026-09-17/",
+     "published_cst": "2026-09-19T04:29:13+08:00",
+     "time": "09-19 04:29",
+     "body": null,
+     "title_zh": "戴安娜死后查尔斯国王听起来像“彩票中奖者”，其弟写道"
+    },
+    {
+     "title": "Defence firm Anduril says US delay on Taiwan arms sales affecting its business",
+     "url": "https://www.reuters.com/world/china/defence-firm-anduril-says-us-delay-taiwan-arms-sales-affecting-its-business-2026-09-19/",
+     "link": "https://www.reuters.com/world/china/defence-firm-anduril-says-us-delay-taiwan-arms-sales-affecting-its-business-2026-09-19/",
+     "published_cst": "2026-09-19T04:26:39+08:00",
+     "time": "09-19 04:26",
+     "body": null,
+     "title_zh": "防务公司Anduril称美国对台军售延迟影响其业务"
+    },
+    {
+     "title": "Cuba's electrical grid collapses again, plunging island into darkness",
+     "url": "https://www.reuters.com/business/energy/cuba-energy-grid-suffers-nationwide-collapse-2026-09-18/",
+     "link": "https://www.reuters.com/business/energy/cuba-energy-grid-suffers-nationwide-collapse-2026-09-18/",
+     "published_cst": "2026-09-19T04:24:53+08:00",
+     "time": "09-19 04:24",
+     "body": null,
+     "title_zh": "古巴电网再次崩溃，全岛陷入黑暗"
+    },
     {
      "title": "Death toll at 31 in Pakistan police compound attack, AFP reports",
      "url": "https://www.reuters.com/world/asia-pacific/death-toll-31-pakistan-police-compound-attack-afp-reports-2026-09-19/",
@@ -614,15 +800,6 @@
      "time": "09-19 04:08",
      "body": null,
      "title_zh": "巴基斯坦警察大院袭击死亡人数升至31人，法新社报道"
-    },
-    {
-     "title": "China investigates Meituan and Alibaba units for suspected violations of competition laws",
-     "url": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
-     "link": "https://www.reuters.com/world/asia-pacific/china-investigates-meituan-unit-suspected-violations-unfair-competition-laws-2026-09-19/",
-     "published_cst": "2026-09-19T04:01:36+08:00",
-     "time": "09-19 04:01",
-     "body": null,
-     "title_zh": "中国调查美团和阿里巴巴旗下企业涉嫌违反竞争法"
     },
     {
      "title": "US appeals court rejects Trump policy allowing swift deportations to third countries",
@@ -713,15 +890,6 @@
      "time": "09-19 01:32",
      "body": null,
      "title_zh": "卢森堡机场因无人机活动短暂关闭后恢复航班"
-    },
-    {
-     "title": "Beaches on Australia's west coast remain shut after shark attack",
-     "url": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
-     "link": "https://www.reuters.com/world/asia-pacific/beaches-australias-west-coast-remain-shut-after-shark-attack-2026-09-19/",
-     "published_cst": "2026-09-19T01:26:16+08:00",
-     "time": "09-19 01:26",
-     "body": null,
-     "title_zh": "澳大利亚西海岸海滩在鲨鱼袭击后仍关闭"
     },
     {
      "title": "Poutine accuse l'Ukraine d'ingérence dans les élections législatives russes",
