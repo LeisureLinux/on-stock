@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-20 06:07",
-   "title": "Tung Chee-hwa, Hong Kong's first leader under Chinese rule, laid to rest"
+   "time": "09-20 10:05",
+   "title": "Billionaires abound in California. Why not tax their wealth?"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-20 06:03",
-   "title": "Germany's IW institute triples growth forecast for 2026"
+   "time": "09-20 10:04",
+   "title": "World leaders return to UN amid wars in Middle East and Ukraine"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-20 05:53",
-   "title": "Two dead in Moscow region, drones hit oil refinery in Russian capital"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-20 10:00",
+   "title": "Jefferies Analyst Vents Frustration as AI Dominates CO2 Talks"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-20 05:49",
-   "title": "América remonta y rescata empate ante Guadalajara en el \"clásico nacional\" del fútbol mexicano"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-20 10:00",
+   "title": "US retailer rations motor oil as prices quadruple and supplies run dry"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-20 05:44",
-   "title": "Apple's Tim Cook sees Australia's social media curbs as 'world-leading', PM says"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-20 10:00",
+   "title": "Trump’s regulatory rollback puts $400mn in US audit fees at risk"
   }
  ]
 }
