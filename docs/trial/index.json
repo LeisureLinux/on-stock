@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-20 10:05",
-   "title": "Billionaires abound in California. Why not tax their wealth?"
-  },
-  {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-20 10:04",
-   "title": "World leaders return to UN amid wars in Middle East and Ukraine"
+   "time": "09-20 14:03",
+   "title": "Trump convertirá el arco del triunfo en un complejo militar"
   },
   {
    "src": "bb",
    "src_name": "Bloomberg",
    "badge": "BB",
    "color": "#B45309",
-   "time": "09-20 10:00",
-   "title": "Jefferies Analyst Vents Frustration as AI Dominates CO2 Talks"
+   "time": "09-20 14:00",
+   "title": "Apple's Home AI Hub Details; Apple Fitness+ Layoffs and iPhone Duo Apple Pencil"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-20 10:00",
-   "title": "US retailer rations motor oil as prices quadruple and supplies run dry"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-20 13:50",
+   "title": "Trump Suggests His Arch Will House Drones, Snipers, Ammunition"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-20 10:00",
-   "title": "Trump’s regulatory rollback puts $400mn in US audit fees at risk"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-20 13:37",
+   "title": "Irán advierte de una nueva escalada de Estados Unidos y sus aliados"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-20 13:25",
+   "title": "Trump to use Washington triumphal arch as military complex"
   }
  ]
 }
