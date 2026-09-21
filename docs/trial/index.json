@@ -7,24 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-21 00:04",
-   "title": "Europe faces Q4 jet fuel supply deficit even as South Korea becomes latest big supplier"
+   "time": "09-21 01:06",
+   "title": "US Treasury's Bessent and China's He launch talks on AI, trade and critical minerals"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-21 01:04",
+   "title": "North Korea fires two suspected ballistic missiles off east coast within three hours"
+  },
+  {
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-21 01:01",
+   "title": "US and China agree to dialogue on AI ahead of Trump-Xi meeting"
   },
   {
    "src": "wsj",
    "src_name": "The Wall Street Journal",
    "badge": "WSJ",
    "color": "#1D4ED8",
-   "time": "09-21 00:00",
-   "title": "The New Ways to Thrive at Work Now, According to Adam Grant"
+   "time": "09-21 01:00",
+   "title": "The Wealthy Miami Residents Who Are Plotting Cuba’s Future"
   },
   {
    "src": "wsj",
    "src_name": "The Wall Street Journal",
    "badge": "WSJ",
    "color": "#1D4ED8",
-   "time": "09-21 00:00",
-   "title": "A Shortage of Oil Tankers Is Threatening to Keep Gas Prices High"
+   "time": "09-21 01:00",
+   "title": "See the 10-Year Treasury Yield’s Wild Ride on the Road to 5%"
   }
  ]
 }
