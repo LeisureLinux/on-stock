@@ -1,5 +1,5 @@
 {
- "date": "20260920",
+ "date": "20260921",
  "trial_limit": 5,
  "items": [
   {
@@ -7,40 +7,24 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-20 14:03",
-   "title": "Trump convertirá el arco del triunfo en un complejo militar"
+   "time": "09-21 00:04",
+   "title": "Europe faces Q4 jet fuel supply deficit even as South Korea becomes latest big supplier"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-20 14:00",
-   "title": "Apple's Home AI Hub Details; Apple Fitness+ Layoffs and iPhone Duo Apple Pencil"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-21 00:00",
+   "title": "The New Ways to Thrive at Work Now, According to Adam Grant"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-20 13:50",
-   "title": "Trump Suggests His Arch Will House Drones, Snipers, Ammunition"
-  },
-  {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-20 13:37",
-   "title": "Irán advierte de una nueva escalada de Estados Unidos y sus aliados"
-  },
-  {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-20 13:25",
-   "title": "Trump to use Washington triumphal arch as military complex"
+   "src": "wsj",
+   "src_name": "The Wall Street Journal",
+   "badge": "WSJ",
+   "color": "#1D4ED8",
+   "time": "09-21 00:00",
+   "title": "A Shortage of Oil Tankers Is Threatening to Keep Gas Prices High"
   }
  ]
 }
