@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-22 01:00",
-   "title": "These Tiny Startups Are Getting Even Smaller With Help From AI"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-22 04:02",
+   "title": "Gaza students return to in-person schooling for first time in three years"
   },
   {
    "src": "wsj",
    "src_name": "The Wall Street Journal",
    "badge": "WSJ",
    "color": "#1D4ED8",
-   "time": "09-22 01:00",
-   "title": "In Trump, Xi Sees ‘Rare Window’ to Convince Taiwan That Resistance Is Futile"
-  },
-  {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-22 01:00",
-   "title": "How David Ellison Ended His Stalemate With California"
+   "time": "09-22 04:00",
+   "title": "Pepper…and Salt"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-22 01:00",
-   "title": "South Korea to brief lawmakers on US investment package amid profitability concerns"
+   "time": "09-22 04:00",
+   "title": "Two Republican Senate candidates call for swift end to Iran war, diverging from Trump"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-22 00:59",
-   "title": "Yen squeezed as hawkish turn grips central banks"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-22 04:00",
+   "title": "Tottenham Hotspur News: Daniel Levy Struggles to Cash Out Year After He Left"
+  },
+  {
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-22 04:00",
+   "title": "Nvidia's Huang Is a Gatekeeper on AI Regulation"
   }
  ]
 }
