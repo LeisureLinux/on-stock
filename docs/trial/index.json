@@ -7,40 +7,40 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-22 04:02",
-   "title": "Gaza students return to in-person schooling for first time in three years"
-  },
-  {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-22 04:00",
-   "title": "Pepper…and Salt"
+   "time": "09-22 06:03",
+   "title": "Two Republican Senate candidates call for swift end to Iran war, diverging from Trump"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-22 04:00",
-   "title": "Two Republican Senate candidates call for swift end to Iran war, diverging from Trump"
+   "time": "09-22 06:03",
+   "title": "China's Xi expected to press Trump to halt Taiwan arms sales under 1982 agreement, sources say"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-22 04:00",
-   "title": "Tottenham Hotspur News: Daniel Levy Struggles to Cash Out Year After He Left"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-22 06:02",
+   "title": "Trumps Zustimmungswerte fallen in Umfrage auf Rekordtief von 32%"
   },
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-22 04:00",
-   "title": "Nvidia's Huang Is a Gatekeeper on AI Regulation"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-22 06:02",
+   "title": "Why is Taiwan such an important issue for China?"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-22 06:02",
+   "title": "Torrential rains brought by Japan typhoon kill two, NHK says"
   }
  ]
 }
