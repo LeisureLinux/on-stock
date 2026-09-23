@@ -44,9 +44,11 @@ jobs:
           test -f docs/sitemap.xml
           test -f docs/rss.xml
           test -f docs/CNAME
-          test -f docs/trial/index.html
           test -f docs/subscribe/index.html
-          # 付费页不再进 docs/（由 KV 提供），只校验公开区产物
+          # 付费页必须**不**在 docs/（它们由 KV 提供）。
+          # 注意：CI 环境没有 data/（已 gitignore），所以 docs/trial/ 也生成不了，
+          # 这里不断言它——trial 页由本机流水线生成后随 commit 入库。
           test ! -e docs/latest
           test ! -e docs/news
+          test ! -e docs/fulltext
           echo "构建产物校验通过"
