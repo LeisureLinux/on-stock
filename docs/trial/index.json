@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-23 01:05",
-   "title": "In Cambodia's 'Waiting Village', tattooist mourns trade lost to war"
+   "src": "bb",
+   "src_name": "Bloomberg",
+   "badge": "BB",
+   "color": "#B45309",
+   "time": "09-23 04:03",
+   "title": "Stocks: Never Has So Much Been Owed to So Few"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-23 01:04",
-   "title": "US judge dismisses Michigan climate lawsuit against oil companies"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-23 04:00",
+   "title": "Transcript: Will Trump and Xi extend their trade truce?"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-23 01:03",
-   "title": "Australian competition regulator blocks IAG's RAC Insurance takeover"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-23 04:00",
+   "title": "Todd Boehly’s oil deal from Russia with love"
   },
   {
-   "src": "rt",
-   "src_name": "Reuters",
-   "badge": "RT",
-   "color": "#B91C1C",
-   "time": "09-23 01:01",
-   "title": "Moroccans vote in election set to shape government before World Cup"
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-23 04:00",
+   "title": "The battle between the Fed and Trump"
   },
   {
-   "src": "wsj",
-   "src_name": "The Wall Street Journal",
-   "badge": "WSJ",
-   "color": "#1D4ED8",
-   "time": "09-23 01:00",
-   "title": "Trump Puts Legacy Ahead of Midterm Politics in Speech at U.N."
+   "src": "ft",
+   "src_name": "Financial Times",
+   "badge": "FT",
+   "color": "#0F766E",
+   "time": "09-23 04:00",
+   "title": "Private equity has a new kind of SaaS: swimming as a service"
   }
  ]
 }
