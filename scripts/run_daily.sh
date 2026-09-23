@@ -3,7 +3,12 @@
 # cron 调用（不要把带 % 的命令直接写进 crontab —— % 转义地狱）
 #
 # 链路: fetch(标题) → translate(中文化) → summarize(BB正文+摘要)
-#       → build(生成静态页) → commit → push(触发 Pages 发布)
+#       → build(公开页→docs/，付费页→dist_paid/) → publish_paid(dist_paid → KV)
+#       → commit → push(触发 Pages 发布)
+#
+# 付费内容从不进仓库：docs/ 只能放公开页（否则 GitHub Pages 源站 / raw / jsDelivr
+# 都能直接读到，Worker 拦不住）。付费页构建到 dist_paid/（gitignore），
+# 由 scripts/publish_paid.py 上传到 Cloudflare KV `SITE`，Worker 鉴权后从 KV 读。
 #
 # 用法: run_daily.sh [YYYYMMDD]   缺省为今天(北京时间)
 #
@@ -77,9 +82,11 @@ log "✅ 今日归档 $NEW_TOTAL 条"
 
 # 1.6) fetch 会按"发布时间"跨日归档，本轮真正改动的日期文件可能不止今天。
 #      逐个交给 translate/summarize，否则分流到历史日的条目永远不会有中文标题。
-#      git status 同时覆盖「已跟踪被改」和「新建未跟踪」两种情况。
-TOUCHED=$(git status --porcelain -- data/news/ \
-          | sed -n 's#^...data/news/\([0-9]\{8\}\)\.json$#\1#p' \
+#      data/ 现已被 gitignore（它是付费原料），git status 不再报告它，
+#      所以改用 mtime：3 小时内改过的归档日都算。fetch 刚跑过，它写过的文件
+#      mtime 必然很新；窗口留 3h 是为容忍 fetch/summarize 阶段耗时较长。
+TOUCHED=$(find data/news -name '[0-9]*.json' -newermt '3 hours ago' 2>/dev/null \
+          | sed -n 's#.*/\([0-9]\{8\}\)\.json$#\1#p' \
           | sort -u | tr '\n' ' ')
 case " $TOUCHED " in
     *" $TODAY "*) : ;;
@@ -103,15 +110,25 @@ for d in $TOUCHED; do
 done
 log "✅ summarize 完成"
 
-# 4) 生成静态页
+# 4) 生成静态页（公开页 → docs/；付费页 → dist_paid/）
 if ! "$PYTHON" build.py >> "$DAYLOG" 2>&1; then
     log "❌ build 失败, 终止"
     exit 1
 fi
 log "✅ build 完成"
 
-# 5) 有变更才提交推送（只看 data/ docs/，不因工作区其它脏文件误提交）
-git add data/ docs/ >> "$DAYLOG" 2>&1
+# 4.5) 上传付费页到 Cloudflare KV（SITE）。**必须在 git push 之前**：
+#      push 之后 GitHub Pages 会删掉 docs/ 里的旧付费页（本就不该在那），
+#      若 KV 此时还没有新内容，订阅者就会拿到 404。
+#      失败则终止本轮不 push：宁可付费页停在上一版，也不要出现空窗。
+if ! "$PYTHON" scripts/publish_paid.py >> "$LOGDIR/publish_paid.log" 2>&1; then
+    log "❌ publish_paid 失败（付费页未上 KV），终止本轮不 push，避免订阅者断供"
+    exit 1
+fi
+log "✅ publish_paid 完成（付费页已上 KV）"
+
+# 5) 有变更才提交推送（只看 docs/，付费产物与原料都不进仓库）
+git add docs/ >> "$DAYLOG" 2>&1
 if git diff --cached --quiet; then
     log "✅ 无变更, 无需发布"
     exit 0

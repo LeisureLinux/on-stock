@@ -18,7 +18,8 @@ import shutil
 
 LORE_DIR = Path(__file__).parent
 ARTICLES_DIR = LORE_DIR / "articles"
-DOCS_DIR = LORE_DIR / "docs"
+DOCS_DIR = LORE_DIR / "docs"          # 公开产物（进 git，由 GitHub Pages 发布）
+PAID_DIR = LORE_DIR / "dist_paid"      # 付费产物（**不进 git**，由 scripts/publish_paid.py 传 KV）
 ASSETS_DIR = LORE_DIR / "assets"  # 静态资源源目录（收款码等），构建时复制到 docs/assets
 
 # 站点基础配置（SEO 用）
@@ -1353,11 +1354,17 @@ def build_about_page():
 def main():
     print("🔨 开始构建 Readings 静态站点...")
     
-    # 清理 docs 目录
+    # 清理 docs 目录（公开产物）
     if DOCS_DIR.exists():
         import shutil
         shutil.rmtree(DOCS_DIR)
     DOCS_DIR.mkdir(parents=True)
+
+    # 清理 dist_paid（付费产物）。它与 docs 分开，因为仓库是公开的：
+    # 只要付费页进了 docs/，GitHub Pages 源站 / raw / jsDelivr 都能直接读到。
+    if PAID_DIR.exists():
+        shutil.rmtree(PAID_DIR)
+    PAID_DIR.mkdir(parents=True)
 
     # 复制静态资源（收款码等）到 docs/assets —— 必须在 rmtree 之后
     if ASSETS_DIR.exists():
@@ -1430,8 +1437,8 @@ def main():
     # 生成外媒新闻速览页（数据源 data/news/，由 scripts/fetch_news.py 产出）
     try:
         from news_builder import build_news_pages
-        build_news_pages(DOCS_DIR)
-        print("✅ 生成新闻页：docs/latest/ 与 docs/news/")
+        build_news_pages(DOCS_DIR, PAID_DIR)
+        print("✅ 生成新闻页：docs/{trial,subscribe}/ + dist_paid/{latest,news}/")
     except Exception as exc:  # 新闻模块失败不应阻断主站发布
         print(f"⚠️  新闻页构建跳过：{exc}")
 

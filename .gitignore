@@ -1,5 +1,14 @@
 manual_downloaded_data
 
+# 抓取原料（外媒标题/中译/摘要），是付费内容的**源数据**：
+# 它在仓库里等于把 data/news/*.json 直接公开（raw / jsDelivr / Pages 源站都能读）。
+# 本机由 scripts/fetch_news.py 读写，不进 git。
+data/
+
+# 付费构建产物（latest / news 归档页），上传到 Cloudflare KV 而非 Pages。
+# 见 scripts/publish_paid.py 与 tools/cf-paywall/worker.js。
+dist_paid/
+
 # Python 字节码缓存
 __pycache__/
 *.py[cod]

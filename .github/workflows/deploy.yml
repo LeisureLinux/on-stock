@@ -44,7 +44,9 @@ jobs:
           test -f docs/sitemap.xml
           test -f docs/rss.xml
           test -f docs/CNAME
-          test -f docs/latest/index.html
-          test -f docs/latest/index.json
-          test -f docs/news/index.html
+          test -f docs/trial/index.html
+          test -f docs/subscribe/index.html
+          # 付费页不再进 docs/（由 KV 提供），只校验公开区产物
+          test ! -e docs/latest
+          test ! -e docs/news
           echo "构建产物校验通过"
