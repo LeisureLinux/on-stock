@@ -3,44 +3,44 @@
  "trial_limit": 5,
  "items": [
   {
-   "src": "bb",
-   "src_name": "Bloomberg",
-   "badge": "BB",
-   "color": "#B45309",
-   "time": "09-23 04:03",
-   "title": "Stocks: Never Has So Much Been Owed to So Few"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-23 06:05",
+   "title": "España autoriza el proceso judicial de extradición de un donante propalestino a EEUU"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-23 04:00",
-   "title": "Transcript: Will Trump and Xi extend their trade truce?"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-23 06:04",
+   "title": "Catalonia's far-right surge divides independence camp as migration fears grow"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-23 04:00",
-   "title": "Todd Boehly’s oil deal from Russia with love"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-23 06:03",
+   "title": "L'administration US va accueillir en priorité des Afrikaners en tant que réfugiés"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-23 04:00",
-   "title": "The battle between the Fed and Trump"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-23 06:02",
+   "title": "OFRMO Summary"
   },
   {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-23 04:00",
-   "title": "Private equity has a new kind of SaaS: swimming as a service"
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-23 06:01",
+   "title": "Trump's diesel export dilemma — Good politics, bad economics: Bousso"
   }
  ]
 }
