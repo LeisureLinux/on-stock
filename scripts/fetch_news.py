@@ -375,6 +375,10 @@ def main():
             "date": day,
             "generated_at": datetime.now(CST).isoformat(),
             "timezone": "Asia/Shanghai (CST, UTC+8)",
+            # cst_from_iso 已把 publication_date(UTC) 正确换算为北京时间；
+            # 写入该标记使 scripts/migrate_news_timezone.py 跳过本文件，
+            # 避免其把已正确的时间再次 +8h（它按 time_basis 含 "corrected" 判断）。
+            "time_basis": "publication_date (UTC) 已换算为北京时间 —— corrected",
             "archive_rule": "按发布时间(CST)归档；同一天多次抓取按 url 合并去重",
             "sources": merged_sources,
         }
