@@ -35,26 +35,14 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/articles/2026-08-20_002463_沪电股份/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://stock.freelamp.com/articles/2026-08-20_002273_水晶光电_真实分析/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/articles/2026-08-19_senma-fashion-investment-report/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/articles/2026-08-19_rockchip_aichips_performance/</loc>
-    <lastmod>2026-08-19</lastmod>
+    <loc>https://stock.freelamp.com/articles/2026-08-20_002463_沪电股份/</loc>
+    <lastmod>2026-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -69,6 +57,128 @@
     <lastmod>2026-08-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/articles/2026-08-19_rockchip_aichips_performance/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/articles/2026-08-19_senma-fashion-investment-report/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%80%86%E5%8F%98%E5%99%A8/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%98%B3%E5%85%89%E7%94%B5%E6%BA%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%BE%B7%E4%B8%9A%E8%82%A1%E4%BB%BD/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E4%B8%8A%E8%83%BD%E7%94%B5%E6%B0%94/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%82%A8%E8%83%BD/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/AIDC/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E6%88%B7%E5%82%A8/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%87%BA%E5%8F%A3/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%B7%A6%E4%BE%A7%E5%B8%83%E5%B1%80/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/AI%20%E4%BC%9A%E8%AE%A1/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%20SaaS/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E7%94%A8%E5%8F%8B%E7%BD%91%E7%BB%9C/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%87%91%E8%9D%B6%E5%9B%BD%E9%99%85/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/ERP%20%E8%BD%AC%E5%9E%8B/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/A%20%E8%82%A1%E5%88%86%E6%9E%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%90%8C%E6%B4%B2%E7%94%B5%E5%AD%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/002052/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%87%8D%E5%A4%A7%E8%AF%89%E8%AE%BC/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%A3%B3%E8%82%A1/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%85%B3%E8%81%94%E4%BA%A4%E6%98%93/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E7%8C%8E%E9%BE%99%E7%A7%91%E6%8A%80/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://stock.freelamp.com/tags/%E5%86%8D%E5%B9%B3%E8%A1%A1/</loc>
@@ -121,6 +231,96 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://stock.freelamp.com/tags/%E6%B0%B4%E6%99%B6%E5%85%89%E7%94%B5/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/002273/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%BD%A6%E8%BD%BD%20HUD/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/AR%2FVR/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%85%89%E5%AD%A6%E5%85%83%E4%BB%B6/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/Wind%20%E4%B8%80%E8%87%B4%E9%A2%84%E6%9C%9F/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%8D%8E%E4%B8%BA%E6%AC%A7%E6%8B%89/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/openEuler/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E4%BF%A1%E5%88%9B/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E9%B2%B2%E9%B9%8F%E7%94%9F%E6%80%81/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E7%91%9E%E8%8A%AF%E5%BE%AE/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E7%AB%AF%E4%BE%A7%20AI/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/NPU/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/AIoT/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/%E4%BC%B0%E5%80%BC%E5%88%86%E6%9E%90/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://stock.freelamp.com/tags/603893/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://stock.freelamp.com/tags/%E7%A8%80%E5%9C%9F%E7%A3%81%E6%9D%90/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -166,82 +366,32 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/tags/%E5%B7%A6%E4%BE%A7%E5%B8%83%E5%B1%80/</loc>
+    <loc>https://stock.freelamp.com/tags/%E6%A3%AE%E9%A9%AC%E6%9C%8D%E9%A5%B0/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/tags/%E9%80%86%E5%8F%98%E5%99%A8/</loc>
+    <loc>https://stock.freelamp.com/tags/%E6%9C%8D%E8%A3%85/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/tags/%E9%98%B3%E5%85%89%E7%94%B5%E6%BA%90/</loc>
+    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E6%8A%A5%E5%88%86%E6%9E%90/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/tags/%E5%BE%B7%E4%B8%9A%E8%82%A1%E4%BB%BD/</loc>
+    <loc>https://stock.freelamp.com/tags/%E6%8A%95%E8%B5%84%E5%BB%BA%E8%AE%AE/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/tags/%E4%B8%8A%E8%83%BD%E7%94%B5%E6%B0%94/</loc>
+    <loc>https://stock.freelamp.com/tags/%E9%AB%98%E8%82%A1%E6%81%AF/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://stock.freelamp.com/tags/%E5%82%A8%E8%83%BD/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/AIDC/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E6%88%B7%E5%82%A8/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%87%BA%E5%8F%A3/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%90%8C%E6%B4%B2%E7%94%B5%E5%AD%90/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/002052/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E9%87%8D%E5%A4%A7%E8%AF%89%E8%AE%BC/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%A3%B3%E8%82%A1/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%E5%88%86%E6%9E%90/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%85%B3%E8%81%94%E4%BA%A4%E6%98%93/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E7%8C%8E%E9%BE%99%E7%A7%91%E6%8A%80/</loc>
+    <loc>https://stock.freelamp.com/tags/%E7%A0%94%E6%8A%A5/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -277,156 +427,6 @@
   </url>
   <url>
     <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%E6%A0%B8%E5%AE%9E/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E6%B0%B4%E6%99%B6%E5%85%89%E7%94%B5/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/002273/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E8%BD%A6%E8%BD%BD%20HUD/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/AR%2FVR/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%85%89%E5%AD%A6%E5%85%83%E4%BB%B6/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/Wind%20%E4%B8%80%E8%87%B4%E9%A2%84%E6%9C%9F/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E6%A3%AE%E9%A9%AC%E6%9C%8D%E9%A5%B0/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E6%9C%8D%E8%A3%85/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E6%8A%A5%E5%88%86%E6%9E%90/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E6%8A%95%E8%B5%84%E5%BB%BA%E8%AE%AE/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E9%AB%98%E8%82%A1%E6%81%AF/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E7%A0%94%E6%8A%A5/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E7%91%9E%E8%8A%AF%E5%BE%AE/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E7%AB%AF%E4%BE%A7%20AI/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/NPU/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/AIoT/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E4%BC%B0%E5%80%BC%E5%88%86%E6%9E%90/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/603893/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/AI%20%E4%BC%9A%E8%AE%A1/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E8%B4%A2%E5%8A%A1%20SaaS/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E7%94%A8%E5%8F%8B%E7%BD%91%E7%BB%9C/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E9%87%91%E8%9D%B6%E5%9B%BD%E9%99%85/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/ERP%20%E8%BD%AC%E5%9E%8B/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/A%20%E8%82%A1%E5%88%86%E6%9E%90/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%8D%8E%E4%B8%BA%E6%AC%A7%E6%8B%89/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/openEuler/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E4%BF%A1%E5%88%9B/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E5%9B%BD%E4%BA%A7%E5%8C%96/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://stock.freelamp.com/tags/%E9%B2%B2%E9%B9%8F%E7%94%9F%E6%80%81/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
