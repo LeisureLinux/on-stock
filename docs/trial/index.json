@@ -7,7 +7,7 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-23 10:08",
+   "time": "09-23 18:08",
    "title": "German union demands 5% raise for workers in strained engineering industry"
   },
   {
@@ -15,7 +15,7 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-23 10:08",
+   "time": "09-23 18:08",
    "title": "Kimberly-Clark offers remedies in bid for EU approval of Kenvue deal"
   },
   {
@@ -23,24 +23,24 @@
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-23 10:08",
+   "time": "09-23 18:08",
    "title": "Rupee slips as dollar gets Fed hike expectations tailwind"
-  },
-  {
-   "src": "ft",
-   "src_name": "Financial Times",
-   "badge": "FT",
-   "color": "#0F766E",
-   "time": "09-23 10:07",
-   "title": "FirstFT: Oil on track for sixth consecutive day of falls"
   },
   {
    "src": "rt",
    "src_name": "Reuters",
    "badge": "RT",
    "color": "#B91C1C",
-   "time": "09-23 10:07",
+   "time": "09-23 18:07",
    "title": "Wall St futures steady with focus on Mideast talks, US-China summit"
+  },
+  {
+   "src": "rt",
+   "src_name": "Reuters",
+   "badge": "RT",
+   "color": "#B91C1C",
+   "time": "09-23 18:07",
+   "title": "Azerbaijan pardons French national after EU drops sanctions on Usmanov"
   }
  ]
 }

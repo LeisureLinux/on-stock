@@ -113,13 +113,21 @@ def http_get(url: str, timeout: int = 30) -> str:
 
 
 def cst_from_iso(s: str) -> dict:
-    """ISO 时间 → 北京时间，返回 {iso, mmdd_hm}"""
+    """ISO 时间 → 北京时间，返回 {iso, mmdd_hm}
+
+    注意：Google News sitemap 的 publication_date 是带时区标志的 W3C 格式
+    （Z / +00:00 / ±hh:mm）。不可截断掉时区，否则会被当成本地时间（主机 TZ=Asia/Shanghai）
+    而少加 8 小时。无时区的裸时间按 UTC 处理（符合 Google 规范的 UTC 缺省）。
+    """
     if not s:
         return {"iso": "", "mmdd_hm": ""}
     try:
-        dt = datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(CST)
+        dt = datetime.fromisoformat(s.strip().replace("Z", "+00:00"))
     except ValueError:
         return {"iso": s, "mmdd_hm": ""}
+    if dt.tzinfo is None:          # 裸时间：按 UTC 解释（不要用主机本地时区）
+        dt = dt.replace(tzinfo=timezone.utc)
+    dt = dt.astimezone(CST)
     return {"iso": dt.isoformat(), "mmdd_hm": dt.strftime("%m-%d %H:%M")}
 
 
@@ -134,7 +142,8 @@ def parse_news_sitemap(xml_text: str) -> list:
             continue
         d = u.find("n:news/n:publication_date", NS)
         t = re.sub(r"\s+", " ", (title.text or "")).strip()
-        rows.append(((d.text or "")[:19] if d is not None else "", t, loc.text))
+        # 保留完整 W3C 串（含时区标志），交给 cst_from_iso 统一换算
+        rows.append((((d.text or "").strip()) if d is not None else "", t, loc.text))
     rows.sort(reverse=True)
     return rows
 

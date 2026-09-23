@@ -89,6 +89,11 @@ fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py �
 
 ## 已知坑
 
+- **发布时间必须带时区**：Google News sitemap 的 `<news:publication_date>` 是带
+  时区标志的 W3C 格式（`Z` / `+00:00`）。**绝不能截断掉时区**——裸时间会被
+  `datetime.astimezone()` 按主机本地时区解释，导致 UTC 墙钟被原样贴上 `+08:00`
+  标签（少 8 小时）。历史归档曾因此错误，见下方「时区修正」。解析时用
+  `cst_from_iso()` 统一处理（裸时间按 UTC 解释），不要自己 `[:19]` 截断。
 - **Python 版本**：CI 用 3.11，不支持 PEP 701（f-string 内嵌同型引号）。
   本仓库 `build.py` 曾因此持续构建失败，已改用 `.format`。写 f-string 时注意。
 - **Pages 模式**：当前 legacy（main:/docs），发布由 GitHub 自带
@@ -97,3 +102,13 @@ fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py �
   Settings → Pages → Source 切换。
 - **build.py 会 `rmtree(docs/)`**：news 页面全部从 `data/` 重建，不要手工往
   `docs/` 里放文件。
+
+## 时区修正（2026-09-23）
+
+旧版 `parse_news_sitemap` 用 `[:19]` 截断 `publication_date`，把时区标志切掉；
+`cst_from_iso` 又把裸时间当本机本地时间，导致**四源所有时间都少 8 小时**，
+且按发布日归档时日期也可能错位。四源 sitemap 均输出 UTC，故统一 +8h 修正。
+
+已修复：`scripts/fetch_news.py`（`parse_news_sitemap` + `cst_from_iso`）。
+历史数据迁移：`scripts/migrate_news_timezone.py`（幂等，带 `--dry-run`/`--yes`）。
+全文页 `data/fulltext/*.json` 里快照的 `time`/`published_cst` 也一并修正。
