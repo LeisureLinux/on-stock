@@ -31,8 +31,36 @@ ASSETS_DIR = LORE_DIR / "assets"  # 静态资源源目录（收款码等）
 NEWS_DATA_DIR = LORE_DIR / "data" / "news"
 SITE_URL = "https://stock.freelamp.com"
 
+# Turnstile 前端 site key（公开值，HTML 里本就暴露）。
+# 与 Worker 部署配置同源：优先读 tools/cf-paywall/wrangler.toml 的 [vars] TURNSTILE_SITE_KEY，
+# 这样订阅页与 Worker 永远一致；读不到时退回下方硬编码常量，保证无 tools/ 的 CI 也能构建。
+TURNSTILE_SITE_KEY_FALLBACK = "0x4AAAAAAE1Iy-NwXPvgymQ0"
+
+
+def _load_turnstile_site_key() -> str:
+    """从 wrangler.toml 读 TURNSTILE_SITE_KEY，缺省退回硬编码常量。"""
+    toml = LORE_DIR / "tools" / "cf-paywall" / "wrangler.toml"
+    if toml.exists():
+        try:
+            for line in toml.read_text(encoding="utf-8").splitlines():
+                s = line.strip()
+                if s.startswith("TURNSTILE_SITE_KEY"):
+                    rhs = s.split("=", 1)[1].strip().strip('"\'')
+                    if rhs:
+                        return rhs
+        except OSError:
+            pass
+    return TURNSTILE_SITE_KEY_FALLBACK
+
+
+TURNSTILE_SITE_KEY = _load_turnstile_site_key()
+
+
 # 免费试读条数
 TRIAL_LIMIT = 5
+
+# 付费 RSS 里保留的最新条目数（跨日倒序取）
+PAID_RSS_LIMIT = 200
 
 # 短标签
 SOURCE_SHORT = {"bb": "BB", "ft": "FT", "wsj": "WSJ", "rt": "RT"}
@@ -42,6 +70,14 @@ SOURCE_LABEL = {
     "ft": "Financial Times",
     "wsj": "The Wall Street Journal",
     "rt": "Reuters",
+}
+
+# 中文简称，用于 RSS 标题前缀（让订阅者一眼看出是路透还是金融时报）
+SOURCE_ZH = {
+    "bb": "彭博",
+    "ft": "金融时报",
+    "wsj": "华尔街日报",
+    "rt": "路透",
 }
 
 # 每家一个主色，用于源标签
@@ -81,7 +117,197 @@ def fmt_date(date_str: str) -> str:
     return date_str
 
 
+def _rfc822(date_val) -> str:
+    """转 RFC 822（RSS pubDate），如 Thu, 04 Aug 2026 00:00:00 GMT"""
+    import datetime as _dt
+    from email.utils import format_datetime
+    if isinstance(date_val, _dt.datetime):
+        d = date_val
+    elif isinstance(date_val, _dt.date):
+        d = _dt.datetime(date_val.year, date_val.month, date_val.day)
+    else:
+        s = str(date_val or "").strip()
+        if not s:
+            return ""
+        try:
+            # ISO 格式（含时区），如 2026-09-24T20:02:01.871000+08:00
+            d = _dt.datetime.fromisoformat(s)
+        except ValueError:
+            try:
+                d = _dt.datetime.strptime(s, "%Y-%m-%d")
+            except ValueError:
+                return ""
+    if d.tzinfo is None:
+        d = d.replace(tzinfo=_dt.timezone.utc)
+    # format_datetime(usegmt=True) 要求 datetime 本身就是 UTC；
+    # 带偏移（如 +08:00）的必须 astimezone(utc) 后再格式化，否则抛
+    # "usegmt option requires a UTC datetime"（曾导致整个新闻页构建被跳过）。
+    d = d.astimezone(_dt.timezone.utc)
+    return format_datetime(d, usegmt=True)
+
+
+def _item_summary(it: dict, max_len: int = 300) -> str:
+    """取条目摘要：优先 summary_zh（中译摘要，由 summarize_news.py 生成），
+    没有则回退 body（英文原文正文）首段。
+    """
+    zh = (it.get("summary_zh") or "").strip()
+    if zh:
+        zh = " ".join(zh.split())
+        return zh[:max_len] + ("…" if len(zh) > max_len else "")
+    body = it.get("body") or []
+    if isinstance(body, list):
+        text = " ".join(str(x) for x in body).strip()
+    else:
+        text = str(body).strip()
+    if not text:
+        return ""
+    text = " ".join(text.split())  # 折叠空白/换行
+    return text[:max_len] + ("…" if len(text) > max_len else "")
+
+
+def build_paid_rss(days, limit: int = 200, self_url: str = "") -> str:
+    """生成**付费** RSS（RSS 2.0）：最新 limit 条，含中译标题 + 摘要 + 原文链接。
+
+    与公开 docs/rss.xml 的区别：本产物**不进 docs/**（会经 GitHub Pages 公开），
+    由 build.py 写到 dist_paid/，再随付费页一起上传到 KV SITE，
+    由 Worker 在鉴权通过后返回（/rss-paid.xml 等端点）。
+
+    days: load_days() 的结果，日期**倒序**。
+    """
+    # 先摊平所有条目，再按发布时间**倒序**取最新 limit 条。
+    # 直接按 days→sources→items 遍历的话，取到的是抓取顺序而非时间顺序，
+    # “最新 N 条”会名不副实（且补摘要时会对错条目）。
+    import datetime as _dt
+    flat = []
+    for date, day in days:
+        for src_key, s in (day.get("sources") or {}).items():
+            label = SOURCE_LABEL.get(src_key, s.get("name") or SOURCE_SHORT.get(src_key, src_key))
+            for it in (s.get("items") or []):
+                url = it.get("url") or it.get("link") or ""
+                if not url:
+                    continue
+                title = (it.get("title_zh") or "").strip() or (it.get("title") or "").strip()
+                if not title:
+                    continue
+                ts = it.get("published_cst") or ""
+                try:
+                    key = _dt.datetime.fromisoformat(str(ts)) if ts else _dt.datetime.min
+                except (ValueError, TypeError):
+                    key = _dt.datetime.min
+                if key.tzinfo is None:
+                    key = key.replace(tzinfo=_dt.timezone.utc)
+                flat.append((key, src_key, label, it, url, title))
+
+    flat.sort(key=lambda x: x[0], reverse=True)
+    flat = flat[:limit]
+
+    items = []
+    for key, src_key, label, it, url, title in flat:
+        summary = _item_summary(it)
+        desc = summary or title
+        pub = _rfc822(it.get("published_cst") or it.get("time") or "")
+        # 标题前缀标出来源（如「[路透] xxx」），RSS 阅读器里一眼可辨
+        src_zh = SOURCE_ZH.get(src_key, label)
+        items.append("\n".join([
+            "    <item>",
+            f"      <title>[{_e(src_zh)}] {_e(title)}</title>",
+            f"      <link>{_e(url)}</link>",
+            f'      <guid isPermaLink="false">{_e(url)}</guid>',
+            f"      <pubDate>{pub}</pubDate>",
+            f"      <category>{_e(label)}</category>",
+            f"      <description><![CDATA[{desc}]]></description>",
+            "    </item>",
+        ]))
+
+    self_link = (
+        f'    <atom:link href="{self_url}" rel="self" type="application/rss+xml"/>\n'
+        if self_url else ""
+    )
+    channel = (
+        "    <title>外媒速览 — 订阅 RSS</title>\n"
+        f"    <link>{SITE_URL}/</link>\n"
+        "    <description>四大财经媒体每日标题速览（中译 + 摘要）</description>\n"
+        "    <language>zh-CN</language>\n"
+        + self_link
+    )
+    return (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
+        "  <channel>\n"
+        + channel
+        + "\n".join(items)
+        + "\n  </channel>\n</rss>\n"
+    )
+
+
 # ---------------------------------------------------------------- 单日页面
+
+# 登录后 /latest 顶部的订阅信息条。用 JS 拉 /api/me 渲染，
+# 未登录则不显示（静态页不内嵌任何用户名/到期信息，避免 KV 内容泄露隐私）。
+USERBAR_HTML = """<div class="container">
+  <div id="userbar" class="userbar" style="display:none">
+    <span class="ub-item">👤 <b id="ub-user"></b></span>
+    <span class="ub-item">套餐 <b id="ub-plan"></b></span>
+    <span class="ub-item">到期 <b id="ub-expire"></b> <span id="ub-days" class="ub-days"></span></span>
+    <span class="ub-spacer"></span>
+    <button id="ub-reset" class="ub-btn" type="button">重置密码</button>
+    <div id="ub-msg" class="ub-msg"></div>
+  </div>
+</div>
+<style>
+.userbar{display:flex;flex-wrap:wrap;gap:6px 16px;align-items:center;background:#fff;border:1px solid #E5E7EB;
+  border-radius:10px;padding:10px 14px;margin:16px 0 0;font-size:13.5px;color:#374151}
+.userbar b{color:#111827}
+.ub-days{color:#059669}
+.ub-days.warn{color:#D97706}
+.ub-days.expired{color:#DC2626}
+.ub-spacer{flex:1}
+.ub-btn{background:#6B7280;color:#fff;border:0;border-radius:6px;padding:6px 12px;font-size:12.5px;cursor:pointer}
+.ub-btn:hover{background:#4B5563}
+.ub-btn:disabled{opacity:.6;cursor:default}
+.ub-msg{flex-basis:100%;font-size:12.5px;color:#6B7280;min-height:0}
+.ub-msg.ok{color:#059669}
+.ub-msg.err{color:#DC2626}
+</style>
+<script>
+(function () {
+  var bar = document.getElementById('userbar');
+  if (!bar) return;
+  function esc(s){ return String(s == null ? '' : s).replace(/[&<>\"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]; }); }
+  fetch('/api/me', { headers: { 'Accept': 'application/json' } }).then(function (r) {
+    if (!r.ok) return null;
+    return r.json();
+  }).then(function (d) {
+    if (!d || !d.ok) return;   // 未登录或异常：不显示信息条
+    document.getElementById('ub-user').textContent = d.user || '';
+    document.getElementById('ub-plan').textContent = d.planLabel || d.plan || '—';
+    document.getElementById('ub-expire').textContent = d.expire || '—';
+    var dl = document.getElementById('ub-days');
+    if (typeof d.daysLeft === 'number') {
+      if (d.daysLeft < 0) { dl.textContent = '（已过期）'; dl.className = 'ub-days expired'; }
+      else { dl.textContent = '（剩 ' + d.daysLeft + ' 天）'; dl.className = 'ub-days' + (d.daysLeft <= 7 ? ' warn' : ''); }
+    }
+    bar.style.display = '';
+  }).catch(function () {});
+
+  document.getElementById('ub-reset').addEventListener('click', function () {
+    if (!confirm('重置密码？\\n\\n将生成新密码并发送到你的邮箱；当前登录会立即失效，需用新密码重新登录。')) return;
+    var btn = this, msg = document.getElementById('ub-msg');
+    btn.disabled = true; msg.className = 'ub-msg'; msg.textContent = '处理中…';
+    fetch('/api/self/reset-password', { method: 'POST', headers: { 'Accept': 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        msg.className = 'ub-msg' + (d.ok ? ' ok' : ' err');
+        msg.textContent = d.msg || (d.ok ? '已完成' : '失败');
+        if (d.ok && d.mailed) {
+          setTimeout(function () { location.href = '/subscribe/'; }, 2500);
+        } else { btn.disabled = false; }
+      })
+      .catch(function (e) { msg.className = 'ub-msg err'; msg.textContent = '网络错误：' + e; btn.disabled = false; });
+  });
+})();
+</script>"""
 
 DAY_TEMPLATE = """<!DOCTYPE html>
 <html lang="zh-CN">
@@ -187,6 +413,8 @@ DAY_TEMPLATE = """<!DOCTYPE html>
     </div>
   </header>
 
+  {userbar}
+
   <div class="container">
     <div class="toolbar">
       <input id="q" type="search" placeholder="过滤标题关键词…">
@@ -290,6 +518,7 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
         desc=f"{fd} 彭博、金融时报、华尔街日报、路透社最新新闻标题汇总，共 {total} 条。",
         canonical=f"{SITE_URL}/{'latest' if is_latest else 'news/' + date}/",
         h1=h1, sub=sub,
+        userbar=USERBAR_HTML if is_latest else "",
         chips=chips_html,
         blocks="\n\n    ".join(blocks),
     )
@@ -924,15 +1153,10 @@ def build_subscribe_page(has_qr: bool = False) -> str:
     qr = ('<img class="qr" src="/assets/wechat-pay-qr.png" alt="微信收款码">'
           if has_qr else
           '<div class="qr-missing">收款码待上传<br>（放置 assets/wechat-pay-qr.png）</div>')
-    ts_key = ''
-    env_file = Path.home() / '.codex' / '.env'
-    if env_file.exists():
-        for line in env_file.read_text(encoding='utf-8').splitlines():
-            line = line.strip()
-            if line.startswith('TURNSTILE_SITE_KEY='):
-                ts_key = line.split('=', 1)[1].strip().strip('"\'')
-                break
-    return SUBSCRIBE_TEMPLATE.format(site_url=SITE_URL, qr=qr, turnstile_site_key=ts_key)
+    # Turnstile site key 为公开值，直接用模块级常量（来自 wrangler.toml，与 Worker 同源），
+    # 不再依赖运行时的 ~/.codex/.env，避免构建环境差异导致订阅页 sitekey 为空。
+    return SUBSCRIBE_TEMPLATE.format(site_url=SITE_URL, qr=qr,
+                                     turnstile_site_key=TURNSTILE_SITE_KEY)
 
 
 
@@ -977,6 +1201,15 @@ def build_news_pages(public_dir: Path, paid_dir: Path) -> int:
     latest_dir.mkdir(parents=True, exist_ok=True)
     (latest_dir / "index.html").write_text(
         build_day_page(latest_date, latest_data, is_latest=True), encoding="utf-8")
+
+    # ---- 付费：订阅 RSS（中译标题 + 摘要 + 原文链接）----
+    # 落在 paid_dir（dist_paid/，随后上传 KV SITE），**不进 docs/**：
+    # docs/ 经 GitHub Pages 公开，付费 RSS 放那里等于公开。
+    rss_dir = paid_dir / "rss"
+    rss_dir.mkdir(parents=True, exist_ok=True)
+    (rss_dir / "index.xml").write_text(
+        build_paid_rss(days, limit=PAID_RSS_LIMIT,
+                       self_url=f"{SITE_URL}/rss-paid.xml"), encoding="utf-8")
 
     # ---- 公开：免费试读 ----
     trial_dir = public_dir / "trial"

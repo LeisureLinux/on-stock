@@ -121,11 +121,13 @@ log "✅ build 完成"
 #      push 之后 GitHub Pages 会删掉 docs/ 里的旧付费页（本就不该在那），
 #      若 KV 此时还没有新内容，订阅者就会拿到 404。
 #      失败则终止本轮不 push：宁可付费页停在上一版，也不要出现空窗。
-if ! "$PYTHON" scripts/publish_paid.py >> "$LOGDIR/publish_paid.log" 2>&1; then
+#      带 --prune：build.py 每轮全量重建 dist_paid/，KV 里已不在 dist_paid/ 的
+#      陈旧归档日（已下线的历史天）顺手清理，避免孤儿 key 只增不减。
+if ! "$PYTHON" scripts/publish_paid.py --prune >> "$LOGDIR/publish_paid.log" 2>&1; then
     log "❌ publish_paid 失败（付费页未上 KV），终止本轮不 push，避免订阅者断供"
     exit 1
 fi
-log "✅ publish_paid 完成（付费页已上 KV）"
+log "✅ publish_paid 完成（付费页已上 KV，已 prune 陈旧 key）"
 
 # 5) 有变更才提交推送（只看 docs/，付费产物与原料都不进仓库）
 git add docs/ >> "$DAYLOG" 2>&1
