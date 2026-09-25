@@ -833,6 +833,15 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
     }}
     .login {{ background:#fff;border:1px solid #E5E7EB;border-radius:14px;padding:24px;margin-bottom:24px; }}
     .login h2 {{ font-size:18px;margin-bottom:12px; }}
+    .rss {{ background:#fff;border:1px solid #E5E7EB;border-radius:14px;padding:24px;margin-bottom:24px; }}
+    .rss h2 {{ font-size:18px;margin-bottom:6px; }}
+    .rss-hint {{ font-size:13px;color:#6B7280;margin-bottom:12px; }}
+    .rss-steps {{ margin:0 0 14px; padding-left:20px; font-size:14px; }}
+    .rss-steps li {{ margin:7px 0; }}
+    .rss code {{ background:#F3F4F6; padding:2px 6px; border-radius:5px; font-size:12.5px; word-break:break-all; }}
+    .rss-notes {{ margin:0; padding-left:18px; font-size:13px; color:#6B7280; }}
+    .rss-notes li {{ margin:6px 0; }}
+    .rss-notes b {{ color:#374151; }}
     .flow {{ background:#fff;border:1px solid #E5E7EB;border-radius:14px;padding:24px;margin-bottom:24px; }}
     .flow h2 {{ font-size:18px;margin-bottom:12px; }}
     .flabel {{ font-size:14px;color:#374151;margin:6px 0; }}
@@ -928,6 +937,24 @@ SUBSCRIBE_TEMPLATE = """<!DOCTYPE html>
         <button id="btn-login" type="button">登录</button>
       </div>
       <div class="msg" id="login-msg"></div>
+    </div>
+
+    <div class="rss">
+      <h2>📡 在手机 App 里订阅（RSS）</h2>
+      <p class="rss-hint">不想每天打开网页？可用 RSS 阅读器订阅，新标题自动推送。</p>
+      <ol class="rss-steps">
+        <li><b>获取你的专属链接</b>：订阅成功并登录后，打开 <a href="/latest/">最新</a> 页，在顶部信息条点「复制」，得到形如<br>
+          <code>/rss-paid.xml?token=xxxx</code> 的订阅地址。（发号邮件里也附有完整链接。）</li>
+        <li><b>安装 App</b>：推荐 <b>FeedFlow</b>（iOS / Android，开源免费）——在 App Store 或 Google Play / F-Droid 搜索 “FeedFlow” 下载。</li>
+        <li><b>添加订阅源</b>：在 FeedFlow 里点「+ → 添加订阅源」，把上一步复制到的完整链接粘贴进去。</li>
+        <li><b>打开方式</b>：点开某条新闻时选「阅读器（网站）」，App 会尝试抓取并提取原文排版。</li>
+      </ol>
+      <ul class="rss-notes">
+        <li>⚠️ 该链接<b>等同你的账号密码</b>，请勿分享给他人。一人一号，检测到多人共用将停用账号。</li>
+        <li>链接如不慎泄露，可登录后在「最新」页点「重新生成」，旧链接立即失效。</li>
+        <li>本站提供的是<b>标题速览 + 中文翻译 + 原文链接</b>；能否读到正文全文取决于原媒体（多为计量付费墙），<b>版权归原媒体所有，本站不提供正文</b>。</li>
+        <li>订阅到期后该 RSS 链接自动失效，续费后自动恢复。</li>
+      </ul>
     </div>
 
     <ol class="steps">
