@@ -251,6 +251,11 @@ USERBAR_HTML = """<div class="container">
     <span class="ub-item">到期 <b id="ub-expire"></b> <span id="ub-days" class="ub-days"></span></span>
     <span class="ub-spacer"></span>
     <button id="ub-reset" class="ub-btn" type="button">重置密码</button>
+    <div class="ub-row">
+      <span class="ub-item">📡 RSS <input id="ub-rss" class="ub-url" type="text" readonly></span>
+      <button id="ub-copy" class="ub-btn" type="button">复制</button>
+      <button id="ub-rotate" class="ub-btn ub-btn-warn" type="button">重新生成</button>
+    </div>
     <div id="ub-msg" class="ub-msg"></div>
   </div>
 </div>
@@ -262,9 +267,13 @@ USERBAR_HTML = """<div class="container">
 .ub-days.warn{color:#D97706}
 .ub-days.expired{color:#DC2626}
 .ub-spacer{flex:1}
+.ub-row{flex-basis:100%;display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding-top:2px}
+.ub-url{width:min(520px,80vw);padding:5px 8px;border:1px solid #D1D5DB;border-radius:6px;font-size:12.5px;color:#374151;background:#F9FAFB}
 .ub-btn{background:#6B7280;color:#fff;border:0;border-radius:6px;padding:6px 12px;font-size:12.5px;cursor:pointer}
 .ub-btn:hover{background:#4B5563}
 .ub-btn:disabled{opacity:.6;cursor:default}
+.ub-btn-warn{background:#D97706}
+.ub-btn-warn:hover{background:#B45309}
 .ub-msg{flex-basis:100%;font-size:12.5px;color:#6B7280;min-height:0}
 .ub-msg.ok{color:#059669}
 .ub-msg.err{color:#DC2626}
@@ -275,6 +284,7 @@ USERBAR_HTML = """<div class="container">
   if (!bar) return;
   function esc(s){ return String(s == null ? '' : s).replace(/[&<>\"']/g, function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]; }); }
+  var msg = document.getElementById('ub-msg');
   fetch('/api/me', { headers: { 'Accept': 'application/json' } }).then(function (r) {
     if (!r.ok) return null;
     return r.json();
@@ -288,12 +298,38 @@ USERBAR_HTML = """<div class="container">
       if (d.daysLeft < 0) { dl.textContent = '（已过期）'; dl.className = 'ub-days expired'; }
       else { dl.textContent = '（剩 ' + d.daysLeft + ' 天）'; dl.className = 'ub-days' + (d.daysLeft <= 7 ? ' warn' : ''); }
     }
+    var rss = document.getElementById('ub-rss');
+    if (d.rssUrl) rss.value = d.rssUrl; else rss.value = '（无，请联系管理员重新发号）';
     bar.style.display = '';
   }).catch(function () {});
 
+  document.getElementById('ub-copy').addEventListener('click', function () {
+    var inp = document.getElementById('ub-rss');
+    if (!inp.value) return;
+    var done = function () { msg.className = 'ub-msg ok'; msg.textContent = 'RSS 链接已复制'; };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(inp.value).then(done, function () { inp.select(); document.execCommand('copy'); done(); });
+    } else { inp.select(); document.execCommand('copy'); done(); }
+  });
+
+  document.getElementById('ub-rotate').addEventListener('click', function () {
+    if (!confirm('重新生成 RSS 链接？\\n\\n旧链接将立即失效，你需要在阅读器里更新为新的链接。')) return;
+    var btn = this;
+    btn.disabled = true; msg.className = 'ub-msg'; msg.textContent = '处理中…';
+    fetch('/api/self/rss-token', { method: 'POST', headers: { 'Accept': 'application/json' } })
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        msg.className = 'ub-msg' + (d.ok ? ' ok' : ' err');
+        msg.textContent = d.msg || (d.ok ? '已更新' : '失败');
+        if (d.ok && d.rssUrl) document.getElementById('ub-rss').value = d.rssUrl;
+        btn.disabled = false;
+      })
+      .catch(function (e) { msg.className = 'ub-msg err'; msg.textContent = '网络错误：' + e; btn.disabled = false; });
+  });
+
   document.getElementById('ub-reset').addEventListener('click', function () {
     if (!confirm('重置密码？\\n\\n将生成新密码并发送到你的邮箱；当前登录会立即失效，需用新密码重新登录。')) return;
-    var btn = this, msg = document.getElementById('ub-msg');
+    var btn = this;
     btn.disabled = true; msg.className = 'ub-msg'; msg.textContent = '处理中…';
     fetch('/api/self/reset-password', { method: 'POST', headers: { 'Accept': 'application/json' } })
       .then(function (r) { return r.json(); })
