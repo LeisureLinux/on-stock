@@ -223,11 +223,20 @@ def build_paid_rss(days, limit: int = 200, self_url: str = "") -> str:
         f'    <atom:link href="{self_url}" rel="self" type="application/rss+xml"/>\n'
         if self_url else ""
     )
+    # RSS 2.0 规范里 lastBuildDate 是可选的，但不少阅读器（含 Miniflux 的
+    # 部分视图）靠它判断「feed 有没有更新」；缺失时会退化为比较条目、
+    # 甚至不显示未读提示。取最新一条的时间，空 feed 则退回当前时间。
+    last_build = _rfc822(flat[0][0]) if flat else _rfc822(
+        _dt.datetime.now(_dt.timezone.utc))
+    last_build_line = (
+        f"    <lastBuildDate>{last_build}</lastBuildDate>\n" if last_build else ""
+    )
     channel = (
         "    <title>外媒速览 — 订阅 RSS</title>\n"
         f"    <link>{SITE_URL}/</link>\n"
         "    <description>四大财经媒体每日标题速览（中译 + 摘要）</description>\n"
         "    <language>zh-CN</language>\n"
+        + last_build_line
         + self_link
     )
     return (

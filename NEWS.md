@@ -80,14 +80,22 @@ fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py�
 在 crontab 里加一行即可（脚本自带 PATH 自愈、flock 互斥、路径自推导，**无需 cd**）：
 
 ```
-0 8,20 * * * /home/axu/stock/scripts/run_daily.sh
+10 6-20 * * * /home/axu/stock/scripts/run_daily.sh
 ```
+
+即**每天 06:10 到 20:10、每小时第 10 分钟跑一次，共 15 次/天**。
+这一行在生产机（`wpad.lan`）的 crontab 里位于 `CRON_TZ=Asia/Shanghai` **之下**，
+所以时间按北京时间解释。修改频率请直接改 crontab，`NEWS.md` 这行只是抄录。
+
+> 历史文档曾写 `0 8,20 * * *`（每天两次），已过时。
 
 关键设计：
 
 * **无硬编码路径**：`REPO` 由脚本自身位置推导，`PYTHON` 用 `command -v python3` 自动探测；
   换机器不用改脚本。需要覆盖时可设环境变量 `PYTHON=/path/to/python` / `STOCK_LOGDIR=/var/log/stock`。
-* **日志**：默认落 `$REPO/logs/`（`fetch_news.log`、`translate_news.log`、`summarize_news.log`），已被 `.gitignore` 忽略。
+* **日志**：默认落 `$REPO/logs/`（`fetch_news.log`、`translate_news.log`、`summarize_news.log`、`publish_paid.log`），已被 `.gitignore` 忽略。
+  `fetch_news.log` 是总日志（含每轮起止、各阶段 ✅/❌、build 与 push 结果），
+  排查某轮为何没发布先看它。
 * **付费页先上 KV 再 push**：`publish_paid.py` 失败就终止本轮不 push——
   Pages 一旦删除旧页、KV 又没新内容，订阅者就会断供。
 * **跨日归档**：`fetch_news.py` 按**发布时间(CST)**归档，sitemap 里混着前几天的条目会分流到历史日文件；
