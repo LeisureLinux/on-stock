@@ -4,11 +4,11 @@
 新闻标题中英翻译 —— 调用翻译后端把标题译成中文，写入 title_zh 字段。
 
 后端（TRANSLATE_BACKEND 环境变量切换，失败自动互降）：
-  * deepseek  （默认）DeepSeek 官方 API，国内直连可达、译文干净；余额为 0 时
-              回 HTTP 402，本轮剩余标题自动改走 workbuddy。
-  * workbuddy  workbuddy2api 本地代理（:7863，免费、走 CodeBuddy 账号池）；
-              按 WORKBUDDY_MODELS 顺序试模型（默认 deepseek-v4.1-flash →
-              glm-5.3-flash → kimi-k2.7 → minimax-m3）。
+  * workbuddy  （默认）workbuddy2api 本地代理（:7863，走 CodeBuddy 账号池）；
+              按 WORKBUDDY_MODELS 顺序试模型：默认 hy3（免费）→
+              deepseek-v4.1-flash（快、更稳，按账号积分计）。
+  * deepseek  DeepSeek 官方 API，国内直连可达、译文干净；余额为 0 时回
+              HTTP 402，本轮剩余标题自动改走 workbuddy。
 
 设计：
   * 只翻译标题（摘要见 summarize_news.py）。
@@ -37,7 +37,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data" / "news"
 
-BACKEND = os.environ.get("TRANSLATE_BACKEND", "deepseek")
+BACKEND = os.environ.get("TRANSLATE_BACKEND", "workbuddy")
 DEEPSEEK_URL = os.environ.get("DEEPSEEK_URL", "https://api.deepseek.com/v1/chat/completions")
 SYSTEM_PROMPT = (
     "你是财经新闻标题翻译器。把英文新闻标题翻译成中文，要求："
@@ -51,15 +51,14 @@ SYSTEM_PROMPT = (
 # 也带一份是「两种模式都对」的写法。
 USER_TEMPLATE = "把下面英文新闻标题翻译成中文，只输出中文译文，不要解释：\n{}"
 
-# workbuddy（本地 CodeBuddy 反代 :7863）模型回退链。
-# 2026-10-30 实测：glm-5.1 已不可用——上游回 400 code=11150
-# "the reasoning effort value is not supported by the current model"，网关转成 503，
-# 于是每条翻译都拿到空串（这正是 10-29 起标题全英文的直接原因）。
-# 下列模型同批实测均能翻且译文干净：deepseek-v4.1-flash / glm-5.3-flash /
-# kimi-k2.7 / minimax-m3。按顺序试，前一个失败换下一个。
+# workbuddy（本地 CodeBuddy 反代 :7863）模型回退链：hy3 免费，先跑它；
+# 它在网关里更慢（实测 ~6s/条 vs deepseek-v4.1-flash ~2.4s），但零成本；
+# 质量不够时自动回退 deepseek-v4.1-flash。
+# （glm-5.1 已被上游以 code=11150 "reasoning effort not supported" 拒掉、网关转
+#  503，不要再写回默认链——那是 10-29 起标题全英文的直接原因。）
 WORKBUDDY_MODELS = [m.strip() for m in os.environ.get(
     "WORKBUDDY_MODELS",
-    "deepseek-v4.1-flash,glm-5.3-flash,kimi-k2.7,minimax-m3").split(",") if m.strip()]
+    "hy3,deepseek-v4.1-flash").split(",") if m.strip()]
 _legacy_model = os.environ.get("WORKBUDDY_MODEL", "").strip()
 if _legacy_model:  # 兼容旧变量：指定值排到最前
     WORKBUDDY_MODELS = [_legacy_model] + [m for m in WORKBUDDY_MODELS if m != _legacy_model]
@@ -155,12 +154,16 @@ def _translate_workbuddy(title: str, timeout: int) -> str:
     return ""
 
 
-def translate_one(title: str, timeout: int = 25) -> str:
-    """主后端失败即降级：deepseek 挂了（欠费/网络）自动换 workbuddy，反之亦然。"""
+def translate_one(title: str, timeout: int = 40) -> str:
+    """主后端失败即降级：workbuddy（hy3 免费）→ workbuddy 回退模型 → 官方 DeepSeek。"""
     if not title:
         return ""
     if BACKEND == "workbuddy":
-        return _translate_workbuddy(title, timeout)
+        zh = _translate_workbuddy(title, timeout)
+        if zh:
+            return zh
+        # 最后兜底：官方 DeepSeek（有余额时）。欠费后 _DEEPSEEK_DOWN 置位，不再撞墙。
+        return "" if _DEEPSEEK_DOWN else _translate_deepseek(title, timeout)
     if not _DEEPSEEK_DOWN:
         zh = _translate_deepseek(title, timeout)
         if zh:

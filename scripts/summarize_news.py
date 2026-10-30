@@ -43,10 +43,10 @@ DEEPSEEK_URL = os.environ.get("DEEPSEEK_URL", "https://api.deepseek.com/v1/chat/
 # 会删掉客户端 system 消息，只有 user 能保证到达模型）。
 USER_TEMPLATE = "把下面英文新闻正文浓缩成 1-2 句中文摘要，只输出中文摘要，不要解释：\n{}\n"
 
-# workbuddy 降级后端：模型回退链与 translate_news.py 保持一致。
+# 摘要后端：workbuddy 优先（hy3 免费）→ deepseek-v4.1-flash → 官方 DeepSeek。
 WORKBUDDY_MODELS = [m.strip() for m in os.environ.get(
     "WORKBUDDY_MODELS",
-    "deepseek-v4.1-flash,glm-5.3-flash,kimi-k2.7,minimax-m3").split(",") if m.strip()]
+    "hy3,deepseek-v4.1-flash").split(",") if m.strip()]
 # 网关对长 prompt 间歇性返回空/截断，正文截到这里再送（实测 1500 字符足够写 40 字摘要）。
 WORKBUDDY_BODY_CHARS = int(os.environ.get("WORKBUDDY_BODY_CHARS", "1500"))
 
@@ -66,43 +66,55 @@ def _read_env_file() -> dict:
     return out
 
 
-def gen_summary(body: list, timeout: int = 25) -> str:
-    """DeepSeek 为主、workbuddy 为备；DeepSeek 欠费/鉴权失败后本轮直接走 workbuddy。"""
+def gen_summary(body: list, timeout: int = 40) -> str:
+    """workbuddy（hy3 免费）为主 → 官方 DeepSeek 为备。
+
+    DeepSeek 欠费/鉴权失败（401/402/403）后 _DEEPSEEK_DOWN 置位，本轮不再撞墙。
+    """
     global _DEEPSEEK_DOWN
     if not body:
         return ""
     text = "\n".join(body[:8])  # 取前 8 段足够摘要
-    if not _DEEPSEEK_DOWN:
-        key = os.environ.get("DEEPSEEK_API_KEY") or _read_env_file().get("DEEPSEEK_API_KEY", "")
-        if key:
-            payload = json.dumps({
-                "model": "deepseek-chat",
-                "messages": [
-                    {"role": "system", "content": SUMMARY_PROMPT},
-                    {"role": "user", "content": USER_TEMPLATE.format(text)},
-                ],
-                "stream": False,
-                "temperature": 0.3,
-            }).encode("utf-8")
-            req = urllib.request.Request(
-                DEEPSEEK_URL, data=payload, method="POST",
-                headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
-            try:
-                with urllib.request.urlopen(req, timeout=timeout) as r:
-                    d = json.loads(r.read().decode())
-                zh = d["choices"][0]["message"]["content"].strip()
-                if zh:
-                    return zh
-            except urllib.error.HTTPError as e:
-                if e.code in (401, 402, 403):
-                    _DEEPSEEK_DOWN = True
-                    print(f"    ⚠️  DeepSeek 不可用（HTTP {e.code}：欠费/鉴权），"
-                          f"本轮剩余摘要改走 workbuddy", file=sys.stderr)
-                else:
-                    print(f"    ⚠️  摘要失败 -> {e}", file=sys.stderr)
-            except Exception as e:
-                print(f"    ⚠️  摘要失败 -> {e}", file=sys.stderr)
-    return _summarize_workbuddy(text, timeout)
+    zh = _summarize_workbuddy(text, timeout)
+    if zh:
+        return zh
+    if _DEEPSEEK_DOWN:
+        return ""
+    return _summarize_deepseek(text, timeout)
+
+
+def _summarize_deepseek(text: str, timeout: int = 40) -> str:
+    global _DEEPSEEK_DOWN
+    key = os.environ.get("DEEPSEEK_API_KEY") or _read_env_file().get("DEEPSEEK_API_KEY", "")
+    if not key:
+        return ""
+    payload = json.dumps({
+        "model": "deepseek-chat",
+        "messages": [
+            {"role": "system", "content": SUMMARY_PROMPT},
+            {"role": "user", "content": USER_TEMPLATE.format(text)},
+        ],
+        "stream": False,
+        "temperature": 0.3,
+    }).encode("utf-8")
+    req = urllib.request.Request(
+        DEEPSEEK_URL, data=payload, method="POST",
+        headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            d = json.loads(r.read().decode())
+        return d["choices"][0]["message"]["content"].strip()
+    except urllib.error.HTTPError as e:
+        if e.code in (401, 402, 403):
+            _DEEPSEEK_DOWN = True
+            print(f"    ⚠️  DeepSeek 不可用（HTTP {e.code}：欠费/鉴权），"
+                  f"本轮剩余摘要不再尝试官方后端", file=sys.stderr)
+        else:
+            print(f"    ⚠️  摘要失败（deepseek）-> {e}", file=sys.stderr)
+        return ""
+    except Exception as e:
+        print(f"    ⚠️  摘要失败（deepseek）-> {e}", file=sys.stderr)
+        return ""
 
 
 def _summarize_workbuddy(text: str, timeout: int = 25) -> str:
