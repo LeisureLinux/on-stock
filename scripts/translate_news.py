@@ -194,6 +194,8 @@ def process_file(path: Path, dry_run: bool = False) -> tuple:
     pending = []
     for s in day.get("sources", {}).values():
         for it in s.get("items", []):
+            if it.get("dup_of"):        # 已被 dedupe_news.py 并掉，不必花翻译额度
+                continue
             if it.get("title") and not it.get("title_zh"):
                 pending.append((it.get("url", ""), it.get("title")))
     total_all = sum(len(s.get("items", [])) for s in day.get("sources", {}).values())

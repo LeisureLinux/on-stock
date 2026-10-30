@@ -173,6 +173,8 @@ def process_file(path: Path, dry_run: bool = False) -> tuple:
         if s.get("name") != "Bloomberg":
             continue
         for it in s.get("items", []):
+            if it.get("dup_of"):        # 已被 dedupe_news.py 并掉，不必花摘要额度
+                continue
             todo = []
             if not it.get("body"):
                 todo.append("body")

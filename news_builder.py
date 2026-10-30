@@ -93,6 +93,14 @@ def _e(s) -> str:
     return html.escape(str(s or ""), quote=False)
 
 
+def _day_total(day: dict) -> int:
+    """当日条目数：扣除 dedupe_news.py 合并掉的重复条目（无 items 时回退 count 字段）。"""
+    sources = day.get("sources") or {}
+    kept = sum(1 for s in sources.values() for it in (s.get("items") or [])
+               if not it.get("dup_of"))
+    return kept if kept else sum(s.get("count", 0) for s in sources.values())
+
+
 def load_days():
     """读取所有归档日数据，日期倒序返回 [(date, data), ...]"""
     if not NEWS_DATA_DIR.exists():
@@ -183,6 +191,8 @@ def build_paid_rss(days, limit: int = 200, self_url: str = "") -> str:
         for src_key, s in (day.get("sources") or {}).items():
             label = SOURCE_LABEL.get(src_key, s.get("name") or SOURCE_SHORT.get(src_key, src_key))
             for it in (s.get("items") or []):
+                if it.get("dup_of"):        # 已被 dedupe_news.py 判为跨源/同源重复
+                    continue
                 url = it.get("url") or it.get("link") or ""
                 if not url:
                     continue
@@ -509,7 +519,10 @@ DAY_TEMPLATE = """<!DOCTYPE html>
 
 def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
     sources = day.get("sources", {})
-    total = sum(s.get("count", 0) for s in sources.values())
+    # dedupe_news.py 给重复条目打了 dup_of；页面只展示保留的，被合并的另计一个数
+    merged = sum(1 for s in sources.values() for it in (s.get("items") or [])
+                 if it.get("dup_of"))
+    total = _day_total(day)
 
     chips = []
     for key in sources:
@@ -522,7 +535,8 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
     for key, s in sources.items():
         name = s.get("name", SOURCE_LABEL.get(key, key))
         color = SOURCE_COLOR.get(key, "#6B7280")
-        items = s.get("items", [])
+        items = [it for it in s.get("items", []) if not it.get("dup_of")]
+        dup_n = sum(1 for it in s.get("items", []) if it.get("dup_of"))
         lis = []
         for it in items:
             badge = (f'<span class="badge" style="background:{color}">'
@@ -547,7 +561,8 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
             f'<div class="src-block" data-block="{_e(key)}">\n'
             f'  <div class="src-head">\n'
             f'    <span class="src-name" style="color:{color}">{_e(name)}</span>\n'
-            f'    <span class="src-count">{len(items)} 条</span>\n'
+            f'    <span class="src-count">{len(items)} 条'
+            f'{"（已并 " + str(dup_n) + "）" if dup_n else ""}</span>\n'
             f'  </div>\n'
             f'  <div class="src-note">{_e(s.get("note", ""))}</div>\n'
             f'  <ul class="news">\n        {body}\n  </ul>\n'
@@ -555,7 +570,8 @@ def build_day_page(date: str, day: dict, is_latest: bool = False) -> str:
 
     fd = fmt_date(date)
     h1 = f"外媒速览 · {fd}" + ("（最新）" if is_latest else "")
-    sub = (f"共 {total} 条 ｜ 来源 {len(sources)} 家 ｜ "
+    sub = (f"共 {total} 条" + (f"（已合并重复 {merged} 条）" if merged else "")
+           + f" ｜ 来源 {len(sources)} 家 ｜ "
            f"更新于 {_e(day.get('generated_at', '')[:16].replace('T', ' '))} CST")
 
     return DAY_TEMPLATE.format(
@@ -631,7 +647,7 @@ def build_archive_page(days) -> str:
     rows = []
     for date, d in days:
         sources = d.get("sources", {})
-        total = sum(s.get("count", 0) for s in sources.values())
+        total = _day_total(d)
         detail = " ｜ ".join(
             f"{SOURCE_LABEL.get(k, k)} {s.get('count', 0)}"
             for k, s in sources.items())
@@ -743,7 +759,7 @@ def build_trial_page(date: str, day: dict, limit: int = TRIAL_LIMIT) -> str:
     blocks = []
     shown = 0
     for key, s in (day.get("sources") or {}).items():
-        items = s.get("items", [])
+        items = [it for it in s.get("items", []) if not it.get("dup_of")]
         # 每源按时间倒序取前 limit 条（items 本身多按时间排列，倒序取尾更稳妥）
         top = sorted(items, key=lambda it: it.get("time", ""), reverse=True)[:limit]
         if not top:
@@ -762,7 +778,7 @@ def build_trial_page(date: str, day: dict, limit: int = TRIAL_LIMIT) -> str:
             f'</div>\n      <ul class="news">\n{lis}\n      </ul>\n    </div>')
 
     items = "\n".join(blocks) or '      <li><span class="t">暂无数据</span></li>'
-    total = sum(s.get("count", 0) for s in (day.get("sources") or {}).values())
+    total = _day_total(day)
     return TRIAL_TEMPLATE.format(
         site_url=SITE_URL, date=fmt_date(date), limit=limit,
         total=total, items=items,
@@ -1289,7 +1305,7 @@ def build_news_pages(public_dir: Path, paid_dir: Path) -> int:
     (trial_dir / "index.html").write_text(
         build_trial_page(latest_date, latest_data), encoding="utf-8")
 
-    total = sum(s.get("count", 0) for s in latest_data.get("sources", {}).values())
+    total = _day_total(latest_data)
     print(f"   📰 付费页→{paid_dir.name}/：{len(days)} 天归档 + latest（{latest_date}，{total} 条）")
     print(f"   🆓 公开页→{public_dir.name}/：trial（5 条免费） + subscribe")
     return len(days)

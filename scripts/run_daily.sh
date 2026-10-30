@@ -2,7 +2,8 @@
 # stock.freelamp.com 外媒速览 · 每日自动流水线
 # cron 调用（不要把带 % 的命令直接写进 crontab —— % 转义地狱）
 #
-# 链路: fetch(标题) → translate(中文化) → summarize(BB正文+摘要)
+# 链路: fetch(标题) → dedupe(同日重复合并) → translate(中文化)
+#       → summarize(BB正文+摘要)
 #       → build(公开页→docs/，付费页→dist_paid/) → publish_paid(dist_paid → KV)
 #       → commit → push(触发 Pages 发布)
 #
@@ -93,6 +94,16 @@ case " $TOUCHED " in
     *) TOUCHED="$TODAY $TOUCHED" ;;
 esac
 log "本轮涉及归档日:$TOUCHED"
+
+# 1.7) 去重（同日跨源同一事件只留一条；同源同标题/包含关系的也并掉）
+#      必须在 translate 之前：省下重复条目的翻译调用；被并的条目不删数据，
+#      只打 dup_of 标记，news_builder 构建时跳过（可回溯、可回滚）。
+for d in $TOUCHED; do
+    if ! "$PYTHON" scripts/dedupe_news.py --date "$d" >> "$LOGDIR/dedupe_news.log" 2>&1; then
+        log "⚠️  dedupe $d 失败(继续翻译)"
+    fi
+done
+log "✅ dedupe 完成"
 
 # 2) 翻译（逐回归档日，增量：已译不重译）
 for d in $TOUCHED; do
