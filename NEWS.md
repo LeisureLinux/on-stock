@@ -101,8 +101,19 @@ fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py�
 * **跨日归档**：`fetch_news.py` 按**发布时间(CST)**归档，sitemap 里混着前几天的条目会分流到历史日文件；
   `run_daily.sh` 用 mtime（3h 窗口）找出本轮真正改动的日期文件逐个跑 translate/summarize，
   否则分流到历史日的条目会永远没有中文标题。（`data/` 已不进 git，`git status` 不再报告它，故改用 mtime。）
-* **DeepSeek key** 从 `~/.codex/.env` 读取；翻译默认后端 `TRANSLATE_BACKEND=deepseek`，
-  如需切到 workbuddy 本地代理：`TRANSLATE_BACKEND=workbuddy`。
+* **翻译/摘要后端**（优先级从高到低，全部失败才算这条失败）：
+  1. `workbuddy` 本地 CodeBuddy 反代 `:7863` 的 **`hy3`（免费）**；
+  2. `workbuddy` 的 `deepseek-v4.1-flash`（快、按账号积分计）；
+  3. 官方 DeepSeek（`~/.codex/.env` 的 `DEEPSEEK_API_KEY`）。
+
+  默认 `TRANSLATE_BACKEND=workbuddy`；可用 `WORKBUDDY_MODELS=hy3,deepseek-v4.1-flash` 覆盖回退链。
+  官方 DeepSeek 一旦回 401/402/403（余额归零、key 失效）就整轮跳过，不再逐条撞墙
+  ——2026-10-29 曾因余额归零刷出 2868 条 402 告警、10-30 归档 275 条标题全英文。
+  另注：`glm-5.1` 已被上游以 `code=11150`（reasoning_effort 不支持）拒掉、网关转 503，
+  **不要**写回默认链。
+
+  翻译/摘要指令同时写进 **user** 消息：网关 `prompt.mode=custom` 时客户端 `system`
+  消息会被整条替换掉（`internal/prompt.Rewrite`），只有 user 能保证到达模型。
 * WSJ/Reuters 体育新闻已在 `fetch_news.py` 的 `skip_sections` 过滤。
 
 手工触发：`bash scripts/run_daily.sh [YYYYMMDD]`（缺省为今天，北京时间）。
@@ -114,7 +125,7 @@ fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py�
 | Bloomberg | `/sitemaps/news/latest.xml` | ✅ `envoy.cirrus.bloomberg.com` 镜像域名直连，读 `__NEXT_DATA__` |
 | FT | `/sitemaps/news.xml`、RSS `/rss/home/international` | ✅ 官方 news sitemap 可直连抓标题（实测 110 条/日）；正文仍受 Cloudflare 验证页拦截，暂无自动通道 |
 | WSJ | `/wsjsitemaps/wsj_google_news.xml` | ✅ 官方 news sitemap 可直连抓标题（实测 108 条/日）；正文可经 TradingView `news/DJN_*`（道琼斯通讯社全文），需搜索 |
-| Reuters | `/arc/outboundfeeds/news-sitemap/?outputType=xml` | ✅ 官方 news sitemap 可直连抓标题（实测 50 条/日，支持 `--pages` 翻页）；正文可经 CNA 等授权转载站，需搜索 |
+| Reuters | `/arc/outboundfeeds/news-sitemap/?outputType=xml` | ⚠️ **2026-10-30 起 sitemap 直连与 8888 代理均返回 401**（疑按 IP 封锁，抓取 0 条）；待换 IP 后复查 |
 
 > 标题四家均已跑通（2026-09-14 实测：bb 158 / ft 110 / wsj 108 / rt 50，共 426 条）。
 > WSJ 官方 RSS（`feeds.a.dj.com`）数据陈旧（实测返回 2025 年内容），勿用。
