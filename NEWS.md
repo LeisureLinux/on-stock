@@ -101,6 +101,12 @@ fetch 标题 → translate 中文 → summarize(BB 正文+摘要) → build.py�
 * **跨日归档**：`fetch_news.py` 按**发布时间(CST)**归档，sitemap 里混着前几天的条目会分流到历史日文件；
   `run_daily.sh` 用 mtime（3h 窗口）找出本轮真正改动的日期文件逐个跑 translate/summarize，
   否则分流到历史日的条目会永远没有中文标题。（`data/` 已不进 git，`git status` 不再报告它，故改用 mtime。）
+* **同日去重**：`scripts/dedupe_news.py` 在 fetch 之后、translate 之前跑。同源同标题/包含关系/
+  IDF 加权重叠 ≥0.55，或跨源 IDF 加权重叠 ≥0.30，即判为同一事件，只留一条
+  （优先级 bb > wsj > ft > rt，同级取发布早的）。被并条目不删数据，只打
+  `dup_of`/`dup_reason`/`dup_title`，`news_builder.py` 构建时跳过并在页头标「已合并重复 N 条」，
+  translate/summarize 也跳过它们（省额度）。阈值可调：`--cross 0.30 --same 0.55`，
+  `--dry-run --verbose` 可先看会并掉什么再决定。实测 1029 归档 732 条并掉 37 条（30 组）。
 * **翻译/摘要后端**（优先级从高到低，全部失败才算这条失败）：
   1. `workbuddy` 本地 CodeBuddy 反代 `:7863` 的 **`hy3`（免费）**；
   2. `workbuddy` 的 `deepseek-v4.1-flash`（快、按账号积分计）；
