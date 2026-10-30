@@ -7,7 +7,7 @@
   1. 同源：标题归一化后完全相同                       → 重复
   2. 同源：一方词集合被另一方包含（短的一方 ≥ MIN_TOKENS 词）→ 重复
   3. 同源：IDF 加权词重叠分 ≥ --same（默认 0.55）      → 重复
-  4. 跨源：IDF 加权词重叠分 ≥ --cross（默认 0.35）     → 重复
+  4. 跨源：IDF 加权词重叠分 ≥ --cross（默认 0.30）     → 重复
 
 为什么用 IDF 加权而不是朴素 Jaccard：权重按**当天归档**统计，`intel`/`doordash`
 这类当天少见的词权重大，`shares`/`stocks`/`fall` 这类到处都是的词几乎不计分。
@@ -198,7 +198,7 @@ def main():
     ap.add_argument("--date", default=None, help="YYYYMMDD，默认今天")
     ap.add_argument("--all", action="store_true", help="处理 data/news 下全部归档")
     ap.add_argument("--dry-run", action="store_true", help="只列出会丢弃的条目，不写盘")
-    ap.add_argument("--cross", type=float, default=0.35, help="跨源判定阈值（默认 0.35）")
+    ap.add_argument("--cross", type=float, default=0.30, help="跨源判定阈值（默认 0.30）")
     ap.add_argument("--same", type=float, default=0.55, help="同源判定阈值（默认 0.55）")
     ap.add_argument("--verbose", action="store_true", help="逐条打印被合并的对")
     args = ap.parse_args()
