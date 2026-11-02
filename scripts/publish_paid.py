@@ -35,6 +35,7 @@ key 规范（与 worker.js 的 kvPage 一致）
 import argparse
 import json
 import os
+import subprocess
 import sys
 import urllib.error
 import urllib.parse
@@ -50,6 +51,67 @@ WRANGLER_TOML = ROOT / "tools" / "cf-paywall" / "wrangler.toml"
 MAX_VALUE_BYTES = 20 * 1024 * 1024
 # 并发上传数（KV 免费额度 1000 写/天，这里远低于）
 WORKERS = 8
+
+# ---- 出口选择 -----------------------------------------------------------
+# Cloudflare API 在境内直连会被 TLS 重置 / 握手超时（实测 43 成功 16 失败），
+# 必须走本机 sing-box socks 出口。与 fetch_news.py 保持同一套开关语义。
+#
+# ⚠️ 不能用 urllib 的 ProxyHandler 走 socks：urllib 不支持 socks://  scheme，
+#    喂它 socks5h:// 只会得到 Connection reset。这里统一用 curl 作为传输层
+#    （curl 原生支持 -x socks5h://），行为与 fetch_news.py 一致。
+KV_PROXY = os.environ.get("KV_PROXY", "auto").strip().lower()
+KV_SOCKS = os.environ.get("KV_SOCKS", "socks5h://127.0.0.1:1080")
+
+
+def _curl(url: str, method: str, token: str, timeout: int,
+          body: bytes | None = None):
+    """用 curl 打一次 Cloudflare API，返回 (status, body_bytes)。
+
+    出口顺序由 KV_PROXY 决定：
+      proxy  -> 只走 socks
+      direct -> 只走直连
+      auto   -> 先 socks，失败再直连（默认）
+    """
+    if KV_PROXY == "proxy":
+        order = [KV_SOCKS]
+    elif KV_PROXY == "direct":
+        order = [None]
+    else:
+        order = [KV_SOCKS, None]
+
+    last = None
+    for proxy in order:
+        cmd = ["curl", "-sS", "-X", method, "--max-time", str(timeout),
+               "-H", f"Authorization: Bearer {token}", "-w", "\n%{http_code}"]
+        if body is not None:
+            cmd += ["-H", "Content-Type: text/html; charset=utf-8",
+                    "--data-binary", "@-"]
+        if proxy:
+            cmd += ["-x", proxy]
+        cmd.append(url)
+        try:
+            r = subprocess.run(cmd, input=body, capture_output=True,
+                               timeout=timeout + 15)
+        except Exception as e:  # noqa: BLE001
+            last = e
+            continue
+        out = r.stdout
+        if r.returncode != 0 or not out:
+            last = RuntimeError(
+                f"curl rc={r.returncode} {r.stderr.decode('utf-8', 'replace')[:200]}")
+            continue
+        # 最后一行是 -w 写的 http_code，其余是响应体
+        nl = out.rfind(b"\n")
+        if nl < 0:
+            last = RuntimeError("curl 输出异常")
+            continue
+        payload, code_s = out[:nl], out[nl + 1:].strip()
+        try:
+            return int(code_s), payload
+        except ValueError:
+            last = RuntimeError(f"无法解析 http_code: {code_s!r}")
+            continue
+    raise last if last else RuntimeError("curl 未执行")
 
 
 def load_dotenv(path=None):
@@ -108,7 +170,7 @@ def api_creds():
     missing = [n for n, v in (("CF_API_TOKEN", token), ("CF_ACCOUNT_ID", acct),
                               ("namespace id", ns)) if not v]
     if missing:
-        print(f"❌ 缺少凭据：{', '.join(missing)}")
+        print(f"❌ 缺少凭证：{', '.join(missing)}")
         print("   把 CF_API_TOKEN / CF_ACCOUNT_ID 放进 ~/.codex/.env，")
         print("   namespace id 可放 CF_KV_NAMESPACE_SITE_ID 或由 wrangler.toml 提供。")
         return None
@@ -121,43 +183,36 @@ def kv_url(acct: str, ns: str, suffix: str) -> str:
 
 
 def kv_put(token: str, acct: str, ns: str, key: str, body: bytes) -> tuple:
+    """上传一个 key。返回 (key, ok, err)。"""
     url = kv_url(acct, ns, "values/" + urllib.parse.quote(key, safe=""))
-    req = urllib.request.Request(url, data=body, method="PUT", headers={
-        "Authorization": f"Bearer {token}",
-        "Content-Type": "text/html; charset=utf-8",
-    })
     try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            return key, r.status in (200, 201), None
-    except urllib.error.HTTPError as e:
-        return key, False, f"HTTP {e.code}: {e.read()[:200].decode('utf-8', 'replace')}"
-    except Exception as e:
+        status, _ = _curl(url, "PUT", token, 60, body=body)
+    except Exception as e:  # noqa: BLE001
         return key, False, str(e)
+    if status in (200, 201):
+        return key, True, None
+    return key, False, f"HTTP {status}"
 
 
 def kv_get(token: str, acct: str, ns: str, key: str):
+    """读回一个 key 的字节；不存在返回 None。"""
     url = kv_url(acct, ns, "values/" + urllib.parse.quote(key, safe=""))
-    req = urllib.request.Request(url, headers={"Authorization": f"Bearer {token}"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as r:
-            return r.read()
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return None
+        status, payload = _curl(url, "GET", token, 30)
+    except Exception as e:  # noqa: BLE001
         raise
+    if status == 404:
+        return None
+    return payload
 
 
 def kv_delete(token: str, acct: str, ns: str, key: str) -> bool:
     url = kv_url(acct, ns, "values/" + urllib.parse.quote(key, safe=""))
-    req = urllib.request.Request(url, method="DELETE",
-                                 headers={"Authorization": f"Bearer {token}"})
     try:
-        with urllib.request.urlopen(req, timeout=30):
-            return True
-    except urllib.error.HTTPError as e:
-        return e.code == 404
-    except Exception:
+        status, _ = _curl(url, "DELETE", token, 30)
+    except Exception:  # noqa: BLE001
         return False
+    return status in (200, 204, 404)
 
 
 def kv_list_keys(token: str, acct: str, ns: str) -> list:
@@ -167,10 +222,10 @@ def kv_list_keys(token: str, acct: str, ns: str) -> list:
         suffix = "keys?limit=1000"
         if cursor:
             suffix += "&cursor=" + urllib.parse.quote(cursor, safe="")
-        req = urllib.request.Request(kv_url(acct, ns, suffix),
-                                     headers={"Authorization": f"Bearer {token}"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            data = json.loads(r.read().decode())
+        status, payload = _curl(kv_url(acct, ns, suffix), "GET", token, 30)
+        if status != 200:
+            raise RuntimeError(f"列举 KV 失败: HTTP {status}")
+        data = json.loads(payload.decode("utf-8", "replace"))
         result = data.get("result", [])
         keys.extend(k["name"] for k in result)
         info = data.get("result_info", {}) or {}

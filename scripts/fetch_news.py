@@ -31,6 +31,7 @@ import argparse
 import gzip
 import io
 import json
+import os
 import re
 import subprocess
 import sys
@@ -87,29 +88,53 @@ SOURCES = {
 }
 
 
-def http_get(url: str, timeout: int = 30) -> str:
-    """GET 返回文本。优先 urllib，失败回退 curl（部分环境 Python 无外网权限）。"""
-    try:
-        req = urllib.request.Request(url, headers={
-            "User-Agent": UA,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.9",
-            "Accept-Encoding": "gzip, deflate",
-        })
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            raw = r.read()
-            if r.headers.get("Content-Encoding") == "gzip":
-                raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
-        return raw.decode("utf-8", errors="ignore")
-    except Exception:
-        pass
-    r = subprocess.run(
-        ["curl", "-sL", "--max-time", str(timeout), "-A", UA,
-         "-H", "Accept-Language: en-US,en;q=0.9", url],
-        capture_output=True, text=True, timeout=timeout + 15)
+# ---- 出口选择 -----------------------------------------------------------
+# 四大财经源（Bloomberg / FT / WSJ / Reuters）在境内直连会被 GFW 在 TLS 握手
+# 阶段重置（"OpenSSL SSL_connect: 连接被对方重置"），必须走代理出口。
+# 本机 sing-box 的 socks 出口是 127.0.0.1:1080，四源经它全部 HTTP 200。
+#
+# 三种模式（环境变量 NEWS_PROXY 覆盖，默认 auto）：
+#   auto  —— 先试代理，代理不可用再回退直连（推荐，容错）
+#   proxy —— 强制走代理，代理不通就报错（避免静默拿到空结果）
+#   direct—— 强制直连（调试用）
+NEWS_PROXY = os.environ.get("NEWS_PROXY", "auto").strip().lower()
+SOCKS_PROXY = os.environ.get("NEWS_SOCKS", "socks5h://127.0.0.1:1080")
+
+def _fetch_curl(url: str, timeout: int, proxy: str | None) -> str:
+    """用 curl 抓一次。proxy 为 None 表示直连，否则走该代理。"""
+    cmd = ["curl", "-sL", "--max-time", str(timeout), "-A", UA,
+           "-H", "Accept-Language: en-US,en;q=0.9"]
+    if proxy:
+        cmd += ["-x", proxy]
+    cmd.append(url)
+    r = subprocess.run(cmd, capture_output=True, text=True,
+                       timeout=timeout + 15)
     if not r.stdout.strip():
         raise RuntimeError(f"抓取失败: {url}")
     return r.stdout
+
+
+def http_get(url: str, timeout: int = 30) -> str:
+    """GET 返回文本。
+
+    外媒源在境内必须走代理，故默认先试 socks 代理；auto 模式下代理不可用
+    再回退直连，保证换网络环境（例如拿到干净出口的 VPS 上）也能跑。
+    """
+    order = []
+    if NEWS_PROXY == "proxy":
+        order = [SOCKS_PROXY]
+    elif NEWS_PROXY == "direct":
+        order = [None]
+    else:  # auto
+        order = [SOCKS_PROXY, None]
+
+    last_err: Exception | None = None
+    for proxy in order:
+        try:
+            return _fetch_curl(url, timeout, proxy)
+        except Exception as e:  # noqa: BLE001 - 逐个尝试，记录最后一个错
+            last_err = e
+    raise RuntimeError(f"抓取失败: {url}（已试 {len(order)} 种出口）: {last_err}")
 
 
 def cst_from_iso(s: str) -> dict:
@@ -203,6 +228,7 @@ def fetch_source(key: str, with_body: bool = False, pages: int = 1,
             rows = parse_news_sitemap(http_get(sm_url))
         except Exception as e:
             print(f"  ⚠️  {cfg['name']} sitemap 失败: {e}", file=sys.stderr)
+            print(f"      (出口={NEWS_PROXY} socks={SOCKS_PROXY})", file=sys.stderr)
             continue
         for iso, title, url in rows:
             if skip_letters and title.startswith("Letter:"):
