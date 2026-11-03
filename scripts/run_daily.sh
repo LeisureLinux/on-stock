@@ -22,17 +22,10 @@ export LANG=C.UTF-8
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin${PATH:+:$PATH}"
 [ -n "${HOME:-}" ] && export PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
-# ---- 出口选择：四大财经源 + Cloudflare KV API 均需走 socks 代理 ----
-# 境内直连会在 TLS 握手阶段被 GFW 重置（Bloomberg/FT/WSJ/Reuters 实测
-# "OpenSSL SSL_connect: 连接被对方重置"），Cloudflare KV API 也大面积超时。
-# 本机 sing-box 的 socks 出口是 127.0.0.1:1080。
-#
-# auto = 先试代理，代理不可用再回退直连（换到有干净出口的机器上也能跑）。
-# 需要强制/禁用代理时，在 crontab 里覆盖即可：
-#   NEWS_PROXY=proxy / NEWS_PROXY=direct
-#   KV_PROXY=proxy   / KV_PROXY=direct
-export NEWS_PROXY="${NEWS_PROXY:-auto}"
-export KV_PROXY="${KV_PROXY:-auto}"
+# ---- 出口：依赖 wpad 的 sing-box 透明代理 ----
+# 非 root 进程的流量由 nft output-tproxy 接管（→ tproxy → sing-box →
+# urltest: hy2 主 / mieru 备），脚本内不再设置任何显式代理。
+
 
 # ---- 路径/解释器：不硬编码 ----
 REPO="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"

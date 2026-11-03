@@ -52,66 +52,36 @@ MAX_VALUE_BYTES = 20 * 1024 * 1024
 # 并发上传数（KV 免费额度 1000 写/天，这里远低于）
 WORKERS = 8
 
-# ---- 出口选择 -----------------------------------------------------------
-# Cloudflare API 在境内直连会被 TLS 重置 / 握手超时（实测 43 成功 16 失败），
-# 必须走本机 sing-box socks 出口。与 fetch_news.py 保持同一套开关语义。
-#
-# ⚠️ 不能用 urllib 的 ProxyHandler 走 socks：urllib 不支持 socks://  scheme，
-#    喂它 socks5h:// 只会得到 Connection reset。这里统一用 curl 作为传输层
-#    （curl 原生支持 -x socks5h://），行为与 fetch_news.py 一致。
-KV_PROXY = os.environ.get("KV_PROXY", "auto").strip().lower()
-KV_SOCKS = os.environ.get("KV_SOCKS", "socks5h://127.0.0.1:1080")
-
-
+# ---- 出口 ---------------------------------------------------------------
+# 不设置显式代理：非 root 进程的流量由 sing-box 透明代理接管。
+# 仍用 curl 作为传输层（urllib 不支持 socks://，且 curl 对 HTTP 状态码处理更直接）。
 def _curl(url: str, method: str, token: str, timeout: int,
           body: bytes | None = None):
-    """用 curl 打一次 Cloudflare API，返回 (status, body_bytes)。
-
-    出口顺序由 KV_PROXY 决定：
-      proxy  -> 只走 socks
-      direct -> 只走直连
-      auto   -> 先 socks，失败再直连（默认）
-    """
-    if KV_PROXY == "proxy":
-        order = [KV_SOCKS]
-    elif KV_PROXY == "direct":
-        order = [None]
-    else:
-        order = [KV_SOCKS, None]
-
-    last = None
-    for proxy in order:
-        cmd = ["curl", "-sS", "-X", method, "--max-time", str(timeout),
-               "-H", f"Authorization: Bearer {token}", "-w", "\n%{http_code}"]
-        if body is not None:
-            cmd += ["-H", "Content-Type: text/html; charset=utf-8",
-                    "--data-binary", "@-"]
-        if proxy:
-            cmd += ["-x", proxy]
-        cmd.append(url)
-        try:
-            r = subprocess.run(cmd, input=body, capture_output=True,
-                               timeout=timeout + 15)
-        except Exception as e:  # noqa: BLE001
-            last = e
-            continue
-        out = r.stdout
-        if r.returncode != 0 or not out:
-            last = RuntimeError(
-                f"curl rc={r.returncode} {r.stderr.decode('utf-8', 'replace')[:200]}")
-            continue
-        # 最后一行是 -w 写的 http_code，其余是响应体
-        nl = out.rfind(b"\n")
-        if nl < 0:
-            last = RuntimeError("curl 输出异常")
-            continue
-        payload, code_s = out[:nl], out[nl + 1:].strip()
-        try:
-            return int(code_s), payload
-        except ValueError:
-            last = RuntimeError(f"无法解析 http_code: {code_s!r}")
-            continue
-    raise last if last else RuntimeError("curl 未执行")
+    """用 curl 打一次 Cloudflare API，返回 (status, body_bytes)。"""
+    cmd = ["curl", "-sS", "-X", method, "--max-time", str(timeout),
+           "-H", f"Authorization: Bearer {token}", "-w", "\n%{http_code}"]
+    if body is not None:
+        cmd += ["-H", "Content-Type: text/html; charset=utf-8",
+                "--data-binary", "@-"]
+    cmd.append(url)
+    try:
+        r = subprocess.run(cmd, input=body, capture_output=True,
+                           timeout=timeout + 15)
+    except Exception as e:  # noqa: BLE001
+        raise RuntimeError(f"curl 执行失败: {e}") from e
+    out = r.stdout
+    if r.returncode != 0 or not out:
+        raise RuntimeError(
+            f"curl rc={r.returncode} {r.stderr.decode('utf-8', 'replace')[:200]}")
+    # 最后一行是 -w 写的 http_code，其余是响应体
+    nl = out.rfind(b"\n")
+    if nl < 0:
+        raise RuntimeError("curl 输出异常")
+    payload, code_s = out[:nl], out[nl + 1:].strip()
+    try:
+        return int(code_s), payload
+    except ValueError:
+        raise RuntimeError(f"无法解析 http_code: {code_s!r}") from None
 
 
 def load_dotenv(path=None):
