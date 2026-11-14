@@ -68,8 +68,9 @@ if ! "$PYTHON" scripts/fetch_news.py --skip-letters >> "$DAYLOG" 2>&1; then
 fi
 log "✅ fetch 完成"
 
-# 1.5) 全部抓空(网络断/sitemap 挂)则告警跳过发布，避免 build+push 空转。
-#      注意：不 exit 1，留给下轮 cron 自然重试；也不 clean stash，避免误伤手工改动。
+# 1.5) 四源官方 sitemap 全空(网络断/sitemap 挂)则告警跳过发布，避免 build+push 空转。
+#      只看 bb/ft/wsj/rt：gh 是补充源，不能拿它掩盖四源全挂。
+#      注意：不 clean stash，避免误伤手工改动；本轮不发布，下轮 cron 自然重试。
 TODAY=$DATE
 NEW_TOTAL=$("$PYTHON" -c "
 import json, sys
@@ -78,13 +79,14 @@ p = Path('$REPO/data/news/$TODAY.json')
 if not p.exists():
     print(0); sys.exit()
 d = json.loads(p.read_text())
-print(sum(s.get('count', 0) for s in d.get('sources', {}).values()))
+core = ('bb', 'ft', 'wsj', 'rt')
+print(sum(len((d.get('sources', {}).get(k) or {}).get('items', [])) for k in core))
 " 2>/dev/null || echo 0)
 if [ "$NEW_TOTAL" -eq 0 ] 2>/dev/null; then
-    log "⚠️  今日归档为空（四源 sitemap 全部抓取失败？网络问题），跳过 translate/summarize/build/push"
+    log "⚠️  今日四大官方源全部为空（sitemap 抓取失败？网络问题），跳过 merge/translate/summarize/build/push"
     exit 1
 fi
-log "✅ 今日归档 $NEW_TOTAL 条"
+log "✅ 今日四大官方源 $NEW_TOTAL 条"
 
 # 1.55) 并入 wpad-02 上 06:00 global_headlines_daily.py 的站点头条精选。
 #       只读它写好的 /tmp/daily_headlines_<date>.json，不重跑抓取/LLM/发送；

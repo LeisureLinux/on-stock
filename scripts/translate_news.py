@@ -192,7 +192,12 @@ def process_file(path: Path, dry_run: bool = False) -> tuple:
     day = json.loads(path.read_text(encoding="utf-8"))
     # 先收集待译 url 清单，避免边遍历边重读导致迭代器失效
     pending = []
-    for s in day.get("sources", {}).values():
+    for src_key, s in day.get("sources", {}).items():
+        # gh = global_headlines 补充媒体（每站 8 条精选，最多百余条/天）。
+        # 它只在网页归档展示，不进付费 RSS；这里跳过可省下大量翻译调用，
+        # 页面上按 title 原文显示即可（中文媒体本身也无需翻译）。
+        if src_key == "gh":
+            continue
         for it in s.get("items", []):
             if it.get("dup_of"):        # 已被 dedupe_news.py 并掉，不必花翻译额度
                 continue
