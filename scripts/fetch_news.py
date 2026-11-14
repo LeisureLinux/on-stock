@@ -39,6 +39,8 @@ import urllib.request
 import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+from email.utils import parsedate_to_datetime
+from html import unescape as html_unescape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -67,6 +69,11 @@ SOURCES = {
         "sitemap": "https://www.ft.com/sitemaps/news.xml",
         "can_fetch_body": False,
         "note": "正文受 Cloudflare 验证页拦截，暂无自动通道",
+        # 2026-11-14: wpad-02 的透明代理出口访问 www.ft.com 时 TLS Client Hello
+        # 被 RST（curl 35），但同一台机器 sing-box 的本地 socks 入站可拿到完整
+        # 官方 sitemap（实测 200 / 177 KB / 321 条）。只在直连失败时作为最后一跳，
+        # 不改环境变量、不影响其他源。设 NEWS_FALLBACK_SOCKS=none 可整体关闭。
+        "fallback_socks": True,
     },
     "wsj": {
         "name": "The Wall Street Journal",
@@ -82,30 +89,77 @@ SOURCES = {
         "sitemap": "https://www.reuters.com/arc/outboundfeeds/news-sitemap/?outputType=xml",
         "paged": True,
         "can_fetch_body": False,
-        "note": "正文可经 CNA 等授权转载站获取（需搜索）",
+        # 官方 sitemap 自 2026-11 起被 DataDome 挡成 401（"Please enable JS
+        # and disable any ad blocker"），直连 / socks / 换出口 IP 都无效。
+        # 备用通道：Google News RSS 拿标题+精确时间，Bing News RSS 的 url= 参数
+        # 解出真实 reuters.com 链接。代价是数量与时间精度不如官方 sitemap，
+        # 少量条目链接会落到 news.google.com 跳转页，item 上打 via 标记。
+        # 设 NEWS_RT_FALLBACK=0 可退回「只认官方 sitemap」。
+        "note": "官方 sitemap 被 DataDome 拦截；标题经 Google/Bing News RSS 兜底",
+        "alt_feeds": [
+            {"kind": "bing",
+             "url": "https://www.bing.com/news/search?q=site%3Areuters.com&format=rss"},
+            {"kind": "gnews",
+             "url": ("https://news.google.com/rss/search?q=site%3Areuters.com"
+                     "%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen")},
+        ],
         "skip_sections": ["/sports/"],   # 体育新闻不收录
     },
 }
 
 
 # ---- 出口 ---------------------------------------------------------------
-# 不设置显式代理：wpad 上非 root 进程的流量由 sing-box 透明代理接管
+# 默认不设置任何显式代理：wpad 上非 root 进程的流量由 sing-box 透明代理接管
 # （nft output-tproxy 全量标记 → tproxy → sing-box → urltest: hy2 主 / mieru 备）。
-# curl 直接访问即可，无需 -x socks5h://127.0.0.1:1080。
-def _fetch_curl(url: str, timeout: int) -> str:
-    """用 curl 抓一次（走系统默认路由 / 透明代理）。"""
+#
+# 唯一例外：FT 的官方 sitemap 在这条透明路径上 TLS 被 RST，而同一台机器
+# sing-box 的**本地 socks 入站**可用。注意这不是已停用的 wpad.lan:8888，
+# 也不写 http_proxy 环境变量；只是「单源、直连失败后的最后一跳」，
+# 可用 NEWS_FALLBACK_SOCKS=none 彻底关掉。
+FALLBACK_SOCKS = os.environ.get(
+    "NEWS_FALLBACK_SOCKS", "socks5h://127.0.0.1:1080").strip()
+# 本地 socks 入站偶发一次空响应（实测 4 次里 1 次），重试一次即可。
+FALLBACK_TRIES = max(1, int(os.environ.get("NEWS_FALLBACK_TRIES", "2") or 2))
+
+# Reuters 兜底开关：默认开（用户希望恢复 RT 标题），可显式关。
+RT_FALLBACK = os.environ.get("NEWS_RT_FALLBACK", "1").strip().lower() not in (
+    "0", "false", "no", "none", "")
+
+
+def _fetch_curl(url: str, timeout: int, socks: str = "") -> str:
+    """用 curl 抓一次。socks 为空走系统默认路由 / 透明代理。"""
     cmd = ["curl", "-sL", "--max-time", str(timeout), "-A", UA,
-           "-H", "Accept-Language: en-US,en;q=0.9", url]
+           "-H", "Accept-Language: en-US,en;q=0.9"]
+    if socks:
+        cmd += ["--socks5-hostname", socks.split("://", 1)[-1]]
+    cmd.append(url)
     r = subprocess.run(cmd, capture_output=True, text=True,
                        timeout=timeout + 15)
     if not r.stdout.strip():
-        raise RuntimeError(f"抓取失败: {url}")
+        raise RuntimeError(f"抓取失败: {url}" + (f" (via {socks})" if socks else ""))
     return r.stdout
 
 
-def http_get(url: str, timeout: int = 30) -> str:
-    """GET 返回文本，直接访问（依赖透明代理）。"""
-    return _fetch_curl(url, timeout)
+def http_get(url: str, timeout: int = 30, allow_fallback: bool = False) -> str:
+    """GET 返回文本。默认直连；仅显式允许的源在直连失败时回退本地 socks。"""
+    try:
+        return _fetch_curl(url, timeout)
+    except Exception as e:
+        usable = FALLBACK_SOCKS and FALLBACK_SOCKS.lower() != "none"
+        if not (allow_fallback and usable):
+            raise
+        print(f"  ↪️  直连失败，改走本机 sing-box socks 入站: {e}", file=sys.stderr)
+        import time as _time
+        last = None
+        for attempt in range(1, FALLBACK_TRIES + 1):
+            try:
+                return _fetch_curl(url, timeout, socks=FALLBACK_SOCKS)
+            except Exception as fe:
+                last = fe
+                print(f"  ↪️  socks 第 {attempt}/{FALLBACK_TRIES} 次失败: {fe}",
+                      file=sys.stderr)
+                _time.sleep(1)
+        raise last
 
 
 def cst_from_iso(s: str) -> dict:
@@ -128,8 +182,16 @@ def cst_from_iso(s: str) -> dict:
 
 
 def parse_news_sitemap(xml_text: str) -> list:
-    """解析 Google News 格式 sitemap → [(iso, title, url), ...]"""
+    """解析 Google News 格式 sitemap → [(iso, title, url), ...]
+
+    注意：Reuters 官方 sitemap 被 DataDome 拦成 401 时返回的是一段 HTML
+    （"Please enable JS and disable any ad blocker"）。ET 能解析它，
+    但 findall('s:url') 只会得到空列表 —— 表现为静默的「0 条」。
+    这里显式校验根节点，让上层能识别失败并启用备用通道。
+    """
     root = ET.fromstring(xml_text)
+    if not (root.tag.endswith("urlset") or root.tag.endswith("sitemapindex")):
+        raise RuntimeError(f"非 news sitemap XML（疑似反爬/错误页，根节点 <{root.tag}>）")
     rows = []
     for u in root.findall("s:url", NS):
         loc = u.find("s:loc", NS)
@@ -142,6 +204,126 @@ def parse_news_sitemap(xml_text: str) -> list:
         rows.append((((d.text or "").strip()) if d is not None else "", t, loc.text))
     rows.sort(reverse=True)
     return rows
+
+
+# ---- 备用通道：RSS 标题（目前只用于 Reuters） ---------------------------------
+# 官方 sitemap 挂掉时，至少保住「今天发生了什么」；不追求与官方源等量等精度。
+ALT_MAX_ITEMS = 60
+
+
+def _alt_norm_title(t: str) -> str:
+    """标题归一化，用于 Bing/GNews 同一条新闻配对。"""
+    t = html_unescape(t or "").lower()
+    return re.sub(r"[^a-z0-9\u4e00-\u9fff]+", " ", t).strip()
+
+
+def _strip_source_suffix(title: str, source: str) -> str:
+    """Google News 标题形如 'xxx - Reuters'，去掉尾部的来源名。"""
+    title = re.sub(r"\s+", " ", html_unescape(title or "")).strip()
+    pat = re.compile(r"\s+[-–—]\s+" + re.escape(source) + r"\s*$", re.I)
+    return pat.sub("", title).strip()
+
+
+def _cst_from_any(s: str) -> dict:
+    """RSS pubDate(RFC 822) 或 sitemap W3C 时间 → 北京时间 {iso, mmdd_hm}。"""
+    s = (s or "").strip()
+    if not s:
+        return {"iso": "", "mmdd_hm": ""}
+    try:
+        dt = parsedate_to_datetime(s)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.astimezone(CST)
+        return {"iso": dt.isoformat(), "mmdd_hm": dt.strftime("%m-%d %H:%M")}
+    except (TypeError, ValueError, OverflowError):
+        return cst_from_iso(s)
+
+
+def parse_rss_feed(xml_text: str, kind: str, source_name: str,
+                   expect_host: str = "") -> list:
+    """解析 Bing News / Google News 的 RSS → [item dict, ...]
+
+    Bing 的 <link> 是 apiclick 跳转页，真实原文 URL 藏在 query 的 url= 参数里；
+    Google News 的 <link> 是 news.google.com/rss/articles/... 跳转页，
+    新版 base64 里已不含原文 URL，只能保留跳转链接（item 上打 via 标记）。
+    """
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError as e:
+        raise RuntimeError(f"RSS 解析失败: {e}")
+    items = []
+    for el in root.iter():
+        if el.tag.split("}")[-1] != "item":
+            continue
+        title = (el.findtext("title") or "").strip()
+        link = (el.findtext("link") or "").strip()
+        pub = (el.findtext("pubDate") or "").strip()
+        if not title or not link:
+            continue
+        via = kind
+        if kind == "bing":
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(link).query)
+            real = (q.get("url") or [""])[0]
+            if not real.startswith("http"):
+                continue
+            # Bing 会混入 markets.ft.com / 其他站的结果，只留目标站域名
+            host = urllib.parse.urlparse(real).netloc.lower()
+            if expect_host and expect_host not in host:
+                continue
+            link, url = real, real
+        else:
+            title = _strip_source_suffix(title, source_name)
+            url = link
+        t = _cst_from_any(pub)
+        items.append({
+            "title": re.sub(r"\s+", " ", title).strip(),
+            "url": url,
+            "link": link,
+            "published_cst": t["iso"],
+            "time": t["mmdd_hm"],
+            "body": None,
+            "via": via,
+        })
+    return items
+
+
+def fetch_alt_source(key: str) -> list:
+    """抓备用 RSS，Bing 的真实链接优先；Google News 补精确时间与更多标题。"""
+    cfg = SOURCES[key]
+    bing, gnews = [], []
+    for feed in cfg.get("alt_feeds", []):
+        try:
+            text = http_get(feed["url"], 25, allow_fallback=True)
+            rows = parse_rss_feed(
+                text, feed["kind"], cfg["name"],
+                expect_host=urllib.parse.urlparse(cfg["home"]).netloc.lower().removeprefix("www."))
+        except Exception as e:
+            print(f"  ⚠️  {cfg['name']} 备用 {feed['kind']} 失败: {e}", file=sys.stderr)
+            continue
+        (bing if feed["kind"] == "bing" else gnews).extend(rows)
+        print(f"  ↪️  {cfg['name']} {feed['kind']} 备用通道: {len(rows)} 条")
+
+    by_url, by_title = {}, {}
+    for it in bing:                       # 先把能解出原文链接的放进去
+        if it["url"] in by_url:
+            continue
+        by_url[it["url"]] = it
+        by_title.setdefault(_alt_norm_title(it["title"]), it)
+    for it in gnews:
+        norm = _alt_norm_title(it["title"])
+        hit = by_title.get(norm)
+        if hit is not None:               # 同一条：用 GNews 的精确发布时间补 Bing
+            hit["published_cst"] = it["published_cst"] or hit["published_cst"]
+            hit["time"] = it["time"] or hit["time"]
+            hit["via"] = "gnews+bing"
+            continue
+        if it["url"] in by_url:
+            continue
+        by_url[it["url"]] = it
+        by_title[norm] = it
+    items = sorted(by_url.values(),
+                   key=lambda x: x.get("published_cst") or "", reverse=True)
+    return items[:ALT_MAX_ITEMS]
 
 
 def collect_texts(node, buf):
@@ -196,10 +378,13 @@ def fetch_source(key: str, with_body: bool = False, pages: int = 1,
 
     for sm_url in urls:
         try:
-            rows = parse_news_sitemap(http_get(sm_url))
+            # FT 直连被 RST 时，http_get 内部自动改走本机 sing-box socks 入站；
+            # 其他源完全不碰代理设置。
+            rows = parse_news_sitemap(
+                http_get(sm_url, allow_fallback=bool(cfg.get("fallback_socks"))))
         except Exception as e:
             print(f"  ⚠️  {cfg['name']} sitemap 失败: {e}", file=sys.stderr)
-            print("      (透明代理：由 wpad sing-box 接管)", file=sys.stderr)
+            print("      (默认透明代理；FT 会再试本机 sing-box socks 入站)", file=sys.stderr)
             continue
         for iso, title, url in rows:
             if skip_letters and title.startswith("Letter:"):
@@ -230,6 +415,15 @@ def fetch_source(key: str, with_body: bool = False, pages: int = 1,
         seen.add(it["url"])
         uniq.append(it)
     items = uniq
+
+    # 官方 sitemap 抓不到条目时，启用聚合站备用通道（目前仅 Reuters）。
+    # 只在「空」时启用：一旦 DataDome 解除，自动恢复成官方全量 sitemap。
+    if not items and cfg.get("alt_feeds") and RT_FALLBACK:
+        print(f"  ⚠️  {cfg['name']} 官方源 0 条（DataDome?），启用备用 RSS",
+              file=sys.stderr)
+        items = fetch_alt_source(key)
+        if items:
+            print(f"  ↪️  {cfg['name']} 备用合计 {len(items)} 条", file=sys.stderr)
 
     fetched = 0
     if with_body and cfg.get("can_fetch_body"):

@@ -62,14 +62,23 @@ TRIAL_LIMIT = 5
 # 付费 RSS 里保留的最新条目数（跨日倒序取）
 PAID_RSS_LIMIT = 200
 
+# 付费 RSS 是给「四大财经媒体每日速览」订阅者看的：只收录四家官方源。
+# global_headlines 的补充媒体（gh:*）只进网页归档，不进订阅 feed，
+# 免得把产品定位冲淡、也避免一次性灌进 200 条挤掉原有条目。
+PAID_RSS_SOURCES = {"bb", "ft", "wsj", "rt"}
+
 # 短标签
-SOURCE_SHORT = {"bb": "BB", "ft": "FT", "wsj": "WSJ", "rt": "RT"}
+SOURCE_SHORT = {
+    "bb": "BB", "ft": "FT", "wsj": "WSJ", "rt": "RT",
+    "gh": "GH",
+}
 
 SOURCE_LABEL = {
     "bb": "Bloomberg",
     "ft": "Financial Times",
     "wsj": "The Wall Street Journal",
     "rt": "Reuters",
+    "gh": "全球头条补充",
 }
 
 # 中文简称，用于 RSS 标题前缀（让订阅者一眼看出是路透还是金融时报）
@@ -78,6 +87,7 @@ SOURCE_ZH = {
     "ft": "金融时报",
     "wsj": "华尔街日报",
     "rt": "路透",
+    "gh": "全球头条",
 }
 
 # 每家一个主色，用于源标签
@@ -86,6 +96,7 @@ SOURCE_COLOR = {
     "ft": "#0F766E",
     "wsj": "#1D4ED8",
     "rt": "#B91C1C",
+    "gh": "#7C3AED",
 }
 
 
@@ -157,6 +168,9 @@ def _rfc822(date_val) -> str:
 def _item_summary(it: dict, max_len: int = 300) -> str:
     """取条目摘要：优先 summary_zh（中译摘要，由 summarize_news.py 生成），
     没有则回退 body（英文原文正文）首段。
+
+    注：RSS 的 description 会在 build_paid_rss() 里另行拼上「【原始标题】」，
+    这里只负责摘要正文，避免重复追加英文标题。
     """
     zh = (it.get("summary_zh") or "").strip()
     if zh:
@@ -189,6 +203,10 @@ def build_paid_rss(days, limit: int = 200, self_url: str = "") -> str:
     flat = []
     for date, day in days:
         for src_key, s in (day.get("sources") or {}).items():
+            # global_headlines 补充媒体只上网页归档，不进付费 RSS（见
+            # PAID_RSS_SOURCES 注释）；本 feed 的订阅对象是四大财经媒体。
+            if src_key not in PAID_RSS_SOURCES:
+                continue
             label = SOURCE_LABEL.get(src_key, s.get("name") or SOURCE_SHORT.get(src_key, src_key))
             for it in (s.get("items") or []):
                 if it.get("dup_of"):        # 已被 dedupe_news.py 判为跨源/同源重复
@@ -214,7 +232,14 @@ def build_paid_rss(days, limit: int = 200, self_url: str = "") -> str:
     items = []
     for key, src_key, label, it, url, title in flat:
         summary = _item_summary(it)
-        desc = summary or title
+        # 订阅者要求：正文里能对照原文。中译标题已在 <title>，这里在
+        # <description> 末尾追加英文原题，格式固定为「【原始标题】xxxx」。
+        # 摘要为空时 description 也至少保留这一行，而不是退化成中文标题副本。
+        orig = (it.get("title") or "").strip()
+        parts = [p for p in (summary, f"【原始标题】{orig}" if orig else "") if p]
+        desc = "\n".join(parts) or title
+        # CDATA 里若原文标题自带 ]]> 会提前闭合，按 XML 惯例拆开
+        desc = desc.replace("]]>", "]]]]><![CDATA[>")
         pub = _rfc822(it.get("published_cst") or it.get("time") or "")
         # 标题前缀标出来源（如「[路透] xxx」），RSS 阅读器里一眼可辨
         src_zh = SOURCE_ZH.get(src_key, label)
@@ -244,7 +269,7 @@ def build_paid_rss(days, limit: int = 200, self_url: str = "") -> str:
     channel = (
         "    <title>外媒速览 — 订阅 RSS</title>\n"
         f"    <link>{SITE_URL}/</link>\n"
-        "    <description>四大财经媒体每日标题速览（中译 + 摘要）</description>\n"
+        "    <description>四大财经媒体每日标题速览（中译标题 + 中文摘要 + 英文原题）</description>\n"
         "    <language>zh-CN</language>\n"
         + last_build_line
         + self_link

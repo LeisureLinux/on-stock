@@ -2,8 +2,8 @@
 # stock.freelamp.com 外媒速览 · 每日自动流水线
 # cron 调用（不要把带 % 的命令直接写进 crontab —— % 转义地狱）
 #
-# 链路: fetch(标题) → dedupe(同日重复合并) → translate(中文化)
-#       → summarize(BB正文+摘要)
+# 链路: fetch(标题) → merge_global_headlines(补充媒体头条) → dedupe(同日重复合并)
+#       → translate(中文化) → summarize(BB正文+摘要)
 #       → build(公开页→docs/，付费页→dist_paid/) → publish_paid(dist_paid → KV)
 #       → commit → push(触发 Pages 发布)
 #
@@ -85,6 +85,16 @@ if [ "$NEW_TOTAL" -eq 0 ] 2>/dev/null; then
     exit 1
 fi
 log "✅ 今日归档 $NEW_TOTAL 条"
+
+# 1.55) 并入 wpad-02 上 06:00 global_headlines_daily.py 的站点头条精选。
+#       只读它写好的 /tmp/daily_headlines_<date>.json，不重跑抓取/LLM/发送；
+#       文件不存在(还没到 06:00 或被清理)时脚本自己跳过，不影响主链路。
+#       产物进 data/news/<date>.json 的 sources["gh"]，网页归档可见，
+#       付费 RSS 明确排除（四大财经媒体订阅定位不变）。
+if ! "$PYTHON" scripts/merge_global_headlines.py --date "$TODAY" >> "$LOGDIR/merge_global_headlines.log" 2>&1; then
+    log "⚠️  merge_global_headlines 失败(继续主链路)"
+fi
+log "✅ merge_global_headlines 完成"
 
 # 1.6) fetch 会按"发布时间"跨日归档，本轮真正改动的日期文件可能不止今天。
 #      逐个交给 translate/summarize，否则分流到历史日的条目永远不会有中文标题。
