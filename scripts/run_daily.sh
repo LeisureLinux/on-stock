@@ -165,6 +165,19 @@ if git diff --cached --quiet; then
 fi
 
 if git commit -m "chore: 更新外媒速览 $DATE" >> "$DAYLOG" 2>&1; then
+    # push 前同步远端：2026-11 曾因 origin/main 停留在 11-14，145 个本地提交
+    # 每小时 push 都被 fetch first 拒绝，Pages 试读页停在旧版。
+    # autostash 保护任何残留工作区改动；rebase 只搬本机的 docs/ 提交，
+    # 不会丢掉别人（例如 GitHub 上手工加的 workflow）在远端的提交。
+    if git fetch origin >> "$DAYLOG" 2>&1; then
+        if ! git rebase --autostash origin/main >> "$DAYLOG" 2>&1; then
+            log "❌ rebase 失败(保留冲突现场, 终止本轮; 请手工 git rebase --continue 或 --abort)"
+            exit 1
+        fi
+    else
+        log "⚠️  git fetch 失败(尝试直接 push)"
+    fi
+
     if git push origin main >> "$DAYLOG" 2>&1; then
         log "✅ 已发布(git push 成功)"
     else
