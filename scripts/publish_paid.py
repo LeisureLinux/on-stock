@@ -37,6 +37,7 @@ import json
 import os
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -57,31 +58,55 @@ WORKERS = 8
 # 仍用 curl 作为传输层（urllib 不支持 socks://，且 curl 对 HTTP 状态码处理更直接）。
 def _curl(url: str, method: str, token: str, timeout: int,
           body: bytes | None = None):
-    """用 curl 打一次 Cloudflare API，返回 (status, body_bytes)。"""
-    cmd = ["curl", "-sS", "-X", method, "--max-time", str(timeout),
-           "-H", f"Authorization: Bearer {token}", "-w", "\n%{http_code}"]
-    if body is not None:
-        cmd += ["-H", "Content-Type: text/html; charset=utf-8",
-                "--data-binary", "@-"]
-    cmd.append(url)
-    try:
-        r = subprocess.run(cmd, input=body, capture_output=True,
-                           timeout=timeout + 15)
-    except Exception as e:  # noqa: BLE001
-        raise RuntimeError(f"curl 执行失败: {e}") from e
-    out = r.stdout
-    if r.returncode != 0 or not out:
-        raise RuntimeError(
-            f"curl rc={r.returncode} {r.stderr.decode('utf-8', 'replace')[:200]}")
-    # 最后一行是 -w 写的 http_code，其余是响应体
-    nl = out.rfind(b"\n")
-    if nl < 0:
-        raise RuntimeError("curl 输出异常")
-    payload, code_s = out[:nl], out[nl + 1:].strip()
-    try:
-        return int(code_s), payload
-    except ValueError:
-        raise RuntimeError(f"无法解析 http_code: {code_s!r}") from None
+    """用 curl 打 Cloudflare API，返回 (status, body_bytes)。
+
+    2026-11-27: 加传输层重试。CF API 经透明代理走 HTTP/2 偶发
+    `curl: (92) HTTP/2 stream ... PROTOCOL_ERROR`，一次抖动会让整轮
+    publish_paid 失败并阻断 Pages 发布。这里对 curl 传输错误和 429/5xx
+    重试 2 次，第 2 次起降级 --http1.1（实测可绕开该协议错误）。
+    """
+    last_err = ""
+    for attempt in range(3):
+        cmd = ["curl", "-sS", "-X", method, "--max-time", str(timeout),
+               "-H", f"Authorization: Bearer {token}", "-w", "\n%{http_code}"]
+        if attempt >= 1:
+            cmd.append("--http1.1")   # 第 2 次起绕开 HTTP/2 协议错误
+        if body is not None:
+            cmd += ["-H", "Content-Type: text/html; charset=utf-8",
+                    "--data-binary", "@-"]
+        cmd.append(url)
+        try:
+            r = subprocess.run(cmd, input=body, capture_output=True,
+                               timeout=timeout + 15)
+        except Exception as e:  # noqa: BLE001
+            last_err = f"curl 执行失败: {e}"
+            if attempt < 2:
+                time.sleep(1 + attempt)
+                continue
+            raise RuntimeError(last_err) from e
+        out = r.stdout
+        if r.returncode != 0 or not out:
+            last_err = f"curl rc={r.returncode} {r.stderr.decode('utf-8', 'replace')[:200]}"
+            if attempt < 2:
+                time.sleep(1 + attempt)
+                continue
+            raise RuntimeError(last_err)
+        nl = out.rfind(b"\n")
+        if nl < 0:
+            raise RuntimeError("curl 输出异常")
+        payload, code_s = out[:nl], out[nl + 1:].strip()
+        try:
+            status = int(code_s)
+        except ValueError:
+            raise RuntimeError(f"无法解析 http_code: {code_s!r}") from None
+        # 429/5xx 也可能是暂时性的，重试；其它状态（含 404）立即返回
+        if status == 429 or 500 <= status < 600:
+            last_err = f"HTTP {status}"
+            if attempt < 2:
+                time.sleep(1 + attempt)
+                continue
+        return status, payload
+    raise RuntimeError(last_err)
 
 
 def load_dotenv(path=None):
